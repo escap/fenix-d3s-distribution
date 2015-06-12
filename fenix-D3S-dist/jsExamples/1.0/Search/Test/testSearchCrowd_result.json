@@ -1,0 +1,398 @@
+{"count": 1, "resources": [
+    {
+        "classType": "TableData",
+        "classType": "TableData",
+        "name": "D3S aggregation",
+        "resourceType": "dataset",
+        "metadata": {
+            "parentUid": null,
+            "uid": "testSearchCrowd1",
+            "language": "EN",
+            "title": {
+                "EN": "Production quantity of Primary Crops"
+            },
+            "summary": null,
+            "description": null,
+            "supplemental": {
+                "EN": ""
+            },
+            "creationDate": 1377554400000,
+            "geographicExtent": {
+                "code": "133",
+                "level": 1,
+                "title": {
+                    "PT": "QuÃªnia",
+                    "FR": "Kenya",
+                    "EN": "Kenya",
+                    "AR": "ÙÙÙÙØ§",
+                    "RU": "ÐÐµÐ½Ð¸Ñ",
+                    "ES": "Kenya",
+                    "ZH": "è¯å°¼äº"
+                },
+                "description": null,
+                "supplemental": null,
+                "fromDate": -30609795600000,
+                "toDate": 32503676400000,
+                "aggregationRules": null,
+                "childs": null,
+                "relations": null,
+                "conversions": null,
+                "propaedeutics": null,
+                "exclusionList": null,
+                "systemKey": "GAUL",
+                "systemVersion": "1.0"
+            },
+            "referencePeriod": null,
+            "basePeriod": null,
+            "coverageSectors": [
+                {
+                    "code": "3",
+                    "level": 1,
+                    "title": {
+                        "EN": "Agriculture"
+                    },
+                    "description": {},
+                    "supplemental": {},
+                    "fromDate": null,
+                    "toDate": null,
+                    "aggregationRules": null,
+                    "childs": null,
+                    "relations": null,
+                    "conversions": null,
+                    "propaedeutics": null,
+                    "exclusionList": null,
+                    "systemKey": "FAOSTAT_CoveregeSectors",
+                    "systemVersion": "1.0"
+                }
+            ],
+            "comparability": null,
+            "statisticalUnit": null,
+            "unitOfMeasure": null,
+            "coverageGeographical": null,
+            "unitOfMeasureDetails": null,
+            "codingSystems": null,
+            "weightReferencePeriod": null,
+            "classificationSystems": null,
+            "collectionPeriodicity": null,
+            "processMethodologyDocuments": null,
+            "compilationProcessing": null,
+            "collectionProcessing": null,
+            "indexType": null,
+            "processConceptsDocuments": null,
+            "processConcepts": null,
+            "sourceType": null,
+            "aggregationProcessing": null,
+            "dataAdjustment": null,
+            "accuracy": null,
+            "accuracyAssessment": null,
+            "completeness": null,
+            "qualityMethodologyDocuments": null,
+            "disseminationPeriodicity": null,
+            "userAccess": null,
+            "disseminationFormat": null,
+            "revisionPolicy": null,
+            "embargoTimeSpec": null,
+            "publications": null,
+            "news": null,
+            "confidentialityDataTreatment": null,
+            "confidentialityPolicy": null,
+            "releasePolicy": null,
+            "dataSources": null,
+            "otherDisseminatedData": null,
+            "provider": {
+                "id": "12_315",
+                "institution": null,
+                "department": null,
+                "name": null,
+                "surname": null,
+                "title": null,
+                "description": null,
+                "supplemental": null,
+                "region": null,
+                "role": null,
+                "context": null,
+                "contactList": null
+            },
+            "owner": null,
+            "sources": [
+                {
+                    "id": "12_314",
+                    "institution": null,
+                    "department": null,
+                    "name": null,
+                    "surname": null,
+                    "title": null,
+                    "description": null,
+                    "supplemental": null,
+                    "region": null,
+                    "role": null,
+                    "context": null,
+                    "contactList": null
+                }
+            ],
+            "contacts": null,
+            "compiler": null,
+            "coverageTime": null,
+            "accessibility": null,
+            "updateDate": null,
+            "referenceUpdateDate": null,
+            "nextUpdateDate": null,
+            "completenessPercentage": null,
+            "updatePeriodicity": null,
+            "transferOptions": null,
+            "categories": null,
+            "statisticalPopulation": null,
+            "freeExtension": null,
+            "dataType": "dataset",
+            "layerType": null,
+            "dataKind": null,
+            "copyright": null,
+            "availability": {
+                "status": "toUpload",
+                "chunksIndex": [],
+                "chunksNumber": null
+            },
+            "dsd": null
+        },
+        "index": null,
+        "data": [
+            ["2014-09-02 09:14:06.0", "kg", "Kenyan Shilling", "2014-09-02", "Avocado (0)", 15.0, "", "Nairobi", "Variety of Avocado (0)", "Market of Busia (13)", "13"],
+            ["2014-09-02 13:45:42.0", "kg", "Kenyan Shilling", "2014-09-02", "Avocado (0)", 7.0, "", "Nairobi", "Variety of Avocado (0)", "Market of Busia (13)", "13"],
+            ["2014-09-02 13:46:12.0", "kg", "Kenyan Shilling", "2014-09-02", "Avocado (0)", 7.0, "", "Nairobi", "Variety of Avocado (0)", "Market of Busia (13)", "13"],
+            ["2014-09-02 12:36:45.0", "kg", "Kenyan Shilling", "2014-09-02", "Avocado (0)", 4804.0, "", "Nairobi", "Variety of Avocado (0)", "Market of Busia (13)", "13"],
+            ["2014-09-02 12:39:03.0", "kg", "Kenyan Shilling", "2014-09-02", "Avocado (0)", 1368.0, "", "Nairobi", "Variety of Avocado (0)", "Market of Busia (13)", "13"]
+        ],
+        "dataType": "table",
+        "dsd": {
+            "startDate": 1409824800000,
+            "endDate": 1409824800000,
+            "supplemental": null,
+            "contextSystem": {
+                "name": "D3S"
+            },
+            "datasource": null,
+            "columns": [
+                {
+                    "columnId": "TIME",
+                    "dataType": "text",
+                    "geoLyer": null,
+                    "codesLevel": null,
+                    "virtualColumn": null,
+                    "values": ["2014-09-02 09:14:06.0", "2014-09-02 12:36:45.0", "2014-09-02 12:39:03.0", "2014-09-02 13:45:42.0", "2014-09-02 13:46:12.0"],
+                    "title": {
+                        "FR": "AnnÃ©es",
+                        "EN": "Year"
+                    },
+                    "supplemental": null,
+                    "codeSystem": null,
+                    "dimension": {
+                        "name": "TIME",
+                        "title": {
+                            "FR": "AnnÃ©es",
+                            "EN": "Year"
+                        }
+                    }
+                },
+                {
+                    "columnId": "QUM",
+                    "dataType": "text",
+                    "geoLyer": null,
+                    "codesLevel": null,
+                    "virtualColumn": null,
+                    "values": ["kg"],
+                    "title": {
+                        "EN": "Quantity unit of measure"
+                    },
+                    "supplemental": null,
+                    "codeSystem": null,
+                    "dimension": {
+                        "name": "QUM",
+                        "title": {
+                            "EN": "Quantity unit of measure"
+                        }
+                    }
+                },
+                {
+                    "columnId": "UM",
+                    "dataType": "text",
+                    "geoLyer": null,
+                    "codesLevel": null,
+                    "virtualColumn": null,
+                    "values": ["Kenyan Shilling"],
+                    "title": {
+                        "FR": "UnitÃ© de mesure",
+                        "EN": "Unit of measure"
+                    },
+                    "supplemental": null,
+                    "codeSystem": null,
+                    "dimension": {
+                        "name": "UM",
+                        "title": {
+                            "FR": "UnitÃ© de mesure",
+                            "EN": "Unit of measure"
+                        }
+                    }
+                },
+                {
+                    "columnId": "DAY",
+                    "dataType": "text",
+                    "geoLyer": null,
+                    "codesLevel": null,
+                    "virtualColumn": null,
+                    "values": ["2014-09-02"],
+                    "title": {
+                        "EN": "Date"
+                    },
+                    "supplemental": null,
+                    "codeSystem": null,
+                    "dimension": {
+                        "name": "DAY",
+                        "title": {
+                            "EN": "Date"
+                        }
+                    }
+                },
+                {
+                    "columnId": "ITEM",
+                    "dataType": "text",
+                    "geoLyer": null,
+                    "codesLevel": null,
+                    "virtualColumn": null,
+                    "values": ["Avocado (0)"],
+                    "title": {
+                        "FR": "Produits",
+                        "EN": "Products"
+                    },
+                    "supplemental": null,
+                    "codeSystem": null,
+                    "dimension": {
+                        "name": "ITEM",
+                        "title": {
+                            "FR": "Produits",
+                            "EN": "Products"
+                        }
+                    }
+                },
+                {
+                    "columnId": "VALUE",
+                    "dataType": "number",
+                    "geoLyer": null,
+                    "codesLevel": null,
+                    "virtualColumn": null,
+                    "values": null,
+                    "title": {
+                        "FR": "Valeur",
+                        "EN": "Value"
+                    },
+                    "supplemental": null,
+                    "codeSystem": null,
+                    "dimension": {
+                        "name": "VALUE",
+                        "title": {
+                            "FR": "Valeur",
+                            "EN": "Value"
+                        }
+                    }
+                },
+                {
+                    "columnId": "NOTE",
+                    "dataType": "text",
+                    "geoLyer": null,
+                    "codesLevel": null,
+                    "virtualColumn": null,
+                    "values": [""],
+                    "title": {
+                        "EN": "Notes"
+                    },
+                    "supplemental": null,
+                    "codeSystem": null,
+                    "dimension": {
+                        "name": "NOTE",
+                        "title": {
+                            "EN": "Notes"
+                        }
+                    }
+                },
+                {
+                    "columnId": "CITY",
+                    "dataType": "text",
+                    "geoLyer": null,
+                    "codesLevel": null,
+                    "virtualColumn": null,
+                    "values": ["Nairobi"],
+                    "title": {
+                        "EN": "City"
+                    },
+                    "supplemental": null,
+                    "codeSystem": null,
+                    "dimension": {
+                        "name": "CITY",
+                        "title": {
+                            "EN": "City"
+                        }
+                    }
+                },
+                {
+                    "columnId": "VARIETY",
+                    "dataType": "text",
+                    "geoLyer": null,
+                    "codesLevel": null,
+                    "virtualColumn": null,
+                    "values": ["Variety of Avocado (0)"],
+                    "title": {
+                        "EN": "Variety"
+                    },
+                    "supplemental": null,
+                    "codeSystem": null,
+                    "dimension": {
+                        "name": "VARIETY",
+                        "title": {
+                            "EN": "Variety"
+                        }
+                    }
+                },
+                {
+                    "columnId": "MARKET",
+                    "dataType": "text",
+                    "geoLyer": null,
+                    "codesLevel": null,
+                    "virtualColumn": null,
+                    "values": ["Market of Busia (13)"],
+                    "title": {
+                        "EN": "Market"
+                    },
+                    "supplemental": null,
+                    "codeSystem": null,
+                    "dimension": {
+                        "name": "MARKET",
+                        "title": {
+                            "EN": "Market"
+                        }
+                    }
+                },
+                {
+                    "columnId": "VENDOR",
+                    "dataType": "text",
+                    "geoLyer": null,
+                    "codesLevel": null,
+                    "virtualColumn": null,
+                    "values": ["13"],
+                    "title": {
+                        "EN": "Vendor"
+                    },
+                    "supplemental": null,
+                    "codeSystem": null,
+                    "dimension": {
+                        "name": "VENDOR",
+                        "title": {
+                            "EN": "Vendor"
+                        }
+                    }
+                }
+            ],
+            "aggregationRules": null
+        },
+        "source": "D3S",
+        "count": 5
+    }
+]}

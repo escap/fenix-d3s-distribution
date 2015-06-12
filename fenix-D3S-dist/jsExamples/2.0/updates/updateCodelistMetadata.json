@@ -1,0 +1,28 @@
+{
+  "uid" : "HS",
+  "version" : "2012",
+
+  "contacts": [
+    {
+      "organization": {
+        "EN": "FAO"
+      },
+      "organizationUnit": {
+        "EN": "ESS"
+      },
+      "name": "Fabio Grita",
+      "position": null,
+      "role": "owner",
+      "contactInfo": {
+        "phone ": "0039 06 57054262",
+        "address": "FAO-HQ, Viale delle Terme di Caracalla, 00153 Roma",
+        "emailAddress": "fabio.grita@fao.org",
+        "hoursOfService": null,
+        "contactIntruction": null
+      }
+    }
+  ]
+
+}
+
+

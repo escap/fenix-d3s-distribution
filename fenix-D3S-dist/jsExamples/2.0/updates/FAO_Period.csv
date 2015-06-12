@@ -1,0 +1,18 @@
+{
+    "uid": "FAO_Period",
+	"version": "1.0"
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+
+
+@12@Irregular

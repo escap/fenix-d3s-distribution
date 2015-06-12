@@ -1,0 +1,4 @@
+{
+    "query" : "select from CSVersion where system = ? and version = ?",
+    "parameters" : ["CS_Prod_Trade", "1.0"]
+}

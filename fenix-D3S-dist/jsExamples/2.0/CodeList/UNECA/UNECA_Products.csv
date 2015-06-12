@@ -1,0 +1,1123 @@
+﻿{
+    "uid": "UNECA_Products",
+    "version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "UNECA - Products"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "UNECA"
+            },
+            "organizationUnit": null,
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": null,
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["products","items","commodities"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": "0106"
+                        }
+                    ],
+                    "idCodeList": "FENIX_Subjects",
+                    "version": "1.0"
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 1,
+            "typeOfCodeList": "list"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+
+
+
+@CPC-11010-0@Hard Coal
+@CPC-11020-0@Briquettes
+@CPC-11030-1@Lignite
+@CPC-11030-2@Lignite briquettes
+@CPC-11040-0@Peat
+@CPC-12010-0@Crude petroleum
+@CPC-12020-1@Natural gas
+@CPC-12020-2@Natural gasolene
+@CPC-13000-1@Uranium ores and concentrates
+@CPC-14100-0@Iron ores and concentrates
+@CPC-14210-0@Copper ores and concentrates
+@CPC-14220-0@Nickel ores and concentrates
+@CPC-14230-0@Aluminium ores and concentrates (Bauxite)
+@CPC-14240-1@Gold ores and concentrates
+@CPC-14240-2@Silver ores and concentrates
+@CPC-14240-3@Platinum ores and concentrates
+@CPC-14290-1@Tin ores and concentrates, includes Cassiterite
+@CPC-14290-2@Lead ores and concentrates
+@CPC-14290-3@Zinc ores and concentrates
+@CPC-14290-4@Chromium ores and concentrates
+@CPC-14290-5@Molybdenum ores and concentrates
+@CPC-14300-C@Cassiterite
+@cpc-14300-M@Manganese
+@CPC-14300-T@Colombo-tantalite (kg)
+@CPC14300-T@Tantalum (Tantalite)
+@CPC-14301-C@Cobalt
+@CPC-15110-0@Slate
+@CPC-15120-0@Marble, travertines, etc.
+@CPC-15130-1@Granite, sandstone and other monumental or building stone
+@CPC-15200-0@Gypsum; anhydrite; limestone and other calcareous stone
+@CPC-15310-0@Natural sands
+@CPC-15320-0@Gravel and crushed stone
+@CPC-15400-0@Clays
+@cpc-15400-S@Shale
+@CPC-15401-G@Gemstones
+@CPC-16110-1@Natural phosphates, P2O5 content
+@CPC-16110-2@Crude potash salts, K2O content
+@CPC-16190-1@Fluorspar
+@CPC-16190-2@Barytes, whether or not calcined
+@CPC-16200-1@Salt and pure sodium chloride
+@CPC-16310-0@Diamonds and other precious stones, unworked
+@CPC-16320-1@Diamonds, industrial
+@CPC-16320-2@Abrasives, natural
+@CPC-16330-0@Chalk and dolomite
+@CPC-16390-1@Magnesite
+@CPC-16390-2@Graphite, natural
+@CPC-16390-3@Asbestos
+@CPC-16390-4@Quartz crystal, natural
+@CPC-16390-5@Talc and steatite
+@CPC-16400-A@Soda Ash
+@CPC-21110-1@Beef and veal
+@CPC-21110-2@Pork
+@CPC-21110-3@Mutton and lamb
+@CPC-21120-1@Poultry, dressed
+@CPC-21131-1@Bacon, ham and other dried, salted or smoked pig meat
+@CPC-21132-1@Sausages and similar products of meat
+@CPC-21220-0@Fish, fish fillets, other fish meat and fish livers and roes, frozen
+@CPC-21230-0@Fish, dried, salted or in brine; smoked fish; edible fish meal
+@CPC-21240-0@Fish, otherwise prepared or preserved; caviar
+@CPC-21310-0@Vegetables, frozen
+@CPC-21400-1@Fruit and vegetable juices, concentrated, frozen or not
+@CPC-21400-2@Fruit and vegetable juices, unconcentrated, frozen or not
+@CPC-21510-0@Fruits, frozen
+@CPC-21520-0@Jams, fruit jellies and fruit or nut puree and pastes
+@CPC-21610-0@Fats of bovine animals, sheep, goats, pigs and poultry; wool grease
+@CPC-21620-0@Other animal oils and fats
+@CPC-21630-1@Oil, Soya-bean, crude
+@CPC-21630-2@Oil, cotton-seed, crude
+@CPC-21630-3@Oil, olive, virgin
+@CPC-21630-4@Oil, groundnut, crude
+@CPC-21650-1@Oil, soya-bean,refined
+@CPC-21650-2@Oil, cotton-seed, refined
+@CPC-21650-3@Oil, olive, refined
+@CPC-21660-0@Oil, corn, crude or refined
+@CPC-21680-1@Margarine and similar preparations
+@CPC-22110-0@Processed liquid milk
+@CPC-22120-0@Cream
+@CPC-22910-0@Milk and cream in solid forms
+@CPC-22920-0@Milk and cream, condensed (industrial production)
+@CPC-22930-0@Yoghurt and other fermented or acidified milk and cream
+@CPC-22940-0@Butter and other fats and oils derived from milk
+@CPC-22950-0@Cheese and curd
+@CPC-22970-0@Ice cream and other edible ice
+@CPC-23110-0@Wheat or meslin flour
+@CPC-23120-0@Cereal flours other than of wheat or meslin
+@CPC-23120-1@Maize (corn) flour
+@CPC-23130-0@Groats, meal and pellets of wheat and other cereals
+@CPC-23150-0@Other cereal grain products (including corn flakes)
+@CPC-23160-0@Rice, semi- or wholly milled
+@CPC-23310-0@Preparations used in animal feeding
+@CPC-23410-0@Crispbread; rusks, toasted bread and similar toasted products
+@CPC-23420-0@Gingerbread and the like; sweet biscuits; waffles and wafers
+@CPC-23430-0@Other bread and other bakers' wares
+@CPC-23500-1@Refined sugar
+@CPC-23510-0@Raw sugar
+@CPC-23600-1@Chocolate and other food preparations containing cocoa; cocoa powder, sweetened
+@CPC-23620-0@Cocoa butter
+@CPC-23630-0@Cocoa powder, not sweetened
+@CPC-23670-1@Sugar confectionery not containing cocoa
+@CPC-23710-0@Uncooked pasta
+@CPC-23720-0@Pasta, prepared; couscous
+@CPC-23911-0@Coffee , decaffeinated or roasted
+@CPC-23912-1@Coffee extracts, essences and concentrates and their preparations
+@CPC-23913-0@Tea
+@CPC-23991-1@Homogenised composite food preparations
+@CPC-23994-0@Vinegar
+@CPC-24100-1@Ethyl alcohol denatured or not and other spirits denatured of any strength
+@CPC-24130-0@Spirits, liqueurs and other spirituous beverages
+@CPC-24210-0@Wine and grape must
+@CPC-24310-0@Beer
+@CPC-24320-0@Malt, whether or not roasted
+@CPC-24410-0@Mineral waters and aerated waters
+@CPC-24490-0@Soft drinks, excluding water and fruit juices
+@CPC-25010-1@Cigarettes containing tobacco
+@CPC-25090-0@Tobacco, manufactured (smoking tobacco, chewing tobacco, snuff)
+@CPC-26110-0@Raw silk (not thrown)
+@CPC-26130-0@Wool, degreased not carbonized, not carded or combed
+@CPC-26150-0@Wool, carded or combed
+@CPC-26300-1@Yarn of wool
+@CPC-26300-2@Cotton yarn (other than sewing thread)
+@CPC-26310-0@Silk yarn and yarn spun from silk waste; silk-worm gut
+@CPC-26350-0@Cotton sewing thread
+@CPC-26400-1@Yarn (other than sewing thread) of synthetic or artificial staple fibres
+@CPC-26410-0@Sewing thread of man-made filaments or staple fibers
+@CPC-26420-0@Yarn of man-made filaments, multiple or cabled (other than sewing thread, high tenacity yarn of polyamides, polyesters or viscose rayon, or textured yarn)
+@CPC-26500-1@Woven woolen fabrics
+@CPC-26510-0@Woven fabrics of silk or of silk waste
+@CPC-26560-0@Woven fabrics of flax
+@CPC-26600-0@Woven fabrics of cotton
+@CPC-26700-0@Woven fabrics of man-made filaments and staple fibers
+@CPC-26800-1@Woven pile fabrics and chenille fabrics
+@CPC-26890-0@Woven fabrics (including narrow fabrics) of glass fibers
+@CPC-27110-0@Blankets and traveling rugs (except electric blankets)
+@CPC-27120-1@Bed linen
+@CPC-27120-2@Toilet and kitchen linen
+@CPC-27120-3@Table linen, knitted or crocheted
+@CPC-27130-0@Curtains (including drapes) and interior blinds; curtain or bed valances
+@CPC-27150-0@Sacks and bags of a kind used for the packing of goods
+@CPC-27160-0@Tarpaulins, sails for boats etc., awnings, sunblinds, tents and camping goods (including pneumatic mattresses)
+@CPC-27210-0@Carpets and other textile floor coverings, knotted
+@CPC-27220-0@Carpets and other textile floor coverings, woven, not tufted or flocked
+@CPC-27230-0@Carpets and other textile floor coverings, tufted
+@CPC-27310-0@Twine, cordage, rope and cables
+@CPC-27911-0@Narrow woven fabrics; narrow fabrics of warp without weft assembled by adhesive (bolducs); labels, badges and similar articles of textile materials, not embroidered; braids in the piece; ornamental tr
+@CPC-27922-0@Nonwoven textiles
+@CPC-27991-0@Wadding of textile materials and articles thereof; flock, textile dust and mill neps
+@CPC-27996-0@Tyre cord fabric of high tenacity yarn
+@CPC-27998-0@Textile products and articles for technical uses
+@CPC-28100-0@Knitted or crocheted fabrics
+@CPC-28210-1@Panty hose and tights, knitted or crocheted
+@CPC-28210-2@Socks, stockings and other women's hosiery, knitted or crocheted
+@CPC-28221-0@Men's or boys' suits, coats, jackets, trousers, shorts and the like, knitted or crocheted
+@CPC-28222-0@Men's or boys' shirts, underpants, pyjamas, dressing gowns and similar articles, knitted or crocheted
+@CPC-28223-0@Women's or girls' suits, coats, jackets, dresses, skirts, trousers, shorts and the like, knitted or crocheted
+@CPC-28224-0@Women's or girls' blouses, shirts, petticoats, panties, nightdresses, dressing gowns and similar articles, knitted or crocheted
+@CPC-28225-0@T-shirts, singlets and other vests, knitted or crocheted
+@CPC-28226-0@Jerseys, pullovers, cardigans and similar articles, knitted or crocheted
+@CPC-28227-0@Babies' garments and clothing accessories, knitted or crocheted
+@CPC-28228-1@Track suits, ski suits, swimwear, knitted or crocheted
+@CPC-28231-0@Men's or boys' suits, coats, jackets, trousers, shorts and the like, of textile fabric, not knitted or crocheted
+@CPC-28232-1@Men's or boys' shirts, of textile fabric, not knitted or crocheted
+@CPC-28232-2@Men's or boys' singlets and other vests, underwear and similar articles, of textile fabric, not knitted or crocheted
+@CPC-28233-1@Skirts, slacks and shorts, of textile fabric, women's and girls, not knitted or crocheted
+@CPC-28233-2@Suits, women's and girls, of textile fabric, not knitted or crocheted
+@CPC-28233-3@Dresses, of textile fabric, women's and girls, not knitted or crocheted
+@CPC-28234-1@Women's or girls' blouses, shirts and shirts-blouses, of textile fabric, not knitted or crocheted
+@CPC-28234-2@Women's or girls' singlets and other vests, underwear and similar articles, of textile fabric, not knitted or crocheted
+@CPC-28235-0@Babies' garments and clothing accessories, of textile fabric, not knitted or crocheted
+@CPC-28237-1@Brassieres, girdles, corsets, whether or not knitted or crocheted
+@CPC-28241-0@Apparel of leather or of composition leather
+@CPC-28242-1@Belts and bandoliers, of leather or composition leather
+@CPC-28242-2@Gloves, mittens and mitts, of leather or composition leather (excl. for sport)
+@CPC-28260-1@Hats and other headgear
+@CPC-29110-0@Chamois leather; patent leather and patent laminated leather; metallised leather
+@CPC-29120-0@Other leather, of bovine or equine animals, without hair on
+@CPC-29130-1@Composition leather
+@CPC-29130-2@Other leather, without hair on (including sheep, lamb, goat or kid skin leather)
+@CPC-29220-1@Luggage, handbags and the like, of leather, composition leather, plastic sheeting, textile materials, vulcanized fiber or paperboard; travel sets for personal toilet, sewing or shoe or clothes cleanin
+@CPC-29310-0@Waterproof footwear of rubber or plastics
+@CPC-29320-0@Footwear of rubber or plastics, other than waterproof, sports or having a metal toe-cap
+@CPC-29330-0@Footwear with uppers of leather
+@CPC-29340-0@Footwear with uppers of textile materials
+@CPC-29410-0@Ski-boots, snowboard boots and cross-country ski footwear
+@CPC-29420-0@Tennis shoes, basketball shoes, gym shoes, training shoes and the like
+@CPC-31000-1@Wood, non-coniferous, sawn or chipped lengthwise, sliced or peeled, of a thickness exceeding 6mm
+@CPC-31000-2@Wood, coniferous, continuously shaped along any of its edges or faces
+@CPC-31310-0@Wood in the rough, treated with preservatives
+@CPC-31320-0@Railway or tramway sleepers (cross-ties) of wood, impregnated
+@CPC-31400-1@Plywood
+@CPC-31430-0@Particle board and similar board of wood or other ligneous materials
+@CPC-31440-0@Fiber board of wood or other ligneous materials
+@CPC-31510-0@Veneer sheets and sheets for plywood and other wood sawn lengthwise
+@CPC-31600-0@Builders' joinery and carpentry of wood
+@CPC-31700-0@Packing cases, boxes and similar packings, of wood; casks, barrels, vats, tubs and other coopers' products and parts thereof, of wood
+@CPC-31922-0@Articles of natural cork; agglomerated cork and articles thereof
+@CPC-31923-0@Manufactures of straw, of esparto or of other plaiting materials; basketware and wickerwork
+@CPC-32000-1@Newspapers, journals and periodicals, printed
+@CPC-32111-0@Chemical wood pulp, dissolving grades
+@CPC-32112-1@Chemical wood pulp, soda and sulphate, other than dissolving grades
+@CPC-32112-2@Chemical wood pulp, sulphite, other than dissolving grades
+@CPC-32113-1@Semi-chemical wood pulp, pulp of fibers other than wood
+@CPC-32121-0@Newsprint
+@CPC-32131-0@Toilet or facial tissue stock, towel and similar paper, cellulose wadding or webs of cellulose fibers
+@CPC-32132-0@Kraftliner, uncoated
+@CPC-32141-0@Composite paper and paperboard, not surface-coated or impregnated
+@CPC-32143-0@Paper and paperboard coated with kaolin or with other inorganic substances
+@CPC-32149-0@Other paper and paperboard, cellulose wadding and webs of cellulose fibres, coated, impregnated, covered, surface-coloured, surface-decorated or printed, in rolls or sheets
+@CPC-32150-1@Sacks and bags of paper and other packing containers of paper or paper-board
+@CPC-32151-0@Corrugated paper and paperboard
+@CPC-32193-0@Toilet paper, handkerchiefs, towels and similar household, sanitary or hospital articles, articles of apparel of paper pulp, cellulose wadding or similar
+@CPC-32197-0@Labels of paper or paperboard
+@CPC-32200-1@Books, brochures and similar printed matter; children's books, in print
+@CPC-32500-1@Calendars of any kind, trade advertising material, commercial catalogues and the like, transfers (decalcomanias), pictures, designs and photographs, printed
+@CPC-32520-0@Printed or illustrated postcards and printed cards
+@CPC-32600-0@Registers, account books, note books, letter pads, diaries and similar articles, blotting-pads, binders, file covers, forms and other articles of stationary, of paper or paperboard
+@CPC-33100-0@Coke
+@CPC-33310-1@Aviation gasoline
+@CPC-33310-2@Motor gasoline
+@CPC-33320-0@Jet fuels
+@CPC-33330-0@Naphthas
+@CPC-33340-0@Kerosene
+@CPC-33350-0@White spirit/industrial spirit
+@CPC-33360-0@Gas-diesel oil (distillate fuel oil)
+@CPC-33370-0@Residual fuel oils
+@CPC-33380-0@Lubricants
+@CPC-33400-0@Liquefied petroleum gas, total
+@CPC-33400-1@Liquefied petroleum gas, from natural gas plants      
+@CPC-33400-2@Liquefied petroleum gas from petroleum refineries
+@CPC-33500-1@Petroleum wax (paraffin)
+@CPC-33500-2@Petroleum coke
+@CPC-33500-3@Bitumen (asphalt)
+@CPC-34110-1@Acyclic hydrocarbons
+@CPC-34110-2@Cyclic hydrocarbons
+@CPC-34110-3@Halogenated derivatives of hydrocarbons
+@CPC-34130-1@Alcohols and their halogenated, sulphonated, nitrated or nitrosated derivatives
+@CPC-34130-2@Phenols, phenol-alcohols and their halogenated, sulphonated, nitrated or nitrosated derivatives
+@CPC-34140-1@Saturated acyclic monocarboxylic acids, their anhydrides, halides, peroxides, peroxyacids and their derivatives
+@CPC-34140-2@Polycarboxylic acids, their anhydrides, halides, peroxides and peroxyacids; their halogenated, sulphonated, nitrated or nitrosated derivatives
+@CPC-34150-1@Amine-function compounds
+@CPC-34150-2@Oxygen-function amino-compounds except lysine, its esters and salts thereof, except glutamic acid and its salts and except tilidine (INN) and its salts
+@CPC-34160-1@Organo-sulphur compounds and other organo-inorganic compounds
+@CPC-34160-2@Heterocyclic compounds with nitrogen hetero-atom(s) only containing an unfused pyridine ring (whether or not hydrogenated) in the structure
+@CPC-34160-3@Lactams from heterocyclic compounds with nitrogen hetero-atom(s) only
+@CPC-34160-4@Nucleic acids and their salts, and other heterocyclic compounds (except compounds containing in the structure a phenothiazine ring-system, not further fused)
+@CPC-34170-1@Ethers, ether-alcohols, ether-phenols, ether-alcohol- phenols, alcohol peroxides, ether peroxides, ketone peroxides (whether or not chemically defined), and their halogenated, sulphonated, nitrated or
+@CPC-34170-2@Ketones and quinones, whether or not with other oxygen function, and their halogenated, sulphonated, nitrated or nitrosated derivatives
+@CPC-34220-1@Iron oxides and hydroxides; earth colours
+@CPC-34230-1@Caustic soda
+@CPC-34240-1@Carbonates and peroxocarbonates except ammonium carbonates
+@CPC-34310-0@Synthetic organic coloring matter and preparations, synthetic organic products used as fluorescent brightening agents, color lakes
+@CPC-34340-1@Pigments and preparations based on titanium dioxide, used as colouring matter
+@CPC-34540-1@Oils and other products of the distillation of high temperature coal tar
+@CPC-34613-0@Nitrogenous fertilizers, mineral or chemical
+@CPC-34615-0@Potassic fertilizers, mineral or chemical
+@CPC-34619-1@Mineral or chemical fertilisers containing two or three of the fertilising elements nitrogen, phosphorus and potassium
+@CPC-34620-0@Pesticides
+@CPC-34710-1@Polyethylene having a specific gravity of less than 0.94, in primary forms
+@CPC-34710-2@Polyethylene having a specific gravity of 0.94 or more, in primary forms
+@CPC-34720-1@Polystyrene, in primary forms
+@CPC-34720-2@Styrene-acrylonitrile (SAN) and acrylonitrile-butadiene-styrene (ABS) copolymers, in primary forms
+@CPC-34730-1@Polyvinyl chloride, in primary forms
+@CPC-34740-1@Polycarbonates, in primary forms
+@CPC-34740-2@Poly(ethylene terephthalate), in primary forms
+@CPC-34790-1@Polypropylene, in primary forms
+@CPC-34790-2@Acrylic polymers in primary forms
+@CPC-34790-3@Polyamides in primary forms
+@CPC-34790-4@Amino-resins, phenolic resins and polyurethanes, in primary forms
+@CPC-34790-5@Silicones in primary forms
+@CPC-34800-0@Synthetic rubber
+@CPC-35110-1@Paints and varnishes dispersed or dissolved in a non-aqueous medium
+@CPC-35110-2@Paints and varnishes dispersed or dissolved in an aqueous medium
+@CPC-35130-0@Printing ink
+@CPC-35220-1@Carboxyamide-function compounds; amide-function compounds of carbonic acid except ureines, their derivatives and salts thereof
+@CPC-35230-0@Lactones n.e.c., heterocyclic compounds with nitrogen hetero-atom(s) only, hydantoin and its derivatives
+@CPC-35250-1@Provitamins and vitamins
+@CPC-35250-2@Hormones, prostaglandins, thromboxanes and leukotrienes, derivatives and structural analogues thereof
+@CPC-35250-3@Antibiotics
+@CPC-35260-1@Medicaments containing penicillins or derivatives thereof, n.p.r.s.
+@CPC-35260-10@Other medicaments for therapeutic or prophylactic uses, n.p.r.s.
+@CPC-35260-11@Medicaments of alkaloids or derivatives thereof, p.r.s.
+@CPC-35260-12@Medicaments containing vitamins, provitamins, p.r.s.
+@CPC-35260-13@Other medicaments of mixed or unmixed products, p.r.s., n.e.c.
+@CPC-35260-2@Medicaments of other antibiotics, n.p.r.s.
+@CPC-35260-3@Medicaments of penicillins, streptomycins or deriv. thereof, p.r.s.
+@CPC-35260-4@Medicaments of other antibiotics, p.r.s.
+@CPC-35260-5@Medicaments containing insulin but not antibiotics, n.p.r.s.
+@CPC-35260-6@Medicaments containing hormones but not insulin or antibiotics, n.p.r.s.
+@CPC-35260-7@Medicaments containing insulin but not antibiotics, p.r.s.
+@CPC-35260-8@Medicaments containing corticosteroid hormones and other hormones except insulin, p.r.s.
+@CPC-35260-9@Medicaments of alkaloids or derivatives thereof, n.p.r.s.
+@CPC-35290-1@Antisera and other blood fractions and modified immunological products
+@CPC-35290-2@Vaccines for human medicine
+@CPC-35300-1@Organic surface active agents (except soap); detergents and washing preparations
+@CPC-35321-0@Soap; paper, wadding, and similar, covered with soap or detergent
+@CPC-35323-1@Perfumes and toilet waters
+@CPC-35323-2@Beauty preparations for the care of the skin (other than medicaments), including sunscreen or sun tan preparations
+@CPC-35323-3@Preparations for use on the hair
+@CPC-35410-1@Mixtures of odoriferous substances and their preparations
+@CPC-35430-1@Prepared additives for mineral oils (including gasoline) or for other liquids used for the same purposes as mineral oils
+@CPC-35450-1@Prepared explosives, other than propellent powders
+@CPC-35470-0@Chemical elements and compounds doped for use in electronics
+@CPC-35510-0@Synthetic filament tow and staple fibers, not carded or combed
+@CPC-35520-0@Synthetic filament yarn (except sewing thread and multiple or cabled yarn), n.p.r.s.
+@CPC-35540-0@Artificial filament tow and staple fibers, not carded or combed
+@CPC-35550-0@Artificial filament yarn (except sewing thread and multiple or cabled yarn), n.p.r.s.
+@CPC-36111-0@New pneumatic tyres, of rubber, of a kind used on motor cars
+@CPC-36112-0@New pneumatic tyres, of rubber, of a kind used on motor cycles or bicycles
+@CPC-36113-1@New pneumatic tyres, of rubber, of a kind used on buses or lorries
+@CPC-36113-2@New pneumatic tyres, of rubber, of a kind used on agriculture, forestry, construction, industry and other off the road vehicles
+@CPC-36220-0@Unvulcanized rubber, articles of unvulcanized rubber, thread, cord, profile shapes and similar, of vulcanized rubber
+@CPC-36230-0@Tubes, pipes and hoses of vulcanized rubber other than hard rubber
+@CPC-36240-0@Conveyor or transmission belts or belting, of vulcanized rubber
+@CPC-36320-0@Tubes, pipes and hoses, and fittings therefor, of plastics
+@CPC-36410-0@Sacks and bags, of plastics
+@CPC-36490-1@Boxes, cases, crates and similar packing articles, of plastics
+@CPC-36490-2@Carboys, bottles and similar articles of plastics
+@CPC-36490-3@Spools, cops and similar supports of plastics; stoppers, lids, caps and other closures of plastics
+@CPC-36910-0@Floor coverings of plastics, wall or ceiling coverings of plastics
+@CPC-36920-0@Self-adhesive plates, sheets and other flat shapes, of plastics
+@CPC-36930-0@Baths, wash-basins, lavatory pans and covers and similar sanitary ware, of plastics
+@CPC-36940-0@Household articles and toilet articles, of plastics
+@CPC-36980-0@Electrical insulating fittings of plastics
+@CPC-36990-1@Office or school supplies of plastics
+@CPC-37112-1@Drawn glass and blown glass, in sheets
+@CPC-37115-0@Safety glass
+@CPC-37121-0@Slivers, rovings, yarn and chopped strands, of glass
+@CPC-37129-0@Voiles, webs, mats and other articles of glass fibers except woven fabrics
+@CPC-37191-0@Bottles, jars and other containers of glass; stoppers, lids and other closures of glass
+@CPC-37210-0@Ceramics sinks, baths, water closet pans and similar sanitary fixtures
+@CPC-37221-0@Ceramic household articles and toilet articles
+@CPC-37350-1@Building bricks, made of clay
+@CPC-37350-2@Tiles, roofing, made of clay
+@CPC-37370-0@Ceramic flags and paving, hearth or wall tiles; ceramic mosaic cubes and the like
+@CPC-37420-0@Quicklime, slaked lime and hydraulic lime
+@CPC-37440-0@Cement, except in the form of clinkers
+@CPC-37530-0@Articles of plaster or of compositions based on plaster
+@CPC-37540-0@Tiles, flagstones, bricks and similar articles, of cement, concrete or artificial stone
+@CPC-37550-0@Pre-fabricated structural components for building or civil engineering, of cement, concrete or artificial stone
+@CPC-37570-0@Articles of asbestos-cement, cellulose fibre-cement or the like
+@CPC-38110-0@Seats
+@CPC-38121-0@Metal furniture of a kind used in offices, other than seats
+@CPC-38122-0@Wooden furniture of a kind used in offices, other than seats
+@CPC-38130-0@Wooden furniture of a kind used in the kitchen, other than seats
+@CPC-38140-1@Wooden furniture of a kind used in the bedroom
+@CPC-38140-2@Furniture of plastic
+@CPC-38140-3@Complete and assembled domestic furniture, metal or predominantly metal
+@CPC-38150-1@Mattresses
+@CPC-38220-0@Cultured pearls, precious or semi-precious stones, and similar
+@CPC-38240-1@Articles of jewellery and goldsmiths' or silversmiths' wares
+@CPC-38240-2@Articles of natural or cultured pearls
+@CPC-38310-0@Pianos and other keyboard stringed musical instruments
+@CPC-38320-0@Other stringed musical instruments
+@CPC-38410-0@Snow-skis and other snow-ski equipment, ice-skates and roller-skates
+@CPC-38430-0@Gymnasium or athletics articles and equipment
+@CPC-38440-1@Golf clubs and other golf equipment
+@CPC-38450-0@Fishing rods and other line fishing tackle; fish nets, butterfly nets and similar
+@CPC-38520-0@Dolls representing human beings; toys representing animals or non-human creatures
+@CPC-38580-0@Video games of a kind used with a television receiver
+@CPC-38700-0@Prefabricated buildings
+@CPC-38911-1@Pens, stylos, pen-holders, pencil-holders and similar holders
+@CPC-38911-2@Pencils, crayons, pencil leads, pastels, drawing charcoals and chalks
+@CPC-38921-0@Umbrellas, sun-umbrellas, walking-sticks, seat-sticks and the like
+@CPC-38997-0@Imitation jewelry
+@CPC-41111-0@Pig iron and spiegeleisen
+@CPC-41112-0@Ferro-manganese
+@CPC-41113-0@Ferro-chromium
+@CPC-41115-1@Ferro-silicon
+@CPC-41120-0@Crude steel and steel semi-finished products
+@CPC-41210-0@Flat-rolled products of iron or steel, not further worked than hot-rolled
+@CPC-41220-0@Flat-rolled products of iron or steel, not further worked than cold-rolled
+@CPC-41232-1@Flat-rolled products of iron or non-alloy steel, plated or coated with tin
+@CPC-41232-2@Flat-rolled products of iron or non-alloy steel, plated or coated with zinc (galvanized sheets)
+@CPC-41232-3@Flat-rolled products of iron or non-alloy steel, plated or coated with lead
+@CPC-41232-4@Flat-rolled products of iron or non-alloy steel, clad, plated or coated (excl. tinned, plated or coated with lead or zinc)
+@CPC-41233-0@Flat-rolled products of silicon-electrical steel
+@CPC-41240-0@Bars and rods of iron or steel, hot-rolled
+@CPC-41240-1@Bars and rods, hot-rolled, in irregularly wound coils, of iron, stainless steel or other alloy or non-alloy steel
+@CPC-41251-0@Angles, shapes and sections, of iron or non-alloy steel
+@CPC-41252-0@Sheet piling, shapes and sections, of iron or steel
+@CPC-41253-0@Railway or tramway track construction material of iron or steel
+@CPC-41260-1@Wire of iron or non-alloy steel, stainless steel or other alloy steel
+@CPC-41265-0@Angles, shapes and sections of stainless steel or other alloy steel
+@CPC-41270-1@Tubes, pipes and hollow profiles, of iron or steel
+@CPC-41278-0@Tube or pipe fittings, of iron or steel
+@CPC-41310-0@Silver, including silver plated with gold or platinum
+@CPC-41320-0@Gold including gold plated with platinum
+@CPC-41330-0@Platinum, unwrought or in semi-manufactured forms
+@CPC-41412-0@Unrefined copper; copper anodes for electrolytic refining
+@CPC-41413-1@Refined copper; unwrought, not alloyed
+@CPC-41422-0@Nickel, unwrought
+@CPC-41431-1@Aluminum, unwrought, not alloyed
+@CPC-41432-0@Alumina (aluminum oxide), except artificial corundum
+@CPC-41441-1@Refined lead, unwrought
+@CPC-41442-1@Zinc, unwrought, not alloyed
+@CPC-41532-0@Bars, rods and profiles, of aluminium
+@CPC-41536-0@Tubes, pipes and tube or pipe fittings, of aluminium
+@CPC-41600-1@Cadmium and articles thereof
+@CPC-42110-0@Bridges, bridge sections, towers and lattice masts, of iron or steel
+@CPC-42120-0@Doors, windows and their frames and thresholds for doors, of iron, steel or aluminium
+@CPC-42190-1@Equipment for scaffolding, shuttering, propping or pit propping
+@CPC-42190-2@Other structures (except prefabricated buildings), plates, shapes and the like, prepared for use in structures, of iron, steel or aluminium
+@CPC-42200-0@Containers of iron, steel or aluminum other than for compressed or liquefied gas, of greater than 300 litres capacity; containers for compressed or liquefied gas, of iron, steel or aluminium
+@CPC-42913-0@Knives (except for machines) and scissors; blades therefor
+@CPC-42916-0@Spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar-tongs and similar kitchen or tableware
+@CPC-42921-0@Hand tools
+@CPC-42922-1@Interchangeable tools for hand tools, whether or not power-operated or for machine-tools
+@CPC-42922-2@Knives and cutting blades, for machines or for mechanical appliances
+@CPC-42922-3@Plates, sticks, tips and the like for tools, unmounted, of cermets
+@CPC-42931-0@Containers (other than for compressed or liquefied gas) of iron, steel or aluminum, of capacity not exceeding 300 litres
+@CPC-42940-1@Stranded wire, ropes, cables and the like, of iron, steel, copper or alumunium, not electrically insulated
+@CPC-42944-0@Nails, tacks, staples, screws, bolts and similar articles, of iron, steel, copper or aluminium
+@CPC-42945-1@Springs and leaves for springs, of iron or steel
+@CPC-42992-1@Padlocks, locks and keys of base metal; base metal fittings for furniture, doors, and the like
+@CPC-42999-1@Metal advertising signs, name plates and sign plates (excl electric)
+@CPC-43110-1@Internal combustion engines, excluding diesel, other than for motor vehicles and aircraft
+@CPC-43110-2@Diesel engines, other than for motor vehicles and aircraft
+@CPC-43120-1@Motor vehicle engines, spark-ignition
+@CPC-43123-0@Motor vehicles compression-ignition internal combustion piston engines
+@CPC-43131-0@Spark-ignition reciprocating or rotary internal combustion piston engines, for aircraft
+@CPC-43132-1@Turbo-jets of a thrust not exceeding 25 kN
+@CPC-43132-2@Turbo-jets of a thrust exceeding 25 kN
+@CPC-43132-3@Turbo-propellers of a power not exceeding 1,100 kW
+@CPC-43132-4@Turbo-propellers of a power exceeding 1,100 kW
+@CPC-43134-1@Aircraft launching gear, deck-arrestor or similar gear and parts thereof
+@CPC-43141-0@Steam turbines and other vapor turbines
+@CPC-43220-0@Pumps for liquids; liquid elevators
+@CPC-43230-0@Air or vacuum pumps; air or other gas compressors
+@CPC-43240-1@Taps, cocks, valves and similar appliances for pipes, boiler shells, tanks, vats or the like
+@CPC-43310-0@Ball or roller bearings
+@CPC-43320-0@Transmission shafts and cranks, bearing housings and plain shaft bearings, gears and gearing, articulated link chain and similar
+@CPC-43410-0@Furnace burners for liquid, pulverised or solid fuel or for gas, mechanical stokers, mechanical grates, mechanical ash dischargers and similar appliances
+@CPC-43520-0@Derricks, cranes, mobile lifting frames, straddle carriers and works trucks fitted with a crane
+@CPC-43530-0@Fork-lift trucks and other works trucks, tractors of the type used on railway station platforms
+@CPC-43540-1@Escalators and moving walkways
+@CPC-43540-2@Lifts and skip hoists
+@CPC-43912-0@Air conditioning machines
+@CPC-43913-0@Refrigerating and freezing equipment and heat pumps, except household type equipment
+@CPC-44100-1@Tractors, including pedestrian controlled
+@CPC-44100-2@Mowers, whether worked by hand or motor driven, animal- or vehicle-operated
+@CPC-44110-1@Ploughs for agricultural purposes
+@CPC-44110-2@Seeders, planters, transplanters
+@CPC-44110-3@Manure spreaders and fertilizer distributors
+@CPC-44130-1@Combine harvester-threshers
+@CPC-44130-2@Threshing machinery except combine harvester-threshers
+@CPC-44211-0@Machine-tools for working any material by removal of material
+@CPC-44213-0@Lathes for removing metal
+@CPC-44214-0@Machine-tools for drilling, boring or milling metal
+@CPC-44216-1@Grinding and sharpening machines
+@CPC-44216-2@Metal finishing machines except grinding and sharpening machines
+@CPC-44217-0@Machine tools for working metal
+@CPC-44222-0@Machine-tools for working wood
+@CPC-44231-0@Tools for working in the hand, pneumatic, hydraulic or with self-contained non-electric motor
+@CPC-44232-0@Electro-mechanical tools for working in the hand, with self-contained electric motor
+@CPC-44420-1@Mechanical shovels, excavators and shovel loaders
+@CPC-44421-0@Bulldozers, self-propelled
+@CPC-44440-0@Machinery for sorting, screening, mixing or kneading earth, stone, ores and other solids; machinery for agglomerating, shaping or moulding; machines for forming foundry moulds of sand
+@CPC-44610-1@Machines for preparing, weaving and knitting textiles
+@CPC-44623-0@Sewing machines, except book sewing and household sewing machines
+@CPC-44710-0@Tanks and other armoured fighting vehicles, motorized, and parts thereof
+@CPC-44720-0@Military weapons, other than revolvers, pistols and swords and the like
+@CPC-44730-1@Revolvers and pistols
+@CPC-44730-2@Sporting, hunting, target-shooting guns
+@CPC-44740-1@Bombs, grenades, torpedoes, mines, missiles and similar munitions of war
+@CPC-44811-1@Combined refrigerators-freezers, with separate external doors
+@CPC-44811-2@Other refrigerators and freezers of the household type
+@CPC-44812-1@Household washing and drying machines
+@CPC-44814-0@Household sewing machines
+@CPC-44816-1@Domestic food grinders and mixers and fruit or vegetable juice extractors, with self-contained electric motor
+@CPC-44816-2@Electric smoothing irons
+@CPC-44816-3@Vacuum cleaners
+@CPC-44817-1@Microwave ovens
+@CPC-44817-2@Electric ovens, cookers, cooking plates, boiling rings, grillers and roasters
+@CPC-44817-3@Electric water heaters and immersion heaters
+@CPC-44817-4@Electric space heating apparatus and soil heating apparatus
+@CPC-44821-1@Domestic, non-electric, cooking or heating appliances
+@CPC-44914-1@Printing presses
+@CPC-45130-1@Electronic calculators and pocket-size data recording, reproducing and displaying machines with calculating functions
+@CPC-45130-2@Cash registers
+@CPC-45200-0@Computing machinery and parts and accessories thereof (total production)
+@CPC-45220-0@Laptop PCs and palm-top organizers
+@CPC-45230-0@Desktop PCs
+@CPC-45240-0@Digital data processing machines: presented in the form of systems
+@CPC-45260-1@Printers
+@CPC-45260-2@Keyboards
+@CPC-45260-3@Monitors (visual display units)
+@CPC-45260-4@Input or output units whether or not containing storage units in the same housing, mouses, plotters and scanners, except for printers, monitors and keyboards
+@CPC-45270-1@Central storage units
+@CPC-45270-2@CD-ROM drives
+@CPC-45270-3@Hard disk drives
+@CPC-45270-4@Floppy disk drives
+@CPC-45270-5@Magnetic tape storage units
+@CPC-46111-0@Motors of an output not exceeding 37.5 W; other DC motors and DC generators
+@CPC-46112-0@Universal AC/DC motors of an output exceeding 37.5 W; other AC motors; AC generators (alternators)
+@CPC-46113-0@Electric generating sets and rotary converters
+@CPC-46121-0@Electrical transformers
+@CPC-46122-1@Ballasts for discharge lamps or tubes
+@CPC-46122-2@Static converters
+@CPC-46210-0@Electrical apparatus for switching or protecting electrical circuits, for making connexions to or in electrical circuits
+@CPC-46210-1@Automatic circuit breakers
+@CPC-46210-2@Fuses, electrical
+@CPC-46212-1@Relays
+@CPC-46212-2@Lamp holders, plugs and sockets
+@CPC-46214-0@Boards, consoles, etc. equipped with electrical switching apparatus for a voltage exceeding 1000 V
+@CPC-46300-1@Insulated wire and cable
+@CPC-46360-0@Optical fiber cables
+@CPC-46410-0@Primary cells and primary batteries
+@CPC-46420-0@Electric accumulators
+@CPC-46510-0@Electric filament or discharge lamps; arc lamps
+@CPC-46531-1@Electric table, desk, bedside or floor standing lamp
+@CPC-46531-2@Chandeliers
+@CPC-46532-0@Lighting sets for Christmas trees
+@CPC-46910-1@Starter motors and dual purpose starter generators
+@CPC-46910-2@Generators for internal combustion engines other than dual purpose starter generators
+@CPC-46910-3@Electrical lighting or visual signaling equipment for motor vehicles and cycles
+@CPC-46910-4@Sparking plugs
+@CPC-46920-1@Indicator panels incorporating liquid crystal devices (LCD) or light emitting diodes (LED)
+@CPC-46920-2@Electric burglar or fire alarms and similar apparatus
+@CPC-46930-1@Permanent magnets
+@CPC-46950-1@Carbon electrodes
+@CPC-47110-0@Electrical capacitors
+@CPC-47120-0@Electrical resistors (except heating resistors)
+@CPC-47130-0@Printed circuits
+@CPC-47140-1@Color TV tubes
+@CPC-47140-2@Black and white, monochrome TV tubes
+@CPC-47140-3@Television camera tubes, image converters and intensifiers and other photo-cathode tubes
+@CPC-47140-4@Cathode-ray tubes (excl. TV tubes, television camera tubes, image converters or intensifiers, other photo-cathode tubes)
+@CPC-47140-5@Microwave tubes excluding grid-controlled tubes and other valves and tubes
+@CPC-47150-1@Transistors, other than photosensitive transistors
+@CPC-47150-2@Photosensitive semiconductor devices; light emitting diodes
+@CPC-47150-3@Diodes, other than photosensitive or light emitting diodes
+@CPC-47160-0@Electronic integrated circuits and microassemblies
+@CPC-47211-1@Transmission apparatus incorporating reception apparatus
+@CPC-47212-0@Television cameras
+@CPC-47220-1@Telephones, videophones
+@CPC-47220-2@Facsimile machines
+@CPC-47220-3@Telephonic or telegraphic switching apparatus
+@CPC-47310-1@Radio receivers
+@CPC-47313-1@Video monitors
+@CPC-47321-1@CD players
+@CPC-47323-1@Video recording or reproducing apparatus
+@CPC-47323-2@Still image video cameras and other video cameras; digital cameras
+@CPC-47331-1@Amplifiers
+@CPC-47331-2@Loudspeakers
+@CPC-47331-3@Headphones
+@CPC-47510-1@Magnetic media, not recorded, except cards with a magnetic stripe
+@CPC-47600-1@Cards incorporating an electronic integrated circuit (smart card)
+@CPC-48110-1@X-ray apparatus
+@CPC-48120-0@Electro-diagnostic apparatus, and ultra-violet or infra-red ray apparatus, used in medical, surgical, dental or veterinary sciences
+@CPC-48150-1@Syringes, with or without needles
+@CPC-48150-2@Needles, catheters, cannulae and the like
+@CPC-48170-1@Artificial joints for orthopedic purposes
+@CPC-48170-2@Artificial parts of the body (excl. artificial teeth and dental fittings and artificial joints)
+@CPC-48170-3@Hearing aids (excl. parts and accessories)
+@CPC-48170-4@Pacemakers for stimulating heart muscles (excl. parts and accessories)
+@CPC-48220-0@Radar apparatus, radio navigational aid apparatus and radio remote control apparatus
+@CPC-48252-1@Instruments and apparatus for measuring or checking the flow or level of liquids
+@CPC-48252-2@Instruments and apparatus for measuring or checking pressure of liquids or gasses
+@CPC-48265-1@Thermostats
+@CPC-48311-1@Optical fibres, optical fibre bundles and cables excluding optical fibre cables, made up of individually sheathed fibres
+@CPC-48311-2@Spectacle lenses of glass or other materials
+@CPC-48311-3@Contact lenses
+@CPC-48312-1@Sunglasses
+@CPC-48313-0@Frames and mountings for spectacles, goggles or the like
+@CPC-48315-1@Lasers, other than laser diodes
+@CPC-48321-0@Objective lenses for cameras, projectors or photographic enlargers or reducers
+@CPC-48322-1@Photographic (other than cinematographic) cameras
+@CPC-48341-0@Photographic plates and film, photographic paper, paperboard and textiles and instant print film, sensitised, unexposed
+@CPC-48410-0@Watches
+@CPC-48420-0@Clocks
+@CPC-49111-0@Road tractors for semi-trailers
+@CPC-49112-0@Public-transport type passenger motor vehicles
+@CPC-49113-0@Passenger cars
+@CPC-49114-0@Trucks
+@CPC-49115-0@Crane lorries
+@CPC-49121-0@Chassis fitted with engines, for motor vehicles
+@CPC-49129-0@Parts and accessories of motor vehicles, other than chassis fitted with engines
+@CPC-49222-0@Trailers and semi-trailers of the caravan type, for housing or camping
+@CPC-49311-0@Ships, vessels, ferry-boats for the transport of persons
+@CPC-49312-0@Tankers
+@CPC-49313-0@Refrigerated vessels (ships), except tankers
+@CPC-49510-1@Electric locomotives
+@CPC-49510-2@Diesel and diesel-electric locomotives
+@CPC-49520-0@Railway or tramway coaches, self-propelled
+@CPC-49532-0@Railway or tramway passenger coaches, not self-propelled
+@CPC-49533-0@Railway or tramway goods vans and wagons, not self-propelled
+@CPC-49611-0@Gliders, hang gliders and other non-powered aircraft
+@CPC-49612-0@Balloons, dirigibles and other non-powered aircraft
+@CPC-49621-1@Helicopters of an unladen weight not exceeding 2,000 kg
+@CPC-49621-2@Helicopters of an unladen weight exceeding 2,000 kg
+@CPC-49622-0@Aeroplanes and other aircraft, of an unladen weight not exceeding 2,000 kg
+@CPC-49623-1@Aeroplanes and other aircraft, of an unladen weight exceeding 2,000 kg but not exceeding 15,000 kg
+@CPC-49623-2@Aeroplanes and other aircraft, of an unladen weight exceeding 15,000 kg
+@CPC-49910-1@Motorcycles, scooters, etc., other than those of a cylinder capacity not exceeding 50 cc; side-cars
+@CPC-49921-0@Bicycles and other cycles, not motorized
+@CPC-49922-0@Wheelchairs
+@CPC-88111-0@Food and beverage manufacturing services
+@CPC-88112-0@Tobacco manufacturing services
+@CPC-88121-0@Textile manufacturing services
+@CPC-88122-0@Wearing apparel manufacturing services
+@CPC-88123-0@Leather product manufacturing services
+@CPC-88130-0@Wood and cork, except furniture, and straw and plaiting material manufacturing services
+@CPC-88140-0@Paper and paper product manufacturing services
+@CPC-88150-0@Coke, refined petroleum product and nuclear fuel manufacturing services
+@CPC-88160-0@Chemical and chemical product manufacturing services
+@CPC-88170-0@Rubber and plastic products manufacturing services
+@CPC-88180-0@Non-metallic mineral product manufacturing services
+@CPC-88190-0@Other manufacturing services, except of metal products, machinery and equipment
+@CPC-88213-0@Primary metal manufacturing services
+@CPC-88219-0@Other fabricated metal product manufacturing services and metalworking services
+@CPC-88221-0@Motor vehicle, trailer and semi-trailer manufacturing services
+@CPC-88229-0@Other transport equipment manufacturing services
+@CPC-88231-0@Office, accounting and computing machinery manufacturing services
+@CPC-88232-0@Electrical machinery and apparatus manufacturing services
+@CPC-88233-0@Radio, television and communication equipment and apparatus manufacturing services
+@CPC-88234-0@Medical precision and optical instrument, watch and clock manufacturing services
+@CPC-88239-0@Other machinery and equipment manufacturing services
+@HS - 79@Zinc and articles thereof.
+@HS92 - 10@Cereals
+@HS92 - 100590@Maize except seed corn
+@HS92 - 10290@Bovine animals, live, except pure-bred breeding
+@HS92 - 10410@Sheep, live
+@HS92 - 11@Milling products, malt, starches, inulin, wheat glute
+@HS92 - 120210@Ground-nuts in shell not roasted or cooked
+@HS92 - 120220@Ground-nuts shelled, not roasted or cooked
+@HS92 - 120740@Sesamum seeds
+@HS92 - 140490@Vegetable products nes
+@HS92 - 150810@Ground-nut oil, crude
+@HS92 - 150910@Olive oil, virgin
+@HS92 - 151319@Coconut (copra) oil or fractions simply refined
+@HS92 - 160414@Tuna, skipjack, bonito, prepared/preserved, not mince
+@HS92 - 160430@Caviar and caviar substitutes prepared from fish eggs
+@HS92 - 160590@Molluscs and shellfish nes, prepared or preserved
+@HS92 - 17@Sugars and sugar confectionery
+@HS92 - 170111@Raw sugar, cane
+@HS92 - 180100@Cocoa beans, whole or broken, raw or roasted
+@HS92 - 180310@Cocoa paste not defatted
+@HS92 - 20890@Meat and edible offal nes fresh, chilled or frozen
+@HS92 - 22@Beverages, spirits and vinegar
+@HS92 - 230120@Flour or meal, pellet, fish, etc, for animal feed
+@HS92 - 230500@Ground-nut oil-cake and other solid residues
+@HS92 - 240110@Tobacco, unmanufactured, not stemmed or stripped
+@HS92 - 240120@Tobacco, unmanufactured, stemmed or stripped
+@HS92 - 240220@Cigarettes containing tobacco
+@HS92 - 25@Salt, sulphur, earth, stone, plaster, lime and cement
+@HS92 - 251010@Natural calcium phosphates, unground
+@HS92 - 252310@Cement clinkers
+@HS92 - 252329@Portland cement, other than white cement
+@HS92 - 260111@Iron ore, concentrate, not iron pyrites,unagglomerate
+@HS92 - 260200@Manganese ores, concentrates, iron ores >20% Manganes
+@HS92 - 260600@Aluminium ores and concentrates
+@HS92 - 260900@Tin ores and concentrates
+@HS92 - 261210@Uranium ores and concentrates
+@HS92 - 261590@Niobium, tantalum and vanadium ores and concentrates
+@HS92 - 261690@Precious metal ores and concentrates except silver
+@HS92 - 27@Mineral fuels, oils, distillation products, etc
+@HS92 - 270112@Bituminous coal, not agglomerated
+@HS92 - 270400@Coke, semi-coke of coal, lignite, peat & retort carbo
+@HS92 - 271000@Oils petroleum, bituminous, distillates, except crude
+@HS92 - 271022@Kerosene, for furnaces
+@HS92 - 271029@Fuel oils nes, heavy distillates
+@HS92 - 271111@Natural gas, liquefied
+@HS92 - 271112@Propane, liquefied
+@HS92 - 271121@Natural gas in gaseous state
+@HS92 - 271600@Electrical energy
+@HS92 - 280920@Phosphoric acid and polyphosphoric acids
+@HS92 - 281830@Aluminium hydroxide
+@HS92 - 3@Fish, crustaceans, molluscs, aquatic invertebrates ne
+@HS92 - 30@Pharmaceutical products
+@HS92 - 300490@Medicaments nes, in dosage
+@HS92 - 30219@Salmonidae, not trout or salmon,fresh or chilled whol
+@HS92 - 30231@Tuna(albacore,longfin) fresh or chilled, whole
+@HS92 - 30239@Tuna nes, fresh or chilled, whole
+@HS92 - 30269@Fish nes, fresh or chilled, whole
+@HS92 - 30329@Salmonidae, nes,frozen, whole
+@HS92 - 30378@Hake, frozen, whole
+@HS92 - 30379@Fish nes, frozen, whole
+@HS92 - 30410@Fish fillet or meat, fresh or chilled, not liver, roe
+@HS92 - 30420@Fish fillets, frozen
+@HS92 - 30613@Shrimps and prawns, frozen
+@HS92 - 31@Fertilizers
+@HS92 - 310530@Diammonium phosphate, in packs >10 kg
+@HS92 - 330129@Essential oils, nes
+@HS92 - 330210@Mixed odoriferous substances - food & drink industrie
+@HS92 - 382390@Chemical industry products, preparations, mixtures ne
+@HS92 - 39@Plastics and articles thereof
+@HS92 - 392390@Plastic articles for goods conveyance or packing nes
+@HS92 - 410612@Goat or kid skin leather, otherwise pre-tanned
+@HS92 - 44@Wood and articles of wood, wood charcoal
+@HS92 - 440333@Logs, Keruing/Ramin/Kapur/Teak/Jongkong/Merbau/etc
+@HS92 - 440399@Logs, non-coniferous nes
+@HS92 - 440722@Lumber, Okoume, Obeche, Sapelli/Sipo/Acajou/Makore/et
+@HS92 - 440799@Lumber, non-coniferous nes
+@HS92 - 440890@Veneer,ply sheet, not conifer or tropical, <6 mm thic
+@HS92 - 441219@Plywood, all softwood, each ply < 6mm thick
+@HS92 - 470311@Chem wood pulp, soda or sulphate, conifer, unbleached
+@HS92 - 49@Printed books, newspapers, pictures etc
+@HS92 - 490700@Documents of title (bonds etc), unused stamps etc
+@HS92 - 50800@Coral,seashell,cuttle bone,etc, unworked,powder,waste
+@HS92 - 52@Cotton
+@HS92 - 60310@Cut flowers and flower buds for bouquets, etc., fresh
+@HS92 - 610910@T-shirts, singlets and other vests, of cotton, knit
+@HS92 - 620322@Mens, boys ensembles, of cotton, not knit
+@HS92 - 620342@Mens, boys trousers & shorts, of cotton, not knit
+@HS92 - 620349@Mens, boys trousers & shorts, material nes, not knit
+@HS92 - 620462@Womens, girls trousers & shorts, of cotton, not knit
+@HS92 - 620520@Mens, boys shirts, of cotton, not knit
+@HS92 - 621139@Mens, boys garments nes, of material nes, not knit
+@HS92 - 63@Other made textile articles, sets, worn clothing etc
+@HS92 - 640610@Footwear uppers and parts thereof, except stiffeners
+@HS92 - 70310@Onions and shallots, fresh or chilled
+@HS92 - 70700@Cucumbers and gherkins, fresh or chilled
+@HS92 - 70990@Vegetables, fresh or chilled nes
+@HS92 - 710210@Diamonds, unsorted
+@HS92 - 710229@Diamonds industrial, worked
+@HS92 - 710231@Diamonds (jewellery) unworked or simply sawn, cleaved
+@HS92 - 710239@Diamonds (jewellery) worked but not mounted or set
+@HS92 - 710811@Gold powder non-monetary
+@HS92 - 710813@Gold, semi-manufactured forms, non-monetary
+@HS92 - 711011@Platinum unwrought or in powder form
+@HS92 - 711019@Platinum in semi-manufactured forms
+@HS92 - 720241@Ferro-chromium, >4% carbon
+@HS92 - 73@Articles of iron or steel
+@HS92 - 74@Copper and articles thereof
+@HS92 - 740110@Copper mattes
+@HS92 - 740311@Copper cathodes and sections of cathodes unwrought
+@HS92 - 740811@Wire of refined copper > 6mm wide
+@HS92 - 740919@Plate, sheet, strip, refined copper, flat, t > 0.15mm
+@HS92 - 750110@Nickel mattes
+@HS92 - 750210@Nickel unwrought, not alloyed
+@HS92 - 760110@Aluminium unwrought, not alloyed
+@HS92 - 760120@Aluminium unwrought, alloyed
+@HS92 - 760429@Bars, rods and other profiles, aluminium alloyed
+@HS92 - 80110@Coconuts, fresh or dried
+@HS92 - 80130@Cashew nuts, fresh or dried
+@HS92 - 810590@Cobalt, articles thereof, nes
+@HS92 - 84@Nuclear reactors, boilers, machinery, etc
+@HS92 - 842139@Filtering or purifying machinery for gases nes
+@HS92 - 847910@Machines for public works, building etc, nes
+@HS92 - 85@Electrical, electronic equipment
+@HS92 - 850212@Generating sets, diesel, output 75-375 kVA
+@HS92 - 852490@Sound recordings other than photographic products nes
+@HS92 - 854129@Transistors, except photosensitive, > 1 watt
+@HS92 - 854441@Electric conductors, nes < 80 volts, with connectors
+@HS92 - 860900@Cargo containers designed for carriage
+@HS92 - 87@Vehicles other than railway, tramway
+@HS92 - 870120@Road tractors for semi-trailers (truck tractors)
+@HS92 - 870323@Automobiles, spark ignition engine of 1500-3000 cc
+@HS92 - 870829@Parts and accessories of bodies nes for motor vehicle
+@HS92 - 871000@Tanks and other armoured fighting vehicles
+@HS92 - 88@Aircraft, spacecraft, and parts thereof
+@HS92 - 880230@Fixed wing aircraft, unladen weight 2,000-15,000 kg
+@HS92 - 89@Ships, boats and other floating structures
+@HS92 - 890510@Dredgers
+@HS92 - 890590@Floating docks, special function vessels nes
+@HS92 - 90111@Coffee, not roasted, not decaffeinated
+@HS92 - 90130@Coffee husks and skins
+@HS92 - 90140@Coffee substitutes containing coffee
+@HS92 - 90230@Tea, black (fermented or partly) in packages < 3 kg
+@HS92 - 90240@Tea, black (fermented or partly) in packages > 3 kg
+@HS92 - 90500@Vanilla beans
+@HS92 - 90700@Cloves (whole fruit, cloves and stems)
+@HS92 - 99@Commodities not specified according to kind
+@HS96 - 01@Live animals
+@HS96 - 0106@Other live animals
+@HS96 - 02@Meat and edible meat offal
+@HS96 - 03@Fish & crustacean, mollusc & other aquatic invert
+@HS96 - 1001@Wheat and meslin
+@HS96 - 100110@Durum wheat
+@HS96 - 1005@Maize (corn)
+@HS96 - 1006@Rice
+@HS96 - 100630@Semi-milled or wholly milled rice, whether or not
+@HS96 - 100640@Broken rice
+@HS96 - 102@Live bovine animals
+@HS96 - 104@Live sheep and goats
+@HS96 - 1101@Wheat or meslin flour
+@HS96 - 1202@Ground-nuts, not roasted or otherwise cooked
+@HS96 - 1207@Oil seeds and oleaginous fruits nes
+@HS96 - 130120@Gum Arabic
+@HS96 - 1508@Ground-nut oil, fractions, not chemically modified
+@HS96 - 1511@Palm oil and its fractions, not chemically modified
+@HS96 - 1512@Safflower, sunflower and cotton-seed oil, fractions
+@HS96 - 1515@Fixed veg fat, oil, fractions, not chemically modified
+@HS96 - 1604@Prepared or preserved fish, fish eggs, caviar
+@HS96 - 1701@Solid cane or beet sugar and chemically pure sucrose
+@HS96 - 1803@Cocoa paste
+@HS96 - 2008@Fruit, nuts and other edible parts of plants, othe
+@HS96 - 207@Meat, edible offal of domestic poultry
+@HS96 - 208@Meat, edible meat offal nes, fresh, chilled or frozen
+@HS96 - 2202@Waters, non-alcoholic sweetened or flavoured beverages
+@HS96 - 2203@Beer made from malt
+@HS96 - 2204@Grape wines(including fortified), alcoholic grape must
+@HS96 - 2301@Flour etc of meat, fish or offal for animal feed
+@HS96 - 230660@Of palm nuts or kernels
+@HS96 - 24@Tobacco and manufactured tobacco
+@HS96 - 2401@Tobacco unmanufactured, tobacco refuse
+@HS96 - 2402@Cigars, cigarettes etc, tobacco or tobacco substitute
+@HS96 - 2510@Natural phosphates (calcium, calcium-aluminium), chalk
+@HS96 - 2523@Cement (portland, aluminous, slag or hydraulic)
+@HS96 - 2528@Natural borates, concentrates, boric acid (<85%) 252810 - Natural sodium borates and concentrates thereof (
+@HS96 - 2601@Iron ores and concentrates, roasted iron pyrites
+@HS96 - 2602@Manganese ores, concentrates, iron ores >20% Manganese
+@HS96 - 2603@Copper ores and concentrates
+@HS96 - 2604@Nickel ores and concentrates
+@HS96 - 2605@Cobalt ores and concentrates
+@HS96 - 2606@Aluminium ores and concentrates
+@HS96 - 2610@Chromium ores and concentrates
+@HS96 - 2611@Tungsten ores and concentrates
+@HS96 - 2612@Uranium or thorium ores and concentrates
+@HS96 - 2615@Niobium tantalum vanadium zirconium ores, concentrates
+@HS96 - 2616@Precious metal ores and concentrates
+@HS96 - 27@Mineral fuels, oils & product of their distillati
+@HS96 - 2701@Coal, briquettes, ovoids etc, made from coal
+@HS96 - 2704@Retort carbon, coke or semi-coke of coal, lignite,peat
+@HS96 - 2707@Coal-tar distillation products including oils
+@HS96 - 2709@Petroleum oils, oils from bituminous minerals, crude
+@HS96 - 271025@Kerosene lamp oil, motor kerosene, light diesel, e
+@HS96 - 271026@Gas oils - bunker oil, No.1 furnace, motor diesel 
+@HS96 - 2711@Petroleum gases and other gaseous hydrocarbons
+@HS96 - 2712@Petroleum jelly; paraffin wax, micro-crystalline p
+@HS96 - 2713@Petroleum oils and oils obtained from bituminous m
+@HS96 - 2807@Sulphuric acid; oleum.
+@HS96 - 2809@Diphosphorus pentaoxide, phosphoric acids
+@HS96 - 2814@Ammonia, anhydrous or in aqueous solution
+@HS96 - 2818@Aluminium oxide, hydroxide and artificial corundum
+@HS96 - 2835@Phosphinates (hypophosphites), phosphonates (phosp
+@HS96 - 290220@Benzene
+@HS96 - 3003@Medicaments (excluding goods of heading No. 30.02,
+@HS96 - 3004@Medicaments, therapeutic, prophylactic use, in dosage
+@HS96 - 302@Fish, fresh or chilled, whole
+@HS96 - 303@Fish, frozen, whole
+@HS96 - 304@Fish fillets, fish meat, mince except liver, roe
+@HS96 - 305@Fish,cured, smoked, fish meal for human consumption
+@HS96 - 306@Crustaceans
+@HS96 - 307@Molluscs
+@HS96 - 31@Fertilisers
+@HS96 - 3102@Mineral or chemical fertilizers, nitrogenous
+@HS96 - 310210@Urea, whether or not in aqueous solution 
+@HS96 - 3105@Fertilizer mixtures in packs of < 10kg
+@HS96 - 3302@Mixted odoriferous substances for industrial use
+@HS96 - 38@Miscellaneous chemical products.
+@HS96 - 3807@Wood tar, tar oils, creosote, naphtha, veg. pitches
+@HS96 - 4001@Natural rubber and gums, in primary form, plates, etc
+@HS96 - 402@Milk and cream, concentrated or sweetened
+@HS96 - 4101@Raw hides and skins of bovine or equine animals 
+@HS96 - 4106@Goat or kid skin leather, without hair
+@HS96 - 4401 @Fuel wood, in logs, in billets, in twigs, in faggo
+@HS96 - 4403@Wood in the rough or roughly squared
+@HS96 - 4407@Wood sawn, chipped lengthwise, sliced or peeled
+@HS96 - 4408@Veneers and sheets for plywood etc <6mm thick
+@HS96 - 4412@Plywood, veneered panels and similar laminated wood
+@HS96 - 4703@Chemical wood pulp, soda or sulphate, not dissolving
+@HS96 - 4808@Paper, board corrugated creped embossed perforated ne
+@HS96 - 4901@Printed books, brochures, leaflets and similar pri
+@HS96 - 4907@Documents of title (bonds etc), unused stamps etc
+@HS96 - 5201@Cotton, not carded or combed
+@HS96 - 5203@Cotton, carded or combed.
+@HS96 - 5204@Cotton sewing thread
+@HS96 - 5205@Cotton yarn not sewing thread >85% cotton, not retail
+@HS96 - 5206@Cotton yarn (other than sewing thread), containing 
+@HS96 - 5207@Cotton yarn (except sewing thread) retail
+@HS96 - 5208@Woven cotton fabric, >85% cotton, < 200g/m2
+@HS96 - 5209@Woven cotton nes, >85% cotton, >200g/m2
+@HS96 - 5210@Woven fabrics of cotton, containing less than 85 % 
+@HS96 - 5212@Other woven fabrics of cotton. 
+@HS96 - 6002@Knit or crochet fabric, nes
+@HS96 - 603@Cut flowers, dried flowers for bouquets, etc,
+@HS96 - 61@Art of apparel & clothing access, knitted or croc
+@HS96 - 6103@Men's or boys' suits, ensembles, jackets, blazers
+@HS96 - 6105@Men's or boys' shirts, knitted or crocheted.
+@HS96 - 6107@Men's or boys' underpants, briefs, nightshirts, py
+@HS96 - 6109@T-shirts, singlets and other vests, knit or crochet
+@HS96 - 6110@Jerseys, pullovers, cardigans, etc, knit or crochet
+@HS96 - 611300@Garments, made up of knitted or crocheted fabric
+@HS96 - 6115@Panty hose, tights, stockings, socks and other hos
+@HS96 - 6203@Mens or boys suits, jackets, trousers etc not knit
+@HS96 - 6204@Womens, girls suits, jacket, dress, skirt,  etc, woven
+@HS96 - 6205@Men's or boys' shirts
+@HS96 - 6211@Track suits, ski suits and swimwear, other garments
+@HS96 - 6302@Bed linen, table linen, toilet linen and kitchen
+@HS96 - 6309@Worn clothing and other worn articles
+@HS96 - 6406@Parts of footwear, in-soles, heel cushion, gaiter, etc
+@HS96 - 703@Onions, shallots, garlic, leeks, etc. fresh or chilled
+@HS96 - 709@Vegetables nes, fresh or chilled
+@HS96 - 7102@Diamonds, not mounted or set
+@HS96 - 7106@Silver (including silver plated with gold or plati
+@HS96 - 7108@Gold, unwrought, semi-manufactured, powder form
+@HS96 - 7110@Platinum, unwrought, semi-manufactured or powder forms
+@HS96 - 713@Vegetables, leguminous dried, shelled
+@HS96 - 72@Iron and steel
+@HS96 - 7202@Ferro-alloys
+@HS96 - 7204@Ferrous waste or scrap, ingots or iron or steel
+@HS96 - 7208@Hot-rolled products, iron/steel, width>600mm, not clad
+@HS96 - 7213@Hot rolled bar, rod of iron/steel, in irregular coils
+@HS96 - 7214@Iron/steel bar, only forged hot-rolled drawn, extruded
+@HS96 - 7304@Tube or hollow profile, seamless iron/steel not cast
+@HS96 - 7401@Copper mattes, cement copper (precipitated copper)
+@HS96 - 7403@Refined copper and copper alloys, unwrought
+@HS96 - 740311@Refined copper :-- Cathodes and sections of cathod
+@HS96 - 7408@Copper wire
+@HS96 - 7409@Copper plates, sheets and strips, thickness > 0.15mm
+@HS96 - 7501@Nickel matte, interim products of nickel metallurgy
+@HS96 - 7601@Unwrought aluminium
+@HS96 - 7604@Aluminium bars, rods and profiles
+@HS96 - 78@Lead and articles thereof
+@HS96 - 7901@Unwrought zinc
+@HS96 - 801@Coconuts, Brazil nuts and cashew nuts, fresh or dried
+@HS96 - 8101@Tungsten (wolfram) and articles thereof, including
+@HS96 - 8105@Cobalt mattes, etc, articles, waste or scrap
+@HS96 - 8424@Mechanical appliances (whether or not hand-operate 
+@HS96 - 8426@Derricks, cranes, straddle carriers, crane trucks
+@HS96 - 8429@Self-propelled earth moving, road making, etc machines
+@HS96 - 8431@Parts for use with lifting, moving machinery
+@HS96 - 8441@Machinery for paper pulp, paper, paperboard making nes
+@HS96 - 8479@Machines nes having individual functions
+@HS96 - 8517@Electric apparatus for line telephony, telegraphy
+@HS96 - 8525@Radio and TV transmitters, television cameras
+@HS96 - 852520@Transmission apparatus incorporating reception app 
+@HS96 - 8541@Diodes, transistors, semi-conductors, etc
+@HS96 - 8544@Insulated wire and cable, optical fibre cable
+@HS96 - 8609@Cargo containers designed for carriage of goods
+@HS96 - 8701@Tractors (other than works, warehouse equipment)
+@HS96 - 8702@Motor vehicles for the transport of ten or more pe
+@HS96 - 8703@Motor vehicles for transport of persons (except buses)
+@HS96 - 8704@Motor vehicles for the transport of goods
+@HS96 - 8708@Parts and accessories for motor vehicles
+@HS96 - 8709@Works trucks, self-propelled, not fitted with lift
+@HS96 - 870919@Vehicles :-- Other
+@HS96 - 8710@Tanks and other armoured fighting vehicles
+@HS96 - 8802@Aircraft, spacecraft, satellites
+@HS96 - 8901@Passenger and goods transport ships, boats
+@HS96 - 890120@Tankers
+@HS96 - 8905@Special purpose ships, vessels, nes
+@HS96 - 901@Coffee, coffee husks and skins and coffee substitutes
+@HS96 - 902@Tea
+@HS96 - 906@Cinnamon and cinnamon-tree flowers
+@HS96 - 9406@Prefabricated buildings
+@HS96 - 9999@Commodities not elsewhere specified
+@Temp1@Allumine 
+@Temp10@Toothpastes
+@Temp11@Digital data processing systems, nes                                                      
+@Temp12@Electric conductors, for a voltage >80V but not exceeding 1,000 V, nes                    
+@Temp15@Gasoline Engine
+@Temp16@Ferro-chromium containing by weight more than 4% of carbon                                
+@Temp17@Ferrous waste and scrap, iron or steel, nes                                               
+@Temp18@Rebars and laminates
+@Temp19@Power Cables
+@Temp2@Alumina
+@Temp20@Fish fillets and other fish meat, minced or not, fresh or chilled                         
+@Temp21@Floating docks and vessels which perform special functions                                
+@Temp22@Floating or submersible drilling or production platforms                                  
+@Temp23@Foliage,branch,etc w/o flowers/buds&grass for bouquet/orn purp exc fr                     
+@Temp24@Food preparations nes
+@Temp25@Goat or kid skin leather, nes                                                             
+@Temp26@Goats, live                                                                               
+@Temp27@Gold in oth semi-manufactd form n-monetary(inc gold platd w platinum)                     
+@Temp28@Gold in unwrought forms non-monetary
+@Temp29@Grain sorghum                                                                             
+@Temp3@Autres biens de consommation
+@Temp30@Grape wines nes,incl fort&grape must,unfermntd by add alc in ctnr               
+@Temp31@Huile brute d'arachide
+@Temp32@Knitted or crocheted fabrics, of manmade fibres, nes                                      
+@Temp33@Machine et app Ã©lectrique
+@Temp34@Machinery
+@Temp35@Machinery and Equipment
+@Temp36@Electrical Machinery
+@Temp37@Machinery and app. Mechanical or electrical
+@Temp38@Miscellaneous Machinery
+@Temp39@Electrical machinery and apparatus
+@Temp4@Autres machines et appareils
+@Temp40@Maize (corn) nes                                                                          
+@Temp41@Manufactured Goods
+@Temp42@Transport equipment
+@Temp43@Material (Subject) and plastic work
+@Temp44@Methanol and Other Gases
+@Temp45@Military weapons,other than revolvers,pistols & arms of headg No 93.07                    
+@Temp46@Milk and cream powder unsweetened exceeding 1.5% fat                                      
+@Temp47@Mixtures of odoriferous substances for the food or drink industries                       
+@Temp48@Motorcycles with reciprocatg piston engine displacg > 50 cc to 250 cc                     
+@Temp49@Cowpea
+@Temp5@Bauxite
+@Temp50@Other: articles of cobalt, nes
+@Temp51@Outillage et matÃ©riels non Ã©lectriques
+@Temp52@Paper, wallpaper base, in rolls or sheets, uncoated                                       
+@Temp53@Parts of boring or sinking machinery, whether or not self-propelled                       
+@Temp54@Parts of electrical apparatus for line telephone or line telegraphy
+@Temp55@Parts of gas turbines nes                                                                 
+@Temp56@Plain weave cotton fabric,>/=85%, >100 g/m2 to 200 g/m2, printed                          
+@Temp58@Pneumatic tires new of rubber for buses or lorries                                        
+@Temp59@Polyethylene having a specific gravity of 0.94 or more                                    
+@Temp6@Capital goods
+@Temp60@Foodstuffs
+@Temp62@Produits de consommation non alimentaires
+@Temp63@Minerals Products
+@Temp64@Road vehicles
+@Temp65@Row Material for Alumina
+@Temp66@Rutile
+@Temp67@Soya-bean oil and its fractions, refined but not chemically modified                      
+@Temp68@Special purpose motor vehicles nes                                                        
+@Temp69@Static converters, nes                                                                    
+@Temp7@Intermediate goods
+@Temp70@Structures&parts of structures,i/s (ex prefab bldgs of headg no.9406)                     
+@Temp71@Ylang-Ylang
+@Temp8@Nails giroffe
+@Temp9@Coltan

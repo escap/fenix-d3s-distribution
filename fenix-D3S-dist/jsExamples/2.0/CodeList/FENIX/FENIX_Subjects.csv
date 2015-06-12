@@ -1,0 +1,134 @@
+{
+    "uid": "FENIX_Subjects",
+	"version": "1.0",
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "FENIX Subjects"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "Food and Agriculture Organization of United Nations"
+            },
+            "organizationUnit": {
+                "EN": "ESS"
+            },
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": null,
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["subject"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+                "seCodeList"  : {
+            "numberOfLevels": 4,
+            "typeOfCodeList": "tree"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+
+
+
+@01@TIME
+@01@0101@Refence_Period
+@01@0102@Periodicity
+@02@GEO
+@02@0201@geographic_names
+@02@0202@layer
+@0202@02021@SpatialRepresentation
+@0202@02022@ReferenceSystem
+@02@0203@ReferenceArea
+@03@@VALUE
+@04@FLAG
+@04@0401@Observation_Status
+@04@0402@Confidentiality
+@05@UM
+@06@ACTIVITY
+@06@0601@commodity
+@0601@06011@agriculture
+@0602@06012@forestry
+@0603@06013@fishery
+@0603@06014@industry
+@0603@06015@trade
+@07@LANGUAGE
+@08@CHARACTER_SET
+@09@PROCESSING
+@10@SOURCE

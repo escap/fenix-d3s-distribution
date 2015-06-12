@@ -1,0 +1,9 @@
+CREATE SCHEMA IF NOT EXISTS DATA;
+
+CREATE TABLE IF NOT EXISTS Metadata (
+  id VARCHAR PRIMARY KEY,
+  status VARCHAR,
+  rowsCount BIGINT,
+  lastUpdate TIMESTAMP,
+  timeout TIMESTAMP
+);

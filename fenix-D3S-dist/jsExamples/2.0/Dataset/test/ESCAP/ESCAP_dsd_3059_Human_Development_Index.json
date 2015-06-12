@@ -1,0 +1,811 @@
+{
+  "data": [
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Afghanistan",
+      "2012",
+      "0.465676468"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Armenia",
+      "2012",
+      "0.728044219"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Australia",
+      "2012",
+      "0.931407177"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Azerbaijan",
+      "2012",
+      "0.744651112"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Bangladesh",
+      "2012",
+      "0.553848004"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Bhutan",
+      "2012",
+      "0.580347382"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Brunei Darussalam",
+      "2012",
+      "0.852061811"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Cambodia",
+      "2012",
+      "0.579350303"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "China",
+      "2012",
+      "0.714918437"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Fiji",
+      "2012",
+      "0.721780517"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Georgia",
+      "2012",
+      "0.741087022"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Hong Kong, China",
+      "2012",
+      "0.889347392"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "India",
+      "2012",
+      "0.58323097"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Indonesia",
+      "2012",
+      "0.681182974"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Iran (Islamic Rep. of)",
+      "2012",
+      "0.749405968"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Japan",
+      "2012",
+      "0.888455801"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Kazakhstan",
+      "2012",
+      "0.754515426"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Kiribati",
+      "2012",
+      "0.605540231"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Kyrgyzstan",
+      "2012",
+      "0.621209941"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Lao PDR",
+      "2012",
+      "0.564645603"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Malaysia",
+      "2012",
+      "0.770325072"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Maldives",
+      "2012",
+      "0.695471294"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Micronesia (F.S.)",
+      "2012",
+      "0.629453313"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Mongolia",
+      "2012",
+      "0.692065048"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Myanmar",
+      "2012",
+      "0.520388885"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Nepal",
+      "2012",
+      "0.536929937"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "New Zealand",
+      "2012",
+      "0.908499638"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Pakistan",
+      "2012",
+      "0.53524889"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Palau",
+      "2012",
+      "0.773274956"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Papua New Guinea",
+      "2012",
+      "0.489923219"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Philippines",
+      "2012",
+      "0.656038503"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Republic of Korea",
+      "2012",
+      "0.888307171"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Russian Federation",
+      "2012",
+      "0.777099955"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Samoa",
+      "2012",
+      "0.692878824"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Singapore",
+      "2012",
+      "0.8994169"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Solomon Islands",
+      "2012",
+      "0.489473811"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Sri Lanka",
+      "2012",
+      "0.745453968"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Tajikistan",
+      "2012",
+      "0.603393082"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Thailand",
+      "2012",
+      "0.719997228"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Timor-Leste",
+      "2012",
+      "0.615692473"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Tonga",
+      "2012",
+      "0.703824046"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Turkey",
+      "2012",
+      "0.75615239"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Turkmenistan",
+      "2012",
+      "0.693445295"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Uzbekistan",
+      "2012",
+      "0.6570528"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Vanuatu",
+      "2012",
+      "0.617397849"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Viet Nam",
+      "2012",
+      "0.635114861"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Afghanistan",
+      "2013",
+      "0.467886421"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Armenia",
+      "2013",
+      "0.730092606"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Australia",
+      "2013",
+      "0.932662115"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Azerbaijan",
+      "2013",
+      "0.747372872"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Bangladesh",
+      "2013",
+      "0.557894873"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Bhutan",
+      "2013",
+      "0.584131602"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Brunei Darussalam",
+      "2013",
+      "0.851822888"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Cambodia",
+      "2013",
+      "0.58401432"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "China",
+      "2013",
+      "0.719080607"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Fiji",
+      "2013",
+      "0.724081794"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Georgia",
+      "2013",
+      "0.743770121"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Hong Kong, China",
+      "2013",
+      "0.891128639"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "India",
+      "2013",
+      "0.585730873"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Indonesia",
+      "2013",
+      "0.684258402"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Iran (Islamic Rep. of)",
+      "2013",
+      "0.749349388"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Japan",
+      "2013",
+      "0.89008607"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Kazakhstan",
+      "2013",
+      "0.757371246"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Kiribati",
+      "2013",
+      "0.607389496"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Kyrgyzstan",
+      "2013",
+      "0.627507013"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Lao PDR",
+      "2013",
+      "0.569420082"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Malaysia",
+      "2013",
+      "0.772907041"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Maldives",
+      "2013",
+      "0.697912839"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Micronesia (F.S.)",
+      "2013",
+      "0.630392716"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Mongolia",
+      "2013",
+      "0.697880501"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Myanmar",
+      "2013",
+      "0.523528389"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Nepal",
+      "2013",
+      "0.539641597"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "New Zealand",
+      "2013",
+      "0.910001629"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Pakistan",
+      "2013",
+      "0.536534766"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Palau",
+      "2013",
+      "0.774805486"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Papua New Guinea",
+      "2013",
+      "0.491468372"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Philippines",
+      "2013",
+      "0.659529959"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Republic of Korea",
+      "2013",
+      "0.890669324"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Russian Federation",
+      "2013",
+      "0.778302805"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Samoa",
+      "2013",
+      "0.693724092"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Singapore",
+      "2013",
+      "0.901305855"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Solomon Islands",
+      "2013",
+      "0.490578321"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Sri Lanka",
+      "2013",
+      "0.749734689"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Tajikistan",
+      "2013",
+      "0.607179311"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Thailand",
+      "2013",
+      "0.721925687"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Timor-Leste",
+      "2013",
+      "0.620243041"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Tonga",
+      "2013",
+      "0.704959221"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Turkey",
+      "2013",
+      "0.758635956"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Turkmenistan",
+      "2013",
+      "0.698208836"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Uzbekistan",
+      "2013",
+      "0.66100064"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Vanuatu",
+      "2013",
+      "0.616381671"
+    ],
+    [
+      "3059",
+      "Human Development Index",
+      "Index",
+      "Viet Nam",
+      "2013",
+      "0.638016545"
+    ]
+  ],
+  "metadata": {
+    "dsd": {
+      "contextSystem": "ESCAP",
+      "datasources": [
+        "D3S"
+      ],
+      "columns": [
+        {
+          "dataType": "code",
+          "title": {
+            "EN": "Indicator ID"
+          },
+          "id": "indicator_id",
+          "key": true,
+          "subject": "Indicator_id"
+        },
+        {
+          "dataType": "text",
+          "title": {
+            "EN": "Indicator Name"
+          },
+          "id": "indicator_name",
+          "subject": "Indicator_name"
+        },
+        {
+          "dataType": "text",
+          "title": {
+            "EN": "Unit"
+          },
+          "id": "Unit",
+          "subject": "Unit"
+        },
+        {
+          "dataType": "text",
+          "title": {
+            "EN": "Area"
+          },
+          "id": "Area",
+          "key": true,
+          "subject": "geo"
+        },
+        {
+          "domain": {
+            "period": {
+              "to": 2099,
+              "from": 1900
+            }
+          },
+          "title": {
+            "EN": "Year"
+          },
+          "dataType": "year",
+          "key": true,
+          "id": "Year",
+          "subject": "time"
+        },
+        {
+          "dataType": "number",
+          "title": {
+            "EN": "Value in Index"
+          },
+          "id": "Value",
+          "subject": "value"
+        }
+      ]
+    },
+    "meContent": {
+      "resourceRepresentationType": "dataset"
+    },
+    "uid": "ESCAP_3059"
+  }
+}

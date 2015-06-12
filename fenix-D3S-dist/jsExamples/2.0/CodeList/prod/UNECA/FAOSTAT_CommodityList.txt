@@ -1,0 +1,854 @@
+{
+    "uid": "FAOSTAT_CommodityList",
+	"version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "UAE Commodity List"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "FAO"
+            },
+            "organizationUnit": {"EN":"ESS"},
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": null,
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["commodity"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": "0601"
+                        }
+                    ],
+                    "idCodeList": "FENIX_Subjects",
+                    "version": "1.0"
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 1,
+            "typeOfCodeList": "list"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    },
+    "dsd" : {
+	    "contextSystem" : "FAOSTAT"
+    }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+
+@0015@Wheat
+@0016@Flour of Wheat
+@0017@Bran of Wheat
+@0018@Macaroni
+@0019@Germ of Wheat
+@0020@Bread
+@0021@Bulgur
+@0022@Pastry
+@0023@Starch of Wheat
+@0024@Wheat Gluten
+@0026@Wheat-Fermented Beverages
+@0027@Rice, paddy
+@0028@Rice, Husked
+@0029@Rice, Milled (Husked)
+@0031@Rice, Milled
+@0032@Rice, Broken
+@0033@Rice, Gluten
+@0034@Starch of Rice
+@0035@Bran of Rice
+@0036@Oil of Rice Bran
+@0037@Cake of Rice Bran
+@0038@Flour of Rice
+@0039@Rice-Fermented Beverages
+@0041@Breakfast Cereals
+@0044@Barley
+@0045@Pot Barley
+@0046@Barley, Pearled
+@0047@Bran of Barley
+@0048@Barley Flour and Grits
+@0049@Malt
+@0050@Malt Extract
+@0051@Beer of Barley
+@0056@Maize
+@0057@Germ of Maize
+@0058@Flour of Maize
+@0059@Bran of Maize
+@0060@Oil of Maize
+@0061@Cake of Maize
+@0063@Maize Gluten
+@0064@Starch of Maize
+@0066@Beer of Maize
+@0067@White Maize
+@0068@Popcorn
+@0071@Rye
+@0072@Flour of Rye
+@0073@Bran of Rye
+@0075@Oats
+@0076@Oats, Rolled
+@0077@Bran of Oats
+@0079@Millet
+@0080@Flour of Millet
+@0081@Bran of Millet
+@0082@Beer of Millet
+@0083@Sorghum
+@0084@Flour of Sorghum
+@0085@Bran of Sorghum
+@0086@Beer of Sorghum
+@0089@Buckwheat
+@0090@Flour of Buckwheat
+@0091@Bran of Buckwheat
+@0092@Quinoa
+@0094@Fonio
+@0095@Flour of Fonio
+@0096@Bran of Fonio
+@0097@Triticale
+@0098@Flour of Triticale
+@0099@Bran of Triticale
+@0101@Canary seed
+@0103@Mixed grain
+@0104@Flour of Mixed Grain
+@0104@Flour of Mixed Grain
+@0105@Bran of Mixed Grain
+@0108@Cereals, nes
+@0109@Infant Food
+@0110@Wafers
+@0111@Flour of Cereals nes
+@0112@Bran of Cereals nes
+@0113@Cereal Preparations
+@0114@Mixes and Doughs
+@0115@Food Preparations of Flour, Meal or Malt Extract
+@0116@Potatoes
+@0117@Flour of Potatoes
+@0118@Frozen Potatoes
+@0119@Starch of Potatoes
+@0120@Potato Offals
+@0121@Tapioca of Potatoes
+@0122@Sweet potatoes
+@0125@Cassava
+@0126@Flour of Cassava
+@0127@Tapioca of Cassava
+@0128@Cassava, Dried
+@0129@Starch of Cassava
+@0135@Yautia (Cocoyam)
+@0136@Taro (Cocoyam)
+@0137@Yams
+@0149@Roots and tubers nes
+@0150@Flour of Roots and Tubers nes
+@0151@Roots and Tubers, Dried nes
+@0154@Fructose, Chemically Pure
+@0155@Maltose, Chemically Pure
+@0156@Sugar cane
+@0157@Sugar beet
+@0158@Cane Sugar
+@0159@Beet Sugar
+@0160@Maple Sugar and Syrups
+@0161@Sugar crops nes
+@0162@Sugar, Raw Centrifugal
+@0163@Sugar, Non-Centrifugal
+@0164@Sugar, Refined
+@0165@Molasses
+@0166@Other Fructose and Syrup
+@0167@Sugar and Syrups nes
+@0168@Sugar Confectionery
+@0169@Beet Pulp
+@0170@Bagasse
+@0172@Glucose and Dextrose
+@0173@Lactose
+@0174@Artificial Sweeteners
+@0175@Isoglucose
+@0176@Beans, dry
+@0181@Broad beans, dry
+@0187@Peas, dry
+@0191@Chick-peas, dry
+@0195@Cow peas, dry
+@0197@Pigeon peas
+@0201@Lentils, dry
+@0203@Bambara beans
+@0205@Vetches
+@0210@Lupins
+@0211@Pulses nes
+@0212@Flour of Pulses
+@0213@Bran of Pulses
+@0216@Brazil nuts
+@0217@Cashew nuts
+@0220@Chestnuts
+@0221@Almonds
+@0222@Walnuts
+@0223@Pistachios
+@0224@Kolanuts
+@0225@Hazelnuts (Filberts)
+@0226@Areca nuts
+@0229@Brazil Nuts, Shelled
+@0230@Cashew Nuts, Shelled
+@0231@Almonds, Shelled
+@0232@Walnuts, Shelled
+@0233@Hazelnuts, Shelled
+@0234@Nuts nes
+@0235@Prepared Nuts
+@0236@Soybeans
+@0237@Oil of Soybeans
+@0238@Cake of Soybeans
+@0239@Soya Sauce
+@0240@Soya Paste
+@0241@Soya Curd
+@0242@Groundnuts, in shell
+@0243@Groundnuts, Shelled
+@0244@Oil of Groundnuts
+@0245@Cake of Groundnuts
+@0246@Prepared Groundnuts
+@0247@Peanut Butter
+@0249@Coconuts
+@0250@Coconuts, Desiccated
+@0251@Copra
+@0252@Oil of Coconuts
+@0253@Cake of Copra
+@0254@[Oil palm fruit]
+@0256@Palm kernels
+@0257@Oil of palm
+@0258@Oil of Palm Kernel
+@0259@Cake of Palm Kernel
+@0260@Olives
+@0261@Oil of Olives, Virgin
+@0262@Olives, Preserved
+@0263@Karite Nuts (Sheanuts)
+@0264@Butter of Karite Nuts
+@0265@Castor Beans
+@0266@Oil of Castor Beans
+@0267@Sunflower seed
+@0268@Oil of Sunflower Seed
+@0269@Cake of Sunflower Seed
+@0270@Rapeseed or colza seed
+@0271@Oil of Rapeseed or Canola oil
+@0272@Cake of Rapeseed
+@0273@Olive Residues
+@0274@Oil of Olive Residues
+@0275@Tung Nuts
+@0276@Oil of Tung Nuts
+@0277@Jojoba Seeds
+@0278@Jojoba Oil
+@0280@Safflower seed
+@0281@Oil of Safflower Seed
+@0282@Cake of Safflower Seed
+@0289@Sesame seed
+@0290@Oil of Sesame Seed
+@0291@Cake of Sesame Seed
+@0292@Mustard seed
+@0293@Oil of Mustard Seed
+@0294@Cake of Mustard Seed
+@0295@Flour of Mustard Seed
+@0296@Poppy seed
+@0297@Oil of Poppy Seed
+@0298@Cake of Poppy Seed
+@0299@Melonseed
+@0305@Tallowtree Seeds
+@0306@Vegetable tallow
+@0307@Stillingia oil
+@0310@Kapok fruit
+@0311@Kapokseed in shell
+@0312@Kapokseed, shelled
+@0313@Oil of Kapok
+@0314@Cake of Kapok
+@0328@[Seed Cotton]
+@0329@Cottonseed
+@0331@Oil of Cottonseed
+@0332@Cake of Cottonseed
+@0333@Linseed
+@0334@Oil of Linseed
+@0335@Cake of Linseed
+@0336@Hempseed
+@0337@Oil of Hempseed
+@0338@Cake of Hempseed
+@0339@Oilseeds nes
+@0340@Oil of Vegetable Origin nes
+@0341@Cake of Oilseeds nes
+@0343@Flour of Oilseeds
+@0358@Cabbages
+@0366@Artichokes
+@0367@Asparagus
+@0372@Lettuce and chicory
+@0373@Spinach
+@0378@Cassava leaves
+@0388@Tomatoes, fresh
+@0390@Juice of Tomatoes
+@0391@Paste of Tomatoes
+@0392@Tomatoes, Peeled (O/T vinegar)
+@0393@Cauliflowers and broccoli
+@0394@Pumpkins, squash and gourds
+@0397@Cucumbers and gherkins
+@0399@Eggplants
+@0401@Chillies and peppers (green)
+@0402@Onions, shallots (green)
+@0403@Onions, dry
+@0406@Garlic
+@0407@Leeks and other alliaceous vegetables
+@0414@Beans, green
+@0417@Peas, green
+@0420@Broad Beans, Green
+@0423@String Beans
+@0426@Carrot
+@0430@Okra
+@0446@Green Corn (Maize)
+@0447@Sweet Corn, Frozen
+@0448@Sweet Corn, Prepared or Preserved
+@0449@Mushrooms
+@0450@Dried Mushrooms
+@0451@Canned Mushrooms
+@0459@Chicory roots
+@0461@Carobs
+@0463@Vegetables, Fresh n.e.s.
+@0466@Juice of Vegetables nes
+@0469@Vegetables, Dehydrated
+@0471@Vegetables in Vinegar
+@0472@Vegetables, Preserved nes (O/T vinegar)
+@0473@Vegetables, Frozen
+@0474@Vegetables, Temporarily Preserved
+@0475@Vegetables, Preserved (Frozen)
+@0476@Homogenized Vegetable Preparations
+@0486@Bananas
+@0489@Plantains
+@0490@Oranges
+@0491@Juice of Orange
+@0492@Orange Juice, Concentrated
+@0495@Tangerines, mandarins, clementines, satsumas
+@0496@Juice of Tangerine, Mandarin and Clementin
+@0497@Lemons and limes
+@0498@Juice of Lemon
+@0499@Lemon Juice, Concentrated
+@0507@Grapefruit and pomelo
+@0509@Juice of Grapefruit
+@0510@Grapefruit Juice, Concentrated
+@0512@Citrus fruit nes
+@0513@Juice of Citrus Fruit nes
+@0514@Citrus Juice, Concentrated nes
+@0515@Apples
+@0517@Cider, etc.
+@0518@Apple Juice
+@0519@Apple Juice, Concentrated
+@0521@Pears
+@0523@Quinces
+@0526@Apricots
+@0527@Apricots, Dried
+@0530@Sour cherries
+@0531@Cherries
+@0534@Peaches and nectarines
+@0536@Plums
+@0537@Plums, dried
+@0538@Juice of plum
+@0539@Juice of plum, concentrated
+@0541@Stone fruit, fresh nes
+@0542@Pome fruit nes
+@0544@Strawberries
+@0547@Raspberries
+@0549@Gooseberries
+@0550@Currants
+@0552@Blueberries
+@0554@Cranberries
+@0558@Berries nes
+@0560@Grapes
+@0561@Raisins
+@0562@Juice of Grape
+@0563@Must of Grape
+@0564@Wine
+@0564@Wine
+@0565@Vermouths, etc.
+@0566@Marc of Grape
+@0567@Watermelons
+@0568@Melons, Cantaloupes
+@0569@Figs
+@0570@Figs, Dried
+@0571@Mangoes
+@0572@Avocados
+@0574@Pineapples
+@0575@Pineapples, Canned
+@0576@Juice of Pineapples
+@0577@Dates
+@0580@Juice of Pineapples, Concentrated
+@0583@Juice of Mango
+@0584@Mango Pulp
+@0587@Persimmons
+@0591@Cashewapple
+@0592@Kiwi fruit
+@0600@Papayas
+@0603@Fruit, tropical (fresh) nes
+@0604@Fruit, tropical (Dried) nes
+@0619@Fruit, fresh nes
+@0620@Fruit, dried nes
+@0622@Juice of fruits nes
+@0623@Fruit, prepared nes
+@0624@Flour of Fruits
+@0625@Fruit, Nuts, Peel, Sugar Preserved
+@0626@Homogenized Cooked Fruit, Prepared
+@0628@Pulp, Waste of Fruit for Feed
+@0629@Beet Tops
+@0630@Cane Tops
+@0631@Waters, Ice and Snow
+@0632@Alcohol, Non-Food Purposes
+@0633@Beverages, Non-Alcoholic
+@0634@Beverages, Distilled Alcoholic
+@0635@Straw and Husks
+@0636@Maize for forage
+@0637@Sorghum for forage
+@0638@Rye grass for forage
+@0639@Grasses nes for forage
+@0640@Clover for forage
+@0641@Alfalfa for forage
+@0642@Green oilseeds for silage
+@0643@Legumes for silage
+@0644@Cabbage for fodder
+@0645@Pumpkins for fodder
+@0646@Turnips for fodder
+@0647@Beets for fodder
+@0648@Carrots for fodder
+@0649@Swedes for fodder
+@0650@Leaves, Tops and Vines nes
+@0651@Forage Products nes
+@0652@Vegetable Products for Feed nes
+@0653@Food Wastes
+@0655@Vegetables, roots fodder nes
+@0656@Coffee green
+@0657@Coffee, Roasted
+@0658@Coffee Substitutes
+@0659@Coffee Extracts
+@0660@Coffee Husks and Skins
+@0661@Cocoa beans
+@0662@Cocoa Paste
+@0663@Cocoa Husks and Shells
+@0664@Cocoa Butter
+@0665@Cocoa Powder and Cake
+@0666@Chocolate Products nes
+@0667@Tea
+@0671@Mate
+@0672@Extracts of Tea and Mate
+@0674@Tea nes
+@0677@Hops
+@0687@Pepper
+@0689@Pimento
+@0692@Vanilla
+@0693@Cinnamon (canella)
+@0698@Cloves
+@0702@Nutmeg, mace, cardamoms
+@0711@Anise, badian, fennel
+@0720@Ginger
+@0723@Spices nes
+@0737@Oil of citronella
+@0748@Peppermint, Spearmint
+@0753@Essential oils nes
+@0754@Pyrethrum, dried flowers
+@0755@Pyrethrum Extract
+@0756@Pyrethrum Marc
+@0767@Cotton Lint
+@0768@Cotton, Carded or Combed
+@0769@Cotton Waste
+@0770@Cotton Linters
+@0771@Flax, raw or retted
+@0773@Flax fibre and tow
+@0774@Flax tow and waste
+@0777@Hemp fibre and tow
+@0778@Kapok fibre
+@0780@Jute
+@0782@Jute-like fibres
+@0788@Ramie
+@0789@Sisal
+@0800@Agave fibres nes
+@0809@Abaca manila hemp
+@0813@Coir
+@0821@Fibre crops nes
+@0826@Tobacco leaves
+@0828@Cigarettes
+@0829@Cigars and Cheroots
+@0831@Tobacco Products nes
+@0836@Natural rubber
+@0837@Rubber, Natural (Dry)
+@0839@Natural gums
+@0840@Compound Feed, Cattle
+@0841@Compound Feed, Poultry
+@0842@Compound Feed, Pigs
+@0843@Pet Food
+@0845@Compound Feed nes
+@0846@Gluten Feed and Meal
+@0849@Feed Yeast
+@0850@Feed Supplements
+@0851@Non-Protein Nitrogens
+@0852@Other Concentrates nes
+@0853@Vitamins
+@0854@Feed Additives
+@0855@Feed Minerals
+@0857@Hay, non leguminous
+@0858@Hay (Clover, Lucerne, etc.)
+@0859@Hay nes
+@0862@Alfalfa Meal and Pellets
+@0866@Cattle
+@0867@Meat of cattle
+@0868@Offals of cattle, edible
+@0869@Fat of cattle
+@0870@Meat of cattle, boneless
+@0871@Cattle, Butcher Fat
+@0872@Beef and Veal, Dried, Salted, Smoked
+@0873@Meat Extracts
+@0874@Sausages of Beef and Veal
+@0875@Beef and Veal Preparations nes
+@0877@Homogenized Meat Preparations
+@0878@Liver Preparations
+@0882@Cow milk, whole (fresh)
+@0883@Standardized Milk
+@0885@Cream, Fresh
+@0886@Butter of Cow Milk
+@0887@Ghee from Cow Milk
+@0888@Skim Milk of Cows
+@0889@Whole Milk, Condensed
+@0890@Whey, Condensed
+@0891@Yoghurt
+@0892@Yoghurt, Concentrated or Unconcent
+@0893@Buttermilk, Curdled Milk, Acidified Milk
+@0894@Whole Milk, Evaporated
+@0895@Skim Milk, Evaporated
+@0896@Skim Milk, Condensed
+@0897@Dry Whole Cow Milk
+@0898@Dry Skim Cow Milk
+@0899@Dry Buttermilk
+@0900@Dry Whey
+@0901@Cheese from Whole Cow Milk
+@0903@Whey, Fresh
+@0904@Cheese from Skimmed Cow Milk
+@0905@Whey Cheese
+@0907@Processed Cheese
+@0908@Reconstituted Milk
+@0909@Products of Natural Milk Constitue, nes
+@0910@Ice Cream and Edible Ice
+@0916@Egg Albumin
+@0917@Casein
+@0919@Cattle hides, fresh
+@0920@Hides, Wet-Salted (Cattle)
+@0921@Hides, Dry-Salted (Cattle)
+@0922@Hides nes, Cattle
+@0927@Skins, fresh (calves)
+@0928@Skins, Wet-Salted (Calves)
+@0929@Skins, Dry-Salted (Calves)
+@0930@Skins nes, Calves
+@0946@Buffaloes
+@0947@Buffalo meat
+@0948@Offals of buffalo, edible
+@0949@Fat of buffalo
+@0951@Buffalo milk
+@0952@Butter of Buffalo Milk
+@0953@Ghee, from Buffalo Milk
+@0954@Skim Milk of Buffalo
+@0955@Cheese of Buffalo Milk
+@0957@Buffalo hides, fresh
+@0958@Hides, Wet-Salted (Buffalo)
+@0959@Hides, Dry-Salted (Buffalo)
+@0976@Sheep
+@0977@Meat of sheep
+@0978@Offals of sheep, edible
+@0979@Fat of sheep
+@0982@Sheep milk
+@0983@Butter and Ghee of Sheep Milk
+@0984@Cheese of Sheep Milk
+@0985@Skim Sheep Milk
+@0987@Wool, Greasy
+@0988@Wool, Degreased
+@0994@Wool Grease and Lanolin
+@0995@Sheepskins, fresh
+@0996@Skins, Wet-Salted (Sheep)
+@0997@Skins, Dry-Salted (Sheep)
+@0998@Skins nes, Sheep
+@0999@Skins with Wool, Sheep
+@1002@Karakul skins
+@1007@Wool, Shoddy
+@1008@Hair, Carded, Combed
+@1009@Wool, Hair Waste
+@1010@Wool Tops
+@1016@Goats
+@1017@Goat meat
+@1018@Offals of goats, edible
+@1019@Fat of goats
+@1020@Goat milk
+@1021@Cheese of Goat Milk
+@1022@Butter of Goat Milk
+@1023@Skim Milk of Goat
+@1025@Goatskins, fresh
+@1026@Skins, Wet-Salted (Goats)
+@1027@Skins, Dry-Salted (Goats)
+@1028@Skins nes, Goats
+@1030@Fine goat hair
+@1031@Coarse goat hair
+@1034@Pigs
+@1035@Pig meat
+@1036@Offals of pigs, edible
+@1037@Fat of pigs
+@1038@Pork
+@1039@Bacon and Ham
+@1040@Pig, Butcher Fat
+@1041@Sausages of Pig Meat
+@1042@Pig Meat Preparations
+@1043@Lard
+@1044@Pigskins, fresh
+@1045@Skins, Wet-Salted (Pigs)
+@1046@Skins, Dry-Salted (Pigs)
+@1047@Skins nes, Pigs
+@1057@Chickens
+@1058@Chicken meat
+@1059@Offals and liver of chickens
+@1060@Fatty Liver Preparations
+@1061@Meat, Canned (Poultry)
+@1062@Hen eggs
+@1063@Eggs, Liquid
+@1064@Eggs, Dried
+@1065@Fat of poultry
+@1066@Fat of Poultry, Rendered
+@1067@Hen eggs, (number)
+@1068@Ducks
+@1069@Duck meat
+@1072@Geese
+@1073@Goose meat
+@1074@Offals and liver of geese
+@1075@Offals and liver of ducks
+@1079@Turkeys
+@1080@Turkey meat
+@1081@Offals and liver of turkey
+@1083@Pigeons and other birds
+@1089@Meat of pigeons and other birds nes
+@1091@Eggs, excluding hen eggs
+@1092@Eggs, excluding hen eggs (number)
+@1096@Horses
+@1097@Horse meat
+@1098@Offals of horses
+@1100@Hair of horses
+@1102@Horse hides, fresh
+@1103@Hides, Wet-Salted (Horses)
+@1104@Hides, Dry-Salted (Horses)
+@1105@Hides nes, Horses
+@1107@Asses
+@1108@Meat of asses
+@1109@Hides of asses, fresh
+@1110@Mules
+@1111@Meat of mules
+@1112@Hides of mules, fresh
+@1126@Camels
+@1127@Meat of camels
+@1128@Offals of camels, edibles
+@1129@Fat of camels
+@1130@Camel milk
+@1133@Camel hides, fresh
+@1134@Hides, Wet-Salted (Camels)
+@1136@Hides nes, Camels
+@1140@Rabbits
+@1141@Rabbit meat
+@1146@Rabbit skins
+@1150@Other rodents
+@1151@Meat of other domestic rodents
+@1151@Meat of other domestic rodents
+@1157@Other camelids
+@1158@Meat of other domestic camelids
+@1160@Fat of other camelids
+@1163@Game meat
+@1164@Meat, Dried nes
+@1166@Meat nes
+@1167@Offals nes
+@1168@Animal Oils and Fats nes
+@1169@Live animals, non food nes
+@1171@Live animals nes
+@1172@Meat, Prepared nes
+@1173@Meat Meal
+@1174@Fish Meal
+@1175@Blood Meal
+@1176@Snails o/t sea snails
+@1181@Beehives
+@1182@Honey
+@1183@Beeswax
+@1185@Cocoons, reelable
+@1186@Silk, Raw
+@1187@Cocoons Unreelable, Waste
+@1195@Fur skin
+@1213@Hides and skins nes, fresh
+@1214@Hides, Wet-Salted nes
+@1215@Hides, Dry-Salted nes
+@1216@Hides nes
+@1217@Leather, Used and Waste
+@1218@Hair, fine
+@1219@Hair, coarse nes
+@1221@Lard Stearine and Lard Oil
+@1222@Degras
+@1223@Oil from Fish and Marine Mammals
+@1225@Tallow
+@1232@Food Preparations nes
+@1241@Liquid Margarine
+@1242@Margarine and Shortening
+@1243@Fat Preparations nes
+@1259@Food Waste, Prep. for Feed
+@1273@Castor Oil, Hydrogenated
+@1274@Oils Boiled, Dehydrated, etc.
+@1275@Hydrogenated Oils and Fats
+@1276@Fatty Acids
+@1277@Residues of Fatty Substances
+@1291@Arabic gum
+@1292@Other resins
+@1293@Crude Organic Materials nes
+@1294@Seeds for Planting
+@1295@Spermaceti
+@1296@Vegetable waxes
+@1309@Insecticides, total (Consumption)
+@1320@Herbicides, total
+@1331@Fungicides and bactericides, total
+@1345@Rodenticides, total (Consumption)
+@1352@Fungicides seed treatments, total (Consumption)
+@1353@Insecticides seed treatments, total (Consumption)
+@1357@Pesticides (Trade)
+@1360@Nitrogenous fertilizers
+@1375@Phosphate fertilizers
+@1386@Potash fertilizers
+@1398@Natural Sodium Nitrate
+@1399@Natural Phosphates
+@1401@Fertilizers, Organic
+@1419@Disinfectants,etc (Trade)
+@1422@Mercury compounds etc. excl. amalgams spartana (Trade)
+@1423@Ethylene dichloride (Trade)
+@1424@Ethylene dibromide (1,2-dibromoethane) (Trade)
+@1425@HCH (mixed isomers) / Lindane (Trade)
+@1426@Aldrin, Chlordane, Heptachlor (Trade)
+@1427@DDT, Hexachlorobenzene (Trade)
+@1428@Pentachlorophenol (Trade)
+@1429@Salts of Pentachlorophenol (excl 280811)
+@1430@Dinoseb and dinoseb salts (Trade)
+@1431@DNOC and its salts (excl. 290811-290891) (Trade)
+@1432@Oxirane (ethylene oxide) (Trade)
+@1433@Dieldrin (Trade)
+@1434@Dinoseb acetate (Trade)
+@1435@Binapacryl (Trade)
+@1436@Chlorobenzilate (Trade)
+@1437@2,4,5-T and its salts and esters (Trade)
+@1438@Parathion & parathion-methyl (Trade)
+@1439@Fluoroacetamide, monocrotophos & phosphamidon (Trade)
+@1440@Chlordimeform (Trade)
+@1441@Captafol & methamidophos (Trade)
+@1442@Hazardous pesticides (Trade)
+@1443@Insecticides (excl. Haz. pest.) (Trade)
+@1444@Fungicides (excl. Haz. pest.) (Trade)
+@1445@Herbicides (excl. Haz. pest.) (Trade)
+@1446@Disinfectants, etc (excl. Haz. pest.) (Trade)
+@2455001@Ploughs
+@2455002@Seeders
+@2455003@Manure spreaders and Fert. distributors
+@2455004@Combine harvesters - threshers
+@2455005@Balers
+@2455006@Root or tuber harvesting machines
+@2455007@Threshing machines(staking,forage harv.)
+@2455008@Milking machines
+@2455009@Agricultural tractors, total
+@2455010@Pedestrian controlled tractors
+@2455011@Agricultural tractors
+@2455012@Track-laying tractors
+@2455013@Other Agricultural tractors
+@2455014@Harvester and threshers (trade)
+@2455015@Milking, dairy machinery (trade)
+@2455016@Soil machinery (trade)
+@2455017@Agricultural machinery nes (trade)
+@2510@Phosphate rock
+@2814@Ammonia, anhydrous
+@2814@Ammonia, anhydrous
+@283421@Potassium nitrate
+@3102@Nitrogen Fertilizers (N total nutrients)
+@310210@Urea
+@310221@Ammonium sulphate
+@310230@Ammonium nitrate
+@310240@Calcium ammonium nitrate
+@310280@Urea and ammonium nitrate solutions
+@3103@Phosphate Fertilizers (P205 total nutrients)
+@310310@Superphosphate
+@31031010@Superphosphate above 35%
+@31031090@Superphosphate other
+@3104@Potash Fertilizers (K20 total nutrients)
+@310420@Potassium chloride (Muriate of potash)
+@310430@Potassium sulphate
+@310510@NPK complex <= 10kg
+@310520@NPK complex >10kg
+@310530@Diammonium phosphate (DAP)
+@310540@Monoammonium phosphate (MAP)
+@310551@Other nitrogen & phosphates compounds
+@310559@Other nitrogen & phosphorus compounds
+@310560@PK compounds
+@310610@NPK complex
+@1753@Fibre Crops Primary + (Total)
+@1814@Coarse Grain; Total + (Total)
+@1817@Cereals (Rice Milled Eqv) + (Total)

@@ -1,0 +1,35 @@
+[
+  {
+    "name" : "group",
+    "parameters" : {
+      "by" : [
+        "Item", "Country"
+      ],
+      "aggregations" : [
+        {
+          "columns" : ["Value","Year/1000"],
+          "rule" : "WAVG"
+        }
+      ]
+    }
+  },
+  {
+    "name" : "order",
+    "parameters" : {
+      "Country" : "ASC"
+    }
+  },
+  {
+    "name" : "asTable"
+  },
+  {
+    "name" : "distinct"
+  },
+  {
+    "name" : "page",
+    "parameters" : {
+      "perPage" : 5,
+      "page" : 2
+    }
+  }
+]

@@ -1,0 +1,103 @@
+{
+  "metadata" : {
+    "uid" : "CSTAT_PopulationKenya_GeoDistribution_1999",
+    "title" : {
+      "EN" : "Subregional distribution of the Kenya population -1999"
+    },
+    "meContent" : {
+      "resourceRepresentationType" : "dataset",
+      "resourceRepresentationTypeLabel" : {
+        "EN" : "Dataset"
+      }
+    },
+
+    "dsd" : {
+      "datasources" : ["D3S"],
+      "contextSystem" : "demoFENIX",
+      "columns" : [
+        {
+          "id" : "Year",
+          "title" : {
+            "EN" : "Year"
+          },
+          "subject" : "time",
+          "key" : true,
+          "dataType" : "year",
+          "domain" : {
+            "period" : {
+              "from" : 1995,
+              "to" : 2013
+            }
+          },
+          "values" : {
+            "timeList" : [ 1999]
+          }
+        },
+        {
+          "id" : "Region",
+          "title" : {
+            "EN" : "Country"
+          },
+          "subject" : "geo",
+          "key" : true,
+          "dataType" : "code",
+          "domain" : {
+            "codes" : [ { "idCodeList" : "GAUL", "version" : "2014" } ]
+          },
+          "values" : {
+            "codes" : [ {
+              "idCodeList" : "GAUL", "version" : "2014",
+              "codes" : [ { "code" : "51328" },{ "code" : "51327" },{ "code" : "51326" },{ "code" : "51325" },{ "code" : "51332" },{ "code" : "51329" },{ "code" : "51330" },{ "code" : "51331" } ]
+            } ]
+          }
+        },
+        {
+          "dataType" : "text",
+          "title" : {
+            "EN" : "Indicator"
+          },
+          "subject" : null,
+          "key" : false,
+          "id" : "Indicator"
+        },
+        {
+          "dataType" : "number",
+          "title" : {
+            "EN" : "Value"
+          },
+          "subject" : "value",
+          "key" : false,
+          "id" : "Value"
+        },
+        {
+          "id" : "Unit",
+          "title" : {
+            "EN" : "Unit"
+          },
+          "subject" : "um",
+          "key" : false,
+          "dataType" : "code",
+          "domain" : {
+            "codes" : [ { "idCodeList" : "FAOSTAT_UM" } ]
+          },
+          "values" : {
+            "codes" : [ {
+              "idCodeList" : "FAOSTAT_UM",
+              "codes" : [ { "code" : "60" } ]
+            } ]
+          }
+        }
+      ]
+    }
+  },
+  "data" : [
+[1999,"51328","Total Population",2137,"60"],
+[1999,"51327","Total Population",4643,"60"],
+[1999,"51326","Total Population",2491,"60"],
+[1999,"51325","Total Population",3705,"60"],
+[1999,"51332","Total Population",3354,"60"],
+[1999,"51329","Total Population",508,"60"],
+[1999,"51330","Total Population",4391,"60"],
+[1999,"51331","Total Population",6991,"60"]
+  ]
+}

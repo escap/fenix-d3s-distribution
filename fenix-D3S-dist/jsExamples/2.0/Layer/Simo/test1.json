@@ -1,0 +1,48 @@
+{
+  "uid": "fenix_gaul3",
+  "version" : "1.0",
+  "creationDate": 1416221596000,
+  "meContent": {
+    "resourceRepresentationType": "geographic",
+    "seCoverage": {
+      "coverageSectors": {
+        "idCodeList": "FENIX_GeographicalSectors",
+        "version" : "1.0",
+        "codes": [{"code": "MODIS_LAND_COVER"}]
+      },
+      "coverageTime": {
+        "to": 1402783200000,
+        "from": 1426948320000
+      }
+    }
+  },
+  "meSpatialRepresentation": {
+    "processing": {
+      "idCodeList": "FENIX_GeographicalProcessing",
+      "version" : "1.0",
+      "codes": [{"code": "AVG_MONTHLY"}]
+    },
+    "layerType": "vector"
+  },
+  "meReferenceSystem" : {
+    "seProjection" : {
+      "projection" : {
+        "idCodeList": "mapProjections",
+        "version" : "1.0",
+        "codes": [{"code": "3857"}]
+      }
+    }
+  },
+  "title": {"EN": "Cultivation Organic Soils - Croplands"},
+
+  "dsd" : {
+    "contextSystem" : "FENIX",
+    "workspace" : "FENIX",
+    "layerName" : "gaul0|1.0",
+    "datasources" : ["D3S", "UNECA"],
+    "contextExtension" : {
+         "distribution" : [ {"uid" : "", "version" : ""}]
+    }
+  }
+}
+

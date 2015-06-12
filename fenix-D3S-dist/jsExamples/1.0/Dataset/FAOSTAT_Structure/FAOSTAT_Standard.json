@@ -1,0 +1,65 @@
+{   "uid": "FAOSTAT_FS",
+    "dsd": {
+    "contextSystem": {
+        "name": "FAOSTAT"
+    },
+    "datasource": {
+        "reference": {
+            "psw": "",
+            "usr": "",
+            "url": ""
+        },
+        "dao": "faostat"
+    },
+    "columns": [
+        {
+            "columnId": "1",
+            "dataType": "code",
+            "title": {
+                "EN": "Partner Country"
+            },
+            "dimension": {
+                "name": "GEO"
+            }
+        },
+        {
+            "columnId": "2",
+            "dataType": "code",
+            "title": {
+                "EN": "Elements"
+            },
+            "dimension": {
+                "name": "ELEMENT"
+            }
+        },
+        {
+            "columnId": "3",
+            "dataType": "code",
+            "title": {
+                "EN": "Items"
+            },
+            "dimension": {
+                "name": "ITEM",
+                "title": {
+                    "FR": "Produits",
+                    "EN": "Products"
+                }
+            }
+        },
+        {
+            "columnId": "4",
+            "dataType": "year",
+            "title": {
+                "EN": "Year"
+            },
+            "dimension": {
+                "name": "TIME",
+                "title": {
+                    "FR": "Années",
+                    "EN": "Year"
+                }
+            }
+        }
+    ],
+    "aggregationRules": null
+}}

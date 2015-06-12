@@ -1,0 +1,168 @@
+{
+    "uid": "AFO_Countrycode",
+	"version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "AFRICA FERTILIZER country codes"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "Food and Agriculture Organization of United Nations"
+            },
+            "organizationUnit": {
+                "EN": "ESS"
+            },
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": null,
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["geographic"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+		  "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": "0201"
+                        }
+                    ],
+                    "idCodeList": "FENIX_Subjects",
+                    "version": "1.0"
+                }
+        },
+                "seCodeList"  : {
+            "numberOfLevels": 1,
+            "typeOfCodeList": "tree"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    },
+         "dsd" : {
+     	    "contextSystem" : "AFO"
+         }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+@ALG@ALGERIA
+@ANG@ANGOLA
+@BDI@BURUNDI
+@BEN@BENIN
+@BFA@BURKINA FASO
+@BOT@BOTSWANA
+@CAM@CAMEROON
+@CHA@CHAD
+@CIV@COTE D'IVOIRE
+@CON@CONGO REPUBLIC
+@DJI@DJIBOUTI
+@DRC@CONGO DR
+@EGY@EGYPT
+@ERI@ERITHREA
+@ETH@ETHIOPIA
+@GAB@GABON
+@GAM@GAMBIA
+@GHA@GHANA
+@GUI@GUINEA
+@KEN@KENYA
+@LES@LESOTHO
+@LIB@LIBERIA
+@LYA@LIBYA
+@MAD@MADAGASCAR
+@MAL@MALI
+@MAU@MAURITIUS
+@MAW@MALAWI
+@MOR@MOROCCO
+@MOZ@MOZAMBIQUE
+@MRT@MAURITANIA
+@NAM@NAMIBIA
+@NGR@NIGERIA
+@NIG@NIGER
+@OAF@zVARIOUS AFRICA
+@REU@REUNION
+@RWA@RWANDA
+@SAF@SOUTH AFRICA
+@SEN@SENEGAL
+@SLE@SIERRA LEONE
+@SOM@SOMALIA
+@SUD@SUDAN
+@TAN@TANZANIA
+@TOG@TOGO
+@TUN@TUNISIA
+@UGA@UGANDA
+@ZAM@ZAMBIA
+@ZIM@ZIMBABWE

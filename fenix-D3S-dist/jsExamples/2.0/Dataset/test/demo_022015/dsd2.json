@@ -1,0 +1,560 @@
+{
+  "columns": [
+    {
+      "dataType": "code",
+      "title": {
+        "EN": "Fertilizer"
+      },
+      "values": {
+        "codes": [
+          {
+            "codes": [
+              {
+                "code": "283421",
+                "label": {
+                  "EN": "Potassium nitrate"
+                }
+              },
+              {
+                "code": "310559",
+                "label": {
+                  "EN": "Other nitrogen & phosphorus compounds"
+                }
+              },
+              {
+                "code": "310551",
+                "label": {
+                  "EN": "Other nitrogen & phosphates compounds"
+                }
+              },
+              {
+                "code": "310530",
+                "label": {
+                  "EN": "Diammonium phosphate (DAP)"
+                }
+              },
+              {
+                "code": "31019"
+              },
+              {
+                "code": "31018"
+              },
+              {
+                "code": "31011"
+              },
+              {
+                "code": "3101"
+              },
+              {
+                "code": "310230",
+                "label": {
+                  "EN": "Ammonium nitrate"
+                }
+              },
+              {
+                "code": "2814",
+                "label": {
+                  "EN": "Ammonia, anhydrous"
+                }
+              },
+              {
+                "code": "310560",
+                "label": {
+                  "EN": "PK compounds"
+                }
+              },
+              {
+                "code": "310520",
+                "label": {
+                  "EN": "NPK complex >10kg"
+                }
+              },
+              {
+                "code": "310420",
+                "label": {
+                  "EN": "Potassium chloride (Muriate of potash)"
+                }
+              },
+              {
+                "code": "310310",
+                "label": {
+                  "EN": "Superphosphate"
+                }
+              },
+              {
+                "code": "310210",
+                "label": {
+                  "EN": "Urea"
+                }
+              },
+              {
+                "code": "310221",
+                "label": {
+                  "EN": "Ammonium sulphate"
+                }
+              },
+              {
+                "code": "310430",
+                "label": {
+                  "EN": "Potassium sulphate"
+                }
+              },
+              {
+                "code": "31031010",
+                "label": {
+                  "EN": "Superphosphate above 35%"
+                }
+              },
+              {
+                "code": "310280",
+                "label": {
+                  "EN": "Urea and ammonium nitrate solutions"
+                }
+              },
+              {
+                "code": "310240",
+                "label": {
+                  "EN": "Calcium ammonium nitrate"
+                }
+              },
+              {
+                "code": "310620"
+              },
+              {
+                "code": "310610",
+                "label": {
+                  "EN": "NPK complex"
+                }
+              },
+              {
+                "code": "310510",
+                "label": {
+                  "EN": "NPK complex <= 10kg"
+                }
+              },
+              {
+                "code": "310540",
+                "label": {
+                  "EN": "Monoammonium phosphate (MAP)"
+                }
+              },
+              {
+                "code": "310500"
+              },
+              {
+                "code": "2510",
+                "label": {
+                  "EN": "Phosphate rock"
+                }
+              },
+              {
+                "code": "31031090",
+                "label": {
+                  "EN": "Superphosphate other"
+                }
+              },
+              {
+                "code": "31015"
+              },
+              {
+                "code": "31014"
+              },
+              {
+                "code": "31017"
+              },
+              {
+                "code": "2521"
+              },
+              {
+                "code": "31016"
+              },
+              {
+                "code": "310590"
+              },
+              {
+                "code": "31012"
+              },
+              {
+                "code": "31013"
+              },
+              {
+                "code": "310250"
+              },
+              {
+                "code": "310260"
+              },
+              {
+                "code": "310270"
+              },
+              {
+                "code": "310290"
+              },
+              {
+                "code": "310320"
+              },
+              {
+                "code": "310229"
+              },
+              {
+                "code": "310390"
+              },
+              {
+                "code": "310410"
+              },
+              {
+                "code": "310490"
+              }
+            ],
+            "idCodeList": "FAOSTAT_CommodityList",
+            "extendedName": {
+              "EN": "UAE Commodity List"
+            }
+          }
+        ]
+      },
+      "domain": {
+        "codes": [
+          {
+            "idCodeList": "FAOSTAT_CommodityList",
+            "extendedName": {
+              "EN": "UAE Commodity List"
+            }
+          }
+        ]
+      },
+      "subject": "item",
+      "key": true,
+      "id": "Fertilizer"
+    },
+    {
+      "dataType": "code",
+      "title": {
+        "EN": "Country"
+      },
+      "values": {
+        "codes": [
+          {
+            "version": "2014",
+            "codes": [
+              {
+                "code": "29",
+                "label": {
+                  "PT": "Benim",
+                  "FR": "Bénin",
+                  "AR": "بنن",
+                  "EN": "Benin",
+                  "RU": "Бенин",
+                  "ES": "Benin",
+                  "ZH": "贝 宁"
+                }
+              },
+              {
+                "code": "43",
+                "label": {
+                  "PT": "Burundi",
+                  "FR": "Burundi",
+                  "AR": "بوروندي",
+                  "EN": "Burundi",
+                  "RU": "Бурунди",
+                  "ES": "Burundi",
+                  "ZH": "布隆迪"
+                }
+              },
+              {
+                "code": "45",
+                "label": {
+                  "PT": "Camarões",
+                  "FR": "Cameroun",
+                  "AR": "الكاميرون",
+                  "EN": "Cameroon",
+                  "RU": "Камерун",
+                  "ES": "Camerén",
+                  "ZH": "喀麦隆"
+                }
+              },
+              {
+                "code": "79",
+                "label": {
+                  "PT": "Etiópia",
+                  "FR": "Éthiopie",
+                  "AR": "إثيوبيا",
+                  "EN": "Ethiopia",
+                  "RU": "Эфиопия",
+                  "ES": "Etiopía",
+                  "ZH": "埃塞俄比亚"
+                }
+              },
+              {
+                "code": "90",
+                "label": {
+                  "PT": "Gâmbia",
+                  "FR": "Gambie",
+                  "AR": "غامبيا",
+                  "EN": "Gambia",
+                  "RU": "Гамбия",
+                  "ES": "Gambia",
+                  "ZH": "冈比亚"
+                }
+              },
+              {
+                "code": "94",
+                "label": {
+                  "PT": "Gana",
+                  "FR": "Ghana",
+                  "AR": "غانا",
+                  "EN": "Ghana",
+                  "RU": "Гана",
+                  "ES": "Ghana",
+                  "ZH": "加 纳"
+                }
+              },
+              {
+                "code": "133",
+                "label": {
+                  "PT": "Quênia",
+                  "FR": "Kenya",
+                  "AR": "كينيا",
+                  "EN": "Kenya",
+                  "RU": "Кения",
+                  "ES": "Kenya",
+                  "ZH": "肯尼亚"
+                }
+              },
+              {
+                "code": "152",
+                "label": {
+                  "PT": "Malawi",
+                  "FR": "Malawi",
+                  "AR": "ملاوي",
+                  "EN": "Malawi",
+                  "RU": "Малави",
+                  "ES": "Malawi",
+                  "ZH": "马拉维"
+                }
+              },
+              {
+                "code": "155",
+                "label": {
+                  "PT": "Mali",
+                  "FR": "Mali",
+                  "AR": "مالي",
+                  "EN": "Mali",
+                  "RU": "Мали",
+                  "ES": "Malí",
+                  "ZH": "马 里"
+                }
+              },
+              {
+                "code": "181",
+                "label": {
+                  "PT": "Níger",
+                  "FR": "Niger",
+                  "AR": "النيجر",
+                  "EN": "Niger",
+                  "RU": "Нигер",
+                  "ES": "Níger",
+                  "ZH": "尼日尔"
+                }
+              },
+              {
+                "code": "205",
+                "label": {
+                  "PT": "Ruanda",
+                  "FR": "Rwanda",
+                  "AR": "رواندا",
+                  "EN": "Rwanda",
+                  "RU": "Руанда",
+                  "ES": "Rwanda",
+                  "ZH": "卢旺达"
+                }
+              },
+              {
+                "code": "217",
+                "label": {
+                  "PT": "Senegal",
+                  "FR": "Sénégal",
+                  "AR": "السنغال",
+                  "EN": "Senegal",
+                  "RU": "Сенегал",
+                  "ES": "Senegal",
+                  "ZH": "塞内加尔"
+                }
+              },
+              {
+                "code": "257",
+                "label": {
+                  "PT": "Tanzânia",
+                  "FR": "République-Unie de Tanzanie",
+                  "AR": "جمهورية تنزانيا المتحدة",
+                  "EN": "United Republic of Tanzania",
+                  "RU": "Объединенная Республика Танзания",
+                  "ES": "Repéblica Unida de Tanzanía",
+                  "ZH": "坦桑尼亚联合共和国"
+                }
+              },
+              {
+                "code": "243",
+                "label": {
+                  "PT": "Togo",
+                  "FR": "Togo",
+                  "AR": "توغو",
+                  "EN": "Togo",
+                  "RU": "Того",
+                  "ES": "Togo",
+                  "ZH": "多 哥"
+                }
+              },
+              {
+                "code": "270",
+                "label": {
+                  "PT": "Zâmbia",
+                  "FR": "Zambie",
+                  "AR": "زامبيا",
+                  "EN": "Zambia",
+                  "RU": "Замбия",
+                  "ES": "Zambia",
+                  "ZH": "赞比亚"
+                }
+              },
+              {
+                "code": "105",
+                "label": {
+                  "PT": "Guiné-Bissau",
+                  "FR": "Guinée-Bissau",
+                  "AR": "غينيا - بيساو",
+                  "EN": "Guinea-Bissau",
+                  "RU": "Гвинея-Бисау",
+                  "ES": "Guinea-Bissau",
+                  "ZH": "几内亚比绍"
+                }
+              }
+            ],
+            "idCodeList": "GAUL0",
+            "extendedName": {
+              "EN": "Global administrative unit layer country level"
+            }
+          }
+        ]
+      },
+      "domain": {
+        "codes": [
+          {
+            "version": "2014",
+            "idCodeList": "GAUL0",
+            "extendedName": {
+              "EN": "Global administrative unit layer country level"
+            }
+          }
+        ]
+      },
+      "subject": "geo",
+      "key": true,
+      "id": "Country"
+    },
+    {
+      "dataType": "code",
+      "title": {
+        "EN": "Element"
+      },
+      "values": {
+        "codes": [
+          {
+            "codes": [
+              {
+                "code": "5600",
+                "label": {
+                  "EN": "Import Quantity"
+                }
+              },
+              {
+                "code": "5900",
+                "label": {
+                  "EN": "Export Quantity"
+                }
+              }
+            ],
+            "idCodeList": "FAOSTAT_Fertilizer_Elements",
+            "extendedName": {
+              "EN": "FAOSTAT Fertilizer Elements"
+            }
+          }
+        ]
+      },
+      "domain": {
+        "codes": [
+          {
+            "idCodeList": "FAOSTAT_Fertilizer_Elements",
+            "extendedName": {
+              "EN": "FAOSTAT Fertilizer Elements"
+            }
+          }
+        ]
+      },
+      "key": true,
+      "id": "Element"
+    },
+    {
+      "dataType": "year",
+      "title": {
+        "EN": "year"
+      },
+      "values": {
+        "timeList": [
+          2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013
+        ]
+      },
+      "subject": "time",
+      "key": true,
+      "id": "year"
+    },
+    {
+      "dataType": "number",
+      "title": {
+        "EN": "Value"
+      },
+      "subject": "value",
+      "key": false,
+      "id": "Value"
+    },
+    {
+      "dataType": "code",
+      "title": {
+        "EN": "UM"
+      },
+      "values": {
+        "codes": [
+          {
+            "codes": [
+              {
+                "code": "TN",
+                "label": {
+                  "EN": "Tonnes"
+                }
+              }
+            ],
+            "idCodeList": "UAE_UM",
+            "extendedName": {
+              "EN": "Unit of measure codelist"
+            }
+          }
+        ]
+      },
+      "domain": {
+        "codes": [
+          {
+            "idCodeList": "UAE_UM",
+            "extendedName": {
+              "EN": "Unit of measure codelist"
+            }
+          }
+        ]
+      },
+      "subject": "um",
+      "key": false,
+      "id": "UM"
+    }
+  ],
+  "rid": "63_108",
+  "datasource": "D3S",
+  "contextSystem": "demo1"
+}

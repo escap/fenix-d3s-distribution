@@ -1,0 +1,72 @@
+{
+"filter": {
+    "types": ["dataset"],
+    "metadata": {
+        "uid": [
+            {
+                "enumeration": "053CTR412"
+            },
+            {
+                "enumeration": "107CTR412"
+            },
+            {
+                "enumeration": "133CTR412"
+            },
+            {
+                "enumeration": "233CTR412"
+            },
+            {
+                "enumeration": "195CTR412"
+            },
+            {
+                "enumeration": "158CTR412"
+            },
+            {
+                "enumeration": "217CTR412"
+            },
+            {
+                "enumeration": "175CTR412"
+            }
+        ]
+    }
+}, "business": [
+    {
+        "properties": {
+            "output": {
+                "GEO": {
+                    "out": false,
+                    "key": false
+                },
+                "TIME": {
+                    "out": true,
+                    "key": true
+                },
+                "ITEM": {
+                    "out": true,
+                    "key": true
+                },
+                "FLAG": {
+                    "out": true,
+                    "key": false
+                },
+                "UM": {
+                    "out": true,
+                    "key": false
+                },
+                "VALUE": {
+                    "out": true,
+                    "key": false
+                }
+            },
+            "secondAggregation": {
+                "VALUE": {
+                    "implementation": "operator.UEMOAAdd"
+                },
+                "FLAG": {
+                    "implementation": "operator.UEMOAFlagAdd"
+                }
+            },
+            "checkAllCountriesKeyProducts": true
+        }
+    }
+]}

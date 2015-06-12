@@ -1,0 +1,19 @@
+{
+    "system": "Test2",
+    "version": "1.0",
+    "title": { "EN": "Test codelist 2 updated" },
+    "rootCodes": [
+        {
+            "code": "A1",
+            "title": { "EN": "A1 updated" }
+        },
+        {
+            "code": "A3",
+            "childs" : [
+                {
+                    "code": "B3"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+#structure
+csvSeparator=;
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+startYearColumnIndex=3
+expireYearColumnIndex=4
+titleColumnIndex_PT=5
+titleColumnIndex_EN=6
+titleColumnIndex_FR=7
+titleColumnIndex_ES=8
+titleColumnIndex_ZH=9
+titleColumnIndex_AR=10
+titleColumnIndex_RU=11
+
+#metadata
+name=GAUL
+version=1.0
+
+
+
+--data--
+
+
+;66;;;;;;;;;
+66;1038;1991;1999;;18 Montagnes;;;;;
+66;1040;1991;1996;;Sud-Ouest;;;;;
+66;190430;1997;3000;;Bas Sassandra;;;;;
+66;1046;1991;2011;;Moyen Comoe;;;;;
+66;1048;1991;3000;;Savanes;;;;;
+66;1053;1991;3000;;Zanzan;;;;;
+66;16838;2012;3000;;District Autonome de Abidjan;;;;;

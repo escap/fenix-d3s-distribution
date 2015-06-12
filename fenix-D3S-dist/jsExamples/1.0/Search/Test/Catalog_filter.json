@@ -1,0 +1,25 @@
+{"filter": {
+    "types": [],
+    "metadata": {
+        "region": [
+            {
+                "code": {
+                    "code": "42",
+                    "systemKey": "GAUL",
+                    "systemVersion": "1.0"
+                }
+            }
+        ]
+    },
+    "data": {
+        "INDICATOR": [
+            {
+                "code": {
+                    "code": "PD",
+                    "systemKey": "CS_Indicator",
+                    "systemVersion": "1.0"
+                }
+            }
+        ]
+    }
+}, "business": []}

@@ -1,0 +1,33 @@
+{
+  "meContent": {
+    "seCoverage": {
+      "coverageSectors": {
+        "version": "1.0",
+        "codes": [{"code": "earthstat_crop_area"}],
+        "idCodeList": "layers_products"
+      }
+    },
+    "resourceRepresentationType": "geographic"
+  },
+  "uid": "earthstat:soybean_area_3857",
+  "title": {"EN": "soybean area"},
+  "path": "/home/vortex/Desktop/LAYERS/earthstat/TO_PUBLISH/earthstat_crop_area/soybean_area_3857.geotiff",
+  "dsd": {
+    "contextSystem": "FENIX",
+    "layerName": "soybean_area_3857",
+    "workspace": "earthstat",
+    "defaultStyle": "earthstat_crop_area_EN",
+    "datasources": ["geoserver"]
+  },
+  "creationDate": 1427474297000,
+  "meSpatialRepresentation": {"layerType": "raster"},
+  "meReferenceSystem": {
+    "seProjection": {
+      "projection": {
+        "version": "1.0",
+        "codes": [{"code": "EPSG:3857"}],
+        "idCodeList": "mapProjections"
+      }
+    }
+  }
+}

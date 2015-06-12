@@ -1,0 +1,22 @@
+#structure
+csvSeparator=;
+structure=table
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1
+titleColumnIndex_EN=2
+
+#metadata
+name=OECD_PolicyType3
+title_EN=OECD Market Transfers
+description_EN=OECD Policy Measures of Market Transfers
+version=1.0
+startDate=03/04/2014
+sharingPolicy=publicPolicy
+
+
+--data--
+
+13;Market price support (MPS)
+15;Other transfers from consumers(-) (OTC)
+14;Transfers to producers from consumers(-) (TPC)
+

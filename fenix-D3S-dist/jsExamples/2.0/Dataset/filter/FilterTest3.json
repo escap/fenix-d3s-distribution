@@ -1,0 +1,14 @@
+{
+    "meContent.resourceRepresentationType" : {
+        "enumeration" : ["codelist"]
+    },
+    "meContent.seCoverage.coverageSectors" : {
+        "codes" : [
+            {
+                "uid" : "FENIX_Subjects",
+                "version" : "1.0",
+                "codes" : ["06"]
+            }
+        ]
+    }
+}

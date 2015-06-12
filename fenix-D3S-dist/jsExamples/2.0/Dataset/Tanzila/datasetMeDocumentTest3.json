@@ -1,0 +1,429 @@
+{
+    "uid": "mai",
+    "version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+    "languageDetails": {
+        "EN": null
+    },
+    "title": {
+        "EN": "Agriculture production. Crops, National Production ."
+    },
+    "creationDate": "2014-09-06T12:00:00.000+02:00",
+    "characterSet": {
+        "codes": [
+            {
+                "code": "106"
+            }
+        ],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+    "metadataStandardName": "Fenix ",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+    "contacts": [
+        {
+            "organization": {
+                "EN": "Food and Agriculture Organization of the United Nations (FAO)"
+            },
+            "organizationUnit": {
+                "EN": "Statistics Division (ESS)"
+            },
+            "pointOfContact": null,
+            "position": {
+                "EN": null
+            },
+            "role": "distributor",
+            "specify": {
+                "EN": null
+            },
+            "contactInfo": {
+                "phone": null,
+                "address": null,
+                "emailAddress": "FAO-statistics@fao.org",
+                "hoursOfService": {
+                    "EN": null
+                },
+                "contactInstruction": {
+                    "EN": null
+                }
+            }
+        },
+        {
+            "organization": {
+                "EN": "Frankie 222"
+            },
+            "organizationUnit": {
+                "EN": "Statistics Division (ESS)"
+            },
+            "pointOfContact": null,
+            "position": {
+                "EN": null
+            },
+            "role": "owner",
+            "specify": {
+                "EN": null
+            },
+            "contactInfo": {
+                "phone": null,
+                "address": null,
+                "emailAddress": "FAO-statistics@fao.org",
+                "hoursOfService": {
+                    "EN": null
+                },
+                "contactInstruction": {
+                    "EN": null
+                }
+            }
+        }
+    ],
+    "noDataValue": null,
+    "isRoot": true,
+    "entityPath": "meIdentification",
+    "meContent": {
+        "description": {
+            "EN": "Crop statistics are recorded for 173 products, covering the  following categories:  Crops Primary, Fibre Crops Primary, Cereals, Coarse Grain, Citrus Fruit, Fruit, Jute & Jute-like Fibres, Oilcakes Equivalent, Oil crops Primary, Pulses,  Roots and Tubers, Treenuts and Vegetables and Melons.  Data are expressed in terms of area harvested, production quantity, yield and seed quantity.  The objective is to cover all countries and regions in the world.\r\n",
+            "parent": "description."
+        },
+        "keywords": [
+            "Crops",
+            "National Production",
+            "National Production",
+            "National Production",
+            "National Production",
+            "National Production",
+            "National Production",
+            "National Production",
+            "National Production",
+            "National Production",
+            "National Production"
+        ],
+        "statisticalConceptsDefinitions": {
+            "EN": "Food Balance Sheets (FBS) are compiled every year by FAO, mainly with country-level data on the production and trade of food commodities. Using these data and the available information on seed rates, waste coefficients, stock changes and types of utilization (feed, food, processing and other utilization), a supply/utilization account is prepared for each commodity in weight terms. The food component of the commodity account, which is usually derived as a balancing item, refers to the total amount of the commodity available for human consumption during the year. Besides commodity-by-commodity information, the FAO FBS also provide total food availability estimates by aggregating the food component of all commodities including fishery products. From these values and the available population estimates, the per person dietary energy and protein and fat supplies are derived and expressed on a daily basis. In the FBS production data refer only to primary products while data for all other elements also include processed products derived there from, expressed in primary commodity equivalent.\r\n",
+            "parent": "statisticalConceptsDefinitions."
+        },
+        "resourceRepresentationType": "dataset",
+        "resourceRepresentationTypeLabel": {
+            "EN": "Dataset"
+        },
+        "isRoot": false,
+        "seReferencePopulation": {
+            "statisticalPopulation": {
+                "EN": "All areas cultivated with crops in a country.\r\n"
+            },
+            "statisticalUnit": {
+                "EN": "All areas cultivated with crops in a country."
+            },
+            "referencePeriod": {
+                "version": "1.0",
+                "codes": [
+                    {
+                        "code": "9",
+                        "label": {
+                            "EN": "Year"
+                        }
+                    }
+                ],
+                "extendedName": {
+                    "EN": "FAO Reference Period"
+                },
+                "idCodeList": "FAO_Period"
+            },
+            "referenceArea": {
+                "version": "1.0",
+                "codes": [
+                    {
+                        "code": "ADM1",
+                        "label": {
+                            "EN": "First level administrative boundaries"
+                        }
+                    }
+                ],
+                "extendedName": {
+                    "EN": "GAUL reference area"
+                },
+                "idCodeList": "GAUL_ReferenceArea"
+            },
+            "entityPath": "meContent.seReferencePopulation",
+            "isRoot": false
+        },
+        "seCoverage": {
+            "coverageSectorsDetails": {
+                "EN": "Most crop products under agricultural activity.\r\n"
+            },
+            "coverageTime": {
+                "from": -220928400000,
+                "to": 1388444400000
+            },
+            "coverageGeographic": {
+                "version": "2014",
+                "codes": [
+                    {
+                        "code": "1",
+                        "label": {
+                            "PT": "Afeganistão",
+                            "FR": "Afghanistan",
+                            "AR": "أفغانستان",
+                            "EN": "Afghanistan",
+                            "RU": "Афганистан",
+                            "ES": "Afganistán",
+                            "ZH": "阿富汗"
+                        }
+                    }
+                ],
+                "extendedName": {
+                    "EN": "Global administrative unit layer country level"
+                },
+                "idCodeList": "GAUL0"
+            },
+            "coverageSectors": {
+                "version": "",
+                "codes": [
+                    {
+                        "code": "311",
+                        "label": {
+                            "EN": "AGRICULTURE"
+                        }
+                    }
+                ],
+                "idCodeList": "CRS_purpose_codes"
+            },
+            "entityPath": "meContent.seCoverage",
+            "isRoot": false
+        }
+    },
+    "meInstitutionalMandate": {
+        "legalActsAgreements": {
+            "EN": "Article I of the constitution indeed requires the Organization to collect, analyse, interpret and disseminate information relating to nutrition, food and agriculture (the term “agriculture” and its derivatives includes forestry, fisheries and aquaculture). The first session of the FAO Conference in 1945 provided the rationale: “If FAO is to carry out its work successfully it will need to know where and why hunger and malnutrition exist, what forms they take, and how widespread they are. Such data will serve as a basis for making plans, determining the efficacy of measures used, and measuring progress from time to time.” Member countries reaffirmed this mandate in 2000 when formulating the Organization’s strategic thrusts for the 2000-2015 period: Corporate Strategy E1 commits the Organization to building “an integrated information resource base, with current, relevant and reliable statistics, information and knowledge made accessible to all FAO clients.\r\nFor legal acts concerning statistics at national levels see links to country websites.\r\n",
+            "parent": "legalActsAgreements."
+        },
+        "institutionalMandateDataSharing": {
+            "EN": "Crops and livestock statistics from Eurostat and CIS-Stat are used.\r\n",
+            "parent": "institutionalMandateDataSharing."
+        },
+        "isRoot": false
+    },
+    "meStatisticalProcessing": {
+        "seDataSource": {
+            "sePrimaryDataCollection": {
+                "dataCollection": {
+                    "EN": "tttttttt",
+                    "parent": "dataCollection."
+                },
+                "dataCollector": {
+                    "organization": {
+                        "EN": "rffff",
+                        "parent": "organization."
+                    },
+                    "position": {
+                        "EN": "ffffff",
+                        "parent": "position."
+                    }
+                },
+                "entityPath": "meStatisticalProcessing.seDataSource.sePrimaryDataCollection",
+                "isRoot": false
+            }
+        },
+        "isRoot": false
+    },
+    "meDataQuality": {
+        "qualityManagement": {
+            "EN": "",
+            "parent": "qualityManagement."
+        },
+        "qualityAssessment": {
+            "EN": "The quality of data varies considerably between countries.  There are no routines for accessing the quality, except for some input validation. Ideally, sample surveys should be representative of at least 95% of the total area and land under that crop. Surveys on production or yields should be conducted using statistically recognized methods as regards quality, objectivity and reliability.  Up till now FAO has not been in the position to ensure such quality requirements of the data submitted by countries. More information on metadata and certain validation procedures at country level is certainly needed;\r\n",
+            "parent": "qualityAssessment."
+        },
+        "qualityAssurance": {
+            "EN": "Statistics are subject to the general quality assurance framework of FAO, where domain-specific quality assurance activities (the use of best practices, quality reviews, self-assessments, compliance monitoring) are carried out systematically. See also the FAO Statistics Quality Assurance Framework is available http://www.fao.org/docrep/019/i3664e/i3664e.pdf\r\n",
+            "parent": "qualityAssurance."
+        },
+        "isRoot": false,
+        "seAccuracy": {
+            "accuracyNonSampling": {
+                "EN": "No information available of the magnitude on non-sampling errors.  One such category of errors is measurement errors which are due mainly to lack of harmonisation in statistical methods. For instance, when FAO concepts do not fit with national concepts, there may be significant measurement errors.  \r\n",
+                "parent": "accuracyNonSampling."
+            },
+            "accuracySampling": {
+                "EN": "No information available.  In the EU the coefficient of variation shall according to regulations not exceed 3% for the area of cultivation for main crops.  For non EU countries the coefficient of variation might be significantly larger.  For further information see country metadata when available.\r\n",
+                "parent": "accuracySampling."
+            },
+            "entityPath": "meDataQuality.seAccuracy",
+            "isRoot": false
+        },
+        "seDataRevision": {
+            "revisionPolicy": {
+                "EN": "Prefilled questionnaires are sent out with reported data for n-1, n-2 and n-3 which countries are asked to revise.\r\n",
+                "parent": "revisionPolicy."
+            },
+            "revisionPractice": {
+                "EN": "The revised data for n-1 to n-3 are disseminated at the same time as the data for year n are released.\r\n",
+                "parent": "revisionPractice."
+            },
+            "entityPath": "meDataQuality.seDataRevision",
+            "isRoot": false
+        },
+        "seRelevance": {
+            "userSatisfaction": {
+                "EN": "No user satisfaction studies have been conducted which may explain why FAO is not aware of unmet user needs.\r\n",
+                "parent": "userSatisfaction."
+            },
+            "completeness": {
+                "EN": "The data received by countries are fairly incomplete for certain product categories and  regions of the world.  For this reason a substantial amount of data points are estimated  or imputed.  Example 1: In 2010 data for green chillies and peppers are recorded for 123 countries of which data for 50 countries (41%) were imputed or estimated.  In terms of values the imputations accounted for as much as 71% of total production quantity. Example 2: In 2010, data points for wheat productions were recorded for 126 countries of which data points from 18 countries were estimated or imputed.  For 4 countries unofficial data were used.  The value of estimated and imputed data only represented 0.05% of the total production quantity over all countries - the corresponding figure for unofficial data was 0.2%.  The figures above can be contrasted to wheat imports for which data points exist for 191 countries of which 61 have data which are imputed or estimated, representing almost 27% of total import quantity over all countries.\r\n",
+                "parent": "completeness."
+            },
+            "userNeeds": {
+                "EN": "The main users are FAO analysts, other international organizations, ministries and government agencies, agro-industry, trade and professional associations, research institutes and universities, journalists and general public. The objectives of these users vary, but agriculture production statistics are especially useful for market management/monitoring, production forecasts and policy-making in agriculture and food. FAO is not aware of unmet needs.\r\n",
+                "parent": "userNeeds."
+            },
+            "entityPath": "meDataQuality.seRelevance",
+            "isRoot": false
+        },
+        "seComparability": {
+            "comparabilityGeographical": {
+                "EN": "There is limited geographical comparability due to differences between countries in methods and coverage, except for regions with homogenous countries, e.g. EU countries, which are bound by EU regulations on methods, and OECD countries.\r\n",
+                "parent": "comparabilityGeographical."
+            },
+            "comparabilityTime": {
+                "EN": "For shorter time periods reasonably good comparability over time can be expected as there is stability in the product definition and classification.  However, as the time series are very long (from 1961) full comparability over time can not be expected.\r\n",
+                "parent": "comparabilityTime."
+            },
+            "coherenceIntern": {
+                "EN": "It is expected that the internal coherence is checked by countries before sending data to FAO. FAO is not aware of any incoherence for the present dataset vis-à-vis other corresponding datasets  \r\n",
+                "parent": "coherenceIntern."
+            },
+            "entityPath": "meDataQuality.seComparability",
+            "isRoot": false
+        },
+        "seTimelinessPunctuality": {
+            "timeliness": {
+                "EN": "Data are uploaded for dissemination twice a year, irrespectively when they arrive at FAO.\r\n",
+                "parent": "timeliness."
+            },
+            "punctuality": {
+                "EN": "Most countries respect the deadlines. \r\n",
+                "parent": "punctuality."
+            },
+            "entityPath": "meDataQuality.seTimelinessPunctuality",
+            "isRoot": false
+        }
+    },
+    "meAccessibility": {
+        "isRoot": false,
+        "seDataDissemination": {
+            "entityPath": "meAccessibility.seDataDissemination",
+            "isRoot": false,
+            "seDistribution": {
+                "onlineResource": "http://faostat.fao.org/site/636/default.aspx",
+                "entityPath": "meAccessibility.seDataDissemination.seDistribution",
+                "isRoot": false
+            },
+            "seReleasePolicy": {
+                "releaseCalendar": {
+                    "EN": "Dates for new data releases are pre-announced on the FAOSTAT3 website.  \r\n",
+                    "parent": "releaseCalendar."
+                },
+                "releaseCalendarAccess": "http://faostat3.fao.org/home/faostatReleaseCalendar.html",
+                "disseminationPeriodicity": {
+                    "version": "1.0",
+                    "codes": [
+                        {
+                            "code": "9",
+                            "label": {
+                                "EN": "Year"
+                            }
+                        }
+                    ],
+                    "extendedName": {
+                        "EN": "FAO Reference Period"
+                    },
+                    "idCodeList": "FAO_Period"
+                },
+                "embargoTime": {},
+                "entityPath": "meAccessibility.seDataDissemination.seReleasePolicy",
+                "isRoot": false
+            }
+        },
+        "seClarity": {
+            "clarity": {
+                "EN": "National reference metadata are submitted by some countries but these are not yet disseminated by FAO.  No methodological papers, except the classification scheme, has been produced. No quality reports or studies made by FAO.  No national quality reports are collected.\r\n\r\n",
+                "parent": "clarity."
+            },
+            "entityPath": "meAccessibility.seClarity",
+            "isRoot": false
+        },
+        "seConfidentiality": {
+            "confidentialityPolicy": {
+                "EN": "FAO Statistical Quality Assurance Framework, Principle 10: \"All data subject to national confidentiality policies (e.g. concerning people and legal entities, or small aggregates) are kept strictly confidential, and are used exclusively for statistical purposes, or for purposes mandated by legislation.\"\r\n",
+                "parent": "confidentialityPolicy."
+            },
+            "confidentialityDataTreatment": {
+                "EN": "Only non-confidential data are collected and recorded.\r\n",
+                "parent": "confidentialityDataTreatment."
+            },
+            "confidentialityStatus": {
+                "version": "1.0",
+                "codes": [
+                    {
+                        "code": "F",
+                        "label": {
+                            "EN": "Free"
+                        }
+                    }
+                ],
+                "extendedName": {
+                    "EN": "Confidentiality status (SDMX)"
+                },
+                "idCodeList": "CL_CONF_STATUS"
+            },
+            "entityPath": "meAccessibility.seConfidentiality",
+            "isRoot": false
+        }
+    },
+    "meMaintenance": {
+        "maintenanceAgency": {
+            "EN": "Food and Agriculture Organization of the United Nations (FAO)\r\n",
+            "parent": "maintenanceAgency."
+        },
+        "isRoot": false,
+        "seUpdate": {
+            "updatePeriodicity": {
+                "version": "1.0",
+                "extendedName": {
+                    "EN": "FAO Reference Period"
+                },
+                "idCodeList": "FAO_Period"
+            },
+            "entityPath": "meMaintenance.seUpdate",
+            "isRoot": false
+        },
+        "seMetadataMaintenance": {
+            "metadataLastCertified": 1409954400000,
+            "metadataLastPosted": 1409954400000,
+            "metadataLastUpdate": 1409954400000,
+            "entityPath": "meMaintenance.seMetadataMaintenance",
+            "isRoot": false
+        }
+    },
+    "dsd": {
+        "rid": "63_18",
+        "isRoot": false
+    }
+}

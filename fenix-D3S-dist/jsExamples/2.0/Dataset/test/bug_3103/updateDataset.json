@@ -1,0 +1,61 @@
+{
+  "uid": "20150415_1",
+  "version": "1",
+  "dsd": {
+    "columns": [
+      {
+        "id": "STRING",
+        "title": {"EN": "hhhh"},
+        "key": false,
+        "dataType": "boolean",
+        "supplemental": null
+      },
+      {
+        "id": "CODE",
+        "title": {"EN": "area"},
+        "key": true,
+        "dataType": "code",
+        "domain": {"codes": [{"idCodeList": "ECO_GAUL"}]},
+        "subject": "geo",
+        "supplemental": null
+      },
+      {
+        "id": "YEAR",
+        "title": {"EN": "time"},
+        "key": true,
+        "dataType": "year",
+        "domain": null,
+        "subject": "time",
+        "supplemental": null
+      },
+      {
+        "id": "CODE2",
+        "title": {"EN": "indicator"},
+        "key": true,
+        "dataType": "code",
+        "domain": {"codes": [{"idCodeList": "ECO_Commodity"}]},
+        "subject": "item",
+        "supplemental": null
+      },
+      {
+        "id": "NUMBER",
+        "title": {"EN": "value"},
+        "key": false,
+        "dataType": "number",
+        "subject": "value",
+        "supplemental": null
+      },
+      {
+        "id": "CODE3",
+        "title": {"EN": "item"},
+        "key": true,
+        "dataType": "code",
+        "domain": {"codes": [{"idCodeList": "ECO_Elements"}]},
+        "subject": "item",
+        "supplemental": null
+      }
+    ],
+    "datasources": ["D3S"],
+    "contextSystem": "demo1"
+  }
+}

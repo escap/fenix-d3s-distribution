@@ -1,0 +1,23 @@
+{
+  "uid" : "UAE_Trade",
+  "version" : null,
+
+  "meContent" : {
+    "seCoverage" : {
+      "coverageGeographic" : {
+        "idCodeList" : "GAUL0", "version" : "2014",
+        "codes" : [ {"code":"255"}]
+      },
+      "coverageSectors" : {
+        "idCodeList" : "CSTAT_Core", "version" : null,
+        "codes" : [ {"code":"T"}]
+      }
+    },
+    "seReferencePopulation" : {
+      "referenceArea" : {
+        "idCodeList" : "GAUL_ReferenceArea", "version" : "1.0",
+        "codes" : [ {"code":"ADM0"}]
+      }
+    }
+  }
+}

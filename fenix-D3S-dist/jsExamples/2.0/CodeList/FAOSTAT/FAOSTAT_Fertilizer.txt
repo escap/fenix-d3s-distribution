@@ -1,0 +1,176 @@
+{
+    "uid": "FAOSTAT_Fertilizers",
+	"version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "FAO codelist for fertilizers"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "FAO"
+            },
+            "organizationUnit": {"EN":"ESS"},
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": null,
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["fertilizer","input"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": null
+                        }
+                    ],
+                    "idCodeList": null,
+                    "version": null
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 1,
+            "typeOfCodeList": "list"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    } ,
+          "dsd" : {
+      	    "contextSystem" : "FAOSTAT"
+          }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+@3102@Nitrogen Fertilizers (N total nutrients)
+@3103@Phosphate Fertilizers (P205 total nutrients)
+@3104@Potash Fertilizers (K20 total nutrients)
+@2814@Ammonia, anhydrous
+@310230@Ammonium nitrate
+@310221@Ammonium sulphate
+@310240@Calcium ammonium nitrate
+@310210@Urea
+@310280@Urea and ammonium nitrate solutions
+@310310@Superphosphate
+@31031010@Superphosphate above 35%
+@31031090@Superphosphate other
+@2510@Phosphate rock
+@310420@Potassium chloride (Muriate of potash)
+@310430@Potassium sulphate
+@310530@Diammonium phosphate (DAP)
+@310540@Monoammonium phosphate (MAP)
+@310500@Other NP compounds 
+@310551@Other nitrogen & phosphates compounds
+@310559@Other nitrogen & phosphorus compounds
+@310610@NPK complex
+@310510@NPK complex <=10kg
+@310520@NPK complex >10kg
+@310620@NPK blends
+@310560@PK compounds
+@283421@Potassium nitrate
+@310229@Ammonium sulphate nitrate
+@310250@Sodium nitrate
+@310260@Calcium nitrate
+@310270@Calcium Cyanamid 
+@310290@Other straight nitrogen
+@310320@Basic slag 
+@310390@Other straight phosphates
+@310410@Crude potash salts
+@310490@Potassium magnesium sulphate 
+@310590@NK compounds other than Potassium nitrate
+@3101@Organic material, total
+@31011@Livestock manure, total
+@31012@Cattle manure
+@31013@Horse manure
+@31014@Pig manure
+@31015@Sheep  manure
+@31016@Poultry manure
+@31017@Guano
+@31018@Composts 
+@31019@Sewage waste
+@2521@Limestone
+@1360@Nitrogenous fertilizers
+@1375@Phosphate fertilizers
+@1386@Potash fertilizers
+@1397@Fertilizers Manufactured, nes
+@1398@Natural Sodium Nitrate
+@1399@Natural Phosphates
+@1400@Natural Potassic Salts
+@1401@Fertilizers, Organic
+@28092000@Phosphoric Acid
+

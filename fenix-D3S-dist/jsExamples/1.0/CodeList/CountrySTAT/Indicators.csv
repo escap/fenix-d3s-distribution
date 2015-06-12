@@ -1,0 +1,43 @@
+﻿#structure
+csvSeparator=;
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+#metadata
+name=CS_Indicators
+title_EN=CountrySTAT indicators
+description_EN=CountrySTAT indicators
+version=1.0
+startDate=13/10/2014
+sharingPolicy=publicPolicy
+keywords=codelist,indicators,indicator,CountrySTAT
+
+
+--data--
+
+
+;704;Economic Affairs
+;7042;Agriculture, Forestry, Fishing & Hunting, Total
+;704201;Recurrent (Agri., Fo., Fi.)
+;704202;Capital (Agri., Fo., Fi.)
+;70421;Agriculture (Crops And Animal Husbandry) Total
+;7042101;Recurrent Agri. (Crops And Animal Husbandry) 
+;7042102;Capital Agri. (Crops And Animal Husbandry) 
+;70422;Forestry Total
+;7042201;Recurrent Forestry
+;7042202;Capital Forestry 
+;70423;Fishing & Hunting Total
+;7042301;Recurrent Fishing & Hunting
+;7042302;Capital Fishing & Hunting
+;7048;R&D Economic Affairs
+;70482;Of Which: R&D (Agri., Fo., Fi.)
+;705;Environmental Protection
+;7054;Biodiversity & Landscape Total
+;705401;Recurrent Biodiv. & Land.
+;705402;Capital Biodiv. & Land.
+;7055;R&D Enviro. Protect. Total
+;705501;Recurrent R&D E.P.
+;705502;Capital R&D E.P.
+

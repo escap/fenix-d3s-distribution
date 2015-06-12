@@ -1,0 +1,50 @@
+{
+  "meContent":{
+    "seCoverage":{
+      "coverageSectors":{
+        "version":"1.0",
+        "codes":[
+          {
+            "code":"Gridded Livestock of the World v. 2.01"
+          }
+        ],
+        "idCodeList":"FENIX_GeographicalSectors"
+      },
+      "coverageTime":{
+        "to":1262304000,
+        "from":1264896000
+      }
+    },
+    "resourceRepresentationType":"geographic"
+  },
+  "uid":"ghgsheep10km_ad_-_2011",
+  "title":{
+    "FR":"Sheep10km AD - 2010",
+    "EN":"Sheep10km AD - 2010",
+    "ES":"Sheep10km AD - 2010"
+  },
+  "dsd":{
+    "contextSystem":"FENIX",
+    "layerName":"sheep10km_ad_-_2010",
+    "defaultStyle":"ghg_sheep10km_ad_2010_v2_1_EN",
+    "workspace":"ghg1"
+  },
+  "creationDate":1418118575000,
+  "meSpatialRepresentation":{
+    "layerType":"raster"
+  },
+  "meReferenceSystem":{
+    "seProjection":{
+      "projection":{
+        "version":"1.0",
+        "codes":[
+          {
+            "code":"EPSG:3857"
+          }
+        ],
+        "idCodeList":"mapProjections"
+      }
+    }
+  }
+
+}

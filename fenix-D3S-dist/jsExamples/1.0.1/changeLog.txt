@@ -1,0 +1,8 @@
+
+
+A new list of operators for the aggregation
+- from operator.UEMOA* to uemoa.*
+- from operator.CSTAT* to cstat.*
+- from WeightedSum to standard.WeightedAdd
+- from operator.NoKey to standard.NoKey
+(update CMValueOperator set implementation = implementation.substring( 14 ).prefix('cstat.') where implementation like 'operator.CSTAT%')

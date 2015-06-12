@@ -1,0 +1,236 @@
+{
+    "metadata" : {
+        "uid" : "DATASET-ADW-01",
+        "version" : "0.1",
+
+
+        "dsd" : {
+            "contextSystem" : "UNECA",
+            "datasource" : "CountrySTAT",
+            "aggregationRules" : null,
+
+            "columns" : [
+                {
+                    "id" : "col_country",
+                    "title" : {
+                        "EN" : "Country"
+                    },
+                    "subject" : "GEO",
+                    "dataType" : "code",
+                    "domain" : {
+                        "codes" : [
+                            {
+                                "idCodeList" : "UNECA_ISO-3",
+                                "version" : null
+                            }
+                        ]
+                    },
+                    "columnLink" : null,
+                    "key" : true,
+                    "transposed" : false,
+                    "virtual" : false,
+                    "values" : {
+                        "codes" : [
+                            {
+                                "idCodeList" : "UNECA_ISO-3",
+                                "version" : null,
+                                "codes" : [
+                                    {"code":"AFG"}, {"code":"BEN"}, {"code":"FRO"}, {"code":"WSM"}
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id" : "col_item",
+                    "title" : {
+                        "EN" : "Product"
+                    },
+                    "subject" : "ITEM",
+                    "dataType" : "code",
+                    "domain" : {
+                        "codes" : [
+                            {
+                                "idCodeList" : "UNECA_Products",
+                                "version" : null
+                            }
+                        ]
+                    },
+                    "columnLink" : null,
+                    "key" : true,
+                    "transposed" : false,
+                    "virtual" : false,
+                    "values" : {
+                        "codes" : [
+                            {
+                                "idCodeList" : "UNECA_Products",
+                                "version" : null,
+                                "codes" : [
+                                    {"code":"CPC-23913-0"}, {"code":"CPC-23620-0"}, {"code":"CPC-22950-0"}, {"code":"CPC-21630-3"}
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id" : "col_year",
+                    "title" : {
+                        "EN" : "Yar"
+                    },
+                    "subject" : "TIME",
+                    "dataType" : "year",
+                    "domain" : {
+                        "period" : {
+                            "from" : 2009,
+                            "to" : 2012
+                        }
+                    },
+                    "columnLink" : null,
+                    "key" : true,
+                    "transposed" : false,
+                    "virtual" : false,
+                    "values" : {
+                        "timeList" : [2009, 2010, 2011, 2012]
+                    }
+                },
+                {
+                    "id" : "col_value",
+                    "title" : {
+                        "EN" : "Value"
+                    },
+                    "dataType" : "number",
+                    "subject" : "VALUE"
+                },
+                {
+                    "id" : "col_um",
+                    "title" : {
+                        "EN" : "Unit of measure"
+                    },
+                    "subject" : "UM",
+                    "dataType" : "code",
+                    "domain" : {
+                        "codes" : [
+                            {
+                                "idCodeList" : "UNECA_UnitOfMeasure",
+                                "version" : null
+                            }
+                        ]
+                    },
+                    "columnLink" : null,
+                    "key" : false,
+                    "transposed" : false,
+                    "virtual" : false,
+                    "values" : {
+                        "codes" : [
+                            {
+                                "idCodeList" : "UNECA_UnitOfMeasure",
+                                "version" : null,
+                                "codes" : [
+                                    {"code":"WSL"}, {"code":"KOE"}
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id" : "col_domain",
+                    "title" : {
+                        "EN" : "Domain indicator"
+                    },
+                    "subject" : null,
+                    "dataType" : "code",
+                    "domain" : {
+                        "codes" : [
+                            {
+                                "idCodeList" : "UNECA_Domains_Indicator",
+                                "version" : null
+                            }
+                        ]
+                    },
+                    "columnLink" : null,
+                    "key" : false,
+                    "transposed" : false,
+                    "virtual" : false,
+                    "values" : {
+                        "codes" : [
+                            {
+                                "idCodeList" : "UNECA_Domains_Indicator",
+                                "version" : null,
+                                "codes" : [
+                                    {"code":"21"}
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+
+    "data" : [
+        ["AFG","CPC-23913-0",2009,10200,"WSL","21"     ],
+        ["AFG","CPC-23913-0",2010,11200,"WSL","21"     ],
+        ["AFG","CPC-23913-0",2011,12400,"WSL","21"     ],
+        ["AFG","CPC-23913-0",2012,9700,"WSL","21"      ],
+        ["AFG","CPC-23620-0",2009,0,"WSL","21"         ],
+        ["AFG","CPC-23620-0",2010,0,"WSL","21"         ],
+        ["AFG","CPC-23620-0",2011,0,"WSL","21"         ],
+        ["AFG","CPC-23620-0",2012,0,"WSL","21"         ],
+        ["AFG","CPC-22950-0",2009,234500,"WSL","21"    ],
+        ["AFG","CPC-22950-0",2010,201700,"WSL","21"    ],
+        ["AFG","CPC-22950-0",2011,198350,"WSL","21"    ],
+        ["AFG","CPC-22950-0",2012,210700,"WSL","21"    ],
+        ["AFG","CPC-21630-3",2009,1450,"KOE","21"      ],
+        ["AFG","CPC-21630-3",2010,1800,"KOE","21"      ],
+        ["AFG","CPC-21630-3",2011,2100,"KOE","21"      ],
+        ["AFG","CPC-21630-3",2012,2100,"KOE","21"      ],
+        ["BEN","CPC-23913-0",2009,1100,"WSL","21"      ],
+        ["BEN","CPC-23913-0",2010,1200,"WSL","21"      ],
+        ["BEN","CPC-23913-0",2011,900,"WSL","21"       ],
+        ["BEN","CPC-23913-0",2012,800,"WSL","21"       ],
+        ["BEN","CPC-23620-0",2009,5250,"WSL","21"      ],
+        ["BEN","CPC-23620-0",2010,5600,"WSL","21"      ],
+        ["BEN","CPC-23620-0",2011,4300,"WSL","21"      ],
+        ["BEN","CPC-23620-0",2012,4000,"WSL","21"      ],
+        ["BEN","CPC-22950-0",2009,52700,"WSL","21"     ],
+        ["BEN","CPC-22950-0",2010,54800,"WSL","21"     ],
+        ["BEN","CPC-22950-0",2011,61100,"WSL","21"     ],
+        ["BEN","CPC-22950-0",2012,59900,"WSL","21"     ],
+        ["BEN","CPC-21630-3",2009,9200,"KOE","21"      ],
+        ["BEN","CPC-21630-3",2010,7800,"KOE","21"      ],
+        ["BEN","CPC-21630-3",2011,8300,"KOE","21"      ],
+        ["BEN","CPC-21630-3",2012,8400,"KOE","21"      ],
+        ["FRO","CPC-23913-0",2009,72150,"WSL","21"     ],
+        ["FRO","CPC-23913-0",2010,77300,"WSL","21"     ],
+        ["FRO","CPC-23913-0",2011,78200,"WSL","21"     ],
+        ["FRO","CPC-23913-0",2012,80100,"WSL","21"     ],
+        ["FRO","CPC-23620-0",2009,0,"WSL","21"         ],
+        ["FRO","CPC-23620-0",2010,0,"WSL","21"         ],
+        ["FRO","CPC-23620-0",2011,0,"WSL","21"         ],
+        ["FRO","CPC-23620-0",2012,0,"WSL","21"         ],
+        ["FRO","CPC-22950-0",2009,15700,"WSL","21"     ],
+        ["FRO","CPC-22950-0",2010,14900,"WSL","21"     ],
+        ["FRO","CPC-22950-0",2011,14200,"WSL","21"     ],
+        ["FRO","CPC-22950-0",2012,14200,"WSL","21"     ],
+        ["FRO","CPC-21630-3",2009,550,"KOE","21"       ],
+        ["FRO","CPC-21630-3",2010,600,"KOE","21"       ],
+        ["FRO","CPC-21630-3",2011,700,"KOE","21"       ],
+        ["FRO","CPC-21630-3",2012,500,"KOE","21"       ],
+        ["WSM","CPC-23913-0",2009,34200,"WSL","21"     ],
+        ["WSM","CPC-23913-0",2010,32900,"WSL","21"     ],
+        ["WSM","CPC-23913-0",2011,33900,"WSL","21"     ],
+        ["WSM","CPC-23913-0",2012,34600,"WSL","21"     ],
+        ["WSM","CPC-23620-0",2009,6800,"WSL","21"      ],
+        ["WSM","CPC-23620-0",2010,7200,"WSL","21"      ],
+        ["WSM","CPC-23620-0",2011,7200,"WSL","21"      ],
+        ["WSM","CPC-23620-0",2012,8100,"WSL","21"      ],
+        ["WSM","CPC-22950-0",2009,98200,"WSL","21"     ],
+        ["WSM","CPC-22950-0",2010,112500,"WSL","21"    ],
+        ["WSM","CPC-22950-0",2011,113700,"WSL","21"    ],
+        ["WSM","CPC-22950-0",2012,110800,"WSL","21"    ],
+        ["WSM","CPC-21630-3",2009,24200,"KOE","21"     ],
+        ["WSM","CPC-21630-3",2012,25100,"KOE","21"     ],
+        ["WSM","CPC-21630-3",2010,22100,"KOE","21"     ],
+        ["WSM","CPC-21630-3",2011,23700,"KOE","21"     ]
+    ]
+}

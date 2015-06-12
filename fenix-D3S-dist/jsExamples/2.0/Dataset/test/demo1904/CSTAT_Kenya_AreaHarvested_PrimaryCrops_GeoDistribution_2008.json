@@ -1,0 +1,115 @@
+{
+  "metadata" : {
+    "uid" : "CSTAT_Kenya_AreaHarvested_PrimaryCrops_GeoDistribution_2008",
+    "title" : {
+      "EN" : "Example of Kenya area harvested geographic distribution in 2008"
+    },
+    "meContent" : {
+      "resourceRepresentationType" : "dataset",
+      "seReferencePopulation" : {
+        "referenceArea" : {
+          "idCodeList" : "GAUL_ReferenceArea", "version" : "1.0",
+          "codes" : [ { "code" : "ADM1" } ]
+        }
+      }
+    },
+
+    "dsd" : {
+      "datasources" : ["D3S"],
+      "contextSystem" : "demoFENIX",
+      "columns" : [
+        {
+          "id" : "Year",
+          "title" : {
+            "EN" : "Year"
+          },
+          "subject" : "time",
+          "key" : true,
+          "dataType" : "year",
+          "domain" : {
+            "period" : {
+              "from" : 2008,
+              "to" : 2008
+            }
+          },
+          "values" : {
+            "timeList" : [ 2008 ]
+          }
+        },
+        {
+          "id" : "Region",
+          "title" : {
+            "EN" : "Region"
+          },
+          "subject" : "geo",
+          "key" : true,
+          "dataType" : "code",
+          "domain" : {
+            "codes" : [ { "idCodeList" : "GAUL", "version" : "2014" } ]
+          },
+          "values" : {
+            "codes" : [ {
+              "idCodeList" : "GAUL", "version" : "2014",
+              "codes" : [ { "code" : "51325" },{ "code" : "51326" },{ "code" : "51327" },{ "code" : "51328" },{ "code" : "51329" },{ "code" : "51330" },{ "code" : "51331" },{ "code" : "51332" } ]
+            } ]
+          }
+        },
+        {
+          "id" : "Item",
+          "title" : {
+            "EN" : "Product"
+          },
+          "subject" : "item",
+          "key" : true,
+          "dataType" : "code",
+          "domain" : {
+            "codes" : [ { "idCodeList" : "FAOSTAT_CommodityList" } ]
+          },
+          "values" : {
+            "codes" : [ {
+              "idCodeList" : "FAOSTAT_CommodityList",
+              "codes" : [ { "code" : "0056" } ]
+            } ]
+          }
+        },
+        {
+          "dataType" : "number",
+          "title" : {
+            "EN" : "Value"
+          },
+          "subject" : "value",
+          "key" : false,
+          "id" : "Value"
+        },
+        {
+          "id" : "Unit",
+          "title" : {
+            "EN" : "Unit"
+          },
+          "subject" : "um",
+          "key" : false,
+          "dataType" : "code",
+          "domain" : {
+            "codes" : [ { "idCodeList" : "FAOSTAT_UM" } ]
+          },
+          "values" : {
+            "codes" : [ {
+              "idCodeList" : "FAOSTAT_UM",
+              "codes" : [ { "code" : "49" } ]
+            } ]
+          }
+        }
+      ]
+    }
+  },
+  "data" : [
+    [ 2008,"51326","0056",92139,"49" ],
+    [ 2008,"51327","0056",508135,"49" ],
+    [ 2008,"51325","0056",146383,"49" ],
+    [ 2008,"51332","0056",238009,"49" ],
+    [ 2008,"51329","0056",3606,"49" ],
+    [ 2008,"51328","0056",1682,"49" ],
+    [ 2008,"51331","0056",549448,"49" ],
+    [ 2008,"51330","0056",254355,"49" ]
+  ]
+}

@@ -1,0 +1,107 @@
+{   "uid": "FAOSTAT_TEST2", "dsd": {
+    "contextSystem": {
+        "name": "FAOSTAT"
+    },
+    "datasource": {
+        "reference": {
+            "psw": "",
+            "usr": "",
+            "url": ""
+        },
+        "dao": "faostat"
+    },
+    "columns": [
+        {
+            "columnId": "1",
+            "dataType": "code",
+            "geoLyer": null,
+            "codesLevel": null,
+            "virtualColumn": "INTERNAL",
+            "values": [],
+            "title": {
+                "EN": "Partner Country"
+            },
+            "supplemental": null,
+            "codeSystem": null,
+            "dimension": {
+                "name": "GEO",
+                "title": null
+            }
+        },
+        {
+            "columnId": "1_bis",
+            "dataType": "code",
+            "geoLyer": null,
+            "codesLevel": null,
+            "virtualColumn": null,
+            "values": null,
+            "title": {
+                "EN": "Reporter Country"
+            },
+            "supplemental": null,
+            "codeSystem": null,
+            "dimension": {
+                "name": "GEO_DST",
+                "title": null
+            }
+        },
+        {
+            "columnId": "2",
+            "dataType": "code",
+            "geoLyer": null,
+            "codesLevel": null,
+            "virtualColumn": null,
+            "values": null,
+            "title": {
+                "EN": "Elements"
+            },
+            "supplemental": null,
+            "codeSystem": null,
+            "dimension": {
+                "name": "ELEMENT",
+                "title": null
+            }
+        },
+        {
+            "columnId": "3",
+            "dataType": "code",
+            "geoLyer": null,
+            "codesLevel": null,
+            "virtualColumn": null,
+            "values": null,
+            "title": {
+                "EN": "Items"
+            },
+            "supplemental": null,
+            "codeSystem": null,
+            "dimension": {
+                "name": "ITEM",
+                "title": {
+                    "FR": "Produits",
+                    "EN": "Products"
+                }
+            }
+        },
+        {
+            "columnId": "4",
+            "dataType": "year",
+            "geoLyer": null,
+            "codesLevel": null,
+            "virtualColumn": null,
+            "values": null,
+            "title": {
+                "EN": "Year"
+            },
+            "supplemental": null,
+            "codeSystem": null,
+            "dimension": {
+                "name": "TIME",
+                "title": {
+                    "FR": "Années",
+                    "EN": "Year"
+                }
+            }
+        }
+    ],
+    "aggregationRules": null
+}}

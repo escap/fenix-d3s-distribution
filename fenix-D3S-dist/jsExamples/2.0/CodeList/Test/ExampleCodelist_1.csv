@@ -1,0 +1,67 @@
+{
+    "uid" : "GAUL",
+    "version" : "2010",
+    "title" : {
+        "EN" : "Test code list 1",
+        "IT" : "Code list di test 1"
+    },
+    "contacts" : [
+        {
+            "organisation" : {
+                "EN" : "Min. Agr..."
+            },
+            "organisationUnit" : null,
+            "name" : "Francesca Rosa",
+            "position" : null,
+            "role" : "owner",
+            "contactInfo" : {
+                "phone" : "+393382541250",
+                "address" : null,
+                "emailAddress" : "ccc@ddd.gg",
+                "hoursOfService" : null,
+                "contractIntruction" : null
+            }
+        },
+        {
+            "organisation" : {
+                "EN" : "Min. Agr..."
+            },
+            "organisationUnit" : null,
+            "name" : "Francesca Rosa",
+            "position" : null,
+            "role" : "owner",
+            "contactInfo" : {
+                "phone" : "+393382541250",
+                "address" : null,
+                "emailAddress" : "ccc@ddd.gg",
+                "hoursOfService" : null,
+                "contractIntruction" : null
+            }
+        }
+    ],
+    "meContent" : {
+        "resourceRepresentationType" : "codelist",
+        "seCodeList" : {
+            "numberOfLevels" : 3,
+            "typeOfCodeList" : "tree"
+        }
+    }
+}
+
+--structure--
+
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+--data--
+
+@01@Code 01
+01@0101@Code 0101
+01@0102@Code 0102
+0102@010201@Code 010201
+@02@Code 02
+@03@Code 03
+03@0301@Code 0301

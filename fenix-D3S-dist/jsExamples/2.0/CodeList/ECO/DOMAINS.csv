@@ -1,0 +1,200 @@
+{
+    "uid": "ECO_DOMAINS",
+    "version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "United Arab Emirates - Domains"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "United Arab Emirates"
+            },
+            "organizationUnit": null,
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": null,
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["groups", "data-domains"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": "06"
+                        }
+                    ],
+                    "idCodeList": "FENIX_Subjects",
+                    "version": "1.0"
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 2,
+            "typeOfCodeList": "tree"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+
+
+
+
+
+@D@Food Security
+D@HS@Indicators from Household Surveys (gender, area, socioeconomics)
+D@FS@Suite of Food Security Indicators
+@Q@Production
+Q@QC@Crops
+Q@QD@Crops processed
+Q@QA@Live Animals@
+Q@QL@Livestock Primary
+Q@QP@Livestock Processed
+Q@QI@Production Indices
+Q@QV@Value of Agricultural Production
+@T@Trade
+T@TP@Crops and livestock products
+T@TA@Live animals
+T@TM@Detailed trade matrix
+T@TI@Trade Indices
+@FB@Food Balance
+FB@FBS@Food Balance Sheets
+FB@BC@Commodity Balances - Crops Primary Equivalent
+FB@BL@Commodity Balances - Livestock and Fish Primary Equivalent
+FB@CC@Food Supply - Crops Primary Equivalent
+FB@CL@Food Supply - Livestock and Fish Primary Equivalent
+@P@Prices
+P@PP@Producer Prices - Annual
+P@PM@Producer Prices - Monthly
+P@PI@Producer Price Indices - Annual
+P@PA@Producer Prices - Archive@
+P@CP@Consumer Price Indices@
+@R@Inputs
+R@RF@Fertilizers
+R@RA@Fertilizers archive
+R@RV@Fertilizers - Trade Value
+R@RP@Pesticides (use)
+R@RT@Pesticides (trade)
+R@RL@Land
+@O@Population
+O@OA@Annual population
+@I@Investment
+I@CS@Capital Stock
+I@RM@Machinery
+I@RY@Machinery Archive
+I@IG@Government Expenditure
+@E@Agri-Environmental Indicators
+E@EC@Air and climate change
+E@EE@Energy
+E@EF@Fertilizers
+E@EL@Land
+E@EK@Livestock
+E@EP@Pesticides
+E@ES@Soil
+E@EW@Water
+@G1@Emissions - Agriculture
+G1@GT@Agriculture Total
+G1@GE@Enteric Fermentation
+G1@GM@Manure Management
+G1@GR@Rice Cultivation
+G1@GY@Synthetic Fertilizers
+G1@GU@Manure applied to Soils
+G1@GP@Manure left on Pasture
+G1@GA@Crop Residues
+G1@GV@Cultivation of Organic Soils
+G1@GB@Burning - Crop Residues
+G1@GH@Burning - Savanna
+G1@GN@Energy Use
+@G2@Emissions - Land Use
+G2@GL@Land Use Total
+G2@GF@Forest Land
+G2@GC@Cropland
+G2@GG@Grassland
+G2@GI@Burning - Biomass
+@F@Forestry
+F@FO@Forestry Production and Trade
+F@FT@Forestry Trade Flows
+@AS@ASTI R&D Indicators
+AS@AA@ASTI-Researchers by Agency Type
+AS@AR@ASTI-Researchers by Gender and Degree Level
+AS@AE@ASTI-Expenditures
+@X@Emergency Response
+X@FA@Food Aid Shipments (WFP)

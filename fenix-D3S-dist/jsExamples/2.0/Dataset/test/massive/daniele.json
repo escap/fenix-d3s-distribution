@@ -1,0 +1,108 @@
+{
+  "metadata" : {
+    "creationDate" : 1414623600000,
+    "version" : "1.0",
+    "title" : {
+      "EN" : "sss"
+    },
+    "uid" : "dan2",
+    "dsd" : {
+      "contextSystem" : "demo1",
+      "datasource" : "D3S",
+      "columns" : [ {
+        "dataType" : "code",
+        "title" : {
+          "EN" : "hh"
+        },
+        "domain" : {
+          "codes" : [ {
+            "codes" : [ {
+              "code" : "281"
+            } ],
+            "idCodeList" : "ECO_GAUL"
+          } ]
+        },
+        "subject" : "item",
+        "key" : true,
+        "id" : "CODE"
+      }, {
+        "dataType" : "date",
+        "title" : {
+          "EN" : "time"
+        },
+        "subject" : "time",
+        "key" : true,
+        "id" : "YEAR"
+      }, {
+        "dataType" : "number",
+        "title" : {
+          "EN" : "val"
+        },
+        "subject" : "value",
+        "key" : false,
+        "id" : "NUMBER"
+      } ]
+    },
+    "languageDetails" : {
+      "EN" : ""
+    },
+    "characterSet" : {
+      "codes" : [ {
+        "code" : "1020"
+      } ],
+      "idCodeList" : "IANAcharacterSet"
+    },
+    "metadataStandardName" : "sss",
+    "metadataLanguage" : {
+      "version" : "1998",
+      "codes" : [ {
+        "code" : "xad"
+      } ],
+      "idCodeList" : "ISO639-2"
+    },
+    "contacts" : [ {
+      "organization" : {
+        "EN" : "ssss"
+      },
+      "position" : {
+        "EN" : ""
+      },
+      "contactInfo" : {
+        "phone" : "1111",
+        "hoursOfService" : {
+          "EN" : ""
+        },
+        "contactInstruction" : {
+          "EN" : ""
+        }
+      },
+      "specify" : {
+        "EN" : ""
+      },
+      "organizationUnit" : {
+        "EN" : ""
+      }
+    } ],
+    "meContent" : {
+      "resourceRepresentationTypeLabel" : {
+        "EN" : "Dataset"
+      },
+      "resourceRepresentationType" : "dataset"
+    },
+    "meInstitutionalMandate" : {
+      "legalActsAgreements" : {
+        "EN" : "ssss"
+      },
+      "institutionalMandateDataSharing" : {
+        "EN" : "ss"
+      }
+    },
+    "language" : {
+      "version" : "1998",
+      "codes" : [ {
+        "code" : "yif"
+      } ],
+      "idCodeList" : "ISO639-2"
+    }
+  }
+}

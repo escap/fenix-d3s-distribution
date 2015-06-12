@@ -1,0 +1,21 @@
+{
+  "uid" : "sim1",
+  "meContent" : {
+    "resourceRepresentationType": "geographic"
+  },
+  "dsd" : {
+    "datasource" : "CountrySTAT",
+    "contextSystem" : "test",
+    "workspace" : "FAO",
+    "contextExtension" : {
+      "test" : "value",
+      "testArr" : ["1", "2", 3],
+      "test2" : 125.12,
+      "test3" : {
+        "test" : "value2",
+        "testArr" : ["4", "5", 6],
+        "test2" : 125.12
+      }
+    }
+  }
+}

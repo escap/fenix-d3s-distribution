@@ -1,0 +1,145 @@
+{
+    "uid": "ECO_Elements",
+    "version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "United Arab Emirates - Elements"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "ECO"
+            },
+            "organizationUnit": null,
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": null,
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["domains", "elements"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": null
+                        }
+                    ],
+                    "idCodeList": null,
+                    "version": null
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 1,
+            "typeOfCodeList": "list"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+@2312@Area harvested
+@2413@Yield
+@2510@Production Quantity
+@2525@Seed
+@2313@Producing Animals/Slaughtered
+@432@Gross Production Index Number (2004-2006 = 100)
+@434@Gross per capita Production Index Number (2004-2006 = 100)
+@436@Net Production Index Number (2004-2006 = 100)
+@438@Net per capita Production Index Number (2004-2006 = 100)
+@152@Gross Production Value (constant 2004-2006 1000 I$)
+@154@Net Production Value (constant 2004-2006 1000 I$)
+@56@Gross Production Value (current million SLC)
+@55@Gross Production Value (constant 2004-2006 million SLC)
+@57@Gross Production Value (current million US$)
+@58@Gross Production Value (constant 2004-2006 million US$)
+@2610@Import Quantity
+@2620@Import Value
+@2910@Export Quantity
+@2920@Export Value
+@64@Import Value Base Period Quantity
+@65@Import Value Base Period Price
+@94@Export Value Base Quantity
+@95@Export Value Base Price
+@462@Import Value Index (2004-2006 = 100)
+@464@Import Unit/Value Index (2004-2006 = 100)
+@465@Import Quantity Index (2004-2006 = 100)
+@492@Export Value Index (2004-2006 = 100)
+@494@Export Unit/Value Index (2004-2006 = 100)
+@495@Export Quantity Index (2004-2006 = 100)

@@ -1,0 +1,20 @@
+#structure
+csvSeparator=;
+structure=table
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1
+titleColumnIndex_EN=2
+
+#metadata
+name=OECD_PolicyType4
+title_EN=OECD Production Payments
+description_EN=OECD Policy Measures of Production Payments
+version=1.0
+startDate=03/04/2014
+sharingPolicy=publicPolicy
+
+
+--data--
+
+17;Output-based payments
+

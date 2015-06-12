@@ -1,0 +1,92 @@
+{
+  "metadata" : {
+    "uid" : "FAOSTAT_PopulationCrossCountry_GeoDistribution_2008",
+    "title" : {
+      "EN" : "Population Cross Country - 2008"
+    },
+    "meContent" : {
+      "resourceRepresentationType" : "dataset",
+      "resourceRepresentationTypeLabel" : {
+        "EN" : "Dataset"
+      }
+    },
+
+    "dsd" : {
+      "datasources" : ["D3S"],
+      "contextSystem" : "demoFENIX",
+      "columns" : [
+        {
+          "id" : "Year",
+          "title" : {
+            "EN" : "Year"
+          },
+          "subject" : "time",
+          "key" : true,
+          "dataType" : "year",
+          "domain" : {
+            "period" : {
+              "from" : 1995,
+              "to" : 2013
+            }
+          },
+          "values" : {
+            "timeList" : [ 2008]
+          }
+        },
+        {
+          "id" : "Region",
+          "title" : {
+            "EN" : "Country"
+          },
+          "subject" : "geo",
+          "key" : true,
+          "dataType" : "code",
+          "domain" : {
+            "codes" : [ { "idCodeList" : "GAUL", "version" : "2014" } ]
+          },
+          "values" : {
+            "codes" : [ {
+              "idCodeList" : "GAUL", "version" : "2014",
+              "codes" : [ { "code" : "8" },{ "code" : "133" },{ "code" : "257" },{ "code" : "94" },{ "code" : "45" },{ "code" : "152" } ]
+            } ]
+          }
+        },
+        {
+          "dataType" : "number",
+          "title" : {
+            "EN" : "Value"
+          },
+          "subject" : "value",
+          "key" : false,
+          "id" : "Value"
+        },
+        {
+          "id" : "Unit",
+          "title" : {
+            "EN" : "Unit"
+          },
+          "subject" : "um",
+          "key" : false,
+          "dataType" : "code",
+          "domain" : {
+            "codes" : [ { "idCodeList" : "FAOSTAT_UM" } ]
+          },
+          "values" : {
+            "codes" : [ {
+              "idCodeList" : "FAOSTAT_UM",
+              "codes" : [ { "code" : "60" } ]
+            } ]
+          }
+        }
+      ]
+    }
+  },
+  "data" : [
+[2008,"8",13567,"60"],
+[2008,"133",17569,"60"],
+[2008,"257",12277,"60"],
+[2008,"94",16783,"60"],
+[2008,"45",14856,"60"],
+[2008,"152",13004,"60"]
+  ]
+}

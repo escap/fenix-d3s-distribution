@@ -1,0 +1,116 @@
+{
+    "creationDate" : 1427410800000,
+    "language" : {
+      "version" : "1998",
+      "codes" : [ {
+        "code" : "eng"
+      } ],
+      "idCodeList" : "ISO639-2"
+    },
+    "title" : {
+      "EN" : "dan3"
+    },
+    "uid" : "dan3",
+
+    "dsd" : {
+      "contextSystem" : "demo1",
+      "datasources" : [ "D3S" ],
+      "columns" : [ {
+        "key" : true,
+        "id" : "TIME",
+        "title" : {
+          "EN" : "t"
+        },
+        "values" : {
+          "timeList" : [ 2000 ]
+        },
+        "subject" : "time",
+        "dataType" : "year"
+      }, {
+        "key" : true,
+        "id" : "CODE",
+        "title" : {
+          "EN" : "i"
+        },
+        "values" : {
+          "codes" : [ {
+            "codes" : [ {
+              "code" : "152"
+            } ],
+            "idCodeList" : "ECO_Elements"
+          } ]
+        },
+        "domain" : {
+          "codes" : [ {
+            "idCodeList" : "ECO_Elements"
+          } ]
+        },
+        "subject" : "item",
+        "dataType" : "code"
+      }, {
+        "key" : false,
+        "id" : "NUMBER",
+        "title" : {
+          "EN" : "v"
+        },
+        "subject" : "value",
+        "dataType" : "number"
+      }, {
+        "key" : false,
+        "id" : "FLAG",
+        "title" : {
+          "EN" : "Flag"
+        },
+        "subject" : null,
+        "dataType" : "text"
+      } ]
+    },
+
+
+    "languageDetails" : {
+      "EN" : null
+    },
+    "characterSet" : {
+      "codes" : [ {
+        "code" : "106"
+      } ],
+      "idCodeList" : "IANAcharacterSet"
+    },
+    "metadataStandardName" : "FENIX",
+    "metadataStandardVersion" : "1.0",
+    "metadataLanguage" : {
+      "version" : "1998",
+      "codes" : [ {
+        "code" : "eng"
+      } ],
+      "idCodeList" : "ISO639-2"
+    },
+    "contacts" : [ {
+      "organization" : {
+        "EN" : "Fff"
+      },
+      "position" : {
+        "EN" : null
+      },
+      "contactInfo" : {
+        "address" : "fff",
+        "phone" : "666",
+        "emailAddress" : "fff@fff.org",
+        "hoursOfService" : {
+          "EN" : null
+        },
+        "contactInstruction" : {
+          "EN" : null
+        }
+      },
+      "specify" : {
+        "EN" : null
+      },
+      "organizationUnit" : {
+        "EN" : null
+      }
+    } ],
+    "meContent" : {
+      "resourceRepresentationType" : "dataset"
+    }
+  }

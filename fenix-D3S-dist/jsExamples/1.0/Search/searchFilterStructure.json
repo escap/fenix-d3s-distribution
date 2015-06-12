@@ -1,0 +1,101 @@
+FILTER STRUCTURE
+
+{
+	"fields" : {
+		"fieldName1" : [/*fieldValue*/],
+		"fieldName2" : ...
+		"dsd.contextSystem.name" : "cstat",
+	}
+	"dimensions" : {
+		"dimension1" : [/*dimensionValue*/],
+		"dimension2" : ...
+	}
+	"parameters" : {
+		"busionessParam1":{/*business value*/}, //comportamenti di business, regole di aggregazione di 2° livello, um per determinate chiavi, output fields
+
+        "page" : 10,
+        "pageSize": 100,
+
+		"output": [{
+			"dimension" : "dimensionName" oppure "field" : "fieldName",
+			"out" : true/false,
+			"key" : true/false,
+			"um" : {/*unit of measure code*/},
+			"cs" : {/*coding system*/},
+			"codesLevel" : 0,
+			"aggregation" : {"id": "Aggregation rule id"} // if there is no id the different aggregation rule fields can be specified
+            "dataType": "...",
+			"filter" : {/*this filter but without 'parameters.output'*/} ???
+		},...]
+	}
+}
+
+{
+	"dm":{ ... },
+	"count" : 100,
+	"data" : [ {...}, {...}, {...} ]
+}
+
+
+EXAMPLE
+
+{
+	"fields" : {
+		"dsd.contextSystem.name" : ["cstat"]
+	},
+	"dimensions" : {
+		"GEO" : [{"system":"GAUL", "version":"1", "code":"50"},{"system":"GAUL", "version":"1", "code":"100"},{"system":"GAUL", "version":"1", "code":"150"}],
+		"ELEMENT" : ["PRODUCTION"],
+		"ITEM_TYPE" : ["Commodity"]
+	}
+}	
+	"parameters" : {
+		"output": { "GEO":{"out" : false }, "FLAG" {"out" : false }},
+		"aggregation" : {
+		    "implementation" : "cstatAdd"
+			"columnIdParameters" : ["FLAG"]
+		}
+	}
+	
+	
+}
+
+NOTES
+
+
+Fields and dimensions names have to exist into database. If not, exception will be thrown...
+
+Values:
+{"language":"", "label":""} => Multilanguage text (fulltext search and indexing)
+"" => text (fulltext search and indexing)
+{ "fromDate":1010101010, "toDate":1010101010 } => date interval
+{ "from":10, "to":17 } => number interval
+{"code":"enumValue"} => enumeration
+{"system":"codeListName", "version":"codeListVersion", "code":"codeName"} => code
+
+
+SEARCH
+- Per uno stesso field le condizioni sono in OR (algoritmo default)
+- Tra diversi field le condizioni sono in AND (algoritmo default)
+- Per gli intervalli di date o di numeri il valore nel db deve essere compreso
+- Per i freeText si applica una ricerca fullText (maiuscole e minuscole contano)
+- Per i multilingua si cerca solo tra lingue corrispondenti
+- Per le enumerazioni si cerca l'uguaglianza
+- Per i codici si trova l'inclusione: A<B => (A.system=B.system & (A=B | A<B )) | ( esiste B1 tale che B1.system = A.system & (B->B1 | (B->B2 & B1<B2)) & (A=B1 | A<B ) )
+
+
+CONFRONTO DI FILTRI DI RICERCA
+- Per intervalli di date e numeri si trovano le intersezioni: A<B => (minA<minB & maxA>minB) | (maxA>maxB & minA<MaxB) | (minA>minB & minA<maxB)
+- Per le enumerazioni si trovano le uguaglianze
+- Per i codici si trova l'inclusione: A<B => (A.system=B.system & (A=B | A<B )) | ( esiste B1 tale che B1.system = A.system & (B->B1 | (B->B2 & B1<B2)) & (A=B1 | A<B ) )
+- Per i freetext nn lo so
+
+------------------------------------------------------------------------------------
+
+RISPOSTA
+
+{
+	"dm": {/*generated dataset metadata*/},
+	"count":100,
+	"data":[]
+}

@@ -1,0 +1,17 @@
+{
+    "rid" : "9_385",
+    "meReferenceSystem":{
+      "seProjection":{
+        "projection":{
+          "version":"1.0",
+          "codes":[
+            {
+              "code":"EPSG:3857"
+            }
+          ],
+          "idCodeList":"mapProjections"
+        }
+      }
+    }
+
+}

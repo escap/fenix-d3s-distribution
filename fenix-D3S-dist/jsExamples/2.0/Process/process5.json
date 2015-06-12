@@ -1,0 +1,22 @@
+[
+  {
+    "name" : "filter",
+    "parameters" : {
+      "columns" : [
+        "Item", "Country", "Element", "Year", "Value"
+      ]
+    }
+  },
+  {
+    "name" : "order",
+    "parameters" : {
+      "Year" : "ASC"
+    }
+  },
+  {
+    "name" : "asTable"
+  },
+  {
+    "name" : "distinct"
+  }
+]

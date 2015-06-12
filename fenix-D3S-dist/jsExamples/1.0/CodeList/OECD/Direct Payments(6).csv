@@ -1,0 +1,21 @@
+#structure
+csvSeparator=;
+structure=table
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1
+titleColumnIndex_EN=2
+
+#metadata
+name=OECD_PolicyType6
+title_EN=OECD Direct Payments
+description_EN=OECD Policy Measures of Direct Payments
+version=1.0
+startDate=03/04/2014
+sharingPolicy=publicPolicy
+
+
+--data--
+
+21;Area payments
+16;Commodity specific transfers to consumers from taxypayers (TCTC)
+22;Income support

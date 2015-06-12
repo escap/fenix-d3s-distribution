@@ -1,0 +1,13 @@
+{
+  "filter": {
+    "meContent.resourceRepresentationType": {
+      "enumeration": ["dataset"]
+    }
+  },
+  "metadata": {
+    "dsd": {
+      "contextSystem": "RLM",
+      "datasource": "RLM"
+    }
+  }
+}

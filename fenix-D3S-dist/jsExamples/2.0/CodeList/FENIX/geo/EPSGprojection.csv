@@ -1,0 +1,207 @@
+{
+    "uid": "EPSG_Projection",
+	"version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "Projection"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "European Petroleum Survey Group"
+            },
+            "organizationUnit": null,
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": null,
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["datum"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": "02022"
+                        }
+                    ],
+                    "idCodeList": "FENIX_Subjects",
+                    "version": "1.0"
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 1,
+            "typeOfCodeList": "list"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+decriptionColumnIndex_EN=4
+
+
+--data--
+@9601@Longitude rotation@This transformation allows calculation of the longitude of a point in the target system by adding the parameter value to the longitude value of the point in the source system.
+@9602@Geographic/geocentric conversions@This is a parameter-less conversion. In applications it is often concatenated with the 3- 7- or 10-parameter transformations 9603, 9606, 9607 or 9636 to form a geographic to geographic transformation.
+@9603@Geocentric translations@This transformation allows calculation of coordinates in the target system by adding the parameter value to the corresponding coordinate values of the point in the source system.
+@9604@Molodensky@See Abridged Molodensky.
+@9605@Abridged Molodensky@This transformation is a truncated Taylor series expansion of a transformation between two geographic coordinate systems, modelled as a set of geocentric translations.
+@9606@Position Vector 7-param. transformation@Note the analogy with the Coordinate Frame Rotation (code 9607) but beware of the differences!  The Position Vector convention is used by IAG and recommended by ISO 19111.
+@9607@Coordinate Frame rotation@Note the analogy with the Position Vector transformation (code 9606) but beware of the differences!  The Position Vector convention is used by IAG and recommended by ISO 19111.
+@9613@NADCON@Geodetic transformation operating on geographic coordinate differences by bi-linear interpolation.  Input expects longitudes to be positive west.
+@9614@NTv1@Geodetic transformation operating on geographic coordinate differences by bi-linear interpolation.  Superseded in 1997 by NTv2 (transformation method code 9615).   Input expects longitudes to be positive west.
+@9615@NTv2@Geodetic transformation operating on geographic coordinate differences by bi-linear interpolation.  Supersedes  NTv1 (transformation method code 9614).  Input expects longitudes to be positive west.
+@9616@Vertical Offset@This transformation allows calculation of height (or depth) in the target system by adding the parameter value to the height (or depth)-value of the point in the source system.
+@9617@Madrid to ED50 polynomial@
+@9618@Geographic2D with Height Offsets@This transformation allows calculation of coordinates in the target system by adding the parameter value to the coordinate values of the point in the source system.
+@9619@Geographic2D offsets@This transformation allows calculation of coordinates in the target system by adding the parameter value to the coordinate values of the point in the source system.
+@9620@Norway Offshore Interpolation@
+@9621@Similarity transformation@Defined for two-dimensional coordinate systems.
+@9622@Affine orthogonal geometric transformation@
+@9623@Affine general geometric transformation@
+@9624@Affine general parametric transformation@
+@9625@General polynomial (2nd-order)@
+@9626@General polynomial (3rd-order)@
+@9627@General polynomial (4th-order)@
+@9628@Reversible polynomial (2nd-order)@Reversibility is subject to constraints.  See Guidance Note 7 for clarification.
+@9629@Reversible polynomial (3rd-order)@Reversibility is subject to constraints.  See Guidance Note 7 for clarification.
+@9630@Reversible polynomial (4th-order)@Reversibility is subject to constraints.  See Guidance Note 7 for clarification.
+@9631@Complex polynomial (3rd-order)@Coordinate pairs treated as complex numbers.  This exploits the correlation between the polynomial coefficients and leads to a smaller number of coefficients than the regular 3rd-order polynomial.
+@9632@Complex polynomial (4th-order)@Coordinate pairs treated as complex numbers.  This exploits the correlation between the polynomial coefficients and leads to a smaller number of coefficients than the regular 4th-order polynomial.
+@9633@Ordnance Survey National Transformation@Geodetic transformation between ETRS89 (or WGS 84) and OSGB36 / National Grid.  Uses ETRS89 / National Grid as an intermediate coordinate system for bi-linear interpolation of gridded grid coordinate differences.
+@9634@Maritime Provinces polynomial interpolation@This transformation is an executable module within the application NBGeocalc.  It is an adaptation of the ESTPM program developed by Geodetic Survey of Canada.
+@9635@Geographic3D to Geographic2D+GravityRelatedHeight@Transformation from a Geographic 3D CRS to a Compound CRS consisting of a Geographic 2D CRS and a Vertical CRS, or vice versa. The Geographic 3D and the Geographic 2D CRS must be based on the same Geodetic Datum.
+@9636@Molodensky-Badekas 10-parameter transformation@The [7-parameter] Coordinate Frame rotation method (code 9607) is a specific case of the Molodenski-Badekas 10-parameter transformation in which the evaluation point is the origin of the geocentric coordinate system at which coordinate values are zero.
+@9637@Degree representation conversion: deg to DMSH@Applies to 2D and the horizontal component of 3D ellipsoidal  systems.
+@9638@Degree representation conversion: degH to DMSH@Applies to 2D and the horizontal component of 3D ellipsoidal  systems.
+@9639@Degree representation conversion: Hdeg to DMSH@Applies to 2D and the horizontal component of 3D ellipsoidal  systems.
+@9640@Degree representation conversion: DM to DMSH@Applies to 2D and the horizontal component of 3D ellipsoidal  systems.
+@9641@Degree representation conversion: DMH to DMSH@Applies to 2D and the horizontal component of 3D ellipsoidal  systems.
+@9642@Degree representation conversion: HDM to DMSH@Applies to 2D and the horizontal component of 3D ellipsoidal  systems.
+@9643@Degree representation conversion: DMS to DMSH@Applies to 2D and the horizontal component of 3D ellipsoidal  systems.
+@9644@Degree representation conversion: HDMS to DMSH@Applies to 2D and the horizontal component of 3D ellipsoidal  systems.
+@9645@General polynomial of degree 2@
+@9646@General polynomial of degree 3@
+@9647@General polynomial of degree 4@
+@9648@General polynomial of degree 6@
+@9649@Reversible polynomial of degree 2@Reversibility is subject to constraints.  See Guidance Note 7 for conditions and clarification.
+@9650@Reversible polynomial of degree 3@Reversibility is subject to constraints.  See Guidance Note 7 for conditions and clarification.
+@9651@Reversible polynomial of degree 4@Reversibility is subject to constraints.  See Guidance Note 7 for conditions and clarification.
+@9652@Complex polynomial of degree 3@Coordinate pairs treated as complex numbers.  This exploits the correlation between the polynomial coefficients and leads to a smaller number of coefficients than the general polynomial of degree 3.
+@9653@Complex polynomial of degree 4@Coordinate pairs treated as complex numbers.  This exploits the correlation between the polynomial coefficients and leads to a smaller number of coefficients than the general polynomial of degree 4.
+@9654@Reversible polynomial of degree 13@
+@9655@France geocentric interpolation@
+@9656@Cartesian Grid Offsets@This transformation allows calculation of coordinates in the target system by adding the parameter value to the coordinate values of the point in the source system.
+@9657@Vertical Offset and Slope@This transformation allows calculation of height in the target system by applying the parameter values to the height value of the point in the source system.
+@9658@VERTCON@Geodetic transformation operating on geographic coordinate differences by bi-linear interpolation.  Input expects longitudes to be positive west.
+@9659@Geographic3D to 2D conversion@This is a parameter-less conversion.
+@9660@Geographic3D offsets@This transformation allows calculation of coordinates in the target system by adding the parameter value to the coordinate values of the point in the source system.
+@9661@Geographic3D to GravityRelatedHeight (EGM)@Transformation of the vertical component of a Geographic 3D CRS to a Vertical CRS, or vice versa. The Geographic 3D and the Geographic 2D CRS must be based on the 3D.
+@9662@Geographic3D to GravityRelatedHeight (Ausgeoid98)@Transformation of the vertical component of a Geographic 3D CRS to a Vertical CRS, or vice versa. The Geographic 3D and the Geographic 2D CRS must be based on the 3D.
+@9663@Geographic3D to GravityRelatedHeight (OSGM02)@Transformation of the vertical component of a Geographic 3D CRS to a Vertical CRS, or vice versa. The Geographic 3D and the Geographic 2D CRS must be based on the 3D.
+@9664@Geographic3D to GravityRelatedHeight (IGN)@Transformation of the vertical component of a Geographic 3D CRS to a Vertical CRS, or vice versa. The Geographic 3D and the Geographic 2D CRS must be based on the 3D.
+@9665@Geographic3D to GravityRelatedHeight (US)@Transformation of the vertical component of a Geographic 3D CRS to a Vertical CRS, or vice versa. The Geographic 3D and the Geographic 2D CRS must be based on the 3D.
+@9801@Lambert Conic Conformal (1SP)@
+@9802@Lambert Conic Conformal (2SP)@
+@9803@Lambert Conic Conformal (2SP Belgium)@In 2000 this modification was replaced through use of the regular Lambert Conic Conformal (2SP) method [9802] with appropriately modified parameter values.
+@9804@Mercator (1SP)@
+@9805@Mercator (2SP)@
+@9806@Cassini-Soldner@
+@9807@Transverse Mercator@
+@9808@Transverse Mercator (South Orientated)@
+@9809@Oblique Stereographic@This is not the same as the projection method of the same name in USGS Professional Paper no. 1395, "Map Projections - A Working Manual" by John P. Snyder.
+@9810@Polar Stereographic (variant A)@Latitude of natural origin must be either 90 degrees or -90 degrees (or equivalent in alternative angle unit).
+@9811@New Zealand Map Grid@
+@9812@Hotine Oblique Mercator@
+@9813@Laborde Oblique Mercator@Can be accomodated by Oblique Mercator method (code 9815).
+@9814@Swiss Oblique Cylindrical@Can be accomodated by Oblique Mercator method (code 9815).
+@9815@Oblique Mercator@
+@9816@Tunisia Mining Grid@
+@9817@Lambert Conic Near-Conformal@The Lambert Near-Conformal projection is derived from the Lambert Conformal Conic projection by truncating the series expansion of the projection formulae.
+@9818@American Polyconic@See information source for formula and example.
+@9819@Krovak Oblique Conic Conformal@
+@9820@Lambert Azimuthal Equal Area@This is the ellipsoidal form of the projection.
+@9821@Lambert Azimuthal Equal Area (Spherical)@This is the spherical form of the projection.  See coordinate operation method Lambert Azimuthal Equal Area (code 9820) for ellipsoidal form.  Differences of several tens of metres result from comparison of the two methods.
+@9822@Albers Equal Area@
+@9823@Equidistant Cylindrical@If the latitude of natural origin is at the equator, also known as Plate Carrée. See also Pseudo Plate Carree, method code 9825.
+@9824@Transverse Mercator Zoned Grid System@If locations fall outwith the fixed zones the general Transverse Mercator method (code 9807) must be used for each zone.
+@9825@Pseudo Plate Carree@Used only for depiction of graticule (latitude/longitude) coordinates on a computer display. The axes units are decimal degrees and of variable scale. The origin is at Lat = 0, Long = 0. See Equidistant Cylindrical, code 9823, for proper Plate Carrée.
+@9826@Lambert Conic Conformal (West Orientated)@
+@9827@Bonne@
+@9828@Bonne (South Orientated)@
+@9829@Polar Stereographic (variant B)@
+@9830@Polar Stereographic (variant C)@
+@9831@Guam Projection@Simplified form of Oblique Azimuthal Equidistant projection method.

@@ -1,0 +1,56 @@
+{
+    "uid" : "dataset_test1a",
+    "version" : "1.0",
+    "title" : {
+        "EN" : "Test dataset 1"
+    },
+    "meContent" : {
+        "resourceRepresentationType": "dataset"
+    },
+
+    "dsd" : {
+        "contextSystem" : "",
+        "datasource" : "CountrySTAT",
+        "aggregationRules" : null,
+
+        "columns" : [
+            {
+                "id" : "col_1",
+                "title" : {
+                    "EN" : "Item"
+                },
+                "subject" : "item",
+                "dataType" : "code",
+                "domain" : {
+                    "codes" : [
+                        {
+                            "idCodeList" : "test1",
+                            "version" : "1.0"
+                        }
+                    ]
+                },
+                "columnLink" : null,
+                "key" : true,
+                "transposed" : false,
+                "virtual" : false,
+                "values" : null
+            },
+            {
+                "id" : "col_2",
+                "title" : {
+                    "EN" : "Value"
+                },
+                "dataType" : "number",
+                "subject" : "VALUE"
+            },
+            {
+                "id" : "col_3",
+                "title" : {
+                    "EN" : "Unit of measure"
+                },
+                "dataType" : "text",
+                "subject" : "content.unitOfMeasure"
+            }
+        ]
+    }
+}

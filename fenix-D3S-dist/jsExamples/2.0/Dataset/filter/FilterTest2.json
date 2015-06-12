@@ -1,0 +1,10 @@
+{
+    "dsd.contextSystem" : {
+        "enumeration": [
+            "AFO"
+        ]
+    },
+    "meContent.resourceRepresentationType" : {
+        "enumeration" : ["dataset"]
+    }
+}

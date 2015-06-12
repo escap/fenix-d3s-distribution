@@ -1,0 +1,35 @@
+#structure
+csvSeparator=;
+structure=table
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1
+titleColumnIndex_EN=2
+
+#metadata
+name=OECD_PolicyType1
+title_EN=OECD Export Measures
+description_EN=OECD Policy Measures of Export Measures
+version=1.0
+startDate=03/04/2014
+sharingPolicy=publicPolicy
+
+
+--data--
+
+27;Domestic market obligation
+1;Export prohibition
+2;Export quota
+3;Export subsidies
+4;Export tax
+5;Licensing requirement
+7;Maximum reference price
+8;Minimum reference price
+6;Reduction or withdrawal of VAT tax rebate
+9;Restriction on customs clearance point for exports
+10;VAT tax rebate
+
+
+
+
+
+

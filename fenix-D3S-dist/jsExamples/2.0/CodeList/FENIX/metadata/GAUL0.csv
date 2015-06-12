@@ -1,0 +1,441 @@
+{
+    "uid": "GAUL0",
+	"version": "2014",
+    "language": {
+        "codes": [
+            { "code": "eng" },
+            { "code": "fre" },
+            { "code": "spa" },
+            { "code": "por" },
+            { "code": "chi" },
+            { "code": "rus" },
+            { "code": "ara" }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "Global administrative unit layer country level"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "FAO"
+            },
+            "organizationUnit": {
+                "EN": "ESS"
+            },
+            "name": "Fabio Grita",
+            "position": null,
+            "role": "owner",
+            "contactInfo": {
+                "phone ": "0039 06 57054262",
+                "address": "FAO-HQ, Viale delle Terme di Caracalla, 00153 Roma",
+                "emailAddress": "fabio.grita@fao.org",
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["GAUL", "geographic","area","layer"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": "0201"
+                        }
+                    ],
+                    "idCodeList": "FENIX_Subjects",
+                    "version": "1.0"
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 1,
+            "typeOfCodeList": "list"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+		},
+		"seDocuments": [{
+			"document": {
+				"documentKind": "methodologicalNotes",
+				"title": "The Global Administrative Unit Layers (GAUL)",
+				"date": "2006-12-20",
+				"documentContact":{
+            "organization": {
+                "EN": "FAO"
+            },
+            "organizationUnit": {
+                "EN": "ESS"
+            },
+            "name": "Fabio Grita",
+            "position": null,
+            "role": "director",
+            "contactInfo": {
+                "phone ": "0039 06 57054262",
+                "address": "FAO-HQ, Viale delle Terme di Caracalla, 00153 Roma",
+                "emailAddress": "fabio.grita@fao.org",
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        },
+				"link": "http://www.fao.org/giews/english/shortnews/GAUL1.pdf"
+
+						}
+
+					}]
+
+
+}
+
+
+--structure--
+
+
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+startYearColumnIndex=3
+expireYearColumnIndex=4
+titleColumnIndex_PT=5
+titleColumnIndex_EN=6
+titleColumnIndex_FR=7
+titleColumnIndex_ES=8
+titleColumnIndex_ZH=9
+titleColumnIndex_AR=10
+titleColumnIndex_RU=11
+
+
+--data--
+
+
+@1@1000@3000@Afeganistão@Afghanistan@Afghanistan@Afganistán@阿富汗@أفغانستان@Афганистан
+@2@1000@3000@@Aksai Chin@@@@@
+@3@1000@3000@Albânia@Albania@Albanie@Albania@阿尔巴尼亚@ألبانيا@Албания
+@4@1000@3000@Argélia@Algeria@Algérie@Argelia@阿尔及利亚@الجزائر@Алжир
+@5@1000@3000@Samoa Americana@American Samoa@Samoa américaines@Samoa Americana@美属萨摩亚@ساموا الأمريكية@Американское Самоа
+@6@2011@3000@Sudão@Sudan@Soudan@Sudán@苏 丹@السودان@Судан
+@7@1000@3000@Andorra@Andorra@Andorre@Andorra@安道尔@أندورا@Андорра
+@8@1000@3000@Angola@Angola@Angola@Angola@安哥拉@أنغولا@Ангола
+@9@1000@3000@Anguilla@Anguilla@Anguilla@Anguila@安圭拉@أنغويلا@Ангилья
+@10@1000@3000@Antártida@Antarctica@Antarctique@Antártida@南极洲@أنتارتيكا@Антарктика
+@11@1000@3000@Antígua e Barbuda@Antigua and Barbuda@Antigua-et-Barbuda@Antigua y Barbuda@安提瓜和巴布达@أنتيغوا وباربودا@Антигуа и Барбуда
+@12@1000@3000@Argentina@Argentina@Argentine@Argentina@阿根廷@الأرجنتين@Аргентина
+@13@1000@3000@Arménia@Armenia@Arménie@Armenia@亚美尼亚@أرمينيا@Армения
+@14@1000@3000@Aruba@Aruba@Aruba@Aruba@阿鲁巴岛@أروبا@Аруба
+@15@1000@3000@@Arunachal Pradesh@@@@@
+@16@1000@3000@@Ashmore and Cartier Islands@@@@@
+@17@1000@3000@Austrália@Australia@Australie@Australia@澳大利亚@أستراليا@Австралия
+@18@1000@3000@Áustria@Austria@Autriche@Austria@奥地利@النمسا@Австрия
+@19@1000@3000@Azerbaijão@Azerbaijan@Azerbaïdjan@Azerbaiyán@阿塞拜疆@أذربيجان@Азербайджан
+@20@1000@3000@Bahamas@Bahamas@Bahamas@Bahamas@巴哈马@جزر البهاما@Багамские Острова
+@21@1000@3000@Bahrein@Bahrain@Bahreïn@Bahrein@巴 林@البحرين@Бахрейн
+@22@1000@3000@@Baker Island@@@@@
+@23@1000@3000@Bangladesh@Bangladesh@Bangladesh@Bangladesh@孟加拉国@بنغلاديش@Бангладеш
+@24@1000@3000@Barbados@Barbados@Barbade@Barbados@巴巴多斯@بربادوس@Барбадос
+@25@1000@3000@@Bassas da India@@@@@
+@26@1000@3000@Bielorréssia@Belarus@Bélarus@Belarés@白俄罗斯@بيلاروس@Беларусь
+@27@1000@3000@Bélgica@Belgium@Belgique@Bélgica@比利时@بلجيكا@Бельгия
+@28@1000@3000@Belize@Belize@Belize@Belice@伯利兹@بليز@Белиз
+@29@1000@3000@Benim@Benin@Bénin@Benin@贝 宁@بنن@Бенин
+@30@1000@3000@Bermudas@Bermuda@Bermudes@Bermudas@百慕大@برمودا@Бермуды
+@31@1000@3000@Butão@Bhutan@Bhoutan@Bhután@不 丹@بوتان@Бутан
+@32@1000@3000@@Bird Island@@@@@
+@33@1000@3000@Bolívia@Bolivia@Bolivie (État plurinational de)@Bolivia (Estado Plurinacional de)@玻利维亚多民族国@بوليفيا (دولة - المتعددة القوميات)@Боливия (Многонациогнальное Государство)
+@34@1000@3000@Bósnia e Herzegovina@Bosnia and Herzegovina@Bosnie-Herzégovine@Bosnia y Herzegovina@波斯尼亚－黑塞哥维那@البوسنة والهرسك@Босния и Герцеговина
+@35@1000@3000@Botswana@Botswana@Botswana@Botswana@博茨瓦纳@بوتسوانا@Ботсвана
+@36@1000@3000@@Bouvet Island@@@@@
+@37@1000@3000@Brasil@Brazil@Brésil@Brasil@巴 西@البرازيل@Бразилия
+@38@1000@3000@Território Britânico do Oceano Índico@British Indian Ocean Territory@Territoire britanique de l'Océan Indien@Territorio Británico del Océano Indico@英辖印度洋海域@المناطق البريطانية في المحيط الهندي@Британская Территория в Индийском Океане
+@39@1000@3000@Ilhas Virgens Britânicas@British Virgin Islands@Îles Vierges britanniques@Islas Vírgenes Británicas@英属维尔京群岛@جزر فيرجين البريطانية@Британские Виргинские острова
+@40@1000@3000@Brunei@Brunei Darussalam@Brunéi Darussalam@Brunei Darussalam@文莱达鲁萨兰国@برونى دار السلام@Бруней-Даруссалам
+@41@1000@3000@Bulgária@Bulgaria@Bulgarie@Bulgaria@保加利亚@بلغاريا@Болгария
+@42@1000@3000@Burkina Faso@Burkina Faso@Burkina Faso@Burkina Faso@布基纳法索@بوركينا فاسو@Буркина-Фасо
+@43@1000@3000@Burundi@Burundi@Burundi@Burundi@布隆迪@بوروندي@Бурунди
+@44@1000@3000@Camboja@Cambodia@Cambodge@Camboya@柬埔寨@كمبوديا@Камбоджа
+@45@1000@3000@Camarões@Cameroon@Cameroun@Camerén@喀麦隆@الكاميرون@Камерун
+@46@1000@3000@Canadá@Canada@Canada@Canadá@加拿大@كندا@Канада
+@47@1000@3000@Cabo Verde@Cape Verde@Cap-Vert@Cabo Verde@佛得角@الرأس الأخضر@Кабо-Верде
+@48@1000@3000@Ilhas Cayman@Cayman Islands@Îles Caïmanes@Islas Caimán@开曼群岛@جزر كايمان@Каймановы острова
+@49@1000@3000@Repéblica Centro-Africana@Central African Republic@République centrafricaine@Repéblica Centroafricana@中非共和国@جمهورية أفريقيا الوسطى@Центральноафриканская Республика
+@50@1000@3000@Chade@Chad@Tchad@Chad@乍 得@تشاد@Чад
+@51@1000@3000@Chile@Chile@Chili@Chile@智 利@شيلى@Чили
+@52@1000@3000@@China/India@@@@@
+@54@1000@3000@Ilha do Natal@Christmas Island@Île Christmas@Isla Christmas@圣诞岛@جزر كريسماس@остров Рождества
+@55@1000@3000@@Clipperton Island@@@@@
+@56@1000@3000@Ilhas Cocos (Keeling)@Cocos (Keeling) Islands@Îles des Cocos (Keeling)@Islas Cocos (Keeling)@可可群岛@جزر كوكوس (كيلنغ)@Кокосовые острова (Килинг)
+@57@1000@3000@Colômbia@Colombia@Colombie@Colombia@哥伦比亚@كولومبيا@Колумбия
+@58@1000@3000@Comores@Comoros@Comores@Comoras@科摩罗@جزر القمر@Коморские Острова
+@59@1000@3000@Repéblica do Congo@Congo@Congo@Congo@刚 果@الكونغو@Конго
+@60@1000@3000@Ilhas Cook@Cook Islands@Îles Cook@Islas Cook@库克群岛@جزر كوك@Острова Кука
+@61@1000@3000@Costa Rica@Costa Rica@Costa Rica@Costa Rica@哥斯达黎加@كوستاريكا@Коста-Рика
+@62@1000@3000@Croácia@Croatia@Croatie@Croacia@克罗地亚@كرواتيا@Хорватия
+@63@1000@3000@Cuba@Cuba@Cuba@Cuba@古 巴@كوبا@Куба
+@64@1000@3000@Chipre@Cyprus@Chypre@Chipre@塞浦路斯@قبرص@Кипр
+@65@1000@3000@Repéblica Checa@Czech Republic@République tchèque@Repéblica Checa@捷克共和国@الجمهورية التشيكية@Чешская республика
+@66@1000@3000@Costa do Marfim@Côte d'Ivoire@Côte d'Ivoire@Côte d'Ivoire@科特迪瓦@كوت ديفوار@Кот-д`Ивуар
+@67@1000@3000@Coreia do Norte@Dem People's Rep of Korea@République populaire démocratique de Corée@Repéblica Popular Democrática de Corea@朝鲜民主主义人民共和国@جمهورية كوريا الديمقراطية الشعبية@Корейская Народно-Демократическая Республика
+@68@1000@3000@Repéblica Democrática do Congo@Democratic Republic of the Congo@République démocratique du Congo@Repéblica Democrática del Congo@刚果民主共和国@جمهورية الكونغو الديمقراطية@Демократическая Республика Конго
+@69@1000@3000@Dinamarca@Denmark@Danemark@Dinamarca@丹 麦@الدانمرك@Дания
+@70@1000@3000@Djibouti@Djibouti@Djibouti@Djibouti@吉布提@جيبوتي@Джибути
+@71@1000@3000@Dominica@Dominica@Dominique@Dominica@多米尼克@دومينيكا@Доминика
+@72@1000@3000@Repéblica Dominicana@Dominican Republic@République dominicaine@Repéblica Dominicana@多米尼加共和国@الجمهورية الدومينيكية@Доминиканская Республика
+@73@1000@3000@Equador@Ecuador@Équateur@Ecuador@厄瓜多尔@إكوادور@Эквадор
+@74@2011@3000@Sudão do Sul@South Sudan@Soudan du Sud@Sudán del Sur@@@Южный Судан
+@75@1000@3000@El Salvador@El Salvador@El Salvador@El Salvador@萨尔瓦多@السلفادور@Сальвадор
+@76@1000@3000@Guiné Equatorial@Equatorial Guinea@Guinée équatoriale@Guinea Ecuatorial@赤道几内亚@غينيا الاستوائية@Экваториальная Гвинея
+@77@1000@3000@Eritreia@Eritrea@Érythrée@Eritrea@厄立特里亚@إريتريا@Эритрея
+@78@1000@3000@Estónia@Estonia@Estonie@Estonia@爱沙尼亚@إستونيا@Эстония
+@79@1000@3000@Etiópia@Ethiopia@Éthiopie@Etiopía@埃塞俄比亚@إثيوبيا@Эфиопия
+@80@1000@3000@@Europa Island@@@@@
+@81@1000@3000@Ilhas Malvinas@Falkland Islands (Malvinas)@Îles Falkland@Islas Malvinas@福克兰群岛@جزر فوكلاند (مالفيناس)@Фолклендские острова
+@82@1000@3000@Ilhas Feroé@Faroe Islands@Îles Féroé@Islas Feroe@法罗群岛@جزر فيرويه@Фарерские острова
+@83@1000@3000@Fiji@Fiji@Fidji@Fiji@斐 济@فيجي@Фиджи
+@84@1000@3000@Finlândia@Finland@Finlande@Finlandia@芬 兰@فنلندا@Финляндия
+@85@1000@3000@França@France@France@Francia@法 国@فرنسا@Франция
+@86@1000@3000@Guiana Francesa@French Guiana@Guyane française@Guayana francesa@法属圭亚那@غوايانا الفرنسية@Французская Гвиана
+@87@1000@3000@Polinésia Francesa@French Polynesia@Polynésie française@Polinesia Francesa@法属波利尼西亚@بولينيزيا الفرنسية@Французская Полинезия
+@88@1000@3000@Terras Austrais e Antárticas Francesas@French Southern and Antarctic Territories@Terres australes et antarctiques françaises@Tierras Australes y Antárticas Francesas@法国南部领@أراضى جنوبى فرنسا@Французские южные и антарктические территории
+@89@1000@3000@Gabão@Gabon@Gabon@Gabón@加 蓬@غابون@Габон
+@90@1000@3000@Gâmbia@Gambia@Gambie@Gambia@冈比亚@غامبيا@Гамбия
+@91@1000@3000@@Gaza Strip@@@@@
+@92@1000@3000@Geórgia@Georgia@Géorgie@Georgia@格鲁吉亚@جورجيا@Грузия
+@93@1000@3000@Alemanha@Germany@Allemagne@Alemania@德 国@ألمانيا@Германия
+@94@1000@3000@Gana@Ghana@Ghana@Ghana@加 纳@غانا@Гана
+@95@1000@3000@Gibraltar@Gibraltar@Gibraltar@Gibraltar@直布罗陀@جبل طارق@Гибралтар
+@96@1000@3000@@Glorioso Island@@@@@
+@97@1000@3000@Grécia@Greece@Grèce@Grecia@希 腊@اليونان@Греция
+@98@1000@3000@Gronelândia@Greenland@Groenland@Groenlandia@格陵兰@غرينلاند@Гренландия
+@99@1000@3000@Granada@Grenada@Grenade@Granada@格林纳达@غرينادا@Гренада
+@100@1000@3000@Guadalupe@Guadeloupe@Guadeloupe@Guadalupe@瓜德罗普@غوادالوب@Гваделупа
+@101@1000@3000@Guam@Guam@Guam@Guam@关岛@جوام@Гуам
+@102@2011@3000@@Abyei@@@@@
+@103@1000@3000@Guatemala@Guatemala@Guatemala@Guatemala@危地马拉@غواتيمالا@Гватемала
+@104@1000@3000@@Guernsey@@@@@
+@105@1000@3000@Guiné-Bissau@Guinea-Bissau@Guinée-Bissau@Guinea-Bissau@几内亚比绍@غينيا - بيساو@Гвинея-Бисау
+@106@1000@3000@Guiné@Guinea@Guinée@Guinea@几内亚@غينيا@Гвинея
+@107@1000@3000@Guiana@Guyana@Guyana@Guyana@圭亚那@غيانا@Гайана
+@108@1000@3000@Haiti@Haiti@Haïti@Haití@海 地@هايتي@Гаити
+@109@1000@3000@@Heard Island and McDonald Islands@@@@@
+@110@1000@3000@Vaticano@Holy See@Saint-Siège@Santa Sede@教廷@الكرسي الرسولي@Святой Престол
+@111@1000@3000@Honduras@Honduras@Honduras@Honduras@洪都拉斯@هندوراس@Гондурас
+@112@1000@3000@@Howland Island@@@@@
+@113@1000@3000@Hungria@Hungary@Hongrie@Hungría@匈牙利@هنغاريا@Венгрия
+@114@1000@3000@Islândia@Iceland@Islande@Islandia@冰 岛@آيسلندا@Исландия
+@115@1000@3000@Índia@India@Inde@India@印 度@الهند@Индия
+@116@1000@3000@Indonésia@Indonesia@Indonésie@Indonesia@印度尼西亚@إندونيسيا@Индонезия
+@117@1000@3000@Irã@Iran  (Islamic Republic of)@Iran (République islamique d')@Irán (Repéblica Islámica del)@伊 朗(伊斯兰共和国)@إيران@Иран (Исламская Республика)
+@118@1000@3000@Iraque@Iraq@Iraq@Iraq@伊拉克@العراق@Ирак
+@119@1000@3000@Irlanda@Ireland@Irlande@Irlanda@爱尔兰@آيرلندا@Ирландия
+@120@1000@3000@Ilha de Man@Isle of Man@Île de Man@Isla de Man@Isle of Man@جزيرة مان@Остров Мэн
+@121@1000@3000@Israel@Israel@Israël@Israel@以色列@إسرائيل@Израиль
+@122@1000@3000@Itália@Italy@Italie@Italia@意大利@إيطاليا@Италия
+@123@1000@3000@Jamaica@Jamaica@Jamaïque@Jamaica@牙买加@جامايكا@Ямайка
+@126@1000@3000@Japão@Japan@Japon@Japón@日 本@اليابان@Япония
+@127@1000@3000@@Jarvis Island@@@@@
+@128@1000@3000@@Jersey@@@@@
+@129@1000@3000@@Johnston Atoll@@@@@
+@130@1000@3000@Jordânia@Jordan@Jordanie@Jordania@约 旦@الأردن@Иордания
+@131@1000@3000@@Juan de Nova Island@@@@@
+@132@1000@3000@Cazaquistão@Kazakhstan@Kazakhstan@Kazajstán@哈萨克斯坦@كازاخستان@Казахстан
+@133@1000@3000@Quênia@Kenya@Kenya@Kenya@肯尼亚@كينيا@Кения
+@134@1000@3000@@Kingman Reef@@@@@
+@135@1000@3000@Kiribati@Kiribati@Kiribati@Kiribati@基里巴斯@كيريباس@Кирибати
+@136@1000@3000@@Kuril islands@@@@@
+@137@1000@3000@Kuwait@Kuwait@Koweït@Kuwait@科威特@الكويت@Кувейт
+@138@1000@3000@Quirguistão@Kyrgyzstan@Kirghizistan@Kirguistán@吉尔吉斯斯坦@قيرغيزستان@Кыргызстан
+@139@1000@3000@Laos@Lao People's Democratic Republic@République démocratique populaire lao@Repéblica Democrática Popular Lao@老挝人民民主共和国@جمهورية لاو الديمقراطية الشعبية@Лаосская Народно-Демократическая Республика
+@140@1000@3000@Letônia@Latvia@Lettonie@Letonia@拉脱维亚@لاتفيا@Латвия
+@141@1000@3000@Líbano@Lebanon@Liban@Líbano@黎巴嫩@لبنان@Ливан
+@142@1000@3000@Lesoto@Lesotho@Lesotho@Lesotho@莱索托@ليسوتو@Лесото
+@144@1000@3000@Libéria@Liberia@Libéria@Liberia@利比里亚@ليبريا@Либерия
+@145@1000@3000@Líbia@Libya@Libye@Libia@阿拉伯利比亚民众国@الجماهيرية العربية الليبية@Ливия
+@146@1000@3000@Liechtenstein@Liechtenstein@Liechtenstein@Liechtenstein@列支敦士登@لختنشتاين@Лихтенштейн
+@147@1000@3000@Lituânia@Lithuania@Lituanie@Lituania@立陶宛@ليتوانيا@Литва
+@148@1000@3000@Luxemburgo@Luxembourg@Luxembourg@Luxemburgo@卢森堡@لكسمبرغ@Люксембург
+@149@1000@3000@@Macau@@@@@
+@150@1000@3000@Madagáscar@Madagascar@Madagascar@Madagascar@马达加斯加@مدغشقر@Мадагаскар
+@151@1000@3000@@Madeira Islands@@@@@
+@152@1000@3000@Malawi@Malawi@Malawi@Malawi@马拉维@ملاوي@Малави
+@153@1000@3000@Malásia@Malaysia@Malaisie@Malasia@马来西亚@ماليزيا@Малайзия
+@154@1000@3000@Maldivas@Maldives@Maldives@Maldivas@马尔代夫@ملديف@Мальдивы
+@155@1000@3000@Mali@Mali@Mali@Malí@马 里@مالي@Мали
+@156@1000@3000@Malta@Malta@Malte@Malta@马耳他@مالطة@Мальта
+@157@1000@3000@Ilhas Marshall@Marshall Islands@Îles Marshall@Islas Marshall@马绍尔群岛@جزر مارشال@Маршалловы Острова
+@158@1000@3000@Martinica@Martinique@Martinique@Martinica@马提尼克@مارتينيك@Мартиника
+@159@1000@3000@Mauritânia@Mauritania@Mauritanie@Mauritania@毛里塔尼亚@موريتانيا@Мавритания
+@160@1000@3000@Maurícia@Mauritius@Maurice@Mauricio@毛里求斯@موريشيوس@Маврикий
+@161@1000@3000@Mayotte@Mayotte@Mayotte@Mayotte@Mayotte@مايوت@Майотта
+@162@1000@3000@México@Mexico@Mexique@México@墨西哥@المكسيك@Мексика
+@163@1000@3000@Estados Federados da Micronésia@Micronesia (Federated States of)@Micronésie (États fédérés de)@Micronesia (Estados Federados de)@密克罗尼西亚(联邦)@ميكرونيزيا@Микронезия (Федеративные Штаты)
+@164@1000@3000@@Midway Island@@@@@
+@165@1000@3000@Moldávia@Moldova, Republic of@République de Moldova@Repéblica de Moldova@摩尔多瓦共和国@جمهورية مولدوفا@Республика Молдова
+@166@1000@3000@Mónaco@Monaco@Monaco@Mónaco@摩纳哥@موناكو@Монако
+@167@1000@3000@Mongólia@Mongolia@Mongolie@Mongolia@蒙 古@منغوليا@Монголия
+@168@1000@3000@Montserrat@Montserrat@Montserrat@Montserrat@蒙特塞拉@مونسراط@Монтсеррат
+@169@1000@3000@Marrocos@Morocco@Maroc@Marruecos@摩洛哥@المغرب@Марокко
+@170@1000@3000@Moçambique@Mozambique@Mozambique@Mozambique@莫桑比克@موزامبيق@Мозамбик
+@171@1000@3000@Myanmar@Myanmar@Myanmar@Myanmar@缅 甸@ميانمار@Мьянма
+@172@1000@3000@Namíbia@Namibia@Namibie@Namibia@纳米比亚@ناميبيا@Намибия
+@173@1000@3000@Nauru@Nauru@Nauru@Nauru@瑙 鲁@ناورو@Науру
+@174@1000@3000@@Navassa Island@@@@@
+@175@1000@3000@Nepal@Nepal@Népal@Nepal@尼泊尔@نيبال@Непал
+@176@1000@3000@Antilhas Holandesas@Netherlands Antilles@Antilles néerlandaises@Antillas Neerlandesas@荷属安的列斯@جزر الأنتيل الهولندية@Голландские Антиллы
+@177@1000@3000@Países Baixos@Netherlands@Pays-Bas@Países Bajos@荷 兰@هولندا@Нидерланды
+@178@1000@3000@Nova Caledônia@New Caledonia@Nouvelle-Calédonie@Nueva Caledonia@新喀里多尼亚@كاليدونيا الجديدة@Новая Каледония
+@179@1000@3000@Nova Zelândia@New Zealand@Nouvelle-Zélande@Nueva Zelandia@新西兰@نيوزيلندا@Новая Зеландия
+@180@1000@3000@Nicarágua@Nicaragua@Nicaragua@Nicaragua@尼加拉瓜@نيكاراغوا@Никарагуа
+@181@1000@3000@Níger@Niger@Niger@Níger@尼日尔@النيجر@Нигер
+@182@1000@3000@Nigéria@Nigeria@Nigéria@Nigeria@尼日利亚@نيجيريا@Нигерия
+@183@1000@3000@Niue@Niue@Nioué@Niue@纽 埃@نيوى@Ниуэ
+@184@1000@3000@Ilha Norfolk@Norfolk Island@Île Norfolk@Isla Norfolk@诺福克岛@جزيرة نورفولك، مناطق تابعة لجزيرة لنورفولك@Остров Норфолк
+@185@1000@3000@Marianas Setentrionais@Northern Mariana Islands@Îles Mariannes du Nord@Islas Marianas septentrionales@北马里亚纳群岛@جزر ماريانا الشمالية@Содружество Северных Марианских островов
+@186@1000@3000@Noruega@Norway@Norvège@Noruega@挪 威@النرويج@Норвегия
+@187@1000@3000@Omã@Oman@Oman@Omán@阿 曼@عمان@Оман
+@188@1000@3000@Paquistão@Pakistan@Pakistan@Pakistán@巴基斯坦@باكستان@Пакистан
+@189@1000@3000@Palau@Palau@Palaos@Palau@帕 劳@بالاو@Палау
+@190@1000@3000@@Palmyra Atoll@@@@@
+@191@1000@3000@Panamá@Panama@Panama@Panamá@巴拿马@بنما@Панама
+@192@1000@3000@Papua-Nova Guiné@Papua New Guinea@Papouasie-Nouvelle-Guinée@Papua Nueva Guinea@巴布亚新几内亚@بابوا غينيا الجديدة@Папуа-Новая Гвинея
+@193@1000@3000@@Paracel Islands@@@@@
+@194@1000@3000@Paraguai@Paraguay@Paraguay@Paraguay@巴拉圭@باراغواي@Парагвай
+@195@1000@3000@Peru@Peru@Pérou@Peré@秘 鲁@بيرو@Перу
+@196@1000@3000@Filipinas@Philippines@Philippines@Filipinas@菲律宾@الفلبين@Филиппины
+@197@1000@3000@Pitcairn@Pitcairn@Îles Pitcairn@Islas Pitcairn@皮特克恩岛@جزر بيتكيرن@Острова Питкэрн
+@198@1000@3000@Polónia@Poland@Pologne@Polonia@波 兰@بولندا@Польша
+@199@1000@3000@Portugal@Portugal@Portugal@Portugal@葡萄牙@البرتغال@Португалия
+@200@1000@3000@Porto Rico@Puerto Rico@Porto Rico@Puerto Rico@波多黎各@بورتوريكو@Пуэрто-Рико
+@201@1000@3000@Catar@Qatar@Qatar@Qatar@卡塔尔@قطر@Катар
+@202@1000@3000@Coreia do Sul@Republic of Korea@République de Corée@Repéblica de Corea@大韩民国@جمهورية كوريا@Республика Корея
+@203@1000@3000@Roménia@Romania@Roumanie@Rumania@罗马尼亚@رومانيا@Румыния
+@204@1000@3000@Réssia@Russian Federation@Fédération de Russie@Federación de Rusia@俄罗斯联邦@الاتحاد الروسي@Российская Федерация
+@205@1000@3000@Ruanda@Rwanda@Rwanda@Rwanda@卢旺达@رواندا@Руанда
+@206@1000@3000@Reunião@Réunion@Réunion@Reunión@留尼汪@رييونيون@Реюньон
+@207@1000@3000@Santa Helena, Ascensão e Tristão da Cunha@Saint Helena@Sainte-Hélène, Ascension et Tristan de Cunha@Santa Elena, Ascension y Tristan da Cunha@圣赫勒拿@سانت هيلينا@острова Святой Елены Вознесения и Тристан-да-Кунья
+@208@1000@3000@São Cristóvão e Nevis@Saint Kitts and Nevis@Saint-Kitts-et-Nevis@Saint Kitts y Nevis@圣基茨和尼维斯@سانت كيتس ونيفيس@Сент-Китс и Невис
+@209@1000@3000@Santa Lécia@Saint Lucia@Sainte-Lucie@Santa Lucía@圣卢西亚@سانت لوسيا@Сент-Люсия
+@210@1000@3000@Saint-Pierre e Miquelon@Saint Pierre et Miquelon@Saint-Pierre-et-Miquelon@Saint-Pierre y Miquelon@圣皮埃尔和密克隆@سان بيير ومكويلون@Сен-Пьер и Микелон
+@211@1000@3000@São Vicente e Granadinas@Saint Vincent and the Grenadines@Saint-Vincent-et-les Grenadines@San Vicente y las Granadinas@圣文森特和格林纳丁斯@سانت فنسنت وجزر غرينادين@Сент-Винсент и Гренадины
+@212@1000@3000@Samoa@Samoa@Samoa@Samoa@萨摩亚@ساموا@Самоа
+@213@1000@3000@São Marino@San Marino@Saint-Marin@San Marino@圣马力诺@سان مارينو@Сан-Марино
+@214@1000@3000@São Tomé e Príncipe@Sao Tome and Principe@Sao Tomé-et-Principe@Santo Tomé y Príncipe@圣多美和普林西比@سان تومي وبرنسيبي@Сан-Томе и Принсипи
+@215@1000@3000@Arábia Saudita@Saudi Arabia@Arabie saoudite@Arabia Saudita@沙特阿拉伯@المملكة العربية السعودية@Саудовская Аравия
+@216@1000@3000@@Scarborough Reef@@@@@
+@217@1000@3000@Senegal@Senegal@Sénégal@Senegal@塞内加尔@السنغال@Сенегал
+@218@1000@3000@@Senkaku Islands@@@@@
+@219@1000@2005@Sérvia e Montenegro@Serbia and Montenegro@Serbie-et-Monténégro@Serbia y Montenegro@塞尔维亚和黑山@صربيا والجبل الأسود@Сербия Черногория
+@220@1000@3000@Seychelles@Seychelles@Seychelles@Seychelles@塞舌尔@سيشيل@Сейшельские Острова
+@221@1000@3000@Serra Leoa@Sierra Leone@Sierra Leone@Sierra Leona@塞拉利昂@سيراليون@Сьерра-Леоне
+@222@1000@3000@Singapura@Singapore@Singapour@Singapur@新加坡@سنغافورة@Сингапур
+@223@1000@3000@Eslováquia@Slovakia@Slovaquie@Eslovaquia@斯洛伐克@سلوفاكيا@Словакия
+@224@1000@3000@Eslovênia@Slovenia@Slovénie@Eslovenia@斯洛文尼亚@سلوفينيا@Словения
+@225@1000@3000@Ilhas Salomão@Solomon Islands@Îles Salomon@Islas Salomón@所罗门群岛@جزر سليمان@Соломоновы Острова
+@226@1000@3000@Somália@Somalia@Somalie@Somalia@索马里@الصومال@Сомали
+@227@1000@3000@África do Sul@South Africa@Afrique du Sud@Sudáfrica@南 非@جنوب أفريقيا@Южная Африка
+@228@1000@3000@@South Georgia and the South Sandwich Islands@@@@@
+@229@1000@3000@Espanha@Spain@Espagne@España@西班牙@إسبانيا@Испания
+@230@1000@3000@@Spratly Islands@@@@@
+@231@1000@3000@Sri Lanka@Sri Lanka@Sri Lanka@Sri Lanka@斯里兰卡@سري لانكا@Шри-Ланка
+@233@1000@3000@Suriname@Suriname@Suriname@Suriname@苏里南@سورينام@Суринам
+@234@1000@3000@Svalbard e Jan Mayen@Svalbard and Jan Mayen Islands@Îles Svalbard et Jan Mayen@Islas Svalbard y Jan Mayen@斯瓦尔巴特群岛@جزر سفالبارد وجان مايين@Острова Свальбард и Ян-Майен
+@235@1000@3000@Suazilândia@Swaziland@Swaziland@Swazilandia@斯威士兰@سوازيلند@Свазиленд
+@236@1000@3000@Suécia@Sweden@Suède@Suecia@瑞 典@السويد@Швеция
+@237@1000@3000@Suíça@Switzerland@Suisse@Suiza@瑞 士@سويسرا@Швейцария
+@238@1000@3000@Síria@Syrian Arab Republic@République arabe syrienne@Repéblica Árabe Siria@阿拉伯叙利亚共和国@الجمهورية العربية السورية@Сирийская Арабская Республика
+@239@1000@3000@Tajiquistão@Tajikistan@Tadjikistan@Tayikistán@塔吉克斯坦@طاجيكستان@Таджикистан
+@240@1000@3000@Tailândia@Thailand@Thaïlande@Tailandia@泰 国@تايلند@Таиланд
+@241@1000@3000@Macedónia@The former Yugoslav Republic of Macedonia@l'ex-République yougoslave de Macédoine@la ex Repéblica Yugoslava de Macedonia@前南斯拉夫的马其顿共和国@جمهورية مقدونيا اليوغوسلافية السابقة@бывшая югославская Республика Македония
+@242@1000@3000@Timor-Leste@Timor-Leste@Timor-Leste@Timor-Leste@东帝汶@تيمور- ليشتى@Тимор-Лешти
+@243@1000@3000@Togo@Togo@Togo@Togo@多 哥@توغو@Того
+@244@1000@3000@Toquelau@Tokelau@Tokélaou@Tokelau@托克劳@جزر توكيلاو@Токелау
+@245@1000@3000@Tonga@Tonga@Tonga@Tonga@汤 加@تونغا@Тонга
+@246@1000@3000@Trinidad e Tobago@Trinidad and Tobago@Trinité-et-Tobago@Trinidad y Tabago@特立尼达和多巴哥@ترينيداد وتوباغو@Тринидад и Тобаго
+@247@1000@3000@@Tromelin Island@@@@@
+@248@1000@3000@Tunísia@Tunisia@Tunisie@Ténez@突尼斯@تونس@Тунис
+@249@1000@3000@Turquia@Turkey@Turquie@Turquía@土耳其@تركيا@Турция
+@250@1000@3000@Turquemenistão@Turkmenistan@Turkménistan@Turkmenistán@土库曼斯坦@تركمانستان@Туркменистан
+@251@1000@3000@Turcas e Caicos@Turks and Caicos islands@Îles Turques et Caïques@Islas Turcas y Caicos@特克斯和凯科斯群岛@جزر تركس وكايكوس@острова Тёркс и Кайкос
+@252@1000@3000@Tuvalu@Tuvalu@Tuvalu@Tuvalu@图瓦卢@توفالو@Тувалу
+@253@1000@3000@Uganda@Uganda@Ouganda@Uganda@乌干达@أوغندا@Уганда
+@254@1000@3000@Ucrânia@Ukraine@Ukraine@Ucrania@乌克兰@أوكرانيا@Украина
+@255@1000@3000@Emirados Árabes Unidos@United Arab Emirates@Émirats arabes unis@Emiratos Árabes Unidos@阿拉伯联合酋长国@الإمارات العربية المتحدة@Объединенные Арабские Эмираты
+@256@1000@3000@Reino Unido@U.K. of Great Britain and Northern Ireland@Royaume-Uni@Reino Unido@联合王国@المملكة المتحدة@Соединенное Королевство
+@257@1000@3000@Tanzânia@United Republic of Tanzania@République-Unie de Tanzanie@Repéblica Unida de Tanzanía@坦桑尼亚联合共和国@جمهورية تنزانيا المتحدة@Объединенная Республика Танзания
+@257@1000@3000@Tanzânia@United Republic of Tanzania@République-Unie de Tanzanie@Repéblica Unida de Tanzanía@坦桑尼亚联合共和国@جمهورية تنزانيا المتحدة@Объединенная Республика Танзания
+@258@1000@3000@Ilhas Virgens Americanas@United States Virgin Islands@Îles Vierges américaines@Islas Vírgenes (EE.UU.)@美属维尔京群岛@جزر فيرجين التابعة للولايات المتحدة@Виргинские острова США
+@259@1000@3000@Estados Unidos@United States of America@États-Unis d'Amérique@Estados Unidos de América@美 国@الولايات المتحدة الأمريكية@Соединенные Штаты Америки
+@260@1000@3000@Uruguai@Uruguay@Uruguay@Uruguay@乌拉圭@أوروغواي@Уругвай
+@261@1000@3000@Uzbequistão@Uzbekistan@Ouzbékistan@Uzbekistán@乌兹别克斯坦@أوزبكستان@Узбекистан
+@262@1000@3000@Vanuatu@Vanuatu@Vanuatu@Vanuatu@瓦努阿图@فانواتو@Вануату
+@263@1000@3000@Venezuela@Venezuela (Bolivarian Republic of)@Venezuela (République bolivarienne du)@Venezuela (Repéblica Bolivariana de)@委内瑞拉 (玻利瓦尔共和国)@فنزويلا (جمهورية .. البوليفارية)@Венесуэла (Боливарианская Республика)
+@264@1000@3000@Vietname@Viet Nam@Viet Nam@Viet Nam@越 南@فييت نام@Вьетнам
+@265@1000@3000@Ilha Wake@Wake Island@Îles Wake@Isla Wake@威克岛（美国）@جزيرة ويك@остров Уэйк
+@266@1000@3000@Wallis e Futuna@Wallis and Futuna@Îles Wallis et Futuna@Islas Wallis y Futuna@瓦利斯和富图纳群岛@جزر واليس وفوتونا@острова Уоллис и Футуна
+@267@1000@3000@@West Bank@@@@@
+@268@1000@3000@Saara Ocidental@Western Sahara@Sahara occidental@Sáhara occidental@西撒哈拉@الصحراء الغربية@Западная Сахара
+@269@1000@3000@Iémen/Iêmen@Yemen@Yémen@Yemen@也 门@اليمن@Йемен
+@270@1000@3000@Zâmbia@Zambia@Zambie@Zambia@赞比亚@زامبيا@Замбия
+@271@1000@3000@Zimbabwe@Zimbabwe@Zimbabwe@Zimbabwe@津巴布韦@زمبابوي@Зимбабве
+@2647@2006@3000@Montenegro@Montenegro@Monténégro@Montenegro@黑山@الجبل الأسود@Черногория
+@2648@2006@3000@Sérvia@Serbia@Serbie @Serbia@塞尔维亚@صربيا@Сербия
+@33364@1000@3000@@Hong Kong@@@@@
+@40760@1000@3000@@Hala'ib triangle@@@@@
+@40762@1000@3000@@Ma'tan al-Sarra@@@@@
+@40764@1000@2010@Sudão@Sudan@Soudan (ex)@Sudán (ex)@苏 丹@السودان@Судан
+@40765@1000@3000@Egito@Egypt@Égypte@Egipto@埃 及@مصر@Египет
+@40781@1000@3000@@Jammu and Kashmir@@@@@
+@61013@1000@3000@@Ilemi triangle@@@@@
+@74578@1000@3000@@Azores Islands@@@@@
+@147295@1000@3000@China@China@Chine@China@中国@الصين@Китай
+@147296@1000@3000@@Taiwan@@@@@

@@ -1,0 +1,667 @@
+{
+  "data": [
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Africa",
+      "2010",
+      "4371540"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Armenia",
+      "2010",
+      "2280"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "ASEAN",
+      "2010",
+      "1348410"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Australia",
+      "2010",
+      "1423590"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Azerbaijan",
+      "2010",
+      "5160"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Bangladesh",
+      "2010",
+      "7690"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Bhutan",
+      "2010",
+      "28330"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Brunei Darussalam",
+      "2010",
+      "1140"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Cambodia",
+      "2010",
+      "97030"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Central Asia",
+      "2010",
+      "124430"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "China",
+      "2010",
+      "1180710"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Cook Islands",
+      "2010",
+      "140"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "DPR Korea",
+      "2010",
+      "41040"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "East and North-East Asia",
+      "2010",
+      "1391250"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "East and North-East Asia (excl. Japan)",
+      "2010",
+      "1292190"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "ECO",
+      "2010",
+      "284770"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "ESCAP",
+      "2010",
+      "10430040"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "ESCAP developed economies",
+      "2010",
+      "1565780"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "ESCAP developing countries (excl. China, India)",
+      "2010",
+      "7258330"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "ESCAP developing economies",
+      "2010",
+      "8864260"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "EU27",
+      "2010",
+      "1058130"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Europe",
+      "2010",
+      "1338230"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Fiji",
+      "2010",
+      "3880"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "French Polynesia",
+      "2010",
+      "1050"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Georgia",
+      "2010",
+      "20590"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "High income econ.",
+      "2010",
+      "6942560"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "India",
+      "2010",
+      "425220"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Indonesia",
+      "2010",
+      "436470"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Iran (Islamic Rep. of)",
+      "2010",
+      "100310"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Japan",
+      "2010",
+      "99060"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Kazakhstan",
+      "2010",
+      "24080"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Kiribati",
+      "2010",
+      "120"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Kyrgyzstan",
+      "2010",
+      "6280"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Lao PDR",
+      "2010",
+      "140370"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Latin America and Carib.",
+      "2010",
+      "2260280"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "LDC",
+      "2010",
+      "597940"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "LLDC",
+      "2010",
+      "359220"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Low income econ.",
+      "2010",
+      "452480"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Lower middle income econ.",
+      "2010",
+      "1379990"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Malaysia",
+      "2010",
+      "148290"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Micronesia (F.S.)",
+      "2010",
+      "20"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Mongolia",
+      "2010",
+      "56010"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Myanmar",
+      "2010",
+      "275930"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Nepal",
+      "2010",
+      "30670"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "New Caledonia",
+      "2010",
+      "3980"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "New Zealand",
+      "2010",
+      "43130"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Niue",
+      "2010",
+      "130"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "North America",
+      "2010",
+      "3391080"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "North and Central Asia",
+      "2010",
+      "5480610"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Other countries/areas",
+      "2010",
+      "24170"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Pacific",
+      "2010",
+      "1512580"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Pacific developing econ. (excl WB High)",
+      "2010",
+      "40560"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Pacific island dev. econ.",
+      "2010",
+      "45860"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Pakistan",
+      "2010",
+      "13470"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Papua New Guinea",
+      "2010",
+      "24300"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Philippines",
+      "2010",
+      "64520"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Republic of Korea",
+      "2010",
+      "14430"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Russian Federation",
+      "2010",
+      "5356180"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "SAARC",
+      "2010",
+      "520460"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Samoa",
+      "2010",
+      "1390"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Solomon Islands",
+      "2010",
+      "10810"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "South and South-West Asia",
+      "2010",
+      "690200"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "South-East Asia",
+      "2010",
+      "1355400"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Sri Lanka",
+      "2010",
+      "15080"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Tajikistan",
+      "2010",
+      "120"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Thailand",
+      "2010",
+      "82610"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Timor-Leste",
+      "2010",
+      "6990"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Tonga",
+      "2010",
+      "40"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Turkey",
+      "2010",
+      "69430"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Turkmenistan",
+      "2010",
+      "40230"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Upper middle income econ.",
+      "2010",
+      "1654740"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Uzbekistan",
+      "2010",
+      "25690"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "Viet Nam",
+      "2010",
+      "102050"
+    ],
+    [
+      "1459",
+      "Naturally regenerated forest",
+      "Km2",
+      "World",
+      "2010",
+      "21815340"
+    ]
+  ],
+  "metadata": {
+    "dsd": {
+      "contextSystem": "ESCAP",
+      "datasources": [
+        "D3S"
+      ],
+      "columns": [
+        {
+          "dataType": "code",
+          "title": {
+            "EN": "Indicator ID"
+          },
+          "id": "indicator_id",
+          "key": true,
+          "subject": "Indicator_id"
+        },
+        {
+          "dataType": "text",
+          "title": {
+            "EN": "Indicator Name"
+          },
+          "id": "indicator_name",
+          "subject": "Indicator_name"
+        },
+        {
+          "dataType": "text",
+          "title": {
+            "EN": "Unit"
+          },
+          "id": "Unit",
+          "subject": "Unit"
+        },
+        {
+          "dataType": "text",
+          "title": {
+            "EN": "Area"
+          },
+          "key" : true,
+          "id": "Area",
+          "subject": "geo"
+        },
+        {
+          "domain": {
+            "period": {
+              "to": 2099,
+              "from": 1900
+            }
+          },
+          "title": {
+            "EN": "Year"
+          },
+          "dataType": "year",
+          "key": true,
+          "id": "Year",
+          "subject": "time"
+        },
+        {
+          "dataType": "number",
+          "title": {
+            "EN": "Value in Km2"
+          },
+          "id": "Value",
+          "subject": "value"
+        }
+      ]
+    },
+    "meContent": {
+      "resourceRepresentationType": "dataset"
+    },
+    "uid": "ESCAP_1459"
+  }
+}

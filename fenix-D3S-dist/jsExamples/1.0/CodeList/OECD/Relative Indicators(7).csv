@@ -1,0 +1,24 @@
+#structure
+csvSeparator=;
+structure=table
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1
+titleColumnIndex_EN=2
+
+#metadata
+name=OECD_PolicyType7
+title_EN=OECD Relative Indicators
+description_EN=OECD Policy Measures of Relative Indicators
+version=1.0
+startDate=03/04/2014
+sharingPolicy=publicPolicy
+
+
+--data--
+26;Consumer Nominal Protection Coefficient (Consumer NPC)
+25;Consumer Single Commodity Transfers (CSCT)
+24;Producer Nominal Protection Coefficient (Producer NPC)
+23;% Producer Single Commodity Transfers (%PSCT)
+
+
+

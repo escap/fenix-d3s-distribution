@@ -1,0 +1,6 @@
+{
+
+    "meContent.resourceRepresentationType" : {
+        "enumeration" : ["dataset"]
+    }
+}

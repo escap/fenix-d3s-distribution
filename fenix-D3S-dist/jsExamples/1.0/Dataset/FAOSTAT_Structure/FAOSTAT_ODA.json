@@ -1,0 +1,93 @@
+{   "uid": "FAOSTAT_EA",
+    "dsd": {
+    "contextSystem": {
+        "name": "FAOSTAT"
+    },
+    "datasource": {
+        "reference": {
+            "psw": "",
+            "usr": "",
+            "url": ""
+        },
+        "dao": "faostat"
+    },
+    "columns": [
+        {
+            "columnId": "donors",
+            "dataType": "code",
+            "title": {
+                "EN": "Donors"
+            },
+            "dimension": {
+                "name": "GEO_DONOR",
+                "title": {
+                    "FR": "Donneur zone géographique",
+                    "EN": "Donor geographic area"
+                }
+            }
+        },
+        {
+            "columnId": "recipients",
+            "dataType": "code",
+            "title": {
+                "EN": "Recipients"
+            },
+            "dimension": {
+                "name": "GEO_RECIPIENT",
+                "title": {
+                    "FR": "Zone géographique du bénéficiaire",
+                    "EN": "Recipient geographic area"
+                }
+            }
+        },
+        {
+            "columnId": "years",
+            "dataType": "year",
+            "title": {
+                "EN": "Years"
+            },
+            "dimension": {
+                "name": "TIME"
+            }
+        },
+        {
+            "columnId": "purposes",
+            "dataType": "code",
+            "title": {
+                "EN": "Purposes"
+            },
+            "dimension": {
+                "name": "PURPOSE",
+                "title": {
+                    "FR": "But",
+                    "EN": "Purpose"
+                }
+            }
+        },
+        {
+            "columnId": "flows",
+            "dataType": "code",
+            "title": {
+                "EN": "Flows"
+            },
+            "dimension": {
+                "name": "FLOW",
+                "title": {
+                    "FR": "Flux",
+                    "EN": "Flow"
+                }
+            }
+        },
+        {
+            "columnId": "elements",
+            "dataType": "code",
+            "title": {
+                "EN": "Elements"
+            },
+            "dimension": {
+                "name": "ELEMENT"
+            }
+        }
+    ],
+    "aggregationRules": null
+}}

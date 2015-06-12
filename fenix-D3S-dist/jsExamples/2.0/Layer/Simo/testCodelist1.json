@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "code": "cultivation_organic_soils",
+      "title": {"EN": "Cultivation Organic Soils"}
+    },
+    {
+      "code": "gfed4_burned_areas",
+      "title": {"EN": "GFED4 Burned Areas"}
+    },
+    {
+      "code": "gfed4_burned_areas_-_barren_or_sparsely_vegetated",
+      "title": {"EN": "GFED4 Burned Areas - Barren or sparsely vegetated"}
+    },
+    {
+      "code": "gfed4_burned_areas_-_closed_shrubland",
+      "title": {"EN": "GFED4 Burned Areas - Closed shrubland"}
+    },
+    {
+      "code": "gfed4_burned_areas_-_croplands",
+      "title": {"EN": "GFED4 Burned Areas - Croplands"}
+    },
+    {
+      "code": "gfed4_burned_areas_-_deciduous_broadleaf_forest",
+      "title": {"EN": "GFED4 Burned Areas - Deciduous Broadleaf forest"}
+    },
+    {
+      "code": "gfed4_burned_areas_-_deciduous_needleleaf_forest",
+      "title": {"EN": "GFED4 Burned Areas - Deciduous Needleleaf forest"}
+    },
+    {
+      "code": "gfed4_burned_areas_-_evergreen_broadleaf_forest",
+      "title": {"EN": "GFED4 Burned Areas - Evergreen Broadleaf forest"}
+    },
+    {
+      "code": "gfed4_burned_areas_-_evergreen_needleleaf_forest",
+      "title": {"EN": "GFED4 Burned Areas - Evergreen Needleleaf forest"}
+    },
+    {
+      "code": "gfed4_burned_areas_-_grassland",
+      "title": {"EN": "GFED4 Burned Areas - Grassland"}
+    },
+    {
+      "code": "gfed4_burned_areas_-_humid_tropical_forest",
+      "title": {"EN": "GFED4 Burned Areas - Humid Tropical Forest"}
+    },
+    {
+      "code": "gfed4_burned_areas_-_mixed_forest",
+      "title": {"EN": "GFED4 Burned Areas - Mixed forest"}
+    },
+    {
+      "code": "gfed4_burned_areas_-_open_shrubland",
+      "title": {"EN": "GFED4 Burned Areas - Open shrubland"}
+    },
+    {
+      "code": "gfed4_burned_areas_-_organic_soils",
+      "title": {"EN": "GFED4 Burned Areas - Organic soils"}
+    },
+    {
+      "code": "gfed4_burned_areas_-_other_forest",
+      "title": {"EN": "GFED4 Burned Areas - Other forest"}
+    },
+    {
+      "code": "gfed4_burned_areas_-_savanna",
+      "title": {"EN": "GFED4 Burned Areas - Savanna"}
+    },
+    {
+      "code": "gfed4_burned_areas_-_unclassified",
+      "title": {"EN": "GFED4 Burned Areas - Unclassified"}
+    },
+    {
+      "code": "gfed4_burned_areas_-_urban_and_built-up",
+      "title": {"EN": "GFED4 Burned Areas - Urban and built-up"}
+    },
+    {
+      "code": "gfed4_burned_areas_-_woody_savanna",
+      "title": {"EN": "GFED4 Burned Areas - Woody savanna"}
+    },
+    {
+      "code": "global_ecological_zones_(gez)_2010",
+      "title": {"EN": "Global Ecological Zones (GEZ) 2010"}
+    },
+    {
+      "code": "global_land_cover_2000_(glc2000)",
+      "title": {"EN": "Global Land Cover 2000 (GLC2000)"}
+    },
+    {
+      "code": "gridded_livestock_of_the_world_v._2.01",
+      "title": {"EN": "Gridded Livestock of the World v. 2.01"}
+    },
+    {
+      "code": "harmonized_world_soil_database_-_organic_soils",
+      "title": {"EN": "Harmonized World Soil Database - Organic soils"}
+    },
+    {
+      "code": "jrc_climate_zone",
+      "title": {"EN": "JRC climate zone"}
+    },
+    {
+      "code": "jrc_climate_zone_(4326)",
+      "title": {"EN": "JRC climate zone (4326)"}
+    },
+    {
+      "code": "modis_-_land_cover_type_umd",
+      "title": {"EN": "MODIS - Land Cover Type UMD"}
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "uid": "layers_test",
+    "title": {"EN": "Layers"},
+
+    "meContent" : {
+      "resourceRepresentationType": "codelist"
+    }
+  }
+}

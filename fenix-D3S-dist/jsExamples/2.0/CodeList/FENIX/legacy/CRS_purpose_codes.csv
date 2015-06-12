@@ -1,0 +1,358 @@
+{
+    "uid": "CRS_purpose_codes",
+	"version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "Purpose Codes: sector classification"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "OECD"
+            },
+            "organizationUnit": {"EN":"CDC-DAC"},
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": "+33 1 45 24 82 00",
+                "address": "OECD - 2, rue André Pascal - 75775 Paris Cedex 16 - France",	
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["activity", "sector"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": "06"
+                        }
+                    ],
+                    "idCodeList": "FENIX_Subjects",
+                    "version": "1.0"
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 2,
+            "typeOfCodeList": "tree"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": "https://unstats.un.org/unsd/cr/registry/cpc-2.asp",
+                "disseminationFormat": ["txt","pdf"]
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+
+
+
+@110@EDUCATION
+@111@Education, level unspecified
+111@11110@Education policy and administrative management
+111@11120@Education facilities and training
+111@11130@Teacher training
+111@11182@Educational research
+@112@Basic education
+112@11220@Primary education
+112@11230@Basic life skills for youth and adults 
+112@11240@Early childhood education
+@113@Secondary education
+113@11320@Secondary education
+113@11330@Vocational training
+@114@Post-secondary education
+114@11420@Higher education
+114@11430@Advanced technical and managerial training
+@120@HEALTH
+@121@Health, general
+121@12110@Health policy and administrative management
+121@12181@Medical education/training
+121@12182@Medical research
+121@12191@Medical services
+@122@Basic health
+122@12220@Basic health care
+122@12230@Basic health infrastructure
+122@12240@Basic nutrition
+122@12250@Infectious disease control
+122@12261@Health education
+122@12262@Malaria control
+122@12263@Tuberculosis control
+122@12281@Health personnel development
+@130@POPULATION POLICIES/PROGRAMMES AND REPRODUCTIVE HEALTH
+130@13010@Population policy and administrative management
+130@13020@Reproductive health care
+130@13030@Family planning
+130@13040@STD control including HIV/AIDS
+130@13081@Personnel development for population and reproductive health
+@140@WATER AND SANITATION
+140@14010@Water sector policy and administrative management
+140@14015@Water resources conservation (including data collection)
+140@14020@Water supply and sanitation - large systems
+140@14021@Water supply - large systems 
+140@14022@Sanitation - large systems
+140@14030@Basic drinking water supply and basic sanitation
+140@14031@Basic drinking water supply
+140@14032@Basic sanitation
+140@14040@River basins’ development
+140@14050@Waste management / disposal
+140@14081@Education and training in water supply and sanitation
+@150@GOVERNMENT AND CIVIL SOCIETY
+@151@Government and civil society, general
+151@15110@Public sector policy and administrative management
+151@15111@Public finance management
+151@15112@Decentralisation and support to subnational government
+151@15113@Anti-corruption organisations and institutions 
+151@15130@Legal and judicial development
+151@15150@Democratic participation and civil society
+151@15151@Elections
+151@15152@Legislatures and political parties
+151@15153@Media and free flow of information
+151@15160@Human rights
+151@15170@Women’s equality organisations and institutions
+@152@Conflict prevention and resolution, peace and security
+152@15210@Security system management and reform
+152@15220@Civilian peace-building, conflict prevention and resolution
+152@15230@Participation in international peacekeeping operations
+152@15240@Reintegration and SALW control
+152@15250@Removal of land mines and explosive remnants of war
+152@15261@Child soldiers (Prevention and demobilisation) 
+@160@OTHER SOCIAL INFRASTRUCTURE AND SERVICES
+160@16010@Social/ welfare services
+160@16020@Employment policy and administrative management
+160@16030@Housing policy and administrative management
+160@16040@Low-cost housing
+160@16050@Multisector aid for basic social services 
+160@16061@Culture and recreation
+160@16062@Statistical capacity building
+160@16063@Narcotics control
+160@16064@Social mitigation of HIV/AIDS
+@210@TRANSPORT AND STORAGE
+210@21010@Transport policy and administrative management
+210@21020@Road transport
+210@21030@Rail transport
+210@21040@Water transport
+210@21050@Air transport
+210@21061@Storage
+210@21081@Education and training in transport and storage
+@220@COMMUNICATION
+220@22010@Communications policy and administrative management
+220@22020@Telecommunications
+220@22030@Radio/television/print media
+220@22040@Information and communication technology (ICT)
+@230@ENERGY GENERATION AND SUPPLY
+230@23010@Energy policy and administrative management
+230@23020@Power generation/non-renewable sources 
+230@23030@Power generation/renewable sources 
+230@23040@Electrical transmission/ distribution
+230@23050@Gas distribution
+230@23061@Oil-fired power plants
+230@23062@Gas-fired power plants
+230@23063@Coal-fired power plants
+230@23064@Nuclear power plants
+230@23065@Hydro-electric power plants
+230@23066@Geothermal energy
+230@23067@Solar energy
+230@23068@Wind power
+230@23069@Ocean power
+230@23070@Biomass
+230@23081@Energy education/training
+230@23082@Energy research
+@240@BANKING AND FINANCIAL SERVICES
+240@24010@Financial policy and administrative management
+240@24020@Monetary institutions
+240@24030@Formal sector financial intermediaries
+240@24040@Informal/semi-formal financial intermediaries
+240@24081@Education/training in banking and financial services
+@250@BUSINESS AND OTHER SERVICES
+250@25010@Business support services and institutions
+250@25020@Privatisation
+@311@AGRICULTURE
+311@31110@Agricultural policy and administrative management
+311@31120@Agricultural development
+311@31130@Agricultural land resources
+311@31140@Agricultural water resources
+311@31150@Agricultural inputs
+311@31161@Food crop production
+311@31162@Industrial crops/export crops
+311@31163@Livestock
+311@31164@Agrarian reform
+311@31165@Agricultural alternative development
+311@31166@Agricultural extension
+311@31181@Agricultural education/training
+311@31182@Agricultural research
+311@31191@Agricultural services
+311@31192@Plant and post-harvest protection and pest control
+311@31193@Agricultural financial services
+311@31194@Agricultural co-operatives
+311@31195@Livestock/veterinary services
+@312@FORESTRY
+312@31210@Forestry policy and administrative management
+312@31220@Forestry development
+312@31261@Fuelwood/charcoal
+312@31281@Forestry education/training
+312@31282@Forestry research
+312@31291@Forestry services
+@313@FISHING
+313@31310@Fishing policy and administrative management
+313@31320@Fishery development
+313@31381@Fishery education/training
+313@31382@Fishery research
+313@31391@Fishery services
+@321@INDUSTRY
+321@32110@Industrial policy and administrative management
+321@32120@Industrial development
+321@32130@Small and medium-sized enterprises (SME) development
+321@32140@Cottage industries and handicraft
+321@32161@Agro-industries
+321@32162@Forest industries
+321@32163@Textiles, leather and substitutes
+321@32164@Chemicals 
+321@32165@Fertilizer plants
+321@32166@Cement/lime/plaster
+321@32167@Energy manufacturing
+321@32168@Pharmaceutical production
+321@32169@Basic metal industries
+321@32170@Non-ferrous metal industries
+321@32171@Engineering
+321@32172@Transport equipment industry
+321@32182@Technological research and development
+@322@MINERAL RESOURCES AND MINING
+322@32210@Mineral/mining policy and administrative management
+322@32220@Mineral prospection and exploration
+322@32261@Coal
+322@32262@Oil and gas
+322@32263@Ferrous metals
+322@32264@Nonferrous metals
+322@32265@Precious metals/materials
+322@32266@Industrial minerals
+322@32267@Fertilizer minerals
+322@32268@Offshore minerals
+@323@CONSTRUCTION
+323@32310@Construction policy and administrative management
+@331@TRADE POLICY AND REGULATIONS AND TRADE-RELATED ADJUSTMENT
+331@33110@Trade policy and administrative management
+331@33120@Trade facilitation
+331@33130@Regional trade agreements (RTAs)
+331@33140@Multilateral trade negotiations
+331@33150@Trade-related adjustment
+331@33181@Trade education/training
+@332@TOURISM
+332@33210@Tourism policy and administrative management
+@400@MULTISECTOR/CROSS-CUTTING
+@410@General environmental protection
+410@41010@Environmental policy and administrative management
+410@41020@Biosphere protection
+410@41030@Bio-diversity
+410@41040@Site preservation
+410@41050@Flood prevention/control
+410@41081@Environmental education/ training
+410@41082@Environmental research
+@430@Other multisector
+430@43010@Multisector aid
+430@43030@Urban development and management
+430@43040@Rural development
+430@43050@Non-agricultural alternative development
+430@43081@Multisector education/training
+430@43082@Research/scientific institutions
+@500@COMMODITY AID AND GENERAL PROGRAMME ASSISTANCE
+@510@General budget support
+510@51010@General budget support-related aid
+@520@Developmental food aid/Food security assistance
+520@52010@Food aid/Food security programmes
+@530@Other commodity assistance
+530@53030@Import support (capital goods)
+530@53040@Import support (commodities)
+@600@ACTION RELATING TO DEBT
+600@60010@Action relating to debt
+600@60020@Debt forgiveness 
+600@60030@Relief of multilateral debt
+600@60040@Rescheduling and refinancing
+600@60061@Debt for development swap
+600@60062@Other debt swap
+600@60063@Debt buy-back
+@700@HUMANITARIAN AID 
+@720@Emergency Response
+720@72010@Material relief assistance and services 
+720@72040@Emergency food aid
+720@72050@Relief co-ordination; protection and support services 
+@730@Reconstruction relief and rehabilitation
+730@73010@Reconstruction relief and rehabilitation
+@740@Disaster prevention and preparedness
+740@74010@Disaster prevention and preparedness
+@910@ADMINISTRATIVE COSTS OF DONORS
+910@91010@Administrative costs (non-sector allocable)
+@930@REFUGEES IN DONOR COUNTRIES
+930@93010@Refugees in donor countries (non-sector allocable)
+@998@UNALLOCATED/  UNSPECIFIED
+998@99810@Sectors not specified
+998@99820@Promotion of development awareness (non-sector allocable)

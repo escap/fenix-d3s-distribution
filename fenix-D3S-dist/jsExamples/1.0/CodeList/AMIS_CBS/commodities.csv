@@ -1,0 +1,28 @@
+#structure
+csvSeparator=;
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+#metadata
+name=AMIS_PRODUCTS
+title_EN=AMIS CBS commodities
+description_EN=AMIS CBS commodities
+version=1.0
+startDate=23/05/2014
+sharingPolicy=publicPolicy
+keywords=code list,commodities,commodity,product,products,amis,cbs
+
+
+
+--data--
+
+
+
+;1;Wheat
+;4;Rice (milled)
+;5;Maize
+;6;Soybeans
+;7;COARSE GRAINS
+;8;TOTAL CEREALS

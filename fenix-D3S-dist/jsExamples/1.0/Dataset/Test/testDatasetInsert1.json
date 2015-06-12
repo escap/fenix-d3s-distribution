@@ -1,0 +1,65 @@
+{
+    "uid": "IVANO_Test1",
+    "language": "EN",
+    "title": { "EN": "Test vistual dataset Ivano" },
+    "creationDate": 1334872800000, "periodicity": "unknown",
+    "dsd": {
+        "contextSystem": {
+            "name": "CountrySTAT"
+        },
+        "datasource": {
+            "dao": "cstat",
+            "reference": {
+                "psw": "admin",
+                "usr": "admin",
+                "url": "remote:localhost:8083/CountrySTAT"
+            }
+        },
+        "columns": [
+            {
+                "values": [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011],
+                "dataType": "year",
+                "title": { "PT": "Ano" },
+                "columnId": "dim_Time",
+                "dimension": { "name": "TIME" }
+            },
+            {
+                "values": ["56", "79", "83", "27", "125", "116", "122", "176", "242", "236", "486", "497", "571", "574", "572", "656"],
+                "dataType": "code",
+                "title": { "PT": "Cultura" },
+                "columnId": "dim_ITEM",
+                "dimension": { "name": "ITEM" },
+                "codeSystem": { "version": "1.0", "system": "Crops" }
+            },
+            {
+                "values": ["8"],
+                "dataType": "code",
+                "columnId": "dim_Country",
+                "virtualColumn": "INTERNAL",
+                "dimension": { "name": "GEO" },
+                "codeSystem": { "version": "1.0", "system": "GAUL" }
+            },
+            {
+                "values": ["Production"],
+                "dataType": "text",
+                "columnId": "item_type",
+                "virtualColumn": "INTERNAL",
+                "dimension": { "name": "ITEM_TYPE" }
+            },
+            {
+                "values": ["1"],
+                "dataType": "code",
+                "columnId": "dim_element",
+                "virtualColumn": "INTERNAL",
+                "dimension": { "name": "ELEMENT" },
+                "codeSystem": { "version": "1.0", "system": "Elements" }
+            },
+            {
+                "dataType": "number",
+                "columnId": "dim_Value",
+                "dimension": { "name": "VALUE" }
+            }
+        ]
+    }
+
+}

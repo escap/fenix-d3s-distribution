@@ -1,0 +1,158 @@
+{
+  "metadata" : {
+    "uid" : "AFO_AfricaPITdata",
+    "meContent" : {
+      "resourceRepresentationType": "dataset"
+    },
+
+    "dsd" : {
+      "datasource" : "D3S",
+      "contextSystem" : "AFO",
+      "columns" : [
+        {
+          "id" : "Item",
+          "subject" : "item",
+          "title" : { "EN" : "Item" },
+          "dataType" : "code",
+          "domain" : { "codes" : [ { "idCodeList" : "FAOSTAT_Fertilizers" } ] },
+          "values" : { "codes" : [
+            {   "idCodeList" : "FAOSTAT_Fertilizers",
+              "codes" : [
+                {"code":"2510"},
+                {"code":"2814"},
+                {"code":"310210"},
+                {"code":"310221"}
+              ]
+            } ]
+          },
+          "key" : true
+        },
+
+        {
+          "id" : "Region",
+          "subject" : null,
+          "title" : { "EN" : "Region" },
+          "dataType" : "code",
+          "domain" : { "codes" : [ { "idCodeList" : "AFO_AfricaRegions" } ] },
+          "values" : { "codes" : [
+            {   "idCodeList" : "AFO_AfricaRegions",
+              "codes" : [
+                {"code":"EA"},
+                {"code":"OR"}
+
+              ]
+            } ]
+          },
+          "key" : false
+        },
+        {
+          "id" : "Country",
+          "subject" : "geo",
+          "title" : { "EN" : "Country" },
+          "dataType" : "code",
+          "domain" : { "codes" : [ { "idCodeList" : "AFO_Countrycode" } ] },
+          "values" : { "codes" : [
+            {   "idCodeList" : "AFO_Countrycode",
+              "codes" : [
+                {"code":"ALG"},
+                {"code":"BEN"},
+                {"code":"BFA"}
+              ]
+            } ]
+          },
+          "key" : true
+        },
+        {
+          "id" : "Element",
+          "subject" : null,
+          "title" : { "EN" : "Element" },
+          "dataType" : "code",
+          "domain" : { "codes" : [ { "idCodeList" : "FAOSTAT_Fertilizer_Elements" } ] },
+          "values" : { "codes" : [
+            {   "idCodeList" : "FAOSTAT_Fertilizer_Elements",
+              "codes" : [
+                {"code" : "E"},
+                {"code" : "I"},
+                {"code" : "AC"},
+                {"code" : "5510"}
+              ]
+            } ]
+          },
+          "key" : true
+        },
+        {
+          "id" : "Year",
+          "subject" : null,
+          "title" : { "EN" : "Year" },
+          "dataType" : "year",
+          "domain" : { "period" : { "from" : 2000, "to" : 2001 } },
+          "values" : { "timeList" : [ 2000,2001 ] },
+          "key" : false
+        },
+        {
+          "id" : "Month",
+          "subject" : "time",
+          "title" : { "EN" : "Month" },
+          "dataType" : "month",
+          "domain" : { "period" : { "from" : 200001, "to" : 200106 } },
+          "values" : { "timeList" : [ 200001,200002,200003,200004,200006, 200101, 200102, 200103 ] },
+          "key" : true
+        },
+        {
+          "id" : "Value",
+          "subject" : "value",
+          "title" : { "EN" : "Production (Tonnes)" },
+          "dataType" : "number"
+        },
+        {
+          "id" : "Flags",
+          "subject" : "flag",
+          "title" : { "EN" : "Flags" },
+          "dataType" : "enumeration",
+          "domain" : { "enumeration" : [".", "..", "..."] },
+          "values" : { "enumeration" : [".", ".."] },
+          "key" : false
+        },
+        {
+          "id" : "UM",
+          "subject" : "um",
+          "title" : { "EN" : "Unit of measure" },
+          "dataType" : "customCode",
+          "domain" : { "codes" : [
+            {   "codes" : [
+                  {"code" : "7", "title" : { "EN" : "tonnes"} },
+                  {"code" : "40", "title" : { "EN" : "kg"} },
+                  {"code" : "78", "title" : { "EN" : "m3"} }
+              ]
+            } ]
+          },
+          "values" : { "codes" : [
+            {   "idCodeList" : "ECO_UM",
+              "codes" : [
+                {"code" : "7"},
+                {"code" : "40"}
+              ]
+            } ]
+          },
+          "key" : false
+        },
+        {
+          "id" : "Variance",
+          "title" : { "EN" : "Variance (%)" },
+          "dataType" : "percentage"
+        }
+      ]
+    }
+  },
+
+  "data" :
+
+
+
+  [
+    ["2510","NA","ALG","E",2002,825400],
+    ["2510","NA","ALG","I",2002,0],
+    ["2510","NA","ALG","AC",2002,null],
+    ["2510","WA","BEN","5510",2002,null]
+  ]
+}

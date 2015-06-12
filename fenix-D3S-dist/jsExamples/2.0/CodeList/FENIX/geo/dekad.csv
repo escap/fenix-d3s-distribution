@@ -1,0 +1,153 @@
+{
+    "uid": "dekad",
+	"version": "1.0",
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "Dekad"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "Food and Agriculture Organization of United Nations"
+            },
+            "organizationUnit": null,
+            "name": null,
+            "position": null,
+            "role": null,
+            "contactInfo": {
+                "phone ": null,
+                "address": null,
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["dekad"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": "01"
+                        }
+                    ],
+                    "idCodeList": "FENIX_Subjects",
+                    "version": "1.0"
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 1,
+            "typeOfCodeList": "list"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource":null,
+                "disseminationFormat": null 
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+
+@01-1@January-1st dekad
+@01-2@January-2nd dekad
+@01-3@January-3rd dekad
+@02-1@February-1st dekad
+@02-2@February-2nd dekad
+@02-3@February-3rd dekad
+@03-1@March-1st dekad
+@03-2@March-2nd dekad
+@03-3@March-3rd dekad
+@04-1@April-1st dekad
+@04-2@April-2nd dekad
+@04-3@April-3rd dekad
+@05-1@May-1st dekad
+@05-2@May-2nd dekad
+@05-3@May-3rd dekad
+@06-1@June-1st dekad
+@06-2@June 2nd dekad
+@06-3@June-3rd dekad
+@07-1@July-1st dekad
+@07-2@July-2nd dekad
+@07-3@July-3rd dekad
+@08-1@August-1st dekad
+@08-2@August-2nd dekad
+@08-3@August-3rd dekad
+@09-1@September-1st dekad
+@09-2@September-2nd dekad
+@09-3@September-3rd dekad
+@10-1@October-1st dekad
+@10-2@October-2nd dekad
+@10-3@October-3rd dekad
+@11-1@November-1st dekad
+@11-2@November-2nd dekad
+@11-3@November-3rd dekad
+@12-1@December-1st dekad
+@12-2@December-2nd dekad
+@12-3@December-3rd dekad

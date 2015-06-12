@@ -1,0 +1,41 @@
+{
+    "filter": {
+        "types" : ["dataset"],
+        "metadata" 	: {
+            "uid" : [
+                {"enumeration":"053CPR010"},
+                {"enumeration":"107CPR010"},
+                {"enumeration":"133CPR010"},
+                {"enumeration":"233CPR010"},
+                {"enumeration":"195CPR010"},
+                {"enumeration":"158CPR010"},
+                {"enumeration":"217CPR010"},
+                {"enumeration":"175CPR010"}
+            ]
+        }
+    },
+    "business" : [{
+        "properties" : {
+            "metadata" : true,
+            "distinct" : true,
+            "label" : true,
+            "output":   {
+                "ITEM_TYPE":{"out":false},
+                "GEO":{"out":false},
+                "TIME":{"out":true, "key":true},
+                "ITEM":{"out":true, "key":true},
+                "FLAG":{"out":true},
+                "VALUE":{"out":true}
+            },
+            "secondAggregation" : {
+                "VALUE" : { "implementation" : "operator.UEMOAAdd" },
+                "FLAG" : { "implementation" : "operator.UEMOAFlagAdd" }
+            },
+            "checkAllCountriesKeyProducts":true
+        }
+    }]
+
+
+
+
+}

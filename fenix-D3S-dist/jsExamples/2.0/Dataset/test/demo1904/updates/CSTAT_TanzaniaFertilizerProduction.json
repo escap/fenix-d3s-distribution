@@ -1,0 +1,23 @@
+{
+  "uid" : "CSTAT_TanzaniaFertilizerProduction",
+  "version" : null,
+
+  "meContent" : {
+    "seCoverage" : {
+      "coverageGeographic" : {
+        "idCodeList" : "GAUL0", "version" : "2014",
+        "codes" : [ {"code":"257"}]
+      },
+      "coverageSectors" : {
+        "idCodeList" : "CSTAT_Core", "version" : null,
+        "codes" : [ {"code":"FER"}]
+      }
+    },
+    "seReferencePopulation" : {
+      "referenceArea" : {
+        "idCodeList" : "GAUL_ReferenceArea", "version" : "1.0",
+        "codes" : [ {"code":"ADM0"}]
+      }
+    }
+  }
+}

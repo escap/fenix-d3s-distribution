@@ -1,0 +1,54 @@
+#structure
+csvSeparator=;
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+#metadata
+name=AMIS_ELEMENTS
+title_EN=AMIS CBS elements
+description_EN=AMIS CBS elements
+version=1.0
+startDate=03/06/2014
+sharingPolicy=publicPolicy
+keywords=code list,elements,element,products,product,amis,cbs
+
+
+
+--data--
+
+
+
+;1;Population
+;2;Area Harvested
+;3;Extraction Rate
+;4;Yield
+;5;Production
+;7;Imports (NMY)
+;8;Imports (ITY)
+;10;Exports (NMY)
+;12;Exports (ITY)
+;13;Feed Use
+;14;Food Use
+;15;Other Uses
+;16;Closing Stocks
+;17;Government Stocks
+;18;Opening Stocks
+;19;Total Supply
+;20;Domestic Utilization
+;21;Seeds
+;24;Food/Seeds/Industrial Use
+;25;Per Capita Food Use
+;27;Domestic Supply
+;28;Industrial Use
+;29;Malt
+;30;Biofuel
+;31;Sweeteners
+;32;Starch
+;33;Others
+;34;Post Harvest Losses
+;35;Total Utilization
+;36;Crush
+;37;Area Planted
+;38;Feed and residual

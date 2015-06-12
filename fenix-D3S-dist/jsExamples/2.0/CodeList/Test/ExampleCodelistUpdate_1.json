@@ -1,0 +1,27 @@
+{
+    "metadata" : {
+        "uid" : "test1",
+        "version" : "1.0",
+        "title" : {
+            "EN": "Test code list 1 bis"
+        }
+    },
+
+    "data" : [
+        {
+            "code": "0101",
+            "title": {
+                "EN": "Code 0101 bis"
+            }
+        },
+        {
+            "code": "02",
+            "title": {
+                "EN": "Code 02 bis"
+            },
+            "validityPeriod": {
+                "from": 2010
+            }
+        }
+    ]
+}

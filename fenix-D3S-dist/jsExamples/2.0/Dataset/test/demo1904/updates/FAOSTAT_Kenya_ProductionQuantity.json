@@ -1,0 +1,23 @@
+{
+  "uid" : "FAOSTAT_Kenya_ProductionQuantity",
+  "version" : null,
+
+  "meContent" : {
+    "seCoverage" : {
+      "coverageGeographic" : {
+        "idCodeList" : "GAUL0", "version" : "2014",
+        "codes" : [ {"code":"133"}]
+      },
+      "coverageSectors" : {
+        "idCodeList" : "CSTAT_Core", "version" : null,
+        "codes" : [ {"code":"P"}]
+      }
+    },
+    "seReferencePopulation" : {
+      "referenceArea" : {
+        "idCodeList" : "GAUL_ReferenceArea", "version" : "1.0",
+        "codes" : [ {"code":"ADM0"}]
+      }
+    }
+  }
+}

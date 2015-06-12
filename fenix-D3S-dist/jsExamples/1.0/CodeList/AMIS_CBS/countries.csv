@@ -1,0 +1,52 @@
+#structure
+csvSeparator=;
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+startYearColumnIndex=3
+expireYearColumnIndex=4
+titleColumnIndex_PT=5
+titleColumnIndex_EN=6
+titleColumnIndex_FR=7
+titleColumnIndex_ES=8
+titleColumnIndex_ZH=9
+titleColumnIndex_AR=10
+titleColumnIndex_RU=11
+
+#metadata
+name=AMIS_GAUL
+title_EN=AMIS CBS GAUL geographic code list level 1
+description_EN=GAUL geographic code list (AMIS CBS countries only)
+version=1.0
+startDate=23/05/2014
+sharingPolicy=publicPolicy
+keywords=code list,geographic,area,gaul,nations,amis,cbs
+
+
+
+--data--
+
+
+
+;12;1000;3000;Argentina;Argentina;Argentine;Argentina;阿根廷;الأرجنتين;Аргентина
+;17;1000;3000;Austrália;Australia;Australie;Australia;澳大利亚;أستراليا;Австралия
+;37;1000;3000;Brasil;Brazil;Brésil;Brasil;巴 西;البرازيل;Бразилия
+;46;1000;3000;Canadá;Canada;Canada;Canadá;加拿大;كندا;Канада
+;40765;1000;3000;Egito;Egypt;Égypte;Egipto;埃 及;مصر;Египет
+;115;1000;3000;Índia;India;Inde;India;印 度;الهند;Индия
+;116;1000;3000;Indonésia;Indonesia;Indonésie;Indonesia;印度尼西亚;إندونيسيا;Индонезия
+;126;1000;3000;Japão;Japan;Japon;Japón;日 本;اليابان;Япония
+;162;1000;3000;México;Mexico;Mexique;México;墨西哥;المكسيك;Мексика
+;182;1000;3000;Nigéria;Nigeria;Nigéria;Nigeria;尼日利亚;نيجيريا;Нигерия
+;196;1000;3000;Filipinas;Philippines;Philippines;Filipinas;菲律宾;الفلبين;Филиппины
+;215;1000;3000;Arábia Saudita;Saudi Arabia;Arabie saoudite;Arabia Saudita;沙特阿拉伯;المملكة العربية السعودية;Саудовская Аравия
+;227;1000;3000;África do Sul;South Africa;Afrique du Sud;Sudáfrica;南 非;جنوب أفريقيا;Южная Африка
+;240;1000;3000;Tailândia;Thailand;Thaïlande;Tailandia;泰 国;تايلند;Таиланд
+;249;1000;3000;Turquia;Turkey;Turquie;Turquía;土耳其;تركيا;Турция
+;254;1000;3000;Ucrânia;Ukraine;Ukraine;Ucrania;乌克兰;أوكرانيا;Украина
+;202;1000;3000;Coreia do Sul;Republic of Korea;République de Corée;Repéblica de Corea;大韩民国;جمهورية كوريا;Республика Корея
+;259;1000;3000;Estados Unidos;United States of America;États-Unis d'Amérique;Estados Unidos de América;美 国;الولايات المتحدة الأمريكية;Соединенные Штаты Америки
+;204;1000;3000;Réssia;Russian Federation;Fédération de Russie;Federación de Rusia;俄罗斯联邦;الاتحاد الروسي;Российская Федерация
+;264;1000;3000;Vietname;Viet Nam;Viet Nam;Viet Nam;越 南;فييت نام;Вьетнам
+;999001;1000;3000;;European Union;;;;;
+;999002;1000;3000;;China Mainland;;;;;

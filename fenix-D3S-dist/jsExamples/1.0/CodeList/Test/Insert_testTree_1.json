@@ -1,0 +1,50 @@
+{
+    "system": "Test1",
+    "version": "1.0",
+    "title": { "EN": "Test codelist 1" },
+    "sharingPolicy": "publicPolicy",
+    "description": {
+        "EN": "Test codelist 1"
+    },
+    "rootCodes": [
+        {
+            "code": "A1",
+            "title": { "EN": "A1" },
+            "childs" : [
+                {
+                    "code": "B1",
+                    "title": { "EN": "B1" }
+                },
+                {
+                    "code": "B2",
+                    "title": { "EN": "B2" },
+                    "childs" : [
+                        {
+                            "code": "C1",
+                            "title": { "EN": "C1" }
+                        },
+                        {
+                            "code": "C2",
+                            "title": { "EN": "C2" }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "A2",
+            "title": { "EN": "A2" },
+            "childs": [
+                {
+                    "code": "B3",
+                    "title": { "EN": "B3" }
+                },
+                {
+                    "code": "B4",
+                    "title": { "EN": "B4" }
+                }
+            ]
+        }
+
+    ]
+}

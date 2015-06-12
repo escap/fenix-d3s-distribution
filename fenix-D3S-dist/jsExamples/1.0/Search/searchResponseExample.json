@@ -1,0 +1,181 @@
+{
+"dm": {
+    "dataType": null,
+    "provider": null,
+    "supplemental": {},
+    "uid": null,
+    "creationDate": null,
+    "updateDate": null,
+    "dataKind": null,
+    "periodicity": null,
+    "copyright": null,
+    "completeness": null,
+    "accuracy": null,
+    "processing": null,
+    "freeExtension": null,
+    "dsd": {
+        "supplemental": {},
+        "contextSystem": {
+            "name": "D3S"
+        },
+        "startDate": 1367485322358,
+        "endDate": 1367485322358,
+        "datasource": null,
+        "columns": [
+            {
+                "dataType": "code",
+                "supplemental": {},
+                "title": {
+                    "EN": "Item"
+                },
+                "columnId": "ITEM",
+                "codesLevel": 1,
+                "virtualColumn": null,
+                "geoLyer": null,
+                "dimension": {
+                    "title": {
+                        "EN": "Item"
+                    },
+                    "name": "ITEM"
+                },
+                "codeSystem": {
+                    "system": "Crops",
+                    "levelsNumber": null,
+                    "rootCodes": [],
+                    "provider": null,
+                    "title": {},
+                    "startDate": null,
+                    "endDate": null,
+                    "virtualDate": null,
+                    "sharingPolicy": null,
+                    "keyWords": [],
+                    "version": "1.0",
+                    "category": null,
+                    "description": {},
+                    "source": null,
+                    "region": null
+                },
+                "values": []
+            },
+            {
+                "dataType": "year",
+                "supplemental": {},
+                "title": {
+                    "EN": "Reference time"
+                },
+                "columnId": "TIME",
+                "codesLevel": null,
+                "virtualColumn": null,
+                "geoLyer": null,
+                "dimension": {
+                    "title": {
+                        "EN": "Reference time"
+                    },
+                    "name": "TIME"
+                },
+                "codeSystem": null,
+                "values": []
+            },
+            {
+                "dataType": "number",
+                "supplemental": {},
+                "title": {
+                    "EN": "Value"
+                },
+                "columnId": "VALUE",
+                "codesLevel": null,
+                "virtualColumn": null,
+                "geoLyer": null,
+                "dimension": {
+                    "title": {
+                        "EN": "Value"
+                    },
+                    "name": "VALUE"
+                },
+                "codeSystem": null,
+                "values": []
+            },
+            {
+                "dataType": "code",
+                "supplemental": {},
+                "title": {
+                    "EN": "Element"
+                },
+                "columnId": "ELEMENT",
+                "codesLevel": 1,
+                "virtualColumn": "INTERNAL",
+                "geoLyer": null,
+                "dimension": {
+                    "title": {
+                        "EN": "Element"
+                    },
+                    "name": "ELEMENT"
+                },
+                "codeSystem": {
+                    "system": "Elements",
+                    "levelsNumber": null,
+                    "rootCodes": [],
+                    "provider": null,
+                    "title": {},
+                    "startDate": null,
+                    "endDate": null,
+                    "virtualDate": null,
+                    "sharingPolicy": null,
+                    "keyWords": [],
+                    "version": "1.0",
+                    "category": null,
+                    "description": {},
+                    "source": null,
+                    "region": null
+                },
+                "values": ["1"]
+            },
+            {
+                "dataType": "text",
+                "supplemental": {},
+                "title": {
+                    "EN": "Item type"
+                },
+                "columnId": "ITEM_TYPE",
+                "codesLevel": null,
+                "virtualColumn": "INTERNAL",
+                "geoLyer": null,
+                "dimension": {
+                    "title": {
+                        "EN": "Item type"
+                    },
+                    "name": "ITEM_TYPE"
+                },
+                "codeSystem": null,
+                "values": ["Commodity"]
+            }
+        ]
+    },
+    "availability": null,
+    "categories": [],
+    "contacts": [],
+    "transferOptions": [],
+    "title": {},
+    "description": {},
+    "source": null,
+    "region": null,
+    "owner": null,
+    "language": null
+}, 
+
+"data": [
+    ["486", 1992, 10856],
+    ["157", 1992, 100],
+    ["489", 1992, 356],
+    ["748", 1992, 3284],
+    ["157", 1993, 25],
+    ["748", 1993, 32589],
+    ["531", 2010, 33326],
+    ["157", 2010, 145],
+    ["486", 2010, 178],
+    ["748", 2010, 14588]
+], 
+
+"count": 10
+
+}

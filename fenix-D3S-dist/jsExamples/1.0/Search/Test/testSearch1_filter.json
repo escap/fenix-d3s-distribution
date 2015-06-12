@@ -1,0 +1,19 @@
+{
+    "fields" : {
+        "uid" : [{"enumeration":"testSearch1"},{"enumeration":"testSearch2"}]
+    },
+    "parameters" : {
+        "output":   {
+                        "ITEM_TYPE":{"out":false},
+                        "GEO":{"out":false},
+                        "TIME":{"out":false, "key":true},
+                        "ITEM":{"out":true, "key":true},
+                        "FLAG":{"out":true},
+                        "VALUE":{"out":true}
+                    },
+        "secondAggregation" : {
+            "VALUE" : { "implementation" : "operator.UEMOAAdd" },
+            "FLAG" : { "implementation" : "operator.UEMOAFlagAdd" }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+#structure
+csvSeparator=;
+structure=table
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1
+titleColumnIndex_EN=2
+
+#metadata
+name=OECD_PolicyType8
+title_EN=OECD Biofuel Targets
+description_EN=OECD Policy Measures of Biofuel Targets
+version=1.0
+startDate=03/04/2014
+sharingPolicy=publicPolicy
+
+
+--data--
+
+34;Consumption obligation
+35;Mandatory blending requirements
+36;Non-mandatory targets for biofuel use
+
+

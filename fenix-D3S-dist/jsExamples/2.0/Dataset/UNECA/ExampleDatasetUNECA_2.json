@@ -1,0 +1,180 @@
+{
+    "uid" : "2",
+    "title" : {
+        "EN" : "UNECA dataset 2"
+    },
+    "meContent" : {
+        "resourceRepresentationType": "dataset"
+    },
+
+    "dsd" : {
+        "contextSystem" : "UNECA",
+        "datasource" : "UNECA",
+        "aggregationRules" : null,
+        "columns" : [
+            {
+                "id" : "Domain_Code",
+                "title" : { "EN" : "Domain" },
+                "dataType" : "code",
+                "domain" : { "codes" : [ { "idCodeList" : "UNECA_DomainTopic", "version" : "test" } ] },
+                "values" : { "codes" : [
+                    {   "idCodeList" : "UNECA_DomainTopic", "version" : "test",
+                        "codes" : [
+                            {"code" : "1", "label" : {"EN" : "Demographic and social statistics"}}
+                        ]
+                    } ]
+                }
+
+            },
+            {
+                "id" : "Topic_Code",
+                "title" : { "EN" : "Topic" },
+                "dataType" : "code",
+                "domain" : { "codes" : [ { "idCodeList" : "UNECA_DomainTopic", "version" : "test" } ] },
+                "values" : { "codes" : [
+                    {   "idCodeList" : "UNECA_DomainTopic", "version" : "test",
+                        "codes" : [
+                            {"code" : "5", "label" : {"EN" : "Health"}}
+                        ]
+                    } ]
+                }
+            },
+            {
+                "id" : "AreaCode",
+                "title" : { "EN" : "Area" },
+                "subject" : "GEO",
+                "dataType" : "code",
+                "domain" : { "codes" : [ { "idCodeList" : "UNECA_Areas", "version" : "test" } ] },
+                "values" : { "codes" : [
+                    {   "idCodeList" : "UNECA_Areas", "version" : "test",
+                        "codes" : [
+                            {"code" : "AGO", "label" : {"EN" : "Angola"}},
+                            {"code" : "BDI", "label" : {"EN" : "Burundi"}},
+                            {"code" : "BEN", "label" : {"EN" : "Benin"}},
+                            {"code" : "BWA", "label" : {"EN" : "Botswana"}},
+                            {"code" : "CAF", "label" : {"EN" : "Central African Republic"}},
+                            {"code" : "CMR", "label" : {"EN" : "Cameroon"}},
+                            {"code" : "COD", "label" : {"EN" : "Congo, Democratic Republic"}},
+                            {"code" : "COG", "label" : {"EN" : "Congo"}},
+                            {"code" : "COM", "label" : {"EN" : "Comoros"}},
+                            {"code" : "CPV", "label" : {"EN" : "Cape Verde"}},
+                            {"code" : "DJI", "label" : {"EN" : "Djibouti"}},
+                            {"code" : "DZA", "label" : {"EN" : "Algeria"}},
+                            {"code" : "EGY", "label" : {"EN" : "Egypt"}},
+                            {"code" : "KEN", "label" : {"EN" : "Kenya"}},
+                            {"code" : "LBY", "label" : {"EN" : "Libya"}},
+                            {"code" : "MAR", "label" : {"EN" : "Morocco"}},
+                            {"code" : "MDG", "label" : {"EN" : "Madagascar"}},
+                            {"code" : "TCD", "label" : {"EN" : "Chad"}},
+                            {"code" : "TUN", "label" : {"EN" : "Tunisia"}},
+                            {"code" : "ZAF", "label" : {"EN" : "South Africa"}},
+                            {"code" : "ZWE", "label" : {"EN" : "Zimbabwe"}}
+                        ]
+                    } ]
+                }
+            },
+            {
+                "id" : "DimensionA_Code",
+                "title" : { "EN" : "A" },
+                "dataType" : "code",
+                "domain" : { "codes" : [ { "idCodeList" : "UNECA_DimA", "version" : "test" } ] },
+                "values" : { "codes" : [
+                    {   "idCodeList" : "UNECA_DimA", "version" : "test",
+                        "codes" : [
+                            {"code" : "H513", "label" : {"EN" : "Neonatal mortality"}}
+                        ]
+                    } ]
+                }
+            },
+            {
+                "id" : "DimensionB_Code",
+                "title" : { "EN" : "B" },
+                "dataType" : "code",
+                "domain" : { "codes" : [ { "idCodeList" : "UNECA_DimB", "version" : "test" } ] },
+                "values" : { "codes" : [
+                    {   "idCodeList" : "UNECA_DimB", "version" : "test",
+                        "codes" : [
+                            {"code" : "TL", "label" : {"EN" : "Total"}}
+                        ]
+                    } ]
+                }
+            },
+            {
+                "id" : "DimensionC_Code",
+                "title" : { "EN" : "C" },
+                "dataType" : "code",
+                "domain" : { "codes" : [ { "idCodeList" : "UNECA_DimC", "version" : "test" } ] }
+            },
+            {
+                "id" : "Indicator_Code",
+                "title" : { "EN" : "Indicator" },
+                "dataType" : "code",
+                "domain" : { "codes" : [ { "idCodeList" : "UNECA_Indicators", "version" : "test" } ] },
+                "values" : { "codes" : [
+                    {   "idCodeList" : "UNECA_Indicators", "version" : "test",
+                        "codes" : [
+                            {"code" : "2", "label" : {"EN" : "Demographic rate"}}
+                        ]
+                    } ]
+                }
+            },
+            {
+                "id" : "UnitCode",
+                "title" : { "EN" : "Unit" },
+                "dataType" : "code",
+                "domain" : { "codes" : [ { "idCodeList" : "UNECA_Unit", "version" : "test" } ] },
+                "values" : { "codes" : [
+                    {   "idCodeList" : "UNECA_Unit", "version" : "test",
+                        "codes" : [
+                            {"code" : "PERM", "label" : {"EN" : "per 1000 population"}}
+                        ]
+                    } ]
+                }
+            },
+            {
+                "id" : "Time",
+                "title" : { "EN" : "Year" },
+                "dataType" : "year",
+                "domain" : { "period" : { "from" : 1970, "to" : 2020 } },
+                "values" : {
+                    "timeList" : [ 2000 ]
+                }
+            },
+            {
+                "id" : "Value",
+                "title" : { "EN" : "Value" },
+                "dataType" : "number",
+                "subject" : "VALUE"
+            },
+            {
+                "id" : "MajorDatasourceid",
+                "title" : { "EN" : "Data source" },
+                "dataType" : "code",
+                "domain" : { "codes" : [ { "idCodeList" : "UNECA_DataSource", "version" : "test" } ] },
+                "values" : { "codes" : [
+                    {   "idCodeList" : "UNECA_DataSource", "version" : "test",
+                        "codes" : [
+                            {"code" : "15", "label" : {"EN" : "WHO"}}
+                        ]
+                    } ]
+                }
+            },
+            {
+                "id" : "DataStatustype",
+                "title" : { "EN" : "Status" },
+                "dataType" : "text"
+            },
+            {
+                "id" : "BaseYear",
+                "title" : { "EN" : "Base year" },
+                "dataType" : "year",
+                "domain" : { "period" : { "from" : 1970, "to" : 2020 } }
+            },
+            {
+                "id" : "Note",
+                "title" : { "EN" : "Notes" },
+                "dataType" : "text"
+            }
+        ]
+    }
+}

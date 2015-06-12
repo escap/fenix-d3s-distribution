@@ -1,0 +1,21 @@
+[
+  {
+    "name" : "filter",
+    "parameters" : {
+        "rows" : {
+          "Item" : {
+            "codes" : [
+              {
+                "uid" : "FAOSTAT_Fertilizers",
+                "version" : null,
+                "codes" : ["310230", "2814", "310210"]
+              }
+            ]
+          }
+        },
+        "columns" : [
+          "Item", "Country", "Year", "Value", "Element"
+        ]
+      }
+  }
+]

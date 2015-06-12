@@ -1,0 +1,48 @@
+#structure
+csvSeparator=;
+structure=table
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1
+titleColumnIndex_EN=2
+
+#metadata
+name=OECD_Country
+title_EN=OECD Countries
+description_EN=OECD Countries GAUL code list
+version=1.0
+startDate=03/04/2014
+sharingPolicy=publicPolicy
+
+
+--data--
+
+12;Argentina
+17;Australia
+37;Brazil
+46;Canada
+53;China
+40765;Egypt
+999000;European Union
+85;France
+93;Germany
+115;India
+116;Indonesia
+122;Italy
+126;Japan
+132;Kazakhstan
+162;Mexico
+182;Nigeria
+196;Philippines
+202;Republic of Korea
+204;Russian Federation
+215;Saudi Arabia
+227;South Africa
+229;Spain
+240;Thailand
+249;Turkey
+256;U.K. of Great Britain and Northern Ireland
+254;Ukraine
+259;United States of America
+264;Viet Nam
+
+

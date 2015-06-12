@@ -1,0 +1,11 @@
+{
+    "meSpatialRepresentation.seBoundingBox.seVectorSpatialRepresentation.topologyLevel" : {
+        "codes" : [
+            {
+                "uid" : "ISO639-2",
+                "version" : "1998",
+                "codes" : ["myv", "ent"]
+            }
+        ]
+    }
+}

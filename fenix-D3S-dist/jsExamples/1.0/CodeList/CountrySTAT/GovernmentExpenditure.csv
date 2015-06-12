@@ -1,0 +1,29 @@
+#structure
+csvSeparator=;
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+titleColumnIndex_FR=4
+titleColumnIndex_PT=5
+
+#metadata
+name=CS_GovernmentExpenditure
+title_EN=Government expenditure
+description_EN=CountrySTAT government expenditure types
+version=1.0
+startDate=03/04/2014
+sharingPolicy=publicPolicy
+keywords=codelist,government,expenditure,CountrySTAT
+
+
+--data--
+
+
+;1233;Budgetary;Budgétaire;Orçamental
+;1234;Extrabudgetary;Extrabudgétaires;Extra-orçamentários
+;1235;Social Security ;Sécurité Sociale;Seguro Social
+;1236;Consolidated Centr. Gov;Gouvernement Général Central;Geral Governo Central
+;1237;State Governments;Gouvernements des États;Governos Estaduais
+;1238;Local Governments;Gouvernements Locaux;Governos Locais
+;1239;Consolidated Gen. Gov;Gouvernement Général Consolidé;Consolidado Governo Geral

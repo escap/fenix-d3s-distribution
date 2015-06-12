@@ -1,0 +1,107 @@
+{
+    "uid" : "",
+    "dsd" : {
+        "contextSystem" : "",
+        "datasource" : "",
+        "aggregationRules" : "",
+
+        "columns" : [
+            {
+                "subject" : "", //Subject name
+                "dataType" : "", //data type code
+
+                "values" : [], //column distinct
+                "domain": {
+                    "codes" : [ { }], //codes & codeLists,
+                    "enumeration" : [""], //text enumeration
+                    "period" : {"from":000 , "to":000 } // "from" and "to" fields are numbers
+                },
+
+                "columnLink" : "", //subject name or ID of the column referenced by this column
+
+                "key" : true,  //the column is a key into this table
+
+                "transposed" : true, //transposed by default
+
+                "virtual":true, //the column doesn't exists in the source database
+
+
+                "id" : "", //source internal column id
+                "title" : { //column default title
+                    "EN":"",
+                    "FR":""
+                },
+                "supplemental" : { //notes
+                    "EN":"",
+                    "FR":""
+                }
+            }
+        ]
+
+    }
+}
+
+
+
+
+
+
+dataTypes
+
+codeList:
+{
+    "idCodeList":"",
+    "version": "",
+    "codes" : ["","",""], //[{"code":"", "title" : { "EN":"", "FR":"" }}]
+    "title" : {
+        "EN":"",
+        "FR":""
+    }
+}
+
+code:
+{
+    "idCodeList":"",
+    "version": "",
+    "code": "",
+    "title" : {
+        "EN":"",
+        "FR":""
+    }
+}
+
+customCode:
+{
+    "code" : "",
+    "title" : {
+        "EN":"",
+        "FR":""
+    }
+}
+
+enum: ""
+
+
+date: 20140624
+month: 201406
+yaer: 2014
+time: 2012-04-23T18:25:43.511Z (Javascript JSON default format)
+
+
+string: ""
+
+label:
+{
+    "EN":"",
+    "FR":""
+}
+
+
+boolean: true/false
+
+
+percentage: numero
+
+number: numero
+
+

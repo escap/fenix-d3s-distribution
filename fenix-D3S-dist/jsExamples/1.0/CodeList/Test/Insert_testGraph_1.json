@@ -1,0 +1,80 @@
+{
+    "system": "Test2",
+    "version": "1.0",
+    "title": { "EN": "Test codelist 2" },
+    "sharingPolicy": "publicPolicy",
+    "description": {
+        "EN": "Test codelist 2"
+    },
+    "rootCodes": [
+        {
+            "code": "A1",
+            "title": { "EN": "A1" },
+            "childs" : [
+                {
+                    "code": "B1",
+                    "title": { "EN": "B1" }
+                },
+                {
+                    "code": "B2",
+                    "title": { "EN": "B2" },
+                    "childs" : [
+                        {
+                            "code": "C1",
+                            "title": { "EN": "C1" }
+                        },
+                        {
+                            "code": "C2",
+                            "title": { "EN": "C2" }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "A2",
+            "title": { "EN": "A2" },
+            "childs": [
+                {
+                    "code": "B3",
+                    "title": { "EN": "B3" }
+                },
+                {
+                    "code": "B4",
+                    "title": { "EN": "B4" }
+                }
+            ]
+        },
+        {
+            "code": "A3",
+            "title": { "EN": "A3" },
+            "childs" : [
+                {
+                    "code": "B5",
+                    "title": { "EN": "B5" }
+                },
+                {
+                    "code": "B2",
+                    "title": { "EN": "B2 bis" },
+                    "childs" : [
+                        {
+                            "code": "C3",
+                            "title": { "EN": "C3" }
+                        },
+                        {
+                            "code": "C1",
+                            "title": { "EN": "C1 bis" }
+                        },
+                        {
+                            "code": "C2",
+                            "title": { "EN": "C2 bis" }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "B2"
+        }
+    ]
+}

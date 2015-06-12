@@ -1,0 +1,12 @@
+{
+    "fields" : {
+        "uid" : [
+            {"enumeration":"053CPD010"}
+        ]
+    },
+    "parameters" : {
+        "metadata" : true,
+        "distinct" : true,
+        "label" : true
+    }
+}

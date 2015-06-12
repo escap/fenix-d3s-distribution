@@ -1,0 +1,28 @@
+#structure
+csvSeparator=;
+structure=table
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1
+titleColumnIndex_EN=2
+
+#metadata
+name=OECD_CommodityClass1
+title_EN=OECD Commodity Class Agricultural
+description_EN=OECD Commodity Class list
+version=1.0
+startDate=03/04/2014
+sharingPolicy=publicPolicy
+
+
+--data--
+
+3;Maize
+9;Maize + Rice
+10;Maize + Soybeans
+11;Maize + Rice + Wheat
+8;Maize + Wheat
+2;Rice
+12;Rice+Wheat
+4;Soybeans
+1;Wheat
+

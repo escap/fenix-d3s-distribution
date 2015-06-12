@@ -1,0 +1,8 @@
+{
+    "fields" : {
+    },
+    "dimensions" : {
+        "TIME": [{"fromDate":1259535600000, "toDate":1354230000000}],
+        "GEO" : [{"code":{"systemKey":"GAUL", "systemVersion":"1.0", "code":"42"}}]
+    }
+}

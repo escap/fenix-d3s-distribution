@@ -1,0 +1,457 @@
+{
+    "uid": "EPSG_datum",
+	"version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "Datum"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "European Petroleum Survey Group"
+            },
+            "organizationUnit": null,
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": null,
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["datum"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": "02022"
+                        }
+                    ],
+                    "idCodeList": "FENIX_Subjects",
+                    "version": "1.0"
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 1,
+            "typeOfCodeList": "list"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+@6001@Not specified (based on Airy 1830 ellipsoid)
+@6002@Not specified (based on Airy Modified 1849 ellipsoid)
+@6003@Not specified (based on Australian National Spheroid)
+@6004@Not specified (based on Bessel 1841 ellipsoid)
+@6005@Not specified (based on Bessel Modified ellipsoid)
+@6006@Not specified (based on Bessel Namibia ellipsoid)
+@6007@Not specified (based on Clarke 1858 ellipsoid)
+@6008@Not specified (based on Clarke 1866 ellipsoid)
+@6009@Not specified (based on Clarke 1866 Michigan ellipsoid)
+@6010@Not specified (based on Clarke 1880 (Benoit) ellipsoid)
+@6011@Not specified (based on Clarke 1880 (IGN) ellipsoid)
+@6012@Not specified (based on Clarke 1880 (RGS) ellipsoid)
+@6013@Not specified (based on Clarke 1880 (Arc) ellipsoid)
+@6014@Not specified (based on Clarke 1880 (SGA 1922) ellipsoid)
+@6015@Not specified (based on Everest 1830 (1937 Adjustment) ellipsoid)
+@6016@Not specified (based on Everest 1830 (1967 Definition) ellipsoid)
+@6018@Not specified (based on Everest 1830 Modified ellipsoid)
+@6019@Not specified (based on GRS 1980 ellipsoid)
+@6020@Not specified (based on Helmert 1906 ellipsoid)
+@6021@Not specified (based on Indonesian National Spheroid)
+@6022@Not specified (based on International 1924 ellipsoid)
+@6024@Not specified (based on Krassowsky 1940 ellipsoid)
+@6025@Not specified (based on NWL 9D ellipsoid)
+@6027@Not specified (based on Plessis 1817 ellipsoid)
+@6028@Not specified (based on Struve 1860 ellipsoid)
+@6029@Not specified (based on War Office ellipsoid)
+@6030@Not specified (based on WGS 84 ellipsoid)
+@6031@Not specified (based on GEM 10C ellipsoid)
+@6032@Not specified (based on OSU86F ellipsoid)
+@6033@Not specified (based on OSU91A ellipsoid)
+@6034@Not specified (based on Clarke 1880 ellipsoid)
+@6035@Not specified (based on Authalic Sphere)
+@6036@Not specified (based on GRS 1967 ellipsoid)
+@6041@Not specified (based on Average Terrestrial System 1977 ellipsoid)
+@6042@Not specified (based on Everest (1830 Definition) ellipsoid)
+@6043@Not specified (based on WGS 72 ellipsoid)
+@6044@Not specified (based on Everest 1830 (1962 Definition) ellipsoid)
+@6045@Not specified (based on Everest 1830 (1975 Definition) ellipsoid)
+@6047@Not specified (based on GRS 1980 Authalic Sphere)
+@6052@Not specified (based on Clarke 1866 Authalic Sphere)
+@6120@Greek
+@6121@Greek Geodetic Reference System 1987
+@6122@Average Terrestrial System 1977
+@6123@Kartasto Koordinaati Jarjestelma 1966
+@6124@Rikets koordinatsystem 1990
+@6125@Samboja
+@6126@Lithuania 1994 (ETRS89)
+@6127@Tete
+@6128@Madzansua
+@6129@Observatario
+@6130@Moznet (ITRF94)
+@6131@Indian 1960
+@6132@Final Datum 1958
+@6133@Estonia 1992
+@6134@PDO Survey Datum 1993
+@6135@Old Hawaiian
+@6136@St. Lawrence Island
+@6137@St. Paul Island
+@6138@St. George Island
+@6139@Puerto Rico
+@6140@NAD83 Canadian Spatial Reference System
+@6141@Israel
+@6142@Locodjo 1965
+@6143@Abidjan 1987
+@6144@Kalianpur 1937
+@6145@Kalianpur 1962
+@6146@Kalianpur 1975
+@6147@Hanoi 1972
+@6148@Hartebeesthoek94
+@6149@CH1903
+@6150@CH1903+
+@6151@Swiss Terrestrial Reference Frame 1995
+@6152@NAD83 (High Accuracy Regional Network)
+@6153@Rassadiran
+@6154@European Datum 1950(1977)
+@6155@Dabola 1981
+@6156@Jednotne Trigonometricke Site Katastralni
+@6157@Mount Dillon
+@6158@Naparima 1955
+@6159@European Libyan Datum 1979
+@6160@Chos Malal 1914
+@6161@Pampa del Castillo
+@6162@Korean Datum 1985
+@6163@Yemen National Geodetic Network 1996
+@6164@South Yemen
+@6165@Bissau
+@6166@Korean Datum 1995
+@6167@New Zealand Geodetic Datum 2000
+@6168@Accra
+@6169@American Samoa 1962
+@6170@Sistema de Referencia Geocentrico para America del Sur 1995
+@6171@Reseau Geodesique Francais 1993
+@6172@Posiciones Geodesicas Argentinas
+@6173@IRENET95
+@6174@Sierra Leone Colony 1924
+@6175@Sierra Leone 1968
+@6176@Australian Antarctic Datum 1998
+@6178@Pulkovo 1942/83
+@6179@Pulkovo 1942/58
+@6180@Estonia 1997
+@6181@Luxembourg 1930
+@6182@Azores Occidental Islands 1939
+@6183@Azores Central Islands 1948
+@6184@Azores Oriental Islands 1940
+@6185@Madeira 1936
+@6188@OSNI 1952
+@6189@Red Geodesica Venezolana
+@6190@Posiciones Geodesicas Argentinas 1998
+@6191@Albanian 1987
+@6192@Douala 1948
+@6193@Manoca 1962
+@6194@Qornoq 1927
+@6195@Scoresbysund 1952
+@6196@Ammassalik 1958
+@6197@Garoua
+@6198@Kousseri
+@6199@Egypt 1930
+@6200@Pulkovo 1995
+@6201@Adindan
+@6202@Australian Geodetic Datum 1966
+@6203@Australian Geodetic Datum 1984
+@6204@Ain el Abd 1970
+@6205@Afgooye
+@6206@Agadez
+@6207@Lisbon 1937
+@6208@Aratu
+@6209@Arc 1950
+@6210@Arc 1960
+@6211@Batavia
+@6212@Barbados 1938
+@6213@Beduaram
+@6214@Beijing 1954
+@6215@Reseau National Belge 1950
+@6216@Bermuda 1957
+@6218@Bogota 1975
+@6219@Bukit Rimpah
+@6220@Camacupa
+@6221@Campo Inchauspe
+@6222@Cape
+@6223@Carthage
+@6224@Chua
+@6225@Corrego Alegre
+@6226@Cote d'Ivoire
+@6227@Deir ez Zor
+@6228@Douala
+@6229@Egypt 1907
+@6230@European Datum 1950
+@6231@European Datum 1987
+@6232@Fahud
+@6233@Gandajika 1970
+@6234@Garoua
+@6235@Guyane Francaise
+@6236@Hu Tzu Shan
+@6237@Hungarian Datum 1972
+@6238@Indonesian Datum 1974
+@6239@Indian 1954
+@6240@Indian 1975
+@6241@Jamaica 1875
+@6242@Jamaica 1969
+@6243@Kalianpur 1880
+@6244@Kandawala
+@6245@Kertau
+@6246@Kuwait Oil Company
+@6247@La Canoa
+@6248@Provisional South American Datum 1956
+@6249@Lake
+@6250@Leigon
+@6251@Liberia 1964
+@6252@Lome
+@6253@Luzon 1911
+@6254@Hito XVIII 1963
+@6255@Herat North
+@6256@Mahe 1971
+@6257@Makassar
+@6258@European Terrestrial Reference System 1989
+@6259@Malongo 1987
+@6260@Manoca
+@6261@Merchich
+@6262@Massawa
+@6263@Minna
+@6264@Mhast
+@6265@Monte Mario
+@6266@M'poraloko
+@6267@North American Datum 1927
+@6268@NAD Michigan
+@6269@North American Datum 1983
+@6270@Nahrwan 1967
+@6271@Naparima 1972
+@6272@New Zealand Geodetic Datum 1949
+@6273@NGO 1948
+@6274@Datum 73
+@6275@Nouvelle Triangulation Francaise
+@6276@NSWC 9Z-2
+@6277@OSGB 1936
+@6278@OSGB 1970 (SN)
+@6279@OS (SN) 1980
+@6280@Padang 1884
+@6281@Palestine 1923
+@6282@Congo 1960 Pointe Noire
+@6283@Geocentric Datum of Australia 1994
+@6284@Pulkovo 1942
+@6285@Qatar 1974
+@6286@Qatar 1948
+@6287@Qornoq
+@6288@Loma Quintana
+@6289@Amersfoort
+@6291@South American Datum 1969
+@6292@Sapper Hill 1943
+@6293@Schwarzeck
+@6294@Segora
+@6295@Serindung
+@6296@Sudan
+@6297@Tananarive 1925
+@6298@Timbalai 1948
+@6299@TM65
+@6300@Geodetic Datum of 1965
+@6301@Tokyo
+@6302@Trinidad 1903
+@6303@Trucial Coast 1948
+@6304@Voirol 1875
+@6306@Bern 1938
+@6307@Nord Sahara 1959
+@6308@Stockholm 1938
+@6309@Yacare
+@6310@Yoff
+@6311@Zanderij
+@6312@Militar-Geographische Institut
+@6313@Reseau National Belge 1972
+@6314@Deutsches Hauptdreiecksnetz
+@6315@Conakry 1905
+@6316@Dealul Piscului 1933
+@6317@Dealul Piscului 1970
+@6318@National Geodetic Network
+@6319@Kuwait Utility
+@6322@World Geodetic System 1972
+@6324@WGS 72 Transit Broadcast Ephemeris
+@6326@World Geodetic System 1984
+@6600@Anguilla 1957
+@6601@Antigua 1943
+@6602@Dominica 1945
+@6603@Grenada 1953
+@6604@Montserrat 1958
+@6605@St. Kitts 1955
+@6606@St. Lucia 1955
+@6607@St. Vincent 1945
+@6608@North American Datum 1927 (1976)
+@6609@North American Datum 1927 (CGQ77)
+@6610@Xian 1980
+@6611@Hong Kong 1980
+@6612@Japanese Geodetic Datum 2000
+@6613@Gunung Segara
+@6614@Qatar National Datum 1995
+@6615@Porto Santo 1936
+@6616@Selvagem Grande
+@6618@South American Datum 1969
+@6619@SWEREF99
+@6620@Point 58
+@6621@Fort Marigot
+@6622@Guadeloupe 1948
+@6623@Centre Spatial Guyanais 1967
+@6624@Reseau Geodesique Francais Guyane 1995
+@6625@Martinique 1938
+@6626@Reunion 1947
+@6627@Reseau Geodesique de la Reunion 1992
+@6628@Tahiti
+@6629@Tahaa
+@6630@IGN72 Nuku Hiva
+@6631@K0 1949
+@6632@Combani 1950
+@6633@IGN56 Lifou
+@6634@IGN72 Grande Terre
+@6635@ST87 Ouvea
+@6636@Petrels 1972
+@6637@Pointe Geologie Perroud 1950
+@6638@Saint Pierre et Miquelon 1950
+@6639@MOP78
+@6640@Reseau de Reference des Antilles Francaises 1991
+@6641@IGN53 Mare
+@6642@ST84 Ile des Pins
+@6643@ST71 Belep
+@6644@NEA74 Noumea
+@6645@Reseau Geodesique Nouvelle Caledonie 1991
+@6646@Grand Comoros
+@6647@IERS Terrestrial Reference Frame 1988
+@6648@IERS Terrestrial Reference Frame 1989
+@6649@IERS Terrestrial Reference Frame 1990
+@6650@IERS Terrestrial Reference Frame 1991
+@6651@IERS Terrestrial Reference Frame 1992
+@6652@IERS Terrestrial Reference Frame 1993
+@6653@IERS Terrestrial Reference Frame 1994
+@6654@IERS Terrestrial Reference Frame 1996
+@6655@IERS Terrestrial Reference Frame 1997
+@6656@IERS Terrestrial Reference Frame 2000
+@6657@Reykjavik 1900
+@6658@Hjorsey 1955
+@6659@Islands Network 1993
+@6660@Helle 1954
+@6661@Latvia 1992
+@6663@Porto Santo 1995
+@6664@Azores Oriental Islands 1995
+@6665@Azores Central Islands 1995
+@6666@Lisbon 1890
+@6667@Iraq-Kuwait Boundary Datum 1992
+@6668@European Datum 1979
+@6670@Istituto Geografico Militaire 1995
+@6671@Voirol 1879
+@6672@Chatham Islands Datum 1971
+@6673@Chatham Islands Datum 1979
+@6674@Sistema de Referencia Geocentrico para America del Sur 2000
+@6675@Guam 1963
+@6676@Vientiane 1982
+@6677@Lao 1993
+@6678@Lao National Datum 1997
+@6679@Jouik 1961
+@6680@Nouakchott 1965
+@6681@Mauritania 1999
+@6682@Gulshan 303
+@6801@CH1903 (Bern)
+@6802@Bogota 1975 (Bogota)
+@6803@Lisbon 1937 (Lisbon)
+@6804@Makassar (Jakarta)
+@6805@Militar-Geographische Institut (Ferro)
+@6806@Monte Mario (Rome)
+@6807@Nouvelle Triangulation Francaise (Paris)
+@6808@Padang 1884 (Jakarta)
+@6809@Reseau National Belge 1950 (Brussels)
+@6810@Tananarive 1925 (Paris)
+@6811@Voirol 1875 (Paris)
+@6813@Batavia (Jakarta)
+@6814@Stockholm 1938 (Stockholm)
+@6815@Greek (Athens)
+@6816@Carthage (Paris)
+@6817@NGO 1948 (Oslo)
+@6818@S-JTSK (Ferro)
+@6819@Nord Sahara 1959 (Paris)
+@6820@Gunung Segara (Jakarta)
+@6821@Voirol 1879 (Paris)
+@6901@Ancienne Triangulation Francaise (Paris)
+@6902@Nord de Guerre (Paris)
+@6903@Madrid 1870 (Madrid)
+@6904@Lisbon 1890 (Lisbon)

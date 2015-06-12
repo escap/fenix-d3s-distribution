@@ -1,0 +1,114 @@
+{
+  "language" : {
+    "version" : "1998",
+    "codes" : [ {
+      "code" : "eng",
+      "label" : {
+        "EN" : "English"
+      }
+    } ],
+    "idCodeList" : "ISO639-2",
+    "extendedName" : {
+      "EN" : "International Standard Organization - Language"
+    }
+  },
+  "title" : {
+    "EN" : "TRADE DATASET"
+  },
+  "creationDate" : 1418598000000,
+
+  "uid" : "UAE_TRADE",
+  "contacts" : [ {
+    "organization" : {
+      "EN" : "UAE"
+    },
+    "role" : "distributor",
+    "contactInfo" : {
+      "phone" : "000"
+    },
+    "roleLabel" : {
+      "EN" : "Distributor"
+    }
+  } ],
+  "meContent" : {
+    "resourceRepresentationType" : "dataset",
+    "resourceRepresentationTypeLabel" : {
+      "EN" : "Dataset"
+    },
+    "seCoverage" : {
+      "coverageGeographic" : {
+        "version" : "2014",
+        "codes" : [ {
+          "code" : "255",
+          "label" : {
+            "PT" : "Emirados Árabes Unidos",
+            "FR" : "Émirats arabes unis",
+            "AR" : "الإمارات العربية المتحدة",
+            "EN" : "United Arab Emirates",
+            "RU" : "Объединенные Арабские Эмираты",
+            "ES" : "Emiratos Árabes Unidos",
+            "ZH" : "阿拉伯联合酋长国"
+          }
+        } ],
+        "idCodeList" : "GAUL0",
+        "extendedName" : {
+          "EN" : "Global administrative unit layer country level"
+        }
+      },
+      "coverageSectors" : {
+        "codes" : [ {
+          "code" : "331",
+          "label" : {
+            "EN" : "TRADE POLICY AND REGULATIONS AND TRADE-RELATED ADJUSTMENT"
+          }
+        }, {
+          "code" : "311",
+          "label" : {
+            "EN" : "AGRICULTURE"
+          }
+        } ],
+        "idCodeList" : "CRS_purpose_codes",
+        "extendedName" : {
+          "EN" : "Purpose Codes: sector classification"
+        }
+      },
+      "coverageSectorsDetails" : {
+        "EN" : ""
+      },
+      "coverageTime" : {
+        "from" : 1167606000000,
+        "to" : 1325286000000
+      }
+    }
+  },
+  "languageDetails" : {
+    "EN" : ""
+  },
+  "characterSet" : {
+    "codes" : [ {
+      "code" : "106",
+      "label" : {
+        "EN" : "UTF-8"
+      }
+    } ],
+    "idCodeList" : "IANAcharacterSet",
+    "extendedName" : {
+      "EN" : "Internet Assigned Numbers Authority codelist"
+    }
+  },
+  "metadataStandardName" : "FENIX",
+  "metadataStandardVersion" : "1.0",
+  "metadataLanguage" : {
+    "version" : "1998",
+    "codes" : [ {
+      "code" : "eng",
+      "label" : {
+        "EN" : "English"
+      }
+    } ],
+    "idCodeList" : "ISO639-2",
+    "extendedName" : {
+      "EN" : "International Standard Organization - Language"
+    }
+  }
+}

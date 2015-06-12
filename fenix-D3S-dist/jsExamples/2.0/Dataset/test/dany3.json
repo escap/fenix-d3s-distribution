@@ -1,0 +1,48 @@
+{
+  "uid": "dan10",
+  "version": null,
+  "language": {
+    "codes": [{"code": "eng"}],
+    "idCodeList": "ISO639-2",
+    "version": "1998"
+  },
+  "languageDetails": {"EN": null},
+  "title": {"EN": "dan10"},
+  "creationDate": "2014-12-12T12:00:00.000+01:00",
+  "characterSet": {
+    "codes": [{"code": "106"}],
+    "idCodeList": "IANAcharacterSet",
+    "version": null
+  },
+  "metadataStandardName": "FENIX",
+  "metadataStandardVersion": "1.0",
+  "metadataLanguage": {
+    "codes": [{"code": "eng"}],
+    "idCodeList": "ISO639-2",
+    "version": "1998"
+  },
+  "contacts": [
+    {
+      "organization": {"EN": "Fff"},
+      "organizationUnit": {"EN": null},
+      "pointOfContact": null,
+      "position": {"EN": null},
+      "role": null,
+      "specify": {"EN": null},
+      "contactInfo": {
+        "phone": "666",
+        "address": "fff",
+        "emailAddress": "fff@fff.org",
+        "hoursOfService": {"EN": null},
+        "contactInstruction": {"EN": null}
+      }
+    }
+  ],
+  "noDataValue": null,
+  "isRoot": true,
+  "entityPath": "meIdentification",
+  "meContent": {
+    "resourceRepresentationType": "dataset",
+    "isRoot": false
+  }
+}

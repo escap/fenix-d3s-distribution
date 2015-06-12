@@ -1,0 +1,189 @@
+{
+    "uid": "MODIS_DataProductsTable",
+    "version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "MODIS Data Prodcts Table"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "National Aeronautics and Space Administration (NASA)"
+            },
+            "organizationUnit": {
+                "EN": "LAND PROCESSES DISTRIBUTED ACTIVE ARCHIVE CENTER"
+            },
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": "605-594-6116",
+                "address": null,
+                "emailAddress": "lpdaac@usgs.gov",
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["products","MODIS", "raster"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": "0202"
+                        }
+                    ],
+                    "idCodeList": "FENIX_Subjects",
+                    "version": "1.0"
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 1,
+            "typeOfCodeList": "list"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": "https://lpdaac.usgs.gov/products/modis_products_table",
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+
+
+
+@MCD12C1@Land Cover Type
+@MCD12Q1@Land Cover Type
+@MCD12Q2@Land Cover Dynamics
+@MCD15A2@Leaf Area Index - FPAR
+@MCD15A3@Leaf Area Index - FPAR
+@MCD43A1@BRDF-Albedo Model Parameters
+@MCD43A2@BRDF-Albedo Quality
+@MCD43A3@Albedo
+@MCD43A4@Nadir BRDF-Adjusted Reflectance
+@MCD43B1@BRDF-Albedo Model Parameters
+@MCD43B2@BRDF-Albedo Quality
+@MCD43B3@Albedo
+@MCD43B4@Nadir BRDF-Adjusted Reflectance
+@MCD43C1@BRDF-Albedo Model Parameters
+@MCD43C2@BRDF-Albedo Snow-free Quality
+@MCD43C3@Albedo
+@MCD43C4@Nadir BRDF-Adjusted Reflectance
+@MCD45A1@Thermal Anomalies & Fire
+@MOD09A1@Surface Reflectance Bands 1–7
+@MOD09CMG@Surface Reflectance Bands 1–7
+@MOD09GA@Surface Reflectance Bands 1–7
+@MOD09GQ@Surface Reflectance Bands 1–2
+@MOD09Q1@Surface Reflectance Bands 1–2
+@MOD11A1@Land Surface Temperature & Emissivity
+@MOD11A2@Land Surface Temperature & Emissivity
+@MOD11B1@Land Surface Temperature & Emissivity
+@MOD11C1@Land Surface Temperature & Emissivity
+@MOD11C2@Land Surface Temperature & Emissivity
+@MOD11C3@Land Surface Temperature & Emissivity
+@MOD11_L2@Land Surface Temperature & Emissivity
+@MOD13A1@Vegetation Indices
+@MOD13A2@Vegetation Indices
+@MOD13A3@Vegetation Indices
+@MOD13C1@Vegetation Indices
+@MOD13C2@Vegetation Indices
+@MOD13Q1@Vegetation Indices
+@MOD14@Thermal Anomalies & Fire
+@MOD14A1@Thermal Anomalies & Fire
+@MOD14A2@Thermal Anomalies & Fire
+@MOD15A2@Leaf Area Index - FPAR
+@MOD17A2@Gross Primary Productivity
+@MOD17A3@Net Primary Productivity
+@MOD44A@Vegetation Continuous Cover
+@MOD44B@Vegetation Continuous Fields
+@MOD44W@Land Water Mask Derived
+@MYD09A1@Surface Reflectance Bands 1–7
+@MYD09CMG@Surface Reflectance Bands 1–7
+@MYD09GA@Surface Reflectance Bands 1–7
+@MYD09GQ@Surface Reflectance Bands 1–2
+@MYD09Q1@Surface Reflectance Bands 1–2
+@MYD11A1@Land Surface Temperature & Emissivity
+@MYD11A2@Land Surface Temperature & Emissivity
+@MYD11B1@Land Surface Temperature & Emissivity
+@MYD11C1@Land Surface Temperature & Emissivity
+@MYD11C2@Land Surface Temperature & Emissivity
+@MYD11C3@Land Surface Temperature & Emissivity
+@MYD11_L2@Land Surface Temperature & Emissivity
+@MYD13A1@Vegetation Indices
+@MYD13A2@Vegetation Indices
+@MYD13A3@Vegetation Indices
+@MYD13C1@Vegetation Indices
+@MYD13C2@Vegetation Indices
+@MYD13Q1@Vegetation Indices
+@MYD14@Thermal Anomalies & Fire
+@MYD14A1@Thermal Anomalies & Fire
+@MYD14A2@Thermal Anomalies & Fire
+@MYD15A2@Leaf Area Index - FPAR
+@MYD17A2@Gross Primary Productivity

@@ -1,0 +1,37 @@
+{
+  "meContent": {
+    "seCoverage": {
+      "coverageSectors": {
+        "version": "1.0",
+        "codes": [{"code": "earthstat_crop_area"}],
+        "idCodeList": "layers_products"
+      }
+    },
+    "resourceRepresentationType": "geographic"
+  },
+  "uid": "earthstat:quince_area_3857",
+  "title": {"EN": "quince area"},
+  "path": "/home/vortex/Desktop/LAYERS/earthstat/TO_PUBLISH/earthstat_crop_area/quince_area_3857.geotiff",
+  "dsd": {
+    "contextSystem": "FENIX",
+    "layerName": "quince_area_3857",
+    "workspace": "earthstat",
+    "defaultStyle": "earthstat_crop_area_EN",
+    "datasources": ["geoserver"]
+  },
+  "creationDate": 1427471331000,
+  "meSpatialRepresentation": {"layerType": "raster"},
+  "meReferenceSystem": {
+    "seProjection": {
+      "projection": {
+        "version": "1.0",
+        "codes": [
+          {
+            "code": "EPSG:3857"
+          }
+        ],
+        "idCodeList": "mapProjections"
+      }
+    }
+  }
+}

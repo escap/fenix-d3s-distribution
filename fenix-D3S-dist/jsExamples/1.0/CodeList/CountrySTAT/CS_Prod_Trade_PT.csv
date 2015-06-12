@@ -1,0 +1,674 @@
+#structure
+csvSeparator=;
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_PT=3
+
+#metadata
+name=CS_Prod_Trade
+title_EN=CountrySTAT commodities
+description_EN=CountrySTAT commodities
+version=1.0
+startDate=16/06/2014
+sharingPolicy=publicPolicy
+keywords=code list,commodities,production, trade, commodity,product,products,countrySTAT
+
+
+
+--data--
+
+
+
+;15;Trigo
+;16;Farinha de trigo
+;18;Macarrão
+;19;Germe de Trigo
+;20;Pão de Trigo
+;21;Bulgur
+;22;Pastelaria
+;23;Ámido de trigo
+;24;Gluten de Trigo
+;27;Arrozal
+;28;Arroz descascado
+;29;Arroz descascado Moido
+;31;Arroz branqueado
+;32;Arroz quebrado
+;33;Gluten do arroz
+;34;Amido de arroz
+;38;Farinha de arroz
+;41;Floco de cereais
+;44;Cevada
+;45;Cevadinha
+;46;Barley mingau
+;48;Farinha de cevada e grão
+;49;Malte
+;50;Extracto de Malte
+;56;Milho
+;57;Germe de milho
+;58;Farinha de milho
+;63;Gluten de milho
+;64;Amido de milho
+;67;Milho branco
+;68;Pipocas
+;71;Centeio
+;72;Farinha de centeio
+;75;Aveia
+;76;Aveias em flocos
+;79;Mexoeira
+;80;Farinha de mexoeira
+;83;Mapira
+;84;Farinha de Mapira
+;89;Trigo mourisco, trigo negro
+;90;Farinha de trigo mourisco
+;92;Quinoa
+;94;Fonio
+;95;Farinha de fonio
+;97;Triticale
+;98;Farinha de triticale
+;101;Semente amarela
+;103;Grão misto
+;104;Farinha de grão misto
+;108;Cereais nes
+;108,1;Teff
+;109;Comida para as crianças
+;110;Wafers
+;111;Farinha de cereais
+;113;Cerais preparado de nes
+;114;Misturas e pastas
+;115;Preparação de alimento, farinha e extrato de malta
+;116;Batata reno
+;117;Farinha de batata reno
+;118;Batata congelada
+;119;Amido de Batata
+;121;Tapioca de Batata
+;122;Batata doce
+;125;Mandioca
+;126;Farinha de Mandioca
+;127;Tapioca de Mandioca
+;128;Mandioca seca
+;129;Amido de mandioca
+;135;Repolho das Caraibas
+;136;Inhame
+;137;Inhame
+;149;Raizes e tuberculos, nes
+;150;Farinha de raizes e tuberculos
+;151;Raizes e tubérculos secos
+;154;Fructose quimicamente pura
+;155;Maltose quimicamente puro
+;156;Cana de açúcar
+;157;Beterraba açucareira
+;158;Cana de açúcar em bruto e centrifugado
+;159;Açucar de beterraba, em bruto e centrifugado
+;160;Açucar e xarope de Erable
+;161;Planta açucrareiras
+;162;Açucar bruto centrifugado
+;163;Açúcar não centrifugado
+;164;Açúcar refinado
+;165;Melaço
+;166;Outras fructose e xarope
+;167;Açucar nes
+;168;Açúcar confeteiro
+;172;Glucose e Dextrose
+;173;Lactose
+;174;Adoçantes artificiais
+;175;Isoglucose
+;1182;Mel natural
+;176;Feijão secos
+;181;Feijões e favas secas
+;187;Ervilha seca
+;191;Grão de Bico
+;195;Leguminosas secas n.e
+;197;Guandu
+;201;Lentilhas
+;203;Bambara
+;205;Ervilhaça
+;210;Tremoços
+;211;Leguminosas nes
+;212;Farinha de luguminosas
+;216;Castanha de Brasil nao descascada
+;217;Castanha de caju com casca
+;220;Castanha
+;221;Amêndoas nao descascadas
+;222;Nozes com casca
+;223;Pistaschios
+;224;Cola
+;225;Avelãs descascadas
+;226;Nozes
+;229;Castanha de Brasil descascasa
+;230;Castanha de caju sem casca
+;231;Amendoas descascadas
+;232;Nozes sem casca
+;233;Avelãs descascadas
+;234;Castanhas nes
+;235;Frutos com casca preparada (ex: amendoim)
+;236;Soja
+;239;Molho de soja
+;240;Pasta de soja
+;241;Coalhada desoja
+;242;Amendoim com casca
+;243;Amendoim sem casca
+;246;Amendoim preparado
+;247;Manteiga de amendoim
+;249;Coco
+;250;Castanha de coco seca
+;251;Copra
+;254;Oleo de fruta de palma
+;256;palmiste
+;260;Azeitonas
+;262;Azeitonas em conserva
+;263;Castanha de shea
+;265;Castor
+;267;semente de girassol
+;270;Colza
+;275;Nozes tung
+;277;Graos de jojoba
+;280;Semente de Cártamo
+;289;Semente de Gergelim
+;292;Semente de Mustarda
+;295;Farinha de Mustarda
+;296;Papoula
+;299;Graos de melão
+;305;Sebo de arvores sementes
+;310;Fruto da sumauma
+;311;Graos de sumauma nao descascas
+;312;Graos de sumauma descascas
+;328;Algodão em carroço
+;329;Semente de algodão
+;333;Linhaça
+;336;Cânhamo
+;339;Oleagenosas , nes
+;343;Farinha de oleagenosas
+;358;Repolho e outras couves
+;366;Alcachofras
+;367;Aspargos
+;372;Alface e chicória
+;373;Espinafre
+;378;Folha de mandioca
+;388;Tomate
+;390;Sumo de tomate
+;391;Puré de tomate
+;392;Tomate pelado
+;393;Couve flor e brocolos
+;394;Abóbora e aboborinhas
+;397;Pepino e pepininho
+;399;Berinjelas
+;401;Pimenta e pimentões
+;402;Cebolas (e cebolinhas) frescas
+;403;Cebola seca
+;406;Alho
+;407;Alho porró e outros produtos alinaceos
+;414;Feijão verde
+;417;Ervilha verde
+;420;Legumes de vagem, nes
+;423;Espinafre
+;426;Cenouras
+;430;Quiabo
+;446;Milho fresco
+;447;Milho doce congelado
+;448;Milho doce preparado ou conservado
+;449;Cogumelo
+;450;Cogumelos secos
+;451;Cogumelos enlatados
+;463;Vegetais frescos nes
+;466;Sumo de vegetais  nes
+;469;Legumes desidratados
+;471;Legumes no vinagre
+;472;Legumes em conserva
+;473;Legumes congelados
+;474;Legumes provisoriamente congelados
+;475;Legumes em conserva (congelados)
+;476;Preparação de legumes homogenizados
+;567;Melancia
+;568;Meloes
+;486;Banana
+;489;Banana platano
+;490;Laranjas
+;491;Sumo de laranja, não concetrado
+;492;Sumo de laranja concentrado
+;495;Tangerina, mandarino e clementinas
+;496;Sumo de tangerinas
+;497;Limão e lima
+;498;Sumo de limão, força única
+;499;Sumo de Limão concetrado
+;507;Toranja incluindo pomelos
+;509;Sumo de toranja
+;510;Sumo de toranja concetrado
+;512;Citrinos, nes
+;513;Sumo de Citrinos, não concentrado
+;514;Sumo de citrinos concetrado
+;515;Maçã
+;518;Sumo de maçã, não concentrado
+;519;Sumo de maçã concetrado
+;521;Peras
+;523;Marmelos
+;526;Damasco
+;527;Damasco seco
+;530;Ginjas
+;531;Cerejas
+;534;Pessegos e nectarinas
+;536;Ameixas
+;537;Abrunhos
+;538;Sumo de ameixas, não concentrado
+;539;Sumo de ameixas concentrado
+;541;Caroço de frutas, ne
+;542;Pomoideas
+;544;Morangos
+;547;Fambroesa
+;549;Groselhas
+;550;Cassis e groselhas
+;552;Mirtilos
+;554;Cranberries
+;558;Bagas nes
+;560;Uvas
+;561;Passas de uva
+;562;Sumo de uva
+;569;Figos
+;570;Figos secos
+;571;Manga, mangostões e goiba
+;572;Abacate
+;574;Anánas
+;575;Anánas em calda
+;576;Sumo de anánas
+;577;Tâmaras
+;580;Sumo concetrado de anánas
+;583;Sumo de manga
+;584;Polpade manga
+;587;Caquis
+;591;Fruto do caju
+;592;Kiwis
+;600;Papaia
+;603;Maracujas
+;604;Frutos tropicais
+;619;Frutos frescos
+;620;Frutas secas, nes
+;622;Sumo de fruta nes
+;623;Frutas preparadas, nes
+;624;Farinha de frutas
+;625;Frutas, castanhas, Casca, preparado com açúcar
+;626;Frutas cozidas homogeneisadas e preparadas
+;767;Fibra de algodão
+;768;Algodão cardado e penteado
+;769;Estopa
+;770;Fois de algodao
+;771;Linho em bruto ou marcerado
+;773;Fibras e estopa
+;774;Estopa e desperdicios de linho
+;777;Estopas e residuos de hemp
+;778;Fibras de sumauma
+;780;Juta e fibras aparentes
+;782;Fibras analogas a juta
+;788;Rami
+;789;Sisal
+;800;Fibras de agave
+;809;Abaca, manila
+;813;Fibra de coco
+;821;Fibras de vegetais
+;987;Lã gorduroso
+;988;Lã magro
+;1007;Lã desgastado
+;1008;Hair Carded/ Combed
+;1009;Residuos de fibras de algodao
+;1010;Fitas de lã
+;1030;Pêlos finos de cabra
+;1031;Pêlos grossos de cabra
+;1100;Crina
+;1185;Casulos de seda cambaleados
+;1186;Seda crua
+;1187;Cocoon Unr.&Waste
+;1218;Pêlos finos
+;1219;Pêlos grosseiros
+;687;Pimenta
+;689;Malagueta(piri-piri)
+;692;Baunilha
+;693;Canela
+;698;Cravos da índia
+;702;Noz moscada, cardomomo
+;711;Anis, funcho, badiana, coentro, cominho, sementes de cominho, bagas de zimbro
+;720;Gengibre
+;723;Especiarias, nes
+;17;Farelo de trigo
+;35;Farelo de arroz
+;37;Bolo de farelo de arroz
+;47;Farelo da cevada
+;59;Farelo de milho
+;61;Bolo de milho
+;73;Farelo de centeio
+;77;Farelo de aveia
+;81;Farelo de mexoeira
+;85;Farelo de mapira
+;91;Farelo de trigo
+;96;Farelo de fonio
+;99;Farelo de triticale
+;105;Farelo de cereais
+;112;Farelo de cereais
+;120;Dejetos de batata
+;169;Polpa de beterraba
+;170;Bagaço
+;213;Farelo de Pulses
+;238;Bolo de soja
+;245;Bolo de amendoim
+;253;Bolo de copra
+;259;Bolo de palmiste
+;269;Bolo de girasol
+;272;Bolo de colza
+;273;Residuos de azeitonas
+;282;Bolo de cartamo
+;291;Bolo de gergelin
+;294;Bolo de mostarda
+;298;Bolo de semente de papoula
+;314;Bolo de sumauma
+;332;Bolo de algodão
+;335;Bolo de linho
+;338;Cake of Hempseed
+;341;Bolo de grãos de oleagionosas
+;566;Bagaço de uvas
+;628;polpa de frutas para alimentação
+;629;Tops de beterraba
+;630;Pontas brancas de cana
+;635;Cascas e palha
+;636;Feno de milho
+;637;Feno de sorgo
+;638;Azevém para forragem e silagem
+;639;Gramineas forrageiras
+;640;Clover para forragem e silagem
+;641;Alfafa para forragem e silagem
+;642;Oleaginosas verdes para silagem
+;643;Leguminosas para silagem
+;644;Repoulho para forragem
+;645;Aboboras para forragem
+;646;Nabos para forragem
+;647;Beterrabas para forragem
+;648;Cenouras para forragem
+;649;Swedes for Fodder
+;650;Folhas, extremidades e gavinhas
+;651;Produtos forrageiros
+;652;Produtos  vegetais para alforragem
+;653;Dejetos de alimentos
+;655;Raizes, legumes forrageiras
+;840;Alimentos compostos para bovinos
+;841;Alimentos compostos para aves
+;842;Alimentos compostos para porcinos
+;843;Alimentos para omésticosd
+;845;Alimentos compostos
+;846;Forragens e bolos com base de gluten
+;849;Levedura
+;850;Suplementos alimentares
+;851;Nitrogenados nao proteicos
+;852;Outros concentrados
+;853;Vitaminas
+;854;Aditivos
+;855;Alimentos minerais
+;857;Feno de plantas não leguminosas
+;858;Feno (trevo, alfafa, etc)
+;859;Feno (nao especificado)
+;860;Pastagem da época
+;861;Pastagem melhorada
+;862;Farinha de alfafa e petalas
+;1173;Farinha de carne
+;1174;Farinha de peixe
+;1175;Farinha de sangue
+;1259;Resíduos alimentares, fórmula alimentar
+;656;Café verde
+;657;Café torrado
+;658;Substrato de café e café concentrado
+;659;Extrato de café
+;660;Coffee Husks and Skins
+;661;Cacau em amendoa
+;662;Pasta de cacau
+;663;Vagens e pele de cacau
+;664;Manteiga de cacau
+;665;Po e massa de cacau
+;666;Cacau em pó sem/com adição de açucar
+;667;Cha
+;671;Mate
+;672;Extrato de cha, Mate, preparado
+;674;Infusões
+;459;Raizes de chiocorria
+;460;Produtos vegetais frescos e secos
+;461;Carobs
+;677;Lupulo
+;737;Oleo de critonela
+;748;Mentol pimentado, mentol verde
+;753;Oleos essenciais
+;754;Piretro, flores secas
+;755;Extrato de piretro
+;756;Pyrethrum Marc
+;826;Tabaco em bruto
+;828;Cigarros com Filtro
+;829;Charutos e cigarrilhas
+;831;Tabaco e produtos nes
+;836;Borracha natural
+;837;Borracha natural seco
+;839;Gomas naturais
+;1232;Salsa e coentros
+;1291;Goma arabica
+;1292;Outras uvas
+;1293;Matérias organicas brutas
+;1294;Sementes para semear
+;1296;Ceras vegetais
+;36;Oleo de farelo de arroz
+;60;Oleo de milho
+;237;Oleo de soja
+;244;Oleo de amendoim
+;252;Oleo de Coco
+;257;Oleo de palma
+;258;Oleo de palmiste
+;261;Azeite de oliveira virgem
+;264;Manteiga de karité
+;266;Oleo de ricino
+;268;Oleo de girassol
+;271;Oleo de colza
+;274;Oleo de residuos de azeitona
+;276;Oleo de tungue
+;278;Oleo de jojoba
+;281;Oleo Safflower
+;290;Oleo de gergelim
+;293;Oleo de mustarda
+;297;Oleo de papoila
+;306;Sebo vegetal
+;307;Oleo Stillingia
+;313;Oleo de sumauma
+;331;Oleo de algodao
+;334;Oleo de linho
+;337;Oleo de canhamo
+;340;Oleo vegetal
+;869;Gordura de bovino
+;871;Cattle Butch.Fat
+;949;Gordura de bufalo
+;979;Gordura de ovelhas
+;994;Lã em bruto e lanolina
+;1019;Gordura de caprino
+;1037;Gordura de porco
+;1040;Gordura de corte (carne de porco)
+;1043;Banha de porco
+;1065;Gordura de aves
+;1066;Gorduras fundidads de aves
+;1129;Grodura de cemalideos
+;1160;Gorduras de outros camelideos
+;1168;Oleos, gorduras animais
+;1221;Banha de oleo estearina
+;1222;Degras
+;1223;Oleo de peixes e de mamiferos marinhos
+;1225;Sebo
+;1241;Margarina liquida
+;1242;Margarina e compostos de gorduras alimentares
+;1243;Preparaçoes de gordura
+;1273;Oleo de ricino hidrogenado
+;1274;Oleos cozidos, desidratados, etc
+;1275;Oleo hidrogenado
+;1276;Acidos gordos
+;1295;Espermacete
+;26;Bebidas obtidas através da fermentação do trigo
+;39;Bebidas obidas através da fermentação do arroz
+;51;Cerveja de cevada
+;66;Cerveja de milho
+;82;Cerveja de milheto
+;86;Cerveja de sorgo
+;517;Cidra, etc
+;563;Mosto de uvas
+;564;Vinho
+;565;Vermutes, etc
+;631;Agua, gelo
+;632;Alcool nao alimentar
+;633;Bebidas não alcoolica
+;634;Bebidas destiladas alcoolica
+;866;Bovino
+;946;Bufalos
+;976;Ovelhas
+;1016;Cabrito
+;1034;Suínos
+;1057;Galinhas
+;1068;Patos
+;1072;Gansos e galinha da guinea
+;1079;Peru
+;1083;Pombos e outras aves
+;1096;Cavalos
+;1107;Burros
+;1110;Mulas
+;1126;Camelos
+;1140;Coelhos e lebre
+;1150;Outros roedores
+;1157;Outros camelideos
+;1169;Live Animals Non Food
+;1171;Animais vivos nes
+;1181;Colmeia
+;867;Carne de bovino
+;868;Miudezas comestiveis de bovino
+;870;Carne desossada de Bovino ( boi e vitela)
+;872;Carne de vaca, seca, salteiada e fumada
+;873;Extratos de carne
+;874;Salsichas de vaca e de vitelo
+;875;Preparação de vitelo e de vaca
+;877;Preparação de cane homogeneizada
+;878;Preparaçoes de figado
+;947;Carne de bufalo
+;948;Miudezas de bufalo comestiveis
+;977;Carne de ovelha
+;978;Miudezas comestiveis de ovelha
+;1017;carne de Cabrito
+;1018;Miudezas comestiveis de caprino
+;1035;Carne de suinos
+;1036;Miudezas comestives de porco
+;1038;Carne de porco
+;1039;Bacon e fiambre
+;1041;Salsichas de proc
+;1042;Preparação de carne de porco
+;1058;Carne de galinha ( frango)
+;1059;Miudeza de fígado de frango
+;1060;Foie gras
+;1061;Carne de frango em caixa
+;1069;Carne de pato
+;1073;Carne de ganso e de galinha da guinea
+;1074;Miudezas de figado de ganso
+;1075;Miudeza de figado de pato
+;1080;Carne de peru
+;1081;Miudeza de figado de peru
+;1089;Carne de aves , nes
+;1097;Carne de cavalo
+;1098;Miudezas decavalo
+;1108;Miudezas de burro
+;1111;Miudezas de mula
+;1127;Miudezas de camelo
+;1128;Miudezas costiveis de camelo
+;1141;Carne de coelho
+;1151;Carne de outros roedores
+;1158;Carne de outros camelideos
+;1163;Carne de caça
+;1164;Carne seca
+;1166;Carne nes
+;1167;Mieudezas nes
+;1172;Carnes preparadas
+;1176;Caracois nao marinhos
+;882;Leite de vaca inteiro e fresco
+;883;Leite standartisado
+;885;Crème fresca
+;886;Manteiga de leite fresco
+;887;Ghee, de leite de vaca
+;888;Leite desnatado de vaca
+;889;Leite inteiro condesado
+;890;Soro de leite condensado
+;891;Iogurte
+;892;Iogurte concentrado ou não
+;893;Leitelho, leite coalhado, leite azedo
+;894;Leite inteiro condensado não açucarado
+;895;Leite desnatado condensado nao açucarado
+;896;Leite desnatado condensado açucarado
+;897;Leite inteiro seco
+;898;Leite de vaca desnatado em po
+;899;Soro de leite coalhado em po
+;900;Soro de leite seco
+;901;Queijo de leite de vaca inteiro
+;903;Soro fresco
+;904;Queijo de leite de vaca desnatado
+;905;Soro de Queijo
+;907;Feijo fundido
+;908;Leite reconstituido
+;909;Produtos derivados de elementos naturais do leite
+;910;Sorvete  Comestiveis
+;916;Ovalbumina
+;917;Caseina
+;951;Leite de bufalo inteiro e fresco
+;952;Manteiga de leite de bufalo
+;953;Ghee de leite de bufalo
+;954;Leite desnatado de bufalo
+;955;Queije de leite de bufalo
+;982;Leite de ovelha inteiro fresco
+;983;Manteiga e ghee de ovelha
+;984;Queijo de manteiga de ovelha
+;985;Leite desnatado de ovelha
+;1020;Leite inteiro de cabra fresco
+;1021;Queijo de leite de cabra
+;1022;Manteiga de elite de cabra
+;1023;Leite desnatado de cabra
+;1062;Ovos de galinhas com casca
+;1063;Ovos liquidos
+;1064;Ovos em po
+;1067;Ovos de galinhas com casca (número)
+;1091;Outros ovos de aves com casca
+;1092;Outros ovos de aves com casca ( número)
+;1130;Leite de camela inteiro fresco
+;1183;Cera de abelhas
+;919;Couro de gado fresco
+;920;Couro de gado Húmido e salgado
+;921;Couro de gado seco
+;922;Couro de bovinos
+;927;Pele fresca de vitelo
+;928;Pele  de vitelo humido salgado
+;929;Pele de vitelo seco salgado
+;930;Pele de vitelo
+;957;Pele fresca de bufalo
+;958;Pele de bufalo salgado e humido
+;959;Pele de bufalo seco e salgado
+;995;Pele fresca de ovelha
+;996;Pele de ovelha humidae salgada
+;997;Pele seca e salgada de ovelha
+;998;Pele de ovelha
+;999;Skins With Wool Sheep
+;1002;Karakul Skins
+;1025;Pele fresca de cabrito
+;1026;Pele de cabrito humida e salgada
+;1027;Pele seca e salgada de cabrito
+;1028;Pele de cabrito
+;1044;Pele fresca de porco
+;1045;Pele de porco humida e salgada
+;1046;Pele seca e salgada de porco
+;1047;Pele de porco
+;1102;Pele de cavalo fresca
+;1103;Pele de cavalo humida e salgada
+;1104;Pele de cavalo seca e salgada
+;1105;Pele de cavalo
+;1109;Pele fresca ce burro
+;1112;Pele fresca de mula
+;1133;Pele fresca de camelo
+;1134;Pele de camelo humida e fresca
+;1135;Pele de camelo seca salgada
+;1136;Pele de camelo
+;1146;Pele de coelho
+;1195;Pele Furs
+;1213;Peles frescas
+;1214;Peles humidas salgadas
+;1215;Peles secas salgadas
+;1216;Peles
+;1217;Couros usados e dejectos
+;1277;Residuos e substancias graxos

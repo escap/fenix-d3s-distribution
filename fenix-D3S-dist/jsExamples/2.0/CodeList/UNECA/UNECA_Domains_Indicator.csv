@@ -1,0 +1,452 @@
+﻿{
+    "uid": "UNECA_Domains_Indicator",
+	"version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "UNECA - Domains and Indicators"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "UNECA"
+            },
+            "organizationUnit": null,
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": null,
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["domains","topic","indicator"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": null
+                        }
+                    ],
+                    "idCodeList": null,
+                    "version": null
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 3,
+            "typeOfCodeList": "tree"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+
+@1@Demographic and social statistics 
+1@11@Population
+1@13@Labour  
+1@14@Education  
+1@15@Health  
+11@P003@Mid year Population count
+11@P002@Slum population as percentage of urban
+11@P001@Population count
+11@P004@Old age dependency ratio (ratio of population aged 70+ per 100 population 25-69)
+11@V001@Mean age at first marriage
+11@V002@Crude birth rate
+11@V003@Total fertility rate
+11@V004@Average annual population growth rate
+11@V2223@Net reproduction rate
+11@V2621@Crude death rate
+11@V2622@Infant Mortality Rate
+11@V311@Life expectancy at birth (years)
+13@L001@Economically Active Population count
+13@L22@Crude activity rate
+13@L220@Unemployment rate
+13@L221@Female unemployment as % of female labor force
+13@L222@Male unemployment as % of male labor force
+13@L001@Employment as % of total population
+14@E002@Dropout ratio
+14@E001@Teaching staff count
+14@E003@Completion rate
+14@E004@Student enrollment count
+14@E005@Pupil to teacher ratio
+14@E61@Ability to read and write (count)
+14@E006@Stunting
+14@E65@Adult illiteracy rate count
+14@E007@Gross enrollment ratio
+14@E99@Public expenditure on education (of Budget) %?
+14@E008@Net enrolment ratio
+14@MDG2.2.1@Proportion of pupils starting grade in primary education and reaching the last grade of primary
+14@E009@Literacy rate
+14@E010@Women to men parity index, as ratio of literacy rate
+14@E011@Ratio of girls to boys
+14@MDG6.4.2@Ratio of school attendance rate of orphans to school attendance rate of non orphans
+15@H001@Number of professionals
+15@H002@Number of non-professionals
+15@H003@Number of health facilities
+15@H5111@Measles immunization coverage
+15@H512@Healthy life expectancy (HALE) (years)
+15@H5121@HIV prevalence in adults (% of total popoulation?)
+15@H5122@New HIV infection (count)
+15@H004@mortality (count)
+15@H005@immunization coverage (%?)
+15@H515@Stunting prevalence children aged < 5
+15@H5151@Antenatal care coverage
+15@H516@Contraceptive prevalence rate
+15@H5161@HepB3 immunization coverage
+15@H517@Condom use among young people
+15@H5171@Radiographers
+15@H518@Child underweight prevalence
+15@H520@Births attended by skilled health personnel
+15@H521@Medical assistants
+15@H522@Adult obesity prevalence
+15@H523@Adult mortality
+15@H525@Per capita total expenditure on health at int'l dollar rate
+15@H526@General government expenditure on health
+15@H531@Access to safe drinking water
+15@H541@Sanitation access coverage
+15@H6@Time spent out of work
+15@H81@Expenditure on health as % of GDP
+15@H8112@Per capita total expenditure on health at average exchange rate
+15@H88@Public Expenditure on health (of budget)
+15@MDG4.1@Under five mortality rate
+15@MDG4.2@Infant mortality rate (0-1 year) per 1,000 live births
+15@MDG4.3@Children 1 year old immunized against measles
+15@MDG5.1@Maternal mortality ratio
+15@MDG5.2@Births attended by skilled health personnel
+15@MDG5.3@Contraceptive use among currently married women 15-49 years old
+15@MDG5.4@Adolescent birth rate
+15@MDG6.1.1@HIV prevalence among population aged 15-24 years old
+15@MDG6.1.2@HIV prevalence among population aged 15-49 years old
+15@MDG6.2@Condom use at last high-risk sex, 15-24 years old
+15@MDG6.2.1@Proportion of population with advanced HIV infection with access to antiretroviral drugs
+15@MDG6.2.2@Condom use to overall contraceptive use among currently married women 15-49 years old
+15@MDG6.3.1@Men 15-24 years old with comprehensive correct knowledge of HIV/AIDS
+15@MDG6.3.2@Women 15-24 years old with comprehensive correct knowledge of HIV/AIDS
+15@MDG6.6@Death rate associated with malaria per 100,000 population
+15@MDG6.7@Children under 5 sleeping under insecticide-treated bed nets
+15@MDG6.8@Children under 5 with fever being treated with anti-malarial drugs
+15@MDG6.9.1@Tuberculosis prevalence rate per 100,000 population
+15@MDG6.9.3@Tuberculosis incidence rate per year per 100,000 population
+15@MDG6.9.4@Tuberculosis detection rate under DOTS
+15@MDG6.9.5@Tuberculosis treatment success rate under DOTS
+15@MDG7.8@Proportion of population using improved drinking water source
+15@MDG7.9@Proportion of the population using improved sanitation facilities
+@2@Economic statistics 
+2@21@Macroeconomic statistics 
+2@25@Energy   
+2@26@Mining
+2@27@Manufacturing
+2@28@Transport  
+2@29@Tourism  
+2@213@International trade 
+21@EDF001@Total external debt
+21@EDF002@Private
+21@EDF003@Public
+21@EDF004@Total external  debt service
+21@EDF005@Net official development assistance
+21@EDF006@Foreign Direct Investment Inflows
+21@MS001@Money supply (M1)
+21@MS002@Quasi-money
+21@MS003@of which Demand Deposit
+21@MS004@Net foreign assets
+21@MS005@Domestic credit
+21@MS006@of which claims on private sector
+21@MS007@of which Claims on government sector, net
+21@MS008@Deposit rate (%)
+21@MS009@Discount rate (%)
+21@MS010@International reserves
+21@MS011@Currency outside banks
+21@MS012@Total international liquidity
+21@MS013@Broad Money Supply (M2)
+21@MS014@Income Velocity of Money
+21@NA0001@Expenditure on GDP at current purchasers' value
+21@NA0002@GDP at current market prices
+21@NA0003@Expenditure on GDP at constant purchasers values
+21@NA0004@Real GDP Growth rate
+21@NA0005@Structure of Output at Current Market Price
+21@NA0006@Structure of Demand at Current Market Price - Household final consumption
+21@NA0007@Structure of Demand at Current Market Price - General Government Final Consumption Expenditure
+21@NA0008@Structure of Demand at Current Market Price - Gross Capital Formation
+21@NA0050@GDP per unit of energy use (constant 2005 PPP $ per kg of oil equivalent)
+21@NER@Nominal Exchange Rate
+21@PF0000191@Of which Use of IMF credit 
+21@PF0000192@Long term                                 
+21@PF0000193@Of which Public and publicly guaranteed 
+21@PF00016@Short term                                   
+21@PF00018@Total debt service           
+21@PF001@Total Revenues and Grants
+21@PF0011@Total revenues
+21@PF002@Tax Revenue
+21@PF003@Non Tax Revenue
+21@PF004@Grants
+21@PF005@Total Expenditures and Net Lending
+21@PF0051@Total expenditure
+21@PF006@Current expenditure
+21@PF007@Of which Wages and Salaries
+21@PF008@Capital expenditure
+21@PF009@Net Lending
+21@PF010@Overall deficit (-) / Surplus (+)
+21@PF273@Exchange rate, end of period (per USD)
+21@PF274@Exchange rate, period average
+21@X@CPI
+25@CPC-17100-0@Electrical energy
+25@CPC-17200-1@Coke-oven gas
+25@CPC-17200-2@Gasworks gas
+25@EC133@Electricity - total net installed capacity of electric power plants, public and self-producer
+25@EC1331@Electricity - total net installed capacity of electric power plants, nuclear
+25@EC13311@Electricity - net installed capacity of electric power plants, public nuclear
+25@EC1332@Electricity - total net installed capacity of electric power plants, hydro
+25@EC13321@Electricity - net installed capacity of electric power plants, public hydro
+25@EC13322@Electricity - net installed capacity of electric power plants, self-producer hydro
+25@EC1333@Electricity - total net installed capacity of electric power plants, geothermal
+25@EC13331@Electricity - net installed capacity of electric power plants, public geothermal
+25@EC13332@Electricity - net install capacity of electric power plants, self-producer geothermal
+25@EC1334@Electricity - total net installed capacity of electric power plants, thermal
+25@EC13341@Electricity - net installed capacity of electric power plants, public thermal
+25@EC13342@Electricity - net installed capacity of electric power plants - self-producer thermal
+25@EC1335@Electricity - total net installed capacity of electric power plants, wind
+25@EC13351@Electricity - net installed capacity of electric power plants, public wind
+25@EC13352@Electricity - net installed capacity of electric power plants, self-producer wind
+25@EC1336@Electricity - total installed capacity of electric power plants, solar
+25@EC13361@Electricity - net installed capacity of electric power plants, public solar
+25@EC13362@Electricity - net installed capacity of electric power plants, self-producer solar
+25@ECCP@Electricity - total net installed capacity of electric power plants, public
+25@ECCS@Electricity - total net installed capacity of electric power plants, self-producer
+25@EG01@Electricity - total geothermal production
+25@EG015@Electricity - geothermal production, public
+25@EG016@Electricity - geothermal production, self-producer
+25@EH01@Electricity - total hydro production
+25@EH015@Electricity - hydro production, public
+25@EH016@Electricity - hydro production, self-producer
+25@EI1@Energy imports, net (% of energy use)
+25@EL01@Electricity - gross production, public and self-producer
+25@EL03@Electricity - Imports
+25@EL04@Electricity - Exports
+25@EL05@Electricity - Consumption
+25@EL051@Road sector energy consumption (% of total energy consumption)
+25@EL0511@Road sector energy consumption (kt of oil equivalent)
+25@EL0512@Road sector energy consumption per capita (kt of oil equivalent)
+25@EL06@Population with Access to Electricity
+25@ELEP@Electricity - total production, public
+25@ELSP@Electricity - total production, self-producer
+25@EN01@Electricity - total nuclear production
+25@EN015@Electricity - nuclear production, public
+25@ES01@Electricity - total solar production
+25@ES015@Electricity - solar production, public
+25@ES016@Electricity - solar production, self-producer
+25@ET01@Electricity - total thermal production
+25@ET015@Electricity - thermal production, public
+25@ET016@Electricity - thermal production, self-producer
+25@EW01@Electricity - total wind production
+25@EW015@Electricity - wind production, public
+25@EW016@Electricity - wind production, self-producer
+27@Ind-1001@Industrial production
+27@Ind-1002@Mining Production
+27@Ind-1003@Manufacturing production
+27@Ind-1004@Industrial production - Electricity; gas and steam index
+27@Ind-1005@Industrial production - Water and waste management index
+28@TC00002@Paved  Road (% of total)
+28@TC00005@Total length of railways
+28@TC00007@Passenger-km
+28@TC00008@Freight ton-km
+28@TC00009@passenger carried
+28@TC00010@Total Road Network
+28@TC00012@Gravel  Road (% of total)
+28@TC00013@Earth  Road (% of total)
+28@TC00014@Rail lines (% of total)
+28@TC00015@International flights per day
+28@TC00016@International Airports
+28@TRVEH@Motor vehicle
+29@T100002@Arrivals
+29@T100003@Average length of stay in country
+29@T100004@Bed-places in hotels and similar establishments
+29@T100005@Rooms in hotels and similar establishments
+29@T100006@Tourism expenditures
+29@T100007@Tourism receipts
+29@T100008@Visitors nights
+29@T100009@Annual occupancy rate
+213@NA0009@Structure of Demand at Current Market Price - Exports of Goods and Non-factor Services
+213@NA0010@Structure of Demand at Current Market Price - Imports of Goods and Non-factor Services
+213@Temp1@Allumine 
+213@Temp10@Toothpastes
+213@Temp11@Digital data processing systems, nes                                                      
+213@Temp12@Electric conductors, for a voltage >80V but not exceeding 1,000 V, nes                    
+213@Temp15@Gasoline Engine
+213@Temp16@Ferro-chromium containing by weight more than 4% of carbon                                
+213@Temp17@Ferrous waste and scrap, iron or steel, nes                                               
+213@Temp18@Rebars and laminates
+213@Temp19@Power Cables
+213@Temp2@Alumina
+213@Temp20@Fish fillets and other fish meat, minced or not, fresh or chilled                         
+213@Temp21@Floating docks and vessels which perform special functions                                
+213@Temp22@Floating or submersible drilling or production platforms                                  
+213@Temp23@Foliage,branch,etc w/o flowers/buds&grass for bouquet/orn purp exc fr                     
+213@Temp24@Food preparations nes
+213@Temp25@Goat or kid skin leather, nes                                                             
+213@Temp26@Goats, live                                                                               
+213@Temp27@Gold in oth semi-manufactd form n-monetary(inc gold platd w platinum)                     
+213@Temp28@Gold in unwrought forms non-monetary
+213@Temp29@Grain sorghum                                                                             
+213@Temp3@Autres biens de consommation
+213@Temp30@Grape wines nes,incl fort&grape must,unfermntd by add alc in ctnr               
+213@Temp31@Huile brute d'arachide
+213@Temp32@Knitted or crocheted fabrics, of manmade fibres, nes                                      
+213@Temp33@Machine et app Ã©lectrique
+213@Temp34@Machinery
+213@Temp35@Machinery and Equipment
+213@Temp36@Electrical Machinery
+213@Temp37@Machinery and app. Mechanical or electrical
+213@Temp38@Miscellaneous Machinery
+213@Temp39@Electrical machinery and apparatus
+213@Temp4@Autres machines et appareils
+213@Temp40@Maize (corn) nes                                                                          
+213@Temp41@Manufactured Goods
+213@Temp42@Transport equipment
+213@Temp43@Material (Subject) and plastic work
+213@Temp44@Methanol and Other Gases
+213@Temp45@Military weapons,other than revolvers,pistols & arms of headg No 93.07                    
+213@Temp46@Milk and cream powder unsweetened exceeding 1.5% fat                                      
+213@Temp47@Mixtures of odoriferous substances for the food or drink industries                       
+213@Temp48@Motorcycles with reciprocatg piston engine displacg > 50 cc to 250 cc                     
+213@Temp49@Cowpea
+213@Temp5@Bauxite
+213@Temp50@Other: articles of cobalt, nes
+213@Temp51@Outillage et matÃ©riels non Ã©lectriques
+213@Temp52@Paper, wallpaper base, in rolls or sheets, uncoated                                       
+213@Temp53@Parts of boring or sinking machinery, whether or not self-propelled                       
+213@Temp54@Parts of electrical apparatus for line telephone or line telegraphy
+213@Temp55@Parts of gas turbines nes                                                                 
+213@Temp56@Plain weave cotton fabric,>/=85%, >100 g/m2 to 200 g/m2, printed                          
+213@Temp58@Pneumatic tires new of rubber for buses or lorries                                        
+213@Temp59@Polyethylene having a specific gravity of 0.94 or more                                    
+213@Temp6@Capital goods
+213@Temp60@Foodstuffs
+213@Temp62@Produits de consommation non alimentaires
+213@Temp63@Minerals Products
+213@Temp64@Road vehicles
+213@Temp65@Row Material for Alumina
+213@Temp66@Rutile
+213@Temp67@Soya-bean oil and its fractions, refined but not chemically modified                      
+213@Temp68@Special purpose motor vehicles nes                                                        
+213@Temp69@Static converters, nes                                                                    
+213@Temp7@Intermediate goods
+213@Temp70@Structures&parts of structures,i/s (ex prefab bldgs of headg no.9406)                     
+213@Temp71@Ylang-Ylang
+213@Temp8@Nails giroffe
+213@Temp9@Coltan
+213@TFA@Food and Animal
+213@TMER@Merchandise trade
+213@X004@Imported goods
+213@XBAL@Balance
+213@XEXP@Exports
+213@XIMP@Imports
+@3@Environment and multi-Domain statistics 
+3@31@Environment  
+3@33@Living conditions, poverty and cross-cutting social issues 
+3@35@Information society 
+31@MDG7.1@Land area covered by forest
+31@MDG7.2.1@CO2 emissions per capita
+31@MDG7.2.2@Energy use (Kg oil equivalent) per $1,000 (PPP) GDP
+31@MDG7.2.3@Carbon dioxide emissions (CO2) per $1 GDP (PPP) (CDIAC)
+31@MDG7.3@Consumption of ozone-depleting CFCs in ODP
+31@MDG7.6@Proportion of terrestrial and marine areas protected
+33@MDG1.1@Population below $1 (PPP) per day consumption
+33@MDG1.2@Poverty gap ratio
+33@MDG1.3@Poorest quintile's share in national income or consumption
+33@MDG1.4@Growth rate of GDP per person employed, percentage
+33@MDG1.8@Children under 5 moderately or severely underweight
+33@MDG1.9@Population undernourished
+33@MDG8.10@Total number of countries that have reached their HIPC decision points and number that have reached their HIPC completion points (cumulative)
+33@MDG8.11@Debt relief committed under HIPC initiative, cumulative million US$
+33@MDG8.12@Debt service as percentage of exports of goods and services and net income from abroad
+33@MDG8.4@ODA received in landlocked developing countries as percentage of their GNI
+33@MDG8.5@ODA received in small islands developing States as percentage of their GNI
+33@MDGGINI@GINI Index
+35@IS00001@Fixed telephone lines (per 100 inhabitants)
+35@IS00002@Mobile telephone subscribers (per 100 inhabitants)
+35@IS00003@Internet Subscribers per 100 inhabitants
+35@IS00004@Population covered by a mobile cellular telephone network (%)
+35@IS00005@Fixed broadband Internet access tariffs (per month, in US$)
+35@IS00006@Mobile cellular prepaid tariffs (in US$)
+35@IS00007@ICT goods imports (% of total imports)
+35@IS00008@ICT goods exports (% of total exports)
+35@IS00019@Radio receivers
+35@IS00020@TV receivers
+35@IS00021@Telephones in use
+35@MDG8.14@Telephone lines  per 100 population
+35@MDG8.16.1@Internet users per 100 population
+35@MDG8.16.2@Personal computers per 100 population

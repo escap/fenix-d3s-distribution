@@ -1,0 +1,23 @@
+{
+  "uid" : "CSTAT_PopulationKenya_GeoDistribution_1999",
+  "version" : null,
+
+  "meContent" : {
+    "seCoverage" : {
+      "coverageGeographic" : {
+        "idCodeList" : "GAUL0", "version" : "2014",
+        "codes" : [ {"code":"8"}, {"code":"133"}, {"code":"257"}, {"code":"94"}, {"code":"45"}, {"code":"152"} ]
+      },
+      "coverageSectors" : {
+        "idCodeList" : "CSTAT_Core", "version" : null,
+        "codes" : [ {"code":"POP"}]
+      }
+    },
+    "seReferencePopulation" : {
+      "referenceArea" : {
+        "idCodeList" : "GAUL_ReferenceArea", "version" : "1.0",
+        "codes" : [ {"code":"ADM0"}]
+      }
+    }
+  }
+}

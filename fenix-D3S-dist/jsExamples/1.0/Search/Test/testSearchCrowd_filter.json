@@ -1,0 +1,18 @@
+{"filter": {
+    "types": ["dataset"],
+    "metadata": {
+        "uid": [
+            {
+                "enumeration": "233SPD035"
+            }
+        ]
+    }
+}, "business": [
+    {
+        "properties": {
+            "metadata": true,
+            "distinct": true,
+            "label": true
+        }
+    }
+]}

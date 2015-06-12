@@ -1,0 +1,168 @@
+{"uid": "testSearch1", "language": "EN", "creationDate": 1377561600000, "dataType": "dataset", "sources": [{"id":"10_5"}], "owner": null, "provider": {"id":"10_0"}, "contacts": null,
+    "title": {
+    "EN": "Production quantity of Primary Crops"
+}, "summary": null, "supplemental": {
+    "EN": ""
+}, "geographicExtent": {
+    "systemKey": "GAUL",
+    "systemVersion": "1.0",
+    "code": "133"
+}, "updateDate": 1377561600000, "nextUpdateDate": 1377561600000, "coverageSectors": [
+    {
+        "systemKey": "FAOSTAT_CoveregeSectors",
+        "systemVersion": "1.0",
+        "code": "3"
+    }
+], "updatePeriodicity": {
+    "systemKey": "FAOSTAT_Periodicity",
+    "systemVersion": "1.0",
+    "code": "10"
+}, "aggregationProcessing": {"EN": "\u003cSPAN style=\"FONT-SIZE: 12pt; FONT-FAMILY: \u0027Book Antiqua\u0027,\u0027serif\u0027; mso-fareast-font-family: \u0027Times New Roman\u0027; mso-bidi-font-family: Tahoma; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA\"\u003e \u003cP class=MsoNormal style=\"MARGIN: 0cm 0cm 0pt\"\u003e\u003cFONT face=\"Times New Roman\"\u003ePublished data on crops comes from \u003cSPAN lang=EN-US style=\"mso-ansi-language: EN-US\"\u003ethe Annual publication known as the Economic Review [ERA], the Kenya Bureau of Statistics Publications, Economic surveys and the Statistical abstracts. \u003c/SPAN\u003e\u003c?xml:namespace prefix = o ns = \"urn:schemas-microsoft-com:office:office\" /\u003e\u003co:p\u003e\u003c/o:p\u003e\u003c/FONT\u003e\u003c/P\u003e \u003cP class=MsoNormal style=\"MARGIN: 0cm 0cm 0pt\"\u003e\u003cSPAN lang=EN-US style=\"mso-ansi-language: EN-US\"\u003e\u003co:p\u003e\u003cFONT face=\"Times New Roman\"\u003e \u003c/FONT\u003e\u003c/o:p\u003e\u003c/SPAN\u003e\u003c/P\u003e \u003cP class=MsoNormal style=\"MARGIN: 0cm 0cm 0pt\"\u003e\u003cFONT face=\"Times New Roman\"\u003e\u003cSPAN lang=EN-US style=\"mso-ansi-language: EN-US\"\u003eThe boards under the ministry of agriculture also provide specific data on production.\u003c/SPAN\u003e\u003co:p\u003e\u003c/o:p\u003e\u003c/FONT\u003e\u003c/P\u003e \u003cP class=MsoNormal style=\"MARGIN: 0cm 0cm 0pt\"\u003e\u003cFONT face=\"Times New Roman\"\u003eData is collected (estimated from the planted area) by Frontline Extension Officers at the sub-location level and transmitted upwards ending up at the Department of Lands and Crop Development in the Ministry’s Head Office where they are aggregated to give national totals. \u003co:p\u003e\u003c/o:p\u003e\u003c/FONT\u003e\u003c/P\u003e \u003cP class=MsoNormal style=\"MARGIN: 0cm 0cm 0pt\"\u003e\u003co:p\u003e\u003cFONT face=\"Times New Roman\"\u003e \u003c/FONT\u003e\u003c/o:p\u003e\u003c/P\u003e \u003cP class=MsoNormal style=\"MARGIN: 0cm 0cm 0pt\"\u003e\u003cFONT face=\"Times New Roman\"\u003eThe \u003cSPAN class=A7\u003e\u003cSPAN style=\"FONT-SIZE: 13pt; FONT-FAMILY: \u0027Times New Roman\u0027; mso-bidi-font-family: Baskerville\"\u003e5\u003c/SPAN\u003e\u003c/SPAN\u003e\u003cSUP\u003e\u003cSPAN style=\"FONT-SIZE: 7.5pt; COLOR: black; POSITION: relative; TOP: -4.5pt; mso-text-raise: 4.5pt\"\u003eth \u003c/SPAN\u003e\u003c/SUP\u003e\u003cSPAN class=A7\u003e\u003cSPAN style=\"FONT-SIZE: 13pt; FONT-FAMILY: \u0027Times New Roman\u0027; mso-bidi-font-family: Baskerville\"\u003eEdition of \u003c/SPAN\u003e\u003c/SPAN\u003epublication is available on\u003cSPAN style=\"mso-spacerun: yes\"\u003e  \u003c/SPAN\u003e\u003cSPAN style=\"mso-spacerun: yes\"\u003e \u003c/SPAN\u003e\"\u003c/FONT\u003e\u003cA href=\"/country/ken/documents/docs/economic review of agriculture 2010_cover.pdf\" temp_href=\"/country/ken/documents/docs/economic review of agriculture 2010_cover.pdf\"\u003e\u003cFONT face=\"Times New Roman\" color=#800080\u003eThe Economic Review of Agriculture (ERA)\u003c/FONT\u003e\u003c/A\u003e\u003co:p\u003e\u003c/o:p\u003e\u003c/P\u003e \u003cP class=MsoNormal style=\"MARGIN: 0cm 0cm 0pt\"\u003e\u003cFONT face=\"Times New Roman\"\u003e \u003co:p\u003e\u003c/o:p\u003e\u003c/FONT\u003e\u003c/P\u003e \u003cP class=MsoNormal style=\"MARGIN: 0cm 0cm 0pt\"\u003e\u003c/SPAN\u003e\u003cSUP\u003e\u003cFONT face=Calibri,Calibri size=4\u003e\u003cFONT face=Calibri,Calibri size=4\u003e\u003cEM\u003e\u003c/EM\u003e\u003c/P\u003e\u003c/SUP\u003e\u003c/FONT\u003e\u003c/FONT\u003e"},
+    "processMethodologyDocuments": null, "disseminationFormat": null, "publications": null, "collectionPeriodicity": {
+    "systemKey": "FAOSTAT_Periodicity",
+    "systemVersion": "1.0",
+    "code": "10"
+}, "sourceType": {
+    "EN": "Mercuriales\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003eLa collecte (enquête) des données se fait par des enquêteurs rigoureusement formés à la méthodologie de collecte du SIM/SONAGESS. Les 48 enquêteurs sont sous la supervision de 11 Contrôleurs répartis dans 11 centres de contrôle et par l\u0027équipe centrale basée à Ouagadougou à la SONAGESS.\u003cdiv\u003eLe contrôle de qualité des données se fait au niveau des enquêteurs par le visas d\u0027un agent d\u0027agriculture, au niveau des contrôleurs qui reçoivent les fiches d\u0027enquêtes et au niveau de l\u0027équipe centrale à l\u0027aide de \"AgriLog\".   \u003c/div\u003e\u003cbr\u003eBulletins Hebdomadaires d\u0027Information sur les prix des céréales , Bulletins Trimestriels d\u0027Informations sur les prix des céréales, Annuaire Statistique\u003cbr/\u003e\u003cbr/\u003eRecensement National de l’Agriculture 2001\u003cbr\u003e\u003cbr\u003e&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;SPAN lang=FR&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;Dans le cadre du projet &lt;/SPAN&gt;&lt;?xml:namespace prefix = st1 ns = &quot;urn:schemas-microsoft-com:office:smarttags&quot; /&gt;&lt;st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;TCP&lt;/SPAN&gt;&lt;/st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;/&lt;/SPAN&gt;&lt;st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;IVC&lt;/SPAN&gt;&lt;/st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;/3101, une mission de la FAO d’appui technique &#224; l’&#233;laboration des comptes de produits disponibilit&#233;s/emplois et bilans alimentaires et r&#233;conciliation des donn&#233;es de base de la DSDI a s&#233;journ&#233; &#224; Abidjan (C&#244;te d’Ivoire) du 30 janvier au 08 f&#233;vrier 2008. Celle-ci r&#233;pondait &#224; la requ&#234;te adress&#233;e &#224; la FAO par le gouvernement de la C&#244;te d’Ivoire , qui souhaitait b&#233;n&#233;ficier de son expertise afin de mettre en place un syst&#232;me d’&#233;laboration de comptes de produits et de bilans alimentaires et de r&#233;concilier les r&#233;sultats du Recensement National de l’Agriculture (RNA-2001) avec les statistiques courantes.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;SPAN lang=FR&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; /&gt;&lt;o:p&gt;&#160;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;Dans un pays agricole comme la C&#244;te d’Ivoire, les statistiques agricoles repr&#233;sentent en effet des informations importantes pour l’orientation de sa politique de d&#233;veloppement. La demande de statistiques agricoles reste tr&#232;s forte &#224; cause de l’importance que tient l’agriculture dans l’&#233;conomie du pays. Cependant, l’existence de plusieurs sources de donn&#233;es contradictoires affecte s&#233;rieusement le calcul de nombreux indicateurs macro &#233;conomiques. D’o&#249; la n&#233;cessit&#233; de cette mission en vue d’harmoniser les donn&#233;es existantes.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;Le rapport de la r&#233;conciliation est ci-dessous:&lt;/SPAN&gt;&lt;/P&gt; &lt;UL&gt; &lt;LI&gt; &lt;DIV class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;o:p&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;A href=&quot;http://www.countrystat.org/country/civ/documents/docs/reconciliation_statistique_1974_2007.doc &quot; temp_href=&quot;http://www.countrystat.org/country/civ/documents/docs/reconciliation_statistique_1974_2007.doc &quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;RAPPORT &lt;/SPAN&gt;&lt;st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;SUR&lt;/SPAN&gt;&lt;/st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt; LA RECONCILIATION &lt;/SPAN&gt;&lt;st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;DES&lt;/SPAN&gt;&lt;/st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt; RESULTATS DU RNA 2001 AVEC LES STATISTIQUES COURANTES&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/A&gt;&lt;/P&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/DIV&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;/SPAN&gt;&#160;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;STRONG&gt;Recensement National de l’Agriculture 2001&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;/SPAN&gt;&#160;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;Le Sch&#233;ma Directeur Op&#233;rationnel des Statistiques Agricoles (SDOSA) &#233;labor&#233; en 1997 &#224; la suite de l’adoption du Sch&#233;ma Directeur de la Statistique (&lt;/SPAN&gt;&lt;st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;SDS&lt;/SPAN&gt;&lt;/st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;) avec l’appui technique des partenaires au d&#233;veloppement a propos&#233; une strat&#233;gie en quatre axes pour la relance et le d&#233;veloppement des statistiques agricoles sur la p&#233;riode 1997 – 2002. A savoir :&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt 18pt; TEXT-INDENT: -9pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;1. am&#233;liorer l’existant &#224; court et moyen termes ;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt 18pt; TEXT-INDENT: -9pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;2. renforcer &#224; court et moyen termes les capacit&#233;s techniques et op&#233;rationnelles de la Direction des Statistiques, de la Documentation et de l’Informatique (DSDI) et l’int&#233;grer au sein de l’Appareil Statistique National (&lt;/SPAN&gt;&lt;st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;ASN&lt;/SPAN&gt;&lt;/st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;);&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt 18pt; TEXT-INDENT: -9pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;3. d&#233;centraliser progressivement le syst&#232;me de statistiques agricoles ;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt 18pt; TEXT-INDENT: -9pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;4. r&#233;aliser un recensement national de l’agriculture et mettre en place un Syst&#232;me&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;Permanent de Statistiques Agricoles (SYSPER).&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;La r&#233;alisation du quatri&#232;me volet du SDOSA s’est traduite par la mise en place du Projet de Recensement National de l’Agriculture dont la phase pr&#233;paratoire r&#233;alis&#233;e sur financement et avec l’appui technique de la FAO, de la Banque Mondiale, de l’Union Europ&#233;enne et de la R&#233;publique de C&#244;te d’Ivoire a consist&#233; au renforcement des capacit&#233;s techniques et op&#233;rationnelles de la DSDI, &#224; la d&#233;finition de la m&#233;thodologie et &#224; l’&#233;laboration desdocuments de base du Recensement National de l’Agriculture (RNA) 2001. &lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;La fr&#233;quence de collecte des donn&#233;es est d&#233;cennale.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;Le rapport&#160;du Recensement National de l’Agriculture 2001 est ci-dessous:&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;UL&gt; &lt;LI&gt; &lt;DIV class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;A href=&quot;http://www.countrystat.org/country/civ/documents/docs/recensement_national_agriculture_2001 .pdf &quot; temp_href=&quot;http://www.countrystat.org/country/civ/documents/docs/recensement_national_agriculture_2001 .pdf &quot;&gt;Recensement National de l’Agriculture 2001&lt;/A&gt; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/DIV&gt;&lt;/LI&gt;&lt;/UL&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;/SPAN&gt;&#160;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&#160;&lt;/P&gt;\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e"
+}, "processConcepts": null, "processConceptsDocuments": [
+    {
+        "publicationDate": 1378228277771,
+        "id": null,
+        "title": {
+            "EN": "FAO concepts definitions"
+        },
+        "description": null,
+        "link": "http://www.countrystat.org/resources/metadata_en.pdf"
+    }
+], "unitOfMeasure": null, "unitOfMeasureDetails": {
+    "EN": "tonnes"
+}, "coverageGeographical": null, "embargoTimeSpec": {
+    "EN": "The frequency of the Production Quantity of Primary Crops is Annual.\r\n\r\nThe time LAG is three Months after the end of each Year."
+}, "categories": null, "availability": {
+    "status": "toUpload"
+},
+    "freeExtension": {
+    "accessLevel": "public",
+    "survey": {
+        "EN": {
+            "title": "Mercuriales",
+            "link": "",
+            "overview": "",
+            "design": "",
+            "conduct": "La collecte (enquête) des données se fait par des enquêteurs rigoureusement formés à la méthodologie de collecte du SIM/SONAGESS. Les 48 enquêteurs sont sous la supervision de 11 Contrôleurs répartis dans 11 centres de contrôle et par l\u0027équipe centrale basée à Ouagadougou à la SONAGESS.\u003cdiv\u003eLe contrôle de qualité des données se fait au niveau des enquêteurs par le visas d\u0027un agent d\u0027agriculture, au niveau des contrôleurs qui reçoivent les fiches d\u0027enquêtes et au niveau de l\u0027équipe centrale à l\u0027aide de \"AgriLog\".   \u003c/div\u003e",
+            "statisticalReport": "Bulletins Hebdomadaires d\u0027Information sur les prix des céréales , Bulletins Trimestriels d\u0027Informations sur les prix des céréales, Annuaire Statistique"
+        }
+    },
+    "census": {
+        "EN": {
+            "title": "Recensement National de l’Agriculture 2001",
+            "link": "",
+            "overview": "&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;SPAN lang=FR&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;Dans le cadre du projet &lt;/SPAN&gt;&lt;?xml:namespace prefix = st1 ns = &quot;urn:schemas-microsoft-com:office:smarttags&quot; /&gt;&lt;st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;TCP&lt;/SPAN&gt;&lt;/st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;/&lt;/SPAN&gt;&lt;st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;IVC&lt;/SPAN&gt;&lt;/st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;/3101, une mission de la FAO d’appui technique &#224; l’&#233;laboration des comptes de produits disponibilit&#233;s/emplois et bilans alimentaires et r&#233;conciliation des donn&#233;es de base de la DSDI a s&#233;journ&#233; &#224; Abidjan (C&#244;te d’Ivoire) du 30 janvier au 08 f&#233;vrier 2008. Celle-ci r&#233;pondait &#224; la requ&#234;te adress&#233;e &#224; la FAO par le gouvernement de la C&#244;te d’Ivoire , qui souhaitait b&#233;n&#233;ficier de son expertise afin de mettre en place un syst&#232;me d’&#233;laboration de comptes de produits et de bilans alimentaires et de r&#233;concilier les r&#233;sultats du Recensement National de l’Agriculture (RNA-2001) avec les statistiques courantes.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;SPAN lang=FR&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; /&gt;&lt;o:p&gt;&#160;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;Dans un pays agricole comme la C&#244;te d’Ivoire, les statistiques agricoles repr&#233;sentent en effet des informations importantes pour l’orientation de sa politique de d&#233;veloppement. La demande de statistiques agricoles reste tr&#232;s forte &#224; cause de l’importance que tient l’agriculture dans l’&#233;conomie du pays. Cependant, l’existence de plusieurs sources de donn&#233;es contradictoires affecte s&#233;rieusement le calcul de nombreux indicateurs macro &#233;conomiques. D’o&#249; la n&#233;cessit&#233; de cette mission en vue d’harmoniser les donn&#233;es existantes.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;Le rapport de la r&#233;conciliation est ci-dessous:&lt;/SPAN&gt;&lt;/P&gt; &lt;UL&gt; &lt;LI&gt; &lt;DIV class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;o:p&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;A href=&quot;http://www.countrystat.org/country/civ/documents/docs/reconciliation_statistique_1974_2007.doc &quot; temp_href=&quot;http://www.countrystat.org/country/civ/documents/docs/reconciliation_statistique_1974_2007.doc &quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;RAPPORT &lt;/SPAN&gt;&lt;st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;SUR&lt;/SPAN&gt;&lt;/st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt; LA RECONCILIATION &lt;/SPAN&gt;&lt;st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;DES&lt;/SPAN&gt;&lt;/st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt; RESULTATS DU RNA 2001 AVEC LES STATISTIQUES COURANTES&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/A&gt;&lt;/P&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/DIV&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;/SPAN&gt;&#160;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;STRONG&gt;Recensement National de l’Agriculture 2001&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;/SPAN&gt;&#160;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;Le Sch&#233;ma Directeur Op&#233;rationnel des Statistiques Agricoles (SDOSA) &#233;labor&#233; en 1997 &#224; la suite de l’adoption du Sch&#233;ma Directeur de la Statistique (&lt;/SPAN&gt;&lt;st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;SDS&lt;/SPAN&gt;&lt;/st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;) avec l’appui technique des partenaires au d&#233;veloppement a propos&#233; une strat&#233;gie en quatre axes pour la relance et le d&#233;veloppement des statistiques agricoles sur la p&#233;riode 1997 – 2002. A savoir :&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt 18pt; TEXT-INDENT: -9pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;1. am&#233;liorer l’existant &#224; court et moyen termes ;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt 18pt; TEXT-INDENT: -9pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;2. renforcer &#224; court et moyen termes les capacit&#233;s techniques et op&#233;rationnelles de la Direction des Statistiques, de la Documentation et de l’Informatique (DSDI) et l’int&#233;grer au sein de l’Appareil Statistique National (&lt;/SPAN&gt;&lt;st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;ASN&lt;/SPAN&gt;&lt;/st1:stockticker&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;);&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt 18pt; TEXT-INDENT: -9pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;3. d&#233;centraliser progressivement le syst&#232;me de statistiques agricoles ;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt 18pt; TEXT-INDENT: -9pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;4. r&#233;aliser un recensement national de l’agriculture et mettre en place un Syst&#232;me&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;Permanent de Statistiques Agricoles (SYSPER).&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;La r&#233;alisation du quatri&#232;me volet du SDOSA s’est traduite par la mise en place du Projet de Recensement National de l’Agriculture dont la phase pr&#233;paratoire r&#233;alis&#233;e sur financement et avec l’appui technique de la FAO, de la Banque Mondiale, de l’Union Europ&#233;enne et de la R&#233;publique de C&#244;te d’Ivoire a consist&#233; au renforcement des capacit&#233;s techniques et op&#233;rationnelles de la DSDI, &#224; la d&#233;finition de la m&#233;thodologie et &#224; l’&#233;laboration desdocuments de base du Recensement National de l’Agriculture (RNA) 2001. &lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;La fr&#233;quence de collecte des donn&#233;es est d&#233;cennale.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;Le rapport&#160;du Recensement National de l’Agriculture 2001 est ci-dessous:&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt; &lt;UL&gt; &lt;LI&gt; &lt;DIV class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;A href=&quot;http://www.countrystat.org/country/civ/documents/docs/recensement_national_agriculture_2001 .pdf &quot; temp_href=&quot;http://www.countrystat.org/country/civ/documents/docs/recensement_national_agriculture_2001 .pdf &quot;&gt;Recensement National de l’Agriculture 2001&lt;/A&gt; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/DIV&gt;&lt;/LI&gt;&lt;/UL&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;/SPAN&gt;&#160;&lt;/P&gt; &lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;&gt;&lt;SPAN lang=FR style=&quot;mso-ansi-language: FR&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&#160;&lt;/P&gt;",
+            "design": "",
+            "conduct": "",
+            "statisticalReport": ""
+        }
+    },
+    "adminRecords": [
+        {
+            "EN": {
+                "responsibleInstitution": "Ministry of Agriculture",
+                "descriptionOfInformation": "",
+                "dataSources": "",
+                "link": ""
+            }
+        }
+    ]
+},
+    "dsd": {
+        "contextSystem": {"name":"CountrySTAT"},
+        "supplemental": null,
+        "datasource": {
+            "dao": "cstat",
+            "reference": {
+                "psw": "admin",
+                "usr": "admin",
+                "url": "remote:localhost:2425/CountrySTAT_1.0"
+            }
+        },
+        "aggregationRules" : [
+            {
+                "implementation" : "operator.CSTATAdd",
+                "dimension" : {"name":"VALUE"}
+            },
+            {
+                "implementation" : "operator.CSTATFlagAdd",
+                "dimension" : {"name":"FLAG"}
+            }
+        ],
+
+        "columns": [
+            {
+                "columnId": "1",
+                "dataType": "year",
+                "dimension": {"name":"TIME"},
+                "title": {
+                    "EN": "Year"
+                },
+                "values": [2010, 2011, 2012]
+            },
+            {
+                "columnId": "2",
+                "dataType": "code",
+                "dimension": {"name":"ITEM"},
+                "title": {
+                    "EN": "Product"
+                },
+                "codeSystem": {
+                    "system": "Crops",
+                    "version": "1.0"
+                },
+                "codesLevel": 0,
+                "values": ["15", "27", "56", "83", "79", "108", "75", "176", "197", "195", "125", "122", "137", "136", "156", "249", "667", "656", "403", "406", "426", "358", "388", "372", "397", "417", "414", "401", "373", "430", "567", "486", "574", "572", "571", "490", "603", "497", "515", "521", "44", "116", "236", "242", "267", "328", "754", "789", "257", "289"]
+            },
+            {
+                "columnId": "3",
+                "dataType": "number",
+                "dimension": {"name":"VALUE"},
+                "title": { "EN": "Value" }
+            },
+            {
+                "columnId": "4",
+                "dataType": "code",
+                "dimension": {"name":"FLAG"},
+                "title": { "EN": "Flag" },
+                "codeSystem": {
+                    "system": "Elements",
+                    "version": "1.0"
+                },
+                "values": ["5", "10"]
+            },
+            {
+                "columnId": "5",
+                "dataType": "code",
+                "dimension": {"name":"GEO"},
+                "title": { "EN": "Country" },
+                "codeSystem": {
+                    "system": "GAUL",
+                    "version": "1.0"
+                },
+                "codesLevel": 0,
+                "values": ["133"],
+                "virtualColumn": "INTERNAL"
+            },
+            {
+                "columnId": "6",
+                "dataType": "code",
+                "dimension": {"name":"ITEM_TYPE"},
+                "title": { "EN": "Item type" },
+                "values": [{
+                    "systemKey": "FAOSTAT_CoveregeSectors",
+                    "systemVersion": "1.0",
+                    "code": "3"
+                }],
+                "virtualColumn": "INTERNAL"
+            }
+        ]
+
+    }
+}

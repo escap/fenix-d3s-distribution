@@ -1,0 +1,883 @@
+
+{
+    "uid": "ISIC",
+	"version": "Rev.4",
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "International Standard Industrial Classification of All Economic Activities"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "United Nations Statistics Division"
+            },
+            "organizationUnit": null,
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": "Director, Statistics Division, United Nations, New York, NY 10017, United States of America",
+                "emailAddress": "chl@un.org",
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["sector", "commodity"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": "06"
+                        }
+                    ],
+                    "idCodeList": "FENIX_Subjects",
+                    "version": "1.0"
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 4,
+            "typeOfCodeList": "tree"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+@A@Agriculture, forestry and fishing
+A@A01@Crop and animal production, hunting and related service activities
+A01@A011@Growing of non-perennial crops
+A011@A0111@Growing of cereals (except rice), leguminous crops and oil seeds
+A011@A0112@Growing of rice
+A011@A0113@Growing of vegetables and melons, roots and tubers
+A011@A0114@Growing of sugar cane
+A011@A0115@Growing of tobacco
+A011@A0116@Growing of fibre crops
+A011@A0119@Growing of other non-perennial crops
+A01@A012@Growing of perennial crops
+A012@A0121@Growing of grapes
+A012@A0122@Growing of tropical and subtropical fruits
+A012@A0123@Growing of citrus fruits
+A012@A0124@Growing of pome fruits and stone fruits
+A012@A0125@Growing of other tree and bush fruits and nuts
+A012@A0126@Growing of oleaginous fruits
+A012@A0127@Growing of beverage crops
+A012@A0128@Growing of spices, aromatic, drug and pharmaceutical crops
+A012@A0129@Growing of other perennial crops
+A01@A013@Plant propagation
+A013@A0130@Plant propagation
+A01@A014@Animal production
+A014@A0141@Raising of cattle and buffaloes
+A014@A0142@Raising of horses and other equines
+A014@A0143@Raising of camels and camelids
+A014@A0144@Raising of sheep and goats
+A014@A0145@Raising of swine/pigs
+A014@A0146@Raising of poultry
+A014@A0149@Raising of other animals
+A01@A015@Mixed farming
+A015@A0150@Mixed farming
+A01@A016@Support activities to agriculture and post-harvest crop activities
+A016@A0161@Support activities for crop production
+A016@A0162@Support activities for animal production
+A016@A0163@Post-harvest crop activities
+A016@A0164@Seed processing for propagation
+A01@A017@Hunting, trapping and related service activities
+A017@A0170@Hunting, trapping and related service activities
+A@A02@Forestry and logging
+A02@A021@Silviculture and other forestry activities
+A021@A0210@Silviculture and other forestry activities
+A02@A022@Logging
+A022@A0220@Logging
+A02@A023@Gathering of non-wood forest products
+A023@A0230@Gathering of non-wood forest products
+A02@A024@Support services to forestry
+A024@A0240@Support services to forestry
+A@A03@Fishing and aquaculture
+A03@A031@Fishing
+A031@A0311@Marine fishing
+A031@A0312@Freshwater fishing
+A03@A032@Aquaculture
+A032@A0321@Marine aquaculture
+A032@A0322@Freshwater aquaculture
+@B@Mining and quarrying
+B@B05@Mining of coal and lignite
+B@B051@Mining of hard coal
+B051@B0510@Mining of hard coal
+B05@B052@Mining of lignite
+B052@B0520@Mining of lignite
+B@B06@Extraction of crude petroleum and natural gas
+B06@B061@Extraction of crude petroleum
+B061@B0610@Extraction of crude petroleum
+B06@B062@Extraction of natural gas
+B062@B0620@Extraction of natural gas
+B@B07@Mining of metal ores
+B07@B071@Mining of iron ores
+B071@B0710@Mining of iron ores
+B07@B072@Mining of non-ferrous metal ores
+B072@B0721@Mining of uranium and thorium ores
+B072@B0729@Mining of other non-ferrous metal ores
+B@B08@Other mining and quarrying
+B08@B081@Quarrying of stone, sand and clay
+B081@B0810@Quarrying of stone, sand and clay
+B08@B089@Mining and quarrying n.e.c.
+B089@B0891@Mining of chemical and fertilizer minerals
+B089@B0892@Extraction of peat
+B089@B0893@Extraction of salt
+B089@B0899@Other mining and quarrying n.e.c.
+B@B09@Mining support service activities
+B09@B091@Support activities for petroleum and natural gas extraction
+B091@B0910@Support activities for petroleum and natural gas extraction
+B09@B099@Support activities for other mining and quarrying
+B099@B0990@Support activities for other mining and quarrying
+@C@Manufacturing
+C@C10@Manufacture of food products
+C10@C101@Processing and preserving of meat
+C101@C1010@Processing and preserving of meat
+C10@C102@Processing and preserving of fish, crustaceans and molluscs
+C102@C1020@Processing and preserving of fish, crustaceans and molluscs
+C10@C103@Processing and preserving of fruit and vegetables
+C103@C1030@Processing and preserving of fruit and vegetables
+C10@C104@Manufacture of vegetable and animal oils and fats
+C104@C1040@Manufacture of vegetable and animal oils and fats
+C10@C105@Manufacture of dairy products
+C105@C1050@Manufacture of dairy products
+C10@C106@Manufacture of grain mill products, starches and starch products
+C106@C1061@Manufacture of grain mill products
+C106@C1062@Manufacture of starches and starch products
+C10@C107@Manufacture of other food products
+C107@C1071@Manufacture of bakery products
+C107@C1072@Manufacture of sugar
+C107@C1073@Manufacture of cocoa, chocolate and sugar confectionery
+C107@C1074@Manufacture of macaroni, noodles, couscous and similar farinaceous products
+C107@C1075@Manufacture of prepared meals and dishes
+C107@C1079@Manufacture of other food products n.e.c.
+C10@C108@Manufacture of prepared animal feeds
+C108@C1080@Manufacture of prepared animal feeds
+C@C11@Manufacture of beverages
+C11@C110@Manufacture of beverages
+C110@C1101@Distilling, rectifying and blending of spirits
+C110@C1102@Manufacture of wines
+C110@C1103@Manufacture of malt liquors and malt
+C110@C1104@Manufacture of soft drinks; production of mineral waters and other bottled waters
+C@C12@Manufacture of tobacco products
+C12@C120@Manufacture of tobacco products
+C120@C1200@Manufacture of tobacco products
+C@C13@Manufacture of textiles
+C13@C131@Spinning, weaving and finishing of textiles
+C131@C1311@Preparation and spinning of textile fibres
+C131@C1312@Weaving of textiles
+C131@C1313@Finishing of textiles
+C13@C139@Manufacture of other textiles
+C139@C1391@Manufacture of knitted and crocheted fabrics
+C139@C1392@Manufacture of made-up textile articles, except apparel
+C139@C1393@Manufacture of carpets and rugs
+C139@C1394@Manufacture of cordage, rope, twine and netting
+C139@C1399@Manufacture of other textiles n.e.c.
+C@C14@Manufacture of wearing apparel
+C14@C141@Manufacture of wearing apparel, except fur apparel
+C141@C1410@Manufacture of wearing apparel, except fur apparel
+C14@C142@Manufacture of articles of fur
+C142@C1420@Manufacture of articles of fur
+C14@C143@Manufacture of knitted and crocheted apparel
+C143@C1430@Manufacture of knitted and crocheted apparel
+C@C15@Manufacture of leather and related products
+C15@C151@Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur
+C151@C1511@Tanning and dressing of leather; dressing and dyeing of fur
+C151@C1512@Manufacture of luggage, handbags and the like, saddlery and harness
+C15@C152@Manufacture of footwear
+C152@C1520@Manufacture of footwear
+C@C16@Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials
+C16@C161@Sawmilling and planing of wood
+C161@C1610@Sawmilling and planing of wood
+C16@C162@Manufacture of products of wood, cork, straw and plaiting materials
+C162@C1621@Manufacture of veneer sheets and wood-based panels
+C162@C1622@Manufacture of builders' carpentry and joinery
+C162@C1623@Manufacture of wooden containers
+C162@C1629@Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials
+C@C17@Manufacture of paper and paper products
+C17@C170@Manufacture of paper and paper products
+C170@C1701@Manufacture of pulp, paper and paperboard
+C170@C1702@Manufacture of corrugated paper and paperboard and of containers of paper and paperboard
+C170@C1709@Manufacture of other articles of paper and paperboard
+C@C18@Printing and reproduction of recorded media
+C18@C181@Printing and service activities related to printing
+C181@C1811@Printing
+C181@C1812@Service activities related to printing
+C18@C182@Reproduction of recorded media
+C182@C1820@Reproduction of recorded media
+C@C19@Manufacture of coke and refined petroleum products
+C19@C191@Manufacture of coke oven products
+C191@C1910@Manufacture of coke oven products
+C19@C192@Manufacture of refined petroleum products
+C192@C1920@Manufacture of refined petroleum products
+C@C20@Manufacture of chemicals and chemical products
+C20@C201@Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics and synthetic rubber in primary forms
+C201@C2011@Manufacture of basic chemicals
+C201@C2012@Manufacture of fertilizers and nitrogen compounds
+C201@C2013@Manufacture of plastics and synthetic rubber in primary forms
+C20@C202@Manufacture of other chemical products
+C202@C2021@Manufacture of pesticides and other agrochemical products
+C202@C2022@Manufacture of paints, varnishes and similar coatings, printing ink and mastics
+C202@C2023@Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations
+C202@C2029@Manufacture of other chemical products n.e.c.
+C20@C203@Manufacture of man-made fibres
+C203@C2030@Manufacture of man-made fibres
+C@C21@Manufacture of basic pharmaceutical products and pharmaceutical preparations
+C21@C210@Manufacture of pharmaceuticals, medicinal chemical and botanical products
+C210@C2100@Manufacture of pharmaceuticals, medicinal chemical and botanical products
+C@C22@Manufacture of rubber and plastics products
+C22@C221@Manufacture of rubber products
+C221@C2211@Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres
+C221@C2219@Manufacture of other rubber products
+C22@C222@Manufacture of plastics products
+C222@C2220@Manufacture of plastics products
+C@C23@Manufacture of other non-metallic mineral products
+C23@C231@Manufacture of glass and glass products
+C231@C2310@Manufacture of glass and glass products
+C23@C239@Manufacture of non-metallic mineral products n.e.c.
+C239@C2391@Manufacture of refractory products
+C239@C2392@Manufacture of clay building materials
+C239@C2393@Manufacture of other porcelain and ceramic products
+C239@C2394@Manufacture of cement, lime and plaster
+C239@C2395@Manufacture of articles of concrete, cement and plaster
+C239@C2396@Cutting, shaping and finishing of stone
+C239@C2399@Manufacture of other non-metallic mineral products n.e.c.
+C@C24@Manufacture of basic metals
+C24@C241@Manufacture of basic iron and steel
+C241@C2410@Manufacture of basic iron and steel
+C24@C242@Manufacture of basic precious and other non-ferrous metals
+C242@C2420@Manufacture of basic precious and other non-ferrous metals
+C24@C243@Casting of metals
+C243@C2431@Casting of iron and steel
+C243@C2432@Casting of non-ferrous metals
+C@C25@Manufacture of fabricated metal products, except machinery and equipment
+C25@C251@Manufacture of structural metal products, tanks, reservoirs and steam generators
+C251@C2511@Manufacture of structural metal products
+C251@C2512@Manufacture of tanks, reservoirs and containers of metal
+C251@C2513@Manufacture of steam generators, except central heating hot water boilers
+C25@C252@Manufacture of weapons and ammunition
+C252@C2520@Manufacture of weapons and ammunition
+C25@C259@Manufacture of other fabricated metal products; metalworking service activities
+C259@C2591@Forging, pressing, stamping and roll-forming of metal; powder metallurgy
+C259@C2592@Treatment and coating of metals; machining
+C259@C2593@Manufacture of cutlery, hand tools and general hardware
+C259@C2599@Manufacture of other fabricated metal products n.e.c.
+C@C26@Manufacture of computer, electronic and optical products
+C26@C261@Manufacture of electronic components and boards
+C261@C2610@Manufacture of electronic components and boards
+C26@C262@Manufacture of computers and peripheral equipment
+C262@C2620@Manufacture of computers and peripheral equipment
+C26@C263@Manufacture of communication equipment
+C263@C2630@Manufacture of communication equipment
+C26@C264@Manufacture of consumer electronics
+C264@C2640@Manufacture of consumer electronics
+C26@C265@Manufacture of measuring, testing, navigating and control equipment; watches and clocks
+C265@C2651@Manufacture of measuring, testing, navigating and control equipment
+C265@C2652@Manufacture of watches and clocks
+C26@C266@Manufacture of irradiation, electromedical and electrotherapeutic equipment
+C266@C2660@Manufacture of irradiation, electromedical and electrotherapeutic equipment
+C26@C267@Manufacture of optical instruments and photographic equipment
+C267@C2670@Manufacture of optical instruments and photographic equipment
+C26@C268@Manufacture of magnetic and optical media
+C268@C2680@Manufacture of magnetic and optical media
+C@C27@Manufacture of electrical equipment
+C27@C271@Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus
+C271@C2710@Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus
+C27@C272@Manufacture of batteries and accumulators
+C272@C2720@Manufacture of batteries and accumulators
+C27@C273@Manufacture of wiring and wiring devices
+C273@C2731@Manufacture of fibre optic cables
+C273@C2732@Manufacture of other electronic and electric wires and cables
+C273@C2733@Manufacture of wiring devices
+C27@C274@Manufacture of electric lighting equipment
+C274@C2740@Manufacture of electric lighting equipment
+C27@C275@Manufacture of domestic appliances
+C275@C2750@Manufacture of domestic appliances
+C27@C279@Manufacture of other electrical equipment
+C279@C2790@Manufacture of other electrical equipment
+C@C28@Manufacture of machinery and equipment n.e.c.
+C28@C281@Manufacture of general-purpose machinery
+C281@C2811@Manufacture of engines and turbines, except aircraft, vehicle and cycle engines
+C281@C2812@Manufacture of fluid power equipment
+C281@C2813@Manufacture of other pumps, compressors, taps and valves
+C281@C2814@Manufacture of bearings, gears, gearing and driving elements
+C281@C2815@Manufacture of ovens, furnaces and furnace burners
+C281@C2816@Manufacture of lifting and handling equipment
+C281@C2817@Manufacture of office machinery and equipment (except computers and peripheral equipment)
+C281@C2818@Manufacture of power-driven hand tools
+C281@C2819@Manufacture of other general-purpose machinery
+C28@C282@Manufacture of special-purpose machinery
+C282@C2821@Manufacture of agricultural and forestry machinery
+C282@C2822@Manufacture of metal-forming machinery and machine tools
+C282@C2823@Manufacture of machinery for metallurgy
+C282@C2824@Manufacture of machinery for mining, quarrying and construction
+C282@C2825@Manufacture of machinery for food, beverage and tobacco processing
+C282@C2826@Manufacture of machinery for textile, apparel and leather production
+C282@C2829@Manufacture of other special-purpose machinery
+C@C29@Manufacture of motor vehicles, trailers and semi-trailers
+C29@C291@Manufacture of motor vehicles
+C291@C2910@Manufacture of motor vehicles
+C29@C292@Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers
+C292@C2920@Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers
+C29@C293@Manufacture of parts and accessories for motor vehicles
+C293@C2930@Manufacture of parts and accessories for motor vehicles
+C@C30@Manufacture of other transport equipment
+C30@C301@Building of ships and boats
+C301@C3011@Building of ships and floating structures
+C301@C3012@Building of pleasure and sporting boats
+C30@C302@Manufacture of railway locomotives and rolling stock
+C302@C3020@Manufacture of railway locomotives and rolling stock
+C30@C303@Manufacture of air and spacecraft and related machinery
+C303@C3030@Manufacture of air and spacecraft and related machinery
+C30@C304@Manufacture of military fighting vehicles
+C304@C3040@Manufacture of military fighting vehicles
+C30@C309@Manufacture of transport equipment n.e.c.
+C309@C3091@Manufacture of motorcycles
+C309@C3092@Manufacture of bicycles and invalid carriages
+C309@C3099@Manufacture of other transport equipment n.e.c.
+C@C31@Manufacture of furniture
+C31@C310@Manufacture of furniture
+C310@C3100@Manufacture of furniture
+C@C32@Other manufacturing
+C32@C321@Manufacture of jewellery, bijouterie and related articles
+C321@C3211@Manufacture of jewellery and related articles
+C321@C3212@Manufacture of imitation jewellery and related articles
+C32@C322@Manufacture of musical instruments
+C322@C3220@Manufacture of musical instruments
+C32@C323@Manufacture of sports goods
+C323@C3230@Manufacture of sports goods
+C32@C324@Manufacture of games and toys
+C324@C3240@Manufacture of games and toys
+C32@C325@Manufacture of medical and dental instruments and supplies
+C325@C3250@Manufacture of medical and dental instruments and supplies
+C32@C329@Other manufacturing n.e.c.
+C329@C3290@Other manufacturing n.e.c.
+C@C33@Repair and installation of machinery and equipment
+C33@C331@Repair of fabricated metal products, machinery and equipment
+C331@C3311@Repair of fabricated metal products
+C331@C3312@Repair of machinery
+C331@C3313@Repair of electronic and optical equipment
+C331@C3314@Repair of electrical equipment
+C331@C3315@Repair of transport equipment, except motor vehicles
+C331@C3319@Repair of other equipment
+C33@C332@Installation of industrial machinery and equipment
+C332@C3320@Installation of industrial machinery and equipment
+@D@Electricity, gas, steam and air conditioning supply
+D@D35@Electricity, gas, steam and air conditioning supply
+D35@D351@Electric power generation, transmission and distribution
+D351@D3510@Electric power generation, transmission and distribution
+D35@D352@Manufacture of gas; distribution of gaseous fuels through mains
+D352@D3520@Manufacture of gas; distribution of gaseous fuels through mains
+D35@D353@Steam and air conditioning supply
+D353@D3530@Steam and air conditioning supply
+@E@Water supply; sewerage, waste management and remediation activities
+E@E36@Water collection, treatment and supply
+E36@E360@Water collection, treatment and supply
+E360@E3600@Water collection, treatment and supply
+E@E37@Sewerage
+E37@E370@Sewerage
+E370@E3700@Sewerage
+E@E38@Waste collection, treatment and disposal activities; materials recovery
+E38@E381@Waste collection
+E381@E3811@Collection of non-hazardous waste
+E381@E3812@Collection of hazardous waste
+E38@E382@Waste treatment and disposal
+E382@E3821@Treatment and disposal of non-hazardous waste
+E382@E3822@Treatment and disposal of hazardous waste
+E38@E383@Materials recovery
+E383@E3830@Materials recovery
+E@E39@Remediation activities and other waste management services
+E39@E390@Remediation activities and other waste management services
+E390@E3900@Remediation activities and other waste management services
+@F@Construction
+F@F41@Construction of buildings
+F41@F410@Construction of buildings
+F410@F4100@Construction of buildings
+F@F42@Civil engineering
+F42@F421@Construction of roads and railways
+F421@F4210@Construction of roads and railways
+F42@F422@Construction of utility projects
+F422@F4220@Construction of utility projects
+F42@F429@Construction of other civil engineering projects
+F429@F4290@Construction of other civil engineering projects
+F@F43@Specialized construction activities
+F43@F431@Demolition and site preparation
+F431@F4311@Demolition
+F431@F4312@Site preparation
+F43@F432@Electrical, plumbing and other construction installation activities
+F432@F4321@Electrical installation
+F432@F4322@Plumbing, heat and air-conditioning installation
+F432@F4329@Other construction installation
+F43@F433@Building completion and finishing
+F433@F4330@Building completion and finishing
+F43@F439@Other specialized construction activities
+F439@F4390@Other specialized construction activities
+@G@Wholesale and retail trade; repair of motor vehicles and motorcycles
+G@G45@Wholesale and retail trade and repair of motor vehicles and motorcycles
+G45@G451@Sale of motor vehicles
+G451@G4510@Sale of motor vehicles
+G45@G452@Maintenance and repair of motor vehicles
+G452@G4520@Maintenance and repair of motor vehicles
+G45@G453@Sale of motor vehicle parts and accessories
+G453@G4530@Sale of motor vehicle parts and accessories
+G45@G454@Sale, maintenance and repair of motorcycles and related parts and accessories
+G454@G4540@Sale, maintenance and repair of motorcycles and related parts and accessories
+G@G46@Wholesale trade, except of motor vehicles and motorcycles
+G46@G461@Wholesale on a fee or contract basis
+G461@G4610@Wholesale on a fee or contract basis
+G46@G462@Wholesale of agricultural raw materials and live animals
+G462@G4620@Wholesale of agricultural raw materials and live animals
+G46@G463@Wholesale of food, beverages and tobacco
+G463@G4630@Wholesale of food, beverages and tobacco
+G46@G464@Wholesale of household goods
+G464@G4641@Wholesale of textiles, clothing and footwear
+G464@G4649@Wholesale of other household goods
+G46@G465@Wholesale of machinery, equipment and supplies
+G465@G4651@Wholesale of computers, computer peripheral equipment and software
+G465@G4652@Wholesale of electronic and telecommunications equipment and parts
+G465@G4653@Wholesale of agricultural machinery, equipment and supplies
+G465@G4659@Wholesale of other machinery and equipment
+G46@G466@Other specialized wholesale
+G466@G4661@Wholesale of solid, liquid and gaseous fuels and related products
+G466@G4662@Wholesale of metals and metal ores
+G466@G4663@Wholesale of construction materials, hardware, plumbing and heating equipment and supplies
+G466@G4669@Wholesale of waste and scrap and other products n.e.c.
+G46@G469@Non-specialized wholesale trade
+G469@G4690@Non-specialized wholesale trade
+G@G47@Retail trade, except of motor vehicles and motorcycles
+G47@G471@Retail sale in non-specialized stores
+G471@G4711@Retail sale in non-specialized stores with food, beverages or tobacco predominating
+G471@G4719@Other retail sale in non-specialized stores
+G47@G472@Retail sale of food, beverages and tobacco in specialized stores
+G472@G4721@Retail sale of food in specialized stores
+G472@G4722@Retail sale of beverages in specialized stores
+G472@G4723@Retail sale of tobacco products in specialized stores
+G47@G473@Retail sale of automotive fuel in specialized stores
+G473@G4730@Retail sale of automotive fuel in specialized stores
+G47@G474@Retail sale of information and communications equipment in specialized stores
+G474@G4741@Retail sale of computers, peripheral units, software and telecommunications equipment in specialized stores
+G474@G4742@Retail sale of audio and video equipment in specialized stores
+G47@G475@Retail sale of other household equipment in specialized stores
+G475@G4751@Retail sale of textiles in specialized stores
+G475@G4752@Retail sale of hardware, paints and glass in specialized stores
+G475@G4753@Retail sale of carpets, rugs, wall and floor coverings in specialized stores
+G475@G4759@Retail sale of electrical household appliances, furniture, lighting equipment and other household articles in specialized stores
+G47@G476@Retail sale of cultural and recreation goods in specialized stores
+G476@G4761@Retail sale of books, newspapers and stationary in specialized stores
+G476@G4762@Retail sale of music and video recordings in specialized stores
+G476@G4763@Retail sale of sporting equipment in specialized stores
+G476@G4764@Retail sale of games and toys in specialized stores
+G47@G477@Retail sale of other goods in specialized stores
+G477@G4771@Retail sale of clothing, footwear and leather articles in specialized stores
+G477@G4772@Retail sale of pharmaceutical and medical goods, cosmetic and toilet articles in specialized stores
+G477@G4773@Other retail sale of new goods in specialized stores
+G477@G4774@Retail sale of second-hand goods
+G47@G478@Retail sale via stalls and markets
+G478@G4781@Retail sale via stalls and markets of food, beverages and tobacco products
+G478@G4782@Retail sale via stalls and markets of textiles, clothing and footwear
+G478@G4789@Retail sale via stalls and markets of other goods
+G47@G479@Retail trade not in stores, stalls or markets
+G479@G4791@Retail sale via mail order houses or via Internet
+G479@G4799@Other retail sale not in stores, stalls or markets
+@H@Transportation and storage
+H@H49@Land transport and transport via pipelines
+H49@H491@Transport via railways
+H491@H4911@Passenger rail transport, interurban
+H491@H4912@Freight rail transport
+H49@H492@Other land transport
+H492@H4921@Urban and suburban passenger land transport
+H492@H4922@Other passenger land transport
+H492@H4923@Freight transport by road
+H49@H493@Transport via pipeline
+H493@H4930@Transport via pipeline
+H@H50@Water transport
+H50@H501@Sea and coastal water transport
+H501@H5011@Sea and coastal passenger water transport
+H501@H5012@Sea and coastal freight water transport
+H50@H502@Inland water transport
+H502@H5021@Inland passenger water transport
+H502@H5022@Inland freight water transport
+H@H51@Air transport
+H51@H511@Passenger air transport
+H511@H5110@Passenger air transport
+H51@H512@Freight air transport
+H512@H5120@Freight air transport
+H@H52@Warehousing and support activities for transportation
+H52@H521@Warehousing and storage
+H521@H5210@Warehousing and storage
+H52@H522@Support activities for transportation
+H522@H5221@Service activities incidental to land transportation
+H522@H5222@Service activities incidental to water transportation
+H522@H5223@Service activities incidental to air transportation
+H522@H5224@Cargo handling
+H522@H5229@Other transportation support activities
+H@H53@Postal and courier activities
+H53@H531@Postal activities
+H531@H5310@Postal activities
+H53@H532@Courier activities
+H532@H5320@Courier activities
+@I@Accommodation and food service activities
+I@I55@Accommodation
+I55@I551@Short term accommodation activities
+I551@I5510@Short term accommodation activities
+I55@I552@Camping grounds, recreational vehicle parks and trailer parks
+I552@I5520@Camping grounds, recreational vehicle parks and trailer parks
+I55@I559@Other accommodation
+I559@I5590@Other accommodation
+I@I56@Food and beverage service activities
+I56@I561@Restaurants and mobile food service activities
+I561@I5610@Restaurants and mobile food service activities
+I56@I562@Event catering and other food service activities
+I562@I5621@Event catering
+I562@I5629@Other food service activities
+I56@I563@Beverage serving activities
+I563@I5630@Beverage serving activities
+@J@Information and communication
+J@J58@Publishing activities
+J58@J581@Publishing of books, periodicals and other publishing activities
+J581@J5811@Book publishing
+J581@J5812@Publishing of directories and mailing lists
+J581@J5813@Publishing of newspapers, journals and periodicals
+J581@J5819@Other publishing activities
+J58@J582@Software publishing
+J582@J5820@Software publishing
+J@J59@Motion picture, video and television programme production, sound recording and music publishing activities
+J59@J591@Motion picture, video and television programme activities
+J591@J5911@Motion picture, video and television programme production activities
+J591@J5912@Motion picture, video and television programme post-production activities
+J591@J5913@Motion picture, video and television programme distribution activities
+J591@J5914@Motion picture projection activities
+J59@J592@Sound recording and music publishing activities
+J592@J5920@Sound recording and music publishing activities
+J@J60@Programming and broadcasting activities
+J60@J601@Radio broadcasting
+J601@J6010@Radio broadcasting
+J60@J602@Television programming and broadcasting activities
+J602@J6020@Television programming and broadcasting activities
+J@J61@Telecommunications
+J61@J611@Wired telecommunications activities
+J611@J6110@Wired telecommunications activities
+J61@J612@Wireless telecommunications activities
+J612@J6120@Wireless telecommunications activities
+J61@J613@Satellite telecommunications activities
+J613@J6130@Satellite telecommunications activities
+J61@J619@Other telecommunications activities
+J619@J6190@Other telecommunications activities
+J@J62@Computer programming, consultancy and related activities
+J62@J620@Computer programming, consultancy and related activities
+J620@J6201@Computer programming activities
+J620@J6202@Computer consultancy and computer facilities management activities
+J620@J6209@Other information technology and computer service activities
+J@J63@Information service activities
+J63@J631@Data processing, hosting and related activities; web portals
+J631@J6311@Data processing, hosting and related activities
+J631@J6312@Web portals
+J63@J639@Other information service activities
+J639@J6391@News agency activities
+J639@J6399@Other information service activities n.e.c.
+@K@Financial and insurance activities
+K@K64@Financial service activities, except insurance and pension funding
+K64@K641@Monetary intermediation
+K641@K6411@Central banking
+K641@K6419@Other monetary intermediation
+K64@K642@Activities of holding companies
+K642@K6420@Activities of holding companies
+K64@K643@Trusts, funds and similar financial entities
+K643@K6430@Trusts, funds and similar financial entities
+K64@K649@Other financial service activities, except insurance and pension funding activities
+K649@K6491@Financial leasing
+K649@K6492@Other credit granting
+K649@K6499@Other financial service activities, except insurance and pension funding activities, n.e.c.
+K@K65@Insurance, reinsurance and pension funding, except compulsory social security
+K65@K651@Insurance
+K651@K6511@Life insurance
+K651@K6512@Non-life insurance
+K65@K652@Reinsurance
+K652@K6520@Reinsurance
+K65@K653@Pension funding
+K653@K6530@Pension funding
+K@K66@Activities auxiliary to financial service and insurance activities
+K66@K661@Activities auxiliary to financial service activities, except insurance and pension funding
+K661@K6611@Administration of financial markets
+K661@K6612@Security and commodity contracts brokerage
+K661@K6619@Other activities auxiliary to financial service activities
+K66@K662@Activities auxiliary to insurance and pension funding
+K662@K6621@Risk and damage evaluation
+K662@K6622@Activities of insurance agents and brokers
+K662@K6629@Other activities auxiliary to insurance and pension funding
+K66@K663@Fund management activities
+K663@K6630@Fund management activities
+@L@Real estate activities
+L@L68@Real estate activities
+L68@L681@Real estate activities with own or leased property
+L681@L6810@Real estate activities with own or leased property
+L68@L682@Real estate activities on a fee or contract basis
+L682@L6820@Real estate activities on a fee or contract basis
+@M@Professional, scientific and technical activities
+M@M69@Legal and accounting activities
+M69@M691@Legal activities
+M691@M6910@Legal activities
+M69@M692@Accounting, bookkeeping and auditing activities; tax consultancy
+M692@M6920@Accounting, bookkeeping and auditing activities; tax consultancy
+M@M70@Activities of head offices; management consultancy activities
+M70@M701@Activities of head offices
+M701@M7010@Activities of head offices
+M70@M702@Management consultancy activities
+M702@M7020@Management consultancy activities
+M@M71@Architectural and engineering activities; technical testing and analysis
+M71@M711@Architectural and engineering activities and related technical consultancy
+M711@M7110@Architectural and engineering activities and related technical consultancy
+M71@M712@Technical testing and analysis
+M712@M7120@Technical testing and analysis
+M@M72@Scientific research and development
+M72@M721@Research and experimental development on natural sciences and engineering
+M721@M7210@Research and experimental development on natural sciences and engineering
+M72@M722@Research and experimental development on social sciences and humanities
+M722@M7220@Research and experimental development on social sciences and humanities
+M@M73@Advertising and market research
+M73@M731@Advertising
+M731@M7310@Advertising
+M73@M732@Market research and public opinion polling
+M732@M7320@Market research and public opinion polling
+M@M74@Other professional, scientific and technical activities
+M74@M741@Specialized design activities
+M741@M7410@Specialized design activities
+M74@M742@Photographic activities
+M742@M7420@Photographic activities
+M74@M749@Other professional, scientific and technical activities n.e.c.
+M749@M7490@Other professional, scientific and technical activities n.e.c.
+M@M75@Veterinary activities
+M75@M750@Veterinary activities
+M750@M7500@Veterinary activities
+@N@Administrative and support service activities
+N@N77@Rental and leasing activities
+N77@N771@Renting and leasing of motor vehicles
+N771@N7710@Renting and leasing of motor vehicles
+N77@N772@Renting and leasing of personal and household goods
+N772@N7721@Renting and leasing of recreational and sports goods
+N772@N7722@Renting of video tapes and disks
+N772@N7729@Renting and leasing of other personal and household goods
+N77@N773@Renting and leasing of other machinery, equipment and tangible goods
+N773@N7730@Renting and leasing of other machinery, equipment and tangible goods
+N77@N774@Leasing of intellectual property and similar products, except copyrighted works
+N774@N7740@Leasing of intellectual property and similar products, except copyrighted works
+N@N78@Employment activities
+N78@N781@Activities of employment placement agencies
+N781@N7810@Activities of employment placement agencies
+N78@N782@Temporary employment agency activities
+N782@N7820@Temporary employment agency activities
+N78@N783@Other human resources provision
+N783@N7830@Other human resources provision
+N@N79@Travel agency, tour operator, reservation service and related activities
+N79@N791@Travel agency and tour operator activities
+N791@N7911@Travel agency activities
+N791@N7912@Tour operator activities
+N79@N799@Other reservation service and related activities
+N799@N7990@Other reservation service and related activities
+N@N80@Security and investigation activities
+N80@N801@Private security activities
+N801@N8010@Private security activities
+N80@N802@Security systems service activities
+N802@N8020@Security systems service activities
+N80@N803@Investigation activities
+N803@N8030@Investigation activities
+N@N81@Services to buildings and landscape activities
+N81@N811@Combined facilities support activities
+N811@N8110@Combined facilities support activities
+N81@N812@Cleaning activities
+N812@N8121@General cleaning of buildings
+N812@N8129@Other building and industrial cleaning activities
+N81@N813@Landscape care and maintenance service activities
+N813@N8130@Landscape care and maintenance service activities
+N@N82@Office administrative, office support and other business support activities
+N82@N821@Office administrative and support activities
+N821@N8211@Combined office administrative service activities
+N821@N8219@Photocopying, document preparation and other specialized office support activities
+N82@N822@Activities of call centres
+N822@N8220@Activities of call centres
+N82@N823@Organization of conventions and trade shows
+N823@N8230@Organization of conventions and trade shows
+N82@N829@Business support service activities n.e.c.
+N829@N8291@Activities of collection agencies and credit bureaus
+N829@N8292@Packaging activities
+N829@N8299@Other business support service activities n.e.c.
+@O@Public administration and defence; compulsory social security
+O@O84@Public administration and defence; compulsory social security
+O84@O841@Administration of the State and the economic and social policy of the community
+O841@O8411@General public administration activities
+O841@O8412@Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security
+O841@O8413@Regulation of and contribution to more efficient operation of businesses
+O84@O842@Provision of services to the community as a whole
+O842@O8421@Foreign affairs
+O842@O8422@Defence activities
+O842@O8423@Public order and safety activities
+O84@O843@Compulsory social security activities
+O843@O8430@Compulsory social security activities
+@P@Education
+P@P85@Education
+P85@P851@Pre-primary and primary education
+P851@P8510@Pre-primary and primary education
+P85@P852@Secondary education
+P852@P8521@General secondary education
+P852@P8522@Technical and vocational secondary education
+P85@P853@Higher education
+P853@P8530@Higher education
+P85@P854@Other education
+P854@P8541@Sports and recreation education
+P854@P8542@Cultural education
+P854@P8549@Other education n.e.c.
+P85@P855@Educational support activities
+P855@P8550@Educational support activities
+@Q@Human health and social work activities
+Q@Q86@Human health activities
+Q86@Q861@Hospital activities
+Q861@Q8610@Hospital activities
+Q86@Q862@Medical and dental practice activities
+Q862@Q8620@Medical and dental practice activities
+Q86@Q869@Other human health activities
+Q869@Q8690@Other human health activities
+Q@Q87@Residential care activities
+Q87@Q871@Residential nursing care facilities
+Q871@Q8710@Residential nursing care facilities
+Q87@Q872@Residential care activities for mental retardation, mental health and substance abuse
+Q872@Q8720@Residential care activities for mental retardation, mental health and substance abuse
+Q87@Q873@Residential care activities for the elderly and disabled
+Q873@Q8730@Residential care activities for the elderly and disabled
+Q87@Q879@Other residential care activities
+Q879@Q8790@Other residential care activities
+Q@Q88@Social work activities without accommodation
+Q88@Q881@Social work activities without accommodation for the elderly and disabled
+Q881@Q8810@Social work activities without accommodation for the elderly and disabled
+Q88@Q889@Other social work activities without accommodation
+Q889@Q8890@Other social work activities without accommodation
+@R@Arts, entertainment and recreation
+R@R90@Creative, arts and entertainment activities
+R90@R900@Creative, arts and entertainment activities
+R900@R9000@Creative, arts and entertainment activities
+R@R91@Libraries, archives, museums and other cultural activities
+R91@R910@Libraries, archives, museums and other cultural activities
+R910@R9101@Library and archives activities
+R910@R9102@Museums activities and operation of historical sites and buildings
+R910@R9103@Botanical and zoological gardens and nature reserves activities
+R@R92@Gambling and betting activities
+R92@R920@Gambling and betting activities
+R920@R9200@Gambling and betting activities
+R@R93@Sports activities and amusement and recreation activities
+R93@R931@Sports activities
+R931@R9311@Operation of sports facilities
+R931@R9312@Activities of sports clubs
+R931@R9319@Other sports activities
+R93@R932@Other amusement and recreation activities
+R932@R9321@Activities of amusement parks and theme parks
+R932@R9329@Other amusement and recreation activities n.e.c.
+@S@Other service activities
+S@S94@Activities of membership organizations
+S94@S941@Activities of business, employers and professional membership organizations
+S941@S9411@Activities of business and employers membership organizations
+S941@S9412@Activities of professional membership organizations
+S94@S942@Activities of trade unions
+S942@S9420@Activities of trade unions
+S94@S949@Activities of other membership organizations
+S949@S9491@Activities of religious organizations
+S949@S9492@Activities of political organizations
+S949@S9499@Activities of other membership organizations n.e.c.
+S@S95@Repair of computers and personal and household goods
+S95@S951@Repair of computers and communication equipment
+S951@S9511@Repair of computers and peripheral equipment
+S951@S9512@Repair of communication equipment
+S95@S952@Repair of personal and household goods
+S952@S9521@Repair of consumer electronics
+S952@S9522@Repair of household appliances and home and garden equipment
+S952@S9523@Repair of footwear and leather goods
+S952@S9524@Repair of furniture and home furnishings
+S952@S9529@Repair of other personal and household goods
+S@S96@Other personal service activities
+S96@S960@Other personal service activities
+S960@S9601@Washing and (dry-) cleaning of textile and fur products
+S960@S9602@Hairdressing and other beauty treatment
+S960@S9603@Funeral and related activities
+S960@S9609@Other personal service activities n.e.c.
+@T@Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use
+T@T97@Activities of households as employers of domestic personnel
+T97@T970@Activities of households as employers of domestic personnel
+T970@T9700@Activities of households as employers of domestic personnel
+T@T98@Undifferentiated goods- and services-producing activities of private households for own use
+T98@T981@Undifferentiated goods-producing activities of private households for own use
+T981@T9810@Undifferentiated goods-producing activities of private households for own use
+T98@T982@Undifferentiated service-producing activities of private households for own use
+T982@T9820@Undifferentiated service-producing activities of private households for own use
+@U@Activities of extraterritorial organizations and bodies
+U@U99@Activities of extraterritorial organizations and bodies
+U99@U990@Activities of extraterritorial organizations and bodies
+U990@U9900@Activities of extraterritorial organizations and bodies

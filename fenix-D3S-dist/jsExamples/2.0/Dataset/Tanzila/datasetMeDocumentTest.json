@@ -1,0 +1,191 @@
+{
+    "uid": "D3S_61058574613567069778091684593199812149",
+    "version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+    "languageDetails": null,
+    "title": {
+        "EN": "sss"
+    },
+    "creationDate": "2014-10-16T12:00:00.000+02:00",
+    "characterSet": {
+        "codes": [
+            {
+                "code": "106"
+            }
+        ],
+        "idCodeList": "IANAcharacterSet"
+    },
+    "metadataStandardName": "ss",
+    "metadataStandardVersion": "ss",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+    "contacts": [
+        {
+            "name": "ss",
+            "organization": {
+                "EN": "ss"
+            },
+            "organizationUnit": {
+                "EN": "ss"
+            },
+            "position": null,
+            "role": null,
+            "specify": null,
+            "contactInfo": {
+                "phone": "11",
+                "address": null,
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactInstruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+    "isRoot": true,
+    "rid": "9_56",
+    "meContent": {
+        "resourceRepresentationType": "dataset",
+        "keywords": [
+            "aa"
+        ],
+        "description": {
+            "EN": "ss"
+        },
+        "statisticalConceptsDefinition": {
+            "EN": "ss"
+        },
+        "isRoot": false,
+        "seCoverage": {
+            "coverageSectors": {
+                "codes": [
+                    {
+                        "code": "110",
+                        "label": {
+                            "EN": "EDUCATION"
+                        }
+                    },
+                    {
+                        "code": "112",
+                        "label": {
+                            "EN": "Basic education"
+                        }
+                    },
+                    {
+                        "code": "11240",
+                        "label": {
+                            "EN": "Early childhood education"
+                        }
+                    }
+                ],
+                "idCodeList": "CRS_purpose_codes",
+                "parent": "coverageSectors."
+            },
+            "coverageSectorsDetails": {
+                "EN": "sss",
+                "parent": "coverageSectorsDetails."
+            },
+            "coverageTime": {
+                "from": "2014-10-16T12:00:00.000+02:00",
+                "to": "2014-10-18T12:00:00.000+02:00",
+                "parent": "coverageTime."
+            },
+            "coverageGeographic": {
+                "codes": [
+                    {
+                        "code": "102"
+                    }
+                ],
+                "idCodeList": "GAUL0",
+                "version": "2014",
+                "parent": "coverageGeographic."
+            },
+            "isRoot": false,
+            "entityPath": "meContent.seCoverage"
+        }
+    },
+    "meDocuments": [
+        {
+            "document": {
+                "documentKind": "handbook",
+                "title": {
+                    "EN": "aa"
+                },
+                "date": "2014-10-16T12:00:00.000+02:00",
+                "documentContact": {
+                    "name": "aa",
+                    "organization": {
+                        "EN": "aa"
+                    },
+                    "organizationUnit": {
+                        "EN": "rrr"
+                    },
+                    "position": null,
+                    "role": null,
+                    "specify": null,
+                    "contactInfo": {
+                        "phone": "4444",
+                        "address": null,
+                        "emailAddress": null,
+                        "hoursOfService": null,
+                        "contactInstruction": null
+                    }
+                },
+                "link": "http://www.bb.com",
+                "notes": null,
+                "isbn": "ffff",
+                "issn": null
+            },
+            "attachments": [
+                {
+                    "documentKind": "guidelines",
+                    "title": {
+                        "EN": "aaaa"
+                    },
+                    "date": "2014-10-16T12:00:00.000+02:00",
+                    "documentContact": {
+                        "name": "aa",
+                        "organization": {
+                            "EN": "aa"
+                        },
+                        "organizationUnit": {
+                            "EN": "aa"
+                        },
+                        "position": null,
+                        "role": null,
+                        "specify": null,
+                        "contactInfo": {
+                            "phone": 11111,
+                            "address": null,
+                            "emailAddress": null,
+                            "hoursOfService": null,
+                            "contactInstruction": null
+                        }
+                    },
+                    "link": "http://www.bb.co.uk",
+                    "notes": {
+                        "EN": "fff"
+                    },
+                    "isbn": "fffff",
+                    "issn": null
+                }
+            ],
+            "referenceEntity": "meContent",
+            "referenceElement": "seReferencePopulation"
+        }
+    ]
+}

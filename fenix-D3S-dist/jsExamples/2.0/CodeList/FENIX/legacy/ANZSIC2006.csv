@@ -1,0 +1,944 @@
+{
+    "uid": "ANZSIC",
+	"version": "2006",
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "Australian and New Zealand Standard Industrial Classification"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "Australian Bureau of Statistics"
+            },
+            "organizationUnit": null,
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": null,
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["sector", "activity"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": "06"
+                        }
+                    ],
+                    "idCodeList": "FENIX_Subjects",
+                    "version": "1.0"
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 4,
+            "typeOfCodeList": "tree"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": "http://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1292.0.55.0022006?OpenDocument",
+                "disseminationFormat": ["excel","word"]
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+
+
+
+@A@Agriculture, Forestry and Fishing
+A@A01@Agriculture
+A01@A011@Nursery and Floriculture Production
+A011@A0111@Nursery Production (Under Cover)
+A011@A0112@Nursery Production (Outdoors)
+A011@A0113@Turf Growing
+A011@A0114@Floriculture Production (Under Cover)
+A011@A0115@Floriculture Production (Outdoors)
+A01@A012@Mushroom and Vegetable Growing
+A012@A0121@Mushroom Growing
+A012@A0122@Vegetable Growing (Under Cover)
+A012@A0123@Vegetable Growing (Outdoors)
+A01@A013@Fruit and Tree Nut Growing
+A013@A0131@Grape Growing
+A013@A0132@Kiwifruit Growing
+A013@A0133@Berry Fruit Growing
+A013@A0134@Apple and Pear Growing
+A013@A0135@Stone Fruit Growing
+A013@A0136@Citrus Fruit Growing
+A013@A0137@Olive Growing
+A013@A0139@Other Fruit and Tree Nut Growing
+A01@A014@Sheep, Beef Cattle and Grain Farming
+A014@A0141@Sheep Farming (Specialised)
+A014@A0142@Beef Cattle Farming (Specialised)
+A014@A0143@Beef Cattle Feedlots (Specialised)
+A014@A0144@Sheep-Beef Cattle Farming
+A014@A0145@Grain-Sheep or Grain-Beef Cattle Farming
+A014@A0146@Rice Growing
+A014@A0149@Other Grain Growing
+A01@A015@Other Crop Growing
+A015@A0151@Sugar Cane Growing
+A015@A0152@Cotton Growing
+A015@A0159@Other Crop Growing n.e.c.
+A01@A016@Dairy Cattle Farming
+A016@A0160@Dairy Cattle Farming
+A01@A017@Poultry Farming
+A017@A0171@Poultry Farming (Meat)
+A017@A0172@Poultry Farming (Eggs)
+A01@A018@Deer Farming
+A018@A0180@Deer Farming
+A01@A019@Other Livestock Farming
+A019@A0191@Horse Farming
+A019@A0192@Pig Farming
+A019@A0193@Beekeeping
+A019@A0199@Other Livestock Farming n.e.c.
+A@A02@Aquaculture
+A02@A020@Aquaculture
+A020@A0201@Offshore Longline and Rack Aquaculture
+A020@A0202@Offshore Caged Aquaculture
+A020@A0203@Onshore Aquaculture
+A@A03@Forestry and Logging
+A03@A030@Forestry and Logging
+A030@A0301@Forestry
+A030@A0302@Logging
+A@A04@Fishing, Hunting and Trapping
+A04@A041@Fishing
+A041@A0411@Rock Lobster and Crab Potting
+A041@A0412@Prawn Fishing
+A041@A0413@Line Fishing
+A041@A0414@Fish Trawling, Seining and Netting
+A041@A0419@Other Fishing
+A04@A042@Hunting and Trapping
+A042@A0420@Hunting and Trapping
+A@A05@Agriculture, Forestry and Fishing Support Services
+A05@A051@Forestry Support Services
+A051@A0510@Forestry Support Services
+A05@A052@Agriculture and Fishing Support Services
+A052@A0521@Cotton Ginning
+A052@A0522@Shearing Services
+A052@A0529@Other Agriculture and Fishing Support Services
+@B@Mining
+B@B06@Coal Mining
+B06@B060@Coal Mining
+B060@B0600@Coal Mining
+B@B07@Oil and Gas Extraction
+B07@B070@Oil and Gas Extraction
+B070@B0700@Oil and Gas Extraction
+B@B08@Metal Ore Mining
+B08@B080@Metal Ore Mining
+B080@B0801@Iron Ore Mining
+B080@B0802@Bauxite Mining
+B080@B0803@Copper Ore Mining
+B080@B0804@Gold Ore Mining
+B080@B0805@Mineral Sand Mining
+B080@B0806@Nickel Ore Mining
+B080@B0807@Silver-Lead-Zinc Ore Mining
+B080@B0809@Other Metal Ore Mining
+B@B09@Non-Metallic Mineral Mining and Quarrying
+B09@B091@Construction Material Mining
+B091@B0911@Gravel and Sand Quarrying
+B091@B0919@Other Construction Material Mining
+B09@B099@Other Non-Metallic Mineral Mining and Quarrying
+@B0990@Other Non-Metallic Mineral Mining and Quarrying
+B@B10@Exploration and Other Mining Support Services
+B10@B101@Exploration
+B101@B1011@Petroleum Exploration
+B101@B1012@Mineral Exploration
+B10@B109@Other Mining Support Services
+B109@B1090@Other Mining Support Services
+@C@Manufacturing
+C@C11@Food Product Manufacturing
+C11@C111@Meat and Meat Product Manufacturing
+C111@C1111@Meat Processing
+C111@C1112@Poultry Processing
+C111@C1113@Cured Meat and Smallgoods Manufacturing
+C11@C112@Seafood Processing
+C112@C1120@Seafood Processing
+C11@C113@Dairy Product Manufacturing
+C113@C1131@Milk and Cream Processing
+C113@C1132@Ice Cream Manufacturing
+C113@C1133@Cheese and Other Dairy Product Manufacturing
+C11@C114@Fruit and Vegetable Processing
+C114@C1140@Fruit and Vegetable Processing
+C11@C115@Oil and Fat Manufacturing
+C115@C1150@Oil and Fat Manufacturing
+C11@C116@Grain Mill and Cereal Product Manufacturing
+C116@C1161@Grain Mill Product Manufacturing
+C116@C1162@Cereal, Pasta and Baking Mix Manufacturing
+C11@C117@Bakery Product Manufacturing
+C117@C1171@Bread Manufacturing (Factory based)
+C117@C1172@Cake and Pastry Manufacturing (Factory based)
+C117@C1173@Biscuit Manufacturing (Factory based)
+C117@C1174@Bakery Product Manufacturing (Non-factory based)
+C11@C118@Sugar and Confectionery Manufacturing
+C118@C1181@Sugar Manufacturing
+C118@C1182@Confectionery Manufacturing
+C11@C119@Other Food Product Manufacturing
+C119@C1191@Potato, Corn and Other Crisp Manufacturing
+C119@C1192@Prepared Animal and Bird Feed Manufacturing
+C119@C1199@Other Food Product Manufacturing n.e.c.
+C@C12@Beverage and Tobacco Product Manufacturing
+C12@C121@Beverage Manufacturing
+C121@C1211@Soft Drink, Cordial and Syrup Manufacturing
+C121@C1212@Beer Manufacturing
+C121@C1213@Spirit Manufacturing
+C121@C1214@Wine and Other Alcoholic Beverage Manufacturing
+C12@C122@Cigarette and Tobacco Product Manufacturing
+C122@C1220@Cigarette and Tobacco Product Manufacturing
+C@C13@Textile, Leather, Clothing and Footwear Manufacturing
+C13@C131@Textile Manufacturing
+C131@C1311@Wool Scouring
+C131@C1312@Natural Textile Manufacturing
+C131@C1313@Synthetic Textile Manufacturing
+C13@C132@Leather Tanning, Fur Dressing and Leather Product Manufacturing
+C132@C1320@Leather Tanning, Fur Dressing and Leather Product Manufacturing
+C13@C133@Textile Product Manufacturing
+C133@C1331@Textile Floor Covering Manufacturing
+C133@C1332@Rope, Cordage and Twine Manufacturing
+C133@C1333@Cut and Sewn Textile Product Manufacturing
+C133@C1334@Textile Finishing and Other Textile Product Manufacturing
+C13@C134@Knitted Product Manufacturing
+C134@C1340@Knitted Product Manufacturing
+C13@C135@Clothing and Footwear Manufacturing
+C135@C1351@Clothing Manufacturing
+C135@C1352@Footwear Manufacturing
+C@C14@Wood Product Manufacturing
+C14@C141@Log Sawmilling and Timber Dressing
+C141@C1411@Log Sawmilling
+C141@C1412@Wood Chipping
+C141@C1413@Timber Resawing and Dressing
+C14@C149@Other Wood Product Manufacturing
+C149@C1491@Prefabricated Wooden Building Manufacturing
+C149@C1492@Wooden Structural Fitting and Component Manufacturing
+C149@C1493@Veneer and Plywood Manufacturing
+C149@C1494@Reconstituted Wood Product Manufacturing
+C149@C1499@Other Wood Product Manufacturing n.e.c.
+C@C15@Pulp, Paper and Converted Paper Product Manufacturing
+C15@C151@Pulp, Paper and Paperboard Manufacturing
+C151@C1510@Pulp, Paper and Paperboard Manufacturing
+C15@C152@Converted Paper Product Manufacturing
+C152@C1521@Corrugated Paperboard and Paperboard Container Manufacturing
+C152@C1522@Paper Bag Manufacturing
+C152@C1523@Paper Stationery Manufacturing
+C152@C1524@Sanitary Paper Product Manufacturing
+C152@C1529@Other Converted Paper Product Manufacturing
+C@C16@Printing (including the Reproduction of Recorded Media)
+C16@C161@Printing and Printing Support Services
+C161@C1611@Printing
+C161@C1612@Printing Support Services
+C16@C162@Reproduction of Recorded Media
+C162@C1620@Reproduction of Recorded Media
+C@C17@Petroleum and Coal Product Manufacturing
+C17@C170@Petroleum and Coal Product Manufacturing
+C170@C1701@Petroleum Refining and Petroleum Fuel Manufacturing
+C170@C1709@Other Petroleum and Coal Product Manufacturing
+C@C18@Basic Chemical and Chemical Product Manufacturing
+C18@C181@Basic Chemical Manufacturing
+C181@C1811@Industrial Gas Manufacturing
+C181@C1812@Basic Organic Chemical Manufacturing
+C181@C1813@Basic Inorganic Chemical Manufacturing
+C18@C182@Basic Polymer Manufacturing
+C182@C1821@Synthetic Resin and Synthetic Rubber Manufacturing
+C182@C1829@Other Basic Polymer Manufacturing
+C18@C183@Fertiliser and Pesticide Manufacturing
+C183@C1831@Fertiliser Manufacturing
+C183@C1832@Pesticide Manufacturing
+C18@C184@Pharmaceutical and Medicinal Product Manufacturing
+C184@C1841@Human Pharmaceutical and Medicinal Product Manufacturing
+C184@C1842@Veterinary Pharmaceutical and Medicinal Product Manufacturing
+C18@C185@Cleaning Compound and Toiletry Preparation Manufacturing
+C185@C1851@Cleaning Compound Manufacturing
+C185@C1852@Cosmetic and Toiletry Preparation Manufacturing
+C18@C189@Other Basic Chemical Product Manufacturing
+C189@C1891@Photographic Chemical Product Manufacturing
+C189@C1892@Explosive Manufacturing
+C189@C1899@Other Basic Chemical Product Manufacturing n.e.c.
+C@C19@Polymer Product and Rubber Product Manufacturing
+C19@C191@Polymer Product Manufacturing
+C191@C1911@Polymer Film and Sheet Packaging Material Manufacturing
+C191@C1912@Rigid and Semi-Rigid Polymer Product Manufacturing
+C191@C1913@Polymer Foam Product Manufacturing
+C191@C1914@Tyre Manufacturing
+C191@C1915@Adhesive Manufacturing
+C191@C1916@Paint and Coatings Manufacturing
+C191@C1919@Other Polymer Product Manufacturing
+C19@C192@Natural Rubber Product Manufacturing
+C192@C1920@Natural Rubber Product Manufacturing
+C@C20@Non-Metallic Mineral Product Manufacturing
+C20@C201@Glass and Glass Product Manufacturing
+C201@C2010@Glass and Glass Product Manufacturing
+C20@C202@Ceramic Product Manufacturing
+C202@C2021@Clay Brick Manufacturing
+C202@C2029@Other Ceramic Product Manufacturing
+C20@C203@Cement, Lime, Plaster and Concrete Product Manufacturing
+C203@C2031@Cement and Lime Manufacturing
+C203@C2032@Plaster Product Manufacturing
+C203@C2033@Ready-Mixed Concrete Manufacturing
+C203@C2034@Concrete Product Manufacturing
+C20@C209@Other Non-Metallic Mineral Product Manufacturing
+C209@C2090@Other Non-Metallic Mineral Product Manufacturing
+C@C21@Primary Metal and Metal Product Manufacturing
+C21@C211@Basic Ferrous Metal Manufacturing
+C211@C2110@Iron Smelting and Steel Manufacturing
+C21@C212@Basic Ferrous Metal Product Manufacturing
+C212@C2121@Iron and Steel Casting
+C212@C2122@Steel Pipe and Tube Manufacturing
+C21@C213@Basic Non-Ferrous Metal Manufacturing
+C213@C2131@Alumina Production
+C213@C2132@Aluminium Smelting
+C213@C2133@Copper, Silver, Lead and Zinc Smelting and Refining
+C213@C2139@Other Basic Non-Ferrous Metal Manufacturing
+C21@C214@Basic Non-Ferrous Metal Product Manufacturing
+C214@C2141@Non-Ferrous Metal Casting
+C214@C2142@Aluminium Rolling, Drawing, Extruding
+C214@C2149@Other Basic Non-Ferrous Metal Product Manufacturing
+C@C22@Fabricated Metal Product Manufacturing
+C22@C221@Iron and Steel Forging
+C221@C2210@Iron and Steel Forging
+C22@C222@Structural Metal Product Manufacturing
+C222@C2221@Structural Steel Fabricating
+C222@C2222@Prefabricated Metal Building Manufacturing
+C222@C2223@Architectural Aluminium Product Manufacturing
+C222@C2224@Metal Roof and Guttering Manufacturing (except Aluminium)
+C222@C2229@Other Structural Metal Product Manufacturing
+C22@C223@Metal Container Manufacturing
+C223@C2231@Boiler, Tank and Other Heavy Gauge Metal Container Manufacturing
+C223@C2239@Other Metal Container Manufacturing
+C22@C224@Sheet Metal Product Manufacturing (except Metal Structural and Container Products)
+C224@C2240@Sheet Metal Product Manufacturing (except Metal Structural and Container Products)
+C22@C229@Other Fabricated Metal Product Manufacturing
+C229@C2291@Spring and Wire Product Manufacturing
+C229@C2292@Nut, Bolt, Screw and Rivet Manufacturing
+C229@C2293@Metal Coating and Finishing
+C229@C2299@Other Fabricated Metal Product Manufacturing n.e.c.
+C@C23@Transport Equipment Manufacturing
+C23@C231@Motor Vehicle and Motor Vehicle Part Manufacturing
+C231@C2311@Motor Vehicle Manufacturing
+C231@C2312@Motor Vehicle Body and Trailer Manufacturing
+C231@C2313@Automotive Electrical Component Manufacturing
+C231@C2319@Other Motor Vehicle Parts Manufacturing
+C23@C239@Other Transport Equipment Manufacturing
+C239@C2391@Shipbuilding and Repair Services
+C239@C2392@Boatbuilding and Repair Services
+C239@C2393@Railway Rolling Stock Manufacturing and Repair Services
+C239@C2394@Aircraft Manufacturing and Repair Services
+C239@C2399@Other Transport Equipment Manufacturing n.e.c.
+C@C24@Machinery and Equipment Manufacturing
+C24@C241@Professional and Scientific Equipment Manufacturing
+C241@C2411@Photographic, Optical and Ophthalmic Equipment Manufacturing
+C241@C2412@Medical and Surgical Equipment Manufacturing
+C241@C2419@Other Professional and Scientific Equipment Manufacturing
+C24@C242@Computer and Electronic Equipment Manufacturing
+C242@C2421@Computer and Electronic Office Equipment Manufacturing
+C242@C2422@Communication Equipment Manufacturing
+C242@C2429@Other Electronic Equipment Manufacturing
+C24@C243@Electrical Equipment Manufacturing
+C243@C2431@Electric Cable and Wire Manufacturing
+C243@C2432@Electric Lighting Equipment Manufacturing
+C243@C2439@Other Electrical Equipment Manufacturing
+C24@C244@Domestic Appliance Manufacturing
+C244@C2441@Whiteware Appliance Manufacturing
+C244@C2449@Other Domestic Appliance Manufacturing
+C24@C245@Pump, Compressor, Heating and Ventilation Equipment Manufacturing
+C245@C2451@Pump and Compressor Manufacturing
+C245@C2452@Fixed Space Heating, Cooling and Ventilation Equipment Manufacturing
+C24@C246@Specialised Machinery and Equipment Manufacturing
+C246@C2461@Agricultural Machinery and Equipment Manufacturing
+C246@C2462@Mining and Construction Machinery Manufacturing
+C246@C2463@Machine Tool and Parts Manufacturing
+C246@C2469@Other Specialised Machinery and Equipment Manufacturing
+C24@C249@Other Machinery and Equipment Manufacturing
+C249@C2491@Lifting and Material Handling Equipment Manufacturing
+C249@C2499@Other Machinery and Equipment Manufacturing n.e.c.
+C@C25@Furniture and Other Manufacturing
+C25@C251@Furniture Manufacturing
+C251@C2511@Wooden Furniture and Upholstered Seat Manufacturing
+C251@C2512@Metal Furniture Manufacturing
+C251@C2513@Mattress Manufacturing
+C251@C2519@Other Furniture Manufacturing
+C25@C259@Other Manufacturing
+C259@C2591@Jewellery and Silverware Manufacturing
+C259@C2592@Toy, Sporting and Recreational Product Manufacturing
+C259@C2599@Other Manufacturing n.e.c.
+@D@Electricity, Gas, Water and Waste Services
+D@D26@Electricity Supply
+D26@D261@Electricity Generation
+D261@D2611@Fossil Fuel Electricity Generation
+D261@D2612@Hydro-Electricity Generation
+D261@D2619@Other Electricity Generation
+D26@D262@Electricity Transmission
+D262@D2620@Electricity Transmission
+D26@D263@Electricity Distribution
+D263@D2630@Electricity Distribution
+D26@D264@On Selling Electricity and Electricity Market Operation
+D264@D2640@On Selling Electricity and Electricity Market Operation
+D@D27@Gas Supply
+D27@D270@Gas Supply
+D270@D2700@Gas Supply
+D@D28@Water Supply, Sewerage and Drainage Services
+D28@D281@Water Supply, Sewerage and Drainage Services
+D281@D2811@Water Supply
+D281@D2812@Sewerage and Drainage Services
+D@D29@Waste Collection, Treatment and Disposal Services
+D29@D291@Waste Collection Services
+D291@D2911@Solid Waste Collection Services
+D291@D2919@Other Waste Collection Services
+D29@D292@Waste Treatment, Disposal and Remediation Services
+D292@D2921@Waste Treatment and Disposal Services
+D292@D2922@Waste Remediation and Materials Recovery Services
+@E@Construction
+E@E30@Building Construction
+E30@E301@Residential Building Construction
+E301@E3011@House Construction
+E301@E3019@Other Residential Building Construction
+E30@E302@Non-Residential Building Construction
+E302@E3020@Non-Residential Building Construction
+E@E31@Heavy and Civil Engineering Construction
+E31@E310@Heavy and Civil Engineering Construction
+E310@E3101@Road and Bridge Construction
+E310@E3109@Other Heavy and Civil Engineering Construction
+E@E32@Construction Services
+E32@E321@Land Development and Site Preparation Services
+E321@E3211@Land Development and Subdivision
+E321@E3212@Site Preparation Services
+E32@E322@Building Structure Services
+E322@E3221@Concreting Services
+E322@E3222@Bricklaying Services
+E322@E3223@Roofing Services
+E322@E3224@Structural Steel Erection Services
+E32@E323@Building Installation Services
+E323@E3231@Plumbing Services
+E323@E3232@Electrical Services
+E323@E3233@Air Conditioning and Heating Services
+E323@E3234@Fire and Security Alarm Installation Services
+E323@E3239@Other Building Installation Services
+E32@E324@Building Completion Services
+E324@E3241@Plastering and Ceiling Services
+E324@E3242@Carpentry Services
+E324@E3243@Tiling and Carpeting Services
+E324@E3244@Painting and Decorating Services
+E324@E3245@Glazing Services
+E32@E329@Other Construction Services
+E329@E3291@Landscape Construction Services
+E329@E3292@Hire of Construction Machinery with Operator
+E329@E3299@Other Construction Services n.e.c.
+@F@Wholesale Trade
+F@F33@Basic Material Wholesaling
+F33@F331@Agricultural Product Wholesaling
+F331@F3311@Wool Wholesaling
+F331@F3312@Cereal Grain Wholesaling
+F331@F3319@Other Agricultural Product Wholesaling
+F33@F332@Mineral, Metal and Chemical Wholesaling
+F332@F3321@Petroleum Product Wholesaling
+F332@F3322@Metal and Mineral Wholesaling
+F332@F3323@Industrial and Agricultural Chemical Product Wholesaling
+F33@F333@Timber and Hardware Goods Wholesaling
+F333@F3331@Timber Wholesaling
+F333@F3332@Plumbing Goods Wholesaling
+F333@F3339@Other Hardware Goods Wholesaling
+F@F34@Machinery and Equipment Wholesaling
+F34@F341@Specialised Industrial Machinery and Equipment Wholesaling
+F341@F3411@Agricultural and Construction Machinery Wholesaling
+F341@F3419@Other Specialised Industrial Machinery and Equipment Wholesaling
+F34@F349@Other Machinery and Equipment Wholesaling
+F349@F3491@Professional and Scientific Goods Wholesaling
+F349@F3492@Computer and Computer Peripheral Wholesaling
+F349@F3493@Telecommunication Goods Wholesaling
+F349@F3494@Other Electrical and Electronic Goods Wholesaling
+F349@F3499@Other Machinery and Equipment Wholesaling n.e.c.
+F@F35@Motor Vehicle and Motor Vehicle Parts Wholesaling
+F35@F350@Motor Vehicle and Motor Vehicle Parts Wholesaling
+F350@F3501@Car Wholesaling
+F350@F3502@Commercial Vehicle Wholesaling
+F350@F3503@Trailer and Other Motor Vehicle Wholesaling
+F350@F3504@Motor Vehicle New Parts Wholesaling
+F350@F3505@Motor Vehicle Dismantling and Used Parts Wholesaling
+F@F36@Grocery, Liquor and Tobacco Product Wholesaling
+F36@F360@Grocery, Liquor and Tobacco Product Wholesaling
+F360@F3601@General Line Grocery Wholesaling
+F360@F3602@Meat, Poultry and Smallgoods Wholesaling
+F360@F3603@Dairy Produce Wholesaling
+F360@F3604@Fish and Seafood Wholesaling
+F360@F3605@Fruit and Vegetable Wholesaling
+F360@F3606@Liquor and Tobacco Product Wholesaling
+F360@F3609@Other Grocery Wholesaling
+F@F37@Other Goods Wholesaling
+F37@F371@Textile, Clothing and Footwear Wholesaling
+F371@F3711@Textile Product Wholesaling
+F371@F3712@Clothing and Footwear Wholesaling
+F37@F372@Pharmaceutical and Toiletry Goods Wholesaling
+F372@F3720@Pharmaceutical and Toiletry Goods Wholesaling
+F37@F373@Furniture, Floor Covering and Other Goods Wholesaling
+F373@F3731@Furniture and Floor Covering Wholesaling
+F373@F3732@Jewellery and Watch Wholesaling
+F373@F3733@Kitchen and Diningware Wholesaling
+F373@F3734@Toy and Sporting Goods Wholesaling
+F373@F3735@Book and Magazine Wholesaling
+F373@F3736@Paper Product Wholesaling
+F373@F3739@Other Goods Wholesaling n.e.c.
+F@F38@Commission-Based Wholesaling
+F38@F380@Commission-Based Wholesaling
+F380@F3800@Commission-Based Wholesaling
+@G@Retail Trade
+G@G39@Motor Vehicle and Motor Vehicle Parts Retailing
+G39@G391@Motor Vehicle Retailing
+G391@G3911@Car Retailing
+G391@G3912@Motor Cycle Retailing
+G391@G3913@Trailer and Other Motor Vehicle Retailing
+G39@G392@Motor Vehicle Parts and Tyre Retailing
+G392@G3921@Motor Vehicle Parts Retailing
+G392@G3922@Tyre Retailing
+G@G40@Fuel Retailing
+G40@G400@Fuel Retailing
+G400@G4000@Fuel Retailing
+G@G41@Food Retailing
+G41@G411@Supermarket and Grocery Stores
+G411@G4110@Supermarket and Grocery Stores
+G41@G412@Specialised Food Retailing
+G412@G4121@Fresh Meat, Fish and Poultry Retailing
+G412@G4122@Fruit and Vegetable Retailing
+G412@G4123@Liquor Retailing
+G412@G4129@Other Specialised Food Retailing
+G@G42@Other Store-Based Retailing
+G42@G421@Furniture, Floor Coverings, Houseware and Textile Goods Retailing
+G421@G4211@Furniture Retailing
+G421@G4212@Floor Coverings Retailing
+G421@G4213@Houseware Retailing
+G421@G4214@Manchester and Other Textile Goods Retailing
+G42@G422@Electrical and Electronic Goods Retailing
+G422@G4221@Electrical, Electronic and Gas Appliance Retailing
+G422@G4222@Computer and Computer Peripheral Retailing
+G422@G4229@Other Electrical and Electronic Goods Retailing
+G42@G423@Hardware, Building and Garden Supplies Retailing
+G423@G4231@Hardware and Building Supplies Retailing
+G423@G4232@Garden Supplies Retailing
+G42@G424@Recreational Goods Retailing
+G424@G4241@Sport and Camping Equipment Retailing
+G424@G4242@Entertainment Media Retailing
+G424@G4243@Toy and Game Retailing
+G424@G4244@Newspaper and Book Retailing
+G424@G4245@Marine Equipment Retailing
+G42@G425@Clothing, Footwear and Personal Accessory Retailing
+G425@G4251@Clothing Retailing
+G425@G4252@Footwear Retailing
+G425@G4253@Watch and Jewellery Retailing
+G425@G4259@Other Personal Accessory Retailing
+G42@G426@Department Stores
+G426@G4260@Department Stores
+G42@G427@Pharmaceutical and Other Store-Based Retailing
+G427@G4271@Pharmaceutical, Cosmetic and Toiletry Goods Retailing
+G427@G4272@Stationery Goods Retailing
+G427@G4273@Antique and Used Goods Retailing
+G427@G4274@Flower Retailing
+G427@G4279@Other Store-Based Retailing n.e.c.
+G@G43@Non-Store Retailing and Retail Commission-Based Buying and/or Selling
+G43@G431@Non-Store Retailing
+G431@G4310@Non-Store Retailing
+G43@G432@Retail Commission-Based Buying and/or Selling
+G432@G4320@Retail Commission-Based Buying and/or Selling
+@H@Accommodation and Food Services
+H@H44@Accommodation
+H44@H440@Accommodation
+H440@H4400@Accommodation
+H@H45@Food and Beverage Services
+H45@H451@Cafes, Restaurants and Takeaway Food Services
+H451@H4511@Cafes and Restaurants
+H451@H4512@Takeaway Food Services
+H451@H4513@Catering Services
+H45@H452@Pubs, Taverns and Bars
+H452@H4520@Pubs, Taverns and Bars
+H45@H453@Clubs (Hospitality)
+H453@H4530@Clubs (Hospitality)
+@I@Transport, Postal and Warehousing
+I@I46@Road Transport
+I46@I461@Road Freight Transport
+I461@I4610@Road Freight Transport
+I46@I462@Road Passenger Transport
+I462@I4621@Interurban and Rural Bus Transport
+I462@I4622@Urban Bus Transport (Including Tramway)
+I462@I4623@Taxi and Other Road Transport
+I@I47@Rail Transport
+I47@I471@Rail Freight Transport
+I471@I4710@Rail Freight Transport
+I47@I472@Rail Passenger Transport
+I472@I4720@Rail Passenger Transport
+I@I48@Water Transport
+I48@I481@Water Freight Transport
+I481@I4810@Water Freight Transport
+I48@I482@Water Passenger Transport
+I482@I4820@Water Passenger Transport
+I@I49@Air and Space Transport
+I49@I490@Air and Space Transport
+I490@I4900@Air and Space Transport
+I@I50@Other Transport
+I50@I501@Scenic and Sightseeing Transport
+I501@I5010@Scenic and Sightseeing Transport
+I50@I502@Pipeline and Other Transport
+I502@I5021@Pipeline Transport
+I502@I5029@Other Transport n.e.c.
+I@I51@Postal and Courier Pick-up and Delivery Services
+I51@I510@Postal and Courier Pick-up and Delivery Services
+I510@I5101@Postal Services
+I510@I5102@Courier Pick-up and Delivery Services
+I@I52@Transport Support Services
+I52@I521@Water Transport Support Services
+I521@I5211@Stevedoring Services
+I521@I5212@Port and Water Transport Terminal Operations
+I521@I5219@Other Water Transport Support Services
+I52@I522@Airport Operations and Other Air Transport Support Services
+I522@I5220@Airport Operations and Other Air Transport Support Services
+I52@I529@Other Transport Support Services
+I529@I5291@Customs Agency Services
+I529@I5292@Freight Forwarding Services
+I529@I5299@Other Transport Support Services n.e.c.
+I@I53@Warehousing and Storage Services
+I53@I530@Warehousing and Storage Services
+I530@I5301@Grain Storage Services
+I530@I5309@Other Warehousing and Storage Services
+@J@Information Media and Telecommunications
+J@J54@Publishing (except Internet and Music Publishing)
+J54@J541@Newspaper, Periodical, Book and Directory Publishing
+J541@J5411@Newspaper Publishing
+J541@J5412@Magazine and Other Periodical Publishing
+J541@J5413@Book Publishing
+J541@J5414@Directory and Mailing List Publishing
+J541@J5419@Other Publishing (except Software, Music and Internet)
+J54@J542@Software Publishing
+J542@J5420@Software Publishing
+J@J55@Motion Picture and Sound Recording Activities
+J55@J551@Motion Picture and Video Activities
+J551@J5511@Motion Picture and Video Production
+J551@J5512@Motion Picture and Video Distribution
+J551@J5513@Motion Picture Exhibition
+J551@J5514@Post-production Services and Other Motion Picture and Video Activities
+J55@J552@Sound Recording and Music Publishing
+J552@J5521@Music Publishing
+J552@J5522@Music and Other Sound Recording Activities
+J@J56@Broadcasting (except Internet)
+J56@J561@Radio Broadcasting
+J561@J5610@Radio Broadcasting
+J56@J562@Television Broadcasting
+J562@J5621@Free-to-Air Television Broadcasting
+J562@J5622@Cable and Other Subscription Broadcasting
+J@J57@Internet Publishing and Broadcasting
+J57@J570@Internet Publishing and Broadcasting
+J570@J5700@Internet Publishing and Broadcasting
+J@J58@Telecommunications Services
+J58@J580@Telecommunications Services
+J580@J5801@Wired Telecommunications Network Operation
+J580@J5802@Other Telecommunications Network Operation
+J580@J5809@Other Telecommunications Services
+J@J59@Internet Service Providers, Web Search Portals and Data Processing Services
+J59@J591@Internet Service Providers and Web Search Portals
+J591@J5910@Internet Service Providers and Web Search Portals
+J59@J592@Data Processing, Web Hosting and Electronic Information Storage Services
+J592@J5921@Data Processing and Web Hosting Services
+J592@J5922@Electronic Information Storage Services
+J@J60@Library and Other Information Services
+J60@J601@Libraries and Archives
+J601@J6010@Libraries and Archives
+J60@J602@Other Information Services
+J602@J6020@Other Information Services
+@K@Financial and Insurance Services
+K@K62@Finance
+K62@K621@Central Banking
+K621@K6210@Central Banking
+K62@K622@Depository Financial Intermediation
+K622@K6221@Banking
+K622@K6222@Building Society Operation
+K622@K6223@Credit Union Operation
+K622@K6229@Other Depository Financial Intermediation
+K62@K623@Non-Depository Financing
+K623@K6230@Non-Depository Financing
+K62@K624@Financial Asset Investing
+K624@K6240@Financial Asset Investing
+K@K63@Insurance and Superannuation Funds
+K63@K631@Life Insurance
+K631@K6310@Life Insurance
+K63@K632@Health and General Insurance
+K632@K6321@Health Insurance
+K632@K6322@General Insurance
+K63@K633@Superannuation Funds
+K633@K6330@Superannuation Funds
+K@K64@Auxiliary Finance and Insurance Services
+K64@K641@Auxiliary Finance and Investment Services
+K641@K6411@Financial Asset Broking Services
+K641@K6419@Other Auxiliary Finance and Investment Services
+K64@K642@Auxiliary Insurance Services
+K642@K6420@Auxiliary Insurance Services
+@L@Rental, Hiring and Real Estate Services
+L@L66@Rental and Hiring Services (except Real Estate)
+L66@L661@Motor Vehicle and Transport Equipment Rental and Hiring
+L661@L6611@Passenger Car Rental and Hiring
+L661@L6619@Other Motor Vehicle and Transport Equipment Rental and Hiring
+L66@L662@Farm Animal and Bloodstock Leasing
+L662@L6620@Farm Animal and Bloodstock Leasing
+L66@L663@Other Goods and Equipment Rental and Hiring
+L663@L6631@Heavy Machinery and Scaffolding Rental and Hiring
+L663@L6632@Video and Other Electronic Media Rental and Hiring
+L663@L6639@Other Goods and Equipment Rental and Hiring n.e.c.
+L66@L664@Non-Financial Intangible Assets (Except Copyrights) Leasing
+L664@L6640@Non-Financial Intangible Assets (Except Copyrights) Leasing
+L@L67@Property Operators and Real Estate Services
+L67@L671@Property Operators
+L671@L6711@Residential Property Operators
+L671@L6712@Non-Residential Property Operators
+L67@L672@Real Estate Services
+L672@L6720@Real Estate Services
+@M@Professional, Scientific and Technical Services
+M@M69@Professional, Scientific and Technical Services (Except Computer System Design and Related Services)
+M69@M691@Scientific Research Services
+M691@M6910@Scientific Research Services
+M69@M692@Architectural, Engineering and Technical Services
+M692@M6921@Architectural Services
+M692@M6922@Surveying and Mapping Services
+M692@M6923@Engineering Design and Engineering Consulting Services
+M692@M6924@Other Specialised Design Services
+M692@M6925@Scientific Testing and Analysis Services
+M69@M693@Legal and Accounting Services
+M693@M6931@Legal Services
+M693@M6932@Accounting Services
+M69@M694@Advertising Services
+M694@M6940@Advertising Services
+M69@M695@Market Research and Statistical Services
+M695@M6950@Market Research and Statistical Services
+M69@M696@Management and Related Consulting Services
+M696@M6961@Corporate Head Office Management Services
+M696@M6962@Management Advice and Related Consulting Services
+M69@M697@Veterinary Services
+M697@M6970@Veterinary Services
+M69@M699@Other Professional, Scientific and Technical Services
+M699@M6991@Professional Photographic Services
+M699@M6999@Other Professional, Scientific and Technical Services n.e.c.
+M@M70@Computer System Design and Related Services
+M70@M700@Computer System Design and Related Services
+M700@M7000@Computer System Design and Related Services
+@N@Administrative and Support Services
+N@N72@Administrative Services
+N72@N721@Employment Services
+N721@N7211@Employment Placement and Recruitment Services
+N721@N7212@Labour Supply Services
+N72@N722@Travel Agency and Tour Arrangement Services
+N722@N7220@Travel Agency and Tour Arrangement Services
+N72@N729@Other Administrative Services
+N729@N7291@Office Administrative Services
+N729@N7292@Document Preparation Services
+N729@N7293@Credit Reporting and Debt Collection Services
+N729@N7294@Call Centre Operation
+N729@N7299@Other Administrative Services n.e.c.
+N@N73@Building Cleaning, Pest Control and Other Support Services
+N73@N731@Building Cleaning, Pest Control and Gardening Services
+N731@N7311@Building and Other Industrial Cleaning Services
+N731@N7312@Building Pest Control Services
+N731@N7313@Gardening Services
+N73@N732@Packaging Services
+N732@N7320@Packaging Services
+@O@Public Administration and Safety
+O@O75@Public Administration
+O75@O751@Central Government Administration
+O751@O7510@Central Government Administration
+O75@O752@State Government Administration
+O752@O7520@State Government Administration
+O75@O753@Local Government Administration
+O753@O7530@Local Government Administration
+O75@O754@Justice
+O754@O7540@Justice
+O75@O755@Government Representation
+O755@O7551@Domestic Government Representation
+O755@O7552@Foreign Government Representation
+O@O76@Defence
+O76@O760@Defence
+O760@O7600@Defence
+O@O77@Public Order, Safety and Regulatory Services
+O77@O771@Public Order and Safety Services
+O771@O7711@Police Services
+O771@O7712@Investigation and Security Services
+O771@O7713@Fire Protection and Other Emergency Services
+O771@O7714@Correctional and Detention Services
+O771@O7719@Other Public Order and Safety Services
+O77@O772@Regulatory Services
+O772@O7720@Regulatory Services
+@P@Education and Training
+P@P80@Preschool and School Education
+P80@P801@Preschool Education
+P801@P8010@Preschool Education
+P80@P802@School Education
+P802@P8021@Primary Education
+P802@P8022@Secondary Education
+P802@P8023@Combined Primary and Secondary Education
+P802@P8024@Special School Education
+P@P81@Tertiary Education
+P81@P810@Tertiary Education
+P810@P8101@Technical and Vocational Education and Training
+P810@P8102@Higher Education
+P@P82@Adult, Community and Other Education
+P82@P821@Adult, Community and Other Education
+P821@P8211@Sports and Physical Recreation Instruction
+P821@P8212@Arts Education
+P821@P8219@Adult, Community and Other Education n.e.c.
+P82@P822@Educational Support Services
+P822@P8220@Educational Support Services
+@Q@Health Care and Social Assistance
+Q@Q84@Hospitals
+Q84@Q840@Hospitals
+Q840@Q8401@Hospitals (Except Psychiatric Hospitals)
+Q840@Q8402@Psychiatric Hospitals
+Q@Q85@Medical and Other Health Care Services
+Q85@Q851@Medical Services
+Q851@Q8511@General Practice Medical Services
+Q851@Q8512@Specialist Medical Services
+Q85@Q852@Pathology and Diagnostic Imaging Services
+Q852@Q8520@Pathology and Diagnostic Imaging Services
+Q85@Q853@Allied Health Services
+Q853@Q8531@Dental Services
+Q853@Q8532@Optometry and Optical Dispensing
+Q853@Q8533@Physiotherapy Services
+Q853@Q8534@Chiropractic and Osteopathic Services
+Q853@Q8539@Other Allied Health Services
+Q85@Q859@Other Health Care Services
+Q859@Q8591@Ambulance Services
+Q859@Q8599@Other Health Care Services n.e.c.
+Q@Q86@Residential Care Services
+Q86@Q860@Residential Care Services
+Q860@Q8601@Aged Care Residential Services
+Q860@Q8609@Other Residential Care Services
+Q@Q87@Social Assistance Services
+Q87@Q871@Child Care Services
+Q871@Q8710@Child Care Services
+Q87@Q879@Other Social Assistance Services
+Q879@Q8790@Other Social Assistance Services
+@R@Arts and Recreation Services
+R@R89@Heritage Activities
+R89@R891@Museum Operation
+R891@R8910@Museum Operation
+R89@R892@Parks and Gardens Operations
+R892@R8921@Zoological and Botanical Gardens Operation
+R892@R8922@Nature Reserves and Conservation Parks Operation
+R@R90@Creative and Performing Arts Activities
+R90@R900@Creative and Performing Arts Activities
+R900@R9001@Performing Arts Operation
+R900@R9002@Creative Artists, Musicians, Writers and Performers
+R900@R9003@Performing Arts Venue Operation
+R@R91@Sports and Recreation Activities
+R91@R911@Sports and Physical Recreation Activities
+R911@R9111@Health and Fitness Centres and Gymnasia Operation
+R911@R9112@Sports and Physical Recreation Clubs and Sports Professionals
+R911@R9113@Sports and Physical Recreation Venues, Grounds and Facilities Operation
+R911@R9114@Sports and Physical Recreation Administrative Service
+R91@R912@Horse and Dog Racing Activities
+R912@R9121@Horse and Dog Racing Administration and Track Operation
+R9121@R9129@Other Horse and Dog Racing Activities
+R91@R913@Amusement and Other Recreation Activities
+R913@R9131@Amusement Parks and Centres Operation
+R913@R9139@Amusement and Other Recreational Activities n.e.c.
+R@R92@Gambling Activities
+R913@R920@Gambling Activities
+R920@R9201@Casino Operation
+R920@R9202@Lottery Operation
+R920@R9209@Other Gambling Activities
+@S@Other Services
+S@S94@Repair and Maintenance
+S94@S941@Automotive Repair and Maintenance
+S941@S9411@Automotive Electrical Services
+S941@S9412@Automotive Body, Paint and Interior Repair
+S941@S9419@Other Automotive Repair and Maintenance
+S94@S942@Machinery and Equipment Repair and Maintenance
+S942@S9421@Domestic Appliance Repair and Maintenance
+S942@S9422@Electronic (except Domestic Appliance) and Precision Equipment Repair
+S942@S9429@Other Machinery and Equipment Repair and Maintenance
+S94@S949@Other Repair and Maintenance
+S949@S9491@Clothing and Footwear Repair
+S949@S9499@Other Repair and Maintenance n.e.c.
+S@S95@Personal and Other Services
+S95@S951@Personal Care Services
+S951@S9511@Hairdressing and Beauty Services
+S951@S9512@Diet and Weight Reduction Centre Operation
+S95@S952@Funeral, Crematorium and Cemetery Services
+S952@S9520@Funeral, Crematorium and Cemetery Services
+S95@S953@Other Personal Services
+S953@S9531@Laundry and Dry-Cleaning Services
+S953@S9532@Photographic Film Processing
+S953@S9533@Parking Services
+S953@S9534@Brothel Keeping and Prostitution Services
+S953@S9539@Other Personal Services n.e.c.
+S95@S954@Religious Services
+S954@S9540@Religious Services
+S95@S955@Civic, Professional and Other Interest Group Services
+S955@S9551@Business and Professional Association Services
+S955@S9552@Labour Association Services
+S955@S9559@Other Interest Group Services n.e.c.
+S@S96@Private Households Employing Staff and Undifferentiated Goods- and Service-Producing Activities of Households for Own Use
+S96@S960@Private Households Employing Staff and Undifferentiated Goods- and Service-Producing Activities of Households for Own Use
+S960@S9601@Private Households Employing Staff
+S960@S9602@Undifferentiated Goods-Producing Activities of Private Households for Own Use
+S960@S9603@Undifferentiated Service-Producing Activities of Private Households for Own Use

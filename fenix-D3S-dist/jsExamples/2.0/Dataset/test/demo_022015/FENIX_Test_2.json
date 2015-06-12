@@ -1,0 +1,616 @@
+{
+  "metadata" : {
+    "creationDate" : 1416697200000,
+    "language" : {
+      "version" : "1998",
+      "codes" : [ {
+        "code" : "eng",
+        "label" : {
+          "EN" : "English"
+        }
+      } ],
+      "idCodeList" : "ISO639-2",
+      "extendedName" : {
+        "EN" : "International Standard Organization - Language"
+      }
+    },
+    "title" : {
+      "EN" : "Area Harvested and Production of Crops"
+    },
+    "dsd" : {
+      "columns" : [ {
+        "dataType" : "code",
+        "key" : true,
+        "id" : "Area",
+        "title" : {
+          "EN" : "Area"
+        },
+        "values" : {
+          "codes" : [ {
+            "codes" : [ {
+              "code" : "255"
+            }, {
+              "code" : "3173"
+            }, {
+              "code" : "3177"
+            }, {
+              "code" : "3180"
+            }, {
+              "code" : "149626"
+            }, {
+              "code" : "3181"
+            }, {
+              "code" : "3179"
+            }, {
+              "code" : "149627"
+            } ],
+            "idCodeList" : "UAE_GAUL",
+            "extendedName" : {
+              "EN" : "Global administrative unit layer"
+            }
+          } ]
+        },
+        "domain" : {
+          "codes" : [ {
+            "idCodeList" : "UAE_GAUL",
+            "extendedName" : {
+              "EN" : "Global administrative unit layer"
+            }
+          } ]
+        },
+        "subject" : "geo"
+      }, {
+        "dataType" : "year",
+        "key" : true,
+        "id" : "Time",
+        "title" : {
+          "EN" : "Time"
+        },
+        "values" : {
+          "timeList" : [ 2012, 2013, 2014 ]
+        },
+        "subject" : "time"
+      }, {
+        "dataType" : "code",
+        "key" : true,
+        "id" : "Element",
+        "title" : {
+          "EN" : "Element"
+        },
+        "values" : {
+          "codes" : [ {
+            "codes" : [ {
+              "code" : "2312",
+              "label" : {
+                "EN" : "Area harvested"
+              }
+            }, {
+              "code" : "2510",
+              "label" : {
+                "EN" : "Production Quantity"
+              }
+            } ],
+            "idCodeList" : "UAE_Elements",
+            "extendedName" : {
+              "EN" : "United Arab Emirates - Elements"
+            }
+          } ]
+        },
+        "domain" : {
+          "codes" : [ {
+            "idCodeList" : "UAE_Elements",
+            "extendedName" : {
+              "EN" : "United Arab Emirates - Elements"
+            }
+          } ]
+        }
+      }, {
+        "dataType" : "code",
+        "key" : true,
+        "id" : "Commodity",
+        "title" : {
+          "EN" : "Commodity"
+        },
+        "values" : {
+          "codes" : [ {
+            "codes" : [ {
+              "code" : "0388",
+              "label" : {
+                "EN" : "Tomatoes, fresh"
+              }
+            }, {
+              "code" : "0399",
+              "label" : {
+                "EN" : "Eggplants"
+              }
+            }, {
+              "code" : "0394",
+              "label" : {
+                "EN" : "Pumpkins, squash and gourds"
+              }
+            }, {
+              "code" : "0397",
+              "label" : {
+                "EN" : "Cucumbers and gherkins"
+              }
+            }, {
+              "code" : "0358",
+              "label" : {
+                "EN" : "Cabbages"
+              }
+            }, {
+              "code" : "0393",
+              "label" : {
+                "EN" : "Cauliflowers and broccoli"
+              }
+            }, {
+              "code" : "0567",
+              "label" : {
+                "EN" : "Watermelons"
+              }
+            }, {
+              "code" : "0463",
+              "label" : {
+                "EN" : "Vegetables, Fresh n.e.s."
+              }
+            }, {
+              "code" : "0641",
+              "label" : {
+                "EN" : "Alfalfa for forage"
+              }
+            }, {
+              "code" : "0083",
+              "label" : {
+                "EN" : "Sorghum"
+              }
+            }, {
+              "code" : "0446",
+              "label" : {
+                "EN" : "Green Corn (Maize)"
+              }
+            }, {
+              "code" : "0639",
+              "label" : {
+                "EN" : "Grasses nes for forage"
+              }
+            }, {
+              "code" : "0497",
+              "label" : {
+                "EN" : "Lemons and limes"
+              }
+            }, {
+              "code" : "0512",
+              "label" : {
+                "EN" : "Citrus fruit nes"
+              }
+            }, {
+              "code" : "0571",
+              "label" : {
+                "EN" : "Mangoes"
+              }
+            }, {
+              "code" : "0569",
+              "label" : {
+                "EN" : "Figs"
+              }
+            }, {
+              "code" : "0221",
+              "label" : {
+                "EN" : "Almonds"
+              }
+            }, {
+              "code" : "0619",
+              "label" : {
+                "EN" : "Fruit, fresh nes"
+              }
+            } ],
+            "idCodeList" : "UAE_Commodity",
+            "extendedName" : {
+              "EN" : "UAE Commodity List"
+            }
+          } ]
+        },
+        "domain" : {
+          "codes" : [ {
+            "idCodeList" : "UAE_Commodity",
+            "extendedName" : {
+              "EN" : "UAE Commodity List"
+            }
+          } ]
+        },
+        "subject" : "item"
+      }, {
+        "dataType" : "code",
+        "key" : false,
+        "id" : "UM",
+        "title" : {
+          "EN" : "UM"
+        },
+        "values" : {
+          "codes" : [ {
+            "codes" : [ {
+              "code" : "DUN",
+              "label" : {
+                "EN" : "Dunum"
+              }
+            }, {
+              "code" : "TN",
+              "label" : {
+                "EN" : "Tonnes"
+              }
+            } ],
+            "idCodeList" : "UAE_UM",
+            "extendedName" : {
+              "EN" : "Unit of measure codelist"
+            }
+          } ]
+        },
+        "domain" : {
+          "codes" : [ {
+            "idCodeList" : "UAE_UM",
+            "extendedName" : {
+              "EN" : "Unit of measure codelist"
+            }
+          } ]
+        },
+        "subject" : "um"
+      }, {
+        "dataType" : "number",
+        "key" : false,
+        "id" : "Value",
+        "title" : {
+          "EN" : "Value"
+        },
+        "subject" : "value"
+      } ],
+      "datasource" : "D3S",
+      "contextSystem" : "demo1"
+    },
+    "uid" : "FENIX_Test_2",
+    "contacts" : [ {
+      "organization" : {
+        "EN" : "National Bureau of Statistics"
+      },
+      "position" : {
+        "EN" : "Agriculture Statistics Expert Assistant"
+      },
+      "role" : "distributor",
+      "contactInfo" : {
+        "address" : "Abu Dhabi",
+        "phone" : "0097126123172",
+        "emailAddress" : "nmahshi@nbs.gov.ae"
+      },
+      "pointOfContact" : "Naser Hasan Al Mahshi",
+      "organizationUnit" : {
+        "EN" : "Agriculture Statistics Division"
+      },
+      "roleLabel" : {
+        "EN" : "Distributor"
+      }
+    } ],
+    "meContent" : {
+      "description" : {
+        "EN" : "The dataset concerns Crop production in United Arab Emirates and provides the users with sub regional infiormation.\r\nCrop statistics are recorded for 19 products.\r\nData are expressed in terms of area harvested, production quantity. The objective is to provide regional level information about UAE.\r\n\r\n"
+      },
+      "resourceRepresentationType" : "dataset",
+      "resourceRepresentationTypeLabel" : {
+        "EN" : "Dataset"
+      },
+      "keywords" : [ "crops", "production", "area harvested" ],
+      "statisticalConceptsDefinitions" : {
+        "EN" : "Areas refer to the area under crops Area under crops means the area that corresponds to the total sown area, but after the harvest it excludes ruined areas (e.g. due to natural disasters).  If the same land parcel is used twice in the same year, the area of this parcel can be counted twice. Production means the harvested production. Harvested production means production including on-holding losses and wastage, quantities consumed directly on the farm and marketed quantities, indicated in units of basic product weight. \r\n"
+      },
+      "seCoverage" : {
+        "coverageSectorsDetails" : {
+          "EN" : ""
+        },
+        "coverageTime" : {
+          "from" : 1325372400000,
+          "to" : 1356908400000
+        },
+        "coverageGeographic" : {
+          "version" : "2014",
+          "codes" : [ {
+            "code" : "255",
+            "label" : {
+              "PT" : "Emirados Árabes Unidos",
+              "FR" : "Émirats arabes unis",
+              "AR" : "الإمارات العربية المتحدة",
+              "EN" : "United Arab Emirates",
+              "RU" : "Объединенные Арабские Эмираты",
+              "ES" : "Emiratos Árabes Unidos",
+              "ZH" : "阿拉伯联合酋长国"
+            }
+          } ],
+          "idCodeList" : "GAUL0",
+          "extendedName" : {
+            "EN" : "Global administrative unit layer country level"
+          }
+        },
+        "coverageSectors" : {
+          "codes" : [ {
+            "code" : "311",
+            "label" : {
+              "EN" : "AGRICULTURE"
+            }
+          }, {
+            "code" : "31161",
+            "label" : {
+              "EN" : "Food crop production"
+            }
+          } ],
+          "idCodeList" : "CRS_purpose_codes",
+          "extendedName" : {
+            "EN" : "Purpose Codes: sector classification"
+          }
+        }
+      }
+    },
+    "meMaintenance" : {
+      "seUpdate" : {
+        "updateDate" : 1416697200000,
+        "updatePeriodicity" : {
+          "version" : "1.0",
+          "codes" : [ {
+            "code" : "9",
+            "label" : {
+              "EN" : "Year"
+            }
+          } ],
+          "idCodeList" : "FAO_Period",
+          "extendedName" : {
+            "EN" : "FAO Reference Period"
+          }
+        }
+      },
+      "maintenanceAgency" : {
+        "EN" : "National Bureau of Statistics\r\n"
+      },
+      "seMetadataMaintenance" : {
+        "metadataLastUpdate" : 1416870000000
+      }
+    },
+    "noDataValue" : "…",
+    "languageDetails" : {
+      "EN" : ""
+    },
+    "characterSet" : {
+      "codes" : [ {
+        "code" : "106",
+        "label" : {
+          "EN" : "UTF-8"
+        }
+      } ],
+      "idCodeList" : "IANAcharacterSet",
+      "extendedName" : {
+        "EN" : "Internet Assigned Numbers Authority codelist"
+      }
+    },
+    "metadataStandardName" : "FENIX",
+    "metadataStandardVersion" : "1.0",
+    "metadataLanguage" : {
+      "version" : "1998",
+      "codes" : [ {
+        "code" : "eng",
+        "label" : {
+          "EN" : "English"
+        }
+      } ],
+      "idCodeList" : "ISO639-2",
+      "extendedName" : {
+        "EN" : "International Standard Organization - Language"
+      }
+    },
+    "meDocuments" : [ {
+      "document" : {
+        "date" : 1416697200000,
+        "title" : {
+          "EN" : "Metadata for Area harvested and Production Quantity of Crops "
+        },
+        "documentKind" : "methodologicalNotes",
+        "documentContact" : {
+          "organization" : {
+            "EN" : "National Bureau of Statistics"
+          },
+          "position" : {
+            "EN" : "Agriculture Statistics Expert Assistant"
+          },
+          "role" : "distributor",
+          "contactInfo" : {
+            "address" : "Abu dhabi",
+            "phone" : "0097126123172",
+            "emailAddress" : "nmahshi@nbs.gov.ae",
+            "hoursOfService" : {
+              "EN" : "7 hours daily"
+            }
+          },
+          "pointOfContact" : "Naser Hasan",
+          "organizationUnit" : {
+            "EN" : "Agriculture Statistics Division"
+          },
+          "roleLabel" : {
+            "EN" : "Distributor"
+          }
+        },
+        "notes" : {
+          "EN" : ""
+        },
+        "documentKindLabel" : {
+          "EN" : "Methodological notes"
+        }
+      }
+    } ],
+    "meInstitutionalMandate" : {
+      "legalActsAgreements" : {
+        "EN" : "Federal Law No. 9 of 2009 Concerning the Establishment of The National Bureau of Statistics: Article 3"
+      },
+      "institutionalMandateDataSharing" : {
+        "EN" : "Official agreements have been set up in order to ensure data sharing between International Organizations and local Institutions. In particular the Agencies involved in the agreements are:\r\n1)\r\n2)\r\n3)\r\n...\r\nIf available it could be attached an official agreement through the metadata entity \"DOCUMENT\"."
+      }
+    },
+    "meAccessibility" : {
+      "seClarity" : {
+        "clarity" : {
+          "EN" : "Metadata have been properly compiled and offer a complete overview of the dataset content both from a methodological and  descriptive point of view. In addition several documents have been attached to the resource.\r\n"
+        }
+      },
+      "seConfidentiality" : {
+        "confidentialityPolicy" : {
+          "EN" : "FAO Statistical Quality Assurance Framework, Principle 10: \"All data subject to national confidentiality policies (e.g. concerning people and legal entities, or small aggregates) are kept strictly confidential, and are used exclusively for statistical purposes, or for purposes mandated by legislation.\"\r\n"
+        },
+        "confidentialityDataTreatment" : {
+          "EN" : "Since data have been aggregated, there are not problems of confidentiality. In addition each statistical unit has been identified through an anonymous id.\r\n"
+        },
+        "confidentialityStatus" : {
+          "version" : "1.0",
+          "codes" : [ {
+            "code" : "F",
+            "label" : {
+              "EN" : "Free"
+            }
+          } ],
+          "idCodeList" : "CL_CONF_STATUS",
+          "extendedName" : {
+            "EN" : "Confidentiality status (SDMX)"
+          }
+        }
+      }
+    },
+    "meDataQuality" : {
+      "qualityManagement" : {
+        "EN" : ""
+      },
+      "qualityAssessment" : {
+        "EN" : "The quality of data varies considerably between regions.  There are no routines for assessing the quality, except for some input validation. Ideally, sample surveys should be representative of at least 95% of the total area and land under that crop. Surveys on production heve been conducted using statistically recognized methods as regards quality, objectivity and reliability. \r\n"
+      },
+      "qualityAssurance" : {
+        "EN" : "FAO Statistics Quality Assurance Framework\r\n"
+      },
+      "seAccuracy" : {
+        "accuracyNonSampling" : {
+          "EN" : "not applicable\r\n"
+        },
+        "accuracySampling" : {
+          "EN" : "not applicable\r\n"
+        }
+      },
+      "seRelevance" : {
+        "userNeeds" : {
+          "EN" : ""
+        },
+        "userSatisfaction" : {
+          "EN" : ""
+        },
+        "completeness" : {
+          "EN" : "Te dataset is almost complete.\r\n"
+        }
+      },
+      "seComparability" : {
+        "comparabilityGeographical" : {
+          "EN" : ""
+        },
+        "comparabilityTime" : {
+          "EN" : "Measures refers all to 2012 \r\n"
+        },
+        "coherenceIntern" : {
+          "EN" : "Coherence in definitions of domains and concepts are guaranteed in this dataset.\r\n"
+        }
+      },
+      "seTimelinessPunctuality" : {
+        "timeliness" : {
+          "EN" : ""
+        },
+        "punctuality" : {
+          "EN" : "Data are released in November/December  every year. Despite efforts, it has not been possible to shorten the gap between the reference year and the release date .\r\n"
+        }
+      }
+    },
+    "meStatisticalProcessing" : {
+      "seDataSource" : {
+        "sePrimaryDataCollection" : {
+          "dataCollection" : {
+            "EN" : "administrative records are used\r\n"
+          },
+          "dataCollector" : {
+            "organization" : {
+              "EN" : "National Bureau of Statistics"
+            },
+            "position" : {
+              "EN" : "Agriculture Statistics Expert Assistant"
+            },
+            "role" : "distributor",
+            "contactInfo" : {
+              "address" : "Abu Dhabi",
+              "phone" : "0097126123172",
+              "emailAddress" : "nmahshi@nbs.gov.ae",
+              "hoursOfService" : {
+                "EN" : "7 hours daily"
+              }
+            },
+            "pointOfContact" : "Naser Hasan Al Mahshi",
+            "organizationUnit" : {
+              "EN" : "Agriculture Statistics Division"
+            },
+            "roleLabel" : {
+              "EN" : "Distributor"
+            }
+          },
+          "typeOfCollection" : {
+            "version" : "1.0",
+            "codes" : [ {
+              "code" : "06",
+              "label" : {
+                "EN" : "Administrative data"
+              }
+            } ],
+            "idCodeList" : "FAOSTAT_Collection",
+            "extendedName" : {
+              "EN" : "Type or usage of  the data collection"
+            }
+          },
+          "samplingProcedure" : {
+            "EN" : "not applicable"
+          },
+          "collectionPeriodicity" : {
+            "version" : "1.0",
+            "codes" : [ {
+              "code" : "9",
+              "label" : {
+                "EN" : "Year"
+              }
+            } ],
+            "idCodeList" : "FAO_Period",
+            "extendedName" : {
+              "EN" : "FAO Reference Period"
+            }
+          }
+        },
+        "seSecondaryDataCollection" : {
+          "organization" : {
+            "EN" : "Ministry of Environment and Water"
+          },
+          "originOfCollectedData" : {
+            "version" : "1.0",
+            "codes" : [ {
+              "code" : "A",
+              "label" : {
+                "EN" : "Other IOs"
+              }
+            } ],
+            "idCodeList" : "FAOSTAT_OriginData",
+            "extendedName" : {
+              "EN" : "Origin of collected data"
+            }
+          },
+          "rawDataDescription" : {
+            "EN" : "Raw data were almost complete and were not aggregated.\r\n"
+          },
+          "dataCollection" : {
+            "EN" : "not available"
+          }
+        }
+      }
+    }
+  },
+  "data" : [ [ "255", 2012, "2312", "0388", "DUN", 7419 ], [ "255", 2012, "2312", "0399", "DUN", 3154 ], [ "255", 2012, "2312", "0394", "DUN", 7083 ], [ "255", 2012, "2312", "0397", "DUN", 2649 ], [ "255", 2012, "2312", "0358", "DUN", 3362 ], [ "255", 2012, "2312", "0393", "DUN", 2424 ], [ "255", 2012, "2312", "0567", "DUN", 2801 ], [ "255", 2012, "2312", "0463", "DUN", 18770 ], [ "255", 2012, "2312", "0641", "DUN", 6026 ], [ "255", 2012, "2312", "0083", "DUN", 3777.1 ], [ "255", 2012, "2312", "0446", "DUN", 3117.1 ], [ "255", 2012, "2312", "0639", "DUN", 32358 ], [ "255", 2012, "2312", "0497", "DUN", 2367 ], [ "255", 2012, "2312", "0512", "DUN", 2200 ], [ "255", 2012, "2312", "0571", "DUN", 3989 ], [ "255", 2012, "2312", "0569", "DUN", 614 ], [ "255", 2012, "2312", "0221", "DUN", 401.7 ], [ "255", 2012, "2312", "0619", "DUN", 386202 ], [ "255", 2012, "2510", "0388", "TN", 35470 ], [ "255", 2012, "2510", "0399", "TN", 10695 ], [ "255", 2012, "2510", "0394", "TN", 21355 ], [ "255", 2012, "2510", "0397", "TN", 15105 ], [ "255", 2012, "2510", "0358", "TN", 12670 ], [ "255", 2012, "2510", "0393", "TN", 6890 ], [ "255", 2012, "2510", "0567", "TN", 12664 ], [ "255", 2012, "2510", "0463", "TN", 39296 ], [ "255", 2012, "2510", "0641", "TN", 44400.4 ], [ "255", 2012, "2510", "0083", "TN", 19997.3 ], [ "255", 2012, "2510", "0446", "TN", 3779.2 ], [ "255", 2012, "2510", "0639", "TN", 115526 ], [ "255", 2012, "2510", "0497", "TN", 1748 ], [ "255", 2012, "2510", "0512", "TN", 1855 ], [ "255", 2012, "2510", "0571", "TN", 3841 ], [ "255", 2012, "2510", "0569", "TN", 228 ], [ "255", 2012, "2510", "0221", "TN", 274.1 ], [ "255", 2012, "2510", "0619", "TN", 220218 ], [ "3173", 2012, "2312", "0388", "DUN", 2172.2 ], [ "3173", 2012, "2312", "0399", "DUN", 500.9 ], [ "3173", 2012, "2312", "0394", "DUN", 652.2 ], [ "3173", 2012, "2312", "0397", "DUN", 1188.8 ], [ "3173", 2012, "2312", "0358", "DUN", 1899.5 ], [ "3173", 2012, "2312", "0393", "DUN", 158.5 ], [ "3173", 2012, "2312", "0567", "DUN", 2205.4 ], [ "3173", 2012, "2312", "0463", "DUN", 6942.3 ], [ "3173", 2012, "2312", "0641", "DUN", 0 ], [ "3173", 2012, "2312", "0083", "DUN", 3110 ], [ "3173", 2012, "2312", "0446", "DUN", 803 ], [ "3173", 2012, "2312", "0639", "DUN", 14850 ], [ "3173", 2012, "2312", "0497", "DUN", 984 ], [ "3173", 2012, "2312", "0512", "DUN", 273 ], [ "3173", 2012, "2312", "0571", "DUN", 386 ], [ "3173", 2012, "2312", "0569", "DUN", 357 ], [ "3173", 2012, "2312", "0221", "DUN", 144 ], [ "3173", 2012, "2312", "0619", "DUN", 300780 ], [ "3173", 2012, "2510", "0388", "TN", 11321.1 ], [ "3173", 2012, "2510", "0399", "TN", 1274 ], [ "3173", 2012, "2510", "0394", "TN", 1630.7 ], [ "3173", 2012, "2510", "0397", "TN", 11293.6 ], [ "3173", 2012, "2510", "0358", "TN", 8402.8 ], [ "3173", 2012, "2510", "0393", "TN", 316.9 ], [ "3173", 2012, "2510", "0567", "TN", 10896.5 ], [ "3173", 2012, "2510", "0463", "TN", 10324.2 ], [ "3173", 2012, "2510", "0641", "TN", 0 ], [ "3173", 2012, "2510", "0083", "TN", 3762 ], [ "3173", 2012, "2510", "0446", "TN", 3412.8 ], [ "3173", 2012, "2510", "0639", "TN", 29088 ], [ "3173", 2012, "2510", "0497", "TN", null ], [ "3173", 2012, "2510", "0512", "TN", null ], [ "3173", 2012, "2510", "0571", "TN", null ], [ "3173", 2012, "2510", "0569", "TN", null ], [ "3173", 2012, "2510", "0221", "TN", null ], [ "3173", 2012, "2510", "0619", "TN", null ], [ "3177", 2012, "2312", "0388", "DUN", 124 ], [ "3177", 2012, "2312", "0399", "DUN", 79.3 ], [ "3177", 2012, "2312", "0394", "DUN", 267.4 ], [ "3177", 2012, "2312", "0397", "DUN", 53.1 ], [ "3177", 2012, "2312", "0358", "DUN", 39 ], [ "3177", 2012, "2312", "0393", "DUN", 42.3 ], [ "3177", 2012, "2312", "0567", "DUN", 59.2 ], [ "3177", 2012, "2312", "0463", "DUN", 787.2 ], [ "3177", 2012, "2312", "0641", "DUN", 632.1 ], [ "3177", 2012, "2312", "0083", "DUN", 147.1 ], [ "3177", 2012, "2312", "0446", "DUN", 0 ], [ "3177", 2012, "2312", "0639", "DUN", 1104 ], [ "3177", 2012, "2312", "0497", "DUN", 223 ], [ "3177", 2012, "2312", "0512", "DUN", 61.8 ], [ "3177", 2012, "2312", "0571", "DUN", 169.1 ], [ "3177", 2012, "2312", "0569", "DUN", 54.1 ], [ "3177", 2012, "2312", "0221", "DUN", 66.2 ], [ "3177", 2012, "2312", "0619", "DUN", 13260.8 ], [ "3177", 2012, "2510", "0388", "TN", 567.3 ], [ "3177", 2012, "2510", "0399", "TN", 287.5 ], [ "3177", 2012, "2510", "0394", "TN", 805.1 ], [ "3177", 2012, "2510", "0397", "TN", 145.8 ], [ "3177", 2012, "2510", "0358", "TN", 115.8 ], [ "3177", 2012, "2510", "0393", "TN", 113.4 ], [ "3177", 2012, "2510", "0567", "TN", 177.5 ], [ "3177", 2012, "2510", "0463", "TN", 2095.6 ], [ "3177", 2012, "2510", "0641", "TN", 3912.5 ], [ "3177", 2012, "2510", "0083", "TN", 823.5 ], [ "3177", 2012, "2510", "0446", "TN", 0 ], [ "3177", 2012, "2510", "0639", "TN", 4604.4 ], [ "3177", 2012, "2510", "0497", "TN", 105 ], [ "3177", 2012, "2510", "0512", "TN", 24.5 ], [ "3177", 2012, "2510", "0571", "TN", 86.6 ], [ "3177", 2012, "2510", "0569", "TN", 52.3 ], [ "3177", 2012, "2510", "0221", "TN", 111.3 ], [ "3177", 2012, "2510", "0619", "TN", 20847.6 ], [ "3180", 2012, "2312", "0388", "DUN", 1137 ], [ "3180", 2012, "2312", "0399", "DUN", 374 ], [ "3180", 2012, "2312", "0394", "DUN", 2759 ], [ "3180", 2012, "2312", "0397", "DUN", 253.3 ], [ "3180", 2012, "2312", "0358", "DUN", 506 ], [ "3180", 2012, "2312", "0393", "DUN", 110 ], [ "3180", 2012, "2312", "0567", "DUN", 168 ], [ "3180", 2012, "2312", "0463", "DUN", 2768 ], [ "3180", 2012, "2312", "0641", "DUN", 1467 ], [ "3180", 2012, "2312", "0083", "DUN", 664 ], [ "3180", 2012, "2312", "0446", "DUN", 0 ], [ "3180", 2012, "2312", "0639", "DUN", 2950 ], [ "3180", 2012, "2312", "0497", "DUN", 585 ], [ "3180", 2012, "2312", "0512", "DUN", 137 ], [ "3180", 2012, "2312", "0571", "DUN", 353 ], [ "3180", 2012, "2312", "0569", "DUN", 12 ], [ "3180", 2012, "2312", "0221", "DUN", 34 ], [ "3180", 2012, "2312", "0619", "DUN", 22958 ], [ "3180", 2012, "2510", "0388", "TN", 5522 ], [ "3180", 2012, "2510", "0399", "TN", 1357 ], [ "3180", 2012, "2510", "0394", "TN", 8334 ], [ "3180", 2012, "2510", "0397", "TN", 721 ], [ "3180", 2012, "2510", "0358", "TN", 1378 ], [ "3180", 2012, "2510", "0393", "TN", 265 ], [ "3180", 2012, "2510", "0567", "TN", 485 ], [ "3180", 2012, "2510", "0463", "TN", 6766 ], [ "3180", 2012, "2510", "0641", "TN", 12248 ], [ "3180", 2012, "2510", "0083", "TN", 4484 ], [ "3180", 2012, "2510", "0446", "TN", 0 ], [ "3180", 2012, "2510", "0639", "TN", 18412 ], [ "3180", 2012, "2510", "0497", "TN", 644 ], [ "3180", 2012, "2510", "0512", "TN", 150 ], [ "3180", 2012, "2510", "0571", "TN", 354 ], [ "3180", 2012, "2510", "0569", "TN", 9 ], [ "3180", 2012, "2510", "0221", "TN", 19 ], [ "3180", 2012, "2510", "0619", "TN", 34445 ], [ "149626", 2012, "2312", "0388", "DUN", 103.6 ], [ "149626", 2012, "2312", "0399", "DUN", 21 ], [ "149626", 2012, "2312", "0394", "DUN", 85.2 ], [ "149626", 2012, "2312", "0397", "DUN", 52 ], [ "149626", 2012, "2312", "0358", "DUN", 19.5 ], [ "149626", 2012, "2312", "0393", "DUN", 21.8 ], [ "149626", 2012, "2312", "0567", "DUN", 15.8 ], [ "149626", 2012, "2312", "0463", "DUN", 130.8 ], [ "149626", 2012, "2312", "0641", "DUN", 279 ], [ "149626", 2012, "2312", "0083", "DUN", 117 ], [ "149626", 2012, "2312", "0446", "DUN", 0 ], [ "149626", 2012, "2312", "0639", "DUN", 1201 ], [ "149626", 2012, "2312", "0497", "DUN", 58 ], [ "149626", 2012, "2312", "0512", "DUN", 27 ], [ "149626", 2012, "2312", "0571", "DUN", 73 ], [ "149626", 2012, "2312", "0569", "DUN", 43 ], [ "149626", 2012, "2312", "0221", "DUN", 51 ], [ "149626", 2012, "2312", "0619", "DUN", 5014 ], [ "149626", 2012, "2510", "0388", "TN", 506 ], [ "149626", 2012, "2510", "0399", "TN", 69 ], [ "149626", 2012, "2510", "0394", "TN", 268 ], [ "149626", 2012, "2510", "0397", "TN", 165 ], [ "149626", 2012, "2510", "0358", "TN", 63 ], [ "149626", 2012, "2510", "0393", "TN", 59 ], [ "149626", 2012, "2510", "0567", "TN", 45 ], [ "149626", 2012, "2510", "0463", "TN", 383 ], [ "149626", 2012, "2510", "0641", "TN", 1454 ], [ "149626", 2012, "2510", "0083", "TN", 768 ], [ "149626", 2012, "2510", "0446", "TN", 0 ], [ "149626", 2012, "2510", "0639", "TN", 6829 ], [ "149626", 2012, "2510", "0497", "TN", 69 ], [ "149626", 2012, "2510", "0512", "TN", 27 ], [ "149626", 2012, "2510", "0571", "TN", 77 ], [ "149626", 2012, "2510", "0569", "TN", 35 ], [ "149626", 2012, "2510", "0221", "TN", 37 ], [ "149626", 2012, "2510", "0619", "TN", 9709 ], [ "3181", 2012, "2312", "0388", "DUN", 295 ], [ "3181", 2012, "2312", "0399", "DUN", 60 ], [ "3181", 2012, "2312", "0394", "DUN", 372 ], [ "3181", 2012, "2312", "0397", "DUN", 28 ], [ "3181", 2012, "2312", "0358", "DUN", 9 ], [ "3181", 2012, "2312", "0393", "DUN", 5 ], [ "3181", 2012, "2312", "0567", "DUN", 19 ], [ "3181", 2012, "2312", "0463", "DUN", 78 ], [ "3181", 2012, "2312", "0641", "DUN", 904 ], [ "3181", 2012, "2312", "0083", "DUN", 123 ], [ "3181", 2012, "2312", "0446", "DUN", 0 ], [ "3181", 2012, "2312", "0639", "DUN", 1409 ], [ "3181", 2012, "2312", "0497", "DUN", 31 ], [ "3181", 2012, "2312", "0512", "DUN", 17 ], [ "3181", 2012, "2312", "0571", "DUN", 3 ], [ "3181", 2012, "2312", "0569", "DUN", 7 ], [ "3181", 2012, "2312", "0221", "DUN", 10 ], [ "3181", 2012, "2312", "0619", "DUN", 6441 ], [ "3181", 2012, "2510", "0388", "TN", 1435 ], [ "3181", 2012, "2510", "0399", "TN", 131 ], [ "3181", 2012, "2510", "0394", "TN", 808 ], [ "3181", 2012, "2510", "0397", "TN", 64 ], [ "3181", 2012, "2510", "0358", "TN", 28 ], [ "3181", 2012, "2510", "0393", "TN", 9 ], [ "3181", 2012, "2510", "0567", "TN", 76 ], [ "3181", 2012, "2510", "0463", "TN", 216 ], [ "3181", 2012, "2510", "0641", "TN", 8414 ], [ "3181", 2012, "2510", "0083", "TN", 1069 ], [ "3181", 2012, "2510", "0446", "TN", 0 ], [ "3181", 2012, "2510", "0639", "TN", 10709 ], [ "3181", 2012, "2510", "0497", "TN", 74 ], [ "3181", 2012, "2510", "0512", "TN", 38 ], [ "3181", 2012, "2510", "0571", "TN", 4 ], [ "3181", 2012, "2510", "0569", "TN", 9 ], [ "3181", 2012, "2510", "0221", "TN", 13 ], [ "3181", 2012, "2510", "0619", "TN", 15050 ], [ "3179", 2012, "2312", "0388", "DUN", 2589 ], [ "3179", 2012, "2312", "0399", "DUN", 1782 ], [ "3179", 2012, "2312", "0394", "DUN", 2701 ], [ "3179", 2012, "2312", "0397", "DUN", 785 ], [ "3179", 2012, "2312", "0358", "DUN", 316 ], [ "3179", 2012, "2312", "0393", "DUN", 1824 ], [ "3179", 2012, "2312", "0567", "DUN", 96 ], [ "3179", 2012, "2312", "0463", "DUN", 4749 ], [ "3179", 2012, "2312", "0641", "DUN", 2697 ], [ "3179", 2012, "2312", "0083", "DUN", 1025 ], [ "3179", 2012, "2312", "0446", "DUN", 4 ], [ "3179", 2012, "2312", "0639", "DUN", 9591 ], [ "3179", 2012, "2312", "0497", "DUN", 237 ], [ "3179", 2012, "2312", "0512", "DUN", 185 ], [ "3179", 2012, "2312", "0571", "DUN", 222 ], [ "3179", 2012, "2312", "0569", "DUN", 70 ], [ "3179", 2012, "2312", "0221", "DUN", 75 ], [ "3179", 2012, "2312", "0619", "DUN", 27554 ], [ "3179", 2012, "2510", "0388", "TN", 11650 ], [ "3179", 2012, "2510", "0399", "TN", 6594 ], [ "3179", 2012, "2510", "0394", "TN", 8942 ], [ "3179", 2012, "2510", "0397", "TN", 1805 ], [ "3179", 2012, "2510", "0358", "TN", 924 ], [ "3179", 2012, "2510", "0393", "TN", 5426 ], [ "3179", 2012, "2510", "0567", "TN", 279 ], [ "3179", 2012, "2510", "0463", "TN", 12078 ], [ "3179", 2012, "2510", "0641", "TN", 18207 ], [ "3179", 2012, "2510", "0083", "TN", 5575 ], [ "3179", 2012, "2510", "0446", "TN", 8 ], [ "3179", 2012, "2510", "0639", "TN", 41441 ], [ "3179", 2012, "2510", "0497", "TN", 525 ], [ "3179", 2012, "2510", "0512", "TN", 305 ], [ "3179", 2012, "2510", "0571", "TN", 393 ], [ "3179", 2012, "2510", "0569", "TN", 78 ], [ "3179", 2012, "2510", "0221", "TN", 86 ], [ "3179", 2012, "2510", "0619", "TN", 41527 ], [ "149627", 2012, "2312", "0388", "DUN", 998 ], [ "149627", 2012, "2312", "0399", "DUN", 337 ], [ "149627", 2012, "2312", "0394", "DUN", 245 ], [ "149627", 2012, "2312", "0397", "DUN", 289 ], [ "149627", 2012, "2312", "0358", "DUN", 572 ], [ "149627", 2012, "2312", "0393", "DUN", 262 ], [ "149627", 2012, "2312", "0567", "DUN", 237 ], [ "149627", 2012, "2312", "0463", "DUN", 2511 ], [ "149627", 2012, "2312", "0641", "DUN", 47 ], [ "149627", 2012, "2312", "0083", "DUN", 1701 ], [ "149627", 2012, "2312", "0446", "DUN", 2 ], [ "149627", 2012, "2312", "0639", "DUN", 1255 ], [ "149627", 2012, "2312", "0497", "DUN", 249 ], [ "149627", 2012, "2312", "0512", "DUN", 1499 ], [ "149627", 2012, "2312", "0571", "DUN", 2783 ], [ "149627", 2012, "2312", "0569", "DUN", 71 ], [ "149627", 2012, "2312", "0221", "DUN", 21 ], [ "149627", 2012, "2312", "0619", "DUN", 10190 ], [ "149627", 2012, "2510", "0388", "TN", 4467 ], [ "149627", 2012, "2510", "0399", "TN", 983 ], [ "149627", 2012, "2510", "0394", "TN", 567 ], [ "149627", 2012, "2510", "0397", "TN", 909 ], [ "149627", 2012, "2510", "0358", "TN", 1758 ], [ "149627", 2012, "2510", "0393", "TN", 701 ], [ "149627", 2012, "2510", "0567", "TN", 705 ], [ "149627", 2012, "2510", "0463", "TN", 5480 ], [ "149627", 2012, "2510", "0641", "TN", 165 ], [ "149627", 2012, "2510", "0083", "TN", 7278 ], [ "149627", 2012, "2510", "0446", "TN", 9 ], [ "149627", 2012, "2510", "0639", "TN", 4443 ], [ "149627", 2012, "2510", "0497", "TN", 331 ], [ "149627", 2012, "2510", "0512", "TN", 1311 ], [ "149627", 2012, "2510", "0571", "TN", 2926 ], [ "149627", 2012, "2510", "0569", "TN", 44 ], [ "149627", 2012, "2510", "0221", "TN", 9 ], [ "149627", 2012, "2510", "0619", "TN", 19216 ] ]
+}

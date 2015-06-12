@@ -1,0 +1,22 @@
+#structure
+csvSeparator=;
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_PT=3
+titleColumnIndex_EN=4
+titleColumnIndex_FR=5
+titleColumnIndex_ES=6
+
+#metadata
+name=CS_ValueAdded
+version=1.0
+
+
+
+--data--
+
+
+;200;Primary Sector;Secteur Primaire;Setor Primário
+;300;Secondary Sector;Secteur Secondaire;Setor secundário
+;400;Service Industry;Secteur Tertiaire;Setor terciário

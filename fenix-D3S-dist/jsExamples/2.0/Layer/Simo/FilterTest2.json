@@ -1,0 +1,12 @@
+{
+    "meContent.resourceRepresentationType" : {
+        "enumeration" : ["geographic"]
+    },
+  "meContent.seCoverage.coverageTime" : {
+    "time" : [
+      { "from" : 20130615000000,
+      "to" : 20130615000000 }
+    ]
+  }
+
+}

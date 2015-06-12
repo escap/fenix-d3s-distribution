@@ -1,0 +1,24 @@
+{
+    "uid": "FAOSTAT_OriginData",
+	"version": "1.0"
+}
+
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+
+@A@Other International Organizations
+@B@Industry associations
+@C@Universities, research centres
+@D@Government and Ministries
+@E@National Statistics Institutes
+@F@Other sources
+@G@Mixture of data source

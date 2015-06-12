@@ -1,0 +1,26 @@
+#structure
+csvSeparator=;
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_PT=3
+titleColumnIndex_EN=4
+titleColumnIndex_FR=5
+titleColumnIndex_ES=6
+
+#metadata
+name=CS_Population
+version=1.0
+
+
+--data--
+
+
+;5145;Total Density (km<sup><small>2</small></sup>);Densité totale (au Kilomètre Carré);Densidade total (em Quilómetro quadrado)
+;51555;Growth Rate;Taux de croissance;Taxa de crescimento
+;51556;Growth Rate - Rural;Taux de croissance rurale;Taxa de Crescimento Rural
+;51557;Growth Rate - Urban;Taux de croissance urbaine;Taxas de Crescimento Urbano
+;51558;Fecundity Rate;Taux de fecondité;Taxa de fecundidade
+;51559;Fertility Rate;Taux de fertilité;Fertilidade
+;51560;Mortality Rate (100);Taux de mortalité (100);Taxas de mortalidade (100)
+;51561;Birth Rate (1000);Taux de natalité (1000);Taxa de nascimento (1000)

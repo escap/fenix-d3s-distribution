@@ -1,0 +1,18 @@
+{
+    "rid" : "63_5",
+    "datasource" : "UNECA",
+    "contextSystem" : "UNECA",
+    "columns" : [ {
+        "dataType" : "code",
+        "title" : {
+            "EN" : "Domain"
+        },
+        "domain" : {
+            "codes" : [ {
+                "idCodeList" : "UNECA_Indicators",
+                "version" : "test"
+            } ]
+        },
+        "id" : "Domain_Code"
+    } ]
+}

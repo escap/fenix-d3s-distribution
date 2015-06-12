@@ -1,0 +1,27 @@
+#structure
+csvSeparator=;
+structure=table
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1
+titleColumnIndex_EN=2
+
+#metadata
+name=OECD_PolicyType9
+title_EN=OECD Tax Concessions
+description_EN=OECD Policy Measures of Tax Concessions
+version=1.0
+startDate=03/04/2014
+sharingPolicy=publicPolicy
+
+
+--data--
+
+37;Carbon tax exemptions
+38;Excise tax concessions
+39;Income tax concessions
+40;Other tax concessions
+41;Sales tax concessions
+42;Social contribution concessions
+43;VAT concessions
+
+

@@ -1,0 +1,30 @@
+{
+    "uid": "FAOSTAT_Collection",
+	"version": "1.0"
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+
+
+
+@01@Census data
+@02@National accounts data
+@03@Exhaustive surveys
+@04@Random sampling
+@05@Non-random sampling data
+@06@Administrative data
+@07@Mixture or other modes of data collection
+@08@Input to Food Balance sheets (FBS) and Supply and Utilization Accounts (SUA)
+@09@Exhaustive/adm.
+@10@Household Budget Survey (HBS)
+@11@Large-scale sighting survey (LSS)
+@12@Random sampling/exhaustive surveys

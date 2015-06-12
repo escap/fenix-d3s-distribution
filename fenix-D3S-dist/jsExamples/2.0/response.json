@@ -1,0 +1,253 @@
+{
+      "@type": "d",
+      "@rid": "#9:27",
+      "@version": 35,
+      "@class": "MeIdentification",
+      "uid": "GAUL0",
+      "index|uid": "GAUL0",
+      "index|version": "2014",
+      "version": "2014",
+      "title": {
+        "EN": "Global administrative unit layer country level"
+      },
+      "metadataStandardName": "FENIX metadata",
+      "metadataStandardVersion": "1.0",
+      "language": {
+        "@type": "d",
+        "@version": 0,
+        "@class": "OjCodeList",
+        "version": "1998",
+        "idCodeList": "ISO639-2",
+        "codes": [
+          {
+            "@type": "d",
+            "@version": 0,
+            "@class": "OjCode",
+            "code": "eng",
+            "linkedCode": "#61:154637",
+            "@fieldTypes": "linkedCode=x"
+          },
+          {
+            "@type": "d",
+            "@version": 0,
+            "@class": "OjCode",
+            "code": "fre",
+            "linkedCode": "#61:154655",
+            "@fieldTypes": "linkedCode=x"
+          },
+          {
+            "@type": "d",
+            "@version": 0,
+            "@class": "OjCode",
+            "code": "spa",
+            "linkedCode": "#61:155943",
+            "@fieldTypes": "linkedCode=x"
+          },
+          {
+            "@type": "d",
+            "@version": 0,
+            "@class": "OjCode",
+            "code": "por",
+            "linkedCode": "#61:154878",
+            "@fieldTypes": "linkedCode=x"
+          },
+          {
+            "@type": "d",
+            "@version": 0,
+            "@class": "OjCode",
+            "code": "chi",
+            "linkedCode": "#61:154588",
+            "@fieldTypes": "linkedCode=x"
+          },
+          {
+            "@type": "d",
+            "@version": 0,
+            "@class": "OjCode",
+            "code": "rus",
+            "linkedCode": "#61:155606",
+            "@fieldTypes": "linkedCode=x"
+          },
+          {
+            "@type": "d",
+            "@version": 0,
+            "@class": "OjCode",
+            "code": "ara",
+            "linkedCode": "#61:154520",
+            "@fieldTypes": "linkedCode=x"
+          }
+        ],
+        "linkedCodeList": "#9:26",
+        "@fieldTypes": "linkedCodeList=x"
+      },
+      "meContent": {
+        "@type": "d",
+        "@version": 0,
+        "@class": "MeContent",
+        "resourceRepresentationType": "codelist",
+        "keywords": [
+          "GAUL",
+          "geographic",
+          "area",
+          "layer"
+        ],
+        "seCoverage": {
+          "@type": "d",
+          "@version": 0,
+          "@class": "SeCoverage",
+          "coverageSectors": {
+            "@type": "d",
+            "@version": 0,
+            "@class": "OjCodeList",
+            "version": "1.0",
+            "idCodeList": "FENIX_Subjects",
+            "codes": [
+              {
+                "@type": "d",
+                "@version": 0,
+                "@class": "OjCode",
+                "code": "0201"
+              }
+            ],
+            "linkedCodeList": "#9:9",
+            "@fieldTypes": "linkedCodeList=x"
+          }
+        },
+        "seCodeList": {
+          "@type": "d",
+          "@version": 0,
+          "@class": "SeCodeList",
+          "numberOfLevels": 1,
+          "typeOfCodeList": "list"
+        }
+      },
+      "characterSet": {
+        "@type": "d",
+        "@version": 0,
+        "@class": "OjCodeList",
+        "idCodeList": "IANAcharacterSet",
+        "codes": [
+          {
+            "@type": "d",
+            "@version": 0,
+            "@class": "OjCode",
+            "code": "106",
+            "linkedCode": "#61:1247",
+            "@fieldTypes": "linkedCode=x"
+          }
+        ],
+        "linkedCodeList": "#9:11",
+        "@fieldTypes": "linkedCodeList=x"
+      },
+      "metadataLanguage": {
+        "@type": "d",
+        "@version": 0,
+        "@class": "OjCodeList",
+        "version": "1998",
+        "idCodeList": "ISO639-2",
+        "codes": [
+          {
+            "@type": "d",
+            "@version": 0,
+            "@class": "OjCode",
+            "code": "eng",
+            "linkedCode": "#61:154637",
+            "@fieldTypes": "linkedCode=x"
+          }
+        ],
+        "linkedCodeList": "#9:26",
+        "@fieldTypes": "linkedCodeList=x"
+      },
+      "meAccessibility": {
+        "@type": "d",
+        "@version": 0,
+        "@class": "MeAccessibility",
+        "seDataDissemination": {
+          "@type": "d",
+          "@version": 0,
+          "@class": "SeDataDissemination",
+          "seDistribution": {
+            "@type": "d",
+            "@version": 0,
+            "@class": "SeDistribution"
+          }
+        },
+        "seConfidentiality": {
+          "@type": "d",
+          "@version": 0,
+          "@class": "SeConfidentiality",
+          "confidentialityStatus": {
+            "@type": "d",
+            "@version": 0,
+            "@class": "OjCodeList",
+            "version": "1.0",
+            "idCodeList": "CL_CONF_STATUS",
+            "codes": [
+              {
+                "@type": "d",
+                "@version": 0,
+                "@class": "OjCode",
+                "code": "F",
+                "linkedCode": "#61:835",
+                "@fieldTypes": "linkedCode=x"
+              }
+            ],
+            "linkedCodeList": "#9:3",
+            "@fieldTypes": "linkedCodeList=x"
+          }
+        }
+      },
+      "contacts": [
+        {
+          "@type": "d",
+          "@version": 0,
+          "@class": "OjResponsibleParty",
+          "organization": {
+            "EN": "FAO"
+          },
+          "name": "Fabio Grita",
+          "role": "coordinator",
+          "organizationUnit": {
+            "EN": "ESS"
+          },
+          "contactInfo": {
+            "@type": "d",
+            "@version": 0,
+            "@class": "OjContact",
+            "address": "FAO-HQ, Viale delle Terme di Caracalla, 00153 Roma",
+            "emailAddress": "fabio.grita@fao.org"
+          }
+        }
+      ],
+      "index_id": "GAUL02014",
+      "index|meContent|resourceRepresentationType": "codelist",
+      "index|meContent|seCoverage|coverageSectors": [
+        "FENIX_Subjects|1.0|0201",
+        "FENIX_Subjects|1.0"
+      ],
+      "index|meSpatialRepresentation|seBoundingBox|seVectorSpatialRepresentation|topologyLevel": null,
+      "index|contacts|other": null,
+      "index|contacts|resourceProvider": null,
+      "index|contacts|pointOfContact": null,
+      "index|contacts|agency": null,
+      "index|contacts|pubblisher": null,
+      "index|contacts|custodian": null,
+      "index|contacts|owner": null,
+      "index|contacts|distributor": null,
+      "index|contacts|processor": null,
+      "index|contacts|coordinator": "FAO ESS",
+      "index|contacts|user": null,
+      "index|contacts|originator": null,
+      "index|contacts|principalInvestigator": null,
+      "index|dsd|contextSystem": null,
+      "index|id": "GAUL0|2014",
+      "index|meContent|seCoverage|coverageGeographic": null,
+      "index|meContent|seReferencePopulation|referencePeriod": null,
+      "index|meContent|seReferencePopulation|referenceArea": null,
+      "index|meAccessibility|seConfidentiality|confidentialityStatus": [
+        "CL_CONF_STATUS|1.0|F",
+        "CL_CONF_STATUS|1.0"
+      ],
+      "index|meSpatialRepresentation|processing": null,
+      "index|meSpatialRepresentation|layerType": null,
+      "index|meReferenceSystem|seProjection|projection": null
+    }
