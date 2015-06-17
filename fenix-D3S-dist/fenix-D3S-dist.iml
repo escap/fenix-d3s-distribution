@@ -96,7 +96,7 @@
     <orderEntry type="library" name="Maven: com.jcraft:jsch:0.1.51" level="project" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.6" level="project" />
     <orderEntry type="library" name="Maven: org.fao.fenix:fenix-D3S-mdsd:2.0-SNAPSHOT" level="project" />
-    <orderEntry type="module" module-name="fenix-commons-search" />
+    <orderEntry type="module" module-name="fenix-commons-dxf" />
     <orderEntry type="module" module-name="fenix-commons-utils" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.3.1" level="project" />
     <orderEntry type="library" name="Maven: org.fao.ess:fenix-D3S-CountrySTAT:1.0-SNAPSHOT" level="project" />
