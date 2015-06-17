@@ -1,0 +1,122 @@
+{
+    "uid": "CountrySTAT_pricesCategories",
+	"version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "CountrySTAT Prices Categories"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "FAO"
+            },
+            "organizationUnit": {"EN":"ESS, CountrySTAT team"},
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": "Viale delle Terme di Caracalle, 00153 Rome, Italy",	
+                "emailAddress": "countrystat@fao.org",
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["domain", "prices"],
+        "description": {"EN":"CountrySTAT_pricesCategories includes all the indicators necessary in the Prices-domain."},
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": null
+                        }
+                    ],
+                    "idCodeList": null,
+                    "version": null
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 1,
+            "typeOfCodeList": "list"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    }  ,
+
+           "dsd" : {
+               "contextSystem" : "cstat_afg"
+           }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+--data--
+@10021@Food
+@10022@Non-Food
+@100000@Agriculture
+@100001@Non-Agriculture

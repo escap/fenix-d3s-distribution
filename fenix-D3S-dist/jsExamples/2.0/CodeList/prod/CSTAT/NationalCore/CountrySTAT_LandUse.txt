@@ -1,0 +1,155 @@
+{
+    "uid": "CountrySTAT_LandUse",
+	"version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "CountrySTAT Land Use"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "FAO"
+            },
+            "organizationUnit": {"EN":"ESS, CountrySTAT team"},
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": "Viale delle Terme di Caracalle, 00153 Rome, Italy",	
+                "emailAddress": "countrystat@fao.org",
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["domain", "Land use"],
+        "description": {"EN":"CountrySTAT_labour includes all the indicators necessary in the Land Use-domain."},
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": null
+                        }
+                    ],
+                    "idCodeList": null,
+                    "version": null
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 1,
+            "typeOfCodeList": "list"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    },
+
+         "dsd" : {
+             "contextSystem" : "cstat_afg"
+         }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+--data--
+@6600@Country area
+@6601@Land area
+@6610@Agricultural area
+@6611@Agricultural area irrigated
+@6620@Arable land and Permanent crops
+@6621@Arable land
+@6630@Temporary crops
+@6631@Temp. crops irrigated
+@6632@Temp. crops non-irrigated
+@6633@Temporary meadows and pastures
+@6634@Temp. meadows & pastures irrigated
+@6635@Temp. meadows & pastures non-irrig.
+@6640@Fallow land
+@6650@Permanent crops
+@6651@Perm. crops irrigated
+@6652@Perm. crops non-irrigated
+@6655@Permanent meadows and pastures
+@6656@Perm. meadows & pastures - Cultivated (more than 5 years)
+@6657@Perm. meadows & pastures Cult. & irrig
+@6659@Perm. meadows & pastures - Nat. grown
+@6661@Forest area
+@6662@Other wooded land
+@6670@Other land
+@6671@Agricultural area organic, total 
+@6672@Agr.Area certified organic 
+@6673@Agr. Area in conversion to organic 
+@6674@Arable land organic, total 
+@6675@Arable Area certified organic 
+@6676@Arable Area in conversion to organic 
+@6677@Area of Permanent crops area organic, total 
+@6678@Area of Permanent crops area certified organic
+@6679@Area of Permanent crops area in conversion to organic
+@6680@Inland water
+@6681@Permanent meadows and pastures organic, total 
+@6682@Area of Permanent meadows and pastures area certified organic
+@6683@Area of Permanent meadows and pastures area in corversion organic
+@6690@Total area equipped for irrigation

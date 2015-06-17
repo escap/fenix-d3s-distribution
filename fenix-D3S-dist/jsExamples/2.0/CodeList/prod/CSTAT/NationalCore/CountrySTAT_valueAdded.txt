@@ -1,0 +1,127 @@
+{
+    "uid": "CountrySTAT_valueAdded",
+	"version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "CountrySTAT Value Added"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "FAO"
+            },
+            "organizationUnit": {"EN":"ESS, CountrySTAT team"},
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": "Viale delle Terme di Caracalle, 00153 Rome, Italy",	
+                "emailAddress": "countrystat@fao.org",
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["domain", "value added"],
+        "description": {"EN":"CountrySTAT_valueAdded includes all the indicators necessary in the ValueAdded-domain."},
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": null
+                        }
+                    ],
+                    "idCodeList": null,
+                    "version": null
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 1,
+            "typeOfCodeList": "list"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    } ,
+
+          "dsd" : {
+              "contextSystem" : "cstat_afg"
+          }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+--data--
+@200@Primary Sector
+@300@Secondary Sector
+@400@Service Industry
+@200@Primary Sector
+@1@Agriculture, forestry and fishing
+@11@Crop and animal production, hunting and related service activities
+@111@Livestock
+@12@Forestry and logging
+@13@Fishing and aquaculture
