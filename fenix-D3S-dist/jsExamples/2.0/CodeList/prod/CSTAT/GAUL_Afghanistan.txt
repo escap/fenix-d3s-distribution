@@ -1,0 +1,62 @@
+﻿{
+   "uid":"GAUL1_AFG",
+   "title":{
+      "EN":"Global administrative unit layer - Afghanistan"
+   },
+   "meContent":{
+      "resourceRepresentationType":"codelist"
+   },
+   "dsd":{
+      "contextSystem":"cstat_afg"
+   }
+}
+
+--structure--
+
+
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+--data--
+
+@272@Badakhshan
+@273@Badghis
+@274@Baghlan
+@275@Balkh
+@276@Bamyan
+@277@Farah
+@278@Faryab
+@279@Ghazni
+@280@Ghor
+@281@Hilmand
+@282@Hirat
+@283@Jawzjan
+@284@Kabul
+@285@Kandahar
+@286@Kapisa
+@287@Khost
+@288@Kunar
+@289@Kunduz
+@290@Laghman
+@291@Logar
+@292@Nangarhar
+@293@Nimroz
+@294@Nuristan
+@295@Paktika
+@296@Paktya
+@297@Parwan
+@298@Samangan
+@299@Sar-e-Pul
+@300@Takhar
+@301@Uruzgan
+@302@Wardak
+@303@Zabul
+@99877@Paktika
+@99878@Daykundi
+@99879@Panjsher
+@99880@Parwan
+@99881@Uruzgan
