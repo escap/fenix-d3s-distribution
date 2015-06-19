@@ -13,6 +13,7 @@
     <modules>
         <module>fenix-D3S-CountrySTAT</module>
         <module>fenix-D3S-UNECA</module>
+        <module>fenix-D3S-RLM</module>
         <module>fenix-D3S-dist</module>
     </modules>
 

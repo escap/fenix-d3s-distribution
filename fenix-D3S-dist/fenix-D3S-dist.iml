@@ -99,9 +99,10 @@
     <orderEntry type="module" module-name="fenix-commons-dxf" />
     <orderEntry type="module" module-name="fenix-commons-utils" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.3.1" level="project" />
-    <orderEntry type="library" name="Maven: org.fao.ess:fenix-D3S-CountrySTAT:1.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: org.fao.ess:fenix-D3S-UNECA:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="fenix-D3S-CountrySTAT" />
+    <orderEntry type="module" module-name="fenix-D3S-UNECA" />
     <orderEntry type="library" name="Maven: org.postgresql:postgresql:9.3-1102-jdbc41" level="project" />
+    <orderEntry type="module" module-name="fenix-D3S-RLM" />
     <orderEntry type="module" module-name="fenix-D3P-D3SConnector" />
     <orderEntry type="module" module-name="fenix-D3P-core" />
     <orderEntry type="library" name="Maven: org.reflections:reflections:0.9.11-SNAPSHOT" level="project" />

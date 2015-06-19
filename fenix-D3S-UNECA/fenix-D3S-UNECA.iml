@@ -14,7 +14,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.sun.mail:javax.mail:1.5.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.activation:activation:1.1" level="project" />
     <orderEntry type="module" module-name="fenix-D3S-services" />
-    <orderEntry type="module" module-name="fenix-commons-search" />
+    <orderEntry type="module" module-name="fenix-commons-dxf" />
     <orderEntry type="module" module-name="fenix-commons-utils" />
     <orderEntry type="library" name="Maven: org.postgresql:postgresql:9.3-1102-jdbc41" level="project" />
   </component>

@@ -1,4 +1,4 @@
-package org.fao.ess.uneca.d3s;
+package org.fao.ess.rlm.d3s;
 
 import org.fao.fenix.commons.msd.dto.full.DSDColumn;
 import org.fao.fenix.commons.msd.dto.full.DSDDataset;
@@ -14,9 +14,9 @@ import java.sql.SQLException;
 import java.util.Iterator;
 import java.util.Map;
 
-public class UNECA extends WDSDatasetDao {
-    @Inject DataSource dataSource;
-    @Inject DatabaseUtils databaseUtils;
+public class RLM extends WDSDatasetDao {
+    @Inject private DataSource dataSource;
+    @Inject private DatabaseUtils databaseUtils;
     private boolean initialized = false;
 
     @Override
@@ -33,16 +33,14 @@ public class UNECA extends WDSDatasetDao {
 
     @Override
     public Iterator<Object[]> loadData(MeIdentification resource) throws Exception {
-        Connection connection = null;
+        Connection connection = dataSource.getConnection();
         try {
-            connection = dataSource.getConnection();
             PreparedStatement statement = connection.prepareStatement(buildQuery(resource));
             statement.setString(1,resource.getUid());
 
             return new DataIterator(statement.executeQuery(),connection,null,null);
         } catch (Exception ex) {
-            if (connection!=null)
-                try { connection.close(); } catch (SQLException e) { }
+            try { connection.close(); } catch (SQLException e) { }
             throw ex;
         }
     }
@@ -64,7 +62,7 @@ public class UNECA extends WDSDatasetDao {
         for (DSDColumn column : resource.getDsd().getColumns())
             select.append(",\"").append(column.getId()).append('"');
 
-        return "select "+select.substring(1)+" FROM data WHERE \"Metadata_ID\" = ?";
+        return "select '"+resource.getUid()+"' "+select.substring(1)+" FROM master WHERE indicator = ?";
     }
 
 }

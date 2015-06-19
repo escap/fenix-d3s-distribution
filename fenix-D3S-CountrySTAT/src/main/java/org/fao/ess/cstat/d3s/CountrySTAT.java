@@ -8,6 +8,7 @@ import com.orientechnologies.orient.core.intent.OIntentMassiveInsert;
 import com.orientechnologies.orient.core.record.impl.ODocument;
 import com.orientechnologies.orient.core.sql.OCommandSQL;
 import com.orientechnologies.orient.core.sql.query.OSQLSynchQuery;
+import org.fao.fenix.commons.msd.dto.full.MeIdentification;
 import org.fao.fenix.commons.msd.dto.templates.standard.combined.dataset.MetadataDSD;
 import org.fao.fenix.d3s.wds.OrientClient;
 import org.fao.fenix.d3s.wds.dataset.DatasetStructure;
@@ -35,13 +36,14 @@ public class CountrySTAT extends WDSDatasetDao {
 
 
     @Override
-    public Iterator<Object[]> loadData(MetadataDSD resource, DatasetStructure structure) throws Exception {
+    public Iterator<Object[]> loadData(MeIdentification resource) throws Exception {
         String uid = getId(resource);
         System.out.println("Loading data for "+uid);
         ODatabaseDocumentInternal originalConnection = ODatabaseRecordThreadLocal.INSTANCE.get();
         ODatabaseDocumentTx connection = dbClient.getConnection();
         System.out.println("Taken connection "+(connection!=null)+'-'+(connection!=null?!connection.isClosed():false));
 
+        DatasetStructure structure = new DatasetStructure(resource);
         try {
             if (connection != null && structure.selectColumns!=null) {
                 System.out.println("Executing query");
@@ -71,7 +73,7 @@ public class CountrySTAT extends WDSDatasetDao {
     }
 
     @Override
-    protected void storeData(MetadataDSD resource, Iterator<Object[]> data, boolean overwrite, DatasetStructure structure) throws Exception {
+    public void storeData(MeIdentification resource, Iterator<Object[]> data, boolean overwrite) throws Exception {
         String datasetID = getId(resource);
         if (datasetID!=null) {
 
@@ -80,10 +82,12 @@ public class CountrySTAT extends WDSDatasetDao {
             if (connection == null)
                 throw new Exception("Cannot connect to CountrySTAT database");
 
+            DatasetStructure structure = new DatasetStructure(resource);
+
             try {
                 //Prepare data in append append mode
                 if (!overwrite && structure.keyColumnsIndexes.length > 0) {
-                    Iterator<Object[]> existingData = loadData(resource, structure);
+                    Iterator<Object[]> existingData = loadData(resource);
                     if (existingData != null && existingData.hasNext()) {
                         StringBuilder keyBuffer = new StringBuilder();
                         Map<String, Object[]> buffer = new LinkedHashMap<>();
@@ -147,7 +151,7 @@ public class CountrySTAT extends WDSDatasetDao {
     }
 
     @Override
-    public void deleteData(MetadataDSD resource) throws Exception {
+    public void deleteData(MeIdentification resource) throws Exception {
         String datasetID = getId(resource);
         if (datasetID!=null) {
 
@@ -169,7 +173,7 @@ public class CountrySTAT extends WDSDatasetDao {
 
 
     //Utils
-    private String getId(MetadataDSD metadata) {
+    private String getId(MeIdentification metadata) {
         if (metadata!=null)
             if (metadata.getVersion()!=null)
                 return metadata.getUid()+'|'+metadata.getVersion();
