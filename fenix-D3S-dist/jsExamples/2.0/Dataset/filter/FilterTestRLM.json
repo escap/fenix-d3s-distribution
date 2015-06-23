@@ -1,0 +1,10 @@
+{
+    "dsd.contextSystem" : {
+        "enumeration": [
+            "RLM"
+        ]
+    },
+    "meContent.resourceRepresentationType" : {
+        "enumeration" : ["dataset"]
+    }
+}

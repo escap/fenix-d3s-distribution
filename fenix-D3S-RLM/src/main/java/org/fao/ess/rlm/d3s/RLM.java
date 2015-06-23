@@ -60,9 +60,12 @@ public class RLM extends WDSDatasetDao {
         StringBuilder select = new StringBuilder();
 
         for (DSDColumn column : resource.getDsd().getColumns())
-            select.append(",\"").append(column.getId()).append('"');
+            if ("COUNTRY".equalsIgnoreCase(column.getId()))
+                select.append(",''||COUNTRY AS COUNTRY");
+            else
+                select.append(',').append(column.getId());
 
-        return "select '"+resource.getUid()+"' "+select.substring(1)+" FROM master WHERE indicator = ?";
+        return "select "+select.substring(1)+" FROM master WHERE INDICATOR = ?";
     }
 
 }

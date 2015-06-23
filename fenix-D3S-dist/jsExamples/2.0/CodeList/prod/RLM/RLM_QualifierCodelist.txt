@@ -1,0 +1,118 @@
+﻿{
+    "uid": "RLM_QualifierCodeList",
+	"version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "Rural Livelihood Monitor - Qualifiers"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "FAO"
+            },
+            "organizationUnit": {"EN":"ESS"},
+            "name": "Piero Conforti",
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": "Viale delle Terme di Caracalle, 00153 Rome, Italy",	
+                "emailAddress": "piero.conforti@fao.org",
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["qualifier","survey", "RLM"],
+        "description": {"EN":"RLM_QualifierCodelist contains all te qualifier available for each indicator of the survey."},
+        "statisticalConceptsDefinitions": null,
+        "seCodeList"  : {
+            "numberOfLevels": 1,
+            "typeOfCodeList": "list"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    },
+         "dsd" : {
+             "contextSystem" : "RLM"
+         }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+--data--
+
+@nat@National
+@nat_Q1@Income quantile 1
+@nat_Q2@Income quantile 2
+@nat_Q3@Income quantile 3
+@nat_Q4@Income quantile 4
+@nat_Q5@Income quantile 5
+@rur@Rural
+@urb@Urban
+@nonsmall@Non-smallholder households
+@small@Smallholder households
+@malehead@Male headed households
+@femhead@Female headed households
+@p_ag30pp@Participation in agriculture, 30% threshold
