@@ -1,0 +1,146 @@
+{
+    "uid": "CountrySTAT_domains",
+	"version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "CountrySTAT domains"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "FAO"
+            },
+            "organizationUnit": {"EN":"ESS, CountrySTAT team"},
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": "Viale delle Terme di Caracalle, 00153 Rome, Italy",	
+                "emailAddress": "countrystat@fao.org",
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["domain", "sector"],
+        "description": {"EN":"CountrySTAT_domains involves all the domains and indicators contained the the NationalCore and StatisticalYearbook of the CountrySTAT previous version,in addition some further categories as GovernmentExpenditure and FoodBalanceSheets have been included."},
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": "06"
+                        }
+                    ],
+                    "idCodeList": "FENIX_Subjects",
+                    "version": "1.0"
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 1,
+            "typeOfCodeList": "list"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    },
+					"dsd" : {
+								"contextSystem" : "cstat_afg"
+									}
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+--data--
+@01@Production
+@02@Trade
+@03@Food Availability
+@04@Prices
+@05@Land use
+@06@Population
+@07@Labour
+@08@Fertilizers
+@09@Pesticides
+@10@Machinery
+@11@Forestry
+@12@Fisheries
+@13@Water
+@14@Government Expenditure
+@15@Value Added
+@16@Government Employees
+@17@Education
+@18@Health Sector
+@19@Casualtly by Natural Disasters
+@20@National Account
+@21@Agriculture Development
+@22@Industries Development
+@23@Land Transportation
+@24@Inflation and CPI
+@25@Fiscal Development
+@26@Budget
+@27@Donor Assistance
+@28@Food Balance Sheets
+@29@Other

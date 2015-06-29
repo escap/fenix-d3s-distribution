@@ -1,0 +1,46 @@
+{
+  "meContent": {
+    "seCoverage": {
+      "coverageSectors": {
+        "version": "1.0",
+        "codes": [
+          {
+            "code": "myd11c3_anomaly_dpy"
+          }
+        ],
+        "idCodeList": "layers_products"
+      },
+      "coverageTime": {
+        "to": 1151625600000,
+        "from": 1149120000000
+      }
+    },
+    "resourceRepresentationType": "geographic"
+  },
+  "title": {
+    "EN": "LST Anomaly DPY 6km MYD11C3 200606"
+  },
+  "path": "/media/vortex/LaCie/LaCie/ECO_COUNTRIES/MYD11C3/MYD11C3_ANOMALY_DPY/LST_Anomaly_DPY_6km_MYD11C3_200606_3857.tif",
+  "dsd": {
+    "contextSystem": "FENIX",
+    "layerName": "lst_anomaly_dpy_6km_myd11c3_200606_3857",
+    "defaultStyle": "myd11c3_anomaly_dpy_EN"
+  },
+  "creationDate": 1435074277000,
+  "meSpatialRepresentation": {
+    "layerType": "raster"
+  },
+  "meReferenceSystem": {
+    "seProjection": {
+      "projection": {
+        "version": "1.0",
+        "codes": [
+          {
+            "code": "EPSG:3857"
+          }
+        ],
+        "idCodeList": "mapProjections"
+      }
+    }
+  }
+}

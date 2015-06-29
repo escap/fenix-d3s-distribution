@@ -1,0 +1,503 @@
+{
+  "creationDate" : 1416438000000,
+  "title" : {
+    "EN" : "Fertilizers "
+  },
+  "uid" : "FAOSTAT_fertilizer",
+  "dsd" : {
+    "columns" : [ {
+      "dataType" : "code",
+      "title" : {
+        "EN" : "Country"
+      },
+      "values" : {
+        "codes" : [ {
+          "version" : "2014",
+          "codes" : [ { }, {
+            "code" : "4"
+          }, {
+            "code" : "8"
+          }, {
+            "code" : "29"
+          }, {
+            "code" : "35"
+          }, {
+            "code" : "42"
+          }, {
+            "code" : "43"
+          }, {
+            "code" : "47"
+          }, {
+            "code" : "45"
+          }, {
+            "code" : "49"
+          }, {
+            "code" : "50"
+          }, {
+            "code" : "58"
+          }, {
+            "code" : "59"
+          }, {
+            "code" : "66"
+          }, {
+            "code" : "68"
+          }, {
+            "code" : "40765"
+          }, {
+            "code" : "77"
+          }, {
+            "code" : "79"
+          }, {
+            "code" : "89"
+          }, {
+            "code" : "90"
+          }, {
+            "code" : "94"
+          }, {
+            "code" : "106"
+          }, {
+            "code" : "133"
+          }, {
+            "code" : "145"
+          }, {
+            "code" : "150"
+          }, {
+            "code" : "152"
+          }, {
+            "code" : "155"
+          }, {
+            "code" : "160"
+          }, {
+            "code" : "169"
+          }, {
+            "code" : "170"
+          }, {
+            "code" : "172"
+          }, {
+            "code" : "181"
+          }, {
+            "code" : "182"
+          }, {
+            "code" : "206"
+          }, {
+            "code" : "205"
+          }, {
+            "code" : "214"
+          }, {
+            "code" : "217"
+          }, {
+            "code" : "220"
+          }, {
+            "code" : "221"
+          }, {
+            "code" : "227"
+          }, {
+            "code" : "74"
+          }, {
+            "code" : "6"
+          }, {
+            "code" : "40764"
+          }, {
+            "code" : "235"
+          }, {
+            "code" : "243"
+          }, {
+            "code" : "248"
+          }, {
+            "code" : "253"
+          }, {
+            "code" : "257"
+          }, {
+            "code" : "270"
+          }, {
+            "code" : "271"
+          } ],
+          "idCodeList" : "GAUL0"
+        } ]
+      },
+      "domain" : {
+        "codes" : [ {
+          "version" : "2014",
+          "idCodeList" : "GAUL0"
+        } ]
+      },
+      "subject" : "geo",
+      "key" : true,
+      "id" : "CountryGaul"
+    }, {
+      "dataType" : "code",
+      "title" : {
+        "EN" : "Element"
+      },
+      "values" : {
+        "codes" : [ {
+          "codes" : [ {
+            "code" : "5515"
+          }, {
+            "code" : "5615"
+          }, {
+            "code" : "5915"
+          }, { }, {
+            "code" : "5155"
+          }, {
+            "code" : "5849"
+          }, {
+            "code" : "5610"
+          }, {
+            "code" : "5910"
+          }, {
+            "code" : "5850"
+          }, {
+            "code" : "5510"
+          }, {
+            "code" : "5157"
+          } ],
+          "idCodeList" : "FAOSTAT_Fertilizer_Elements"
+        } ]
+      },
+      "domain" : {
+        "codes" : [ {
+          "idCodeList" : "FAOSTAT_Fertilizer_Elements"
+        } ]
+      },
+      "subject" : "item",
+      "key" : true,
+      "id" : "ElementCode"
+    }, {
+      "dataType" : "code",
+      "title" : {
+        "EN" : "Item"
+      },
+      "values" : {
+        "codes" : [ {
+          "codes" : [ {
+            "code" : "3102"
+          }, { }, {
+            "code" : "3103"
+          }, {
+            "code" : "3104"
+          }, {
+            "code" : "2814"
+          }, {
+            "code" : "310230"
+          }, {
+            "code" : "310221"
+          }, {
+            "code" : "310240"
+          }, {
+            "code" : "310530"
+          }, {
+            "code" : "310540"
+          }, {
+            "code" : "310610"
+          }, {
+            "code" : "310510"
+          }, {
+            "code" : "310520"
+          }, {
+            "code" : "310551"
+          }, {
+            "code" : "310559"
+          }, {
+            "code" : "310500"
+          }, {
+            "code" : "2510"
+          }, {
+            "code" : "310560"
+          }, {
+            "code" : "310420"
+          }, {
+            "code" : "283421"
+          }, {
+            "code" : "310430"
+          }, {
+            "code" : "310310"
+          }, {
+            "code" : "31031010"
+          }, {
+            "code" : "31031090"
+          }, {
+            "code" : "310210"
+          }, {
+            "code" : "310280"
+          }, {
+            "code" : "310620"
+          } ],
+          "idCodeList" : "FAOSTAT_CommodityList"
+        } ]
+      },
+      "domain" : {
+        "codes" : [ {
+          "idCodeList" : "FAOSTAT_CommodityList"
+        } ]
+      },
+      "subject" : "item",
+      "key" : true,
+      "id" : "ItemCode"
+    }, {
+      "dataType" : "year",
+      "title" : {
+        "EN" : "Year"
+      },
+      "values" : {
+        "timeList" : [ 3102, null, 3103, 3104, 2814, 310230, 310221, 310240, 310530, 310540, 310610, 310510, 310520, 310551, 310559, 310500, 2510, 310560, 310420, 283421, 310430, 310310, 31031010, 31031090, 310210, 310280, 310620 ]
+      },
+      "subject" : "time",
+      "key" : true,
+      "id" : "Year"
+    }, {
+      "dataType" : "code",
+      "title" : {
+        "EN" : "Unit"
+      },
+      "values" : {
+        "codes" : [ {
+          "codes" : [ {
+            "code" : "7"
+          }, { } ],
+          "idCodeList" : "UAE_UM"
+        } ]
+      },
+      "domain" : {
+        "codes" : [ {
+          "idCodeList" : "UAE_UM"
+        } ]
+      },
+      "subject" : "um",
+      "key" : false,
+      "id" : "Unit"
+    }, {
+      "dataType" : "number",
+      "title" : {
+        "EN" : "Value"
+      },
+      "subject" : "value",
+      "key" : false,
+      "id" : "Value"
+    } ],
+    "datasources" : [ "D3S" ],
+    "contextSystem" : "cstat_afg"
+  },
+  "contacts" : [ {
+    "organization" : {
+      "EN" : "Food and Agriculture Organization of the United Nations (FAO)"
+    },
+    "contactInfo" : {
+      "emailAddress" : "FAO-statistics@fao.org",
+      "address" : "Economic and Social Development Department Viale delle Terme di Caracalla  00153 Rome, Italy "
+    },
+    "organizationUnit" : {
+      "EN" : "Statistics Division (ESS), Team E"
+    }
+  } ],
+  "meContent" : {
+    "description" : {
+      "EN" : "\"The dataset contains data on Production, Trade, Non fertilizer Use and Consumption for the 3 main fertilizer categories (Nitrogen, Phosphate and Potash) in terms of nutrients from 2002 onwards. Data are expressed ion metric tons of nutrients.\r\nCountry and country aggregate data are available.\"\r\n",
+      "parent" : "description."
+    },
+    "resourceRepresentationType" : "dataset",
+    "keywords" : [ "Fertilizer" ],
+    "statisticalConceptsDefinitions" : {
+      "EN" : "The variables provided are Production, Import, Export, Non fertilizer Use and Consumption for the 3 main fertilizer categories (Nitrogen, Phosphate and Potash) in terms of nutrients. Which means that the data for single items received in products through the country yearly FAO questionnaire on fertilizers are converted into nutrients using the appropriate conversion factors and then summed up in order to obtain the N, P, K totals in terms of nutrients. For definitions of the products see FAO Commodity List.\r\n",
+      "parent" : "statisticalConceptsDefinitions."
+    },
+    "seReferencePopulation" : {
+      "statisticalPopulation" : {
+        "EN" : "All countries.\r\n"
+      },
+      "statisticalUnit" : {
+        "EN" : "Whole agricultural sector."
+      },
+      "referencePeriod" : {
+        "version" : "1.0",
+        "codes" : [ {
+          "code" : "9"
+        } ],
+        "idCodeList" : "FAO_Period"
+      },
+      "referenceArea" : {
+        "version" : "1.0",
+        "codes" : [ {
+          "code" : "ADM1"
+        } ],
+        "idCodeList" : "GAUL_ReferenceArea"
+      }
+    },
+    "seCoverage" : {
+      "coverageSectors" : {
+        "version" : "",
+        "codes" : [ {
+          "code" : "311"
+        } ],
+        "idCodeList" : "CRS_purpose_codes"
+      },
+      "coverageSectorsDetails" : {
+        "EN" : "The agricultural sector is covered.\r\n"
+      },
+      "coverageTime" : {
+        "from" : 1009839600000,
+        "to" : 1356908400000
+      },
+      "coverageGeographic" : {
+        "version" : "2014",
+        "codes" : [ {
+          "code" : "1"
+        } ],
+        "idCodeList" : "GAUL0"
+      }
+    }
+  },
+  "languageDetails" : {
+    "EN" : ""
+  },
+  "characterSet" : {
+    "codes" : [ {
+      "code" : "106"
+    } ],
+    "idCodeList" : "IANAcharacterSet"
+  },
+  "metadataStandardName" : "FENIX",
+  "metadataStandardVersion" : "1.0",
+  "metadataLanguage" : {
+    "version" : "1998",
+    "codes" : [ {
+      "code" : "eng"
+    } ],
+    "idCodeList" : "ISO639-2"
+  },
+  "meAccessibility" : {
+    "seDataDissemination" : {
+      "seReleasePolicy" : {
+        "releaseCalendar" : {
+          "EN" : "The data are disseminated once a year .\r\nDates for new data releases are pre-announced on the FAOSTAT3 website.  \r\nUnrestricted and free access to all users to the same datasets. Confidential data are neither collected nor disseminated. Users are informed through the FAOSTAT release calendar.\r\n"
+        },
+        "releaseCalendarAccess" : "http://faostat3.fao.org/home/faostatReleaseCalendar.html\r\n",
+        "disseminationPeriodicity" : {
+          "version" : "1.0",
+          "idCodeList" : "FAO_Period"
+        },
+        "embargoTime" : { }
+      },
+      "seDistribution" : {
+        "onlineResource" : "http://faostat.fao.org/site/575/default.aspx#ancor"
+      }
+    },
+    "seClarity" : {
+      "clarity" : {
+        "EN" : "\"Fertilizer methodology available at:\r\nhttp://www.fao.org/fileadmin/templates/ess/ess_test_folder/Publications/Agrienvironmental/Methodologocal_Notes_FAOSTAT2011.pdf\r\nhttp://faostat.fao.org/site/575/default.aspx#ancor (About the fertilizer module)\r\nManual on Fertilizer Statistics - FAO Economic and Social Development Paper N° 102 \"\r\n"
+      }
+    },
+    "seConfidentiality" : {
+      "confidentialityPolicy" : {
+        "EN" : "FAO Statistical Quality Assurance Framework, Principle 10: \"All data subject to national confidentiality policies (e.g. concerning people and legal entities, or small aggregates) are kept strictly confidential, and are used exclusively for statistical purposes, or for purposes mandated by legislation.\"\r\n"
+      },
+      "confidentialityDataTreatment" : {
+        "EN" : "Only non-confidential data are collected and recorded.\r\n"
+      },
+      "confidentialityStatus" : {
+        "version" : "1.0",
+        "codes" : [ {
+          "code" : "F"
+        } ],
+        "idCodeList" : "CL_CONF_STATUS"
+      }
+    }
+  },
+  "meDataQuality" : {
+    "qualityManagement" : {
+      "EN" : "",
+      "parent" : "qualityManagement."
+    },
+    "qualityAssessment" : {
+      "EN" : "The quality of data varies considerably between countries.  There are no routines for accessing the quality, except for some input validation. . More information on metadata and certain validation procedures at country level is certainly needed;\r\n",
+      "parent" : "qualityAssessment."
+    },
+    "qualityAssurance" : {
+      "EN" : "An international ad hoc fertilizer meeting is attended every year in order to cross-check the data with the main International Agencies (IFA, TFI, British Sulphur, etc).See also the FAO Statistics Quality Assurance Framework is available http://www.fao.org/docrep/019/i3664e/i3664e.pdf\r\n",
+      "parent" : "qualityAssurance."
+    },
+    "seAccuracy" : {
+      "accuracyNonSampling" : {
+        "EN" : "It is not possible to asses the accuracy but as there is a substantial amount of estimated or imputed data points, the accuracy for certain products, countries and regions is not that good.\r\n\r\nNo information available of the magnitude on non-sampling errors.  One such category of errors is measurement errors which are due mainly to lack of harmonisation in statistical methods. For instance, when FAO concepts do not fit with national concepts, there may be significant measurement errors.  \r\n"
+      },
+      "accuracySampling" : {
+        "EN" : "No information available.\r\n"
+      }
+    },
+    "seDataRevision" : {
+      "revisionPolicy" : {
+        "EN" : "\"In case a country send revised data through the yearly FAO questionnaire the revision is reflected in the database.\r\nThe same in the case of other sources of data.\"\r\n"
+      },
+      "revisionPractice" : {
+        "EN" : "The revised data are disseminated at the same time of the updated series (once a year).\r\n"
+      }
+    },
+    "seRelevance" : {
+      "userNeeds" : {
+        "EN" : "The main users are FAO analysts, other international organizations, ministries and government agencies, agro-industry, trade and professional associations, research institutes and universities, journalists and general public.  FAO is not aware of unmet needs.\r\n"
+      },
+      "userSatisfaction" : {
+        "EN" : "No user satisfaction studies have been conducted which may explain why FAO is not aware of unmet user needs.\r\n"
+      },
+      "completeness" : {
+        "EN" : "For some countries production data are affected by confidentiality; this create some gaps in the collections of data.  There is also several countries which do not report data.\r\n"
+      }
+    },
+    "seComparability" : {
+      "comparabilityGeographical" : {
+        "EN" : "There is limited geographical comparability due to differences between countries in methods and coverage, except for regions with homogenous countries, e.g. EU countries, which are bound by EU regulations on methods, and OECD countries.\r\n"
+      },
+      "comparabilityTime" : {
+        "EN" : "A major methodological break was introduced in 2002. Thus this domain starts in 2002 and older data have been moved to an Archive dataset.\r\n"
+      },
+      "coherenceIntern" : {
+        "EN" : "A data reconciliation meeting is held annually with the International Fertilizer Association. Production and trade domains seem to be rather coherent, at least for some countries.\r\n\r\nIt is expected that the internal coherence is checked by countries before sending data to FAO. FAO is not aware of any incoherence for the present dataset vis-à-vis other corresponding datasets  \r\n"
+      }
+    },
+    "seTimelinessPunctuality" : {
+      "timeliness" : {
+        "EN" : "Questionnaires are generally sent to countries in August and two follow -up are made to non responding countries. generally a first release of preliminary/partial data is available in March for the Fertilizer meeting. After that all the compilation process go ahead and the set of data for uploading is generally ready in July.\r\n"
+      },
+      "punctuality" : {
+        "EN" : "Data are released in time.\r\n"
+      }
+    }
+  },
+  "meStatisticalProcessing" : {
+    "seDataValidation" : {
+      "dataValidationIntermediate" : {
+        "EN" : ""
+      },
+      "dataValidationOutput" : {
+        "EN" : "Countries are responsible for transmitting data which have already been checked. Validation at FAO concerns any transmission errors and data consistency as well as detecting outliers. Other validations concerns assessing how far the current value is from the earlier data and consistency of totals and partial components.\r\n"
+      },
+      "dataValidationSource" : {
+        "EN" : ""
+      }
+    },
+    "seDataSource" : {
+      "seSecondaryDataCollection" : {
+        "dataCollection" : {
+          "EN" : "\" The fertilizer statistics data are generally received from individual countries in product weight through the new FAO Questionnaire on Agricultural Resources – Fertilizers and then converted to nutrients and validated for consistency regarding summary totals of production, import, export, non-fertilizer use and consumption for the three types of fertilizers: nitrogen (N), phosphate (P205), potash (K20) and including complex fertilizers (NP, PK, NK and NPK).\r\nIn addition National sources and the UN COMTRADE database is used.\"\r\n\"Data are collected trough the year questionnaire sent to countries in terms of product weight. Then they are converted in nutrients using the appropriate nutrient conversion factors and then they are summed up in order to obtain total for Nitrogen, Phosphate and Potash fertilizers totals in terms of nutrients.\r\nNo estimations are made for missing data.\"\r\n"
+        },
+        "originOfCollectedData" : {
+          "version" : "1.0",
+          "codes" : [ {
+            "code" : "G"
+          } ],
+          "idCodeList" : "FAOSTAT_OriginData"
+        },
+        "rawDataDescription" : {
+          "EN" : "Follow-up on the questionnaires (after 2 and 3 months from the first mailing). \r\n"
+        }
+      }
+    }
+  },
+  "language" : {
+    "version" : "1998",
+    "codes" : [ {
+      "code" : "eng"
+    } ],
+    "idCodeList" : "ISO639-2"
+  }
+}

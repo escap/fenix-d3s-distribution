@@ -1,0 +1,115 @@
+{
+  "creationDate" : 1402394400000,
+  "title" : {
+    "EN" : "New Students in Gov University (Number) by Year, University (Number)"
+  },
+  "uid" : "002YED008",
+  "dsd" : {
+    "columns" : [ {
+      "dataType" : "year",
+      "title" : {
+        "EN" : "Year"
+      },
+      "subject" : "time",
+      "key" : true,
+      "id" : "Year"
+    }, {
+      "dataType" : "code",
+      "title" : {
+        "EN" : "University"
+      },
+      "domain" : {
+        "codes" : [ {
+          "idCodeList" : "Afghanistan_Education"
+        } ]
+      },
+      "subject" : "item",
+      "key" : true,
+      "id" : "0University"
+    }, {
+      "dataType" : "number",
+      "title" : {
+        "EN" : "Value"
+      },
+      "subject" : "value",
+      "key" : false,
+      "id" : "Value"
+    }, {
+      "dataType" : "text",
+      "title" : {
+        "EN" : "Flag"
+      },
+      "subject" : "flag",
+      "key" : false,
+      "id" : "Flag"
+    } ],
+    "datasources" : [ "D3S" ],
+    "contextSystem" : "cstat_afg"
+  },
+  "meMaintenance" : {
+    "seUpdate" : {
+      "updateDate" : 1435048697760
+    }
+  },
+  "contacts" : [ {
+    "organization" : {
+      "EN" : "CountrySTAT"
+    },
+    "position" : {
+      "EN" : ""
+    },
+    "role" : "distributor",
+    "contactInfo" : {
+      "emailAddress" : "faqiria@yahoo.com",
+      "hoursOfService" : {
+        "EN" : ""
+      },
+      "contactInstruction" : {
+        "EN" : ""
+      }
+    },
+    "specify" : {
+      "EN" : ""
+    },
+    "organizationUnit" : {
+      "EN" : ""
+    }
+  } ],
+  "meContent" : {
+    "resourceRepresentationType" : "dataset"
+  },
+  "languageDetails" : {
+    "EN" : ""
+  },
+  "characterSet" : {
+    "codes" : [ {
+      "code" : "106",
+      "label" : {
+        "EN" : "UTF-8"
+      }
+    } ],
+    "idCodeList" : "IANAcharacterSet"
+  },
+  "metadataStandardName" : "FENIX",
+  "metadataStandardVersion" : "1.0",
+  "metadataLanguage" : {
+    "version" : "1998",
+    "codes" : [ {
+      "code" : "eng",
+      "label" : {
+        "EN" : "English"
+      }
+    } ],
+    "idCodeList" : "ISO639-2"
+  },
+  "language" : {
+    "version" : "1998",
+    "codes" : [ {
+      "code" : "eng",
+      "label" : {
+        "EN" : "English"
+      }
+    } ],
+    "idCodeList" : "ISO639-2"
+  }
+}

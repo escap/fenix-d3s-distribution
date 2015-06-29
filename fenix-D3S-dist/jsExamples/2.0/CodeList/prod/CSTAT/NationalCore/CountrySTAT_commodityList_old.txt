@@ -117,12 +117,13 @@ titleColumnIndex_EN=3
 titleColumnIndex_FR=4
 
 --data--
+
 @2814@Ammonia, anhydrous@Ammoniac anhydre
 @310230@Ammonium nitrate@Nitrate d'ammonium
 @310221@Ammonium sulphate@Sulfate d'ammoniaque
 @310240@Calcium ammonium nitrate@Nitrate d'ammonium calcique
-@310210@Urea@UrŽe
-@310280@Urea and ammonium nitrate solutions@Solutions d'urŽe et de nitrate d'ammonium (UAN)
+@310210@Urea@Urée
+@310280@Urea and ammonium nitrate solutions@Solutions d'urée et de nitrate d'ammonium (UAN)
 @310310@Superphosphate@Superphosphate
 @31031010@Superphosphate above 35%@Superphosphates au-dessus de 35%
 @31031090@Superphosphate other@Superphosphates, autres
@@ -130,91 +131,120 @@ titleColumnIndex_FR=4
 @310430@Potassium sulphate@Sulfate de potassium
 @310530@Diammonium phosphate (DAP)@Phosphate diammonique (DAP)
 @310540@Monoammonium phosphate (MAP)@Phosphate monoammonique (MAP)
-@310500@'Other NP compounds @Autres composŽs NP 
-@310551@Other nitrogen & phosphates compounds@Autres composŽs d'azote et de phosphate
-@310559@Other nitrogen & phosphorus compounds@Autres composŽs d'azote et de phosphoreux
+@310500@'Other NP compounds @Autres composés NP 
+@310551@Other nitrogen & phosphates compounds@Autres composés d'azote et de phosphate
+@310559@Other nitrogen & phosphorus compounds@Autres composés d'azote et de phosphoreux
 @310610@NPK complex@Complexes NPK
 @310510@NPK complex <=10kg@Complexes NPK <=10kg
 @310520@NPK complex >10kg@Complexes NPK >10kg
-@310620@NPK blends@MŽlanges NPK
-@310560@PK compounds@ComposŽs PK
+@310620@NPK blends@Mélanges NPK
+@310560@PK compounds@Composés PK
 @283421@Potassium nitrate@Nitrate de potassium
 @310229@Ammonium sulphate nitrate@Nitrate de sulfate d'ammonium 
 @310250@Sodium nitrate@Nitrate de sodium
 @310260@Calcium nitrate@Nitrate de calcium
 @310270@Calcium Cyanamid @Cyanamide calcique 
-@310290@Other straight nitrogen@Autres engrais azotŽs simples non mentionnŽs ailleurs 
-@310320@Basic slag @Scories de dŽphosphoration
+@310290@Other straight nitrogen@Autres engrais azotés simples non mentionnés ailleurs 
+@310320@Basic slag @Scories de déphosphoration
 @310390@Other straight phosphates@Phosphates fondus et autres phosphates simples 
 @310410@Crude potash salts@Sels de potasse bruts
-@310490@Potassium magnesium sulphate @Sulfate de potassium-magnŽsium
-@310590@NK compounds other than Potassium nitrate@Les composŽs NK autres que le nitrate de potassium 
-@3101@Organic material, total@Matires organiques, total
+@310490@Potassium magnesium sulphate @Sulfate de potassium-magnésium
+@310590@NK compounds other than Potassium nitrate@Les composés NK autres que le nitrate de potassium 
+@3101@Organic material, total@Matières organiques, total
 @31011@Livestock manure, total@Fumier animal, total
 @31012@Cattle manure@Fumier de bovins
-@31013@Horse manure@Fumier dÕŽquidŽs
+@31013@Horse manure@Fumier d’équidés
 @31014@Pig manure@Fumier de porcins
-@31015@Sheep  manure@Fumier dÕovins et de caprins
+@31015@Sheep  manure@Fumier d’ovins et de caprins
 @31016@Poultry manure@Fumier de volailles
 @31017@Guano@Guano
 @31018@Composts @Compost
-@31019@Sewage waste@Eaux usŽes
+@31019@Sewage waste@Eaux usées
 @2521@Limestone@Limestone
 @2510@calcium phosphates@calcium phosphates
-@9002@Total annual capture inland fish production@QuantitŽ des captures en eaux intŽrieures 
-@9003@Total annual capture marine fish production@QuantitŽ des captures en eaux marines 
-@9005@Total annual value of capture inland fish production@Valeur des captures en eaux intŽrieures 
+@9002@Total annual capture inland fish production@Quantité des captures en eaux intérieures 
+@9003@Total annual capture marine fish production@Quantité des captures en eaux marines 
+@9005@Total annual value of capture inland fish production@Valeur des captures en eaux intérieures 
 @9006@Total annual value of capture marine fish production@Valeur des captures en eaux marines 
-@9011@Total inland aquaculture production@QuantitŽ de la production aquacole en eaux intŽrieures
-@9012@Total marine/brackish water aquaculture production@QuantitŽ de la production aquacole en eaux marines
-@9013@Total production of aquaculture @QuantitŽ  de la production aquacole en eaux saum‰tres
-@9014@Total inland aquaculture value@Valeur de  la production aquacole en eaux intŽrieures
+@9011@Total inland aquaculture production@Quantité de la production aquacole en eaux intérieures
+@9012@Total marine/brackish water aquaculture production@Quantité de la production aquacole en eaux marines
+@9013@Total production of aquaculture @Quantité  de la production aquacole en eaux saumâtres
+@9014@Total inland aquaculture value@Valeur de  la production aquacole en eaux intérieures
 @9015@Total marine/brackish water aquaculture value@Valeur de la production aquacole en eaux marines
-@9016@Total production value of Aquaculture @Valeur de la production aquacole en eaux saum‰tres
+@9016@Total production value of Aquaculture @Valeur de la production aquacole en eaux saumâtres
 @13@Freshwater fishes@Poissons d'eau douce
-@33a@Marine fishes (Inlands water)@Poissons marins (eaux intŽrieures)
-@47a@Crustaceans@CrustacŽs
+@33a@Marine fishes (Inlands water)@Poissons marins (eaux intérieures)
+@47a@Crustaceans@Crustacés
 @25@Diadromous fishes@Poissons diadromes
 @39a@Marine fishes@Poissons marins
 @58a@Molluscs@Mollusques
-@2520@Cereals, Other@CŽrŽales, Autres
+@2511@Wheat@Blé
+@2513@Barley@Orge
+@2514@Maize@Maïs
+@2515@Rye@Seigle
+@2516@Oats@Avoine
+@2517@Millet@Millet
+@2518@Sorghum@Sorgho
+@2520@Cereals, Other@Céréales, Autres
+@2531@Potatoes@Pommes de Terre
+@2532@Cassava@Manioc
+@2533@Sweet Potatoes@Patates Douce
 @2534@Roots, Other@Racines, Nda
+@2535@Yams@Ignames
+@2536@Sugar Cane@Canne à Sucre
+@2537@Sugar Beet@Betteraves à Sucre
 @2541@Sugar, Non-Centrifugal@Sucre, non-Centrifuge
-@2542@Sugar, Raw Equivalent (Aggregated products)@Sucre, Žquivalent brut (produits agrŽgŽs)
+@2542@Sugar, Raw Equivalent (Aggregated products)@Sucre, équivalent brut (produits agrégés)
 @2543@Sweeteners, Other@Edulcorants Autres
+@2544@Molasses@Mélasses
 @2546@Beans@Haricots
 @2547@Peas@Pois
-@2549@Pulses, Other@LŽgumineuses Autres
+@2549@Pulses, Other@Légumineuses Autres
 @2551@Nuts@Noix
 @2555@Soyabeans@Soja
 @2556@Groundnuts (Shelled Eq)@Arachides Decortiquees
 @2557@Sunflowerseed@Graines de Tournesol
 @2560@Coconuts - Incl Copra@Coco (Incl Coprah)
-@2561@Sesameseed@Graines de SŽsame
+@2561@Sesameseed@Graines de Sésame
+@2563@Olives@Olives
 @2570@Oilcrops, Other@Plantes Oleiferes, Autre
 @2571@Soyabean Oil@Huile de Soja
+@2572@Groundnut Oil@Huile d'Arachide
 @2573@Sunflowerseed Oil@Huile de Tournesol
 @2574@Rape and Mustard Oil@Huile de Colza&Moutarde
+@2575@Cottonseed Oil@Huile Graines de Coton
 @2576@Palmkernel Oil@Huile de Palmistes
+@2577@Palm Oil@Huile de Palme
 @2578@Coconut Oil@Huile de Coco
-@2579@Sesameseed Oil@Huile de SŽsame
+@2579@Sesameseed Oil@Huile de Sésame
 @2580@Olive Oil@Huile d'Olive
 @2581@Ricebran Oil@Huile de Son de Riz
-@2582@Maize Germ Oil@Huile de Germe de Ma•s
+@2582@Maize Germ Oil@Huile de Germe de Maïs
 @2586@Oilcrops Oil, Other@Huil Plantes Oleif Autr
+@2601@Tomatoes@Tomates
 @2602@Onions@Oignons
-@2605@Vegetables, Other@LŽgumes, Autres
+@2605@Vegetables, Other@Légumes, Autres
 @2611@Oranges, Mandarines@Oranges, Mandarines
 @2612@Lemons, Limes@Citrons & Limes
 @2613@Grapefruit@Pamplemousse
 @2614@Citrus, Other@Agrumes, Autres
+@2615@Bananas@Banane
+@2616@Plantains@Plantains
+@2617@Apples@Pommes
+@2618@Pineapples@Ananas
+@2619@Dates@Datte
+@2620@Grapes@Raisin
 @2625@Fruits, Other@Fruits, Autres
-@2630@Coffee@CafŽ
+@2630@Coffee@Café
+@2633@Cocoa Beans@Feve de Cacao
+@2635@Tea@Thé
 @2640@Pepper@Poivre
 @2641@Pimento@Piments
-@2645@Spices, Other@ƒpices, Autres
-@2656@Beer@Bire
-@2657@Beverages, Fermented@Boissons FermentŽs
+@2642@Cloves@Clou
+@2645@Spices, Other@Épices, Autres
+@2655@Wine@Vin
+@2656@Beer@Bière
+@2657@Beverages, Fermented@Boissons Fermentés
 @2658@Beverages, Alcoholic@Boissons Alcooliques
 @2731@Bovine Meat@Viande de Bovins
 @2732@Mutton & Goat Meat@Viande d'Ovins/Caprins
@@ -223,18 +253,20 @@ titleColumnIndex_FR=4
 @2735@Meat, Other@Viande, Autre
 @2736@Offals, Edible@Abats Comestible
 @2737@Fats, Animals, Raw@Graisses Animales Crue
-@2738@Milk, Whole@Lait entire
+@2738@Milk, Whole@Lait entière
 @2740@Butter, Ghee@Beurre, Ghee
 @2741@Cheese@Fromage
 @2742@Whey@Petit-Lait
-@2743@Cream@Crme
+@2743@Cream@Crème
 @2744@Eggs@Oeufs
 @2745@Honey@Miel
 @2748@Hides & Skins@Cuirs et Peaux
+@2749@Meat Meal@Farine de Viande
 @2761@Freshwater Fish@Poissons Eau Douce
 @2762@Demersal Fish@Perciform
 @2763@Pelagic Fish@Poissons Pelagiques
 @2764@Marine Fish, Other@Poissons Marins, Autres
+@2765@Crustaceans@Crustacés
 @2766@Cephalopods@Cephalopodes
 @2767@Molluscs, Other@Mollusques, Autres
 @2768@Meat, Aquatic Mammals@Viande de Anim Aquatiq
@@ -245,89 +277,89 @@ titleColumnIndex_FR=4
 @2804@Rice (Paddy Equivalent)@Riz (Eq Paddy)
 @2805@Rice (Milled Equivalent)@Riz (Eq Blanchi)
 @2815@Roots & Tuber Dry Equiv@Racines & Tubercules Sec
-@2818@Sugar, Refined Equiv@Sucre Eq RaffinŽ
+@2818@Sugar, Refined Equiv@Sucre Eq Raffiné
 @2820@Groundnuts (in Shell Eq)@Arachides en Coques
 @2827@Sugar, Raw Equivalent@Sucre Equivalent Brut
 @2848@Milk - Excluding Butter@Lait - Excl Beurre
 @2855@Fish Meal@Farine de Poisson
-@1609@Recovered Fibre Pulp (tonnes)@P‰te de fibres rŽcupŽrŽe (tonnes)
-@1612@Uncoated Mechanical (tonnes)@P.non couchŽs fabr mŽcan (tonnes)
-@1615@Uncoated Woodfree (tonnes)@P.non couchŽs sans bois (tonnes)
-@1616@Coated Papers (tonnes)@Papiers couchŽs (tonnes)
+@1609@Recovered Fibre Pulp (tonnes)@Pâte de fibres récupérée (tonnes)
+@1612@Uncoated Mechanical (tonnes)@P.non couchés fabr mécan (tonnes)
+@1615@Uncoated Woodfree (tonnes)@P.non couchés sans bois (tonnes)
+@1616@Coated Papers (tonnes)@Papiers couchés (tonnes)
 @1617@Case Materials (tonnes)@Caisses (tonnes)
-@1618@Folding Boxboard (tonnes)@Cartons bo”tes pliantes (tonnes)
+@1618@Folding Boxboard (tonnes)@Cartons boîtes pliantes (tonnes)
 @1621@Wrapping Papers (tonnes)@Papiers d'emballage (tonnes)
 @1622@Other Papers Packaging (tonnes)@Autres papiers d'empaque (tonnes)
 @1630@Wood Charcoal (tonnes)@Charbon de Bois (tonnes)
-@1654@Mechanical Wood Pulp (tonnes)@P‰te de Bois, Mecanique (tonnes)
-@1655@Semi-Chemical Wood Pulp (tonnes)@P‰te Bois,Mi-Chimique (tonnes)
-@1656@Chemical Wood Pulp (tonnes)@P‰te Bois,Chimique (tonnes)
-@1660@Unbleached Sulphite Pulp (tonnes)@P‰te ƒcrue au Bisulfite (tonnes)
-@1661@Bleached Sulphite Pulp (tonnes)@P‰te Blanchie,Bisulfite (tonnes)
-@1662@Unbleached Sulphate Pulp (tonnes)@P‰te ƒcrue,Sulfate+Soude (tonnes)
-@1663@Bleached Sulphate Pulp (tonnes)@P‰te Blanchie,Sulfa+Soud (tonnes)
-@1667@Dissolving Wood Pulp (tonnes)@P‰te de Bois,a Dissoudre (tonnes)
-@1668@Other Fibre Pulp (tonnes)@P‰te, Autres Fibres (tonnes)
+@1654@Mechanical Wood Pulp (tonnes)@Pâte de Bois, Mecanique (tonnes)
+@1655@Semi-Chemical Wood Pulp (tonnes)@Pâte Bois,Mi-Chimique (tonnes)
+@1656@Chemical Wood Pulp (tonnes)@Pâte Bois,Chimique (tonnes)
+@1660@Unbleached Sulphite Pulp (tonnes)@Pâte Écrue au Bisulfite (tonnes)
+@1661@Bleached Sulphite Pulp (tonnes)@Pâte Blanchie,Bisulfite (tonnes)
+@1662@Unbleached Sulphate Pulp (tonnes)@Pâte Écrue,Sulfate+Soude (tonnes)
+@1663@Bleached Sulphate Pulp (tonnes)@Pâte Blanchie,Sulfa+Soud (tonnes)
+@1667@Dissolving Wood Pulp (tonnes)@Pâte de Bois,a Dissoudre (tonnes)
+@1668@Other Fibre Pulp (tonnes)@Pâte, Autres Fibres (tonnes)
 @1669@Recovered Paper (tonnes)@Vieux Papier (tonnes)
 @1671@Newsprint (tonnes)@Papier Journal (tonnes)
-@1674@Printing+Writing Paper (tonnes)@Papier,Impressn+ƒcriture (tonnes)
+@1674@Printing+Writing Paper (tonnes)@Papier,Impressn+Écriture (tonnes)
 @1675@Other Paper+Paperboard (tonnes)@Autres Papiers et Carton (tonnes)
-@1676@Household+Sanitary Paper (tonnes)@Papiers Domest et HygiŽn (tonnes)
+@1676@Household+Sanitary Paper (tonnes)@Papiers Domest et Hygién (tonnes)
 @1681@Wrapg+Packg Paper+Board (tonnes)@Papier+Carton,Emballage (tonnes)
 @1683@Paper+Paperboard NES (tonnes)@Papier+Carton NDA (tonnes)
-@1601@Sawlogs+Veneer Logs (C) (CUM)@Grumes Sciage+Placage(C) (mtre cube)
-@1602@Pulpwood,Round&Split(C) (CUM)@Bois de Tritur,RetBF(C) (mtre cube)
-@1603@Pulpwood,Round&Split(NC) (CUM)@Bois de Tritur,RetBF(NC) (mtre cube)
-@1604@Sawlogs+Veneer Logs (NC) (CUM)@Grumes Sciage+Placag(NC) (mtre cube)
-@1608@Pulpwood+Particles(C) (CUM)@Bois de Triturat+Cop(C) (mtre cube)
-@1611@Pulpwood+Particles(NC) (CUM)@Bois de Triturat+Cop(NC) (mtre cube)
-@1614@Pulpwood,Round&Split Trd (CUM)@Bois de Tritur,RetBF Com (mtre cube)
-@1619@Chips and Particles (CUM)@Copeaux et Particules (mtre cube)
-@1620@Wood Residues (CUM)@Residus de Bois (mtre cube)
-@1623@Other Indust Roundwd(C) (CUM)@Autre Bois Rnd Indus(C) (mtre cube)
-@1625@Other Indust Roundwd Trd (CUM)@Autre Bois Rnd Indus Com (mtre cube)
-@1626@Other Indust Roundwd(NC) (CUM)@Autre Bois Rnd Indus(NC) (mtre cube)
-@1627@Wood Fuel(C) (CUM)@Bois de Chauffage(C) (mtre cube)
-@1628@Wood Fuel(NC) (CUM)@Bois de Chauffage(NC) (mtre cube)
-@1629@Wood Fuel Trd (CUM)@Bois de Chauffage Com (mtre cube)
-@1632@Sawnwood (C) (CUM)@Sciages (C) (mtre cube)
-@1633@Sawnwood (NC) (CUM)@Sciages (NC) (mtre cube)
-@1634@Veneer Sheets (CUM)@Feuilles de Placage (mtre cube)
-@1640@Plywood (CUM)@ContreplaquŽs (mtre cube)
-@1646@Particle Board (CUM)@Panneau de Particules (mtre cube)
-@1647@Hardboard (CUM)@Durs (mtre cube)
-@1648@MDF (CUM)@MDF (mtre cube)
-@1649@Fibreboard, Compressed (CUM)@Panneaux Fibre,Durs (mtre cube)
-@1650@Insulating Board (CUM)@Isolantes (mtre cube)
-@1651@Ind Rwd Wir (C) (CUM)@Bois Rond Indus-BB(C) (mtre cube)
-@1657@Ind Rwd Wir (NC) Tropica (CUM)@Bois Rond Indus-BB(NC)T (mtre cube)
-@1670@Ind Rwd Wir (NC) Other (CUM)@Bois Rond Indus-BB(NC)Au (mtre cube)
+@1601@Sawlogs+Veneer Logs (C) (CUM)@Grumes Sciage+Placage(C) (mètre cube)
+@1602@Pulpwood,Round&Split(C) (CUM)@Bois de Tritur,RetBF(C) (mètre cube)
+@1603@Pulpwood,Round&Split(NC) (CUM)@Bois de Tritur,RetBF(NC) (mètre cube)
+@1604@Sawlogs+Veneer Logs (NC) (CUM)@Grumes Sciage+Placag(NC) (mètre cube)
+@1608@Pulpwood+Particles(C) (CUM)@Bois de Triturat+Cop(C) (mètre cube)
+@1611@Pulpwood+Particles(NC) (CUM)@Bois de Triturat+Cop(NC) (mètre cube)
+@1614@Pulpwood,Round&Split Trd (CUM)@Bois de Tritur,RetBF Com (mètre cube)
+@1619@Chips and Particles (CUM)@Copeaux et Particules (mètre cube)
+@1620@Wood Residues (CUM)@Residus de Bois (mètre cube)
+@1623@Other Indust Roundwd(C) (CUM)@Autre Bois Rnd Indus(C) (mètre cube)
+@1625@Other Indust Roundwd Trd (CUM)@Autre Bois Rnd Indus Com (mètre cube)
+@1626@Other Indust Roundwd(NC) (CUM)@Autre Bois Rnd Indus(NC) (mètre cube)
+@1627@Wood Fuel(C) (CUM)@Bois de Chauffage(C) (mètre cube)
+@1628@Wood Fuel(NC) (CUM)@Bois de Chauffage(NC) (mètre cube)
+@1629@Wood Fuel Trd (CUM)@Bois de Chauffage Com (mètre cube)
+@1632@Sawnwood (C) (CUM)@Sciages (C) (mètre cube)
+@1633@Sawnwood (NC) (CUM)@Sciages (NC) (mètre cube)
+@1634@Veneer Sheets (CUM)@Feuilles de Placage (mètre cube)
+@1640@Plywood (CUM)@Contreplaqués (mètre cube)
+@1646@Particle Board (CUM)@Panneau de Particules (mètre cube)
+@1647@Hardboard (CUM)@Durs (mètre cube)
+@1648@MDF (CUM)@MDF (mètre cube)
+@1649@Fibreboard, Compressed (CUM)@Panneaux Fibre,Durs (mètre cube)
+@1650@Insulating Board (CUM)@Isolantes (mètre cube)
+@1651@Ind Rwd Wir (C) (CUM)@Bois Rond Indus-BB(C) (mètre cube)
+@1657@Ind Rwd Wir (NC) Tropica (CUM)@Bois Rond Indus-BB(NC)T (mètre cube)
+@1670@Ind Rwd Wir (NC) Other (CUM)@Bois Rond Indus-BB(NC)Au (mètre cube)
 @1309@Insecticides, Total@Insecticides, Total
 @1316@Mineral Oils@Huiles Minerales
 @1320@Herbicides, Total@Herbicides, Total
 @1331@Fungicides And Bactericides, Total    @Fongicides Et Bactericides, Total
 @1352@Fungicides - Seed Treatments, Total @Fongicides - Traitement Des Semences, Total
-@1351@Disinfectants@DŽsinfectants
+@1351@Disinfectants@Désinfectants
 @1353@Insecticides - Seed Treatments, Total@Insecticides - Traitement Des Sementces, Total
 @1355@Pesticides NES@Pesticides Nda 
 @1641@Plant Growth Regulators @Regulateurs de croissance, Total
 @1345@Rodenticides, Total@Rodenticides, Total
-@15@Wheat@BlŽ
+@15@Wheat@Blé
 @27@Rice, paddy@Riz, Paddy
 @44@Barley@Orge
-@56@Maize@Ma•s
-@68@Popcorn@Ma•s ƒclate
+@56@Maize@Maïs
+@68@Popcorn@Maïs Éclate
 @71@Rye@Seigle
 @75@Oats@Avoine
 @79@Millet@Mils
 @83@Sorghum@Sorgho
-@89@Buckwheat@Sarrasin, blŽ noir
+@89@Buckwheat@Sarrasin, blé noir
 @92@Quinoa@Quinoa
 @94@Fonio@Fonio
 @97@Triticale@Triticale
 @101@Canary seed@Alpiste
-@103@Mixed grain@CŽrŽales mŽlangŽes
-@108@Cereals, nes@CerŽales, nda
+@103@Mixed grain@Céréales mélangées
+@108@Cereals, nes@Ceréales, nda
 @108.1@Teff@Teff
 @116@Potatoes@Pommes de terre
 @122@Sweet potatoes@Patates douces
@@ -336,61 +368,61 @@ titleColumnIndex_FR=4
 @136@Taro (cocoyam)@Taros (colocases)
 @137@Yams@Ignames
 @149@Roots and Tubers, nes@Tubercules + racines nda
-@156@Sugar cane@Canne ˆ sucre
-@157@Sugar beet@Betterave ˆ sucre
-@161@Sugar crops, nes@Plantes sucrires, nda
+@156@Sugar cane@Canne à sucre
+@157@Sugar beet@Betterave à sucre
+@161@Sugar crops, nes@Plantes sucrières, nda
 @176@Beans, dry@Haricots secs
-@181@Broad beans, horse beans, dry@Fves sches
+@181@Broad beans, horse beans, dry@Fèves sèches
 @187@Peas, dry@Pois secs
 @191@Chick peas@Pois chiches
-@195@Cow peas, dry@Pois ˆ vache secs
+@195@Cow peas, dry@Pois à vache secs
 @197@Pigeon peas@Pois cajan
 @201@Lentils@Lentilles
 @203@Bambara beans@Pois bambara
 @205@Vetches@Vesces
 @210@Lupins@Lupins
-@211@Pulses, nes@LŽgumineuses, nda
-@216@Brazil nuts, with shell@Noix du BrŽsil non dŽcortiquŽes
+@211@Pulses, nes@Légumineuses, nda
+@216@Brazil nuts, with shell@Noix du Brésil non décortiquées
 @217@Cashew nuts, with shell@Noix d'Acajou
-@220@Chestnuts@Ch‰taignes
-@221@Almonds, with shell@Amandes non dŽcortiquŽes
-@222@Walnuts, with shell@Noix non dŽcortiquŽes
+@220@Chestnuts@Châtaignes
+@221@Almonds, with shell@Amandes non décortiquées
+@222@Walnuts, with shell@Noix non décortiquées
 @223@Pistachios@Pistaches
 @224@Kolanuts@Noix de Kola
-@225@Hazelnuts, with shell@Noisettes non dŽcortiquŽes
+@225@Hazelnuts, with shell@Noisettes non décortiquées
 @226@Arecanuts@Noix d'Arec
-@234@Nuts, nes@Fruits ˆ Coque nda
+@234@Nuts, nes@Fruits à Coque nda
 @236@Soybeans@Soja
-@242@Groundnuts, with shell@Arachides non dŽcortiquŽes
+@242@Groundnuts, with shell@Arachides non décortiquées
 @249@Coconuts@Noix de coco
 @254@Oil palm fruit@Noix de palme
 @256@Palm kernels@Palmistes
 @257@Palm oil@Huile de palme
 @260@Olives@Olives
-@263@Karite Nuts (Sheanuts)@Noix de KaritŽ
+@263@Karite Nuts (Sheanuts)@Noix de Karité
 @265@Castor oil seed@Ricin
 @267@Sunflower seed@Graines de tournesol
 @270@Rapeseed@Colza
 @275@Tung Nuts@Noix d'Abrasin
 @277@Jojoba Seeds@Graines de Jojoba
 @280@Safflower seed@Carthame
-@289@Sesame seed@SŽsame
+@289@Sesame seed@Sésame
 @292@Mustard seed@Moutarde
 @296@Poppy seed@Oeillette
 @299@Melonseed@Graines de melon
 @305@Tallowtree Seeds@Graines Arbre du Suif
-@306@Vegetable Tallow@Suif VŽgŽtal
+@306@Vegetable Tallow@Suif Végétal
 @307@Stillingia Oil@Huile de Stillingia
 @310@Kapok Fruit@Fruit du Kapokier
 @328@Seed cotton@Graines de cotton
 @329@Cottonseed@Graines de coton
 @333@Linseed@Graines de lin
 @336@Hempseed@Chanvre
-@339@Oilseeds, Nes@Graines olŽagineuses, nda
-@358@Cabbages and other brassicas@Choux et autres brassicacŽe
+@339@Oilseeds, Nes@Graines oléagineuses, nda
+@358@Cabbages and other brassicas@Choux et autres brassicacée
 @366@Artichokes@Artichauts
 @367@Asparagus@Asperges
-@372@Lettuce and chicory@Laitue et chicorŽe
+@372@Lettuce and chicory@Laitue et chicorée
 @373@Spinach@Epinards
 @388@Tomatoes@Tomates
 @393@Cauliflowers and broccoli@Choux-fleurs et brocolis
@@ -398,27 +430,27 @@ titleColumnIndex_FR=4
 @397@Cucumbers and gherkins@Concombres et cornichons
 @399@Eggplants (aubergines)@Aubergines
 @401@Chillies and peppers, green@Piments forts, piment doux frais
-@402@Onions (inc. shallots), green@Oignons (et Žchalotes) frais
+@402@Onions (inc. shallots), green@Oignons (et échalotes) frais
 @403@Onions, dry@Oignons secs
 @406@Garlic@Ail
-@407@Leeks, other alliaceous veg@Poireaux et autres lŽgumes alliacŽs
+@407@Leeks, other alliaceous veg@Poireaux et autres légumes alliacés
 @414@Beans, green@Haricots frais
 @417@Peas, green@Pois frais
-@420@Leguminous vegetables, nes@LŽgumineuses nda (dont fves, caroubes)
+@420@Leguminous vegetables, nes@Légumineuses nda (dont fèves, caroubes)
 @423@String beans@Haricots verts
 @426@Carrots and turnips@Carottes et navets
 @430@Okra@Gombo
-@446@Maize, green@Ma•s frais
+@446@Maize, green@Maïs frais
 @449@Mushrooms and truffles@Champignons et truffes
-@459@Chicory roots@Racines de chicorŽe
+@459@Chicory roots@Racines de chicorée
 @461@Carobs@Caroubes
-@463@Vegetables fresh nes@LŽgumes Frais, nda
+@463@Vegetables fresh nes@Légumes Frais, nda
 @486@Bananas@Bananes
 @489@Plantains@Bananes plantains
 @490@Oranges@Oranges
-@495@Tangerines, mandarins, clem.@Tangerines, mandarines et clŽmentines
+@495@Tangerines, mandarins, clem.@Tangerines, mandarines et clémentines
 @497@Lemons and limes@Citrons et limes
-@507@Grapefruit (inc. pomelos)@Pamplemousse (incluant les pomŽlos)
+@507@Grapefruit (inc. pomelos)@Pamplemousse (incluant les pomélos)
 @512@Citrus fruit, nes@Agrumes nda
 @515@Apples@Pommes
 @521@Pears@Poires
@@ -426,19 +458,19 @@ titleColumnIndex_FR=4
 @526@Apricots@Abricots
 @530@Sour cherries@Grillottes
 @531@Cherries@Cerises
-@534@Peaches and nectarines@Pches et nectarines
+@534@Peaches and nectarines@Pêches et nectarines
 @536@Plums and sloes@Prunes et prunelles
-@541@Stone fruit, nes@Fruit ˆ noyau, nda
-@542@Pome fruit, nes@Fruit ˆ pŽpins, nda
+@541@Stone fruit, nes@Fruit à noyau, nda
+@542@Pome fruit, nes@Fruit à pépins, nda
 @544@Strawberries@Fraises
 @547@Raspberries@Framboises
-@549@Gooseberries@Groseilles ˆ maquereaux
+@549@Gooseberries@Groseilles à maquereaux
 @550@Currants@Cassis et groseilles
 @552@Blueberries@Myrtilles
 @554@Cranberries@Canneberges
 @558@Berries Nes@Baies Nda
 @560@Grapes@Raisins
-@567@Watermelons@Pastques
+@567@Watermelons@Pastèques
 @568@Other melons (inc.cantaloupes)@Melons, cantaloups
 @569@Figs@Figues
 @571@Mangoes, mangosteens, guavas@Mangues, mangoustans et goyaves
@@ -451,14 +483,14 @@ titleColumnIndex_FR=4
 @600@Papayas@Papayes
 @603@Fruit, tropical fresh nes@Fruits Tropicaux Frais, nda
 @619@Fruit Fresh Nes@Fruits Frais, nda
-@656@Coffee, green@CafŽ vert
-@661@Cocoa beans@Fves de cacao
-@667@Tea@ThŽ
-@671@MatŽ@Mate
+@656@Coffee, green@Café vert
+@661@Cocoa beans@Fèves de cacao
+@667@Tea@Thé
+@671@Maté@Mate
 @674@Tea Nes@Infusions Nda
 @677@Hops@Houblon
-@687@Pepper (Piper spp.)@Poivre (sous-espces Piper)
-@689@Chillies and peppers, dry@Piments doux et ŽpicŽ
+@687@Pepper (Piper spp.)@Poivre (sous-espèces Piper)
+@689@Chillies and peppers, dry@Piments doux et épicé
 @692@Vanilla@Vanille
 @693@Cinnamon (canella)@Cannelle
 @698@Cloves@Girofles
@@ -466,18 +498,18 @@ titleColumnIndex_FR=4
 @711@Anise, badian, fennel, corian.@Anis, badiane, fenouil, coriandre, grain
 @720@Ginger@Gingembre
 @723@Spices, nes@Epices, nda
-@748@Peppermint@Menthe poivrŽe, menthe verte
-@754@Pyrethrum,Dried@Pyrthre, fleurs sŽchŽes
+@748@Peppermint@Menthe poivrée, menthe verte
+@754@Pyrethrum,Dried@Pyrèthre, fleurs séchées
 @767@Cotton lint@Fibre de coton
-@773@Flax fibre and tow@Fibre et Žtoupe de lin
-@777@Hemp Tow Waste@Etoupes DŽchets de Chanvre
-@780@Jute@Jute et fibres apparentŽes
+@773@Flax fibre and tow@Fibre et étoupe de lin
+@777@Hemp Tow Waste@Etoupes Déchets de Chanvre
+@780@Jute@Jute et fibres apparentées
 @782@Other Bastfibres@Fibres analogues au jute
 @788@Ramie@Ramie
 @789@Sisal@Sisal
 @800@Agave Fibres Nes@Fibres d'Agave, nda
 @809@Manila Fibre (Abaca)@Abaca, chanvre de manille
-@821@Fibre Crops Nes@Fibres VŽgetales nda
+@821@Fibre Crops Nes@Fibres Végetales nda
 @826@Tobacco, unmanufactured@Feuilles de tabac
 @836@Natural rubber@Caoutchouc naturel
 @839@Gums Natural@Gommes Naturelles
@@ -492,12 +524,12 @@ titleColumnIndex_FR=4
 @987@Wool, greasy@Laine en suint
 @1013@Sheep Live Weight@Ovins poids vif
 @1017@Goat meat@Viande de caprins
-@1020a@Goat milk, whole, fresh@Lait de chvre entier frais
+@1020a@Goat milk, whole, fresh@Lait de chèvre entier frais
 @1033@Goat Live Weight@Caprins poids vif
-@1035@Pig meat@Viande de suidŽs
+@1035@Pig meat@Viande de suidés
 @1056@Pig Live Weight@Porc poids vif
 @1058@Chicken meat@Viande de volaille
-@1062@Hen eggs, in shell@Îufs de poule en coquille
+@1062@Hen eggs, in shell@Œufs de poule en coquille
 @1069@Duck meat@Viande de canard
 @1071@Duck Live Weight@Canard poids vif
 @1073@Goose and guinea fowl meat@Viande d'oie
@@ -506,49 +538,49 @@ titleColumnIndex_FR=4
 @1085@Other Poultry Live Weight@Autres Volaille poids vif
 @1088@Turkey Live Weight@Dinde poids vif
 @1089@Bird meat, nes@Viandes de volatiles nda
-@1091@Other bird eggs,in shell@Îufs d'autres volatiles
+@1091@Other bird eggs,in shell@Œufs d'autres volatiles
 @1095@Chicken Live Weight@Poulet poids vif
 @1097@Horse meat@Viande de cheval
-@1108@Meat of Asses@Viande d'‰ne
+@1108@Meat of Asses@Viande d'âne
 @1111@Meat of Mules@Viande de mulet
 @1121@Horse Live Weight@Cheval poids vif
-@1123@Ass Live Weight@åne, mulet ou bardot poids vif
+@1123@Ass Live Weight@Âne, mulet ou bardot poids vif
 @1125@Mule Live Weight@Mulet poids vif
-@1127@Camel meat@Viande de camŽlidŽs
+@1127@Camel meat@Viande de camélidés
 @1130a@Camel milk, whole, fresh@Lait de chamelle entier frais
 @1138@Camel Live Weight@Chameau poids vif
-@1141@Rabbit meat@Viande de leporidŽs
+@1141@Rabbit meat@Viande de leporidés
 @1145@Rabbit - Live weight@Lapin poids vif
 @1151@Meat of Other Rod@Viande d'autres rongeurs
 @1155@Rodents Live Weight@Rongeurs poids vif
-@1158@Meat Oth Camelids@Viande d'Autres CamŽlidŽs
-@1162@Other Camelids Live Weight@Autres CamŽlidŽs poids vif
+@1158@Meat Oth Camelids@Viande d'Autres Camélidés
+@1162@Other Camelids Live Weight@Autres Camélidés poids vif
 @1163@Game meat@Viande de gibier
 @1166@Meat nes@Viande nda
 @1176@Snails, Not Sea@Escargots, non marins
 @1182@Honey, natural@Miel naturel
 @1183@Beeswax@Cire d'abeille
-@636@Maize for Forage+Silage@Fourrage et l'ensilage, ma•s
+@636@Maize for Forage+Silage@Fourrage et l'ensilage, maïs
 @637@Sorghum for Forage+Silag@Fourrage et l'ensilage, sorgho
 @638@Rye Grass,Forage+Silage@Fourrage et l'ensilage, ray grass
 @639@Grasses nes,Forage+Silag@Fourrage et l'ensilage, graminees nda
 @640@Clover for Forage+Silage@Fourrage et l'ensilage, trefle
 @641@Alfalfa for Forage+Silag@Fourrage et l'ensilage, luzerne
 @642@Green Oilseeds fr Fodder@Fourrage et l'ensilage, oleagineux verts
-@643@Leguminous nes,For+Sil@Fourrage et l'ensilage, lŽgumineuses
+@643@Leguminous nes,For+Sil@Fourrage et l'ensilage, légumineuses
 @644@Cabbage for Fodder@Choux fourragers
-@645@Mixed Grasses&Legumes@Courges fourragres
+@645@Mixed Grasses&Legumes@Courges fourragères
 @646@Turnips for Fodder@Navets fourragers
-@647@Beets for Fodder@Betteraves fourragres
-@648@Carrots for Fodder@Carottes fourragres
+@647@Beets for Fodder@Betteraves fourragères
+@648@Carrots for Fodder@Carottes fourragères
 @649@Swedes for Fodder@Rutabagas fourragers
 @651@Forage Products nes@Fourrage et l'ensilage, produits nda
-@655@Vegetables+Roots,Fodder@LŽgumes, racines, fourragers nda
-@51@Beer of Barley@Bire d'orge
-@60@Maize oil@Huile de ma•s
-@162@Sugar Raw Centrifugal@Sucre Brut CentrifugŽ
-@163@Sugar non-centrifugal@Sucre non centrifugŽ
-@165@Molasses@MŽlasse
+@655@Vegetables+Roots,Fodder@Légumes, racines, fourragers nda
+@51@Beer of Barley@Bière d'orge
+@60@Maize oil@Huile de maïs
+@162@Sugar Raw Centrifugal@Sucre Brut Centrifugé
+@163@Sugar non-centrifugal@Sucre non centrifugé
+@165@Molasses@Mélasse
 @237@Soybean oil@Huile de soja
 @244@Groundnut oil@Huile d'arachide
 @252@Coconut (copra) oil@Huile de coco
@@ -557,7 +589,7 @@ titleColumnIndex_FR=4
 @268@Sunflower oil@Huile de tournesol
 @271@Rapeseed oil@Huile de colza
 @281@Safflower oil@Huile de carthame
-@290@Sesame oil@Huile de sŽsame
+@290@Sesame oil@Huile de sésame
 @331@Cottonseed oil@Huile de coton
 @334@Linseed oil@Huile de lin
 @564@Wine@Vin
@@ -575,11 +607,11 @@ titleColumnIndex_FR=4
 @1096@Horses@Chevaux
 @1107@Asses@Anes
 @1110@Mules@Mulets
-@1126@Camels@CamelidŽs
-@1140@Rabbits @LeporidŽs
+@1126@Camels@Camelidés
+@1140@Rabbits @Leporidés
 @1150@Other rodents@Autres rongeurs
-@1157@Other camelids@Autres CamŽlidŽs
-@1169@Live animals, non food nes@Animaux vivants non destinŽs ˆ la production vivrire nda
+@1157@Other camelids@Autres Camélidés
+@1169@Live animals, non food nes@Animaux vivants non destinés à la production vivrière nda
 @1171@Live animals nes@Animaux vivants Nda
 @1181@Beehives@Ruches
 @867a@Slaughtered Cattle @Bovins abattus
@@ -595,105 +627,105 @@ titleColumnIndex_FR=4
 @1097a@Slaughtered Horses@Chevaux abattus
 @1108a@Slaughtered Asses@Anes abattus
 @1111a@Slaughtered Mules@Mulets abattus
-@1127a@Slaughtered Camels@CamelidŽs abattus
-@1141a@Slaughtered Rabbits and hares@LeporidŽs abattus
+@1127a@Slaughtered Camels@Camelidés abattus
+@1141a@Slaughtered Rabbits and hares@Leporidés abattus
 @1151a@Slaughtered Other Rodents@Autres rongeurs abattus
-@1158a@Slaughtered Other Camels@Autres CamŽlidŽs abattus
+@1158a@Slaughtered Other Camels@Autres Camélidés abattus
 @1166a@Meat nes@Viandes NDA
 @1038@Meat, pork@Viande, porc
 @882@Number of Milking Animals  (Cow milk, whole, fresh )@Effectif des vaches en lactaction (Lait de vache entier frais)
 @951@Number of Milking Animals (Buffalo milk, whole, fresh)@Effectif des vaches en lactaction (Lait de bufflonne entier frais)
 @982@Number of Milking Animals (Sheep milk)@Effectif des vaches en lactaction (Lait de brebis entier frais)
-@1020@Number of Milking Animals (Goat milk)@Effectif des vaches en lactaction (Lait de chvre entier frais)
+@1020@Number of Milking Animals (Goat milk)@Effectif des vaches en lactaction (Lait de chèvre entier frais)
 @1130@Number of Milking Animals (Camel milk)@Effectif des vaches en lactaction (Lait de chamelle entier frais)
 @1882@Cow milk, whole, fresh@Lait de vache entier frais
 @1951@Buffalo milk, whole, fresh@Lait de bufflonne entier frais
 @1982@Sheep milk@Lait de brebis entier frais
-@11020@Goat milk@Lait de chvre entier frais
+@11020@Goat milk@Lait de chèvre entier frais
 @11130@Camel milk@Lait de chamelle entier frais
 @1100@Hair of Horses@Crins de cheval
-@1185@Silk-worm cocoons, reelable@Cocons de vers ˆ soie ˆ dŽvider
-@1186@Silk raw@Soie grge
-@1187@Cocoons, unreelable & waste@Cocons ne se prtant pas au dŽvidage, dŽchets
+@1185@Silk-worm cocoons, reelable@Cocons de vers à soie à dévider
+@1186@Silk raw@Soie grège
+@1187@Cocoons, unreelable & waste@Cocons ne se prêtant pas au dévidage, déchets
 @1218@Hair, fine@Poils fins
 @1219@Hair, coarse nes@Poils grossiers nda
-@16@Flour of Wheat@Farine de blŽ
-@17@Bran of Wheat@Son de blŽ
-@18@Macaroni@P‰tes alimentaires
-@19@Germ of Wheat@Germe de blŽ
+@16@Flour of Wheat@Farine de blé
+@17@Bran of Wheat@Son de blé
+@18@Macaroni@Pâtes alimentaires
+@19@Germ of Wheat@Germe de blé
 @20@Bread@Pain
 @21@Bulgur@Boulgour
-@22@Pastry@P‰tisseries
-@23@Starch of Wheat@Amidons et fŽcules de blŽ
-@24@Gluten of Wheat@Gluten de blŽ
-@26@Wheat Fermented Beverage@Boissons obtenues par fermentation du blŽ
-@28@Rice Husked@Riz, dŽcortiquŽ
-@29@Milled/Husked Rice@Riz, usinŽ (dŽcortiquŽ)
+@22@Pastry@Pâtisseries
+@23@Starch of Wheat@Amidons et fécules de blé
+@24@Gluten of Wheat@Gluten de blé
+@26@Wheat Fermented Beverage@Boissons obtenues par fermentation du blé
+@28@Rice Husked@Riz, décortiqué
+@29@Milled/Husked Rice@Riz, usiné (décortiqué)
 @31@Rice Milled@Riz, blanchi
 @32@Rice Broken@Riz, brisures
 @33@Rice gluten@Gluten de riz
-@34@Starch of Rice@Amidons et fŽcules de riz
+@34@Starch of Rice@Amidons et fécules de riz
 @35@Bran of Rice@Son de riz
 @36@Rice bran oil@Huile de son de riz
 @37@Cake Rice Bran@Tourteaux de son de riz
 @38@Rice Flour@Farine de riz
 @39@Rice Fermented Beverages@Boissons obtenues par fermentation du riz
-@41@Breakfast Cereals@CŽrŽales pour petit dŽjeuner
+@41@Breakfast Cereals@Céréales pour petit déjeuner
 @45@Pot Barley@Gruau d'orge
-@46@Barley Pearled@Orge perlŽ
+@46@Barley Pearled@Orge perlé
 @47@Bran of Barley@Son d'orge
 @48@Barley Flour and Grits@Farines et semoules d'orge
 @49@Malt@Malt
 @50@Malt Extract@Malt, extrait
-@57@Germ of Maize@Germe de ma•s
-@58@Flour of Maize@Farine de ma•s
-@59@Bran of Maize@Son de ma•s
-@61@Cake of Maize@Tourteaux de ma•s
-@63@Maize gluten@Gluten de ma•s
-@64@Starch of Maize@Amidon de ma•s
-@66@Beer of Maize@Bire de ma•s
+@57@Germ of Maize@Germe de maïs
+@58@Flour of Maize@Farine de maïs
+@59@Bran of Maize@Son de maïs
+@61@Cake of Maize@Tourteaux de maïs
+@63@Maize gluten@Gluten de maïs
+@64@Starch of Maize@Amidon de maïs
+@66@Beer of Maize@Bière de maïs
 @72@Flour of Rye@Farine de seigle
 @73@Bran of Rye@Son de seigle
-@76@Oats Rolled@Avoine laminŽe
+@76@Oats Rolled@Avoine laminée
 @77@Bran of Oats@Son d'avoine
 @80@Flour of Millet@Farine de mil
 @81@Bran of Millet@Son de mil
-@82@Beer of Millet@Bire de mil
+@82@Beer of Millet@Bière de mil
 @84@Flour of Sorghum@Farine de sorgho
 @85@Bran of Sorghum@Son de sorgho
-@86@Beer of Sorghum@Bire de sorgho
+@86@Beer of Sorghum@Bière de sorgho
 @90@Flour of Buckwheat@Farine de sarrasin
 @91@Bran Buckwheat@Son de sarrasin
 @95@Flour of Fonio@Farine de fonio
 @96@Bran of Fonio@Son de fonio
 @98@Flour of Triticale@Farine de triticale
 @99@Bran of Triticale@Son de triticale
-@104@Flour of Mixed Grain@Farine de cŽrŽales mŽlangŽes
-@105@Bran of Mixed Grains@Son de cŽrŽales mŽlangŽes
+@104@Flour of Mixed Grain@Farine de céréales mélangées
+@105@Bran of Mixed Grains@Son de céréales mélangées
 @109@Infant food@Aliments pour enfants
 @110@Wafers@Gaufres
-@111@Flour of Cereals@Farine de cŽrŽales nda
-@112@Bran of Cereals@Son de cŽrŽales nda
-@113@Cereal Preparations, Nes@CŽrŽales, prŽparations nda
-@114@Mixes and doughs@P‰tes pour boulangerie - p‰tisserie
-@115@Food preparations, flour, malt extract@Aliments, prŽparations de farines, semoules ou extraits de malt
+@111@Flour of Cereals@Farine de céréales nda
+@112@Bran of Cereals@Son de céréales nda
+@113@Cereal Preparations, Nes@Céréales, préparations nda
+@114@Mixes and doughs@Pâtes pour boulangerie - pâtisserie
+@115@Food preparations, flour, malt extract@Aliments, préparations de farines, semoules ou extraits de malt
 @117@Potatoes Flour@Farine de pommes de terre
-@118@Frozen Potatoes@Pommes de terre surgelŽes
-@119@Starch of Potatoes@FŽcule de pommes de terres
-@120@Potato Offals@Pommes de terre, dŽchets
-@121@Tapioca of Potatoes@Tapioca de fŽcule de pommes de terre
+@118@Frozen Potatoes@Pommes de terre surgelées
+@119@Starch of Potatoes@Fécule de pommes de terres
+@120@Potato Offals@Pommes de terre, déchets
+@121@Tapioca of Potatoes@Tapioca de fécule de pommes de terre
 @126@Flour of Cassava@Farine de manioc
 @127@Tapioca of Cassava@Tapioca de manioc
-@128@Cassava Dried@Manioc sŽchŽ
+@128@Cassava Dried@Manioc séché
 @129@Cassava Starch@Amidon de manioc
 @150@Flour of Roots and Tubers@Farine de racines et tubercules nda
-@151@Roots and Tubers Dried@Racines et tubercules sŽchŽs, nda
+@151@Roots and Tubers Dried@Racines et tubercules séchés, nda
 @154@Fructose chemically pure@Fructose, chimiquement pur
 @155@Maltose chemically pure@Maltose, chimiquement pur
-@158@Cane sugar, raw, centrifugal@Sucre de canne, brut, centrifugŽ
-@159@Beet sugar, raw, centrifugal@Sucre de betterave, brut, centrifugŽ
-@160@Maple sugar and syrups@Sucre et sirops d'Žrable
-@164@Sugar Refined@Sucre raffinŽ
+@158@Cane sugar, raw, centrifugal@Sucre de canne, brut, centrifugé
+@159@Beet sugar, raw, centrifugal@Sucre de betterave, brut, centrifugé
+@160@Maple sugar and syrups@Sucre et sirops d'érable
+@164@Sugar Refined@Sucre raffiné
 @166@Fructose and syrup, other@Fructoses et sirops, autres
 @167@Sugar, nes@Sucres nda
 @168@Sugar Confectionery@Sucre, confiseries
@@ -703,28 +735,28 @@ titleColumnIndex_FR=4
 @173@Lactose@Lactose
 @174@Artificial sweeteners@Edulcorants artificiels
 @175@Isoglucose@Isoglucose
-@212@Flour of Pulses@Farine de lŽgumineuses
-@213@Bran of Pulses@Son de lŽgumineuses
-@229@Brazil Nuts Shelled@Noix du brŽsil, ŽcalŽes
-@230@Cashew Nuts Shelled@Noix d'acajou, ŽcalŽes
-@231@Almonds Shelled@Amandes, ŽcalŽes
-@232@Walnuts Shelled@Noix, ŽcalŽes
-@233@Hazelnuts Shelled@Noisettes, ŽcalŽes
-@235@Prepared Nuts@Fruits ˆ coque prŽparŽes (exc. arachides)
+@212@Flour of Pulses@Farine de légumineuses
+@213@Bran of Pulses@Son de légumineuses
+@229@Brazil Nuts Shelled@Noix du brésil, écalées
+@230@Cashew Nuts Shelled@Noix d'acajou, écalées
+@231@Almonds Shelled@Amandes, écalées
+@232@Walnuts Shelled@Noix, écalées
+@233@Hazelnuts Shelled@Noisettes, écalées
+@235@Prepared Nuts@Fruits à coque préparées (exc. arachides)
 @238@Cake of Soybeans@Tourteaux de soja
 @239@Soya Sauce@Soja, sauce
-@240@Soya Paste@Soja, p‰te
-@241@Soya Curd@Soja, caillŽ
-@243@Groundnuts Shelled@Arachides dŽcortiquŽes
+@240@Soya Paste@Soja, pâte
+@241@Soya Curd@Soja, caillé
+@243@Groundnuts Shelled@Arachides décortiquées
 @245@Cake of Groundnuts@Tourteaux d'arachide
-@246@Prepared Groundnuts@Arachides prŽparŽes
-@247@Peanut Butter@Cacahute, beurre
-@250@Coconuts Desiccated@Noix de coco dessŽchŽes
+@246@Prepared Groundnuts@Arachides préparées
+@247@Peanut Butter@Cacahuète, beurre
+@250@Coconuts Desiccated@Noix de coco desséchées
 @251@Copra@Copra
 @253@Cake of Copra@Tourteaux de copra
 @259@Cake of Palm Kernel@Tourteaux de palmiste
 @262@Olives Preserved@Olives en conserve
-@264@Butter of Karite Nuts@Beurre de karitŽ
+@264@Butter of Karite Nuts@Beurre de karité
 @266@Oil of Castor Beans@Huile de ricin
 @269@Sunflower Cake@Tourteaux de tournesol
 @272@Cake of Rapeseed@Tourteaux de colza
@@ -733,228 +765,228 @@ titleColumnIndex_FR=4
 @276@Oil of Tung Nuts@Huile d'abrasin
 @278@Oil, jojoba@Huile de jojoba
 @282@Cake Safflower@Tourteaux de carthame
-@291@Cake of Sesame Seed@Tourteaux de sŽsame
+@291@Cake of Sesame Seed@Tourteaux de sésame
 @293@Mustard oil@Huile de moutarde
 @294@Cake of Mustard@Tourteaux de moutarde
 @295@Flour of Mustard@Farine de moutarde
 @297@Poppy Oil@Huile d'oeillette
 @298@Cake of Poppy Seed@Tourteaux d'oeillette
-@312@Kapokseed Shelled@Kapok, graines dŽcortiquŽes
+@312@Kapokseed Shelled@Kapok, graines décortiquées
 @313@Oil of Kapok@Huile de kapok
 @314@Cake of Kapok@Tourteaux de kapok
 @332@Cake of Cottonseed@Tourteaux de coton
 @335@Cake of Linseed@Tourteaux de lin
-@337@Oil of Hempseed@Huile de chnevis
+@337@Oil of Hempseed@Huile de chènevis
 @338@Cake of Hempseed@Tourteaux de chanvre
-@340@Oil of vegetable origin, nes@Huile vŽgŽtale nda
-@341@Cake of Oilseeds, Nes@Tourteaux de graines olŽagineuses nda
-@343@Flour of Oilseeds@Farine de graines olŽagineuses
+@340@Oil of vegetable origin, nes@Huile végétale nda
+@341@Cake of Oilseeds, Nes@Tourteaux de graines oléagineuses nda
+@343@Flour of Oilseeds@Farine de graines oléagineuses
 @390@Juice of Tomatoes@Jus de tomates
-@391@Paste of Tomatoes@Tomates, purŽe
-@392@Tomato Peeled@Tomates, pelŽes
-@447@Sweet Corn Frozen@Ma•s doux, congelŽ
-@448@Sweet Corn Prep or Preserved@Ma•s doux, prŽparŽ ou en conserve
+@391@Paste of Tomatoes@Tomates, purée
+@392@Tomato Peeled@Tomates, pelées
+@447@Sweet Corn Frozen@Maïs doux, congelé
+@448@Sweet Corn Prep or Preserved@Maïs doux, préparé ou en conserve
 @450@Dried Mushrooms@Champignons secs
-@451@Canned Mushrooms@Champignons en bo”te
-@460@Vegetables, fresh or dried products nes@LŽgumes, produits vegetaux frais ou secs nda
-@464@Vegetables, dried nes@LŽgumes secs, nda
-@465@Vegetables, canned nes@LŽgumes en conserve, nda
-@466@Juice of Vegetables Nes@Jus de lŽgumes nda
-@469@Vegetables Dehydrated@LŽgumes dŽshydratŽs
-@471@Vegetables in Vinegar@LŽgumes au vinaigre
-@472@Vegetables Preserved Nes@LŽgumes en conserve nda
-@473@Vegetable Frozen@LŽgumes surgelŽs
-@474@Vegetables Temporarily Preserved@LŽgumes, provisoirement conservŽs
-@475@Vegetable preserved Frozen@LŽgumes conservŽs (surgelŽs)
-@476@Homogenized Vegetable Preparations@LŽgumes, prŽparation de homogŽnŽisŽs
+@451@Canned Mushrooms@Champignons en boîte
+@460@Vegetables, fresh or dried products nes@Légumes, produits vegetaux frais ou secs nda
+@464@Vegetables, dried nes@Légumes secs, nda
+@465@Vegetables, canned nes@Légumes en conserve, nda
+@466@Juice of Vegetables Nes@Jus de légumes nda
+@469@Vegetables Dehydrated@Légumes déshydratés
+@471@Vegetables in Vinegar@Légumes au vinaigre
+@472@Vegetables Preserved Nes@Légumes en conserve nda
+@473@Vegetable Frozen@Légumes surgelés
+@474@Vegetables Temporarily Preserved@Légumes, provisoirement conservés
+@475@Vegetable preserved Frozen@Légumes conservés (surgelés)
+@476@Homogenized Vegetable Preparations@Légumes, préparation de homogénéisés
 @491@Orange juice, single strength@Jus d'orange
-@492@Orange juice, concentrated@Jus d'orange concentrŽ
+@492@Orange juice, concentrated@Jus d'orange concentré
 @496@Tangerine Juice@Jus de tangerine
 @498@Lemon juice, single strength@Jus de citron
-@499@Lemon juice, concentrated@Jus de citron concentrŽ
+@499@Lemon juice, concentrated@Jus de citron concentré
 @509@Juice of Grapefruit@Jus de pamplemousse
-@510@Grapefruit juice, concentrated@Jus de pamplemousse concentrŽ
+@510@Grapefruit juice, concentrated@Jus de pamplemousse concentré
 @513@Citrus juice, single strength@Jus d'agrumes nda
-@514@Citrus juice, concentrated@Jus d'agrumes nda, concentrŽs
+@514@Citrus juice, concentrated@Jus d'agrumes nda, concentrés
 @517@Cider Etc@Cidre, etc.
 @518@Apple juice, single strength@Jus de pomme
-@519@Apple juice, concentrated@Jus de pomme concentrŽ
-@527@Dry Apricots@Abricots sŽchŽs
-@537@Plums Dried (Prunes)@Prunes sŽchŽes
+@519@Apple juice, concentrated@Jus de pomme concentré
+@527@Dry Apricots@Abricots séchés
+@537@Plums Dried (Prunes)@Prunes séchées
 @538@Plum juice, single strength@Jus de prune
-@539@Plum juice, concentrated@Jus de prune concentrŽ
+@539@Plum juice, concentrated@Jus de prune concentré
 @561@Raisins@Raisins secs
 @562@Grape Juice@Jus de raisin
-@563@Must of Grapes@Raisin, možt
+@563@Must of Grapes@Raisin, moût
 @565@Vermouths&Similar@Vermouths, etc.
 @566@Marc of Grapes@Raisin, marc
-@570@Figs Dried@Figues sches
-@575@Pineapples Cand@Ananas en bo”te
+@570@Figs Dried@Figues sèches
+@575@Pineapples Cand@Ananas en boîte
 @576@Juice of Pineapples@Jus d'ananas
-@580@Pineapple Juice Conc@Jus d'ananas concentrŽ
+@580@Pineapple Juice Conc@Jus d'ananas concentré
 @583@Mango Juice@Jus de mangue
 @584@Mango Pulp@Mangue, pulpe
 @604@Fruit Tropical Dried Nes@Fruits tropicaux secs, nda
 @620@Fruit Dried Nes@Fruits secs, nda
 @622@Fruit Juice Nes@Jus de fruits nda
-@623@Fruit Prp Nes@Fruits prŽparŽs nda
+@623@Fruit Prp Nes@Fruits préparés nda
 @624@Flour of Fruits@Farine de fruits
-@625@Fruits, nuts, peel, sugar preserved@Fruits, noix, Žcorces confits
-@626@Fruit, cooked, homogenized preparations@Fruits cuits homogŽnŽisŽs, prŽparŽs
-@628@Pulp of Fruit for Feed@Aliments, pulpe, dŽchets de fruits destinŽs ˆ l'affouragement
+@625@Fruits, nuts, peel, sugar preserved@Fruits, noix, écorces confits
+@626@Fruit, cooked, homogenized preparations@Fruits cuits homogénéisés, préparés
+@628@Pulp of Fruit for Feed@Aliments, pulpe, déchets de fruits destinés à l'affouragement
 @629@Beet tops@Betterave, verts
 @630@Cane tops@Bouts blancs de canne
 @631@Waters,ice etc@Eaux, glace et neige
 @632@Alcohol Non Food@Alcool non alimentaire
-@633@Beverages, non alcoholic@Boissons non alcoolisŽes
-@634@Beverages, distilled alcoholic@Boissons alcoolisŽes distillŽes
+@633@Beverages, non alcoholic@Boissons non alcoolisées
+@634@Beverages, distilled alcoholic@Boissons alcoolisées distillées
 @635@Straw husks@Pailles et balles
-@650@Leaves, tops, vines nes@Feuilles, extrŽmitŽs et vrilles nda
-@652@Feed, vegetable products nes@Aliments, produits vŽgŽtaux d'affouragement nda
-@653@Food wastes@Aliments, dŽchets
-@657@Coffee Roasted@CafŽ, torrŽfiŽ
-@658@Coffee, substitutes containing coffee@CafŽ, succŽdanŽs contenant cafŽ
-@659@Coffee Extracts@CafŽ, extraits
-@660@Coffee, husks and skins@CafŽ, coques et parches
-@662@Cocoa Paste@Cacao, p‰te
+@650@Leaves, tops, vines nes@Feuilles, extrémités et vrilles nda
+@652@Feed, vegetable products nes@Aliments, produits végétaux d'affouragement nda
+@653@Food wastes@Aliments, déchets
+@657@Coffee Roasted@Café, torréfié
+@658@Coffee, substitutes containing coffee@Café, succédanés contenant café
+@659@Coffee Extracts@Café, extraits
+@660@Coffee, husks and skins@Café, coques et parches
+@662@Cocoa Paste@Cacao, pâte
 @663@Cocoahusks;Shell@Cabosses et pellicules de cacao
 @664@Cocoa Butter@Cacao, beurre
 @665@Cocoapowder&Cake@Cacao, poudre et masse
-@666@Chocolate products nes@Produits cacaotŽs nda
-@672@Tea, mate extracts@ThŽ et matŽ, extraits
+@666@Chocolate products nes@Produits cacaotés nda
+@672@Tea, mate extracts@Thé et maté, extraits
 @737@Oil, citronella@Huile de citronnelle
 @753@Oil Essential Nes@Huile essentielle nda
-@755@Pyrethrum, extraction@Pyrthre, extraits
-@756@Pyret Marc@Pyrthre, marc
-@768@Cotton, carded, combed@Coton, cardŽ ou peignŽ
-@769@Cotton Waste@Coton, dŽchets
+@755@Pyrethrum, extraction@Pyrèthre, extraits
+@756@Pyret Marc@Pyrèthre, marc
+@768@Cotton, carded, combed@Coton, cardé ou peigné
+@769@Cotton Waste@Coton, déchets
 @770@Cotton Linter@Coton, bourre
 @771@Flax Fibre Raw@Lin, brut ou roui
-@774@Flax Tow Waste@Lin, etoupe et dŽchets
+@774@Flax Tow Waste@Lin, etoupe et déchets
 @778@Kapok Fibre@Kapok, fibre
 @828@Cigarettes@Cigarettes
-@829@Cigars Cheroots@Cigares et cigares ˆ bout coupŽ
-@831@Tobacco Products Nes@Tabac, produits ˆ base nda
-@837@Rubber Nat Dry@Caoutchouc naturel (sŽchŽ)
-@840@Feed, compound, cattle@Aliments composŽs pour bovins
-@841@Feed, compound, poultry@Aliments composŽs pour volaille
-@842@Feed, compound, pigs@Aliments composŽs pour porcins
+@829@Cigars Cheroots@Cigares et cigares à bout coupé
+@831@Tobacco Products Nes@Tabac, produits à base nda
+@837@Rubber Nat Dry@Caoutchouc naturel (séché)
+@840@Feed, compound, cattle@Aliments composés pour bovins
+@841@Feed, compound, poultry@Aliments composés pour volaille
+@842@Feed, compound, pigs@Aliments composés pour porcins
 @843@Pet food@Aliments pour animaux familiers
-@845@Feed, compound, nes@Aliments composŽs nda
+@845@Feed, compound, nes@Aliments composés nda
 @846@Feed and meal, gluten@Fourrages et tourteaux au gluten
-@849@Feed yeast@Fourragre, levure
-@850@Feed supplements@Fourragers, complŽments
-@851@Feed, non-protein nitrogens@Aliments, azotes non protŽiques
-@852@Feed, other concentrates nes@Aliments, autres concentrŽs nda
+@849@Feed yeast@Fourragère, levure
+@850@Feed supplements@Fourragers, compléments
+@851@Feed, non-protein nitrogens@Aliments, azotes non protéiques
+@852@Feed, other concentrates nes@Aliments, autres concentrés nda
 @853@Vitamins@Vitamines
 @854@Feed additives@Fourragers, additifs
-@855@Feed minerals@Fourragers, sels minŽraux
-@857@Hay, non-leguminous@Foin de plantes non lŽgumineuses
-@858@Hay (clover, lucerne,etc)@Foin (trfle, luzerne, etc.)
-@859@Hay (unspecified)@Foin (non spŽcifiŽ)
-@860@Range Pasture@P‰turage saisonnier
-@861@Improved Pasture@P‰turages ameliores
-@862@Alfalfa meal and pellets@Farine et granulŽs de luzerne
+@855@Feed minerals@Fourragers, sels minéraux
+@857@Hay, non-leguminous@Foin de plantes non légumineuses
+@858@Hay (clover, lucerne,etc)@Foin (trèfle, luzerne, etc.)
+@859@Hay (unspecified)@Foin (non spécifié)
+@860@Range Pasture@Pâturage saisonnier
+@861@Improved Pasture@Pâturages ameliores
+@862@Alfalfa meal and pellets@Farine et granulés de luzerne
 @868@Offals, edible, cattle@Abats, comestibles, bovins
 @869@Fat, cattle@Graisses de bovins
-@870@Beef and Veal,Boneless@Viande, bovin, dŽsossŽe
-@871@Fat, cattle butcher@Graisses de dŽcoupe de bovins
-@872@Beef Dried Salt Smoked@Viande, boeuf et veau sŽchŽe, salŽe, fumŽe
+@870@Beef and Veal,Boneless@Viande, bovin, désossée
+@871@Fat, cattle butcher@Graisses de découpe de bovins
+@872@Beef Dried Salt Smoked@Viande, boeuf et veau séchée, salée, fumée
 @873@Meat Extracts@Viande, extraits
 @874@Sausages Beef and Veal@Viande, boeuf et veau, saucisses
-@875@Beef Preparations@Viande, boeuf et veau nda, prŽparations
-@876@Beef Canned@Viande, boeuf en bo”te
-@877@Homogenized Meat Prep.@Viande, prŽparations homogŽnŽisŽe
-@878@Liver Preparations@PrŽparations de foie
-@883@Standardized Milk@Lait, standardisŽ
-@885@Cream fresh@Crme fraiche
+@875@Beef Preparations@Viande, boeuf et veau nda, préparations
+@876@Beef Canned@Viande, boeuf en boîte
+@877@Homogenized Meat Prep.@Viande, préparations homogénéisée
+@878@Liver Preparations@Préparations de foie
+@883@Standardized Milk@Lait, standardisé
+@885@Cream fresh@Crème fraiche
 @886@Butter, cow milk@Beurre de lait de vache
 @887@Ghee, butteroil of cow milk@Ghee de lait de vache
-@888@Milk, skimmed cow@Lait, ŽcrŽmŽ de vache
-@889@Milk, whole condensed@Lait, entier concentrŽ sucrŽ
-@890@Whey, condensed@SŽrum, condensŽ
+@888@Milk, skimmed cow@Lait, écrémé de vache
+@889@Milk, whole condensed@Lait, entier concentré sucré
+@890@Whey, condensed@Sérum, condensé
 @891@Yoghurt@Yaourt
-@892@Yogurt Concentr.Or Not@Yaourt, concentrŽ ou non
-@893@Butterm,Curdl,Acid.Milk@Babeurre, lait caillŽ, lait acidifiŽ
-@894@Whole Milk, Evaporated@Lait, entier concentrŽ non sucrŽ
-@895@Skim Milk, Evaporated@Lait, ŽcrŽmŽ concentrŽ non sucrŽ
-@896@Skim Milk, Condensed@Lait, ŽcrŽmŽ concentrŽ sucrŽ
+@892@Yogurt Concentr.Or Not@Yaourt, concentré ou non
+@893@Butterm,Curdl,Acid.Milk@Babeurre, lait caillé, lait acidifié
+@894@Whole Milk, Evaporated@Lait, entier concentré non sucré
+@895@Skim Milk, Evaporated@Lait, écrémé concentré non sucré
+@896@Skim Milk, Condensed@Lait, écrémé concentré sucré
 @897@Dry Whole Cow Milk@Lait, entier en poudre de vache
-@898@Dry Skim Cow Milk@Lait, ŽcrŽmŽ en poudre de vache
+@898@Dry Skim Cow Milk@Lait, écrémé en poudre de vache
 @899@Dry Buttermilk@Lait, babeurre en poudre
-@900@Dry Whey@SŽrum, en poudre
+@900@Dry Whey@Sérum, en poudre
 @901@Cheese (Whole Cow Milk)@Fromage, au lait de vache entier
-@903@Whey, fresh@SŽrum, frais
-@904@Cheese, skimmed cow milk@Fromage, au lait de vache ŽcrŽmŽ
-@905@Whey, cheese@SŽrum, fromage
+@903@Whey, fresh@Sérum, frais
+@904@Cheese, skimmed cow milk@Fromage, au lait de vache écrémé
+@905@Whey, cheese@Sérum, fromage
 @907@Processed Cheese@Fromage fondu
-@908@Milk, reconstituted@Lait, reconstituŽ
-@909@Milk, products of natural constituents nes@Lait, produits issus d'ŽlŽments naturels nda
-@910@Ice Cream and Edible Ice@Crme glacŽe et glace comestible
+@908@Milk, reconstituted@Lait, reconstitué
+@909@Milk, products of natural constituents nes@Lait, produits issus d'éléments naturels nda
+@910@Ice Cream and Edible Ice@Crême glacée et glace comestible
 @916@Egg Albumine@Ovalbumine
-@917@Casein@CasŽine
+@917@Casein@Caséine
 @919@Cattle Hides@Peaux de bovins fraiches
-@920@Hides Wet-Salted Cattle@Peaux de bovins humides salŽs
-@921@Hides Dry-Salted Cattle@Peaux de bovins secs salŽs
+@920@Hides Wet-Salted Cattle@Peaux de bovins humides salés
+@921@Hides Dry-Salted Cattle@Peaux de bovins secs salés
 @922@Hides nes Cattle@Peaux de bovins nda
 @927@Skins, calve, fresh@Peaux de veaux fraiches
-@928@Skins Wet-Salt Calves@Peaux de veaux humides salŽes
-@929@Skins Dry-Salt Calves@Peaux de veaux sches salŽes
+@928@Skins Wet-Salt Calves@Peaux de veaux humides salées
+@929@Skins Dry-Salt Calves@Peaux de veaux sèches salées
 @930@Skins nes Calves@Peaux de veaux nda
 @948@Offals, edible, buffaloes@Abats, comestibles, buffle
 @949@Fat, buffaloes@Graisses de buffle
 @952@Butter, buffalo milk@Beurre de lait de bufflesse
 @953@Ghee, of buffalo milk@Ghee de lait de bufflesse
-@954@Milk, skimmed buffalo@Lait, ŽcrŽmŽ de bufflesse
+@954@Milk, skimmed buffalo@Lait, écrémé de bufflesse
 @955@Cheese, buffalo milk@Fromage de lait de bufflonne
 @957@Hides, buffalo, fresh@Peaux de buffles frais
-@958@Hides Wet-Salted Buffal@Peaux de buffles humides salŽes
-@959@Hides Dry-Salted Buffal@Peaux de buffles sches salŽes
+@958@Hides Wet-Salted Buffal@Peaux de buffles humides salées
+@959@Hides Dry-Salted Buffal@Peaux de buffles sèches salées
 @978@Offals, sheep,edible@Abats, comestibles, ovins
 @979@Fat, sheep@Graisses d'ovins
 @983@Butter and ghee, sheep milk@Beurre et ghee de brebis
 @984@Cheese, sheep milk@Fromage, au lait de brebis
-@985@Skim Sheep Milk@Lait, ŽcrŽmŽ de brebis
-@988@Wool, Scoured@Laine dŽgraissŽe
+@985@Skim Sheep Milk@Lait, écrémé de brebis
+@988@Wool, Scoured@Laine dégraissée
 @994@Grease incl. lanolin wool@Suint de laine et lanoline
-@995@Lait, ŽcrŽmŽ de brebis@Peaux d'ovins fraiches
+@995@Lait, écrémé de brebis@Peaux d'ovins fraiches
 @995a@Skins, sheep, fresh@Peaux d'ovins fraiches
-@996@Skins, sheep, wet salted@Peaux d'ovins humides salŽes
-@997@Peaux d'ovins sches salŽes@Peaux d'ovins sches salŽes
+@996@Skins, sheep, wet salted@Peaux d'ovins humides salées
+@997@Peaux d'ovins sèches salées@Peaux d'ovins sèches salées
 @998@Skins, sheep, nes@Peaux d'ovins nda
-@999@Skins With Wool Sheep@Peaux d'ovins non dŽlainŽes
+@999@Skins With Wool Sheep@Peaux d'ovins non délainées
 @1002@Karakul Skins@Peaux de caracul
 @1007@Wool Shoddy@Laine d'effilochage
-@1008@Hair Carded or Combed@Poils, cardŽs, peignŽs
-@1009@Wool and Hair Waste@Laine, dŽchets de poils
-@1010@Wool, tops@Laine peignŽe
+@1008@Hair Carded or Combed@Poils, cardés, peignés
+@1009@Wool and Hair Waste@Laine, déchets de poils
+@1010@Wool, tops@Laine peignée
 @1018@Offals, edible, goats@Abats, comestibles, caprins
 @1019@Fat, goats@Graisses de caprins
-@1021@Cheese of Goat Milk@Fromage de lait de chvre
-@1022@Butter of goat mlk@Beurre de lait de chvre
-@1023@Skim Milk of Goat@Lait, ŽcrŽmŽ de chvre
+@1021@Cheese of Goat Milk@Fromage de lait de chèvre
+@1022@Butter of goat mlk@Beurre de lait de chèvre
+@1023@Skim Milk of Goat@Lait, écrémé de chèvre
 @1025@Goatskins@Peaux de caprins fraiches
-@1026@Skins Wet-Salted Goats@Peaux de caprins humides salŽes
-@1027@Skins Dry-Salted Goats@Peaux de caprins sches salŽes
+@1026@Skins Wet-Salted Goats@Peaux de caprins humides salées
+@1027@Skins Dry-Salted Goats@Peaux de caprins sèches salées
 @1028@Skins nes Goats@Peaux de caprins nda
-@1030@Hair, goat, fine@Poils de chvre fins
-@1031@Hair, goat, coarse@Poils de chvre grossiers
+@1030@Hair, goat, fine@Poils de chèvre fins
+@1031@Hair, goat, coarse@Poils de chèvre grossiers
 @1036@Offals, pigs, edible@Abats, comestibles, suides
 @1037@Fat, pigs@Graisses de porcs
 @1039@Bacon-Ham of Pigs@Lard et jambon
-@1040@Fat, pig butcher@Graisses de dŽcoupe de porc
+@1040@Fat, pig butcher@Graisses de découpe de porc
 @1041@Sausages Pig Meat@Viande, porc, saucisses
-@1042@Meat Preparations Pigs@Viande, porc, prŽparations
+@1042@Meat Preparations Pigs@Viande, porc, préparations
 @1043@Lard@Saindoux
 @1044@Pigskins, Fresh@Peaux de porcs fraiches
-@1045@Skin Wet-Salted Pigs@Peaux de porcs humides salŽes
-@1046@Skin Dry-Salted Pigs@Peaux de porcs sches salŽes
+@1045@Skin Wet-Salted Pigs@Peaux de porcs humides salées
+@1046@Skin Dry-Salted Pigs@Peaux de porcs sèches salées
 @1047@Skin nes Pigs@Peaux de porcs nda
 @1059@Offals, liver chicken@Abats et foie de volaille
-@1060@Fat Liver Preparation (Foie Gras)@Foie gras, prŽparations
-@1061@Meat Canned Chicken@Viande, poulet en bo”te
-@1063@Eggs Liquid Hen@Îufs, liquides
-@1064@Eggs Dry Whole Yolks Hen@Îufs, poudre
+@1060@Fat Liver Preparation (Foie Gras)@Foie gras, préparations
+@1061@Meat Canned Chicken@Viande, poulet en boîte
+@1063@Eggs Liquid Hen@Œufs, liquides
+@1064@Eggs Dry Whole Yolks Hen@Œufs, poudre
 @1065@Fat, poultry@Graisses de volaille
 @1066@Fat, poultry, rendered@Graisses fondues de volaille
 @1074@Offals, liver geese@Abats et foies d'oie
@@ -962,52 +994,52 @@ titleColumnIndex_FR=4
 @1081@Offals, liver turkeys@Abats et foies de dinde
 @1098@Offals, horses@Abats, cheval
 @1102@Hides, horse, fresh@Peaux de chevaux fraiches
-@1103@Hides Wet-Salted Horses@Peaux de chevaux humides salŽes
-@1104@Hides Dry-Salted Horses@Peaux de chevaux sches salŽes
+@1103@Hides Wet-Salted Horses@Peaux de chevaux humides salées
+@1104@Hides Dry-Salted Horses@Peaux de chevaux sèches salées
 @1105@Hides, horse, nes@Peaux de chevaux nda
 @1109@Hides, ass, fresh@Peaux d'anes fraiches
 @1112@Hides, mule, fresh@Peaux de mulets fraiches
-@1128@Offals, edible, camels@Abats, comestibles, camŽlidŽs
-@1129@Fat, camels@Graisse de camŽlidŽs
+@1128@Offals, edible, camels@Abats, comestibles, camélidés
+@1129@Fat, camels@Graisse de camélidés
 @1133@Hides, camel, fresh@Peaux de camelides fraiches
-@1134@Hides Wet-Salted Camels@Peaux de camŽlidŽs humides salŽes
-@1135@Hides Dry-Salted Camels@Peaux de camŽlidŽs sches salŽes
-@1136@Hides, camel, nes@Peaux de camŽlidŽs nda
+@1134@Hides Wet-Salted Camels@Peaux de camélidés humides salées
+@1135@Hides Dry-Salted Camels@Peaux de camélidés sèches salées
+@1136@Hides, camel, nes@Peaux de camélidés nda
 @1146@Skins, rabbit@Peaux de lapins
-@1159@Offals, other camelids@Abats, autres camŽlidŽs
-@1160@Fat, other camelids@Graisse d'autres camŽlidŽs
-@1164@Meat, Dried, nes@Viande, sŽchŽe nda
+@1159@Offals, other camelids@Abats, autres camélidés
+@1160@Fat, other camelids@Graisse d'autres camélidés
+@1164@Meat, Dried, nes@Viande, séchée nda
 @1167@Offals, nes@Abats, nda
 @1168@Oils, fats of animal nes@Huile et graisse d'origine animale nda
-@1172@Meat Prepared nes@Viande, nda, prŽparŽes
+@1172@Meat Prepared nes@Viande, nda, préparées
 @1173@Meat Meal@Farine de viande
 @1174@ Meal Fish@Farine de poisson
 @1175@Blood Meal@Farine de sang
-@1195@Skin Furs@Peaux ˆ fourrure
+@1195@Skin Furs@Peaux à fourrure
 @1213@Hides and skins nes, fresh@Peaux et cuirs frais nda
-@1214@Hide Wet-Salted@Peaux humides salŽes nda
-@1215@Hide Dry-Salted@Peaux sches salŽes nda
+@1214@Hide Wet-Salted@Peaux humides salées nda
+@1215@Hide Dry-Salted@Peaux sèches salées nda
 @1216@Hide nes@Peaux nda
-@1217@Leather Used and Waste@Cuirs usagŽs et dŽchets
-@1221@Lard and Stearine Oil@StŽarine solaire et huile de saindoux
-@1222@Degras@DŽgras
-@1223@Oil, fish, marine mammals@Huile de poisson et de mammifres marins
+@1217@Leather Used and Waste@Cuirs usagés et déchets
+@1221@Lard and Stearine Oil@Stéarine solaire et huile de saindoux
+@1222@Degras@Dégras
+@1223@Oil, fish, marine mammals@Huile de poisson et de mammifères marins
 @1225@Tallow@Suif
-@1232@Food preparation nes@Aliments, prŽparations nda
+@1232@Food preparation nes@Aliments, préparations nda
 @1241@Liquid Margarine@Margarine liquide
-@1243@Fat Preparations nes@Graisses nda, prŽparations
-@1259@Food Waste, Preparation for Feed@Aliments, dŽchets, prŽparations pour affouragement
-@1273@Castor oil, hydrogenated (opal wax)@Huile de ricin hydrogŽnŽe
-@1274@Oil, boiled etc@Huile bouillie, dŽshydratŽ, etc.
-@1275@Oil, hydrogenated@Huile et graisse vŽgŽtale hydrogŽnŽe
+@1243@Fat Preparations nes@Graisses nda, préparations
+@1259@Food Waste, Preparation for Feed@Aliments, déchets, préparations pour affouragement
+@1273@Castor oil, hydrogenated (opal wax)@Huile de ricin hydrogénée
+@1274@Oil, boiled etc@Huile bouillie, déshydraté, etc.
+@1275@Oil, hydrogenated@Huile et graisse végétale hydrogénée
 @1276@Fatty acids@Acides gras
-@1277@Fatty substance residues@Graisses, rŽsidus de substances
+@1277@Fatty substance residues@Graisses, résidus de substances
 @1291@Arabic Gum@Gomme arabique
-@1292@Other resins@Autres rŽsines
-@1293@Crude Organic Materials, nes@Matires organiques brutes nda
+@1292@Other resins@Autres résines
+@1293@Crude Organic Materials, nes@Matières organiques brutes nda
 @1294@Seed for Planting@Semences pour semis
 @1295@Spermaceti@Balnc de baleine
-@1296@Waxes,Vegetable@Cires vŽgŽtales
+@1296@Waxes,Vegetable@Cires végétales
 @2455001@Ploughs (e.g. reversible ploughs and non-reversible ploughs)@
 @2455002@Seeders, planters and transplanters@
 @2455004@Combine harvesters - threshers@
@@ -1020,8 +1052,8 @@ titleColumnIndex_FR=4
 @2455012@Track-laying tractors (Crawlers) @
 @2455013@Other agricultural tractors (two-axles tractors)@
 @2455020@Other harvesting machines@
-@2455022@Other agricultural tractors (²37 Kw)@
-@2455023@Other agricultural tractors (>37 ² 130 Kw)@
+@2455022@Other agricultural tractors (≤37 Kw)@
+@2455023@Other agricultural tractors (>37 ≤ 130 Kw)@
 @2455024@Other agricultural tractors (>130 Kw)@
 @2455025@Grass harvesting machines (tedders, rakes, mowers)@
 @2455028@Disc harrows @
@@ -1036,5 +1068,3 @@ titleColumnIndex_FR=4
 @2455037@Tractor sprayers @
 @2455038@Irrigation system@
 @2455017@Machines agricoles n.d.a.@
-
-

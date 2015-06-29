@@ -1,0 +1,20 @@
+{
+  "filter": {
+    "uid": {
+      "enumeration": [
+        "002YED008",
+        "002YED004"
+      ]
+    }
+  },
+  "metadata": {
+    "meContent" : {
+      "seCoverage" : {
+        "coverageSectors" : {
+          "idCodeList" : "UNECA_ClassificationOfActivities",
+          "codes" : [ { "code" : "0102" } ]
+        }
+      }
+    }
+  }
+}
