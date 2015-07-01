@@ -25,7 +25,7 @@
       },
       "subject" : "item",
       "key" : true,
-      "id" : "0University"
+      "id" : "University"
     }, {
       "dataType" : "number",
       "title" : {

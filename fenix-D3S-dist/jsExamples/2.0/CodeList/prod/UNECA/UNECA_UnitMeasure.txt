@@ -1,5 +1,6 @@
+
 {
-    "uid": "UNECA_AgeRange",
+    "uid": "UNECA_UnitMeasure",
 	"version": null,
     "language": {
         "codes": [
@@ -13,7 +14,7 @@
 
     "languageDetails": null,
     "title": {
-        "EN": "UNECA Age-range"
+        "EN": "UNECA - Unit of measure"
     },
     "creationDate": null,
     "characterSet": {
@@ -59,19 +60,19 @@
 
     "meContent": {
         "resourceRepresentationType": "codelist",
-        "keywords": ["age range"],
+        "keywords": ["currency"],
         "description": null,
         "statisticalConceptsDefinitions": null,
-        "seCoverage": {
+				"seCoverage": {
             "coverageSectors":
                 {
                     "codes": [
                         {
-                            "code": null
+                            "code": "05"
                         }
                     ],
-                    "idCodeList": null,
-                    "version": null
+                    "idCodeList": "FENIX_Subjects",
+                    "version": "1.0"
                 }
         },
         "seCodeList"  : {
@@ -99,8 +100,6 @@
                 "version": "1.0"
             }
         }
-
-
     },
 		"dsd":{
       "contextSystem":"uneca"
@@ -113,23 +112,62 @@ structure=tree
 dateFormat=dd/mm/yyyy
 codeColumnsIndex=1,2
 titleColumnIndex_EN=3
-
-
+titleColumnIndex_FR=4
 
 --data--
-@AG00@0-14
-@AG01@15-64
-@AG02@0-4
-@AG03@5-9
-@AG04@10-14
-@AG05@15-19
-@AG06@20-24
-@AG07@25-29
-@AG08@30-34
-@AG09@35-39
-@AG10@40-44
-@AG11@45-49
-@AG12@50-54
-@AG13@55-59
-@AG14@60-64
-@AG15@65+
+
+@CLO@LITRES@LITRES
+@CLQ@HECTOLITRES@HECTOLITRES
+@CLR@KILOLITRES@KILOLITRES
+@CLS@HUNDRED HECTOLITRES@HUNDRED HECTOLITRES
+@CLT@THOUSAND HECTOLITRES@000' HECTOLITRES
+@CLU@THOUSAND KILOLITRES@000' KILOLITRES
+@CSO@CUBIC METRES@METRES CUBES
+@CSR@THOUSAND CUBIC METRES@000' METRES CUBES
+@CSU@MILLION CUBIC METRES@MILLIONS METRES CUBES
+@CTO@GROSS TONS@GROSS TONS
+@CTR@000' GRT@000' GRT
+@CTU@MILLION GRT@MILLIONS GRT
+@CWO@PROOF GALLONS@PROOF GALLONS
+@CWR@THOUSAND PROOF GALLONS@THOUSAND PROOF GALLONS
+@ESO@KILOWATTS@KILOWATTS
+@ESR@THOUSAND KILOWATTS@000' KILOWATTS
+@ESU@MILLION KILOWATTS@MILLIONS KW
+@EVO@KVA@KVA
+@EVR@THOUSAND KVA@000' KVA
+@EVU@MILLION KVA@MILLIONS KVA
+@HHO@HORSEPOWER@
+@HHR@THOUSAND HORSEPOWER@000' CV
+@HHU@MILLION HORSEPOWER@MILLIONS CV
+@HS0@TERAJOULES@TERAJOULES
+@HWO@KILOWATTHOUR@
+@HWR@THOUSAND KILOWATTHOUR@000' KWH
+@HWU@MILLION KWH@MILLIONS KWH
+@LSO@METRES@METRES
+@LSR@THOUSAND METRES@000' METRES
+@LSU@MILLION METRES@MILLIONS METRES
+@NPO@PAIRS@PAIRES
+@NPR@THOUSAND PAIRS@000' PAIRES
+@NPU@MILLION PAIRS@MILLIONS PAIRES
+@NSO@UNITS@NOMBRE
+@NSR@THOUSAND UNITS@MILLIERS
+@NSU@MILLION UNITS@MILLIONS
+@NTO@NUMBER OF SPINDLES@NOMBRE DE BROCHES
+@SSO@SQUARE METRES@MT. CARRES
+@SSR@THOUSAND SQUARE METRES@000' MT. CARRES
+@SSU@MILLION SQUARE METRES@MILLIONS METRES CARRES
+@USO@TONS OF STEAM PER HOUR@TONNES VAPEUR/HR
+@WKO@CARATS@CARATS
+@WKR@THOUSAND CARATS@000' CARATS
+@WSI@GRAMMES@GRAMMES
+@WSL@KILOGRAMS@KILOGRAMMES
+@WSO@METRIC TONS@TONNES
+@WSR@THOUSAND METRIC TONS@000' TONNES
+@WSU@MILLION METRIC TONS@MILLION TONNES
+@XXO@DWT@DWT
+@XXR@000' DWT@000' DWT
+@Perc@%@%
+
+
+
+

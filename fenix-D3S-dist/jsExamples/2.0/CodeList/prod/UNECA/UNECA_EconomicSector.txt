@@ -1,5 +1,6 @@
+
 {
-    "uid": "UNECA_AgeRange",
+    "uid": "UNECA_EconomicSector",
 	"version": null,
     "language": {
         "codes": [
@@ -13,7 +14,7 @@
 
     "languageDetails": null,
     "title": {
-        "EN": "UNECA Age-range"
+        "EN": "UNECA - Economic sectors"
     },
     "creationDate": null,
     "characterSet": {
@@ -59,21 +60,10 @@
 
     "meContent": {
         "resourceRepresentationType": "codelist",
-        "keywords": ["age range"],
-        "description": null,
+        "keywords": ["economic sector","activities"],
+        "description": {"EN": "UNECA_EconomicSectors is used to specify the economic sector an activity belongs to."},
         "statisticalConceptsDefinitions": null,
-        "seCoverage": {
-            "coverageSectors":
-                {
-                    "codes": [
-                        {
-                            "code": null
-                        }
-                    ],
-                    "idCodeList": null,
-                    "version": null
-                }
-        },
+
         "seCodeList"  : {
             "numberOfLevels": 1,
             "typeOfCodeList": "list"
@@ -114,22 +104,10 @@ dateFormat=dd/mm/yyyy
 codeColumnsIndex=1,2
 titleColumnIndex_EN=3
 
-
-
 --data--
-@AG00@0-14
-@AG01@15-64
-@AG02@0-4
-@AG03@5-9
-@AG04@10-14
-@AG05@15-19
-@AG06@20-24
-@AG07@25-29
-@AG08@30-34
-@AG09@35-39
-@AG10@40-44
-@AG11@45-49
-@AG12@50-54
-@AG13@55-59
-@AG14@60-64
-@AG15@65+
+
+@1@Agriculture
+@2@Industry
+@3@Services
+@4@Total
+

@@ -1,5 +1,6 @@
+
 {
-    "uid": "UNECA_AgeRange",
+    "uid": "UNECA_Currencies",
 	"version": null,
     "language": {
         "codes": [
@@ -13,7 +14,7 @@
 
     "languageDetails": null,
     "title": {
-        "EN": "UNECA Age-range"
+        "EN": "UNECA - Currencies"
     },
     "creationDate": null,
     "characterSet": {
@@ -59,21 +60,22 @@
 
     "meContent": {
         "resourceRepresentationType": "codelist",
-        "keywords": ["age range"],
+        "keywords": ["currency"],
         "description": null,
         "statisticalConceptsDefinitions": null,
-        "seCoverage": {
+				"seCoverage": {
             "coverageSectors":
                 {
                     "codes": [
                         {
-                            "code": null
+                            "code": "05"
                         }
                     ],
-                    "idCodeList": null,
-                    "version": null
+                    "idCodeList": "FENIX_Subjects",
+                    "version": "1.0"
                 }
         },
+
         "seCodeList"  : {
             "numberOfLevels": 1,
             "typeOfCodeList": "list"
@@ -114,22 +116,12 @@ dateFormat=dd/mm/yyyy
 codeColumnsIndex=1,2
 titleColumnIndex_EN=3
 
-
-
 --data--
-@AG00@0-14
-@AG01@15-64
-@AG02@0-4
-@AG03@5-9
-@AG04@10-14
-@AG05@15-19
-@AG06@20-24
-@AG07@25-29
-@AG08@30-34
-@AG09@35-39
-@AG10@40-44
-@AG11@45-49
-@AG12@50-54
-@AG13@55-59
-@AG14@60-64
-@AG15@65+
+@USD@USD
+@Euro@Euro
+@SDR@Special Drawing Rights
+@NC@National Currency
+@PPP@Power Purchase Parity
+
+
+

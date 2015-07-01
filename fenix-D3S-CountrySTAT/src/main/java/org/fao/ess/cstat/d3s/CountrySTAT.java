@@ -38,12 +38,13 @@ public class CountrySTAT extends WDSDatasetDao {
     @Override
     public Iterator<Object[]> loadData(MeIdentification resource) throws Exception {
         String uid = getId(resource);
+        DatasetStructure structure = new DatasetStructure(resource);
+
         System.out.println("Loading data for "+uid);
         ODatabaseDocumentInternal originalConnection = ODatabaseRecordThreadLocal.INSTANCE.get();
         ODatabaseDocumentTx connection = dbClient.getConnection();
         System.out.println("Taken connection "+(connection!=null)+'-'+(connection!=null?!connection.isClosed():false));
 
-        DatasetStructure structure = new DatasetStructure(resource);
         try {
             if (connection != null && structure.selectColumns!=null) {
                 System.out.println("Executing query");
