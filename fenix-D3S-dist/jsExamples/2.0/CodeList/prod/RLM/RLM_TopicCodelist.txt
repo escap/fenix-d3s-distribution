@@ -1,5 +1,5 @@
 ﻿{
-    "uid": "RLM_QualifierCodeList",
+    "uid": "RLM_TopicsCodeList",
 	"version": null,
     "language": {
         "codes": [
@@ -13,7 +13,7 @@
 
     "languageDetails": null,
     "title": {
-        "EN": "Rural Livelihood Monitor - Qualifiers"
+        "EN": "Rural Livelihood Monitor - Topics"
     },
     "creationDate": null,
     "characterSet": {
@@ -103,21 +103,9 @@ titleColumnIndex_EN=3
 
 --data--
 
-@gender@Gender
-@area@Area
-@incquant@Income quintiles
-@fhs@Farm holding size
-@pia@Participation in agriculture
-area@N@National
-area@R@Rural
-area@U@Urban
-incquant@Q1@Income quantile 1
-incquant@Q2@Income quantile 2
-incquant@Q3@Income quantile 3
-incquant@Q4@Income quantile 4
-incquant@Q5@Income quantile 5
-fhs@NS@Non-smallholder households
-fhs@S@Smallholder households
-gender@M@Male headed households
-gender@F@Female headed households
-pia@IA30@30% threshold
+@RPR@Rural poverty reduction
+@NR@Natural resources
+@OPA@Other productive assets
+@RMSP@Risk management and social protection
+@HADE@Human assets and decent employment
+@KA@Knowledge assets
