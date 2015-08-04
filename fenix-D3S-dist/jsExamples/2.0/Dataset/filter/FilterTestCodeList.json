@@ -1,0 +1,10 @@
+{
+    "dsd.contextSystem" : {
+        "enumeration": [
+            "uneca"
+        ]
+    },
+    "meContent.resourceRepresentationType" : {
+        "enumeration" : ["codelist"]
+    }
+}

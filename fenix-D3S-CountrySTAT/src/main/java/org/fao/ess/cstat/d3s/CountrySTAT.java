@@ -40,16 +40,16 @@ public class CountrySTAT extends WDSDatasetDao {
         String uid = getId(resource);
         DatasetStructure structure = new DatasetStructure(resource);
 
-        System.out.println("Loading data for "+uid);
+//        System.out.println("Loading data for "+uid);
         ODatabaseDocumentInternal originalConnection = ODatabaseRecordThreadLocal.INSTANCE.get();
         ODatabaseDocumentTx connection = dbClient.getConnection();
-        System.out.println("Taken connection "+(connection!=null)+'-'+(connection!=null?!connection.isClosed():false));
+//        System.out.println("Taken connection "+(connection!=null)+'-'+(connection!=null?!connection.isClosed():false));
 
         try {
             if (connection != null && structure.selectColumns!=null) {
-                System.out.println("Executing query");
+//                System.out.println("Executing query");
                 List<ODocument> data = connection.query(new OSQLSynchQuery<ODocument>("select from Dataset where datasetID = ? order by @rid"), uid);
-                System.out.println("Data "+(data!=null)+'-'+(data!=null?data.size():0));
+//                System.out.println("Data "+(data!=null)+'-'+(data!=null?data.size():0));
                 final String[] ids = new String[structure.selectColumns.length];
                 for (int i=0; i<ids.length; i++)
                     ids[i] = structure.selectColumns[i].getId();
@@ -61,7 +61,7 @@ public class CountrySTAT extends WDSDatasetDao {
                         row[i] = document.field(ids[i]);
                     dataset.add(row);
                 }
-                System.out.println("Data buffer "+(dataset!=null)+'-'+(dataset!=null?dataset.size():0));
+//                System.out.println("Data buffer "+(dataset!=null)+'-'+(dataset!=null?dataset.size():0));
 
                 return dataset.iterator();
             }
