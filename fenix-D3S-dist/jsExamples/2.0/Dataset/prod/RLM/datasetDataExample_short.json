@@ -1,0 +1,45 @@
+{
+  "metadata" : {
+    "uid" : "rlm_SE.ADT.LITR.ZS"
+  },
+"data" :
+  [
+    [
+      "1",
+      2000,
+      "2000",
+      "F",
+      "External",
+      "percent",
+      null
+    ],
+    [
+      "1",
+      2000,
+      "2000",
+      "M",
+      "External",
+      "percent",
+      null
+    ],
+    [
+      "1",
+      2000,
+      "2000",
+      "N",
+      "External",
+      "percent",
+      null
+    ],
+    [
+      "1",
+      2001,
+      "2001",
+      "F",
+      "External",
+      "percent",
+      null
+    ]
+]
+}
+
