@@ -1,0 +1,12 @@
+{
+  "dsd.contextSystem": {
+    "enumeration": [
+      "FAOSTAT"
+    ]
+  },
+  "meContent.resourceRepresentationType": {
+    "enumeration": [
+      "dataset"
+    ]
+  }
+}
