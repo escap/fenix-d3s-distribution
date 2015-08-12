@@ -3,25 +3,25 @@
     "name" : "filter",
     "parameters" : {
         "rows" : {
-          "Item" : {
+          "ItemCode" : {
             "codes" : [
               {
-                "uid" : "FAOSTAT_Fertilizers",
+                "uid" : "FAOSTAT_CommodityList",
                 "version" : null,
-                "codes" : ["310230", "2814", "310210"]
+                "codes" : ["310310", "310430", "310210"]
               }
             ]
           }
         },
         "columns" : [
-          "Item", "Country", "Year", "Value" , "Element"
+          "ItemCode", "CountryGaul", "Year", "Value" , "ElementCode"
         ]
       }
   },
   {
     "name" : "order",
     "parameters" : {
-      "Country" : "DESC",
+      "CountryGaul" : "DESC",
       "Year" : "DESC"
     }
   }

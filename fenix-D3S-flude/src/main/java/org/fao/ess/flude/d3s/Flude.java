@@ -1,4 +1,4 @@
-package org.fao.ess.rlm.d3s;
+package org.fao.ess.flude.d3s;
 
 import org.fao.fenix.commons.msd.dto.full.DSD;
 import org.fao.fenix.commons.msd.dto.full.DSDColumn;
@@ -12,10 +12,9 @@ import javax.inject.Inject;
 import java.sql.*;
 import java.util.*;
 
-public class RLM extends WDSDatasetDao {
-
-    private static final String[] masterTableColumns = new String[]{"country", "year", "year_label", "indicator", "indicator_label", "qualifier", "value", "um", "source", "topic"};
-    private static final int[] masterTableColumnsJdbcType = new int[]{Types.VARCHAR, Types.INTEGER, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR};
+public class Flude extends WDSDatasetDao {
+    private static final String[] masterTableColumns = new String[]{ "region", "subregion", "domain", "incomes", "country", "year", "tot_pop_1000", "tot_area", "desk_study", "gdpusd2012", "indicator", "itto", "comifac", "foreur", "montreal", "unece", "value", "ts", "tt"};
+    private static final int[] masterTableColumnsJdbcType = new int[]{Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.INTEGER, Types.REAL, Types.REAL, Types.VARCHAR, Types.REAL, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.REAL, Types.VARCHAR, Types.VARCHAR};
 
     private static final Map<String, Integer> masterTableColumnsIndex = new HashMap<>();
     private static String insertQueryString;
@@ -56,10 +55,14 @@ public class RLM extends WDSDatasetDao {
         if (columns==null)
             throw new Exception("Wrong table structure");
 
+        String topic = getTopic(resource.getUid());
+        if (topic==null)
+            return new LinkedList<Object[]>().iterator();
+
         Connection connection = dataSource.getConnection();
         try {
             PreparedStatement statement = connection.prepareStatement(buildQuery(columns));
-            statement.setString(1,getIndicator(resource.getUid()));
+            statement.setString(1, topic);
 
             return new DataIterator(statement.executeQuery(),connection,null,null);
         } finally {
@@ -72,13 +75,18 @@ public class RLM extends WDSDatasetDao {
         if (!overwrite)
             throw new UnsupportedOperationException();
 
+        String topic = getTopic(resource.getUid());
+        if (topic==null)
+            throw new UnsupportedOperationException("Operation supported only for topic datasets");
+
+
         Connection connection = dataSource.getConnection();
         try {
             connection.setAutoCommit(false);
 
             //Remove existing data
-            PreparedStatement statement = connection.prepareStatement("DELETE FROM master WHERE INDICATOR = ?");
-            statement.setString(1, getIndicator(resource.getUid()));
+            PreparedStatement statement = connection.prepareStatement("DELETE FROM master WHERE TOPIC = ?");
+            statement.setString(1, topic);
             statement.executeUpdate();
             statement.close();
 
@@ -91,19 +99,6 @@ public class RLM extends WDSDatasetDao {
                 statement.addBatch();
             }
             statement.executeBatch();
-            statement.close();
-
-            //Retrieve indicator label
-            ResultSet resultSet = connection.createStatement().executeQuery("SELECT indicator_label FROM codes_indicators WHERE indicator_code = '"+getIndicator(resource.getUid())+"'");
-            resultSet.next();
-            String indicatorLabel = resultSet.getString(1);
-            resultSet.close();
-
-            //Update indicator label
-            statement = connection.prepareStatement("UPDATE master SET indicator_label = ? WHERE INDICATOR = ?");
-            statement.setString(1, indicatorLabel);
-            statement.setString(2, getIndicator(resource.getUid()));
-            statement.executeUpdate();
             statement.close();
 
             //Commit changes
@@ -122,10 +117,14 @@ public class RLM extends WDSDatasetDao {
 
     @Override
     public void deleteData(MeIdentification resource) throws Exception {
+        String topic = getTopic(resource.getUid());
+        if (topic==null)
+            throw new UnsupportedOperationException("Operation supported only for topic datasets");
+
         Connection connection = dataSource.getConnection();
         try {
-            PreparedStatement statement = connection.prepareStatement("DELETE FROM master WHERE INDICATOR = ?");
-            statement.setString(1, getIndicator(resource.getUid()));
+            PreparedStatement statement = connection.prepareStatement("DELETE FROM master WHERE TOPIC = ?");
+            statement.setString(1, topic);
             statement.executeUpdate();
         } finally {
             try { connection.close(); } catch (SQLException e) { }
@@ -135,20 +134,18 @@ public class RLM extends WDSDatasetDao {
 
 
     //Utils
-    private String getIndicator(String uid) {
-        return uid!=null && (uid.toLowerCase().startsWith("rlm.") || uid.toLowerCase().startsWith("rlm_")) ? uid.substring(4) : uid;
+    private String getTopic(String uid) {
+        uid = uid!=null ? uid.replace('.','_').toLowerCase() : null;
+        return uid!=null && uid.startsWith("rlm_topic_") ? uid.substring(10) : null;
     }
 
     private String buildQuery(Collection<DSDColumn> columns) {
         StringBuilder select = new StringBuilder();
 
         for (DSDColumn column : columns)
-            if ("COUNTRY".equalsIgnoreCase(column.getId()))
-                select.append(",''||COUNTRY AS COUNTRY");
-            else
-                select.append(',').append(column.getId());
+            select.append(',').append(column.getId());
 
-        return "select "+select.substring(1)+" FROM master WHERE INDICATOR = ?";
+        return "select "+select.substring(1)+" FROM master WHERE TOPIC = ?";
     }
 
     private Object[] buildRow (MeIdentification<DSDDataset> resource, Object[] rawRow) {
@@ -157,8 +154,6 @@ public class RLM extends WDSDatasetDao {
         int i=0;
         for (DSDColumn columnMetadata : resource.getDsd().getColumns())
             row[masterTableColumnsIndex.get(columnMetadata.getId().toLowerCase())] = rawRow[i++];
-        //Add indicator value
-        row[masterTableColumnsIndex.get("indicator")] = getIndicator(resource.getUid());
         //Return created row
         return row;
     }
