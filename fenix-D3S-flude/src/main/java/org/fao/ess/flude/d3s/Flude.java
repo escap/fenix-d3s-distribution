@@ -14,7 +14,7 @@ import java.util.*;
 
 public class Flude extends WDSDatasetDao {
     private static final String[] masterTableColumns = new String[]{ "region", "subregion", "domain", "incomes", "country", "year", "tot_pop_1000", "tot_area", "desk_study", "gdpusd2012", "indicator", "itto", "comifac", "foreur", "montreal", "unece", "value", "ts", "tt"};
-    private static final int[] masterTableColumnsJdbcType = new int[]{Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.INTEGER, Types.REAL, Types.REAL, Types.VARCHAR, Types.REAL, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.REAL, Types.VARCHAR, Types.VARCHAR};
+    private static final int[] masterTableColumnsJdbcType = new int[]{Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.INTEGER, Types.REAL, Types.REAL, Types.VARCHAR, Types.REAL, Types.VARCHAR, Types.BOOLEAN, Types.BOOLEAN, Types.BOOLEAN, Types.BOOLEAN, Types.BOOLEAN, Types.REAL, Types.VARCHAR, Types.VARCHAR};
 
     private static final Map<String, Integer> masterTableColumnsIndex = new HashMap<>();
     private static String insertQueryString;
@@ -136,7 +136,7 @@ public class Flude extends WDSDatasetDao {
     //Utils
     private String getTopic(String uid) {
         uid = uid!=null ? uid.replace('.','_').toLowerCase() : null;
-        return uid!=null && uid.startsWith("rlm_topic_") ? uid.substring(10) : null;
+        return uid!=null && uid.startsWith("flude_topic_") ? uid.substring("flude_topic_".length()) : null;
     }
 
     private String buildQuery(Collection<DSDColumn> columns) {

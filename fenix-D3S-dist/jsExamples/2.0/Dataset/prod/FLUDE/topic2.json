@@ -1,0 +1,127 @@
+{
+  "uid" : "FLUDE_TOPIC_2",
+  "title" : {
+    "EN" : "Production"
+  },
+  "meContent": {
+    "resourceRepresentationType": "dataset"
+  },
+
+  "dsd" : {
+    "contextSystem" : "FLUDE",
+    "datasources" : ["FLUDE"],
+    "columns" : [
+      {
+        "id" : "region",
+        "title" : { "EN" : "Region" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "FLUDE_REGIONS" } ] }
+      },
+      {
+        "id" : "subregion",
+        "title" : { "EN" : "Subregion" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "FLUDE_SUBREGIONS" } ] }
+      },
+      {
+        "id" : "country",
+        "subject" : "geo",
+        "title" : { "EN" : "Country" },
+        "dataType" : "code",
+        "key" : true,
+        "domain" : { "codes" : [ { "idCodeList" : "ISO3" } ] }
+      },
+      {
+        "id" : "year",
+        "subject" : "time",
+        "title" : { "EN" : "Year" },
+        "dataType" : "year",
+        "key" : true
+      },
+      {
+        "id" : "indicator",
+        "subject" : "element",
+        "title" : { "EN" : "Incomes" },
+        "dataType" : "code",
+        "key" : true,
+        "domain" : { "codes" : [ { "idCodeList" : "FLUDE_INDICATORS" } ] }
+      },
+      {
+        "id" : "domain",
+        "title" : { "EN" : "Domain" },
+        "dataType" : "code",
+        "key" : true,
+        "domain" : { "codes" : [ { "idCodeList" : "FLUDE_DOMAINS" } ] }
+      },
+      {
+        "id" : "incomes",
+        "title" : { "EN" : "Incomes" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "FLUDE_INCOMES" } ] }
+      },
+      {
+        "id" : "value",
+        "subject" : "value",
+        "title" : { "EN" : "Value" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "ts",
+        "title" : { "EN" : "Flag S" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "FLUDE_FLAGS_S" } ] }
+      },
+      {
+        "id" : "tt",
+        "title" : { "EN" : "Flag T" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "FLUDE_FLAGS_T" } ] }
+      },
+      {
+        "id" : "itto",
+        "title" : { "EN" : "ITTO" },
+        "dataType" : "bool"
+      },
+      {
+        "id" : "comifac",
+        "title" : { "EN" : "COMIFAC" },
+        "dataType" : "bool"
+      },
+      {
+        "id" : "foreur",
+        "title" : { "EN" : "FOREUR" },
+        "dataType" : "bool"
+      },
+      {
+        "id" : "montreal",
+        "title" : { "EN" : "MONTREAL" },
+        "dataType" : "bool"
+      },
+      {
+        "id" : "unece",
+        "title" : { "EN" : "UNECE" },
+        "dataType" : "bool"
+      },
+      {
+        "id" : "tot_pop_1000",
+        "title" : { "EN" : "Total population (x1000)" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "tot_area",
+        "title" : { "EN" : "Total area" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "desk_study",
+        "title" : { "EN" : "Desk study" },
+        "dataType" : "text"
+      },
+      {
+        "id" : "gdpusd2012",
+        "title" : { "EN" : "GDP USD 2012" },
+        "dataType" : "number"
+      }
+    ]
+  }
+}
