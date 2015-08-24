@@ -117,9 +117,9 @@ titleColumnIndex_EN=3
 
 
 --data--
-@01@Demographic and social statistics 
-@02@Economic statistics 
-@03@Environment and multi-Domain statistics 
+@01@Demographic and social statistics
+@02@Economic statistics
+@03@Environment and multi-Domain statistics
 01@0101@Population
 01@0104@Labour
 01@0102@Education
@@ -235,7 +235,7 @@ titleColumnIndex_EN=3
 0202@0202020102@Debit
 0202@02020203@Investment Income
 0202@020203@Secondary income
-0202@02020301@Current transfers, net total 
+0202@02020301@Current transfers, net total
 0202@0202030101@Net official transfers (general government)
 0202@0202030102@Workers' remittances (personal transfer)
 0202@020203010201@Credit
@@ -394,11 +394,11 @@ titleColumnIndex_EN=3
 0209@020901@Money supply (M1)
 0209@020902@Money supply (M2)
 0209@020903@Quasi-money
-0209@02090301@of which Demand Deposit
+0209@02090301@Quasi-money of which Demand Deposit
 0209@020904@Net foreign assets
 0209@020905@Domestic credit
-0209@02090501@of which claims on private sector
-0209@02090502@of which Claims on government sector, net
+0209@02090501@Domestic credit of which claims on private sector
+0209@02090502@Domestic credit of which Claims on government sector, net
 0209@020906@International reserves
 0209@020907@Period average exchange rate
 0209@020908@End-of-period exchange rate
@@ -423,7 +423,7 @@ titleColumnIndex_EN=3
 0212@021202@Grants
 0212@021203@Total Expenditures and Net Lending
 0212@02120301@Current expenditure
-0212@0212030101@Of which Wages and Salaries
+0212@0212030101@Current expenditure of which Wages and Salaries
 0212@02120302@Capital expenditure
 0212@02120303@Net Lending
 0212@021204@Fiscal Balance
@@ -460,7 +460,7 @@ titleColumnIndex_EN=3
 03@0301@Environment
 03@0302@Information Society
 03@0302@Information Society
-03@0303@Living conditions, poverty and cross-cutting social issues 
+03@0303@Living conditions, poverty and cross-cutting social issues
 0301@030101@Land Area in Square kilometres
 0301@030102@Arable Land in hectars
 0301@030103@Forest Area in square kilometres
