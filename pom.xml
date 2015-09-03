@@ -12,6 +12,7 @@
 
     <modules>
         <module>fenix-D3S-CountrySTAT</module>
+        <module>fenix-D3S-FAOSTAT</module>
         <module>fenix-D3S-UNECA</module>
         <module>fenix-D3S-RLM</module>
         <module>fenix-D3S-flude</module>

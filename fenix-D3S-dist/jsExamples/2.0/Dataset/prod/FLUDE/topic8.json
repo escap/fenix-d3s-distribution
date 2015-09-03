@@ -66,6 +66,13 @@
         "dataType" : "number"
       },
       {
+        "id" : "um",
+        "subject" : "um",
+        "title" : { "EN" : "UM" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "FLUDE_UM" } ] }
+      },
+      {
         "id" : "ts",
         "title" : { "EN" : "Flag S" },
         "dataType" : "code",

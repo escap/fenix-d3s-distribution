@@ -109,6 +109,7 @@ titleColumnIndex_EN=3
 @6@Protective functions and selective ecosystem services
 @7@Economics/Livelihood
 @8@Ownership
+@9@Annual data
 1@Forest@Forest area
 1@Forchange@Change in total forest area
 1@ForPerc@Percent of land area with forest
@@ -254,3 +255,8 @@ titleColumnIndex_EN=3
 7@USDRev@Revenue in USD
 7@USDExp@Expenditure in USD
 7@USDForGrosVal@Gross value added in USD
+9@WooRemov@Total wood removal
+9@WooFuel@Total wood removal of which wood fuel
+9@BurnLan@Total land area burned
+9@BurnFor@Total forest area burned
+9@ForConvArea@Forest area earmarked for conversion
