@@ -1,21 +1,7 @@
-﻿{
-    "uid": "FLUDE_INCOMES",
+
+{
+    "uid": "GIFT_PeriodConsumption",
 	"version": null,
-    "title": {
-        "EN": "FLUDE - Incomes"
-    },
-    "meContent": {
-        "description": {"EN":"FLUDE incomes"},
-        "keywords": ["incomes", "income", "flude"],
-
-        "resourceRepresentationType": "codelist",
-        "statisticalConceptsDefinitions": null,
-        "seCodeList"  : {
-            "numberOfLevels": 1,
-            "typeOfCodeList": "list"
-        }
-
-    },
     "language": {
         "codes": [
             {
@@ -25,7 +11,11 @@
         "idCodeList": "ISO639-2",
         "version": "1998"
     },
+
     "languageDetails": null,
+    "title": {
+        "EN": "WHO-FAO GIFT, Period of Consumption"
+    },
     "creationDate": null,
     "characterSet": {
         "codes": [{
@@ -47,25 +37,50 @@
         "idCodeList": "ISO639-2",
         "version": "1998"
     },
+
     "contacts": [
         {
             "organization": {
-                "EN": "FAO"
+                "EN": "WHO-FAO"
             },
-            "organizationUnit": {"EN":"ESS"},
-            "name": "MacDicken, Kenneth (FOM)",
+            "organizationUnit": null,
+            "name": null,
             "position": null,
             "role": "distributor",
             "contactInfo": {
-                "phone ": "+39 0657053255",
-                "address": "Viale delle Terme di Caracalle, 00153 Rome, Italy",
-                "emailAddress": "Kenneth.MacDicken@fao.org",
+                "phone ": null,
+                "address": null,
+                "emailAddress": null,
                 "hoursOfService": null,
                 "contactIntruction": null
             }
         }
     ],
     "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["consumption","period"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": null
+                        }
+                    ],
+                    "idCodeList": null,
+                    "version": null
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 1,
+            "typeOfCodeList": "list"
+        }
+
+    },
     "meAccessibility": {
         "seDataDissemination" : {
             "seDistribution" : {
@@ -73,6 +88,7 @@
                 "disseminationFormat": null
             }
         },
+
         "seConfidentiality" : {
             "confidentialityStatus": {
                 "codes": [
@@ -87,9 +103,9 @@
 
 
     },
-    "dsd" : {
-     "contextSystem" : "FLUDE"
-    }
+		"dsd":{
+      "contextSystem":"gift"
+   }
 }
 
 --structure--
@@ -99,10 +115,15 @@ dateFormat=dd/mm/yyyy
 codeColumnsIndex=1,2
 titleColumnIndex_EN=3
 
+
+
 --data--
 
-@H@High
-@L@Low
-@UM@Upper Middle
-@LM@Lower Middle
-@NA@Unknown
+@1@Before breakfast 
+@2@Breakfast
+@3@Snack between breakfast and lunch
+@4@Lunch
+@5@Snack between lunch and dinner
+@6@Dinner
+@7@Snack after dinner
+@8@Unspecified

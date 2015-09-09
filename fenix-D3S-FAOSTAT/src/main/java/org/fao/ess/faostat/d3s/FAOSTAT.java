@@ -26,7 +26,8 @@ public class FAOSTAT extends WDSDatasetDao {
             {"QL","default","http://faostat3.fao.org/faostat-bulkdownloads/Production_LivestockPrimary_E_All_Data_(Norm).zip"},
             {"OA","default","http://faostat3.fao.org/faostat-bulkdownloads/Population_E_All_Data_(Norm).zip"},
             {"FO","default","http://faostat3.fao.org/faostat-bulkdownloads/Forestry_E_All_Data_(Norm).zip"},
-            {"GT","default","http://faostat3.fao.org/faostat-bulkdownloads/Emissions_Agriculture_Agriculture_total_E_All_Data_(Norm).zip"}
+            {"GT","default","http://faostat3.fao.org/faostat-bulkdownloads/Emissions_Agriculture_Agriculture_total_E_All_Data_(Norm).zip"},
+            {"RL","default","http://faostat3.fao.org/faostat-bulkdownloads/Inputs_Land_E_All_Data_(Norm).zip"}
     };
     private static final Object[][] csvStructures = new Object[][] {
         {

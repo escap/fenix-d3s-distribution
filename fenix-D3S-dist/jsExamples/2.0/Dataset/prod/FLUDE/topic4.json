@@ -32,13 +32,6 @@
         "domain" : { "codes" : [ { "idCodeList" : "ISO3" } ] }
       },
       {
-        "id" : "year",
-        "subject" : "time",
-        "title" : { "EN" : "Year" },
-        "dataType" : "year",
-        "key" : true
-      },
-      {
         "id" : "indicator",
         "subject" : "element",
         "title" : { "EN" : "Incomes" },
@@ -64,13 +57,6 @@
         "subject" : "value",
         "title" : { "EN" : "Value" },
         "dataType" : "number"
-      },
-      {
-        "id" : "um",
-        "subject" : "um",
-        "title" : { "EN" : "UM" },
-        "dataType" : "code",
-        "domain" : { "codes" : [ { "idCodeList" : "FLUDE_UM" } ] }
       },
       {
         "id" : "ts",

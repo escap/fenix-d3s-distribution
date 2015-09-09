@@ -9,7 +9,7 @@ public class ValueConverter {
     }
 
     public Object apply(String source) {
-        if (source!=null)
+        if (source!=null && (source=source.trim()).length()>0)
             switch (type) {
                 case INT: return new Integer(source);
                 case DOUBLE: return new Double(source);

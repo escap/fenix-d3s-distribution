@@ -1,0 +1,1812 @@
+{
+    "uid": "GIFT_Facets",
+	"version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "WHO-FAO GIFT, Facets coming from the FoodEX 2 codelist"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "WHO-FAO"
+            },
+            "organizationUnit": null,
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": null,
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["age range"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": null
+                        }
+                    ],
+                    "idCodeList": null,
+                    "version": null
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 8,
+            "typeOfCodeList": "tree"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    },
+		"dsd":{
+      "contextSystem":"gift"
+   }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+
+
+@A0B8V@Facets
+A0B8V@A0B8Y@Part-nature
+A0B8Y@A0BA0@Live plants (as part-nature)
+A0BA0@A0EJM@Live cereal plants (as nature)
+A0BA0@A0EKP@Live legume plants (as nature)
+A0BA0@A0EKN@Live fruiting vegetables (as nature)
+A0BA0@A0EKM@Live root or tuber vegetables (as nature)
+A0BA0@A0EKL@Live leafy vegetables (as nature)
+A0BA0@A0EKK@Live flowering vegetables (as nature)
+A0BA0@A0EKJ@Live bulb vegetables (as nature)
+A0BA0@A0EKH@Live stem and stalk vegetables (as nature)
+A0BA0@A0EKG@Live nuts and seed plants (as nature)
+A0BA0@A0EKF@Live fruit plants (as nature)
+A0BA0@A0EKE@Live plants for spices (as nature)
+A0BA0@A0EKD@Live plants for herbs or flowers (as nature)
+A0BA0@A067E@Fruit whole (as part-nature)
+A0BA0@A0ERP@Live plants for sugar (as part-nature)
+A0BA0@A0EKB@Live fungi (as nature)
+A0BA0@A0EKA@Live algae (as nature)
+A0BA0@A0EJZ@Live lichens and mosses (as nature)
+A0BA0@A0EKC@Live vegetables for infusions (as nature)
+A0B8Y@A069F@Live animals (as part-nature)
+A069F@A0EJN@Live mammals (as nature)
+A069F@A0EJX@Live birds (as nature)
+A069F@A0EJV@Live fishes (as nature)
+A069F@A0EJT@Live reptiles (as nature)
+A069F@A0EJS@Live amphibians (as nature)
+A069F@A0EJR@Live molluscs (as nature)
+A069F@A0EJQ@Live crustaceans (as nature)
+A069F@A0EJP@Live insects and arachnids (as nature)
+A069F@A0EYJ@Live anellids (as part-.nature)
+A0B8Y@A066M@Plant commodities-related part-nature
+A066M@A066N@Plant commodities (as part-nature)
+A066N@A066T@Vegetative tissues (as part-nature)
+A066T@A0EKR@Vegetative tissues of algae (as part-nature)
+A066T@A0EKS@Vegetative tissues of lichens and mosses (as part-nature)
+A066N@A067C@Flowering body (as part-nature)
+A066N@A067H@Fruiting body (fungi) (as part-nature)
+A066N@A0EKT@Leaves (as part-nature)
+A0EKT@A0EKV@Leaves used as leafy vegetables (as part-nature)
+A0EKV@A067J@Leaves (loose) used as leafy vegetables (as part-nature)
+A0EKV@A067K@Compact leaves used as leafy vegetables (head or heart) (as part-nature)
+A0EKT@A0F0C@Aromatic herbs (leaves and other minor parts) (as part-nature)
+A0EKT@A0EKX@Leaves (and eventually other minor parts) used for infusions or hot drinks (as part-nature)
+A066N@A067R@Sprout (as part-nature)
+A067R@A067T@Shoot (as part-nature)
+A066N@A067S@Stem / stalk (as part-nature)
+A067S@A0ELG@Stems/stalks eaten as vegetables (as part-nature)
+A067S@A0ELH@Stalks/canes for sugar (as part-nature)
+A066N@A067B@Flower (as part-nature)
+A067B@A0ELA@Flowers used as vegetables (as part-nature)
+A067B@A0F0D@Aromatic flowers (as part-nature)
+A067B@A0F0G@Flowers used as spices or similar
+A067B@A0EKZ@Flowers used for infusions or hot drinks (as part-nature)
+A066N@A066Z@Bud (as part-nature)
+A066N@A067L@Pod (including immature beans) (as part-nature)
+A066N@A066P@Seed (as part-nature)
+A066P@A066Q@Grains (as part-nature)
+A066P@A066R@Nuts (as part-nature)
+A066P@A066Y@Beans (as part-nature)
+A066P@A066S@Oil seeds (as part-nature)
+A066P@A0F0E@Seed spices (as part-nature)
+A066P@A0ELB@Seeds used for infusions or hot drinks (as part-nature)
+A066N@A066V@Aril (as part-nature)
+A066N@A066X@Bark (as part-nature)
+A066N@A067A@Bulb / clove (as part-nature)
+A066N@A067D@Fruit unspecified (as part-nature)
+A067D@A0ELC@Fruits used as fruit (as part-nature)
+A067D@A0ELE@Fruits used as vegetables (as part-nature)
+A067D@A0ELD@Fruits used as oil source (as part-nature)
+A067D@A0ELF@Fruits used as spice (as part-nature)
+A066N@A067G@Fruit peel (as part-nature)
+A066N@A067M@Roots and other underground parts (as part-nature)
+A067M@A067F@Fruit edible part (as part-nature)
+A067M@A0ERX@Roots and other underground parts used as vegetables (as part-nature)
+A067M@A0F5F@Roots and other underground parts used as staple food (as part-nature)
+A067M@A0F0F@Root spices (as part-nature)
+A067M@A067N@Non-starchy roots (as part-nature)
+A067M@A0ERY@Roots used for infusions or hot drinks (as part-nature)
+A067M@A067V@Tuber (as part-nature)
+A067M@A0ESA@Roots used as sugar source (as part-nature)
+A066N@A0ETJ@Spices or infusion materials of miscellaneous origin (as part-nature)
+A066M@A067X@Primary products derived from plant commodities (as part-nature)
+A067X@A0ELJ@Cereals derivatives (as part-nature)
+A0ELJ@A068B@Groats (as part-nature)
+A0ELJ@A068C@Semolina or coarse ground powder (as part-nature)
+A0ELJ@A067Z@Flour/meal or finely ground powder (as part-nature)
+A0ELJ@A067Y@Bran (as part-nature)
+A0ELJ@A068A@Germ (as part-nature)
+A0ELJ@A068E@Flakes and similar (as part-nature)
+A0ELJ@A068F@Popped grains (as part-nature)
+A0ELJ@A068G@Rolled grains (as part-nature)
+A067X@A068N@Complex plant derivatives (eventually with recipes) (as part-nature)
+A068N@A0BYY@Granules (as part-nature)
+A067X@A0ERR@Processed or preserved vegetables and similar (as part_nature)
+A0ERR@A0F7Z@Processed tomato products (as part-nature)
+A0ERR@A0F0X@Fermented/pickled/marinated vegetables
+A0F0X@A0ELM@Fermented vegetables (as part-nature)
+A0F0X@A0ELK@Marinated / pickled vegetables (as part-nature)
+A0ERR@A0F3E@Vegetable puree or paste (as part-nature)
+A0ERR@A0ERQ@Canned/jarred vegetables (as part-nature)
+A0ERR@A0ELL@Salted vegetables (as part-nature)
+A0ERR@A0ELP@Candied or sugar preserved vegetables (as part-nature)
+A0ERR@A0ELN@Dried vegetables (as part-nature)
+A067X@A0ELQ@Processed or preserved legumes (as part_nature)
+A0ELQ@A0ERT@Canned legumes (as part-nature)
+A0ELQ@A06EV@Blended fats (as part-nature)
+A0ELQ@A0ERV@Dried legumes (pulses) and their flours (as part-nature)
+A067X@A0EZL@Processed or preserved herbs, spices or similar (as part-nature)
+A0EZL@A0EZK@Dried herbs (as part-nature)
+A067X@A0ELR@Processed or preserved fruits (as part_nature)
+A0ELR@A0ELS@Canned fruits (as part-nature)
+A0ELR@A0ELT@Candied or sugar preserved fruits (as part-nature)
+A0ELR@A0ELV@Dried fruits (as part-nature)
+A0ELR@A0EVC@Fermented fruit products (as part-nature)
+A0ELR@A0EVB@Fruit in vinegar or brine (marinated) (as part-nature)
+A0ELR@A0EYA@Fruit in alcohol or similar
+A067X@A0ELX@Primary derivatives from nuts and similar seeds (as part-nature)
+A0ELX@A0ELY@Candied or sugar preserved nuts (as part-nature)
+A0ELX@A0ELZ@Dried nuts and related flours and powders (as part-nature)
+A0ELX@A068L@Nut/seeds paste/emulsion/mass (as part-nature)
+A067X@A068P@Fruit / vegetable spreads and similar (as part-nature)
+A068P@A0EMA@Fruit / vegetable jams (as part-nature)
+A068P@A0EMB@Fruit / vegetable marmalades (as part-nature)
+A068P@A0EYB@Fruit fillings for pastries (as part-nature)
+A068P@A068R@Fruit/vegetable juice ingredients (as part-nature)
+A068P@A0ERS@Fruit / vegetable compotes (as part-nature)
+A068P@A0EMC@Fruit or fruit-vegetable puree (as part-nature)
+A067X@A068Q@Fruit / vegetable juices and nectars (as part-nature)
+A068Q@A068V@Fruit/vegetable juice ready to drink (as part-nature)
+A068Q@A068X@Fruit/vegetable nectar ready to drink (as part-nature)
+A067X@A068H@Extracts of plant origin (as part-nature)
+A068H@A068J@Liquid extract of plant origin (as part-nature)
+A068H@A068K@Powdered extract of plant origin (as part-nature)
+A067X@A067Q@Included liquid, gel or exudate  (as part-nature)
+A067X@A068S@Fruit/vegetable concentrate (as part-nature)
+A067X@A068T@Fruit/vegetable powder (as part-nature)
+A067X@A0EYD@Derivatives of coffee, cocoa, tea and similar RPCs (as part-nature)
+A0B8Y@A069C@Animal commodities-related part-nature
+A069C@A069D@Animal commodities (as part-nature)
+A069D@A069G@Carcase (as part-nature)
+A069D@A069H@Meat (as part-nature)
+A069H@A0BYZ@Mammals and birds meat (as part-nature)
+A0BYZ@A0C10@Minced meat (as part-nature)
+A0BYZ@A07XS@Breast (as part-nature)
+A0BYZ@A07XQ@Leg (as part-nature)
+A0BYZ@A06AG@Wing (as part-nature)
+A069H@A0EMD@Fish meat (as part-nature)
+A069H@A0EMF@Crustaceans meat (as part-nature)
+A069H@A0EME@Molluscs meat (as part-nature)
+A069H@A0FAC@Sea-squirts and other tunicates (as part-nature)
+A069H@A0FAD@Sea urchins and other echinoderms (as part-nature)
+A069H@A0FAE@Jellyfishes and similar (as part-nature)
+A069H@A05HL@Amphibians and reptiles meat (as part-nature)
+A05HL@A0EMH@Amphibians meat (as part-nature)
+A05HL@A0EMJ@Reptile meat (as part-nature)
+A069H@A0EMG@Insects / arachnids meat (as part-nature)
+A069H@A0EYK@Anellids meat (as part-nature)
+A069D@A069J@Fat tissue (as part-nature)
+A069J@A0F1B@Visceral fat
+A069J@A0F1F@Caul fat
+A069J@A0CEH@Subcutaneal fat
+A069D@A069K@Mechanically separated meat (as part-nature)
+A069D@A069L@Offals and other slaughtering products (as part-nature)
+A069L@A069N@Kidney (as part-nature)
+A069L@A069M@Liver (as part-nature)
+A069L@A06AL@Blood (as part-nature)
+A069L@A0BYK@Other organs (non-muscle) (as part-nature)
+A0BYK@A069P@Lung (as part-nature)
+A0BYK@A069Q@Spleen (as part-nature)
+A0BYK@A069R@Bladder (as part-nature)
+A0BYK@A0CJL@Gall bladder (as part-nature)
+A0BYK@A069T@Pancreas (as part-nature)
+A0BYK@A069V@Testicles (as part-nature)
+A0BYK@A0CJM@Mammal gland (as part-nature)
+A0BYK@A069X@Thymus (as part-nature)
+A0BYK@A0CJN@Lymph node (as part-nature)
+A069L@A0BYL@Other slaughtering products
+A0BYL@A0CJJ@Trachea (as part-nature)
+A0BYL@A069S@Intestine (as part-nature)
+A0BYL@A06AB@Tongue (as part-nature)
+A0BYL@A06AC@Heart (as part-nature)
+A0BYL@A06AD@Stomach (as part-nature)
+A0BYL@A06AE@Bone marrow (as part-nature)
+A0BYL@A06AF@Tail (as part-nature)
+A0BYL@A06AH@Neck (as part-nature)
+A0BYL@A06AJ@Trotter / feet (as part-nature)
+A0BYL@A0F2M@Head (as part-nature)
+A0BYL@A06AK@Skin (as part-nature)
+A06AK@A0C0Y@Neck skin
+A0BYL@A06AM@Brain (as part-nature)
+A0BYL@A07XN@Tripe (as part-nature)
+A0BYL@A07XR@Giblet (as part-nature)
+A0BYL@A069Y@Hepatopancreas (as part-nature)
+A0BYL@A069Z@Roe (as part-nature)
+A0BYL@A06AA@Brown meat (as part-nature)
+A069C@A06AN@Processed or preserved meat (as part-nature)
+A06AN@A0EMK@Canned/jarred meat (as part-nature)
+A06AN@A0EML@Charcuterie meat (as part-nature)
+A0EML@A06AP@Preserved meat cuts (as part-nature)
+A0EML@A06AQ@Preserved fat tissues (as part-nature)
+A0EML@A06AS@Sausages (as part-nature)
+A06AS@A06AT@Fresh raw sausages (as part-nature)
+A06AS@A06AV@Preserved sausages (as part-nature)
+A0EML@A06AX@Meat specialities (as part-nature)
+A0EML@A0EMN@Dried meat (as part-nature)
+A0EML@A0F2L@Edible casings (as part-nature)
+A06AN@A0BZ6@Marinated meat (as part-nature)
+A069C@A0EMQ@Processed or preserved fish (as part-nature)
+A0EMQ@A0EMS@Canned/jarred fish (as part-nature)
+A0EMQ@A0EMV@Salted fish (as part-nature)
+A0EMQ@A0EMT@Dried fish (as part-nature)
+A0EMQ@A0EMY@Marinated / pickled fish (as part-nature)
+A0EMQ@A0EMX@Smoked fish (as part-nature)
+A0EMQ@A0EMM@Structured/textured fish meat (as part-nature)
+A069C@A0EMR@Processed or preserved seafood (as part-nature)
+A0EMR@A0EMZ@Canned/jarred seafood (as part-nature)
+A0EMR@A0ENA@Salted seafood (as part-nature)
+A0EMR@A0ENB@Dried seafood (as part-nature)
+A0EMR@A0ENC@Marinated / pickled seafood (as part-nature)
+A0EMR@A0END@Smoked seafood (as part-nature)
+A069C@A06AY@Dairy (as part-nature)
+A06AY@A06AZ@Milk (as part-nature)
+A06AY@A04HF@Powdered or concentrated dairy products (not isolated) (as part-nature)
+A06AY@A0BZ2@Fermented milk (as part-nature)
+A06AY@A06BA@Cream (as part-nature)
+A06AY@A0BZ3@Fermented cream (as part-nature)
+A06AY@A06BB@Whey (as part-nature)
+A06AY@A06BC@Buttermilk (as part-nature)
+A06AY@A06BJ@Milk-based drinks (as part-nature)
+A06AY@A0DSP@Baked milk types (as part-nature)
+A06AY@A0EQF@Dairy snacks (as part-nature)
+A06AY@A06EX@Cheese (as part-nature)
+A06EX@A06BL@Fresh cheese (as part-nature)
+A06EX@A06BM@Brined cheese (as part-nature)
+A06EX@A06BN@Ripened cheese (as part-nature)
+A06EX@A06BP@Processed cheese (as part-nature)
+A06EX@A0CRM@Cheese rind (as part-nature)
+A069C@A06BQ@Eggs and egg-related (as part-nature)
+A06BQ@A06BR@Whole eggs (as part-nature)
+A06BQ@A06BS@Egg mixed whole (as part-nature)
+A06BQ@A06BT@Egg yolk (as part-nature)
+A06BQ@A06BV@Egg white (as part-nature)
+A06BQ@A06BX@Hardened egg product (as part-nature)
+A0B8Y@A0C0X@Microbiological or enzymatic part-nature
+A0C0X@A06CK@Microorganisms, live (as part-nature)
+A0C0X@A06CJ@Enzymes for food manufacture (as part-nature)
+A0B8Y@A06CL@Composite (recipe based) food (including related RPCs or RPC derivatives) (as part-nature)
+A06CL@A0C6G@Composite ingredients for soft drinks or hot drinks (as part-nature)
+A06CL@A068Y@Hot drinks and similar (coffee, cocoa, tea and herbal drinks) (as part-nature)
+A068Y@A068Z@Infused or steam extracted drink (as part-nature)
+A068Y@A069A@Blended or reconstituted hot drink (as part-nature)
+A06CL@A06EJ@Confectionery (as part-nature)
+A06EJ@A06EK@Chocolate and similar (as part-nature)
+A06EJ@A06EL@Chocolate-based product (as part-nature)
+A06EJ@A06EM@Chocolate imitate product (as part-nature)
+A06EJ@A0ENE@Candy (as part-nature)
+A0ENE@A06EN@Soft candy (as part-nature)
+A0ENE@A06EP@Hard candy (as part-nature)
+A06EJ@A0ENF@Sweet bars and other formed sweet masses (as part-nature)
+A06EJ@A06EQ@Basic sweet masses (as part-nature)
+A06CL@A06EY@Alcoholic beverages (as part-nature)
+A06EY@A06EZ@Beer and beer-like beverage (as part-nature)
+A06EZ@A0ENH@Beer (as part-nature)
+A06EZ@A0ENJ@Beer-like beverages (as part-nature)
+A06EY@A06FA@Wine and wine-like drinks (as part-nature)
+A06FA@A0ENK@Wine (as part-nature)
+A06FA@A0ENL@Wine-like fermented fruit products (as part-nature)
+A06FA@A06FB@Dessert wines (as part-nature)
+A06FB@A0ENM@Fortified/liqueur wine (as part-nature)
+A06EY@A06FC@Liqueurs (as part-nature)
+A06EY@A06FD@Unsweetened spirits (as part-nature)
+A06FD@A0ENN@Unsweetened spirits not from fruit (as part-nature)
+A06FD@A0ENQ@Unsweetened spirits from fruit (as part-nature)
+A06FD@A0ENP@Unsweetened flavoured spirits (as part-nature)
+A06EY@A06FE@Mixed alcoholic drinks (as part-nature)
+A06CL@A0ENR@Water-based beverages (as part-nature)
+A0ENR@A06CA@Water (as part-nature)
+A0ENR@A06HJ@Soft drinks (as part-nature)
+A0ENR@A0ENS@Cola-type drink (as part-nature)
+A0ENR@A06HK@Functional drink (as part-nature)
+A06HK@A0ENT@Energy drink (as part-nature)
+A06HK@A0ENV@Isotonic/sport drink (as part-nature)
+A0ENR@A0F0Q@Drink pre-mixes
+A06CL@A06FF@Food products for young population (as part-nature)
+A06FF@A06FG@Infant and follow-on formulae (as part-nature)
+A06FG@A06FH@Infant formulae (as part-nature)
+A06FG@A06FJ@Follow-on formulae (as part-nature)
+A06FF@A06FL@Ready-to-eat meal for infants and young children (as part-nature)
+A06FF@A06FK@Processed cereal-based food for infants and young children (as part-nature)
+A06FF@A06FM@Food for infants and children not included in regulatory categories (as part-nature)
+A06CL@A06FP@Products for non-standard diets (as part-nature)
+A06FP@A06FQ@Food for weight reduction (as part-nature)
+A06FP@A06FR@Food for sporting people (as part-nature)
+A06FP@A06FS@Dietary foods for special medical purposes (as part-nature)
+A06CL@A06FT@Food supplements and similar preparations (as part-nature)
+A06CL@A0F7S@Table-top sweeteners (as part-nature)
+A06CL@A06GC@Composite dishes (as part-nature)
+A06GC@A06GD@Dishes, incl. Ready to eat meals (excluding soups and salads) (as part-nature)
+A06GD@A06GN@Sandwiches, pizza and other stuffed bread-like cereal products (as part-nature)
+A06GN@A06GP@Sandwich and sandwich-like dishes (as part-nature)
+A06GN@A06GQ@Pizza and pizza-like dishes (as part-nature)
+A06GN@A0EQK@Savoury pies and tarts (as part-nature)
+A06GN@A06GR@Finger food (as part-nature)
+A06GD@A06GS@Pastas and rice (or other cereal) –based dishes (as part-nature)
+A06GS@A0EQJ@Pasta-based dishes dry or uncooked (as part-nature)
+A06GS@A06GT@Pasta-based dishes (cooked) (as part-nature)
+A06GS@A0EQG@Rice-based dishes dry, to be cooked (as part-nature)
+A06GS@A06GV@Rice based dishes (as part-nature)
+A06GD@A06GE@Dishes (excluding pasta or rice dishes, sandwiches and pizza) (as part-nature)
+A06GE@A06GH@Meat based dishes (as part-nature)
+A06GE@A06GJ@Fish and seafood based dishes (as part-nature)
+A06GE@A06GF@Potato based dishes (as part-nature)
+A06GF@A0EPX@Fries (finger chips) (as part-nature)
+A06GE@A06GG@Legumes based dishes (as part-nature)
+A06GE@A06GL@Egg based dishes (as part-nature)
+A06GE@A06GM@Mushroom based dishes (as part-nature)
+A06GE@A06GK@Vegetable based dishes (as part-nature)
+A06GC@A06GX@Soups and salads (as part-nature)
+A06GX@A0EQH@Soups dry or concentrated preparations (as part-nature)
+A06GX@A06GY@Soups ready-to-eat (as part-nature)
+A06GX@A06GZ@Salads (as part-nature)
+A06GC@A0ENX@Spoonable desserts and ice creams (as part-nature)
+A0ENX@A06ER@Water-based desserts spoonable (as part-nature)
+A0ENX@A06ES@Water-based  ice creams (as part-nature)
+A0ENX@A06BK@Dairy-based desserts spoonable and similar (as part-nature)
+A0ENX@A0ENY@Dairy-based  ice creams and similar (as part-nature)
+A06CL@A06HA@Seasoning, sauces and condiments (as part-nature)
+A06HA@A06BZ@Salt (as part-nature)
+A06HA@A06HB@Seasoning mixes (as part-nature)
+A06HA@A06HC@Savoury extracts and ingredients (as part-nature)
+A06HC@A06HD@Gravy ingredients (as part-nature)
+A06HC@A0EPA@Stock cubes/granulates (as part-nature)
+A06HC@A0ENZ@Taste enhancing RPC extracts (as part-nature)
+A06HA@A06HF@Condiments (as part-nature)
+A06HF@A0EPB@Vinegar (as part-nature)
+A06HF@A0EPN@Salat dressing (as part-nature)
+A06HF@A06HE@Savoury sauces (as part-nature)
+A06HE@A0EPM@Emulsified sauces (as part-nature)
+A06HE@A0EPL@Tomato-based cooking sauces (as part-nature)
+A06HE@A0EPK@White sauces (as part-nature)
+A06HE@A0EPJ@Brown cooked sauces (as part-nature)
+A06HE@A0EPH@Mustard-type sauces (as part-nature)
+A06HE@A0EPG@BBQ-type sauces (as part-nature)
+A06HE@A0EPF@Sauces from fermented/hydrolised sources and similar (as part-nature)
+A06HE@A0EPE@Tomato ketchups (as part-nature)
+A06HE@A0EPP@Herbs/spices sauces (as part-nature)
+A06HE@A0ERF@Vegetables-based cooked sauce (as part-nature)
+A06HF@A0EPC@Relishes (as part-nature)
+A0EPC@A06HG@Chutneys (as part-nature)
+A0EPC@A0EPD@Pickles (as part-nature)
+A06HA@A06HH@Dessert sauces/toppings (as part-nature)
+A06CL@A06HM@Meat and dairy imitates (as part-nature)
+A06HM@A06HN@Meat imitate (as part-nature)
+A06HM@A06HP@Dairy imitate (as part-nature)
+A06CL@A06CV@Pasta (as part-nature)
+A06CV@A06CX@Simple pasta (as part-nature)
+A06CV@A06CY@Filled pasta (as part-nature)
+A06CV@A06CZ@Pasta alternative (as part-nature)
+A06CL@A06DA@Doughs (as part-nature)
+A06DA@A06DB@Yeast leavened bread doughs (as part-nature)
+A06DA@A06DC@Yeast leavened sweet doughs (as part-nature)
+A06DA@A06DD@Chemically leavened doughs (as part-nature)
+A06DA@A06DE@Unleavened doughs (as part-nature)
+A06DA@A06DF@Short pastry doughs (pate brisee) (as part-nature)
+A06DA@A06DG@Short sweet pastry doughs (pate sucree, sablee) (as part-nature)
+A06DA@A06DH@Choux pastry doughs (as part-nature)
+A06DA@A06DJ@Cake pre-mixes/batter (as part-nature)
+A06DA@A06DK@Laminated dough (as part-nature)
+A06DA@A06DL@Miscellaneous doughs (as part-nature)
+A06DA@A0ERD@Pre-mixes (dry) for baked products (as part-nature)
+A06CL@A0EPQ@Bakery products (as part-nature)
+A0EPQ@A06CM@Bread (as part-nature)
+A06CM@A06CN@Leavened bread (as part-nature)
+A06CN@A0EPR@Sandwich bread (as part-nature)
+A06CM@A06CP@Unleavened or flat bread (as part-nature)
+A0EPQ@A0ERA@Crackers and breadsticks (as part-nature)
+A0EPQ@A06CQ@Crisp bread (as part-nature)
+A0EPQ@A06CR@Puffed-textured bread (as part-nature)
+A0EPQ@A06CS@Rusk (as part-nature)
+A0EPQ@A06CT@Bread alternative (as part-nature)
+A0EPQ@A0EPS@Bread products (as part-nature)
+A0EPQ@A06DM@Fine bakery (as part-nature)
+A06DM@A06DN@Biscuits (as part-nature)
+A06DM@A06DP@Choux pastry (as part-nature)
+A06DM@A0ERC@Cakes (as part-nature)
+A06DM@A06DQ@Yeast leavened pastry (as part-nature)
+A06DM@A06DR@Shortcrust pastry (pies/tarts) (as part-nature)
+A06DM@A06DS@Puff pastry (as part-nature)
+A06DM@A06DT@Miscellaneous pastry (as part-nature)
+A06CL@A06DV@Cereals or roots-based snacks or breakfast composite (as part-nature)
+A06DV@A06EA@Chips, crisps, fries and dough-based analogues (as part-nature)
+A06EA@A0EPT@Chips/crisps (as part-nature)
+A06EA@A0EPV@Puffs/curls-type extruded snack (as part-nature)
+A06DV@A06EB@Snacks other than chips and similar (as part-nature)
+A06DV@A06DY@Cereal bars (as part-nature)
+A06DV@A06DZ@Muesli (as part-nature)
+A06DV@A0F7Y@Porridge (in dry form)
+A06DV@A06DX@Porridge (ready to eat) (as part-nature)
+A0B8Y@A06BY@Mineral, synthetic or isolated purified ingredients (as part-nature)
+A06BY@A06CB@Additives, flavours, baking and processing aids (as part-nature)
+A06CB@A06CD@Food flavours (as part-nature)
+A06CB@A06CE@Food colours (as part-nature)
+A06CB@A06CF@Food additives other than flavours, colours and artificial sweeteners (as part-nature)
+A06CB@A06CG@Miscellaneous agents for food processing (as part-nature)
+A06CB@A06CH@Processing aids (as part-nature)
+A06CB@A06CC@Artificial sweeteners (e.g., aspartame, saccharine) (as part-nature)
+A06BY@A0EMP@Animal and vegetable fats and oils (as part-nature)
+A0EMP@A068M@Vegetable fats and oils (as part-nature)
+A0EMP@A06AR@Animal fat (processed fat from animal tissues) (as part-nature)
+A0EMP@A06BD@Refined dairy fat (butter oil) (as part-nature)
+A0EMP@A06ET@Fat emulsions and blended fats (as part-nature)
+A06ET@A06BE@Butter (as part-nature)
+A06ET@A0ENG@Margarine (as part-nature)
+A06ET@A0EYC@Blended fats including shortening (as part-nature)
+A06BY@A06EC@Sugars and similar (as part-nature)
+A06EC@A06EE@Mono and disaccharides (as part-nature)
+A06EE@A0EPY@Sucrose (as part-nature)
+A06EE@A06ED@Glucose (as part-nature)
+A06EE@A0EPZ@Fructose (as part-nature)
+A06EE@A0F0R@Maltose (as part-nature)
+A06EE@A06BF@Lactose (as part-nature)
+A06EE@A0ESD@Galactose (as part-nature)
+A06EC@A06EF@Honey (as part-nature)
+A06EC@A06EG@Syrup (as part-nature)
+A06EC@A06EH@Polyol (as part-nature)
+A06EC@A0BZ0@Maltodextrins and similar (as part nature)
+A06EC@A0BZ1@Inulin and other polyfructoses (as part-nature)
+A06BY@A068D@Starch (as part-nature)
+A06BY@A0EQA@Isolated proteins and other protein products (as part-nature)
+A0EQA@A06BG@Milk protein (as part-nature)
+A0EQA@A06BH@Whey protein (as part-nature)
+A06BY@A0EQB@Ingredients for food fortification/enrichment (as part-nature)
+A0EQB@A06FV@Vitamins (as part-nature)
+A0EQB@A0EQC@Chemical elements (as part-nature)
+A0EQB@A06FX@Miscellaneous supplements or fortifying agents (as part-nature)
+A06FX@A0ESC@Special fatty acids (as part-nature)
+A0ESC@A0EQT@Omega-3 fatty acids (as part-nature)
+A0ESC@A0ERH@Omega-6 fatty acids (as part-nature)
+A06FX@A06FZ@Dietary fibre (as part-nature)
+A06FX@A06GA@Phytochemicals (as part-nature)
+A06GA@A0ERJ@Phytosterols (as part-nature)
+A06GA@A0ERL@Polyphenols (as part-nature)
+A06GA@A0ERK@Carotenoids (as part-nature)
+A06FX@A06GB@Algae based fortifying agents (e.g. Spirulina, chlorella) (as part-nature)
+A06FX@A0ESB@Coffeine (as part-nature)
+A06FX@A0ERM@Enzymes for fortification (as part-nature)
+A06FX@A06FY@Bee-produced fortifying agents (as part-nature)
+A0EQB@A06FN@Special food for children's growth (as part-nature)
+A0B8Y@A0CEG@Non-food animal-related matrices (as part-nature)
+A0CEG@A0CES@Thyroid (as part-nature)
+A0CEG@A0CET@Urine (as-part-nature)
+A0CEG@A0CEV@Faeces (as part-nature)
+A0CEG@A0CEY@Blood serum (as part-nature)
+A0CEG@A0CEX@Plasma (as part-nature)
+A0CEG@A0EKY@Bile (as part-nature)
+A0CEG@A067P@Eye (as part-nature)
+A0CEG@A0ERZ@Eyeball (as part-nature)
+A0CEG@A0ESE@Feather (as part-nature)
+A0CEG@A0ESP@Hair (as part-nature)
+A0CEG@A0ESN@Injection site (as part-nature)
+A0CEG@A0ESK@Pollen (as part-nature)
+A0CEG@A0ESJ@Retina (as part-nature)
+A0CEG@A0ESH@Sand (as part-nature)
+A0CEG@A0ESG@Tissues juice (as part-nature)
+A0CEG@A0ESF@Wool (as part-nature)
+A0CEG@A0F0Y@Feed (as part-nature)
+A0B8Y@A166E@Non-food plant-related matrices (as part-nature)
+A166E@A166F@Aerial part of plants (as part-nature)
+A166E@A166G@Cone (as part-nature)
+A166E@A166H@Flowering top (as part-nature)
+A166E@A166J@Husk (as part-nature)
+A166E@A166K@Nutgall (as part-nature)
+A166E@A166L@Stigma (as part-nature)
+A166E@A166M@Stolon (as part-nature)
+A166E@A166N@Trunk (as part-nature)
+A166E@A166P@Wood (as part-nature)
+A166E@A166Q@Essential oil (as part-nature)
+A166E@A166R@Gum (as part-nature)
+A166E@A166S@Latex (as part-nature)
+A166E@A166T@Oleo-gum-resin (as part-nature)
+A166E@A166V@Sap (as part-nature)
+A166E@A166X@Resin (as part-nature)
+A0B8V@A0B95@Process
+A0B95@A0C0Q@Generic process descriptors
+A0C0Q@A07HS@Raw, no heat treatment
+A0C0Q@A0C0S@Unprocessed
+A0C0Q@A0C0R@Processed
+A0C0R@A0CHR@Batch process
+A0C0R@A0CHS@Continuous process
+A0C0Q@A0CHV@Preserved (unspecified method)
+A0C0Q@A066E@Semi-preserved (unspecified method)
+A0B95@A07KS@Physical division / dimension reduction
+A07KS@A07KT@Portioning
+A07KS@A07KV@Slicing
+A07KS@A07KX@Dicing and stripe-cutting
+A07KS@A07KY@Mincing / chopping / cutting
+A07KS@A07KZ@Grating
+A07KS@A07LA@Grinding / milling / crushing
+A07KS@A0C6N@Pulping / mashing
+A07KS@A0C0K@Maceration
+A0B95@A0BYG@Preservation treatments not changing nature
+A0BYG@A07JB@Physical decontamination treatment
+A07JB@A0BZG@Aspiration
+A07JB@A0BZL@Desliming
+A07JB@A07JE@Cleaning
+A07JB@A07JF@Brushing
+A07JB@A07JG@Washing
+A07JB@A07JH@Centrifugal cleaning
+A07JB@A07JC@High pressure treating (pascalisation)
+A07JB@A07JD@Micro-filtering
+A07JB@A07JJ@Irradiation
+A07JB@A0CSQ@Surface treatment with sanitizing agents
+A0BYG@A07KN@Lowering temperature
+A07KN@A07KP@Chilling
+A07KN@A07KQ@Freezing
+A07KQ@A07KR@Iqf freezing (flash/blast freezing)
+A0B95@A07HR@Thermal treatment (heating for preservation)
+A07HR@A07HT@Low pasteurisation (thermisation)
+A07HR@A07HV@Pasteurisation
+A07HR@A07HX@High pasteurisation (extending shelf life)
+A07HR@A07HY@UHT
+A07HR@A07HZ@Statical sterilisation (in batch or package)
+A07HR@A07JA@Hot-filling
+A0B95@A0BA1@Cooking and similar thermal preparation processes
+A0BA1@A07GF@Blanching
+A0BA1@A07GG@Cooking in water
+A07GG@A07GH@Poaching
+A07GG@A07GJ@Simmering
+A07GG@A07GK@Scalding
+A07GG@A07GL@Boiling
+A0BA1@A07GM@Stewing
+A0BA1@A07GN@Bain-marie cooking (in water bath)
+A0BA1@A07GP@Steaming
+A07GP@A07GQ@Pressure cooking
+A0BA1@A07GR@Frying
+A07GR@A07GS@Pan frying / shallow frying
+A07GR@A07GT@Stir frying
+A07GR@A07GV@Deep frying
+A0BA1@A07GX@Baking
+A0BA1@A07GY@Roasting
+A0BA1@A0EJY@Grilling/griddling (high temperature cooking)
+A0EJY@A07GZ@Broiling/grilling
+A0EJY@A07HA@Griddling
+A0BA1@A07HB@Microwave-cooking
+A0BA1@A0CRA@Infra-red micronisation
+A0BA1@A07HC@Toasting / coffee roasting
+A0BA1@A07HD@Reheating
+A07HD@A07HE@Oven reheating
+A07HD@A07HF@Microwave reheating
+A07HD@A07HG@Pan reheating
+A07HD@A07HH@Reheating in the pack
+A0BA1@A07HJ@Caramelization / browning
+A0B95@A0BYM@Protective packing
+A0BYM@A0BYN@Aseptic filling
+A0BYM@A0BYP@Canning / jarring
+A0BYM@A07JK@Vacuum-packing
+A0B95@A0C0N@Preservation with substances / ingredients
+A0C0N@A07JP@Preserving with salt
+A07JP@A0F2N@Brining
+A0C0N@A07JQ@Preserving with sugars
+A07JQ@A07JR@Candying
+A0C0N@A07JS@Preserving with preserving additives
+A0C0N@A0CER@Preserving with alcohol
+A0C0N@A07JV@Smoking
+A0B95@A07JL@Modification with chemical and biological agents
+A07JL@A0C0P@Modification with substances / ingredients
+A0C0P@A07LQ@Alkalizing
+A0C0P@A07JM@Acidifying
+A0C0P@A07LR@Bleaching
+A0C0P@A07JN@Carbonating
+A0C0P@A07LS@Bromating
+A0C0P@A07JT@Marinating
+A0C0P@A07KC@Pickling
+A0C0P@A0CRH@Seasoning
+A0C0P@A07LX@Hydrolysis (sugar/proteins/fats)
+A0C0P@A07LT@Hydrogenation
+A07JL@A07JX@Biological treatment
+A07JX@A0CQZ@Fermentation
+A0CQZ@A07JY@Yeast fermentation
+A0CQZ@A07JZ@Bacteria fermentation
+A0CQZ@A07KA@Mould culturing
+A07JX@A07KB@Enzyme treatment
+A07JX@A07KD@Curing
+A07JX@A0C6F@Ripening
+A07JX@A0C0L@Malting
+A0B95@A07LD@Physico-chemical modification
+A07LD@A07LE@Aerating / whipping
+A07LE@A07LY@Pressurizing with aerosol propellant (spray)
+A07LD@A0CRK@Stirring
+A07LD@A0C0J@Liquefying
+A0C0J@A0BZJ@Condensation (gas to liquid)
+A0C0J@A0C0H@Melting
+A07LD@A07LF@Extrusion/extrusion-cooking
+A07LD@A07LG@Flaking
+A07LD@A07LH@Flattening / rolling
+A07LD@A07LJ@Homogenizing or emulsifying
+A07LD@A07LK@Parboiling / pre-gelatinising
+A07LD@A07LL@Puffing / expanding
+A07LD@A07LM@Texturing
+A07LD@A07XZ@Instantisation
+A07LD@A0C0G@Gelling
+A07LD@A0C0F@Micronisation
+A07LD@A07XY@Granulation (from powder)
+A07LD@A0BZX@Pelleting
+A07LD@A07LN@Juicing
+A07LD@A07LP@Coagulating / clotting
+A0B95@A07KE@Subtraction of water
+A07KE@A07KL@Semi-drying (e.g. Fruits)
+A07KE@A07KG@Drying (dehydration)
+A07KG@A07KH@Freeze-drying (lyophilisation)
+A07KG@A07KJ@Air / heat drying
+A07KG@A0C0C@Spray drying
+A07KG@A07KK@Sun drying
+A07KE@A07KF@Concentration / evaporation
+A07KE@A07KM@Condensing milk (concentration + sugars)
+A0B95@A07MP@Addition of water
+A07MP@A07MQ@Dilution
+A07MP@A07MR@Reconstitution from concentrate, powder or other dehydrated form
+A07MP@A07MS@Soaking
+A07MP@A07LV@Liquid injection
+A0B95@A07MB@Separation of fractions / subtraction of components
+A07MB@A0BZY@Fractionation
+A0BZY@A0BZH@Air fractionation
+A0BZY@A07LB@Sifting
+A07MB@A0EKQ@Separation (in liquid phase)
+A0EKQ@A07MC@Centrifugal separation
+A0EKQ@A0C0D@Gravitational separation
+A07MB@A0BZN@Pressing
+A07MB@A0BZP@Filtration
+A07MB@A07MD@Ultra-filtration
+A07MB@A07ME@Reverse osmosis
+A07MB@A07MF@Distillation
+A07MB@A07MG@Fat fractioning
+A07MB@A07MH@Churning
+A07MB@A07MJ@Extraction
+A07MJ@A0BZS@Water or steam extraction
+A07MJ@A0BZR@Solvent extraction
+A07MJ@A0BZQ@Super-critical gas extraction
+A07MB@A07MK@Brewing / infusion
+A07MB@A0BZT@Refining
+A0BZT@A0CRC@Rectification
+A07MB@A07ML@Crystallization
+A07MB@A07MM@Lactose reduction
+A07MB@A07MN@Decaffeinating
+A07MB@A0BZK@Depectinising
+A07MB@A0CQY@Degermination
+A07MB@A0BZM@Desugaring
+A07MB@A07LC@Removal of external layer
+A07MB@A0BZV@Polishing
+A07MB@A0C0M@Detoxification
+A07MB@A0F0A@Deodorization
+A0B95@A07LZ@Compounding, assembling, coating  or filling
+A07LZ@A0CRJ@Blending
+A07LZ@A0CRL@Mixing
+A07LZ@A07MA@Filling
+A07LZ@A07HK@Breading
+A07LZ@A07HL@Battering
+A07LZ@A07HM@Glazing / icing
+A07LZ@A07HN@Sugar coating
+A07LZ@A07HP@Chocolate coating
+A07LZ@A07HQ@Nuts coating
+A0B95@A0BZZ@Whole production processes
+A0BZZ@A0C00@Winemaking
+A0BZZ@A0C01@Beer production
+A0BZZ@A0C6E@Cheesemaking
+A0BZZ@A0C02@Oil production
+A0C02@A0C06@Oil production - mechanical cold
+A0C02@A0C08@Oil production - mechanical warm
+A0C02@A0C07@Oil production - solvent based
+A0BZZ@A0C03@Grain milling
+A0C03@A0C09@Grain milling - early stages (cleaning)
+A0C03@A0C0A@Grain milling - flours production
+A0BZZ@A0C0B@Starch production
+A0BZZ@A0C04@Sugar production
+A0BZZ@A0C05@Fodder production
+A0C05@A0CRB@Ensiling
+A0C05@A0C0E@Rumen protection
+A0B8V@A0B93@Qualitative-info
+A0B93@A0CJC@Fat-related info
+A0CJC@A0CRE@High fat
+A0CJC@A077A@Full fat
+A0CJC@A077B@Half fat or medium fat
+A0CJC@A077C@Low fat (naturally or reduced)
+A0CJC@A077D@Fat free
+A0CJC@A077E@Double cream
+A0CJC@A077F@Single cream
+A0CJC@A077G@Semi-skimmed
+A0CJC@A077H@Skim
+A0B93@A0CJD@Sugars-related info
+A0CJD@A077J@With added sugar
+A0CJD@A077K@Without added sugar
+A0CJD@A077M@Low / Reduced sugar
+A0CJD@A077L@Sugar free
+A0CJD@A0B8N@Low / reduced lactose
+A0CJD@A0CQD@Lactose free
+A0B93@A0CRF@Energy-related info
+A0CRF@A0CRG@Light
+A0B93@A0F5Y@Fortification-related info
+A0F5Y@A0F6C@Fortified
+A0F5Y@A0F6D@Not fortified
+A0B93@A0CJF@Salt (sodium)-related info
+A0CJF@A0CJK@With added salt
+A0CJF@A0CQE@Without added salt
+A0CJF@A0B8M@Low sodium / reduced salt
+A0B93@A0CJE@Proteins-related info
+A0CJE@A0B8L@Gluten free
+A0CJE@A0CJG@Protein-free
+A0B93@A0CJH@Alcohol-related info
+A0CJH@A0C0V@Alcohol free
+A0B93@A0CQF@Caffeine-related info
+A0CQF@A0CQG@With added caffeine
+A0CQF@A0CQH@Caffeine free
+A0B93@A0CQK@Taste-related info
+A0CQK@A0CQM@Sweet / mild
+A0CQK@A0CQN@Sour
+A0CQK@A0CQP@Bitter
+A0CQK@A0EZY@Hot/piquant/spicy
+A0B93@A0F2P@Colour-related info
+A0F2P@A0F2S@Red
+A0F2P@A0F2R@White
+A0F2P@A0F2Q@Green
+A0F2P@A0F5H@Yellow
+A0F2P@A0F5J@Orange
+A0F2P@A0F5K@Brown
+A0F2P@A169P@Blue
+A0F2P@A0F2Y@Dark
+A0F2P@A166Z@Black
+A0F2P@A0F2Z@Pale/light colour
+A0B93@A0CQL@Aging-related info
+A0CQL@A0CQQ@New
+A0CQL@A0CQR@Old
+A0CQL@A0CQS@Extra old / very old
+A0B93@A06HQ@Additional characteristics
+A06HQ@A06HR@Integral /not refined
+A06HQ@A0EZZ@Semi-refined
+A06HQ@A07XK@White/refined
+A06HQ@A06HS@Sparkling
+A06HQ@A06HT@Weak strength
+A06HQ@A06HV@Average strength
+A06HQ@A06HX@Strong
+A06HQ@A07XL@Ripe / mature
+A06HQ@A0F5G@Semi-ripe
+A06HQ@A07XM@Unripe / immature
+A06HQ@A06JM@With solid particles/pieces
+A06HQ@A0CJP@Hard
+A06HQ@A169Q@Semi-soft
+A06HQ@A0CJQ@Soft
+A06HQ@A0CQJ@Exhausted
+A06HQ@A0CRD@Not diluted
+A06HQ@A166Y@Fresh
+A0B8V@A0B8Z@Physical-state
+A0B8Z@A0CEA@Solid (soft or hard)
+A0CEA@A06HY@Whole/unsplit form, including artificial forms
+A06HY@A06JH@Tablets
+A06HY@A06JJ@Bars / tables
+A06HY@A0CQC@Drops or similar small forms
+A0CEA@A06HZ@Primal cuts / fillets / halves or quarters
+A0CEA@A06JA@Slices, steaks or other flat cuts
+A0CEA@A06JB@Dices / sticks
+A0CEA@A06JC@Fragments / granules / splinters
+A0CEA@A06JD@Powder
+A06JD@A07Y3@Coarse powder
+A06JD@A07Y2@Fine powder
+A0B8Z@A0CEB@Jelly
+A0CEB@A0CED@Stiff jelly
+A0CEB@A0CEC@Brittle jelly
+A0B8Z@A06JK@Semisolid-semiliquid
+A06JK@A0CEE@Spoonable creamy
+A06JK@A06JG@Puree-type
+A06JK@A06JF@Paste
+A06JF@A06JE@coarse paste / minced
+A06JF@A07Y4@Fine paste
+A0B8Z@A06JL@Liquid
+A0B8V@A0B91@Surrounding-medium
+A0B91@A169N@In own juice
+A0B91@A06XF@In broth
+A0B91@A06XG@In cream or milk
+A0B91@A06XH@In animal fat
+A0B91@A06XJ@In vegetable oil
+A06XJ@A06XK@In olive oil
+A06XJ@A06XL@In vegetable oils other than olive
+A0B91@A06XM@In fruit/vegetable juice
+A0B91@A06XN@In gelatine-jelly
+A06XN@A06XP@In savoury gelatine
+A06XN@A06XQ@In sweet gelatine (jelly)
+A0B91@A06XR@In gravy or savoury sauce
+A0B91@A06XS@In sweet sauce
+A0B91@A06XT@In salt brine
+A06XT@A06XV@In acidified salt brine
+A06XT@A06XX@In sweetened salt brine
+A0B91@A06XY@In concentrated  sweet liquid-syrup
+A0B91@A06XZ@In diluted sweet liquid-syrup
+A0B91@A06YA@In wine
+A0B91@A06YB@In alcohol-spirit-liqueur
+A0B91@A06YC@In vinegar, pickles and similar
+A06YC@A06YD@In vinegar
+A06YC@A06YE@In vinegar and oil
+A06YC@A06YF@In vinegar with sugar
+A0B91@A06YG@In water
+A0B91@A0BA6@In modified atmosphere
+A0B91@A0BA5@In air (normal atmosphere)
+A0B8V@A0B92@Fat-content
+A0B92@A06YH@< 0.1 % fat
+A0B92@A06YJ@0.1 % fat
+A0B92@A06YK@0.2 % fat
+A0B92@A06YL@0.3 % fat
+A0B92@A06YM@0.4 % fat
+A0B92@A06YN@0.5 % fat
+A0B92@A06YP@0.6 % fat
+A0B92@A06YQ@0.7 % fat
+A0B92@A06YR@0.8 % fat
+A0B92@A06YS@0.9 % fat
+A0B92@A06YT@1 % fat
+A0B92@A06YV@1.1 % fat
+A0B92@A06YX@1.2 % fat
+A0B92@A06YY@1.3 % fat
+A0B92@A06YZ@1.4 % fat
+A0B92@A06ZA@1.5 % fat
+A0B92@A06ZB@1.6 % fat
+A0B92@A06ZC@1.7 % fat
+A0B92@A06ZD@1.8 % fat
+A0B92@A06ZE@1.9 % fat
+A0B92@A06ZF@2 % fat
+A0B92@A06ZG@2.1 % fat
+A0B92@A06ZH@2.2 % fat
+A0B92@A06ZJ@2.3 % fat
+A0B92@A06ZK@2.4 % fat
+A0B92@A06ZL@2.5 % fat
+A0B92@A06ZM@2.6 % fat
+A0B92@A06ZN@2.7 % fat
+A0B92@A06ZP@2.8 % fat
+A0B92@A06ZQ@2.9 % fat
+A0B92@A06ZR@3 % fat
+A0B92@A06ZS@3.1 % fat
+A0B92@A06ZT@3.2 % fat
+A0B92@A06ZV@3.3 % fat
+A0B92@A06ZX@3.4 % fat
+A0B92@A06ZY@3.5 % fat
+A0B92@A06ZZ@3.6 % fat
+A0B92@A070A@3.7 % fat
+A0B92@A070B@3.8 % fat
+A0B92@A070C@3.9 % fat
+A0B92@A070D@4 % fat
+A0B92@A070E@4.1 % fat
+A0B92@A070F@4.2 % fat
+A0B92@A070G@4.3 % fat
+A0B92@A070H@4.4 % fat
+A0B92@A070J@4.5 % fat
+A0B92@A070K@4.6 % fat
+A0B92@A070L@4.7 % fat
+A0B92@A070M@4.8 % fat
+A0B92@A070N@4.9 % fat
+A0B92@A070P@5 % fat
+A0B92@A070Q@5.1 % fat
+A0B92@A070R@5.2 % fat
+A0B92@A070S@5.3 % fat
+A0B92@A070T@5.4 % fat
+A0B92@A070V@5.5 % fat
+A0B92@A070X@5.6 % fat
+A0B92@A070Y@5.7 % fat
+A0B92@A070Z@5.8 % fat
+A0B92@A071A@5.9 % fat
+A0B92@A071B@6 % fat
+A0B92@A071C@6.1 % fat
+A0B92@A071D@6.2 % fat
+A0B92@A071E@6.3 % fat
+A0B92@A071F@6.4 % fat
+A0B92@A071G@6.5 % fat
+A0B92@A071H@6.6 % fat
+A0B92@A071J@6.7 % fat
+A0B92@A071K@6.8 % fat
+A0B92@A071L@6.9 % fat
+A0B92@A071M@7 % fat
+A0B92@A071N@7.1 % fat
+A0B92@A071P@7.2 % fat
+A0B92@A071Q@7.3 % fat
+A0B92@A071R@7.4 % fat
+A0B92@A071S@7.5 % fat
+A0B92@A071T@7.6 % fat
+A0B92@A071V@7.7 % fat
+A0B92@A071X@7.8 % fat
+A0B92@A071Y@7.9 % fat
+A0B92@A071Z@8 % fat
+A0B92@A072A@8.1 % fat
+A0B92@A072B@8.2 % fat
+A0B92@A072C@8.3 % fat
+A0B92@A072D@8.4 % fat
+A0B92@A072E@8.5 % fat
+A0B92@A072F@8.6 % fat
+A0B92@A072G@8.7 % fat
+A0B92@A072H@8.8 % fat
+A0B92@A072J@8.9 % fat
+A0B92@A072K@9 % fat
+A0B92@A072L@9.1 % fat
+A0B92@A072M@9.2 % fat
+A0B92@A072N@9.3 % fat
+A0B92@A072P@9.4 % fat
+A0B92@A072Q@9.5 % fat
+A0B92@A072R@9.6 % fat
+A0B92@A072S@9.7 % fat
+A0B92@A072T@9.8 % fat
+A0B92@A072V@9.9 % fat
+A0B92@A072X@10 % fat
+A0B92@A072Y@11 % fat
+A0B92@A072Z@12 % fat
+A0B92@A073A@13 % fat
+A0B92@A073B@14 % fat
+A0B92@A073C@15 % fat
+A0B92@A073D@16 % fat
+A0B92@A073E@17 % fat
+A0B92@A073F@18 % fat
+A0B92@A073G@19 % fat
+A0B92@A073H@20 % fat
+A0B92@A073J@21 % fat
+A0B92@A073K@22 % fat
+A0B92@A073L@23 % fat
+A0B92@A073M@24 % fat
+A0B92@A073N@25 % fat
+A0B92@A073P@26 % fat
+A0B92@A073Q@27 % fat
+A0B92@A073R@28 % fat
+A0B92@A073S@29 % fat
+A0B92@A073T@30 % fat
+A0B92@A073V@31 % fat
+A0B92@A073X@32 % fat
+A0B92@A073Y@33 % fat
+A0B92@A073Z@34 % fat
+A0B92@A074A@35 % fat
+A0B92@A074B@36 % fat
+A0B92@A074C@37 % fat
+A0B92@A074D@38 % fat
+A0B92@A074E@39 % fat
+A0B92@A074F@40 % fat
+A0B92@A074G@41 % fat
+A0B92@A074H@42 % fat
+A0B92@A074J@43 % fat
+A0B92@A074K@44 % fat
+A0B92@A074L@45 % fat
+A0B92@A074M@46 % fat
+A0B92@A074N@47 % fat
+A0B92@A074P@48 % fat
+A0B92@A074Q@49 % fat
+A0B92@A074R@50 % fat
+A0B92@A074S@51 % fat
+A0B92@A074T@52 % fat
+A0B92@A074V@53 % fat
+A0B92@A074X@54 % fat
+A0B92@A074Y@55 % fat
+A0B92@A074Z@56 % fat
+A0B92@A075A@57 % fat
+A0B92@A075B@58 % fat
+A0B92@A075C@59 % fat
+A0B92@A075D@60 % fat
+A0B92@A075E@61 % fat
+A0B92@A075F@62 % fat
+A0B92@A075G@63 % fat
+A0B92@A075H@64 % fat
+A0B92@A075J@65 % fat
+A0B92@A075K@66 % fat
+A0B92@A075L@67 % fat
+A0B92@A075M@68 % fat
+A0B92@A075N@69 % fat
+A0B92@A075P@70 % fat
+A0B92@A075Q@71 % fat
+A0B92@A075R@72 % fat
+A0B92@A075S@73 % fat
+A0B92@A075T@74 % fat
+A0B92@A075V@75 % fat
+A0B92@A075X@76 % fat
+A0B92@A075Y@77 % fat
+A0B92@A075Z@78 % fat
+A0B92@A076A@79 % fat
+A0B92@A076B@80 % fat
+A0B92@A076C@81 % fat
+A0B92@A076D@82 % fat
+A0B92@A076E@83 % fat
+A0B92@A076F@84 % fat
+A0B92@A076G@85 % fat
+A0B92@A076H@86 % fat
+A0B92@A076J@87 % fat
+A0B92@A076K@88 % fat
+A0B92@A076L@89 % fat
+A0B92@A076M@90 % fat
+A0B92@A076N@91 % fat
+A0B92@A076P@92 % fat
+A0B92@A076Q@93 % fat
+A0B92@A076R@94 % fat
+A0B92@A076S@95 % fat
+A0B92@A076T@96 % fat
+A0B92@A076V@97 % fat
+A0B92@A076X@98 % fat
+A0B92@A076Y@99 % fat
+A0B92@A076Z@100 % fat
+A0B8V@A0B94@Alcohol-content
+A0B94@A077N@< 0.1 % alcohol v/v
+A0B94@A077P@0.1 % alcohol v/v
+A0B94@A077Q@0.2 % alcohol v/v
+A0B94@A077R@0.3 % alcohol v/v
+A0B94@A077S@0.4 % alcohol v/v
+A0B94@A077T@0.5 % alcohol v/v
+A0B94@A077V@0.6 % alcohol v/v
+A0B94@A077X@0.7 % alcohol v/v
+A0B94@A077Y@0.8 % alcohol v/v
+A0B94@A077Z@0.9 % alcohol v/v
+A0B94@A078A@1 % alcohol v/v
+A0B94@A078B@1.1 % alcohol v/v
+A0B94@A078C@1.2 % alcohol v/v
+A0B94@A078D@1.3 % alcohol v/v
+A0B94@A078E@1.4 % alcohol v/v
+A0B94@A078F@1.5 % alcohol v/v
+A0B94@A078G@1.6 % alcohol v/v
+A0B94@A078H@1.7 % alcohol v/v
+A0B94@A078J@1.8 % alcohol v/v
+A0B94@A078K@1.9 % alcohol v/v
+A0B94@A078L@2 % alcohol v/v
+A0B94@A078M@2.1 % alcohol v/v
+A0B94@A078N@2.2 % alcohol v/v
+A0B94@A078P@2.3 % alcohol v/v
+A0B94@A078Q@2.4 % alcohol v/v
+A0B94@A078R@2.5 % alcohol v/v
+A0B94@A078S@2.6 % alcohol v/v
+A0B94@A078T@2.7 % alcohol v/v
+A0B94@A078V@2.8 % alcohol v/v
+A0B94@A078X@2.9 % alcohol v/v
+A0B94@A078Y@3 % alcohol v/v
+A0B94@A078Z@3.1 % alcohol v/v
+A0B94@A079A@3.2 % alcohol v/v
+A0B94@A079B@3.3 % alcohol v/v
+A0B94@A079C@3.4 % alcohol v/v
+A0B94@A079D@3.5 % alcohol v/v
+A0B94@A079E@3.6 % alcohol v/v
+A0B94@A079F@3.7 % alcohol v/v
+A0B94@A079G@3.8 % alcohol v/v
+A0B94@A079H@3.9 % alcohol v/v
+A0B94@A079J@4 % alcohol v/v
+A0B94@A079K@4.1 % alcohol v/v
+A0B94@A079L@4.2 % alcohol v/v
+A0B94@A079M@4.3 % alcohol v/v
+A0B94@A079N@4.4 % alcohol v/v
+A0B94@A079P@4.5 % alcohol v/v
+A0B94@A079Q@4.6 % alcohol v/v
+A0B94@A079R@4.7 % alcohol v/v
+A0B94@A079S@4.8 % alcohol v/v
+A0B94@A079T@4.9 % alcohol v/v
+A0B94@A079V@5 % alcohol v/v
+A0B94@A079X@5.1 % alcohol v/v
+A0B94@A079Y@5.2 % alcohol v/v
+A0B94@A079Z@5.3 % alcohol v/v
+A0B94@A07AA@5.4 % alcohol v/v
+A0B94@A07AB@5.5 % alcohol v/v
+A0B94@A07AC@5.6 % alcohol v/v
+A0B94@A07AD@5.7 % alcohol v/v
+A0B94@A07AE@5.8 % alcohol v/v
+A0B94@A07AF@5.9 % alcohol v/v
+A0B94@A07AG@6 % alcohol v/v
+A0B94@A07AH@6.1 % alcohol v/v
+A0B94@A07AJ@6.2 % alcohol v/v
+A0B94@A07AK@6.3 % alcohol v/v
+A0B94@A07AL@6.4 % alcohol v/v
+A0B94@A07AM@6.5 % alcohol v/v
+A0B94@A07AN@6.6 % alcohol v/v
+A0B94@A07AP@6.7 % alcohol v/v
+A0B94@A07AQ@6.8 % alcohol v/v
+A0B94@A07AR@6.9 % alcohol v/v
+A0B94@A07AS@7 % alcohol v/v
+A0B94@A07AT@7.1 % alcohol v/v
+A0B94@A07AV@7.2 % alcohol v/v
+A0B94@A07AX@7.3 % alcohol v/v
+A0B94@A07AY@7.4 % alcohol v/v
+A0B94@A07AZ@7.5 % alcohol v/v
+A0B94@A07BA@7.6 % alcohol v/v
+A0B94@A07BB@7.7 % alcohol v/v
+A0B94@A07BC@7.8 % alcohol v/v
+A0B94@A07BD@7.9 % alcohol v/v
+A0B94@A07BE@8 % alcohol v/v
+A0B94@A07BF@8.1 % alcohol v/v
+A0B94@A07BG@8.2 % alcohol v/v
+A0B94@A07BH@8.3 % alcohol v/v
+A0B94@A07BJ@8.4 % alcohol v/v
+A0B94@A07BK@8.5 % alcohol v/v
+A0B94@A07BL@8.6 % alcohol v/v
+A0B94@A07BM@8.7 % alcohol v/v
+A0B94@A07BN@8.8 % alcohol v/v
+A0B94@A07BP@8.9 % alcohol v/v
+A0B94@A07BQ@9 % alcohol v/v
+A0B94@A07BR@9.1 % alcohol v/v
+A0B94@A07BS@9.2 % alcohol v/v
+A0B94@A07BT@9.3 % alcohol v/v
+A0B94@A07BV@9.4 % alcohol v/v
+A0B94@A07BX@9.5 % alcohol v/v
+A0B94@A07BY@9.6 % alcohol v/v
+A0B94@A07BZ@9.7 % alcohol v/v
+A0B94@A07CA@9.8 % alcohol v/v
+A0B94@A07CB@9.9 % alcohol v/v
+A0B94@A07CC@10 % alcohol v/v
+A0B94@A07CD@11 % alcohol v/v
+A0B94@A07CE@12 % alcohol v/v
+A0B94@A07CF@13 % alcohol v/v
+A0B94@A07CG@14 % alcohol v/v
+A0B94@A07CH@15 % alcohol v/v
+A0B94@A07CJ@16 % alcohol v/v
+A0B94@A07CK@17 % alcohol v/v
+A0B94@A07CL@18 % alcohol v/v
+A0B94@A07CM@19 % alcohol v/v
+A0B94@A07CN@20 % alcohol v/v
+A0B94@A07CP@21 % alcohol v/v
+A0B94@A07CQ@22 % alcohol v/v
+A0B94@A07CR@23 % alcohol v/v
+A0B94@A07CS@24 % alcohol v/v
+A0B94@A07CT@25 % alcohol v/v
+A0B94@A07CV@26 % alcohol v/v
+A0B94@A07CX@27 % alcohol v/v
+A0B94@A07CY@28 % alcohol v/v
+A0B94@A07CZ@29 % alcohol v/v
+A0B94@A07DA@30 % alcohol v/v
+A0B94@A07DB@31 % alcohol v/v
+A0B94@A07DC@32 % alcohol v/v
+A0B94@A07DD@33 % alcohol v/v
+A0B94@A07DE@34 % alcohol v/v
+A0B94@A07DF@35 % alcohol v/v
+A0B94@A07DG@36 % alcohol v/v
+A0B94@A07DH@37 % alcohol v/v
+A0B94@A07DJ@38 % alcohol v/v
+A0B94@A07DK@39 % alcohol v/v
+A0B94@A07DL@40 % alcohol v/v
+A0B94@A07DM@41 % alcohol v/v
+A0B94@A07DN@42 % alcohol v/v
+A0B94@A07DP@43 % alcohol v/v
+A0B94@A07DQ@44 % alcohol v/v
+A0B94@A07DR@45 % alcohol v/v
+A0B94@A07DS@46 % alcohol v/v
+A0B94@A07DT@47 % alcohol v/v
+A0B94@A07DV@48 % alcohol v/v
+A0B94@A07DX@49 % alcohol v/v
+A0B94@A07DY@50 % alcohol v/v
+A0B94@A07DZ@51 % alcohol v/v
+A0B94@A07EA@52 % alcohol v/v
+A0B94@A07EB@53 % alcohol v/v
+A0B94@A07EC@54 % alcohol v/v
+A0B94@A07ED@55 % alcohol v/v
+A0B94@A07EE@56 % alcohol v/v
+A0B94@A07EF@57 % alcohol v/v
+A0B94@A07EG@58 % alcohol v/v
+A0B94@A07EH@59 % alcohol v/v
+A0B94@A07EJ@60 % alcohol v/v
+A0B94@A07EK@61 % alcohol v/v
+A0B94@A07EL@62 % alcohol v/v
+A0B94@A07EM@63 % alcohol v/v
+A0B94@A07EN@64 % alcohol v/v
+A0B94@A07EP@65 % alcohol v/v
+A0B94@A07EQ@66 % alcohol v/v
+A0B94@A07ER@67 % alcohol v/v
+A0B94@A07ES@68 % alcohol v/v
+A0B94@A07ET@69 % alcohol v/v
+A0B94@A07EV@70 % alcohol v/v
+A0B94@A07EX@71 % alcohol v/v
+A0B94@A07EY@72 % alcohol v/v
+A0B94@A07EZ@73 % alcohol v/v
+A0B94@A07FA@74 % alcohol v/v
+A0B94@A07FB@75 % alcohol v/v
+A0B94@A07FC@76 % alcohol v/v
+A0B94@A07FD@77 % alcohol v/v
+A0B94@A07FE@78 % alcohol v/v
+A0B94@A07FF@79 % alcohol v/v
+A0B94@A07FG@80 % alcohol v/v
+A0B94@A07FH@81 % alcohol v/v
+A0B94@A07FJ@82 % alcohol v/v
+A0B94@A07FK@83 % alcohol v/v
+A0B94@A07FL@84 % alcohol v/v
+A0B94@A07FM@85 % alcohol v/v
+A0B94@A07FN@86 % alcohol v/v
+A0B94@A07FP@87 % alcohol v/v
+A0B94@A07FQ@88 % alcohol v/v
+A0B94@A07FR@89 % alcohol v/v
+A0B94@A07FS@90 % alcohol v/v
+A0B94@A07FT@91 % alcohol v/v
+A0B94@A07FV@92 % alcohol v/v
+A0B94@A07FX@93 % alcohol v/v
+A0B94@A07FY@94 % alcohol v/v
+A0B94@A07FZ@95 % alcohol v/v
+A0B94@A07GA@96 % alcohol v/v
+A0B94@A07GB@97 % alcohol v/v
+A0B94@A07GC@98 % alcohol v/v
+A0B94@A07GD@99 % alcohol v/v
+A0B94@A07GE@100 % alcohol v/v
+A0B8V@A0B96@Extent-of-cooking
+A0B96@A0CQX@Half-cooked
+A0B96@A07MT@Meat inside “raw”
+A0B96@A07MV@Meat inside “medium”
+A0B96@A07MX@Meat inside “ well done”
+A0B96@A07MY@Outside light brown
+A0B96@A07MZ@Outside brown
+A0B96@A07NA@Outside dark brown/slightly burned
+A0B96@A07NB@Vegetables inside raw
+A0B96@A07NC@Vegetables inside cooked
+A0B96@A07ND@Meat/fish/bakery/vegetables: presence of burned spots-parts
+A0B96@A07NE@Egg  white semi-liquid
+A0B96@A07NF@Egg  white solid
+A0B96@A07NG@Egg  yolk liquid
+A0B96@A07NH@Egg  yolk semi-liquid
+A0B96@A07NJ@Egg  yolk solid
+A0B8V@A0B97@Packaging-format
+A0B97@A07NK@Bag, sack or pouch
+A0B97@A07NL@Box
+A0B97@A07NM@Bottle
+A0B97@A07NN@Jar
+A0B97@A07NP@Jug
+A0B97@A07NQ@Demijohn-carboy
+A0B97@A07NR@Drawn can
+A0B97@A07NS@Three-part can
+A0B97@A07NT@Cup/pot
+A0B97@A0F2D@Tray
+A0B97@A07NV@Capsule
+A0B97@A07NX@Drum (container)
+A0B97@A07NY@Envelope/wrap
+A0B97@A07NZ@Flexible formed container
+A0B97@A07PA@Pail/bucket
+A0B97@A07PB@Tube
+A0B97@A07PC@Vial / ampoule
+A0B8V@A0B98@Packaging-material
+A0B98@A07PD@Ceramic or earthenware
+A0B98@A07PE@Edible material
+A0B98@A07QB@Leaf (wrapper)
+A0B98@A07QA@Husk (wrapper)
+A0B98@A07PZ@Wood or cork
+A0B98@A07PX@Textile or fabric
+A0B98@A07PY@Wax
+A0B98@A07PK@Rubber
+A0B98@A07PF@Glass
+A0B98@A07PG@Metal
+A07PG@A07PH@Aluminium
+A07PG@A07PJ@Steel plate
+A0B98@A07PL@Paper foil
+A0B98@A07PQ@Paperboard
+A0B98@A07PS@Laminate
+A07PS@A07PM@Laminated paper–aluminium foil
+A07PS@A07PN@Laminated paper-plastic foil
+A07PS@A07PV@Laminated paperboard–plastic-metal
+A07PS@A07PT@Laminated paperboard-plastic
+A0B98@A07PP@Waxed paper
+A0B98@A07PR@Plastic
+A0B8V@A0B99@Part-consumed-analysed
+A0B99@A0F1P@Part consumed-analysed for raw commodities of plant origin
+A0F1P@A07QS@With caps / crown
+A0F1P@A07QT@W/o caps / crown
+A0F1P@A07RE@With cob
+A0F1P@A07RF@W/o cob
+A0F1P@A07RG@With core
+A0F1P@A07RH@W/o core
+A0F1P@A07RJ@With decayed leaves
+A0F1P@A07RK@W/o decayed leaves
+A0F1P@A07QY@With husks
+A0F1P@A07QZ@W/o husks
+A0F1P@A0CQV@With germ
+A0F1P@A0CQT@W/o germ
+A0F1P@A07RS@W/o lint
+A0F1P@A07RT@With lint
+A0F1P@A07QE@With peel
+A0F1P@A07QF@W/o peel
+A0F1P@A0F7P@Only peel
+A0F1P@A07RA@With pods
+A0F1P@A07RB@W/o pods
+A0F1P@A07RN@With roots
+A0F1P@A07RP@W/o roots
+A0F1P@A07RC@With seeds
+A0F1P@A07RD@W/o seeds
+A0F1P@A07RQ@With sepals
+A0F1P@A07RR@W/o sepals
+A0F1P@A07QG@With stem
+A0F1P@A07QH@W/o stem
+A0F1P@A07QJ@With stone
+A0F1P@A07QK@W/o stone
+A0F1P@A07RL@With tops
+A0F1P@A07RM@W/o tops
+A0B99@A0F1Q@Part consumed-analysed for food in general
+A0F1Q@A07QL@With bone
+A0F1Q@A07QM@W/o bone
+A0F1Q@A07QN@With entrails
+A0F1Q@A07QP@W/o entrails
+A0F1Q@A0F1R@With external layer/rind/casing
+A0F1Q@A0F1L@W/o external layer/rind/casing (only internal part)
+A0F1Q@A0F1K@Only external layer/rind/casing
+A0F1Q@A0F1S@With surrounding medium
+A0F1Q@A0F2X@W/o surrounding medium
+A0F1Q@A0F2V@Only surrounding medium
+A0F1Q@A07QC@With shell
+A0F1Q@A07QD@W/o shell
+A0F1Q@A07QQ@With skin
+A07QQ@A07QV@With easily detachable skin
+A0F1Q@A07QR@W/o skin
+A07QR@A07QX@W/o easily detachable skin
+A0F1Q@A0F7Q@Only skin
+A0F1Q@A0F4T@Including visible fat
+A0F1Q@A0F4V@Excluding visible fat
+A0B8V@A0B9A@Production-method
+A0B9A@A07RV@Farmed / cultivated / aquaculture
+A07RV@A0CAG@Farmed in single purpose holding
+A07RV@A0CAH@Farmed in multi purpose holding
+A0B9A@A07RX@Semi-domesticated
+A0B9A@A07RY@Wild or gathered or hunted
+A0B9A@A0C8D@Stray
+A0B9A@A07RZ@Outdoor/free-range growing condition
+A0B9A@A07SA@Indoor/under glass growing condition
+A0B9A@A07SB@Hydroponic growing condition
+A0B9A@A07SC@Battery caged
+A0B9A@A07SD@Cage-free
+A0B9A@A07SF@Raised under controlled housing conditions (reg. Ec/2075/2005)
+A0B9A@A0C6V@Not raised under controlled housing conditions
+A0B9A@A0C6Q@Intensive production
+A0B9A@A0C6Y@Conventional non-intensive production
+A0B9A@A0C6X@Raised under controlled husbandry conditions
+A0B9A@A0C6T@Not raised under controlled husbandry conditions
+A0B9A@A07SE@Organic production
+A0B9A@A07SG@Use of genetically modified organisms
+A0B9A@A0C6S@Back yard farming - growing
+A0B9A@A0C6R@Barn farming
+A0B8V@A0C8A@Purpose-of-raising
+A0C8A@A0C7F@Breeding purpose
+A0C7F@A0C7R@Breeding purpose for meat production
+A0C7F@A0C7S@Breeding purpose for milk production
+A0C7F@A0C7T@Breeding purpose for egg production
+A0C8A@A0C7G@Meat production purpose
+A0C8A@A0C7N@Milk production purpose
+A0C8A@A0C7P@Egg production purpose
+A0C8A@A0C7Q@Mixed purposes
+A0C8A@A0C8E@Zoo animal
+A0C8A@A0C8F@Aquarium fish
+A0C8A@A0C8G@Companion animal or pet animal
+A0C8A@A0CQB@Work and utility animals
+A0C8A@A0C8H@Laboratory animals
+A0C8A@A0DST@For own consumption
+A0B8V@A0C8B@Animal-age-class
+A0C8B@A0C8J@Age classes for mammals
+A0C8J@A0C8X@Young mammal less than 1 year old
+A0C8X@A0C8R@Suckler
+A0C8J@A0C8V@Young non-adult mammal (above 1 year)
+A0C8V@A0C8T@Reproductive female before the first birth
+A0C8J@A0C8S@Adult mammal
+A0C8B@A0C8K@Age classes for birds
+A0C8K@A0C8L@Hatching egg
+A0C8K@A0C8M@Day-old chick
+A0C8K@A0C8Q@During rearing period
+A0C8K@A0C8P@Adult bird
+A0C8B@A0C8N@Before slaughter
+A0C8B@A0CSD@Spent production animal
+A0B8V@A0C8Y@Gender
+A0C8Y@A0C8Z@Female
+A0C8Y@A0C9A@Male
+A0C8Y@A0C9B@Mixed females and males
+A0C8Y@A0C7H@Castrated animal
+A0C7H@A0C9C@Castrated female
+A0C7H@A0C9D@Castrated male
+A0B8V@A0C8C@Reproductive-level
+A0C8C@A0C7J@Elite breeding animal
+A0C8C@A0C7K@Grandparent breeding animal
+A0C8C@A0C7L@Parent breeding animal
+A0C8C@A0C7M@Animals not for breeding
+A0B8V@A0B9B@Preparation-production-place
+A0B9B@A07SH@Food industry prepared
+A0B9B@A07SJ@Commissary  / centralized catering prepared
+A0B9B@A07SK@Restaurant or fast food prepared
+A07SK@A07SL@Prepared by franchised/chain fastfood restaurant
+A07SK@A07SM@Prepared by independent fastfood restaurant
+A07SK@A07SN@Prepared at bar
+A07SK@A07SP@Restaurant prepared
+A0B9B@A07SQ@Canteen / localized catering prepared
+A0B9B@A07SR@Street vendor prepared and/or sold
+A0B9B@A07SS@Home prepared (family, social networks, proxies)
+A07SS@A07ST@Prepared by family/relatives
+A07SS@A07SV@Prepared by friends
+A0B9B@A07SX@Prepared in supermarket
+A0B9B@A07SY@Prepared by artisan
+A07SY@A07SZ@Prepared by bakery
+A07SY@A07TA@Prepared by butcher
+A07SY@A07TB@Prepared by fish shop
+A07SY@A07TC@Prepared by deli (catessen)
+A0B9B@A0F2C@Processed on the place of capture or harvesting
+A0B8V@A0B9C@Target-consumer
+A0B9C@A07TD@Human food
+A07TD@A07TE@Adult food
+A07TD@A07TF@Infant or toddler food
+A07TF@A07TG@Infant food, 0 – 3 months
+A07TF@A07TH@Infant food, 3 – 6 months
+A07TF@A07TJ@Infant food, 6 – 12 months
+A07TF@A07TK@Toddler food, 1-3 years
+A07TD@A07TL@Children food
+A07TL@A07TM@Children food 4-8 years
+A07TL@A07TN@Children food 9-15 years
+A0B9C@A07TP@Special diets
+A07TP@A07TQ@Diabetics
+A07TP@A07TR@Coeliac disease
+A07TP@A07TS@Sporting
+A07TP@A07TT@Weight reduction
+A0B9C@A07TV@Animal feed
+A07TV@A07TX@Feed for food animals
+A07TX@A07TY@Cattle feed
+A07TX@A07TZ@Fish feed (food fish)
+A07TX@A07VA@Game feed
+A07TX@A07VB@Horse feed
+A07TX@A07VC@Pig feed
+A07TX@A07VD@Poultry feed
+A07TX@A07VE@Rabbit feed
+A07TX@A07VF@Sheep and goat feed
+A07TV@A07VG@Feed for laboratory animals
+A07TV@A07VH@Feed for non-food producing animals
+A07VH@A07VJ@Bird feed
+A07VH@A07VK@Cat feed
+A07VH@A07VL@Dog feed
+A07VH@A07VM@Pet fish feed
+A07VH@A07VN@Other pet feed
+A0B8V@A0B9D@Intended-use
+A0B9D@A07VP@Ready-to-eat
+A0B9D@A07VQ@Non-ready-to-eat
+A0B9D@A07VR@Intended  to be eaten raw
+A0B9D@A07VS@Intended  to be eaten cooked
+A0B9D@A07VT@Raw and intended  to be eaten raw
+A0B9D@A07VV@Raw but intended  to be eaten cooked
+A0B9D@A0F3B@Intended to be toasted
+A0B9D@A0F3C@Intended for use as hot drink creamer/whitener
+A0B8V@A0B9E@Risky-ingredient
+A0B9E@A07VX@Made from pasteurised milk
+A0B9E@A07VY@Made from raw or low heat-treated milk
+A0B9E@A07VZ@Containing raw cream
+A0B9E@A07XA@Containing heat-treated cream
+A0B9E@A07XB@Containing raw eggs
+A0B9E@A07XC@Made with raw eggs
+A0B8V@A0B9F@Generic-term
+A0B9F@A07XD@Unspecified
+A0B9F@A07XE@Other
+A0B8V@A0C12@Legislative-classes
+A0C12@A163R@Food additive classes (1333/2008)
+A163R@A0C5V@FA-0.       All categories of foods
+A163R@A0C5T@FA-01.      Dairy products and analogues
+A0C5T@A0C5S@FA-01.1     Unflavoured pasteurised and sterilised (including UHT) milk
+A0C5T@A0C5R@FA-01.2     Unflavoured fermented milk products, including natural unflavoured buttermilk (excluding sterilised buttermilk) non-heat-treated after fermentation
+A0C5T@A0C5Q@FA-01.3     Unflavoured fermented milk products, heat-treated after fermentation
+A0C5T@A0C5P@FA-01.4     Flavoured fermented milk products including heat-treated products
+A0C5T@A0C5N@FA-01.5     Dehydrated milk as defined by Directive 2001/114/EC
+A0C5T@A0C5M@FA-01.6     Cream and cream powder
+A0C5M@A0C5L@FA-01.6.1   Unflavoured pasteurised cream (excluding reduced fat creams)
+A0C5M@A0C5K@FA-01.6.2   Unflavoured live fermented cream products and substitute products with a fat content of less than 20 %
+A0C5M@A0C5J@FA-01.6.3   Other creams
+A0C5T@A0C5H@FA-01.7     Cheese and cheese products
+A0C5H@A0C5G@FA-01.7.1   Unripened cheese excluding products falling in category 16
+A0C5H@A0C5F@FA-01.7.2   Ripened cheese
+A0C5H@A0C5E@FA-01.7.3   Edible cheese rind
+A0C5H@A0C5D@FA-01.7.4   Whey cheese
+A0C5H@A0C5C@FA-01.7.5   Processed cheese
+A0C5H@A0C5B@FA-01.7.6   Cheese products (excluding products falling in category 16)
+A0C5T@A0C5A@FA-01.8     Dairy analogues, including beverage whiteners
+A163R@A0C59@FA-02.      Fats and oils and fat and oil emulsions
+A0C59@A0C58@FA-02.1     Fats and oils essentially free from water (excluding anhydrous milkfat)
+A0C59@A0C57@FA-02.2     Fat and oil emulsions mainly of type water-in-oil
+A0C57@A0C56@FA-02.2.1   Butter and concentrated butter and butter oil and anhydrous milkfat
+A0C57@A0C55@FA-02.2.2   Other fat and oil emulsions including spreads as defined by Regulation (EC) No 1234/2007 and liquid emulsions
+A0C59@A0C54@FA-02.3     Vegetable oil pan spray
+A163R@A0C53@FA-03.      Edible ices
+A163R@A0C52@FA-04.      Fruit and vegetables
+A0C52@A0C51@FA-04.1     Unprocessed fruit and vegetables
+A0C51@A0C50@FA-04.1.1   Entire fresh fruit and vegetables
+A0C51@A0C4Z@FA-04.1.2   Peeled, cut and shredded fruit and vegetables
+A0C51@A0C4Y@FA-04.1.3   Frozen fruit and vegetables
+A0C52@A0C4X@FA-04.2     Processed fruit and vegetables
+A0C4X@A0C4V@FA-04.2.1   Dried fruit and vegetables
+A0C4X@A0C4T@FA-04.2.2   Fruit and vegetables in vinegar, oil, or brine
+A0C4X@A0C4S@FA-04.2.3   Canned or bottled fruit and vegetables
+A0C4X@A0C4R@FA-04.2.4   Fruit and vegetable preparations, excluding products covered by 5.4
+A0C4R@A0C4Q@FA-04.2.4.1 Fruit and vegetable preparations excluding compote
+A0C4R@A0C4P@FA-04.2.4.2 Compote, excluding products covered by category 16
+A0C4X@A0C4N@FA-04.2.5   Jam, jellies and marmalades and similar products
+A0C4N@A0C4M@FA-04.2.5.1 Extra jam and extra jelly as defined by Directive 2001/113/EC
+A0C4N@A0C4L@FA-04.2.5.2 Jam, jellies and marmalades and sweetened chestnut puree as defined by Directive 2001/113/EC
+A0C4N@A0C4K@FA-04.2.5.3 Other similar fruit or vegetable spreads
+A0C4N@A0C4J@FA-04.2.5.4 Nut butters and nut spreads
+A0C4X@A0C4H@FA-04.2.6   Processed potato products
+A163R@A0C4G@FA-05.      Confectionery
+A0C4G@A0C4F@FA-05.1     Cocoa and chocolate products as covered by Directive 2000/36/EC
+A0C4G@A0C4E@FA-05.2     Other confectionery including breath refreshening microsweets
+A0C4G@A0C4D@FA-05.3     Chewing gum
+A0C4G@A0C4C@FA-05.4     Decorations, coatings and fillings, except fruit based fillings covered by category 4.2.4
+A163R@A0C4B@FA-06.      Cereals and cereal products
+A0C4B@A0C4A@FA-06.1     Whole, broken, or flaked grain
+A0C4B@A0C49@FA-06.2     Flours and other milled products and starches
+A0C49@A0C48@FA-06.2.1   Flours
+A0C49@A0C47@FA-06.2.2   Starches
+A0C4B@A0C46@FA-06.3     Breakfast cereals
+A0C4B@A0C45@FA-06.4     Pasta
+A0C45@A0C44@FA-06.4.1   Fresh pasta
+A0C45@A0C43@FA-06.4.2   Dry pasta
+A0C45@A0C42@FA-06.4.3   Fresh pre-cooked pasta
+A0C45@A0C41@FA-06.4.4   Potato gnocchi
+A0C45@A0C40@FA-06.4.5   Fillings of stuffed pasta (ravioli and similar)
+A0C4B@A0C3Z@FA-06.5     Noodles
+A0C4B@A0C3Y@FA-06.6     Batters
+A0C4B@A0C3X@FA-06.7     Pre-cooked or processed cereals
+A163R@A0C3V@FA-07.      Bakery wares
+A0C3V@A0C3T@FA-07.1     Bread and rolls
+A0C3T@A0C3S@FA-07.1.1   Bread prepared solely with the following ingredients: wheat flour, water, yeast or leaven, salt
+A0C3T@A0C3R@FA-07.1.2   Pain courant français; Friss búzakenyér, fehér és félbarna kenyerek
+A0C3V@A0C3Q@FA-07.2     Fine bakery wares
+A163R@A0C3P@FA-08.      Meat
+A0C3P@A0C3N@FA-08.1     Fresh meat, excluding meat preparations as defined by Regulation (EC) N0 853/2004
+A0C3P@A0C3L@FA-08.2   Meat preparations as defined by Regulation (EC) No 853/2004
+A0C3P@A0C3K@FA-08.3     Meat products
+A0C3K@A0C3J@FA-08.3.1   Non-heat-treated meat products
+A0C3K@A0C3H@FA-08.3.2   Heat-treated meat products
+A0C3K@A0C3G@FA-08.3.3   Casings and coatings and decorations for meat
+A0C3K@A0C3F@FA-08.3.4   Traditionally cured meat products with specific provisions concerning nitrites and nitrates
+A0C3F@A0C3E@FA-08.3.4.1 Traditional immersion cured products (Meat products cured by immersion in a curing solution containing nitrites and/or nitrates, salt and other components)
+A0C3F@A0C3D@FA-08.3.4.2 Traditional dry cured products. (Dry curing process involves dry application of curing mixture containing nitrites and/or nitrates, salt and other components to the surface of the meat followed by a period of stabilisation/maturation).
+A0C3F@A0C3C@FA-08.3.4.3 Other traditionally cured products. (Immersion and dry cured processes used in combination or where nitrite and/or nitrate is included in a compound product or where the curing solution is injected into the product prior to cooking)
+A163R@A0C3B@FA-09.      Fish and fisheries products
+A0C3B@A0C3A@FA-09.1     Unprocessed fish and fisheries products
+A0C3A@A0C39@FA-09.1.1   Unprocessed fish
+A0C3A@A0C38@FA-09.1.2   Unprocessed molluscs and crustaceans
+A0C3B@A0C37@FA-09.2     Processed fish and fishery products including mollusks and crustaceans
+A0C3B@A0C36@FA-09.3     Fish roe
+A163R@A0C35@FA-10.      Eggs and egg products
+A0C35@A0C34@FA-10.1     Unprocessed eggs
+A0C35@A0C33@FA-10.2     Processed eggs and egg products
+A163R@A0C32@FA-11.      Sugars, syrups, honey and table-top sweeteners
+A0C32@A0C31@FA-11.1     Sugars and syrups as defined by Directive 2001/111/EC
+A0C32@A0C30@FA-11.2     Other sugars and syrups
+A0C32@A0C2Z@FA-11.3     Honey as defined in Directive 2001/110/EC
+A0C32@A0C2Y@FA-11.4     Table-top sweeteners
+A0C2Y@A0C2X@FA-11.4.1   Table-top sweeteners in liquid form
+A0C2Y@A0C2V@FA-11.4.2   Table-top sweeteners in powder form
+A0C2Y@A0C2T@FA-11.4.3   Table-top sweeteners in tablets
+A163R@A0C2S@FA-12.      Salts, spices, soups, sauces, salads and protein products
+A0C2S@A0C2R@FA-12.1     Salt and salt substitutes
+A0C2R@A0C2Q@FA-12.1.1   Salt
+A0C2R@A0C2P@FA-12.1.2   Salt substitutes
+A0C2S@A0C2N@FA-12.2     Herbs, spices, seasonings
+A0C2N@A0C2M@FA-12.2.1   Herbs and spices
+A0C2N@A0C2L@FA-12.2.2   Seasonings and condiments
+A0C2S@A0C2K@FA-12.3     Vinegars
+A0C2S@A0C2J@FA-12.4     Mustard
+A0C2S@A0C2H@FA-12.5     Soups and broths
+A0C2S@A0C2G@FA-12.6     Sauces
+A0C2S@A0C2F@FA-12.7     Salads and savoury based sandwich spreads
+A0C2S@A0C2E@FA-12.8     Yeast and yeast products
+A0C2S@A0C2D@FA-12.9     Protein products, excluding products covered in category 1.8
+A163R@A0C2C@FA-13.      Foods intended for particular nutritional uses as defined by Directive 2009/ 39/EC
+A0C2C@A0C2B@FA-13.1     Foods for infants and young children
+A0C2B@A0C2A@FA-13.1.1   Infant formulae as defined by Commission Directive 2006/141/EC ( 1 )
+A0C2B@A0C29@FA-13.1.2   Follow-on formulae as defined by Directive 2006/141/EC
+A0C2B@A0C28@FA-13.1.3   Processed cereal-based foods and baby foods for infants and young children as defined by Commission Directive 2006/125/EC ( 2 )
+A0C2B@A0C27@FA-13.1.4   Other foods for young children
+A0C2B@A0C26@FA-13.1.5   Dietary foods for infants and young children for special medical purposes as defined by Commission Directive 1999/21/EC ( 3 ) and special formulae for infants
+A0C26@A0C25@FA-13.1.5.1 Dietary foods for infants for special medical purposes and special formulae for infants
+A0C26@A0C24@FA-13.1.5.2 Dietary foods for babies and young children for special medical purposes as defined in Directive 1999/21/EC
+A0C2C@A0C23@FA-13.2     Dietary foods for special medical purposes defined in Directive 1999/21/EC (excluding products from food category 13.1.5)
+A0C2C@A0C22@FA-13.3     Dietary foods for weight control diets intended to replace total daily food intake or an individual meal (the whole or part of the total daily diet)
+A0C2C@A0C21@FA-13.4     Foods suitable for people intolerant to gluten as defined by Commission Regulation (EC) No 41/2009 ( 4 )
+A163R@A0C20@FA-14.      Beverages
+A0C20@A0C1Z@FA-14.1     Non-alcoholic beverages
+A0C1Z@A0C1Y@FA-14.1.1   Water, including natural mineral water as defined in Directive 2009/54/EC and spring water and all other bottled or packed waters
+A0C1Z@A0C1X@FA-14.1.2   Fruit juices as defined by Directive 2001/112/EC and vegetable juices
+A0C1Z@A0C1V@FA-14.1.3   Fruit nectars as defined by Directive 2001/112/EC and vegetable nectars and similar products
+A0C1Z@A0C1T@FA-14.1.4   Flavoured drinks
+A0C1Z@A0C1S@FA-14.1.5   Coffee, tea, herbal and fruit infusions, chicory; tea, herbal and fruit infusions and chicory extracts; tea, plant, fruit and cereal preparations for infusions, as well as mixes and instant mixes of these products
+A0C1S@A0C1R@FA-14.1.5.1 Coffee, coffee extracts
+A0C1S@A0C1Q@FA-14.1.5.2 Other
+A0C20@A0C1P@FA-14.2     Alcoholic beverages, including alcohol-free and low-alcohol counterparts
+A0C1P@A0C1N@FA-14.2.1   Beer and malt beverages
+A0C1P@A0C1M@FA-14.2.2   Wine and other products defined by Regulation (EEC) No 1234/2007, and alcohol-free counterparts
+A0C1P@A0C1L@FA-14.2.3   Cider and perry
+A0C1P@A0C1K@FA-14.2.4   Fruit wine and made wine
+A0C1P@A0C1J@FA-14.2.5   Mead
+A0C1P@A0C1H@FA-14.2.6   Spirit drinks as defined in Regulation (EC) No 110/2008
+A0C1P@A0C1G@FA-14.2.7   Aromatised wine-based products as defined by Regulation (EEC) No 1601/91
+A0C1G@A0C1F@FA-14.2.7.1 Aromatised wines
+A0C1G@A0C1E@FA-14.2.7.2 Aromatised wine-based drinks
+A0C1G@A0C1D@FA-14.2.7.3 Aromatised wine-product cocktails
+A0C1P@A0C1C@FA-14.2.8   Other alcoholic drinks including mixtures of alcoholic drinks with non-alcoholic drinks and spirits with less than 15 % of alcohol
+A163R@A0C1B@FA-15.      Ready-to-eat savouries and snacks
+A0C1B@A0C1A@FA-15.1     Potato-, cereal-, flour- or starch-based snacks
+A0C1B@A0C19@FA-15.2     Processed nuts
+A163R@A0C18@FA-16.      Desserts excluding products covered in categories 1, 3 and 4
+A163R@A0C17@FA-17.      Food supplements as defined in Directive 2002/46/EC of the European Parliament and of the Council ( 5 ) excluding food supplements for infants and young children
+A0C17@A0C16@FA-17.1     Food supplements supplied in a solid form including capsules and tablets and similar forms, excluding chewable forms
+A0C17@A0C15@FA-17.2     Food supplements supplied in a liquid form
+A0C17@A0C14@FA-17.3     Food supplements supplied in a syrup-type or chewable form
+A163R@A0C13@FA-18.      Processed foods not covered by categories 1 to 17, excluding foods for infants and young children
+A0C12@A167B@Acrylamide classes (307/2010 - 647/2013)
+A167B@A169J@AC-1.      French fries sold as ready to eat
+A169J@A169H@AC-1.1    French fries from fresh potatoes
+A169J@A169G@AC-1.2    French fries from potato dough
+A169J@A169F@AC-1.3    Unspecified French fries sold as ready to eat
+A167B@A169E@AC-2.      Potato crisps and potato-based crackers
+A169E@A169D@AC-2.1    Potato crisp from fresh potatoes
+A169E@A169C@AC-2.2    Potato crisp from potato dough
+A169E@A169B@AC-2.3    Unspecified potato crisps
+A169E@A169A@AC-2.4    Potato-based crackers
+A167B@A168Z@AC-3.      Pre-cooked French fries, potato products for home cooking
+A168Z@A168Y@AC-3.1    Fries baked in the oven (oven fries)
+A168Z@A168X@AC-3.2    Deep fried fries
+A168Z@A168V@AC-3.3    Unspecified pre-cooked French fries, potato products for home cooking
+A167B@A168T@AC-4.      Soft bread
+A168T@A168S@AC-4.1    Wheat based bread
+A168T@A168R@AC-4.2    Soft bread other than wheat based bread
+A168T@A168Q@AC-4.3    Unspecified soft bread
+A167B@A168P@AC-5.      Breakfast cereals (excluding porridge)
+A168P@A168N@AC-5.1    Maize, oat, spelt, barley and rice based products
+A168P@A168M@AC-5.2    Wheat and rye based products
+A168P@A168L@AC-5.3    Bran products and whole grain cereals, gun puffed grain
+A168P@A168K@AC-5.4    Unspecified breakfast cereals (excluding porridge)
+A167B@A168J@AC-6.      Biscuits, crackers, crisp bread and similar (excluding pastry and cake)
+A168J@A168H@AC-6.1    Crackers with the exception of potato based crackers
+A168J@A168G@AC-6.2    Crisp bread
+A168J@A168F@AC-6.3    Biscuits and wafers
+A168J@A168E@AC-6.4    Gingerbread
+A168J@A168D@AC-6.5    Products similar to the other products in this category
+A167B@A168C@AC-7.      Coffee and coffee substitutes
+A168C@A168B@AC-7.1    Roasted coffee (dry)
+A168C@A168A@AC-7.2    Instant coffee (dry)
+A168C@A167Z@AC-7.3    Substitute coffee (dry) mainly based on cereals
+A168C@A167Y@AC-7.4    Other coffee substitutes (dry)
+A168C@A167X@AC-7.5    Not specified coffee and coffee substitutes (dry)
+A167B@A167V@AC-8.      Baby foods , other than processed cereal based foods
+A167V@A167T@AC-8.1    Baby foods not containing prunes
+A167V@A167S@AC-8.2    Baby foods, containing prunes
+A167V@A167R@AC-8.3    Unspecified baby foods
+A167B@A167Q@AC-9.      Processed cereal-based foods for infants and young children
+A167Q@A167P@AC-9.1     Biscuits and rusks for infants and young children
+A167Q@A167N@AC-9.2     Other processed cereal-based foods for infants and young children
+A167Q@A167M@AC-9.3     Not specified processed cereal-based foods for infants and young children
+A167B@A167L@AC-10.     Other products, based on cereals, potatoes, cocoa and coffee
+A167L@A167K@AC-10.1   Porridge
+A167L@A167J@AC-10.2   Cake and pastry
+A167L@A167H@AC-10.3    Savoury snacks
+A167L@A167G@AC-10.4    Other products, based on cereals
+A167L@A167F@AC-10.5    Other products, based on potatoes
+A167L@A167E@AC-10.6    Other products, based on cocoa
+A167L@A167D@AC-10.7    Unspecified other products based on cereals, potatoes, cocoa and coffee
+A167B@A167C@AC-11.     Other products, non based on cereals, potatoes, cocoa and coffee
+A0C12@A163S@Microbiological criteria - classes (2073/2005)
+A163S@A166D@MC-1.1      Ready-to-eat foods intended for infants and ready-to-eat foods for special medical purposes
+A163S@A166C@MC-1.2      Ready-to-eat foods able to support the growth of L. monocytogenes, other than those intended for infants and for special medical purposes
+A163S@A166B@MC-1.3      Ready-to-eat foods unable to support the growth of L. monocytogenes, other than those intended for infants and for special medical purposes
+A163S@A166A@MC-1.4      Minced meat and meat preparations intended to be eaten raw
+A163S@A165Z@MC-1.5      Minced meat and meat preparations made from poultry meat intended to be eaten cooked
+A163S@A165Y@MC-1.6      Minced meat and meat preparations made from other species than poultry intended to be eaten cooked
+A163S@A165X@MC-1.7      Mechanically separated meat (MSM)
+A163S@A165V@MC-1.8      Meat products intended to be eaten raw, excluding products where the manufacturing process or the composition of the product will eliminate the salmonella risk
+A163S@A165T@MC-1.9      Meat products made from poultry meat intended to be eaten cooked
+A163S@A165S@MC-1.10    Gelatine and collagen
+A163S@A165R@MC-1.11    Cheeses, butter and cream made from raw milk or milk that has undergone a lower heat treatment than pasteurisation
+A163S@A165Q@MC-1.12    Milk powder and whey powder
+A163S@A165P@MC-1.13    Ice cream, excluding products where the manufacturing process or the composition of the product will eliminate the salmonella risk
+A163S@A165N@MC-1.14    Egg products, excluding products where the manufacturing process or the composition of the product will eliminate the salmonella risk
+A163S@A165M@MC-1.15    Ready-to-eat foods containing raw egg, excluding products where the manufacturing process or the composition of the product will eliminate the salmonella risk
+A163S@A165L@MC-1.16    Cooked crustaceans and molluscan shellfish
+A163S@A165K@MC-1.17    Live bivalve molluscs and live echinoderms, tunicates and gastropods
+A163S@A165J@MC-1.18    Sprouted seeds (ready-to-eat)
+A163S@A165H@MC-1.19    Precut fruit and vegetables (ready-to-eat)
+A163S@A165G@MC-1.20    Unpasteurised fruit and vegetable juices (ready-to-eat)
+A163S@A165F@MC-1.21    Cheeses, milk powder and whey powder, as referred to in the coagulase-positive staphylococci criteria in Chapter 2.2 of this Annex
+A163S@A165E@MC-1.22    Dried infant formulae and dried dietary foods for special medical purposes intended for infants below 6 months of age
+A163S@A165D@MC-1.23    Dried follow-on formulae
+A163S@A165C@MC-1.24    Dried infant formulae and dried dietary foods for special medical purposes intended for infants below 6 months of age
+A163S@A165B@MC-1.25    Live bivalve molluscs and live echinoderms, tunicates and gastropods
+A163S@A165A@MC-1.26    Fishery products from fish species associated with a high amount of histidine
+A163S@A164Z@MC-1.27    Fishery products which have undergone enzyme maturation treatment in brine, manufactured from fish species associated with a high amount of histidine
+A163S@A164Y@MC-1.27a  Fish sauce produced by fermentation of fishery products
+A163S@A164X@MC-1.28    Fresh poultry meat
+A163S@A164V@MC-1.29    Sprouts
+A163S@A164T@MC-2.1.1   Carcases of cattle, sheep, goats and horses
+A163S@A164S@MC-2.1.2   Carcases of pigs
+A163S@A164R@MC-2.1.3   Carcases of cattle, sheep, goats and horses (Salmonella)
+A163S@A164Q@MC-2.1.4   Carcases of pigs (Salmonella)
+A163S@A164P@MC-2.1.5   Poultry carcases of broilers and turkeys
+A163S@A164N@MC-2.1.6   Minced meat
+A163S@A164M@MC-2.1.7   Mechanically separated meat (MSM)
+A163S@A164L@MC-2.1.8   Meat preparations
+A163S@A164K@MC-2.2.1   Pasteurised milk and other pasteurised liquid dairy products
+A163S@A164J@MC-2.2.2   Cheeses made from milk or whey that has undergone heat treatment
+A163S@A164H@MC-2.2.3   Cheeses made from raw milk
+A163S@A164G@MC-2.2.4   Cheeses made from milk that has undergone a lower heat treatment than pasteurisation and ripened cheeses made from milk or whey that has undergone pasteurisation or a stronger heat treatment
+A163S@A164F@MC-2.2.5   Unripened soft cheeses (fresh cheeses) made from milk or whey that has undergone pasteurisation or a stronger heat treatment
+A163S@A164E@MC-2.2.6   Butter and cream made from raw milk or milk that has undergone a lower heat treatment than pasteurisation
+A163S@A164D@MC-2.2.7   Milk powder and whey powder
+A163S@A164C@MC-2.2.8   Ice cream and frozen dairy desserts
+A163S@A164B@MC-2.2.9   Dried infant formulae and dried dietary foods for special medical purposes intended for infants below 6 months of age
+A163S@A164A@MC-2.2.10 Dried follow-on formulae
+A163S@A163Z@MC-2.2.11 Dried infant formulae and dried dietary foods for special medical purposes intended for infants below 6 months of age
+A163S@A163Y@MC-2.3.1   Egg products
+A163S@A163X@MC-2.4.1   Shelled and shucked products of cooked crustaceans and molluscan shellfish
+A163S@A163V@MC-2.5.1   Precut fruit and vegetables (ready-to-eat)
+A163S@A163T@MC-2.5.2   Unpasteurised fruit and vegetable juices (ready-to-eat)

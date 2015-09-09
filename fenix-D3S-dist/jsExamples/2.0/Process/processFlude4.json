@@ -1,0 +1,58 @@
+[
+  {
+    "name": "filter",
+    "parameters": {
+      "rows": {
+        "year": {
+          "time": [
+            {
+              "from": 1990,
+              "to": 2015
+            }
+          ]
+        },
+        "indicator": {
+          "codes": [
+            {
+              "uid": "FLUDE_INDICATORS",
+              "codes": [
+                "Forest"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "group",
+    "parameters": {
+      "by": [
+        "region",
+        "year",
+        "indicator"
+      ],
+      "aggregations": [
+        {
+          "columns": [
+            "value"
+          ],
+          "rule": "AVG"
+        },
+        {
+          "columns": [
+            "um"
+          ],
+          "rule": "FIRST"
+        }
+      ]
+    }
+  },
+  {
+    "name": "order",
+    "parameters": {
+      "region": "ASC",
+      "year": "ASC"
+    }
+  }
+]

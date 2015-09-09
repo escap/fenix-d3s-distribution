@@ -1,0 +1,19 @@
+[
+  {
+    "name": "filter",
+    "parameters": {
+      "rows": {
+
+
+        "year": {
+          "time": [
+            {
+              "from": 2013,
+              "to": 2013
+            }
+          ]
+        }
+      }
+    }
+  }
+]

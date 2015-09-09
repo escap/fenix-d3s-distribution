@@ -1,0 +1,40 @@
+[
+  {
+    "name": "filter",
+    "parameters": {
+      "rows": {
+        "year": {
+          "time": [
+            {
+              "from": 2000,
+              "to": 2011
+            }
+          ]
+        },
+        "indicator": {
+          "codes": [
+            {
+              "uid": "FLUDE_INDICATORS",
+              "codes": [
+                "BurnLan"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "order",
+    "parameters": {
+      "year": "DESC"
+    }
+  },
+  {
+    "name": "page",
+    "parameters": {
+      "perPage": 25,
+      "page": 1
+    }
+  }
+]

@@ -107,3 +107,4 @@ titleColumnIndex_EN=3
 @AFR@Africa
 @EU@Europe
 @OCE@Oceania
+@NA@Unknown

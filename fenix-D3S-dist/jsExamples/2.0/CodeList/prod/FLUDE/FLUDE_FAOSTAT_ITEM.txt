@@ -126,6 +126,7 @@ titleColumnIndex_EN=3
 @FO@Forestry Production and Trade
 @GT@Agriculture Total
 @GL@Land Use Total
+@RL@Land
 QC@1717@Cereals,Total
 QC@149@Roots and tubers, nes
 QC@1753@Fibre Crops Primary
@@ -161,3 +162,12 @@ GL@5069@Burning Biomass
 GL@5070@Cropland
 GL@5065@Forest land
 GL@6794@Grassland
+RL@6610@Agricultural area
+RL@6611@Agricultural area actually irrigated
+RL@6620@Arable land and Permanent crops
+RL@6621@Arable land
+RL@6650@Permanent crops
+RL@6655@Permanent meadows and pastures
+RL@6656@Perm. meadows pastures - Cultivated
+RL@6659@Perm. meadows pastures - Nat. growing
+RL@6690@Total area equipped for irrigation

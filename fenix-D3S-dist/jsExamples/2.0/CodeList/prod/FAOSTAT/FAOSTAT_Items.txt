@@ -372,4 +372,32 @@ titleColumnIndex_EN=3
 @6791@Closed shrubland
 @6792@Open shrubland
 @6794@Grassland
-@6794@Grassland
+@6600@Country area
+@6601@Land area
+@6610@Agricultural area
+@6671@Agricultural area organic, total
+@6672@Agricultural area certified organic
+@6673@Agricultural area in conversion to organic
+@6611@Agricultural area actually irrigated
+@6620@Arable land and Permanent crops
+@6621@Arable land
+@6674@Arable land organic, total
+@6675@Arable land area certified organic
+@6676@Arable land area in conversion to organic
+@6630@Temporary crops
+@6633@Temporary meadows and pastures
+@6640@Fallow land (temporary)
+@6650@Permanent crops
+@6677@Permanent crops organic, total
+@6678@Permanent crops area certified organic
+@6679@Permanent crops area in conversion to organic
+@6655@Permanent meadows and pastures
+@6681@Permanent meadows and pastures organic, total
+@6682@Permanent meadows and pastures area certified organic
+@6683@Permanent meadows and pastures area in conversion to organic
+@6656@Perm. meadows \u0026 pastures - Cultivated
+@6659@Perm. meadows \u0026 pastures - Nat. growing
+@6670@Other land
+@6680@Inland water
+@6774@Area of arable land and permanent crops under protective cover
+@6690@Total area equipped for irrigation
