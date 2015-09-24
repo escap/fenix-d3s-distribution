@@ -1,0 +1,439 @@
+{
+   "characterSet": {
+      "codes": [
+         {
+            "code": "106"
+         }
+      ], 
+      "idCodeList": "IANAcharacterSet", 
+      "version": null
+   }, 
+   "contacts": [
+      {
+         "contactInfo": {
+            "address": null, 
+            "emailAddress": null, 
+            "phone ": null
+         }, 
+         "name": null, 
+         "organization": {
+            "EN": "Organisation for Economic Co-operation and Development (OECD)"
+         }, 
+         "organizationUnit": null, 
+         "role": null
+      }
+   ], 
+   "language": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "languageDetails": null, 
+   "meAccessibility": {
+      "seConfidentiality": {
+         "confidentialityStatus": {
+            "codes": [
+               {
+                  "code": "F"
+               }
+            ], 
+            "idCodeList": "CL_CONF_STATUS", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "meContent": {
+      "description": {
+         "EN": "OECD Creditor Reporting System (CRS) code list for Agencys"
+      }, 
+      "keywords": [
+         "crs", 
+         "code", 
+         "codes"
+      ], 
+      "resourceRepresentationType": "codelist", 
+      "seCodeList": {
+         "numberOfLevels": "1", 
+         "typeOfCodeList": "list"
+      }, 
+      "seCoverage": {
+         "coverageSectors": {
+            "codes": [
+               {
+                  "code": "06"
+               }
+            ], 
+            "idCodeList": "FENIX_Subjects", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "metadataLanguage": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "metadataStandardName": "FENIX metadata", 
+   "metadataStandardVersion": "1.0", 
+   "title": {
+      "EN": "OECD Agencys"
+   }, 
+   "uid": "crs_agencys", 
+   "version": "2015",
+
+   "dsd" : {
+      "contextSystem" : "adam"
+   }
+}
+--structure--
+csvSeparator=@
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+--data--
+@1_8@ADA
+@1012_1@Adaptation Fund
+@302_13@ADF
+@576_3@ADFD
+@50_21@AECID
+@4_3@AFD
+@913_15@AfDB African Water Facility Fund
+@914_13@AfDB Fragile States Facility
+@913_11@AfDB Middle Income Country Fund
+@913_14@AfDB NEPAD/IPPF
+@913_1@AfDB Ordinary Capital
+@913_12@AfDB Special Relief Fund
+@811_913@AfDB: GEF
+@914_1@AfDF
+@50_15@AG
+@801_2@AG
+@6_2@AGEA
+@302_2@AGR
+@50_4@AGR
+@4_13@AGRI
+@302_1@AID
+@921_1@Arab Fund (AFESD) 
+@6_9@Art.
+@915_1@AsDB
+@811_915@AsDB: GEF
+@916_1@AsDF
+@916_2@Asia Pacific Disaster Response Fund
+@2_39@ASPF
+@801_5@Aus Gov
+@4_16@Autres Min
+@953_1@BADEA
+@1601_1@Bill & Melinda Gates Foundation
+@2_22@BIO
+@12_11@BIS
+@1_7@BKA
+@1_9@BM/BWK
+@1_14@BM:UKK
+@1_5@BMeiA
+@1_1@BMF
+@5_5@BMF
+@1_12@BMI
+@1_10@BMLFUW
+@1_11@BMLV
+@5_9@BMU
+@1_15@BMWF
+@5_1@BMZ
+@1_3@BReg
+@6_7@CA
+@12_2@CDC
+@918_1@CEC
+@50_2@CESCE
+@9_2@CICL
+@301_1@CIDA
+@916_3@Climate Change Fund
+@68_10@CNB
+@302_16@COMMERCE
+@4_8@COOP DECENTRAL
+@1013_1@Council of Europe Development Bank (CEB)
+@1011_10@CTF
+@68_1@CZDA
+@21_3@DAFM
+@3_2@DANIDA
+@12_12@DCMS
+@11_9@DDPS
+@12_4@DECC
+@5_15@DED
+@4_14@DEF
+@50_19@DEF
+@61_4@DEF
+@12_7@DEFRA
+@5_4@DEG
+@11_6@DFA
+@21_1@DFA
+@301_6@DFAIT
+@301_3@DFATD
+@12_1@DFID
+@2_10@DGCD
+@6_4@DGCS
+@302_19@DHS
+@301_7@DND
+@302_7@DOD
+@302_20@DOE
+@576_2@DOF
+@302_26@DOT
+@302_6@DTRE
+@990_1@EBRD
+@811_990@EBRD: GEF
+@12_5@ECGD
+@918_4@ECHO
+@50_6@ECON
+@301_31@EDC
+@918_2@EDF
+@50_7@EDUC
+@918_3@EIB
+@10_71@EKN
+@50_12@EMP
+@302_32@EPA
+@82_1@Estonian Ministry of Foreign Affairs
+@5_34@Euler Hermes
+@302_31@EXIM
+@701_4@EXIM BANK
+@5_7@F O
+@11_1@FA
+@12_3@FCO
+@5_14@Fed.Inst.
+@5_16@Fed.Min.
+@18_2@FF
+@18_1@FG
+@301_4@FIN
+@61_1@FIN
+@8_9@FK
+@11_8@FOM
+@5_17@Found
+@912_1@FSO
+@912_3@FSO-ORC
+@302_23@FTC
+@913_16@Fund for African Private Sector Assistance
+@1311_1@GAVI
+@811_1@GEF Secretariat
+@811_11@GET
+@5_52@GIZ
+@1312_1@Global Fund
+@1313_1@Global Green Growth Institute
+@301_9@GOV
+@552_2@Government Grants administered by KFAED
+@9_1@GP
+@912_6@GRF
+@302_14@HHS
+@12_6@HO
+@302_21@IADF
+@901_1@IBRD
+@811_901@IBRD: GEF
+@20_2@ICEIDA
+@20_3@ICRU
+@905_1@IDA
+@811_909@IDB: GEF
+@301_2@IDRC
+@988_1@IFAD
+@811_988@IFAD: GEF
+@3_3@IFU
+@576_7@IHC
+@958_1@IMF concessional
+@8_7@IN
+@50_13@INT
+@61_3@INT
+@4_12@Interieur
+@302_9@INTERIOR
+@4_15@InterMin
+@903_1@International Finance Corporation
+@976_1@Islamic Development Bank 
+@701_11@JBIC
+@701_8@JICA
+@701_10@JODC
+@302_15@JUSTICE
+@576_17@KBZ
+@742_2@KEXIM
+@5_2@KFW
+@742_4@KOICA
+@552_1@Kuwait Fund for Arab Economic Development (KFAED)
+@5_12@L G
+@40_15@LA
+@6_8@LA
+@302_17@LABOR
+@811_12@LDCF
+@2_60@LOC
+@22_1@LuxDev
+@40_11@MADF
+@4_6@MAE
+@4_7@MAE/FSP
+@701_1@MAFF
+@50_10@MARM
+@576_18@MBR
+@6_5@MC
+@302_18@MCC
+@76_4@MCNH
+@40_13@MCP
+@40_14@MCT
+@68_7@MD
+@40_5@MDCS
+@40_6@MEECC
+@40_7@MELLLR
+@4_17@MEN
+@40_9@MESS
+@68_4@MEYS
+@40_2@MF
+@10_2@MFA
+@18_3@MFA
+@20_1@MFA
+@22_2@MFA
+@3_1@MFA
+@40_3@MFA
+@50_5@MFA
+@61_2@MFA
+@68_2@MFA
+@7_1@MFA
+@76_1@MFA
+@8_4@MFA
+@68_8@MH
+@40_10@MHSS
+@40_1@MI
+@50_9@MIE
+@909_5@MIF
+@912_5@MIF
+@1_2@MIN
+@4_30@MIN/EQUIPEMENT
+@4_36@MIN/SANTE
+@4_37@MIN/TRAVAIL
+@4_10@MINEFI
+@4_2@MINEFI/NATEXIS
+@69_4@Ministry of Education, Science, Research and Sport
+@69_3@Ministry of Finance
+@69_1@Ministry of Foreign and European Affaires
+@1_99@MISC
+@10_99@MISC
+@11_99@MISC
+@12_99@MISC
+@21_99@MISC
+@3_99@MISC
+@301_99@MISC
+@302_99@MISC
+@4_99@MISC
+@40_99@MISC
+@50_99@MISC
+@576_99@MISC
+@6_99@MISC
+@61_99@MISC
+@7_99@MISC
+@701_99@MISC
+@742_99@MISC
+@76_99@MISC
+@8_99@MISC
+@801_99@MISC
+@820_99@MISC
+@9_99@MISC
+@69_99@Miscellaneous
+@68_9@MIT
+@40_8@MITN
+@68_11@MJ
+@40_12@MJTHR
+@40_4@MND
+@12_8@MOD
+@68_15@MOE
+@68_3@MOF
+@701_2@MOFA
+@742_3@MOFAT
+@50_11@MOH
+@68_5@MOI
+@68_12@MOLSA
+@742_1@MOSF
+@50_14@MPA
+@2_91@MPRB
+@2_70@MPRF
+@2_94@MPRG
+@2_80@MPRW
+@50_8@MPW
+@76_2@MSHE
+@811_15@MTF
+@11_11@MUNIC
+@50_16@MUNIC
+@9_3@MUNIC
+@7_33@NCM
+@104_1@NDF
+@701_71@NEXI
+@7_3@NG
+@7_4@NIO/FMO
+@8_1@NORAD
+@8_8@NORFUND
+@811_14@NPIF
+@914_2@NTF
+@820_2@NZAid
+@820_1@NZG
+@8_10@OAG
+@701_15@ODC
+@701_5@OECF
+@1_13@OeEB
+@1_4@OeKB
+@701_7@OFCF
+@951_1@ofid
+@576_25@OGE
+@2_31@OND
+@302_22@OPIC
+@909_1@ORC
+@912_4@ORC
+@978_1@OSCE
+@701_12@Oth. MIN
+@50_22@Oth. Min.
+@68_99@Other
+@18_4@Other Min.
+@69_18@Other ministries
+@82_2@Other Ministries
+@82_3@Other Public Sector Institutions
+@916_4@Pakistan Earthquake Fund
+@701_13@PC
+@302_10@PEACE
+@68_6@Police
+@701_14@PRF
+@576_22@RCA
+@301_8@RCMP
+@1_6@Reg
+@916_12@Regional Cooperation and Integration Fund
+@68_14@Regional Governments and Municipalities
+@6_74@SACE
+@11_10@SAEFL
+@811_13@SCCF
+@1011_20@SCF
+@1011_21@SCF - FIP
+@1011_22@SCF - PPCR
+@1011_23@SCF - SREP
+@11_4@SDC
+@11_5@Seco
+@11_7@SER
+@12_21@SG
+@10_6@Sida
+@69_2@Slovak Agency for International Development Cooperation
+@9_4@SOFID Society for Development Financing
+@2_20@SPAE
+@2_30@SPFF
+@302_11@STATE
+@68_16@SUJB
+@10_22@SwedFund
+@302_12@TDA
+@916_11@Technical Assistance Special Fund
+@971_1@UNAIDS
+@959_1@UNDP
+@811_959@UNDP: GEF
+@948_1@UNECE
+@811_807@UNEP : GEF
+@974_1@UNFPA
+@967_1@UNHCR
+@963_1@UNICEF
+@50_20@UNIV
+@68_13@Universities
+@923_1@UNPBF
+@964_1@UNRWA
+@12_22@WAG
+@966_1@WFP
+@928_1@WHO
+@576_19@ZBS

@@ -119,6 +119,7 @@ titleColumnIndex_EN=3
 --data--
 
 
+@NA@Not available
 @A0B8V@Facets
 A0B8V@A0B8Y@Part-nature
 A0B8Y@A0BA0@Live plants (as part-nature)

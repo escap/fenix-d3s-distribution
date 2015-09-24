@@ -16,6 +16,8 @@
         <module>fenix-D3S-UNECA</module>
         <module>fenix-D3S-RLM</module>
         <module>fenix-D3S-flude</module>
+        <module>fenix-D3S-adam</module>
+        <module>fenix-D3S-gift</module>
         <module>fenix-D3S-dist</module>
     </modules>
 

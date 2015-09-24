@@ -1,0 +1,341 @@
+{
+   "characterSet": {
+      "codes": [
+         {
+            "code": "106"
+         }
+      ], 
+      "idCodeList": "IANAcharacterSet", 
+      "version": null
+   }, 
+   "contacts": [
+      {
+         "contactInfo": {
+            "address": null, 
+            "emailAddress": null, 
+            "phone ": null
+         }, 
+         "name": null, 
+         "organization": [
+            {
+               "EN": "Organisation for Economic Co-operation and Development (OECD)"
+            }
+         ], 
+         "organizationUnit": null, 
+         "role": null
+      }
+   ], 
+   "language": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "languageDetails": null, 
+   "meAccessibility": {
+      "seConfidentiality": {
+         "confidentialityStatus": {
+            "codes": [
+               {
+                  "code": "F"
+               }
+            ], 
+            "idCodeList": "CL_CONF_STATUS", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "meContent": {
+      "description": [
+         {
+            "EN": "OECD Creditor Reporting System (CRS) code list for Purposes"
+         }
+      ], 
+      "keywords": [
+         "crs", 
+         "code", 
+         "codes"
+      ], 
+      "resourceRepresentationType": "codelist", 
+      "seCodeList": {
+         "numberOfLevels": "1", 
+         "typeOfCodeList": "list"
+      }, 
+      "seCoverage": {
+         "coverageSectors": {
+            "codes": [
+               {
+                  "code": "02"
+               }
+            ], 
+            "idCodeList": "FENIX_Subjects", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "metadataLanguage": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "metadataStandardName": "FENIX metadata", 
+   "metadataStandardVersion": "1.0", 
+   "title": [
+      {
+         "EN": "OECD Purposes"
+      }
+   ], 
+   "uid": "crs_purposes", 
+   "version": "2015"
+}
+--structure--
+csvSeparator=@
+codeColumnsIndex=1,2
+titleColumnsIndex_EN=3
+
+--data--
+@60010@Action relating to debt
+@91010@Administrative costs (non-sector allocable)
+@910@Administrative Costs of Donors
+@11430@Advanced tech. & managerial training
+@31164@Agrarian reform
+@31165@Agricultural alternative development
+@31194@Agricultural co-operatives
+@31120@Agricultural development
+@31181@Agricultural education/training
+@31166@Agricultural extension
+@31193@Agricultural financial services
+@31150@Agricultural inputs
+@31130@Agricultural land resources
+@31110@Agricultural policy & admin. mgmt
+@31182@Agricultural research
+@31191@Agricultural services
+@31140@Agricultural water resources
+@32161@Agro-industries
+@21050@Air transport
+@15113@Anti-corruption organisations and institutions
+@14031@Basic drinking water supply
+@14030@Basic drinking water supply and basic sanitation
+@12220@Basic health care
+@12230@Basic health infrastructure
+@11230@Basic life skills for youth & adults
+@32169@Basic metal industries
+@12240@Basic nutrition
+@14032@Basic sanitation
+@41030@Bio-diversity
+@23070@Biomass
+@41020@Biosphere protection
+@25010@Business support services & institutions
+@32166@Cement/lime/plaster
+@32164@Chemicals
+@15261@Child soldiers (prevention and demobilisation)
+@15220@Civilian peace-building, conflict prevention and resolution
+@32261@Coal
+@23063@Coal-fired power plants
+@22010@Communications policy & admin. mgmt
+@32310@Construction policy and admin. mgmt
+@32140@Cottage industries & handicraft
+@16061@Culture and recreation
+@60063@Debt buy-back
+@60061@Debt for development swap
+@60020@Debt forgiveness
+@15112@Decentralisation and support to subnational govt.
+@15150@Democratic participation and civil society
+@74010@Disaster prevention and preparedness
+@11240@Early childhood education
+@21081@Educ./trng in transport & storage
+@14081@Educ./trng:water supply & sanitation
+@11120@Education facilities and training
+@11110@Education policy & admin. management
+@24081@Education/trng in banking & fin. services
+@11182@Educational research
+@15151@Elections
+@23040@Electrical transmission/distribution
+@72040@Emergency food aid
+@16020@Employment policy and admin. mgmt.
+@23081@Energy education/training
+@32167@Energy manufacturing
+@23010@Energy policy and admin. management
+@23082@Energy research
+@32171@Engineering
+@41081@Environmental education/training
+@41010@Environmental policy and admin. mgmt
+@41082@Environmental research
+@13030@Family planning
+@32263@Ferrous metals
+@32267@Fertilizer minerals
+@32165@Fertilizer plants
+@24010@Financial policy & admin. management
+@31320@Fishery development
+@31381@Fishery education/training
+@31382@Fishery research
+@31391@Fishery services
+@31310@Fishing policy and admin. management
+@41050@Flood prevention/control
+@52010@Food aid/Food security programmes
+@31161@Food crop production
+@32162@Forest industries
+@31220@Forestry development
+@31281@Forestry education/training
+@31210@Forestry policy & admin. management
+@31282@Forestry research
+@31291@Forestry services
+@24030@Formal sector financ. intermediaries
+@31261@Fuelwood/charcoal
+@23062@Gas-fired power plants
+@23050@Gas distribution
+@51010@General budget support-related aid
+@23066@Geothermal energy
+@12261@Health education
+@12281@Health personnel development
+@12110@Health policy & admin. management
+@11420@Higher education
+@16030@Housing policy and admin. management
+@15160@Human rights
+@23065@Hydro-electric power plants
+@100@I. Social Infrastructure & Services
+@110@I.1. Education
+@111@I.1.a. Education, Level Unspecified
+@113@I.1.c. Secondary Education
+@114@I.1.d. Post-Secondary Education
+@120@I.2. Health
+@121@I.2.a. Health, General
+@122@I.2.b. Basic Health
+@140@I.4. Water Supply & Sanitation
+@150@I.5. Government & Civil Society
+@151@I.5.a. Government & Civil Society-general
+@152@I.5.b. Conflict, Peace & Security
+@160@I.6. Other Social Infrastructure & Services
+@200@II. Economic Infrastructure & Services
+@210@II.1. Transport & Storage
+@220@II.2. Communications
+@230@II.3. Energy
+@240@II.4. Banking & Financial Services
+@250@II.5. Business & Other Services
+@300@III. Production Sectors
+@310@III.1. Agriculture, Forestry, Fishing
+@311@III.1.a. Agriculture
+@312@III.1.b. Forestry
+@313@III.1.c. Fishing
+@320@III.2. Industry, Mining, Construction
+@321@III.2.a. Industry
+@322@III.2.b. Mineral Resources & Mining
+@323@III.2.c. Construction
+@331@III.3.a. Trade Policies & Regulations
+@332@III.3.b. Tourism
+@53030@Import support (capital goods)
+@53040@Import support (commodities)
+@11420@Imputed student costs
+@31162@Industrial crops/export crops
+@32120@Industrial development
+@32266@Industrial minerals
+@32110@Industrial policy & admin. mgmt
+@12250@Infectious disease control
+@24040@Informal/semi-formal fin. intermed.
+@22040@Information and communication technology (ICT)
+@400@IV. Multi-Sector / Cross-Cutting
+@410@IV.1. General Environment Protection
+@430@IV.2. Other Multisector
+@998@IX. Unallocated / Unspecified
+@15130@Legal and judicial development
+@15152@Legislatures and political parties
+@31163@Livestock
+@31195@Livestock/veterinary services
+@16040@Low-cost housing
+@12262@Malaria control
+@72010@Material relief assistance and services 
+@15153@Media and free flow of information
+@12181@Medical education/training
+@12182@Medical research
+@12191@Medical services
+@32220@Mineral prospection and exploration
+@32210@Mineral/mining policy & admin. mgmt
+@24020@Monetary institutions
+@33140@Multilateral trade negotiations
+@43010@Multisector aid
+@16050@Multisector aid for basic soc. serv.
+@43081@Multisector education/training
+@16063@Narcotics control
+@43050@Non-agricultural alternative dvpt
+@32170@Non-ferrous metal industries
+@32264@Non-ferrous metals
+@23064@Nuclear power plants
+@23069@Ocean power
+@32268@Off-shore minerals
+@23061@Oil-fired power plants
+@32262@Oil and gas
+@60062@Other debt swap
+@15230@Participation in international peacekeeping operations
+@13081@Personnel dvpt: pop. & repro health
+@32168@Pharmaceutical production
+@31192@Plant and post-harvest protection and pest control
+@13010@Population policy and admin. mgmt
+@23020@Power generat./non-renewable sources
+@23030@Power generation/renewable sources
+@32265@Precious metals/materials
+@11220@Primary education
+@25020@Privatisation
+@99820@Promotion of development awareness  (non-sector allocable)
+@15111@Public finance management
+@15110@Public sector policy and adm. management
+@22030@Radio/television/print media
+@21030@Rail transport
+@73010@Reconstruction relief and rehabilitation
+@930@Refugees in Donor Countries
+@93010@Refugees in donor countries (non-sector allocable)
+@33130@Regional trade agreements  (RTAs)
+@15240@Reintegration and SALW control
+@72050@Relief co-ordination; protection and support services
+@60030@Relief of multilateral debt
+@15250@Removal of land mines and explosive remnants of war
+@13020@Reproductive health care
+@60040@Rescheduling and refinancing
+@43082@Research/scientific institutions
+@14040@River basins development
+@21020@Road transport
+@43040@Rural development
+@14022@Sanitation - large systems
+@11320@Secondary education
+@998@Sectors not specified
+@99810@Sectors not specified
+@15210@Security system management and reform
+@41040@Site preservation
+@32130@Small and medium-sized enterprises (SME) development
+@16064@Social mitigation of HIV/AIDS
+@16010@Social/welfare services
+@23067@Solar energy
+@16062@Statistical capacity building
+@13040@Std control including hiv/aids
+@21061@Storage
+@11130@Teacher training
+@32182@Technological research & development
+@22020@Telecommunications
+@32163@Textiles - leather & substitutes
+@33210@Tourism policy and admin. management
+@33150@Trade-related adjustment
+@33181@Trade education/training
+@33120@Trade facilitation
+@33110@Trade policy and admin. management
+@32172@Transport equipment industry
+@21010@Transport policy & admin. management
+@12263@Tuberculosis control
+@43030@Urban development and management
+@510@VI.1. General Budget Support
+@530@VI.3. Other Commodity Ass.
+@600@VII. Action Relating to Debt
+@11330@Vocational training
+@14050@Waste management/disposal
+@14010@Water resources policy/admin. mgmt
+@14015@Water resources protection
+@14021@Water supply - large systems
+@14020@Water supply & sanit. - large systems
+@21040@Water transport
+@23068@Wind power
+@15170@Women's equality organisations and institutions

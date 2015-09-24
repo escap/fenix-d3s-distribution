@@ -120,4 +120,6 @@ fhs@NS@Non-smallholder households
 fhs@S@Smallholder households
 gender@M@Male headed households
 gender@F@Female headed households
-pia@IA30@30% threshold
+pia@APG30@Income from agriculture greater than 30%
+pia@APL30@Income from agriculture lower than 30%
+pia@APNO@No income from agriculture
