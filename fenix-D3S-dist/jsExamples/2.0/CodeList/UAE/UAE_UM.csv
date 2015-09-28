@@ -120,7 +120,7 @@ titleColumnIndex_EN=3
 @_Z@Not applicable
 @ADF@Andorran franc (1-1 peg to the French franc)
 @ADP@Andorran peseta (1-1 peg to the Spanish peseta)
-@AED@United Arab Emirates dirham
+@AED@United Arab Emirates dirham (1000)
 @AFA@Afghanistan afghani (old)
 @AFN@Afghanistan, Afghanis
 @ALL@Albanian lek
@@ -407,3 +407,5 @@ titleColumnIndex_EN=3
 @ZWL@Fourth zimbabwe dollar
 @ZWN@Zimbabwe dollars (old)
 @ZWR@Third zimbabwe dollar
+@7@Tonnes
+@48@Heads
