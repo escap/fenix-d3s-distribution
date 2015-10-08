@@ -1,110 +1,3 @@
-{
-    "uid": "CSTAT_HS",
-	"version": null,
-    "language": {
-        "codes": [
-            { "code": "eng" }
-        ],
-        "idCodeList": "ISO639-2",
-        "version": "1998"
-    },
-
-    "languageDetails": null,
-    "title": {
-        "EN": "HS unified version to use for time series"
-    },
-    "characterSet": {
-        "codes": [{
-            "code": "106"
-        }],
-        "idCodeList": "IANAcharacterSet",
-        "version": null
-    },
-
-    "metadataStandardName": "FENIX metadata",
-    "metadataStandardVersion": "1.0",
-    "metadataLanguage": {
-        "codes": [
-            {
-                "code": "eng"
-            }
-        ],
-        "idCodeList": "ISO639-2",
-        "version": "1998"
-    },
-
-    "contacts": [
-        {
-            "organization": {
-                "EN": "FAO"
-            },
-            "organizationUnit": {
-                "EN": "ESS"
-            },
-            "name": "Fabio Grita",
-            "role": "distributor",
-            "contactInfo": {
-                "phone ": "0039 06 57054262",
-                "address": "FAO-HQ, Viale delle Terme di Caracalla, 00153 Roma",
-                "emailAddress": "fabio.grita@fao.org"
-            }
-        }
-    ],
-
-    "meContent": {
-        "resourceRepresentationType": "codelist",
-        "keywords": ["hs", "harmonized","item", "items", "code", "codes" ],
-        "description": {
-            "EN": "Harmonized System review in order to unify all the versions for time series"
-        },
-        "seCoverage": {
-            "coverageSectors":
-                {
-                    "codes": [
-                        {
-                            "code": "06"
-                        }
-                    ],
-                    "idCodeList": "FENIX_Subjects",
-                    "version": "1.0"
-                }
-        },
-        "seCodeList"  : {
-            "numberOfLevels": 4,
-            "typeOfCodeList": "tree"
-        }
-    },
-
-    "meAccessibility": {
-        "seConfidentiality" : {
-            "confidentialityStatus": {
-                "codes": [
-                    {
-                        "code": "F"
-                    }
-                ],
-                "idCodeList": "CL_CONF_STATUS",
-                "version": "1.0"
-            }
-        }
-    }
-}
-
-
---structure--
-
-
-csvSeparator=@
-structure=tree
-dateFormat=dd/mm/yyyy
-codeColumnsIndex=1,2
-titleColumnIndex_EN=3
-
-
---data--
-
-
-
 @01@live animals
 01@0101@live horses, asses, mules and hinnies.
 0101@010111@purebred breeding animals
@@ -2712,7 +2605,7 @@ titleColumnIndex_EN=3
 4810@481021@lightweight coated paper
 4810@481029@other
 4810@481031@bleached uniformly throughout the mass and of which more than 95 % by weight of the total fibre content consists of wood fibres obtained by a chemical process, and weighing 150 g/m2  or less
-4810@481032@bleached uniformly throughout the mass and of which more than 95 % by weight of the total fibre content consists of wood fibres obtained by a chemical process, and weighing more than 150 g/m2
+4810@481032@bleached uniformly throughout the mass and of which more than 95 % by weight of the total fibre content consists of wood fibres obtained by a chemical process, and weighing more than 150 g/m2 
 4810@481039@other
 4810@481091@multiply
 4810@481099@other
@@ -2870,13 +2763,13 @@ titleColumnIndex_EN=3
 51@5110@yarn of coarse animal hair or of horsehair (including gimped horsehair yarn), whether or not put up for retail sale.
 5110@511000@yarn of coarse animal hair or of horsehair (including gimped horsehair yarn), whether or not put up for retail sale.
 51@5111@woven fabrics of carded wool or of carded fine animal hair.
-5111@511111@of a weight not exceeding 300 g/m2
+5111@511111@of a weight not exceeding 300 g/m2 
 5111@511119@other
 5111@511120@other, mixed mainly or solely with manmade filaments
 5111@511130@other, mixed mainly or solely with manmade staple fibres
 5111@511190@other
 51@5112@woven fabrics of combed wool or of combed fine animal hair.
-5112@511211@of a weight not exceeding 200 g/m2
+5112@511211@of a weight not exceeding 200 g/m2 
 5112@511219@other
 5112@511220@other, mixed mainly or solely with manmade filaments
 5112@511230@other, mixed mainly or solely with manmade staple fibres
@@ -3334,7 +3227,7 @@ titleColumnIndex_EN=3
 5703@570330@of other manmade textile materials
 5703@570390@of other textile materials
 57@5704@carpets and other textile floor coverings, of felt, not tufted or flocked, whether or not made up.
-5704@570410@tiles, having a maximum surface area of 0.3 m2
+5704@570410@tiles, having a maximum surface area of 0.3 m2 
 5704@570490@other
 57@5705@other carpets and other textile floor coverings, whether or not made up.
 5705@570500@other carpets and other textile floor coverings, whether or not made up.
@@ -6579,14 +6472,14 @@ titleColumnIndex_EN=3
 5205@520548@measuring per single yarn less than 83.33 decitex (exceeding 120 metric number per single yarn)
 5407@540761@containing 85 % or more by weight of nontextured polyester filaments
 5407@540769@other
-5603@560311@weighing not more than 25 g/m2
-5603@560312@weighing more than 25 g/m2  but not more than 70 g/m2
-5603@560313@weighing more than 70 g/m2  but not more than 150 g/m2
-5603@560314@weighing more than 150 g/m2
-5603@560391@weighing not more than 25 g/m2
-5603@560392@weighing more than 25 g/m2  but not more than 70 g/m2
-5603@560393@weighing more than 70 g/m2  but not more than 150 g/m2
-5603@560394@weighing more than 150 g/m2
+5603@560311@weighing not more than 25 g/m2 
+5603@560312@weighing more than 25 g/m2  but not more than 70 g/m2 
+5603@560313@weighing more than 70 g/m2  but not more than 150 g/m2 
+5603@560314@weighing more than 150 g/m2 
+5603@560391@weighing not more than 25 g/m2 
+5603@560392@weighing more than 25 g/m2  but not more than 70 g/m2 
+5603@560393@weighing more than 70 g/m2  but not more than 150 g/m2 
+5603@560394@weighing more than 150 g/m2 
 6305@630532@flexible intermediate bulk containers
 6305@630533@other, of polyethylene or polypropylene strip or the like
 6402@640212@skiboots, crosscountry ski footwear and snowboard boots
@@ -6994,11 +6887,11 @@ titleColumnIndex_EN=3
 4410@441032@surfacecovered with melamineimpregnated paper
 4410@441033@surfacecovered with decorative laminates of plastics
 4410@441039@other
-4802@480254@weighing less than 40 g/m2
+4802@480254@weighing less than 40 g/m2 
 4802@480255@weighing 40 g/m2  or more but not more than 150 g/m2 , in rolls
 4802@480256@weighing 40 g/m2  or more but not more than 150 g/m2 , in sheets with one side not exceeding 435 mm and the other side not exceeding 297 mm in the unfolded state
-4802@480257@other, weighing 40 g/m2  or more but not more than 150 g/m2
-4802@480258@weighing more than 150 g/m2
+4802@480257@other, weighing 40 g/m2  or more but not more than 150 g/m2 
+4802@480258@weighing more than 150 g/m2 
 4802@480261@in rolls
 4802@480262@in sheets with one side not exceeding 435 mm and the other side not exceeding 297 mm in the unfolded state
 4802@480269@other
@@ -7006,9 +6899,9 @@ titleColumnIndex_EN=3
 4805@480512@straw fluting paper
 4805@480519@other
 4805@480524@weighing 150 g/m2  or less
-4805@480525@weighing more than 150 g/m2
+4805@480525@weighing more than 150 g/m2 
 4805@480591@weighing 150 g/m2  or less
-4805@480592@weighing more than 150 g/m2  but less than 225 g/m2
+4805@480592@weighing more than 150 g/m2  but less than 225 g/m2 
 4805@480593@weighing 225 g/m2  or more
 4807@480700@composite paper and paperboard (made by sticking flat layers of paper or paperboard together with an adhesive), not surface coated or impregnated, whether or not internally reinforced, in rolls or sheets.
 4810@481013@in rolls
@@ -7018,7 +6911,7 @@ titleColumnIndex_EN=3
 4810@481092@multiply
 4811@481141@selfadhesive
 4811@481149@other
-4811@481151@bleached, weighing more than 150 g/m2
+4811@481151@bleached, weighing more than 150 g/m2 
 4811@481159@other
 4811@481160@paper and paperboard, coated, impregnated or covered with wax, paraffin wax, stearin, oil or glycerol
 4823@482312@self adhesive
