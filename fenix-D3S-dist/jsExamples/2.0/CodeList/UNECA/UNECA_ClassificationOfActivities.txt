@@ -130,6 +130,7 @@ titleColumnIndex_EN=3
 0101@01010103@Mid-year Population by five-year age groups
 0101@01010104@Mid-year Population by broad age groups
 0101@01010105@Mid-year Population by residence
+0101@01010106@Mid-year Population by sex and age groups
 0101@010102@Urbanization rate (per cent)
 0104@010401@Economically Active Population
 0104@01040101@Economically Active Population by sex

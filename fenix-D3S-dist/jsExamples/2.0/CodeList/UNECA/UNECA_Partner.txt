@@ -1,5 +1,6 @@
-﻿{
-    "uid": "RLM_TopicsCodeList",
+
+{
+    "uid": "UNECA_Partner",
 	"version": null,
     "language": {
         "codes": [
@@ -13,7 +14,7 @@
 
     "languageDetails": null,
     "title": {
-        "EN": "Rural Livelihood Monitor - Topics"
+        "EN": "UNECA - Partner countries and institutions"
     },
     "creationDate": null,
     "characterSet": {
@@ -40,16 +41,16 @@
     "contacts": [
         {
             "organization": {
-                "EN": "FAO"
+                "EN": "UNECA"
             },
-            "organizationUnit": {"EN":"ESS"},
-            "name": "Piero Conforti",
+            "organizationUnit": null,
+            "name": null,
             "position": null,
             "role": "distributor",
             "contactInfo": {
                 "phone ": null,
-                "address": "Viale delle Terme di Caracalle, 00153 Rome, Italy",	
-                "emailAddress": "piero.conforti@fao.org",
+                "address": null,
+                "emailAddress": null,
                 "hoursOfService": null,
                 "contactIntruction": null
             }
@@ -59,9 +60,10 @@
 
     "meContent": {
         "resourceRepresentationType": "codelist",
-        "keywords": ["qualifier","survey", "RLM"],
-        "description": {"EN":"RLM_QualifierCodelist contains all te qualifier available for each indicator of the survey."},
+        "keywords": ["partner","countries"],
+        "description": {"EN": "UNECA_Partner is used in the dataset about Financial flows."},
         "statisticalConceptsDefinitions": null,
+
         "seCodeList"  : {
             "numberOfLevels": 1,
             "typeOfCodeList": "list"
@@ -75,6 +77,7 @@
                 "disseminationFormat": null
             }
         },
+
         "seConfidentiality" : {
             "confidentialityStatus": {
                 "codes": [
@@ -89,9 +92,9 @@
 
 
     },
-         "dsd" : {
-             "contextSystem" : "RLM"
-         }
+		"dsd":{
+      "contextSystem":"uneca"
+   }
 }
 
 --structure--
@@ -103,12 +106,47 @@ titleColumnIndex_EN=3
 
 --data--
 
-@EHE@Employment, Health and Education
-@LNR@Land and Natural Resources
-@L@Livestock
-@IS@Infrastructure and Services
-@IT@Inputs and Technology
-@IPI@Income, Productivity and Inequality
-@SP@Social Protection
-@CC@Community Characteristics
-@HC@Household Characteristics
+
+@N/A@N/A
+@DEU@Germany
+@FRA@France
+@AUT@Austria
+@IDA@IDA
+@CAN@Canada
+@USA@United States
+@NLD@Netherlands
+@GBR@United Kingdom
+@ITA@Italy
+@AfDF@AfDF
+@ESP@Spain
+@JPN@Japan
+@LUX@Luxembourg
+@DNK@Denmark
+@KOR@Korea
+@NOR@Norway
+@GF@Global Fund
+@TUR@Turkey
+@SVN@Slovenia
+@IRL@Ireland
+@POL@Poland
+@CHL@Chile
+@SWE@Sweden
+@CZE@Czech Republic
+@IDB@Isl.Dev Bank
+@HUN@Hungary
+@IMF@IMF (Concessional Trust Funds)
+@PRT@Portugal
+@ARE@United Arab Emirates
+@UNDP@UNDP
+@UNFPA@UNFPA
+@UNTA@UNTA
+@BEL@Belgium
+@CHE@Switzerland
+@AUS@Australia
+@SVK@Slovak Republic
+@KFAED@Kuwait (KFAED)
+@UNHCR@UNHCR
+@GEF@GEF
+@BADEA@BADEA
+@POL@Polond
+@GRC@Greece

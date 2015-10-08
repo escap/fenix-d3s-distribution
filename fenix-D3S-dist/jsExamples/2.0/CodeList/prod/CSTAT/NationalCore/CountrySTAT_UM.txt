@@ -124,7 +124,7 @@ titleColumnIndex_EN=3
 
 
 @0101@head
-@0102@ha
+@0102@Ha
 @0103@ton
 @0104@US$
 @0105@local currency
@@ -132,3 +132,21 @@ titleColumnIndex_EN=3
 @0107@thousands
 @0108@units
 @0109@cubic meter
+@0110@kg/capita/yr
+@0111@Kcal/capita/day
+@0112@g/capita/day
+@0113@1000 US$
+@0114@Liter
+@0115@Cubic meter/second
+@0116@Centimeter
+@0117@local currency by ton
+@0118@Degree Celsius
+@0119@Percentage
+@0120@MT or Cubic meter
+@0121@Local currency/hectar
+@0122@Local currency/1 cubic meter
+@0123@Kg/Ha
+@0124@Local currency/Kg
+@0125@1000 Ha
+@0126@mm
+@0127@Square meter

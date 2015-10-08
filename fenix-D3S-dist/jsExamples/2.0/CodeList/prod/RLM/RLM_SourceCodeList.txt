@@ -102,10 +102,14 @@ codeColumnsIndex=1,2
 titleColumnIndex_EN=3
 
 --data--
+
 @External@External data source
 @WDI@World Bank (WDI)
-@Malawi 2010-11@Malawi household survey
-@Niger@Niger household survey
-@Uganda 2010-11@Uganda household survey
+@Malawi 2010-11@Malawi household survey 2010-11
+@Niger 2011@Niger household survey 2011
+@Uganda 2010-11@Uganda household survey 2010-11
 @FAOSTAT@FAO, Statistics Division (FAOSTAT)
-
+@Guatemala 2011@Guatemala household survey 2011
+@Nigeria 2012-13@Nigeria household survey 2012-13
+@Tanzania 2012-13@Tanzania household survey 2012-13
+@Ethiopia 2013-14@Ethiopia household survey 2013-14
