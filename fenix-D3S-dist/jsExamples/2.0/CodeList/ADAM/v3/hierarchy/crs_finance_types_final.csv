@@ -1,0 +1,161 @@
+{
+   "characterSet": {
+      "codes": [
+         {
+            "code": "106"
+         }
+      ], 
+      "idCodeList": "IANAcharacterSet", 
+      "version": null
+   }, 
+   "contacts": [
+      {
+         "contactInfo": {
+            "address": null, 
+            "emailAddress": null, 
+            "phone ": null
+         }, 
+         "name": null, 
+         "organization": {
+            "EN": "Organisation for Economic Co-operation and Development (OECD)"
+         }, 
+         "organizationUnit": null, 
+         "role": null
+      }
+   ], 
+   "dsd": {
+      "contextSystem": "adam"
+   }, 
+   "language": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "languageDetails": null, 
+   "meAccessibility": {
+      "seConfidentiality": {
+         "confidentialityStatus": {
+            "codes": [
+               {
+                  "code": "F"
+               }
+            ], 
+            "idCodeList": "CL_CONF_STATUS", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "meContent": {
+      "description": {
+         "EN": "OECD Creditor Reporting System (CRS) code list for Finance Types"
+      }, 
+      "keywords": [
+         "crs", 
+         "code", 
+         "codes"
+      ], 
+      "resourceRepresentationType": "codelist", 
+      "seCodeList": {
+         "numberOfLevels": "2", 
+         "typeOfCodeList": "tree"
+      }, 
+      "seCoverage": {
+         "coverageSectors": {
+            "codes": [
+               {
+                  "code": "06"
+               }
+            ], 
+            "idCodeList": "FENIX_Subjects", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "metadataLanguage": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "metadataStandardName": "FENIX metadata", 
+   "metadataStandardVersion": "1.0", 
+   "title": {
+      "EN": "OECD Finance Types"
+   }, 
+   "uid": "crs_finance_types", 
+   "version": "2015"
+}
+--structure--
+csvSeparator=@
+codeColumnsIndex=1,2
+titleColumnsIndex_EN=3
+descriptionColumnsIndex_EN=4
+
+--data--
+@0@NON FLOW ITEMS@Non resource flow items requested on DAC table 1
+0@1@GNI: Gross National Income@
+0@2@ODA % GNI@
+0@3@Total flows % GNI@
+0@4@Population@
+@100@GRANT@Transfers in cash or in kind for which no legal debt is incurred by the recipient.
+100@110@Aid grant excluding debt reorganisation@
+100@110@Aid grant excluding debt reorganisation@
+100@111@Subsidies to national private investors@
+@200@INTEREST SUBSIDY@Subsidies to soften the terms of private export credits, or loans or credits by the banking sector.
+200@210@Interest subsidy grant in AF@
+200@211@Interest subsidy to national private exporters@
+@300@CAPITAL SUBSCRIPTION@Payments to multilateral agencies in the form of notes and similar instruments, unconditionally cashable at sight by the recipient institutions.
+300@310@Deposit basis@
+300@311@Encashment basis@
+@400@LOAN@Transfers in cash or in kind for which the recipient incurs legal debt.
+400@410@Aid loan excluding debt reorganisation@
+400@411@Investment-related loan to developing countries@
+400@412@Loan in a joint venture with the recipient@
+400@413@Loan to national private investor@
+400@414@Loan to national private exporter@
+@450@EXPORT CREDIT@Official or private loans which are primarily export-facilitating in purpose.  They are usually tied to a specific export from the extending country and not represented by a negotiable instrument.
+450@451@Non-banks guaranteed export credits@
+450@452@Non-banks non-guaranteed portions of guaranteed export credits@
+450@453@Bank export credits@
+@500@EQUITY@Investment in a country on the DAC List of ODA Recipients that is not made to acquire a lasting interest in an enterprise.
+500@510@Acquisition of equity as part of a joint venture with the recipient@
+500@511@Acquisition of equity not part of joint venture in developing countries@
+500@512@Other acquisition of equity@
+@600@DEBT RELIEF@Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.
+600@610@Debt forgiveness: ODA claims (P)@
+600@611@Debt forgiveness: ODA claims (I)@
+600@612@Debt forgiveness: OOF claims (P)@
+600@613@Debt forgiveness: OOF claims (I)@
+600@614@Debt forgiveness: Private claims (P)@
+600@615@Debt forgiveness: Private claims (I)@
+600@616@Debt forgiveness: OOF claims (DSR)@
+600@617@Debt forgiveness: Private claims (DSR)@
+600@618@Debt forgiveness: Other@
+600@620@Debt rescheduling: ODA claims (P)@
+600@621@Debt rescheduling: ODA claims (I)@
+600@622@Debt rescheduling: OOF claims (P)@
+600@623@Debt rescheduling: OOF claims (I)@
+600@624@Debt rescheduling: Private claims (P)@
+600@625@Debt rescheduling: Private claims (I)@
+600@626@Debt rescheduling: OOF claims (DSR)@
+600@627@Debt rescheduling: Private claims (DSR)@
+600@630@Debt rescheduling: OOF claim (DSR - original loan principal)@
+600@631@Debt rescheduling: OOF claim (DSR - original loan interest)@
+600@632@Debt rescheduling: Private claim (DSR - original loan principal)@
+@700@INVESTMENT@Investment made by a private entity resident in a reporting country to acquire or add to a lasting interest(1) in an enterprise in a country on the DAC List of ODA Recipients.
+700@710@Foreign direct investment@
+700@711@Other foreign direct investment, including reinvested earnings@
+@800@BONDS@Acquisition of bonds issued by developing countries.
+800@810@Bank bonds@
+800@811@Non-bank  bonds@
+@900@OTHER SECURITIES/CLAIMS@
+900@910@Other bank securities/claims@
+900@911@Other non-bank securities/claims@
+900@912@Securities and other instruments issued by multilateral agencies@

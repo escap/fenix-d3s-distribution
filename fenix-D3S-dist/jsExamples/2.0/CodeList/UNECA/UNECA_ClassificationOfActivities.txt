@@ -391,6 +391,8 @@ titleColumnIndex_EN=3
 0207@02070416@Plus: Statistical discrepancy
 0207@02070417@ Equals: GROSS DOMESTIC PRODUCT
 0207@02070418@Memorandum Item: FISIM, if distributed to uses
+0207@0207801@GDP growth (annual %)
+0207@0207802@GDP per capita (constant 2005 US$)
 0208@020801@Mining production
 0209@020901@Money supply (M1)
 0209@020902@Money supply (M2)
@@ -418,6 +420,8 @@ titleColumnIndex_EN=3
 0211@02110110@Education
 0211@02110112@Hotels, coffee-house and restaurant
 0211@02110113@Other goods and  service
+0211@02110114@Inflation, consumer prices (annual %)
+0211@02110115@Inflation, GDP deflator (annual %)
 0212@021201@Total Revenues and Grants
 0212@02120101@Tax Revenue
 0212@02120102@Non Tax Revenue

@@ -139,7 +139,7 @@ public class Adam extends WDSDatasetDao {
         return uid!=null && uid.startsWith("flude_topic_") ? uid.substring("flude_topic_".length()) : null;
     }
 
-    private String buildQuery(Collection<DSDColumn> columns) {
+    private String buildQuery(Collection<DSDColumn> columns   ) {
         StringBuilder select = new StringBuilder();
 
         for (DSDColumn column : columns)

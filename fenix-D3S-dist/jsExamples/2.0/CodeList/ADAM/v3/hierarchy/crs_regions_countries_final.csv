@@ -1,0 +1,276 @@
+{
+   "characterSet": {
+      "codes": [
+         {
+            "code": "106"
+         }
+      ], 
+      "idCodeList": "IANAcharacterSet", 
+      "version": null
+   }, 
+   "contacts": [
+      {
+         "contactInfo": {
+            "address": null, 
+            "emailAddress": null, 
+            "phone ": null
+         }, 
+         "name": null, 
+         "organization": {
+            "EN": "Organisation for Economic Co-operation and Development (OECD)"
+         }, 
+         "organizationUnit": null, 
+         "role": null
+      }
+   ], 
+   "dsd": {
+      "contextSystem": "adam"
+   }, 
+   "language": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "languageDetails": null, 
+   "meAccessibility": {
+      "seConfidentiality": {
+         "confidentialityStatus": {
+            "codes": [
+               {
+                  "code": "F"
+               }
+            ], 
+            "idCodeList": "CL_CONF_STATUS", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "meContent": {
+      "description": {
+         "EN": "OECD Creditor Reporting System (CRS) code list for Regions Countries"
+      }, 
+      "keywords": [
+         "crs", 
+         "code", 
+         "codes"
+      ], 
+      "resourceRepresentationType": "codelist", 
+      "seCodeList": {
+         "numberOfLevels": "3", 
+         "typeOfCodeList": "tree"
+      }, 
+      "seCoverage": {
+         "coverageSectors": {
+            "codes": [
+               {
+                  "code": "06"
+               }
+            ], 
+            "idCodeList": "FENIX_Subjects", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "metadataLanguage": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "metadataStandardName": "FENIX metadata", 
+   "metadataStandardVersion": "1.0", 
+   "title": {
+      "EN": "OECD Regions Countries"
+   }, 
+   "uid": "crs_regions_countries", 
+   "version": "2015"
+}
+--structure--
+csvSeparator=@
+codeColumnsIndex=1,2
+titleColumnsIndex_EN=3
+titleColumnsIndex_FR=4
+
+--data--
+@10001@Africa@Afrique
+10001@10002@North of Sahara@Nord du Sahara
+10002@130@Algeria@Algérie
+10002@133@Libya@Libye
+10002@136@Morocco@Maroc
+10002@139@Tunisia@Tunisie
+10002@142@Egypt@Egypte
+10001@10003@South of Sahara@Sud du Sahara
+10003@218@South Africa@Afrique du Sud
+10003@225@Angola@Angola
+10003@227@Botswana@Botswana
+10003@228@Burundi@Burundi
+10003@229@Cameroon@Cameroun
+10003@230@Cape Verde@Cabo Verde
+10003@231@Central African Republic@République centrafricaine
+10003@232@Chad@Tchad
+10003@233@Comoros@Comores
+10003@234@Congo@Congo
+10003@235@Democratic Republic of the Congo@République démocratique du Congo
+10003@236@Benin@Bénin
+10003@238@Ethiopia@Ethiopie
+10003@239@Gabon@Gabon
+10003@240@Gambia@Gambie
+10003@241@Ghana@Ghana
+10003@243@Guinea@Guinée
+10003@244@Guinea-Bissau@Guinée-Bissau
+10003@245@Equatorial Guinea@Guinée équatoriale
+10003@247@Côte d'Ivoire@Côte d'Ivoire
+10003@248@Kenya@Kenya
+10003@249@Lesotho@Lesotho
+10003@251@Liberia@Libéria
+10003@252@Madagascar@Madagascar
+10003@253@Malawi@Malawi
+10003@255@Mali@Mali
+10003@256@Mauritania@Mauritanie
+10003@257@Mauritius@Maurice
+10003@258@Mayotte@Mayotte
+10003@259@Mozambique@Mozambique
+10003@260@Niger@Niger
+10003@261@Nigeria@Nigéria
+10003@265@Zimbabwe@Zimbabwe
+10003@266@Rwanda@Rwanda
+10003@268@Sao Tome and Principe@Sao Tomé-et-Principe
+10003@269@Senegal@Sénégal
+10003@270@Seychelles@Seychelles
+10003@271@Eritrea@Erythrée
+10003@272@Sierra Leone@Sierra Leone
+10003@273@Somalia@Somalie
+10003@274@Djibouti@Djibouti
+10003@275@Namibia@Namibie
+10003@276@Saint Helena@Sainte-Hélène
+10003@278@Sudan@Soudan
+10003@279@South Sudan@Soudan du Sud
+10003@280@Swaziland@Swaziland
+10003@282@Tanzania@Tanzanie
+10003@283@Togo@Togo
+10003@285@Uganda@Ouganda
+10003@287@Burkina Faso@Burkina Faso
+10003@288@Zambia@Zambie
+@10004@America@Amérique, régional
+10004@10005@North & Central America@Amérique N.& C.
+10005@329@Barbados@Barbade
+10005@336@Costa Rica@Costa Rica
+10005@338@Cuba@Cuba
+10005@340@Dominican Republic@République dominicaine
+10005@342@El Salvador@El Salvador
+10005@347@Guatemala@Guatemala
+10005@349@Haiti@Haïti
+10005@351@Honduras@Honduras
+10005@352@Belize@Belize
+10005@354@Jamaica@Jamaïque
+10005@358@Mexico@Mexique
+10005@364@Nicaragua@Nicaragua
+10005@366@Panama@Panama
+10005@375@Trinidad and Tobago@Trinité-et-Tobago
+10005@376@Anguilla@Anguilla
+10005@377@Antigua and Barbuda@Antigua-et-Barbuda
+10005@378@Dominica@Dominique
+10005@381@Grenada@Grenade
+10005@382@Saint Kitts and Nevis@Saint-Kitts-et-Nevis
+10005@383@Saint Lucia@Sainte-Lucie
+10005@384@Saint Vincent and the Grenadines@Saint-Vincent-et-les-Grenadines
+10005@385@Montserrat@Montserrat
+10005@387@Turks and Caicos Islands@Turks et Caïques, Iles
+10004@10006@South America@Amérique du Sud
+10006@425@Argentina@Argentine
+10006@428@Bolivia@Bolivie
+10006@431@Brazil@Brésil
+10006@434@Chile@Chili
+10006@437@Colombia@Colombie
+10006@440@Ecuador@Equateur
+10006@446@Guyana@Guyana
+10006@451@Paraguay@Paraguay
+10006@454@Peru@Pérou
+10006@457@Suriname@Suriname
+10006@460@Uruguay@Uruguay
+10006@463@Venezuela@Venezuela
+@10007@Asia@Asie
+10007@10008@Far East Asia@Extrême-Orient
+10008@728@Cambodia@Cambodge
+10008@730@China (People's Republic of)@Chine (République populaire de)
+10008@738@Indonesia@Indonésie
+10008@740@Democratic People's Republic of Korea@République populaire démocratique de Corée
+10008@745@Lao People's Democratic Republic@République démocratique populaire lao
+10008@751@Malaysia@Malaisie
+10008@753@Mongolia@Mongolie
+10008@755@Philippines@Philippines
+10008@764@Thailand@Thaïlande
+10008@765@Timor-Leste@Timor-Leste
+10008@769@Viet Nam@Viet Nam
+10007@10009@South & Central Asia@Asie du Sud & C.
+10009@610@Armenia@Arménie
+10009@611@Azerbaijan@Azerbaïdjan
+10009@612@Georgia@Géorgie
+10009@613@Kazakhstan@Kazakhstan
+10009@614@Kyrgyzstan@Kirghizistan
+10009@615@Tajikistan@Tadjikistan
+10009@616@Turkmenistan@Turkménistan
+10009@617@Uzbekistan@Ouzbékistan
+10009@625@Afghanistan@Afghanistan
+10009@630@Bhutan@Bhoutan
+10009@635@Myanmar@Myanmar
+10009@640@Sri Lanka@Sri Lanka
+10009@645@India@Inde
+10009@655@Maldives@Maldives
+10009@660@Nepal@Népal
+10009@665@Pakistan@Pakistan
+10009@666@Bangladesh@Bangladesh
+@10010@Europe@Europe
+10010@45@Malta@Malte
+10010@55@Turkey@Turquie
+10010@57@Kosovo@Kosovo
+10010@61@Slovenia@Slovénie
+10010@62@Croatia@Croatie
+10010@63@Serbia@Serbie
+10010@64@Bosnia and Herzegovina@Bosnie-Herzégovine
+10010@65@Montenegro@Monténégro
+10010@66@Former Yugoslav Republic of Macedonia@Ex-République yougoslave de Macédoine
+10010@71@Albania@Albanie
+10010@85@Ukraine@Ukraine
+10010@86@Belarus@Bélarus
+10010@88@States Ex-Yugoslavia@Etats ex-Yougoslavie non spécifié
+10010@93@Moldova@Moldova
+@10011@Middle East@Moyen-Orient
+10011@530@Bahrain@Bahreïn
+10011@540@Iran@Iran
+10011@543@Iraq@Iraq
+10011@549@Jordan@Jordanie
+10011@550@West Bank and Gaza Strip@Cisjordanie et bande de Gaza
+10011@555@Lebanon@Liban
+10011@558@Oman@Oman
+10011@566@Saudi Arabia@Arabie saoudite
+10011@573@Syrian Arab Republic@République arabe syrienne
+10011@580@Yemen@Yémen
+@10012@Oceania@Océanie
+10012@831@Cook Islands@Iles Cook
+10012@832@Fiji@Fidji
+10012@836@Kiribati@Kiribati
+10012@845@Nauru@Nauru
+10012@854@Vanuatu@Vanuatu
+10012@856@Niue@Niue
+10012@859@Marshall Islands@Iles Marshall
+10012@860@Micronesia@Micronésie
+10012@861@Palau@Palaos
+10012@862@Papua New Guinea@Papouasie-Nouvelle-Guinée
+10012@866@Solomon Islands@Iles Solomon
+10012@868@Tokelau@Tokélaou
+10012@870@Tonga@Tonga
+10012@872@Tuvalu@Tuvalu
+10012@876@Wallis and Futuna@Wallis-et-Futuna
+10012@880@Samoa@Samoa
+@15006@Regional and Unspecified@
+15006@998@Bilateral, unspecified@
+@9998@Developing countries unspecified@Pays en développement, non spécifié
+9998@998@Bilateral, unspecified@

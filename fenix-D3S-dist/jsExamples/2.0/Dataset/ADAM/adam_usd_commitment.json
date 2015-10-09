@@ -1,0 +1,106 @@
+{
+  "uid" : "adam_usd_commitment",
+  "title" : {
+    "EN" : "Commitment data"
+  },
+  "meContent" : {
+    "resourceRepresentationType": "dataset"
+  },
+
+  "dsd" : {
+    "contextSystem" : "adam",
+    "datasources" : ["adam"],
+    "columns" : [
+      {
+        "id" : "projectshortdescription",
+        "title" : { "EN" : "Project" },
+        "dataType" : "text"
+      },
+      {
+        "id" : "regioncode",
+        "title" : { "EN" : "Recipient region" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "crs_regions_countries", "version" : "2015", "level" : 1 } ] }
+      },
+      {
+        "id" : "recipientcode",
+        "subject" : "geo",
+        "title" : { "EN" : "Recipient country" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "crs_regions_countries", "version" : "2015", "level" : 2 } ] }
+      },
+      {
+        "id" : "year",
+        "title" : { "EN" : "Year" },
+        "dataType" : "year",
+        "subject" : "time"
+      },
+      {
+        "id" : "donorcode",
+        "title" : { "EN" : "Donor" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "crs_donors", "version" : "2015", "level" : 1 } ] }
+      },
+      {
+        "id" : "agencycode",
+        "title" : { "EN" : "Agency" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "crs_agencies", "version" : "2015", "level" : 1 } ] }
+      },
+      {
+        "id" : "financetypecode",
+        "title" : { "EN" : "Finance type" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "crs_finance_types", "version" : "2015", "level" : 1 } ] }
+      },
+      {
+        "id" : "aidtypecode",
+        "title" : { "EN" : "Aid type" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "crs_aid_types", "version" : "2015", "level" : 1 } ] }
+      },
+      {
+        "id" : "purposecode",
+        "title" : { "EN" : "Purpose" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "crs_purposes", "version" : "2015", "level" : 1 } ] }
+      },
+      {
+        "id" : "sectorcode",
+        "title" : { "EN" : "Sector" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "crs_sectors", "version" : "2015", "level" : 1 } ] }
+      },
+      {
+        "id" : "channelcode",
+        "title" : { "EN" : "Channel" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "crs_channels", "version" : "2015", "level" : 1 } ] }
+      },
+      {
+        "id" : "flowcode",
+        "title" : { "EN" : "Flow type" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "crs_flow_types", "version" : "2015", "level" : 1 } ] }
+      },
+      {
+        "id" : "flowamountcode",
+        "title" : { "EN" : "Flow amount" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "crs_flow_amounts", "version" : "2015", "level" : 1 } ] }
+      },
+      {
+        "id" : "value",
+        "subject" : "value",
+        "title" : { "EN" : "Value" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "unitname",
+        "subject" : "um",
+        "title" : { "EN" : "Unit of measure" },
+        "dataType" : "text"
+      }
+    ]
+  }
+}

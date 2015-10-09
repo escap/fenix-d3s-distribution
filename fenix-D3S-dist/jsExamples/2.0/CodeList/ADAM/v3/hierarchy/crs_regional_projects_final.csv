@@ -1,0 +1,116 @@
+{
+   "characterSet": {
+      "codes": [
+         {
+            "code": "106"
+         }
+      ], 
+      "idCodeList": "IANAcharacterSet", 
+      "version": null
+   }, 
+   "contacts": [
+      {
+         "contactInfo": {
+            "address": null, 
+            "emailAddress": null, 
+            "phone ": null
+         }, 
+         "name": null, 
+         "organization": {
+            "EN": "Organisation for Economic Co-operation and Development (OECD)"
+         }, 
+         "organizationUnit": null, 
+         "role": null
+      }
+   ], 
+   "dsd": {
+      "contextSystem": "adam"
+   }, 
+   "language": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "languageDetails": null, 
+   "meAccessibility": {
+      "seConfidentiality": {
+         "confidentialityStatus": {
+            "codes": [
+               {
+                  "code": "F"
+               }
+            ], 
+            "idCodeList": "CL_CONF_STATUS", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "meContent": {
+      "description": {
+         "EN": "OECD Creditor Reporting System (CRS) code list for Regional Projects"
+      }, 
+      "keywords": [
+         "crs", 
+         "code", 
+         "codes"
+      ], 
+      "resourceRepresentationType": "codelist", 
+      "seCodeList": {
+         "numberOfLevels": "1", 
+         "typeOfCodeList": "list"
+      }, 
+      "seCoverage": {
+         "coverageSectors": {
+            "codes": [
+               {
+                  "code": "06"
+               }
+            ], 
+            "idCodeList": "FENIX_Subjects", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "metadataLanguage": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "metadataStandardName": "FENIX metadata", 
+   "metadataStandardVersion": "1.0", 
+   "title": {
+      "EN": "OECD Regional Projects"
+   }, 
+   "uid": "crs_regional_projects", 
+   "version": "2015"
+}
+--structure--
+csvSeparator=@
+codeColumnsIndex=1,2
+titleColumnsIndex_EN=3
+titleColumnsIndex_FR=4
+
+--data--
+@298@Africa, regional@Afrique, régional
+@189@North of Sahara, regional@Nord du Sahara, régional
+@289@South of Sahara, regional@Sud du Sahara, régional
+@498@America, regional@Amérique
+@389@North & Central America, regional@Amérique N.& C., régional
+@380@West Indies, regional@Indes occ., régional
+@489@South America, regional@Amérique du Sud, régional
+@798@Asia, regional@Asie, régional
+@789@Far East Asia, regional@Extrême-Orient, régional
+@679@South Asia, regional@Asie du Sud, régional
+@689@South & Central Asia, regional@Asie du Sud & C., régional
+@619@Central Asia, regional@Asie centrale, régional
+@89@Europe, regional@Europe, régional
+@589@Middle East, regional@Moyen-Orient, régional
+@889@Oceania, regional@Océanie, régional

@@ -1,0 +1,265 @@
+{
+   "characterSet": {
+      "codes": [
+         {
+            "code": "106"
+         }
+      ], 
+      "idCodeList": "IANAcharacterSet", 
+      "version": null
+   }, 
+   "contacts": [
+      {
+         "contactInfo": {
+            "address": null, 
+            "emailAddress": null, 
+            "phone ": null
+         }, 
+         "name": null, 
+         "organization": {
+            "EN": "Organisation for Economic Co-operation and Development (OECD)"
+         }, 
+         "organizationUnit": null, 
+         "role": null
+      }
+   ], 
+   "dsd": {
+      "contextSystem": "adam"
+   }, 
+   "language": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "languageDetails": null, 
+   "meAccessibility": {
+      "seConfidentiality": {
+         "confidentialityStatus": {
+            "codes": [
+               {
+                  "code": "F"
+               }
+            ], 
+            "idCodeList": "CL_CONF_STATUS", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "meContent": {
+      "description": {
+         "EN": "OECD Creditor Reporting System (CRS) code list for Income Groups"
+      }, 
+      "keywords": [
+         "crs", 
+         "code", 
+         "codes"
+      ], 
+      "resourceRepresentationType": "codelist", 
+      "seCodeList": {
+         "numberOfLevels": "2", 
+         "typeOfCodeList": "tree"
+      }, 
+      "seCoverage": {
+         "coverageSectors": {
+            "codes": [
+               {
+                  "code": "06"
+               }
+            ], 
+            "idCodeList": "FENIX_Subjects", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "metadataLanguage": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "metadataStandardName": "FENIX metadata", 
+   "metadataStandardVersion": "1.0", 
+   "title": {
+      "EN": "OECD Income Groups"
+   }, 
+   "uid": "crs_income_groups", 
+   "version": "2015"
+}
+--structure--
+csvSeparator=@
+codeColumnsIndex=1,2
+titleColumnsIndex_EN=3
+titleColumnsIndex_FR=4
+shorttitleColumnsIndex_EN=5
+
+--data--
+@10016@Least Developed Countries (LDCs)@@LDCs
+10016@625@Afghanistan@Afghanistan@
+10016@225@Angola@Angola@
+10016@666@Bangladesh@Bangladesh@
+10016@236@Benin@Bénin@
+10016@630@Bhutan@Bhoutan@
+10016@287@Burkina Faso@Burkina Faso@
+10016@228@Burundi@Burundi@
+10016@728@Cambodia@Cambodge@
+10016@231@Central African Republic@République centrafricaine@
+10016@232@Chad@Tchad@
+10016@233@Comoros@Comores@
+10016@235@Democratic Republic of the Congo@République démocratique du Congo@
+10016@274@Djibouti@Djibouti@
+10016@245@Equatorial Guinea@Guinée équatoriale@
+10016@271@Eritrea@Erythrée@
+10016@238@Ethiopia@Ethiopie@
+10016@240@Gambia@Gambie@
+10016@243@Guinea@Guinée@
+10016@244@Guinea-Bissau@Guinée-Bissau@
+10016@349@Haiti@Haïti@
+10016@836@Kiribati@Kiribati@
+10016@745@Lao People's Democratic Republic@République démocratique populaire lao@
+10016@249@Lesotho@Lesotho@
+10016@251@Liberia@Libéria@
+10016@252@Madagascar@Madagascar@
+10016@253@Malawi@Malawi@
+10016@255@Mali@Mali@
+10016@256@Mauritania@Mauritanie@
+10016@259@Mozambique@Mozambique@
+10016@635@Myanmar@Myanmar@
+10016@660@Nepal@Népal@
+10016@260@Niger@Niger@
+10016@266@Rwanda@Rwanda@
+10016@268@Sao Tome and Principe@Sao Tomé-et-Principe@
+10016@269@Senegal@Sénégal@
+10016@272@Sierra Leone@Sierra Leone@
+10016@866@Solomon Islands@Iles Solomon@
+10016@273@Somalia@Somalie@
+10016@279@South Sudan@Soudan du Sud@
+10016@278@Sudan@Soudan@
+10016@282@Tanzania@Tanzanie@
+10016@765@Timor-Leste@Timor-Leste@
+10016@283@Togo@Togo@
+10016@872@Tuvalu@Tuvalu@
+10016@285@Uganda@Ouganda@
+10016@854@Vanuatu@Vanuatu@
+10016@580@Yemen@Yémen@
+10016@288@Zambia@Zambie@
+@10017@Other Low Income Countries (LICs)@@Other LICs
+10017@740@Democratic People's Republic of Korea@République populaire démocratique de Corée@
+10017@248@Kenya@Kenya@
+10017@615@Tajikistan@Tadjikistan@
+10017@265@Zimbabwe@Zimbabwe@
+@10018@Lower Middle Income Countries and Territories (LMICs)@@LMICs
+10018@610@Armenia@Arménie@
+10018@428@Bolivia@Bolivie@
+10018@229@Cameroon@Cameroun@
+10018@230@Cape Verde@Cabo Verde@
+10018@234@Congo@Congo@
+10018@247@Côte d'Ivoire@Côte d'Ivoire@
+10018@142@Egypt@Egypte@
+10018@342@El Salvador@El Salvador@
+10018@612@Georgia@Géorgie@
+10018@241@Ghana@Ghana@
+10018@347@Guatemala@Guatemala@
+10018@446@Guyana@Guyana@
+10018@351@Honduras@Honduras@
+10018@645@India@Inde@
+10018@738@Indonesia@Indonésie@
+10018@57@Kosovo@Kosovo@
+10018@614@Kyrgyzstan@Kirghizistan@
+10018@860@Micronesia@Micronésie@
+10018@93@Moldova@Moldova@
+10018@753@Mongolia@Mongolie@
+10018@136@Morocco@Maroc@
+10018@364@Nicaragua@Nicaragua@
+10018@261@Nigeria@Nigéria@
+10018@665@Pakistan@Pakistan@
+10018@862@Papua New Guinea@Papouasie-Nouvelle-Guinée@
+10018@451@Paraguay@Paraguay@
+10018@755@Philippines@Philippines@
+10018@880@Samoa@Samoa@
+10018@640@Sri Lanka@Sri Lanka@
+10018@280@Swaziland@Swaziland@
+10018@573@Syrian Arab Republic@République arabe syrienne@
+10018@868@Tokelau@Tokélaou@
+10018@85@Ukraine@Ukraine@
+10018@617@Uzbekistan@Ouzbékistan@
+10018@769@Viet Nam@Viet Nam@
+10018@550@West Bank and Gaza Strip@Cisjordanie et bande de Gaza@
+@10019@Upper Middle Income Countries and Territories (UMICs)@@UMICs
+10019@71@Albania@Albanie@
+10019@130@Algeria@Algérie@
+10019@377@Antigua and Barbuda@Antigua-et-Barbuda@
+10019@425@Argentina@Argentine@
+10019@611@Azerbaijan@Azerbaïdjan@
+10019@86@Belarus@Bélarus@
+10019@352@Belize@Belize@
+10019@64@Bosnia and Herzegovina@Bosnie-Herzégovine@
+10019@227@Botswana@Botswana@
+10019@431@Brazil@Brésil@
+10019@434@Chile@Chili@
+10019@730@China (People's Republic of)@Chine (République populaire de)@
+10019@437@Colombia@Colombie@
+10019@831@Cook Islands@Iles Cook@
+10019@336@Costa Rica@Costa Rica@
+10019@338@Cuba@Cuba@
+10019@378@Dominica@Dominique@
+10019@340@Dominican Republic@République dominicaine@
+10019@440@Ecuador@Equateur@
+10019@832@Fiji@Fidji@
+10019@66@Former Yugoslav Republic of Macedonia@Ex-République yougoslave de Macédoine@
+10019@239@Gabon@Gabon@
+10019@381@Grenada@Grenade@
+10019@540@Iran@Iran@
+10019@543@Iraq@Iraq@
+10019@354@Jamaica@Jamaïque@
+10019@549@Jordan@Jordanie@
+10019@613@Kazakhstan@Kazakhstan@
+10019@555@Lebanon@Liban@
+10019@133@Libya@Libye@
+10019@751@Malaysia@Malaisie@
+10019@655@Maldives@Maldives@
+10019@859@Marshall Islands@Iles Marshall@
+10019@257@Mauritius@Maurice@
+10019@358@Mexico@Mexique@
+10019@65@Montenegro@Monténégro@
+10019@385@Montserrat@Montserrat@
+10019@275@Namibia@Namibie@
+10019@845@Nauru@Nauru@
+10019@856@Niue@Niue@
+10019@861@Palau@Palaos@
+10019@366@Panama@Panama@
+10019@454@Peru@Pérou@
+10019@276@Saint Helena@Sainte-Hélène@
+10019@383@Saint Lucia@Sainte-Lucie@
+10019@384@Saint Vincent and the Grenadines@Saint-Vincent-et-les-Grenadines@
+10019@63@Serbia@Serbie@
+10019@270@Seychelles@Seychelles@
+10019@218@South Africa@Afrique du Sud@
+10019@457@Suriname@Suriname@
+10019@764@Thailand@Thaïlande@
+10019@870@Tonga@Tonga@
+10019@139@Tunisia@Tunisie@
+10019@55@Turkey@Turquie@
+10019@616@Turkmenistan@Turkménistan@
+10019@460@Uruguay@Uruguay@
+10019@463@Venezuela@Venezuela@
+10019@876@Wallis and Futuna@Wallis-et-Futuna@
+@10025@More advanced developing countries and territories (MADCTs)@@MADCTs
+10025@376@Anguilla@Anguilla@
+10025@530@Bahrain@Bahreïn@
+10025@329@Barbados@Barbade@
+10025@62@Croatia@Croatie@
+10025@45@Malta@Malte@
+10025@258@Mayotte@Mayotte@
+10025@558@Oman@Oman@
+10025@382@Saint Kitts and Nevis@Saint-Kitts-et-Nevis@
+10025@566@Saudi Arabia@Arabie saoudite@
+10025@61@Slovenia@Slovénie@
+10025@375@Trinidad and Tobago@Trinité-et-Tobago@
+10025@387@Turks and Caicos Islands@Turks et Caïques, Iles@

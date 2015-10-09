@@ -1,0 +1,280 @@
+{
+   "characterSet": {
+      "codes": [
+         {
+            "code": "106"
+         }
+      ], 
+      "idCodeList": "IANAcharacterSet", 
+      "version": null
+   }, 
+   "contacts": [
+      {
+         "contactInfo": {
+            "address": null, 
+            "emailAddress": null, 
+            "phone ": null
+         }, 
+         "name": null, 
+         "organization": {
+            "EN": "Organisation for Economic Co-operation and Development (OECD)"
+         }, 
+         "organizationUnit": null, 
+         "role": null
+      }
+   ], 
+   "dsd": {
+      "contextSystem": "adam"
+   }, 
+   "language": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "languageDetails": null, 
+   "meAccessibility": {
+      "seConfidentiality": {
+         "confidentialityStatus": {
+            "codes": [
+               {
+                  "code": "F"
+               }
+            ], 
+            "idCodeList": "CL_CONF_STATUS", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "meContent": {
+      "description": {
+         "EN": "OECD Creditor Reporting System (CRS) code list for Fao Regions"
+      }, 
+      "keywords": [
+         "crs", 
+         "code", 
+         "codes"
+      ], 
+      "resourceRepresentationType": "codelist", 
+      "seCodeList": {
+         "numberOfLevels": "3", 
+         "typeOfCodeList": "tree"
+      }, 
+      "seCoverage": {
+         "coverageSectors": {
+            "codes": [
+               {
+                  "code": "06"
+               }
+            ], 
+            "idCodeList": "FENIX_Subjects", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "metadataLanguage": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "metadataStandardName": "FENIX metadata", 
+   "metadataStandardVersion": "1.0", 
+   "title": {
+      "EN": "OECD Fao Regions"
+   }, 
+   "uid": "crs_fao_regions", 
+   "version": "2015"
+}
+--structure--
+csvSeparator=@
+codeColumnsIndex=1,2
+titleColumnsIndex_EN=3
+titleColumnsIndex_FR=4
+shorttitleColumnsIndex_EN=5
+
+--data--
+@RAF@RAF - Regional Office for Africa@@RAF
+RAF@SFC@SFC - Subregional Office for Central Africa@@SFC
+RAF@SFE@SFE - Subregional Office for Eastern Africa@@SFE
+RAF@SFS@SFS - Subregional Office for Southern Africa@@SFS
+RAF@SFW@SFW - Subregional Office for West Africa@@SFW
+SFC@229@Cameroon@Cameroun@
+SFC@231@Central African Republic@République centrafricaine@
+SFC@232@Chad@Tchad@
+SFC@234@Congo@Congo@
+SFC@235@Democratic Republic of the Congo@République démocratique du Congo@
+SFC@245@Equatorial Guinea@Guinée équatoriale@
+SFC@239@Gabon@Gabon@
+SFC@268@Sao Tome and Principe@Sao Tomé-et-Principe@
+SFE@228@Burundi@Burundi@
+SFE@274@Djibouti@Djibouti@
+SFE@238@Ethiopia@Ethiopie@
+SFE@248@Kenya@Kenya@
+SFE@266@Rwanda@Rwanda@
+SFE@273@Somalia@Somalie@
+SFE@278@Sudan@Soudan@
+SFE@285@Uganda@Ouganda@
+SFS@225@Angola@Angola@
+SFS@227@Botswana@Botswana@
+SFS@233@Comoros@Comores@
+SFS@271@Eritrea@Erythrée@
+SFS@249@Lesotho@Lesotho@
+SFS@252@Madagascar@Madagascar@
+SFS@253@Malawi@Malawi@
+SFS@257@Mauritius@Maurice@
+SFS@259@Mozambique@Mozambique@
+SFS@275@Namibia@Namibie@
+SFS@270@Seychelles@Seychelles@
+SFS@218@South Africa@Afrique du Sud@
+SFS@280@Swaziland@Swaziland@
+SFS@282@Tanzania@Tanzanie@
+SFS@288@Zambia@Zambie@
+SFS@265@Zimbabwe@Zimbabwe@
+SFW@236@Benin@Bénin@
+SFW@287@Burkina Faso@Burkina Faso@
+SFW@230@Cape Verde@Cabo Verde@
+SFW@247@Côte d'Ivoire@Côte d'Ivoire@
+SFW@240@Gambia@Gambie@
+SFW@241@Ghana@Ghana@
+SFW@243@Guinea@Guinée@
+SFW@244@Guinea-Bissau@Guinée-Bissau@
+SFW@251@Liberia@Libéria@
+SFW@255@Mali@Mali@
+SFW@260@Niger@Niger@
+SFW@261@Nigeria@Nigéria@
+SFW@269@Senegal@Sénégal@
+SFW@272@Sierra Leone@Sierra Leone@
+SFW@283@Togo@Togo@
+@RAP@RAP - Regional Office for Africa@@RAP
+RAP@SAP@SAP - Subregional Office for the Pacific Islands@@SAP
+RAP@O_RAP@Other RAP Countries@@
+SAP@831@Cook Islands@Iles Cook@
+SAP@832@Fiji@Fidji@
+SAP@836@Kiribati@Kiribati@
+SAP@859@Marshall Islands@Iles Marshall@
+SAP@860@Micronesia@Micronésie@
+SAP@845@Nauru@Nauru@
+SAP@856@Niue@Niue@
+SAP@861@Palau@Palaos@
+SAP@862@Papua New Guinea@Papouasie-Nouvelle-Guinée@
+SAP@880@Samoa@Samoa@
+SAP@866@Solomon Islands@Iles Solomon@
+SAP@870@Tonga@Tonga@
+SAP@872@Tuvalu@Tuvalu@
+SAP@854@Vanuatu@Vanuatu@
+O_RAP@625@Afghanistan@Afghanistan@
+O_RAP@666@Bangladesh@Bangladesh@
+O_RAP@630@Bhutan@Bhoutan@
+O_RAP@728@Cambodia@Cambodge@
+O_RAP@730@China (People's Republic of)@Chine (République populaire de)@
+O_RAP@740@Democratic People's Republic of Korea@République populaire démocratique de Corée@
+O_RAP@645@India@Inde@
+O_RAP@738@Indonesia@Indonésie@
+O_RAP@745@Lao People's Democratic Republic@République démocratique populaire lao@
+O_RAP@751@Malaysia@Malaisie@
+O_RAP@655@Maldives@Maldives@
+O_RAP@753@Mongolia@Mongolie@
+O_RAP@635@Myanmar@Myanmar@
+O_RAP@660@Nepal@Népal@
+O_RAP@665@Pakistan@Pakistan@
+O_RAP@755@Philippines@Philippines@
+O_RAP@640@Sri Lanka@Sri Lanka@
+O_RAP@764@Thailand@Thaïlande@
+O_RAP@765@Timor-Leste@Timor-Leste@
+O_RAP@769@Viet Nam@Viet Nam@
+@REU@REU - Regional Office for Europe and Central Asia@@REU
+REU@SEC@SEC - Subregional Office for Central Asia@@SEC
+REU@SEU@SEU - Subregional Office for Central and Eastern Europe@@SEU
+REU@O_REU@Other REU Countries@@
+SEC@611@Azerbaijan@Azerbaïdjan@
+SEC@613@Kazakhstan@Kazakhstan@
+SEC@614@Kyrgyzstan@Kirghizistan@
+SEC@615@Tajikistan@Tadjikistan@
+SEC@55@Turkey@Turquie@
+SEC@616@Turkmenistan@Turkménistan@
+SEC@617@Uzbekistan@Ouzbékistan@
+SEU@71@Albania@Albanie@
+SEU@610@Armenia@Arménie@
+SEU@64@Bosnia and Herzegovina@Bosnie-Herzégovine@
+SEU@62@Croatia@Croatie@
+SEU@612@Georgia@Géorgie@
+SEU@65@Montenegro@Monténégro@
+SEU@93@Moldova@Moldova@
+SEU@63@Serbia@Serbie@
+SEU@61@Slovenia@Slovénie@
+SEU@66@Former Yugoslav Republic of Macedonia@Ex-République yougoslave de Macédoine@
+SEU@85@Ukraine@Ukraine@
+O_REU@86@Belarus@Bélarus@
+O_REU@45@Malta@Malte@
+@RLC@RLC - Regional Office for Latin America and the Caribbean@@RLC
+RLC@SLC@SLC - Subregional Office for the Caribbean@@SLC
+RLC@SLM@SLM - Subregional Office for Central America@@SLM
+RLC@SLS@SLS - Subregional Office for South America@@SLS
+SLC@377@Antigua and Barbuda@Antigua-et-Barbuda@
+SLC@329@Barbados@Barbade@
+SLC@352@Belize@Belize@
+SLC@338@Cuba@Cuba@
+SLC@378@Dominica@Dominique@
+SLC@340@Dominican Republic@République dominicaine@
+SLC@381@Grenada@Grenade@
+SLC@446@Guyana@Guyana@
+SLC@349@Haiti@Haïti@
+SLC@354@Jamaica@Jamaïque@
+SLC@382@Saint Kitts and Nevis@Saint-Kitts-et-Nevis@
+SLC@383@Saint Lucia@Sainte-Lucie@
+SLC@384@Saint Vincent and the Grenadines@Saint-Vincent-et-les-Grenadines@
+SLC@457@Suriname@Suriname@
+SLC@375@Trinidad and Tobago@Trinité-et-Tobago@
+SLM@336@Costa Rica@Costa Rica@
+SLM@342@El Salvador@El Salvador@
+SLM@347@Guatemala@Guatemala@
+SLM@351@Honduras@Honduras@
+SLM@358@Mexico@Mexique@
+SLM@364@Nicaragua@Nicaragua@
+SLM@366@Panama@Panama@
+SLS@425@Argentina@Argentine@
+SLS@428@Bolivia@Bolivie@
+SLS@431@Brazil@Brésil@
+SLS@434@Chile@Chili@
+SLS@437@Colombia@Colombie@
+SLS@440@Ecuador@Equateur@
+SLS@451@Paraguay@Paraguay@
+SLS@454@Peru@Pérou@
+SLS@460@Uruguay@Uruguay@
+SLS@463@Venezuela@Venezuela@
+@RNE@RNE - Regional Office for the Near East@@RNE
+RNE@SNE@SNE - Subregional Office for North Africa@@SNE
+RNE@SNG@SNG -  Subregional Office for the Gulf Cooperation Council States and Yemen@@SNG
+RNE@SNO@SNO - Subregional Office for Oriental Near East@@SNO
+SNO@142@Egypt@Egypte@
+SNO@540@Iran@Iran@
+SNO@543@Iraq@Iraq@
+SNO@549@Jordan@Jordanie@
+SNO@555@Lebanon@Liban@
+SNO@573@Syrian Arab Republic@République arabe syrienne@
+SNE@130@Algeria@Algérie@
+SNE@133@Libya@Libye@
+SNE@256@Mauritania@Mauritanie@
+SNE@136@Morocco@Maroc@
+SNE@139@Tunisia@Tunisie@
+SNG@530@Bahrain@Bahreïn@
+SNG@558@Oman@Oman@
+SNG@566@Saudi Arabia@Arabie saoudite@
+SNG@580@Yemen@Yémen@
+@NOTFAO@Not included in FAO coverage/No country level data@@
+NOTFAO@88@States Ex-Yugoslavia@Etats ex-Yougoslavie non spécifié@
+NOTFAO@258@Mayotte@Mayotte@
+NOTFAO@276@Saint Helena@Sainte-Hélène@
+NOTFAO@376@Anguilla@Anguilla@
+NOTFAO@385@Montserrat@Montserrat@
+NOTFAO@387@Turks and Caicos Islands@Turks et Caïques, Iles@
+NOTFAO@550@West Bank and Gaza Strip@Cisjordanie et bande de Gaza@
+NOTFAO@868@Tokelau@Tokélaou@
+NOTFAO@876@Wallis and Futuna@Wallis-et-Futuna@
