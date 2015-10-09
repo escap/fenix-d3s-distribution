@@ -113,3 +113,4 @@ titleColumnIndex_EN=3
 @Nigeria 2012-13@Nigeria household survey 2012-13
 @Tanzania 2012-13@Tanzania household survey 2012-13
 @Ethiopia 2013-14@Ethiopia household survey 2013-14
+@HS@Household Surveys
