@@ -191,3 +191,4 @@ titleColumnIndex_EN=3
 @Y6@Data from 2006
 @Z@When the Fertilizer Utilization Account  (FUA)  does not balance due to utilization from stockpiles, apparent consumption has been set to zero
 @ZH@Zero or less than half the unit shown
+
