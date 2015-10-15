@@ -42,25 +42,29 @@
                     "title" : { "EN" : "Qualifier" },
                     "dataType" : "code",
                     "key" : true,
-                    "domain" : { "codes" : [ { "idCodeList" : "RLM_QualifierCodeList" } ] }
+                    "domain" : { "codes" : [ { "idCodeList" : "rlm_RLM_QualifierCodeList" } ] }
                 },
                 {
                     "id" : "SOURCE",
                     "title" : { "EN" : "Source" },
                     "dataType" : "code",
                     "key" : true,
-                    "domain" : { "codes" : [ { "idCodeList" : "RLM_SourceCodeList" } ] }
+                    "domain" : { "codes" : [ { "idCodeList" : "rlm_RLM_SourceCodeList" } ] }
+                },
+                {
+                    "id" : "VALUE",
+                    "subject" : "value",
+                    "title" : { "EN" : "Production (Tonnes)" },
+                    "dataType" : "text"
                 },
                 {
                     "id" : "UM",
                     "title" : { "EN" : "Unit of measure" },
                     "dataType" : "text"
                 },
-
                 {
-                    "id" : "VALUE",
-                    "subject" : "value",
-                    "title" : { "EN" : "Production (Tonnes)" },
+                    "id" : "FLAG",
+                    "title" : { "EN" : "Flag" },
                     "dataType" : "text"
                 }
             ]

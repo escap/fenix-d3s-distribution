@@ -14,8 +14,8 @@ import java.util.*;
 
 public class RLM extends WDSDatasetDao {
 
-    private static final String[] masterTableColumns = new String[]{"country", "year", "year_label", "indicator", "indicator_label", "qualifier", "value", "um", "source", "topic"};
-    private static final int[] masterTableColumnsJdbcType = new int[]{Types.VARCHAR, Types.INTEGER, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR};
+    private static final String[] masterTableColumns = new String[]{"country", "year", "year_label", "indicator", "indicator_label", "qualifier", "value", "um", "source", "topic", "flag"};
+    private static final int[] masterTableColumnsJdbcType = new int[]{Types.VARCHAR, Types.INTEGER, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR};
 
     private static final Map<String, Integer> masterTableColumnsIndex = new HashMap<>();
     private static String insertQueryString;
