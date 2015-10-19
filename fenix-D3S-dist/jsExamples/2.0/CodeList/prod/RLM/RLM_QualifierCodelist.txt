@@ -116,10 +116,12 @@ incquant@Q2@Income quintile 2
 incquant@Q3@Income quintile 3
 incquant@Q4@Income quintile 4
 incquant@Q5@Income quintile 5
-fhs@NS@Non-smallholder households
-fhs@S@Smallholder households
+fhs@NSF@Non-smallholder farms
+fhs@SF@Smallholder farms
+fhs@NF@Non-farmers
 gender@M@Male headed households
 gender@F@Female headed households
 pia@APG30@Income from agriculture greater than 30%
 pia@APL30@Income from agriculture lower than 30%
 pia@APNO@No income from agriculture
+
