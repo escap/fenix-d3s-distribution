@@ -1,0 +1,22 @@
+﻿{
+    "uid": "RLM_TopicsCodeList"
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+--data--
+
+@EHE@1. Employment, Health and Education
+@LNR@2. Land and Natural Resources
+@L@3. Livestock
+@IS@4. Infrastructure and Services
+@IT@5. Inputs and Technology
+@IPI@6. Income, Productivity and Inequality
+@SP@7. Social Protection
+@CC@8. Community Characteristics
+@HC@9. Household Characteristics

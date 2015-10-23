@@ -1,0 +1,146 @@
+{
+   "characterSet": {
+      "codes": [
+         {
+            "code": "106"
+         }
+      ], 
+      "idCodeList": "IANAcharacterSet", 
+      "version": null
+   }, 
+   "contacts": [
+      {
+         "contactInfo": {
+            "address": null, 
+            "emailAddress": null, 
+            "phone ": null
+         }, 
+         "name": null, 
+         "organization": {
+            "EN": "Organisation for Economic Co-operation and Development (OECD)"
+         }, 
+         "organizationUnit": null, 
+         "role": null
+      }
+   ], 
+   "dsd": {
+      "contextSystem": "adam"
+   }, 
+   "language": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "languageDetails": null, 
+   "meAccessibility": {
+      "seConfidentiality": {
+         "confidentialityStatus": {
+            "codes": [
+               {
+                  "code": "F"
+               }
+            ], 
+            "idCodeList": "CL_CONF_STATUS", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "meContent": {
+      "description": {
+         "EN": "OECD Creditor Reporting System (CRS) code list for Sectors"
+      }, 
+      "keywords": [
+         "crs", 
+         "code", 
+         "codes"
+      ], 
+      "resourceRepresentationType": "codelist", 
+      "seCodeList": {
+         "numberOfLevels": "1", 
+         "typeOfCodeList": "list"
+      }, 
+      "seCoverage": {
+         "coverageSectors": {
+            "codes": [
+               {
+                  "code": "02"
+               }
+            ], 
+            "idCodeList": "FENIX_Subjects", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "metadataLanguage": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "metadataStandardName": "FENIX metadata", 
+   "metadataStandardVersion": "1.0", 
+   "title": {
+      "EN": "OECD Sectors"
+   }, 
+   "uid": "crs_sectors", 
+   "version": "2015"
+}
+--structure--
+csvSeparator=@
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+--data--
+@910@Administrative Costs of Donors
+@100@I. Social Infrastructure & Services
+@110@I.1. Education
+@111@I.1.a. Education, Level Unspecified
+@112@I.1.b. Basic Education
+@113@I.1.c. Secondary Education
+@114@I.1.d. Post-Secondary Education
+@120@I.2. Health
+@121@I.2.a. Health, General
+@122@I.2.b. Basic Health
+@130@I.3. Population Pol./Progr. & Reproductive Health
+@140@I.4. Water Supply & Sanitation
+@150@I.5. Government & Civil Society
+@151@I.5.a. Government & Civil Society-general
+@152@I.5.b. Conflict, Peace & Security
+@160@I.6. Other Social Infrastructure & Services
+@200@II. Economic Infrastructure & Services
+@210@II.1. Transport & Storage
+@220@II.2. Communications
+@230@II.3. Energy
+@240@II.4. Banking & Financial Services
+@250@II.5. Business & Other Services
+@300@III. Production Sectors
+@310@III.1. Agriculture, Forestry, Fishing
+@311@III.1.a. Agriculture
+@312@III.1.b. Forestry
+@313@III.1.c. Fishing
+@320@III.2. Industry, Mining, Construction
+@321@III.2.a. Industry
+@322@III.2.b. Mineral Resources & Mining
+@323@III.2.c. Construction
+@331@III.3.a. Trade Policies & Regulations
+@332@III.3.b. Tourism
+@400@IV. Multi-Sector / Cross-Cutting
+@410@IV.1. General Environment Protection
+@430@IV.2. Other Multisector
+@998@IX. Unallocated / Unspecified
+@930@Refugees in Donor Countries
+@998@Sectors not specified
+@510@VI.1. General Budget Support
+@520@VI.2. Dev. Food Aid/Food Security Ass.
+@530@VI.3. Other Commodity Ass.
+@600@VII. Action Relating to Debt
+@720@VIII.1. Emergency Response
+@730@VIII.2. Reconstruction Relief & Rehabilitation
+@740@VIII.3. Disaster Prevention & Preparedness

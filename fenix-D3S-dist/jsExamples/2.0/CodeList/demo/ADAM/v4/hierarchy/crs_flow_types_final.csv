@@ -51,7 +51,7 @@
    }, 
    "meContent": {
       "description": {
-         "EN": "OECD Creditor Reporting System (CRS) code list for Regional Projects"
+         "EN": "OECD Creditor Reporting System (CRS) code list for Flow Types"
       }, 
       "keywords": [
          "crs", 
@@ -60,8 +60,8 @@
       ], 
       "resourceRepresentationType": "codelist", 
       "seCodeList": {
-         "numberOfLevels": "1", 
-         "typeOfCodeList": "list"
+         "numberOfLevels": "2", 
+         "typeOfCodeList": "tree"
       }, 
       "seCoverage": {
          "coverageSectors": {
@@ -87,30 +87,31 @@
    "metadataStandardName": "FENIX metadata", 
    "metadataStandardVersion": "1.0", 
    "title": {
-      "EN": "OECD Regional Projects"
+      "EN": "OECD Flow Types"
    }, 
-   "uid": "crs_regional_projects", 
+   "uid": "crs_flow_types", 
    "version": "2015"
 }
 --structure--
 csvSeparator=@
 codeColumnsIndex=1,2
-titleColumnsIndex_EN=3
-titleColumnsIndex_FR=4
+titleColumnIndex_EN=3
+titleColumnIndex_FR=4
+descriptionColumnIndex_EN=5
+descriptionColumnIndex_FR=6
 
 --data--
-@298@Africa, regional@Afrique, régional
-@189@North of Sahara, regional@Nord du Sahara, régional
-@289@South of Sahara, regional@Sud du Sahara, régional
-@498@America, regional@Amérique
-@389@North & Central America, regional@Amérique N.& C., régional
-@380@West Indies, regional@Indes occ., régional
-@489@South America, regional@Amérique du Sud, régional
-@798@Asia, regional@Asie, régional
-@789@Far East Asia, regional@Extrême-Orient, régional
-@679@South Asia, regional@Asie du Sud, régional
-@689@South & Central Asia, regional@Asie du Sud & C., régional
-@619@Central Asia, regional@Asie centrale, régional
-@89@Europe, regional@Europe, régional
-@589@Middle East, regional@Moyen-Orient, régional
-@889@Oceania, regional@Océanie, régional
+@10@ODA@APD@Official Development Assistance@Aide Publique au Développement
+10@10_11@ODA Grants@@@
+10@10_12@ODA Grant-Like@@@
+10@10_13@ODA Loans@@@
+10@10_19@ODA Equity Investment@@@
+@20@OOF@AASP@Other Official Flows@Autres Apports du Secteur Public
+20@20_14@Other Official Flows (non Export Credit)@@@
+@30@Private grants@Dons privés@made by NGOs and other civil society organisations (e.e. philantropic foundations) based in the reporting DAC country@Dons fournis par les ONG et autres organismes privés (par exemple fondations philantropiques) résidents dans le pays donneur
+30@30_30@Private grants@@@
+@31@Multilateral private flows@@@
+@35@Private market@Apports privés aux conditions du marché@Private market@Apports privés aux conditions du marché
+35@35_30@Private market@@@
+@40@Non flow@Non apports@e.g. GNI@ex : RNB
+@50@Other flows@Autres apports@e.g. non-ODA component of peacebuilding operations)@ex : élément non APD des opérations de maintien de la paix

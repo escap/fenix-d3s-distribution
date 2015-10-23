@@ -51,7 +51,7 @@
    }, 
    "meContent": {
       "description": {
-         "EN": "OECD Creditor Reporting System (CRS) code list for Flow Amounts"
+         "EN": "OECD Creditor Reporting System (CRS) code list for Regional Projects"
       }, 
       "keywords": [
          "crs", 
@@ -87,19 +87,30 @@
    "metadataStandardName": "FENIX metadata", 
    "metadataStandardVersion": "1.0", 
    "title": {
-      "EN": "OECD Flow Amounts"
+      "EN": "OECD Regional Projects"
    }, 
-   "uid": "crs_flow_amounts", 
+   "uid": "crs_regional_projects", 
    "version": "2015"
 }
 --structure--
 csvSeparator=@
 codeColumnsIndex=1,2
-titleColumnsIndex_EN=3
-descriptionColumnsIndex_EN=4
+titleColumnIndex_EN=3
+titleColumnIndex_FR=4
 
 --data--
-@usd_commitment@Commitment Current Prices (USD Mil)@
-@usd_disbursement@Disbursement Current Prices (USD Mil)@
-@usd_commitment_defl@Commitment Constant Prices for 2013 (USD Mil)@Deflated amounts
-@usd_disbursement_defl@Disbursement Constant Prices for 2013 (USD Mil)@Deflated amounts
+@298@Africa, regional@Afrique, régional
+@189@North of Sahara, regional@Nord du Sahara, régional
+@289@South of Sahara, regional@Sud du Sahara, régional
+@498@America, regional@Amérique
+@389@North & Central America, regional@Amérique N.& C., régional
+@380@West Indies, regional@Indes occ., régional
+@489@South America, regional@Amérique du Sud, régional
+@798@Asia, regional@Asie, régional
+@789@Far East Asia, regional@Extrême-Orient, régional
+@679@South Asia, regional@Asie du Sud, régional
+@689@South & Central Asia, regional@Asie du Sud & C., régional
+@619@Central Asia, regional@Asie centrale, régional
+@89@Europe, regional@Europe, régional
+@589@Middle East, regional@Moyen-Orient, régional
+@889@Oceania, regional@Océanie, régional

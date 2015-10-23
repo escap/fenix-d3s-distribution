@@ -95,8 +95,8 @@
 --structure--
 csvSeparator=@
 codeColumnsIndex=1,2
-titleColumnsIndex_EN=3
-descriptionColumnsIndex_EN=4
+titleColumnIndex_EN=3
+descriptionColumnIndex_EN=4
 
 --data--
 @A@Budget support@For contributions under this category, the donor relinquishes the exclusive control of its funds by sharing the responsibility with the recipient.

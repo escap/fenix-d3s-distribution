@@ -1,0 +1,12 @@
+[
+  {
+    "name" : "distinct"
+  },
+  {
+    "name" : "page",
+    "parameters" : {
+      "perPage" : 5,
+      "page" : 2
+    }
+  }
+]

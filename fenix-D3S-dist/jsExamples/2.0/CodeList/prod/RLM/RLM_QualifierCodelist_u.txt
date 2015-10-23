@@ -1,0 +1,36 @@
+﻿{
+    "uid": "RLM_QualifierCodeList"
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+--data--
+
+@gender@Gender
+@area@Area
+@incquant@Income quintiles
+@fhs@Farm holding size
+@pia@Participation in agriculture
+area@N@National
+area@R@Rural
+area@U@Urban
+incquant@Q1@Income quintile 1
+incquant@Q2@Income quintile 2
+incquant@Q3@Income quintile 3
+incquant@Q4@Income quintile 4
+incquant@Q5@Income quintile 5
+fhs@NSF@Non-smallholder farms
+fhs@SF@Smallholder farms
+fhs@NF@Non-farmers
+gender@MH@Male headed households
+gender@FH@Female headed households
+gender@M@Male
+gender@F@Female
+pia@APG30@Income from agriculture greater than 30%
+pia@APL30@Income from agriculture lower than 30%
+pia@APNO@No income from agriculture

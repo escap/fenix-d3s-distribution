@@ -95,10 +95,10 @@
 --structure--
 csvSeparator=@
 codeColumnsIndex=1,2
-titleColumnsIndex_EN=3
-titleColumnsIndex_FR=4
-shortTitleColumnsIndex_EN=5
-shortTitleColumnsIndex_FR=6
+titleColumnIndex_EN=3
+titleColumnIndex_FR=4
+shortTitleColumnIndex_EN=5
+shortTitleColumnIndex_FR=6
 
 --data--
 @10000@PUBLIC SECTOR INSTITUTIONS@INSTITUTIONS DU SECTEUR PUBLIC@@

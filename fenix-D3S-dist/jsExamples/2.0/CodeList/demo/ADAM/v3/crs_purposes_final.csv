@@ -95,7 +95,7 @@
 --structure--
 csvSeparator=@
 codeColumnsIndex=1,2
-titleColumnsIndex_EN=3
+titleColumnIndex_EN=3
 
 --data--
 @60010@Action relating to debt

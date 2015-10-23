@@ -95,9 +95,9 @@
 --structure--
 csvSeparator=@
 codeColumnsIndex=1,2
-titleColumnsIndex_EN=3
-titleColumnsIndex_FR=4
-shorttitleColumnsIndex_EN=5
+titleColumnIndex_EN=3
+titleColumnIndex_FR=4
+shorttitleColumnIndex_EN=5
 
 --data--
 @RAF@RAF - Regional Office for Africa@@RAF

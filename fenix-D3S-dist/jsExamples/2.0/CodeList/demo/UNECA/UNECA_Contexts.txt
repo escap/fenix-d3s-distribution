@@ -1,5 +1,5 @@
-﻿{
-    "uid": "RLM_TopicsCodeList",
+{
+    "uid": "UNECA_Contexts",
 	"version": null,
     "language": {
         "codes": [
@@ -13,7 +13,7 @@
 
     "languageDetails": null,
     "title": {
-        "EN": "Rural Livelihood Monitor - Topics"
+        "EN": "UNECA context systems"
     },
     "creationDate": null,
     "characterSet": {
@@ -40,16 +40,16 @@
     "contacts": [
         {
             "organization": {
-                "EN": "FAO"
+                "EN": "UNECA"
             },
-            "organizationUnit": {"EN":"ESS"},
-            "name": "Piero Conforti",
+            "organizationUnit": null,
+            "name": null,
             "position": null,
             "role": "distributor",
             "contactInfo": {
                 "phone ": null,
-                "address": "Viale delle Terme di Caracalle, 00153 Rome, Italy",	
-                "emailAddress": "piero.conforti@fao.org",
+                "address": null,
+                "emailAddress": null,
                 "hoursOfService": null,
                 "contactIntruction": null
             }
@@ -59,9 +59,21 @@
 
     "meContent": {
         "resourceRepresentationType": "codelist",
-        "keywords": ["qualifier","survey", "RLM"],
-        "description": {"EN":"RLM_QualifierCodelist contains all te qualifier available for each indicator of the survey."},
+        "keywords": ["age range"],
+        "description": null,
         "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": null
+                        }
+                    ],
+                    "idCodeList": null,
+                    "version": null
+                }
+        },
         "seCodeList"  : {
             "numberOfLevels": 1,
             "typeOfCodeList": "list"
@@ -75,6 +87,7 @@
                 "disseminationFormat": null
             }
         },
+
         "seConfidentiality" : {
             "confidentialityStatus": {
                 "codes": [
@@ -89,9 +102,9 @@
 
 
     },
-         "dsd" : {
-             "contextSystem" : "RLM"
-         }
+		"dsd":{
+      "contextSystem":"uneca"
+   }
 }
 
 --structure--
@@ -101,14 +114,10 @@ dateFormat=dd/mm/yyyy
 codeColumnsIndex=1,2
 titleColumnIndex_EN=3
 
+
+
 --data--
 
-@EHE@1. Employment, Health and Education
-@LNR@2. Land and Natural Resources
-@L@3. Livestock
-@IS@4. Infrastructure and Services
-@IT@5. Inputs and Technology
-@IPI@6. Income, Productivity and Inequality
-@SP@7. Social Protection
-@CC@8. Community Characteristics
-@HC@9. Household Characteristics
+@uneca@UNECA
+@FAOSTAT@FAOSTAT
+@crowd@Crowd data

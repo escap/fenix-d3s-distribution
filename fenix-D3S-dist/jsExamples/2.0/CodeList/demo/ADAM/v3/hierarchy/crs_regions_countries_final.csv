@@ -95,8 +95,8 @@
 --structure--
 csvSeparator=@
 codeColumnsIndex=1,2
-titleColumnsIndex_EN=3
-titleColumnsIndex_FR=4
+titleColumnIndex_EN=3
+titleColumnIndex_FR=4
 
 --data--
 @10001@Africa@Afrique
