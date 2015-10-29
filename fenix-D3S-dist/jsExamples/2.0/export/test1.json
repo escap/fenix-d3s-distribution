@@ -1,0 +1,17 @@
+{
+  "resource" : {
+    "metadata" : {
+      "uid" : "FAOSTAT_QA",
+      "version" : null
+    }
+  },
+  "input" : {
+    "plugin" : "inputTable"
+  },
+  "output" : {
+    "plugin" : "outputTable",
+    "config" : {
+      "sheetName" : "D3S dataset data"
+    }
+  }
+}
