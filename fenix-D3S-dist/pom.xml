@@ -110,6 +110,13 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
+       <!-- Export plugins -->
+       <dependency>
+           <groupId>org.fao.fenix</groupId>
+           <artifactId>fenix-D3S-export</artifactId>
+           <version>${project.version}</version>
+       </dependency>
+
        <!-- D3P integration -->
         <dependency>
             <groupId>org.fao.fenix</groupId>
