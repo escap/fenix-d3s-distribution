@@ -104,11 +104,11 @@ titleColumnIndex_EN=3
 --data--
 
 @gender@Gender
-@area@Area
+@area@Urban/Rural
 @incquant@Income quintiles
 @fhs@Farm holding size
 @pia@Participation in agriculture
-area@N@National
+@N@National
 area@R@Rural
 area@U@Urban
 incquant@Q1@Income quintile 1

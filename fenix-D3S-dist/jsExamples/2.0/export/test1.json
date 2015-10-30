@@ -1,7 +1,7 @@
 {
   "resource" : {
     "metadata" : {
-      "uid" : "FAOSTAT_QA",
+      "uid" : "FAOSTAT_QC",
       "version" : null
     }
   },
