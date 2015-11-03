@@ -183,6 +183,7 @@ titleColumnIndex_FR=4
 07@0704@Food@Produits alimentaires et boissons non alcoolisées
 07@0705@Non Food@Non alimentaire
 07@0706@Commercial rate@Taux commercial
+07@0707@Official rate@Taux officiel
 @08@Value added@Valeur ajoutée
 08@0801@Constant prices@Prix constants
 08@0802@Current prices@Prix courants
