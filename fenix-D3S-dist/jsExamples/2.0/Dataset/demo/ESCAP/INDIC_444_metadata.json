@@ -1,0 +1,132 @@
+{
+    "creationDate": 1446699600000,
+    "title": {
+      "EN": "Population growth Indicator"
+    },
+    "dsd": {
+      "columns": [
+        {
+          "dataType": "code",
+          "title": {
+            "EN": "Area"
+          },
+          "domain": {
+            "codes": [
+              {
+                "idCodeList": "ESCAP_AREA"
+              }
+            ]
+          },
+          "subject": "geo",
+          "key": true,
+          "id": "area"
+        },
+        {
+          "dataType": "code",
+          "title": {
+            "EN": "Unit"
+          },
+          "domain": {
+            "codes": [
+              {
+                "idCodeList": "ESCAP_UM"
+              }
+            ]
+          },
+          "subject": "um",
+          "key": false,
+          "id": "um"
+        },
+        {
+          "dataType": "number",
+          "title": {
+            "EN": "Value"
+          },
+          "subject": "value",
+          "key": false,
+          "id": "value"
+        },
+        {
+          "dataType": "year",
+          "title": {
+            "EN": "Time"
+          },
+          "subject": "time",
+          "key": true,
+          "id": "time"
+        }
+      ],
+      "contextSystem": "ESCAP",
+      "datasources": [
+        "D3S"
+      ]
+    },
+    "meContent": {
+      "resourceRepresentationType": "dataset",
+      "resourceRepresentationTypeLabel": {
+        "EN": "Dataset"
+      }
+    },
+    "uid": "INDIC_444",
+    "languageDetails": {
+      "EN": null
+    },
+    "characterSet": {
+      "idCodeList": "IANAcharacterSet",
+      "codes": [
+        {
+          "code": "106"
+        }
+      ]
+    },
+    "metadataStandardName": "FENIX",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+      "version": "1998",
+      "idCodeList": "ISO639-2",
+      "codes": [
+        {
+          "code": "eng"
+        }
+      ]
+    },
+    "contacts": [
+      {
+        "position": {
+          "EN": null
+        },
+        "organization": {
+          "EN": "ESCAP"
+        },
+        "specify": {
+          "EN": null
+        },
+        "contactInfo": {
+          "phone": "000",
+          "hoursOfService": {
+            "EN": null
+          },
+          "contactInstruction": {
+            "EN": null
+          }
+        },
+        "organizationUnit": {
+          "EN": "SD"
+        }
+      }
+    ],
+    "meMaintenance": {
+      "seUpdate": {
+        "updateDate": 1446719164818
+      }
+    },
+    "language": {
+      "version": "1998",
+      "idCodeList": "ISO639-2",
+      "codes": [
+        {
+          "code": "eng"
+        }
+      ]
+    }
+  }

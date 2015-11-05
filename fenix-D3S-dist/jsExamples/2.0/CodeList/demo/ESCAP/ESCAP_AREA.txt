@@ -1,0 +1,209 @@
+{
+    "uid": "ESCAP_AREA",
+	"version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "Area"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "ESCAP"
+            },
+            "organizationUnit": {
+                "EN": "SD"
+            },
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": null,
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["area","geo"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": null
+                        }
+                    ],
+                    "idCodeList": null,
+                    "version": null
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 1,
+            "typeOfCodeList": "list"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    },
+		"dsd":{
+      "contextSystem":"ESCAP"
+   }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+
+@15@Afghanistan
+@18@American Samoa
+@22@Azerbaijan
+@24@Australia
+@28@Bangladesh
+@29@Armenia
+@33@Bhutan
+@39@Solomon Islands
+@41@Brunei Darussalam
+@43@Myanmar
+@5@Cambodia
+@51@Sri Lanka
+@54@China
+@60@Cook Islands
+@78@Fiji
+@82@French Polynesia
+@85@Georgia
+@91@Kiribati
+@96@Guam
+@103@Hong Kong, China
+@106@India
+@107@Indonesia
+@108@Iran (Islamic Rep. of)
+255@115@Japan
+441@115@Japan
+@116@Kazakhstan
+255@119@DPR Korea
+441@119@DPR Korea
+255@120@Republic of Korea
+441@120@Republic of Korea
+@122@Kyrgyzstan
+@123@Lao PDR
+@132@Macao, China
+@135@Malaysia
+@136@Maldives
+@144@Mongolia
+@151@Nauru
+@152@Nepal
+@156@New Caledonia
+@157@Vanuatu
+@158@New Zealand
+@162@Niue
+@165@Northern Mariana Islands
+@166@Micronesia (F.S.)
+@167@Marshall Islands
+@168@Palau
+@169@Pakistan
+@171@Papua New Guinea
+@174@Philippines
+@183@Russian Federation
+@197@Singapore
+@199@Viet Nam
+@213@Tajikistan
+@4@Thailand
+@216@Tonga
+@220@Turkey
+@221@Turkmenistan
+@223@Tuvalu
+@236@Uzbekistan
+@239@Samoa
+@245@Timor-Leste
+@457@USSR (Former)
+@255@East and North-East Asia
+@256@South-East Asia
+@257@South and South-West Asia
+@258@North and Central Asia
+@259@Pacific
+@441@ESCAP
+@261@Africa
+@262@Latin America and Carib.
+@263@North America
+@264@Europe
+@265@Other countries/areas
+@434@LDC
+@433@LLDC
+@432@ASEAN
+@436@SAARC
+@910@ECO
+@437@Central Asia
+@911@Pacific island dev. econ.
+@1012@Low income econ.
+@2318@Lower middle income econ.
+@1013@Upper middle income econ.
+@1014@High income econ.
+@1694@World
+@1788@ESCAP developing economies
+@1787@ESCAP developed economies

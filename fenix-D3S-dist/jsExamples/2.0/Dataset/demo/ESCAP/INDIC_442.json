@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "creationDate": 1446699600000,
+    "title": {
+      "EN": "Population growth Indicator"
+    },
+    "dsd": {
+      "columns": [
+        {
+          "dataType": "code",
+          "title": {
+            "EN": "Area"
+          },
+          "domain": {
+            "codes": [
+              {
+                "idCodeList": "ESCAP_AREA"
+              }
+            ]
+          },
+          "subject": "geo",
+          "key": true,
+          "id": "area"
+        },
+        {
+          "dataType": "code",
+          "title": {
+            "EN": "Unit"
+          },
+          "domain": {
+            "codes": [
+              {
+                "idCodeList": "ESCAP_UM"
+              }
+            ]
+          },
+          "subject": "um",
+          "key": false,
+          "id": "um"
+        },
+        {
+          "dataType": "number",
+          "title": {
+            "EN": "Value"
+          },
+          "subject": "value",
+          "key": false,
+          "id": "value"
+        },
+        {
+          "dataType": "year",
+          "title": {
+            "EN": "Time"
+          },
+          "subject": "time",
+          "key": true,
+          "id": "time"
+        }
+      ],
+      "contextSystem": "ESCAP",
+      "datasources": [
+        "D3S"
+      ]
+    },
+    "meContent": {
+      "resourceRepresentationType": "dataset",
+      "resourceRepresentationTypeLabel": {
+        "EN": "Dataset"
+      }
+    },
+    "uid": "INDIC_442",
+    "languageDetails": {
+      "EN": null
+    },
+    "characterSet": {
+      "idCodeList": "IANAcharacterSet",
+      "codes": [
+        {
+          "code": "106"
+        }
+      ]
+    },
+    "metadataStandardName": "FENIX",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+      "version": "1998",
+      "idCodeList": "ISO639-2",
+      "codes": [
+        {
+          "code": "eng"
+        }
+      ]
+    },
+    "contacts": [
+      {
+        "position": {
+          "EN": null
+        },
+        "organization": {
+          "EN": "ESCAP"
+        },
+        "specify": {
+          "EN": null
+        },
+        "contactInfo": {
+          "phone": "000",
+          "hoursOfService": {
+            "EN": null
+          },
+          "contactInstruction": {
+            "EN": null
+          }
+        },
+        "organizationUnit": {
+          "EN": "SD"
+        }
+      }
+    ],
+    "meMaintenance": {
+      "seUpdate": {
+        "updateDate": 1446719164818
+      }
+    },
+    "language": {
+      "version": "1998",
+      "idCodeList": "ISO639-2",
+      "codes": [
+        {
+          "code": "eng"
+        }
+      ]
+    }
+  },
+  "data": [
+    [
+      "4",
+      "2527",
+      1.479,
+      1989
+    ],
+    [
+      "4",
+      "2527",
+      1.67,
+      1988
+    ],
+    [
+      "4",
+      "2527",
+      1.789,
+      1987
+    ],
+    [
+      "4",
+      "2527",
+      1.828,
+      1986
+    ],
+    [
+      "4",
+      "2527",
+      1.823,
+      1985
+    ],
+    [
+      "4",
+      "2527",
+      1.818,
+      1984
+    ],
+    [
+      "4",
+      "2527",
+      1.833,
+      1983
+    ],
+    [
+      "4",
+      "2527",
+      1.874,
+      1982
+    ],
+    [
+      "4",
+      "2527",
+      1.946,
+      1981
+    ],
+    [
+      "4",
+      "2527",
+      2.032,
+      1980
+    ]
+  ]
+}
