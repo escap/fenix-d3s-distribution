@@ -1,5 +1,4 @@
 {
-    "creationDate": 1446699600000,
     "title": {
       "EN": "Population growth Indicator"
     },
@@ -67,7 +66,7 @@
         "EN": "Dataset"
       }
     },
-    "uid": "INDIC_444",
+    "uid": "INDIC_442",
     "languageDetails": {
       "EN": null
     },
@@ -115,11 +114,6 @@
         }
       }
     ],
-    "meMaintenance": {
-      "seUpdate": {
-        "updateDate": 1446719164818
-      }
-    },
     "language": {
       "version": "1998",
       "idCodeList": "ISO639-2",
