@@ -141,17 +141,15 @@ public class SurveySummaryProcess extends org.fao.fenix.d3p.process.Process<Summ
             Collection<Percentile> populationPercentiles = new LinkedList<>();
 
             queryParams.clear();
-            query = new StringBuilder("select id, total from ( select rownum() as id, subject, total from ( select subject, sum(value) as total from ").append(tableName).append(" where item = 'FOOD_AMOUNT_PROC'");
+            query = new StringBuilder("select id, total from ( select rownum() as id, subject, total from ( select subject, sum( casewhen (").append(getFoodContainedFunction(params, queryParams)).append(", value , 0)) as total from ").append(tableName).append(" where item = 'FOOD_AMOUNT_PROC'");
             selectorSegment = getPopulationSelector(params, queryParams);
             if (selectorSegment!=null)
                 query.append(" and ").append(selectorSegment);
-            selectorSegment = getFoodSelector(params, queryParams);
-            if (selectorSegment!=null)
-                query.append(" and ").append(selectorSegment);
-            query.append("group by subject order by total ) as subject_consumption ) as subject_consumption_index where ").append(getPercentileSelector(queryParams, subjectsNumber, requiredPercentiles));
+            query.append(" group by subject order by total ) as subject_consumption ) as subject_consumption_index where ").append(getPercentileSelector(queryParams, subjectsNumber, requiredPercentiles));
 
-            for (resultSet = databaseUtils.fillStatement(connection.prepareStatement(query.toString()),null,queryParams.toArray()).executeQuery(); resultSet.next(); )
-                populationPercentiles.add(new Percentile(resultSet.getInt(1), resultSet.getDouble(2)));
+            resultSet = databaseUtils.fillStatement(connection.prepareStatement(query.toString()),null,queryParams.toArray()).executeQuery();
+            for (int i=0; resultSet.next() && i<requiredPercentiles.length; i++)
+                populationPercentiles.add(new Percentile(requiredPercentiles[i], resultSet.getDouble(2)));
 
             //Consumers percentiles
             Collection<Percentile> consumersPercentiles = new LinkedList<>();
@@ -164,10 +162,11 @@ public class SurveySummaryProcess extends org.fao.fenix.d3p.process.Process<Summ
             selectorSegment = getFoodSelector(params, queryParams);
             if (selectorSegment!=null)
                 query.append(" and ").append(selectorSegment);
-            query.append("group by subject order by total ) as subject_consumption where total>=15 ) as subject_consumption_index where ").append(getPercentileSelector(queryParams, consumersNumber, requiredPercentiles));
+            query.append(" group by subject order by total ) as subject_consumption where total>=15 ) as subject_consumption_index where ").append(getPercentileSelector(queryParams, consumersNumber, requiredPercentiles));
 
-            for (resultSet = databaseUtils.fillStatement(connection.prepareStatement(query.toString()),null,queryParams.toArray()).executeQuery(); resultSet.next(); )
-                consumersPercentiles.add(new Percentile(resultSet.getInt(1), resultSet.getDouble(2)));
+            resultSet = databaseUtils.fillStatement(connection.prepareStatement(query.toString()),null,queryParams.toArray()).executeQuery();
+            for (int i=0; resultSet.next() && i<requiredPercentiles.length; i++)
+                consumersPercentiles.add(new Percentile(requiredPercentiles[i], resultSet.getDouble(2)));
 
 
             //Build response data
@@ -263,6 +262,19 @@ public class SurveySummaryProcess extends org.fao.fenix.d3p.process.Process<Summ
             return buffer.toString();
         }
         return null;
+    }
+
+    private String getFoodContainedFunction(PopulationFoodFilterParameters params, Collection<Object> queryParams) {
+        if (params!=null && params.food!=null && params.food.size()>0) {
+            StringBuilder buffer = new StringBuilder("ARRAY_CONTAINS ( (");
+            for (int i=0, l=params.food.size(); i<l; i++)
+                buffer.append("?,");
+            buffer.setCharAt(buffer.length()-1,')');
+            buffer.append(",foodex2_code )");
+            queryParams.addAll(params.food);
+            return buffer.toString();
+        }
+        return "false";
     }
 
     private String getPercentileSelector(Collection<Object> queryParams, int populationSize, int ... percentiles) {
