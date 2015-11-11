@@ -1,0 +1,86 @@
+Dashboard 1
+Su tutta la survey
+
+- totale subject (numero) per il filtro popolazione attuale
+SELECT COUNT(*) FROM (SELECT DISTINCT subject FROM DATA."gift_avg_000042BUR201001" ) AS temp
+
+- percentuale di consumo
+    - totale consumo:
+    select sum (value) from DATA."gift_avg_000042BUR201001" where item = 'FOOD_AMOUNT_PROC' and gender = '2' and special_condition = '3' and age_year between 5 and 40
+    - consumo gruppo alimenti
+    select sum (value) from DATA."gift_avg_000042BUR201001" where item = 'FOOD_AMOUNT_PROC' and gender = '2' and special_condition = '3' and age_year between 5 and 40 and foodex2_code in ('A000Y', 'A00BR', 'A0F6B', 'A03FQ', 'A002N', 'A0ETG', 'A010C', 'A000T', 'A00JF', 'A01SN', 'A027J', 'A00ZZ', 'A01AB', 'A013N', 'A037A', 'A00KJ', 'A03NS', 'A02JP', 'A011P', 'A00MJ')
+    - percentuale
+    (consumo gruppo/totale)*100
+
+- Mean consumption, Minimum consumpition and maximum consumption
+select min(total), max(total), avg(total) from (
+select subject, sum(value) as total
+from master_avg where survey_code = '000042BUR201001' and item = 'FOOD_AMOUNT_PROC' and gender = '2' and special_condition = '3' and age_year between 5 and 40 and foodex2_code in ('A000Y', 'A00BR', 'A0F6B', 'A03FQ', 'A002N', 'A0ETG', 'A010C', 'A000T', 'A00JF', 'A01SN', 'A027J', 'A00ZZ', 'A01AB', 'A013N', 'A037A', 'A00KJ', 'A03NS', 'A02JP', 'A011P', 'A00MJ')
+group by subject
+) as bySubject
+
+- Deviazione standard
+(per la formula vedi postit)
+select sum((total-145)*(total-145)) as count from (
+select subject, sum(value) as total
+from master_avg where survey_code = '000042BUR201001' and item = 'FOOD_AMOUNT_PROC' and gender = '2' and special_condition = '3' and age_year between 5 and 40 and foodex2_code in ('A000Y', 'A00BR', 'A0F6B', 'A03FQ', 'A002N', 'A0ETG', 'A010C', 'A000T', 'A00JF', 'A01SN', 'A027J', 'A00ZZ', 'A01AB', 'A013N', 'A037A', 'A00KJ', 'A03NS', 'A02JP', 'A011P', 'A00MJ')
+group by subject
+) as subject_consumption
+P.S. per i soli consumer aggiungere >> where total>=15
+
+
+- Percentile x:
+    - select consumo totale per individuo ordinato per quantità
+    - definizione indici (i = n/100*x (numero subject popolazione / 100)*x + 1)
+    - recupero valore su tali indici
+select id, total from (
+select rownum() as id, subject, total from (
+select subject, sum(value) as total
+from DATA."gift_avg_000042BUR201001" where item = 'FOOD_AMOUNT_PROC' and gender = '2' and special_condition = '3' and age_year between 5 and 40 and foodex2_code in ('A000Y', 'A00BR', 'A0F6B', 'A03FQ', 'A002N', 'A0ETG', 'A010C', 'A000T', 'A00JF', 'A01SN', 'A027J', 'A00ZZ', 'A01AB', 'A013N', 'A037A', 'A00KJ', 'A03NS', 'A02JP', 'A011P', 'A00MJ')
+group by subject
+order by total
+) as subject_consumption
+where total>=15
+) as subject_consumption_index
+where id in (20,50,100,150,200)
+
+
+Numero consumatori
+
+select count(*) as count from (
+select subject, sum(value) as total
+from master_avg where survey_code = '000042BUR201001' and item = 'FOOD_AMOUNT_PROC' and gender = '2' and special_condition = '3' and age_year between 5 and 40 and foodex2_code in ('A000Y', 'A00BR', 'A0F6B', 'A03FQ', 'A002N', 'A0ETG', 'A010C', 'A000T', 'A00JF', 'A01SN', 'A027J', 'A00ZZ', 'A01AB', 'A013N', 'A037A', 'A00KJ', 'A03NS', 'A02JP', 'A011P', 'A00MJ')
+group by subject
+) as subject_consumption
+where total>=15
+
+media =  consumo gruppo alimenti/Numero consumatori
+
+
+
+////////////////////////////////////////////////////////
+- Per il calcolo della distribuzione dei consumi
+select ROW_NUMBER() over (order by total) as id, subject, total from (
+select subject, sum(value) as total
+from master_avg where survey_code = '000042BUR201001' and item = 'FOOD_AMOUNT_PROC' and gender = '2' and special_condition = '3' and age_year between 5 and 40 and foodex2_code in ('A000Y', 'A00BR', 'A0F6B', 'A03FQ', 'A002N', 'A0ETG', 'A010C', 'A000T', 'A00JF', 'A01SN', 'A027J', 'A00ZZ', 'A01AB', 'A013N', 'A037A', 'A00KJ', 'A03NS', 'A02JP', 'A011P', 'A00MJ')
+group by subject
+) as subject_consumption
+where total>0
+
+-Percentuale energia
+
+select sum(energy) as total from
+(select subject, sum(value) as energy
+from master_avg where survey_code = '000042BUR201001' and item = 'ENERGY' and gender = '2' and special_condition = '3' and age_year between 5 and 40 and foodex2_code in ('A000Y', 'A00BR', 'A0F6B', 'A03FQ', 'A002N', 'A0ETG', 'A010C', 'A000T', 'A00JF', 'A01SN', 'A027J', 'A00ZZ', 'A01AB', 'A013N', 'A037A', 'A00KJ', 'A03NS', 'A02JP', 'A011P', 'A00MJ')
+group by subject) as subject_energy
+
+join
+( select subject from (
+select subject, sum(value) as total
+from master_avg where survey_code = '000042BUR201001' and item = 'FOOD_AMOUNT_PROC' and gender = '2' and special_condition = '3' and age_year between 5 and 40 and foodex2_code in ('A000Y', 'A00BR', 'A0F6B', 'A03FQ', 'A002N', 'A0ETG', 'A010C', 'A000T', 'A00JF', 'A01SN', 'A027J', 'A00ZZ', 'A01AB', 'A013N', 'A037A', 'A00KJ', 'A03NS', 'A02JP', 'A011P', 'A00MJ')
+group by subject
+) as subject_consumption
+where total>=15 ) as consumers
+on (subject_energy.subject = consumers.subject)
+
+

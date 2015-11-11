@@ -13,7 +13,7 @@ import javax.transaction.HeuristicRollbackException;
 import java.sql.*;
 import java.util.*;
 
-public class Gift extends WDSDatasetDao {
+public class GiftMasterDAO extends WDSDatasetDao {
     //private static final String[] masterTableColumns = new String[]{ "survey_code", "survey", "adm0_code", "adm1_code", "adm2_code", "gps", "weighting_factor", "household", "subject", "gender", "birth_date", "age_year", "age_month", "first_ant_date", "weight", "height", "method_first_weight", "method_first_height", "second_ant_date", "sweight", "sheight", "method_second_weight", "method_second_height", "special_diet", "special_condition", "energy_intake", "unoverrep", "activity", "education", "ethnic", "profession", "comments", "survey_day", "consumption_date", "week_day", "exception_day", "consumption_time", "meal", "place", "eat_seq", "food_type", "recipe_code", "recipe_descr", "amount_recipe", "code_ingredient", "ingredient", "foodex_description", "foodex2_code", "facet_a", "facet_b", "facet_c", "facet_d", "facet_e", "facet_f", "facet_g", "item", "value", "um" };
     private static final String[] masterTableColumns = new String[]{ "adm0_code", "adm2_code", "gps", "weighting_factor", "household", "subject", "gender", "birth_date", "age_year", "age_month", "first_ant_date", "weight", "height", "method_first_weight", "method_first_height", "second_ant_date", "sweight", "sheight", "method_second_weight", "method_second_height", "special_diet", "special_condition", "energy_intake", "unoverrep", "activity", "education", "ethnic", "profession", "survey_day", "consumption_date", "week_day", "exception_day", "consumption_time", "meal", "place", "eat_seq", "food_type", "recipe_code", "recipe_descr", "amount_recipe", "ingredient", "foodex2_code", "facet_a", "facet_b", "facet_c", "facet_d", "facet_e", "facet_f", "facet_g", "item", "value", "um" };
     //private static final int[] masterTableColumnsJdbcType = new int[]{ Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.REAL, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.DATE, Types.REAL, Types.REAL, Types.DATE, Types.REAL, Types.REAL, Types.VARCHAR, Types.VARCHAR, Types.DATE, Types.REAL, Types.REAL, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.REAL, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.INTEGER, Types.DATE, Types.VARCHAR, Types.VARCHAR, Types.TIMESTAMP, Types.VARCHAR, Types.VARCHAR, Types.INTEGER, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.REAL, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.REAL, Types.VARCHAR };
@@ -63,19 +63,12 @@ public class Gift extends WDSDatasetDao {
             return new LinkedList<Object[]>().iterator();
 
         Connection connection = dataSource.getConnection();
-        try {
-            //connection.setAutoCommit(false);
-            PreparedStatement statement = connection.prepareStatement(buildQuery(columns));
-            statement.setString(1, survey);
-            //statement.setFetchSize(100);
+        connection.setAutoCommit(false);
+        PreparedStatement statement = connection.prepareStatement(buildQuery(columns), ResultSet.TYPE_FORWARD_ONLY, ResultSet.CONCUR_READ_ONLY, ResultSet.FETCH_FORWARD);
+        statement.setString(1, survey);
+        statement.setFetchSize(100);
 
-            return new DataIterator(statement.executeQuery(),connection,null,null);
-        } finally {
-            try {
-                //connection.setAutoCommit(true);
-                connection.close();
-            } catch (SQLException e) { }
-        }
+        return new DataIterator(statement.executeQuery(),connection,null,null);
     }
 
     @Override

@@ -4,32 +4,30 @@ import org.fao.fenix.d3s.cache.manager.listener.Context;
 import org.fao.fenix.d3s.cache.manager.listener.DatasetAccessInfo;
 import org.fao.fenix.d3s.cache.manager.listener.DatasetCacheListener;
 
-@Context({"gift"})
+import java.sql.SQLException;
+
+@Context({"gift_processing"})
 public class GIFTCacheListener implements DatasetCacheListener {
 
     @Override
-    public boolean created(DatasetAccessInfo datasetInfo) {
-        System.out.println("GIFT 1: created");
-        System.out.println(datasetInfo);
+    public boolean updating(DatasetAccessInfo datasetInfo) throws Exception {
+        datasetInfo.getConnection().createStatement().executeUpdate("create index on "+datasetInfo.getTableName()+" (subject)");
+        datasetInfo.getConnection().createStatement().executeUpdate("create index on "+datasetInfo.getTableName()+" (gender, special_condition, age_year)");
+        datasetInfo.getConnection().createStatement().executeUpdate("create index on "+datasetInfo.getTableName()+" (gender, special_condition, age_month)");
+        datasetInfo.getConnection().createStatement().executeUpdate("create index on "+datasetInfo.getTableName()+" (item, gender, special_condition, age_year)");
+        datasetInfo.getConnection().createStatement().executeUpdate("create index on "+datasetInfo.getTableName()+" (item, gender, special_condition, age_month)");
         return false;
     }
 
     @Override
-    public boolean updating(DatasetAccessInfo datasetInfo) {
-        System.out.println("GIFT 1: updating");
-        System.out.println(datasetInfo);
-        return false;
-    }
-
-    @Override
-    public boolean updated(DatasetAccessInfo datasetInfo) {
+    public boolean updated(DatasetAccessInfo datasetInfo) throws Exception {
         System.out.println("GIFT 1: updated");
         System.out.println(datasetInfo);
         return false;
     }
 
     @Override
-    public boolean removing(DatasetAccessInfo datasetInfo) {
+    public boolean removing(DatasetAccessInfo datasetInfo) throws Exception {
         System.out.println("GIFT 1: removing");
         System.out.println(datasetInfo);
         return false;

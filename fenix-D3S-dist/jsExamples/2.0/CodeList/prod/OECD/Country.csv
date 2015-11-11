@@ -1,13 +1,13 @@
 {
-    "uid": "OECD_CommodityClass1",
+    "uid": "OECD_Country",
 	"version": "1.0",
     "title": {
-        "EN": "OECD Commodity Class Agricultural"
+        "EN": "OECD Countries"
     },
     "meContent": {
         "resourceRepresentationType": "codelist",
         "keywords": ["activity", "sector"],
-        "description": {"EN":"OECD Commodity Class Agricultural list"},
+        "description": {"EN":"OECD Countries GAUL code list"},
         "statisticalConceptsDefinitions": null,
         "seCoverage": {
             "coverageSectors":
@@ -113,13 +113,34 @@ codeColumnsIndex=1
 titleColumnIndex_EN=2
 
 --data--
-3;Maize
-9;Maize + Rice
-10;Maize + Soybeans
-2;Rice
-4;Soybeans
-1;Wheat
-8;Wheat + Maize
-11;Wheat + Maize + Rice
-12;Wheat + Rice
+
+12;Argentina
+17;Australia
+37;Brazil
+46;Canada
+53;China
+40765;Egypt
+999000;European Union
+85;France
+93;Germany
+115;India
+116;Indonesia
+122;Italy
+126;Japan
+132;Kazakhstan
+162;Mexico
+182;Nigeria
+196;Philippines
+202;Republic of Korea
+204;Russian Federation
+215;Saudi Arabia
+227;South Africa
+229;Spain
+240;Thailand
+249;Turkey
+256;United Kingdom
+254;Ukraine
+259;United States of America
+264;Viet Nam
+
 
