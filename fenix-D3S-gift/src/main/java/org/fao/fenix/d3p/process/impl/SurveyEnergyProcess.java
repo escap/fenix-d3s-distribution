@@ -120,7 +120,7 @@ public class SurveyEnergyProcess extends org.fao.fenix.d3p.process.Process<Energ
             Iterator<Object[]> data = new LinkedList<>(Arrays.asList(
                 new Object[][]{
                         {"Selected food group", consumedEnergy, "kcal"},
-                        {"Other", totalEnergy, "kcal"}
+                        {"Other", totalEnergy-consumedEnergy, "kcal"}
                 }
             )).iterator();
 

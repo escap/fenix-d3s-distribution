@@ -21,15 +21,11 @@ public class GIFTCacheListener implements DatasetCacheListener {
 
     @Override
     public boolean updated(DatasetAccessInfo datasetInfo) throws Exception {
-        System.out.println("GIFT 1: updated");
-        System.out.println(datasetInfo);
         return false;
     }
 
     @Override
     public boolean removing(DatasetAccessInfo datasetInfo) throws Exception {
-        System.out.println("GIFT 1: removing");
-        System.out.println(datasetInfo);
         return false;
     }
 }
