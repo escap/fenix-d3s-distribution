@@ -1,7 +1,7 @@
 
 
 {
-    "uid": "HS_2",
+    "uid": "CountrySTAT_HS",
 	"version": "2012",
     "language": {
         "codes": [
