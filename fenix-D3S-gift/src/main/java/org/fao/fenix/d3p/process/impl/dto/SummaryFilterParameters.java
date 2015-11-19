@@ -4,6 +4,6 @@ import java.util.Collection;
 import java.util.LinkedList;
 
 public class SummaryFilterParameters extends PopulationFoodFilterParameters {
-    public int[] percentiles;
+    public double[] percentiles;
 
 }

@@ -137,7 +137,7 @@ public class SurveySummaryProcess extends org.fao.fenix.d3p.process.Process<Summ
             consumersStandardDeviation = subjectsNumber>1 ? Math.sqrt(consumersStandardDeviation/(consumersNumber-1)) : null;
 
             //Population percentiles
-            int[] requiredPercentiles = params.percentiles!=null && params.percentiles.length>0 ? params.percentiles : new int[]{10, 25, 50, 75, 90, 95};
+            double[] requiredPercentiles = params.percentiles!=null && params.percentiles.length>0 ? params.percentiles : new double[]{10, 25, 50, 75, 90, 95, 97.5, 99};
             Collection<Percentile> populationPercentiles = new LinkedList<>();
 
             queryParams.clear();
@@ -277,7 +277,7 @@ public class SurveySummaryProcess extends org.fao.fenix.d3p.process.Process<Summ
         return "false";
     }
 
-    private String getPercentileSelector(Collection<Object> queryParams, int populationSize, int ... percentiles) {
+    private String getPercentileSelector(Collection<Object> queryParams, int populationSize, double ... percentiles) {
         if (percentiles!=null && percentiles.length>0 && populationSize>0) {
             StringBuilder buffer = new StringBuilder("id in (");
             for (int i=0; i<percentiles.length; i++) {
