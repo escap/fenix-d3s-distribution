@@ -179,7 +179,8 @@
         "id" : "unitcode",
         "subject" : "um",
         "title" : { "EN" : "Measurement unit" },
-        "domain" : { "codes" : [ { "idCodeList" : "crs_units", "version" : "2015", "level" : 1 } ] }
+        "domain" : { "codes" : [ { "idCodeList" : "crs_units", "version" : "2015", "level" : 1 } ] },
+        "dataType" : "code"
       },
       {
         "id" : "unitname",
