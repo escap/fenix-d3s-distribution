@@ -1,0 +1,275 @@
+{
+   "characterSet": {
+      "codes": [
+         {
+            "code": "106"
+         }
+      ], 
+      "idCodeList": "IANAcharacterSet", 
+      "version": null
+   }, 
+   "contacts": [
+      {
+         "contactInfo": {
+            "address": null, 
+            "emailAddress": null, 
+            "phone ": null
+         }, 
+         "name": null, 
+         "organization": {
+            "EN": "Organisation for Economic Co-operation and Development (OECD)"
+         }, 
+         "organizationUnit": null, 
+         "role": null
+      }
+   ], 
+   "dsd": {
+      "contextSystem": "adam"
+   }, 
+   "language": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "languageDetails": null, 
+   "meAccessibility": {
+      "seConfidentiality": {
+         "confidentialityStatus": {
+            "codes": [
+               {
+                  "code": "F"
+               }
+            ], 
+            "idCodeList": "CL_CONF_STATUS", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "meContent": {
+      "description": {
+         "EN": "OECD Creditor Reporting System (CRS) code list for Recipients"
+      }, 
+      "keywords": [
+         "crs", 
+         "code", 
+         "codes"
+      ], 
+      "resourceRepresentationType": "codelist", 
+      "seCodeList": {
+         "numberOfLevels": "1", 
+         "typeOfCodeList": "list"
+      }, 
+      "seCoverage": {
+         "coverageSectors": {
+            "codes": [
+               {
+                  "code": "02"
+               }
+            ], 
+            "idCodeList": "FENIX_Subjects", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "metadataLanguage": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "metadataStandardName": "FENIX metadata", 
+   "metadataStandardVersion": "1.0", 
+   "title": {
+      "EN": "OECD Recipients"
+   }, 
+   "uid": "crs_recipients", 
+   "version": "2015"
+}
+--structure--
+csvSeparator=@
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+--data--
+@625@Afghanistan
+@298@Africa, regional
+@71@Albania
+@130@Algeria
+@498@America, regional
+@225@Angola
+@376@Anguilla
+@377@Antigua and Barbuda
+@425@Argentina
+@610@Armenia
+@798@Asia, regional
+@611@Azerbaijan
+@530@Bahrain
+@666@Bangladesh
+@329@Barbados
+@86@Belarus
+@352@Belize
+@236@Benin
+@630@Bhutan
+@998@Bilateral, unspecified
+@428@Bolivia
+@64@Bosnia and Herzegovina
+@227@Botswana
+@431@Brazil
+@287@Burkina Faso
+@228@Burundi
+@230@Cabo Verde
+@728@Cambodia
+@229@Cameroon
+@231@Central African Republic
+@619@Central Asia, regional
+@232@Chad
+@434@Chile
+@730@China (People's Republic of)
+@437@Colombia
+@233@Comoros
+@234@Congo
+@831@Cook Islands
+@336@Costa Rica
+@247@Côte d'Ivoire
+@62@Croatia
+@338@Cuba
+@740@Democratic People's Republic of Korea
+@235@Democratic Republic of the Congo
+@274@Djibouti
+@378@Dominica
+@340@Dominican Republic
+@440@Ecuador
+@142@Egypt
+@342@El Salvador
+@245@Equatorial Guinea
+@271@Eritrea
+@238@Ethiopia
+@89@Europe, regional
+@789@Far East Asia, regional
+@832@Fiji
+@66@Former Yugoslav Republic of Macedonia
+@239@Gabon
+@240@Gambia
+@612@Georgia
+@241@Ghana
+@381@Grenada
+@347@Guatemala
+@243@Guinea
+@244@Guinea-Bissau
+@446@Guyana
+@349@Haiti
+@351@Honduras
+@645@India
+@738@Indonesia
+@540@Iran
+@543@Iraq
+@354@Jamaica
+@549@Jordan
+@613@Kazakhstan
+@248@Kenya
+@836@Kiribati
+@57@Kosovo
+@614@Kyrgyzstan
+@745@Lao People's Democratic Republic
+@555@Lebanon
+@249@Lesotho
+@251@Liberia
+@133@Libya
+@252@Madagascar
+@253@Malawi
+@751@Malaysia
+@655@Maldives
+@255@Mali
+@45@Malta
+@859@Marshall Islands
+@256@Mauritania
+@257@Mauritius
+@258@Mayotte
+@358@Mexico
+@860@Micronesia
+@589@Middle East, regional
+@93@Moldova
+@753@Mongolia
+@65@Montenegro
+@385@Montserrat
+@136@Morocco
+@259@Mozambique
+@635@Myanmar
+@275@Namibia
+@845@Nauru
+@660@Nepal
+@364@Nicaragua
+@260@Niger
+@261@Nigeria
+@856@Niue
+@389@North & Central America, regional
+@189@North of Sahara, regional
+@889@Oceania, regional
+@558@Oman
+@665@Pakistan
+@861@Palau
+@366@Panama
+@862@Papua New Guinea
+@451@Paraguay
+@454@Peru
+@755@Philippines
+@266@Rwanda
+@276@Saint Helena
+@382@Saint Kitts and Nevis
+@383@Saint Lucia
+@384@Saint Vincent and the Grenadines
+@880@Samoa
+@268@Sao Tome and Principe
+@566@Saudi Arabia
+@269@Senegal
+@63@Serbia
+@270@Seychelles
+@272@Sierra Leone
+@61@Slovenia
+@866@Solomon Islands
+@273@Somalia
+@689@South & Central Asia, regional
+@218@South Africa
+@489@South America, regional
+@679@South Asia, regional
+@289@South of Sahara, regional
+@279@South Sudan
+@640@Sri Lanka
+@88@States Ex-Yugoslavia
+@278@Sudan
+@457@Suriname
+@280@Swaziland
+@573@Syrian Arab Republic
+@615@Tajikistan
+@282@Tanzania
+@764@Thailand
+@765@Timor-Leste
+@283@Togo
+@868@Tokelau
+@870@Tonga
+@375@Trinidad and Tobago
+@139@Tunisia
+@55@Turkey
+@616@Turkmenistan
+@387@Turks and Caicos Islands
+@872@Tuvalu
+@285@Uganda
+@85@Ukraine
+@460@Uruguay
+@617@Uzbekistan
+@854@Vanuatu
+@463@Venezuela
+@769@Viet Nam
+@876@Wallis and Futuna
+@550@West Bank and Gaza Strip
+@380@West Indies, regional
+@580@Yemen
+@288@Zambia
+@265@Zimbabwe
