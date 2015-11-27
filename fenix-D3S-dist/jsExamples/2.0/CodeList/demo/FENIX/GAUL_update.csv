@@ -1,0 +1,29 @@
+{
+    "uid": "GAUL",
+	"version": "2014"
+}
+
+
+--structure--
+
+
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+startYearColumnIndex=3
+expireYearColumnIndex=4
+titleColumnIndex_PT=5
+titleColumnIndex_EN=6
+titleColumnIndex_FR=7
+titleColumnIndex_ES=8
+titleColumnIndex_ZH=9
+titleColumnIndex_AR=10
+titleColumnIndex_RU=11
+
+
+--data--
+
+
+@270@1000@3000@Zâmbia@Zambia@Zambie@Zambia@赞比亚@زامبيا@Замбия
+270@80000@1000@3000@@Muchinga@@@@@

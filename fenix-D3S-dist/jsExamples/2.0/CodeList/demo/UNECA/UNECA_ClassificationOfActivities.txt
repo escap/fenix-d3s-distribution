@@ -135,6 +135,7 @@ titleColumnIndex_EN=3
 0104@010401@Economically Active Population
 0104@01040101@Economically Active Population by sex
 0104@01040102@Economically Active Population by sector
+0104@01040103@Percentage of Economically Active Population
 0104@010402@Unemployement
 0104@01040201@Unemployement by sex
 0104@01040202@Unemployement by broad age groups
