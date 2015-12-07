@@ -119,7 +119,6 @@ codeColumnsIndex=1,2
 titleColumnIndex_EN=3
 
 
-
 --data--
 
 
@@ -150,3 +149,6 @@ titleColumnIndex_EN=3
 @0125@1000 Ha
 @0126@mm
 @0127@Square meter
+@0128@Household
+@0129@Ton/Ha
+@0130@Km2

@@ -20,7 +20,6 @@ public class L3ResourceCache extends OrientDao implements MetadataListener {
 
     @Override
     public boolean insert(MeIdentification metadata) throws Exception {
-
         return false;
     }
 

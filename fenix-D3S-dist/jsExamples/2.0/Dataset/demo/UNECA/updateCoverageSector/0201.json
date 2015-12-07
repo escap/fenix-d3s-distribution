@@ -1,0 +1,21 @@
+{
+  "filter" : {
+    "uid" : {
+      "enumeration": [
+        "UNECA_AgricultureProduction2", "UNECA_AgricultureProduction3"
+      ]
+    }
+  },
+  "metadata" : {
+    "meContent" : {
+      "seCoverage" : {
+        "coverageSectors" : {
+          "idCodeList" : "UNECA_ClassificationOfActivities",
+          "codes" : [
+            { "code" : "0201" }
+          ]
+        }
+      }
+    }
+  }
+}

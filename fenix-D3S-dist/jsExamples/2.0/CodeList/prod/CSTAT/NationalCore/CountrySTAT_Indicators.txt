@@ -1,5 +1,3 @@
-
-
 {
     "uid": "CountrySTAT_Indicators",
 	"version": null,
@@ -15,7 +13,7 @@
 
     "languageDetails": null,
     "title": {
-        "EN": "CountrySTAT Indicators"
+        "EN": "Indicators"
     },
     "creationDate": null,
     "characterSet": {
@@ -63,7 +61,7 @@
 
     "meContent": {
         "resourceRepresentationType": "codelist",
-        "keywords": ["indicator","element"],
+        "keywords": ["indicators"],
         "description": null,
         "statisticalConceptsDefinitions": null,
         "seCoverage": {
@@ -117,90 +115,64 @@ structure=tree
 dateFormat=dd/mm/yyyy
 codeColumnsIndex=1,2
 titleColumnIndex_EN=3
-titleColumnIndex_FR=4
+
 
 
 --data--
 
-
-@01@Production@Production
-01@0101@Lactating female live animals@Animaux vivants femelles en lactation
-01@0102@Slaughtered animals@Animaux abattus
-01@0103@Live animals@Animaux vivants
-01@0104@Laying hens@Pondeuses
-01@0105@Production of Milk@Production de lait
-01@0106@Production of Meat@Production de viande
-01@0107@Production of Primary Crops@Production des cultures primaires
-01@0108@Production of Eggs@Production des oeufs
-01@0109@Other livestock products derived from live animals@produits de l'élevage issus d'animaux vivants
-01@0110@Area Harvested@Superficie récoltée
-01@0111@Female live animals@Animaux vivants femelles
-01@0112@Production of Seeds@Production de semences
-01@0113@Area sown@Superficie ensemencée
-@02@Food availability@Disponibilité alimentaires
-02@0201@Protein availability@disponibilité en proteines
-02@0202@Lipid availability@disponibilité en lipides
-@03@Trade@Commerce
-03@0301@Export quantity@
-03@0302@Export value@
-03@0303@Import quantity@
-03@0304@Import value@
-03@0305@Consumption@Consommation
-03@0306@Production@
-03@0307@Re-export quantity@
-03@0308@Re-export value@
-@04@Machinery@Machines
-04@0401@Machines in service@Machines en service
-@05@Fishery@Pêche
-05@0501@Quantity of capture marine fish production@Quantité de production des captures des poissons marins 
-05@0502@Quantity of capture inland fish production@Quantité de production des captures intérieures 
-05@0503@Value of capture marine fish production@Valeur de production des captures des poissons marins 
-05@0504@Value of capture inland fish production@Valeur de production des captures intérieures 
-05@0505@Quantity produced@Quantité produite
-05@0506@Quantity of capture fish production@Quantité totale de production des captures
-05@0508@Value of capture fish production@Valeur total de production des captures
-05@0509@Value of capture inland fish production@Valeur de production d'aquaculture d'eau interieur
-05@0510@Value of capture marine fish production@Valeur de production d'aquaculture de mariculture et d'eau saumâtre
-05@0512@Total quantity of annual imported fish products@
-05@0513@Total value of annual imported fish products @
-05@0514@Total quantity of annual exported fish products @
-05@0515@Total value of annual exported fish products @
-@06@Population@Population
-06@0601@Agricultural population@Population agricole
-06@0602@Non-agricultural population@Population non-agricole
-06@0603@Total Population - Female@Population féminine
-06@0604@Total Population - Male@Population masculine
-06@0605@Rural population@Population rurale
-06@0606@Urban population@Population urbaine
-06@0607@Female economically active population@Population féminine économiquement active 
-06@0608@Male economically active population@Population masculine économiquement active
-06@0609@Female economically active population in Agriculture@Population féminine économiquement active en agriculture 
-06@0610@Male economically active population in Agriculture@Population masculine économiquement active en agriculture 
-06@0611@Total Density (km2)@Densité totale (au Kilomètre Carré)
-@07@Prices@Prix
-07@0701@Consumer price@Prix à la consommation
-07@0702@Producer price@Prix à la production
-07@0704@Food@Produits alimentaires et boissons non alcoolisées
-07@0705@Non Food@Non alimentaire
-07@0706@Commercial rate@Taux commercial
-07@0707@Official rate@Taux officiel
-@08@Value added@Valeur ajoutée
-08@0801@Constant prices@Prix constants
-08@0802@Current prices@Prix courants
-08@0803@Agriculture, forestry and fishing@Agriculture, sylviculture et pêche
-08@0804@Industry@Industries
-08@0805@Fishing and aquaculture@Pêche et aquaculture
-08@0806@Forestry and logging@Sylviculture et exploitation forestière
-08@0807@Crop and animal production, hunting and related service activities@
-08@0808@Livestock@
-@09@Land use@Terres
-09@0901@Other wooded lands@Autres terres boisées
-09@0902@Agricultural area irrigated@Superficie agricole irriguée
-09@0903@Forest area@Superficie forestière
-09@0904@Perm. Crops irrigated@Cultures permanentes irriguées
-09@0905@Permanent crops@Cultures permanentes
-09@0906@Temp. Crops irrigated@Cultures temporaires irriguées
-09@0907@Arable land and Permanent crops@Terres arables et cultures permanentes
-09@0908@Country area@Superficie du pays
-09@0909@Land area@Superficie des terres
-09@0910@Agricultural area@Superficie agricole
+@01@Production
+01@0101@Production quantity
+01@0102@Production value
+01@0103@Yield
+01@0104@Area Harvested
+01@0105@Area sown
+01@0106@Seeds quantity
+01@0107@Slaughtered animals
+01@0108@Live animals
+01@0109@Laying hens
+01@0110@Lactating live animals
+@02@Food availability
+02@0201@Protein quantity
+02@0202@Lipid quantity
+02@0203@Food supply quantity
+@03@Trade
+03@0301@Export quantity
+03@0302@Export value
+03@0303@Import quantity
+03@0304@Import value
+03@0305@Consumption quantity
+03@0306@Re-export quantity
+03@0307@Re-export value
+03@0308@Re-import quantity
+03@0309@Re-import value
+@04@Machinery
+04@0401@Machines in service
+@05@Population
+05@0501@Population
+05@0502@Economically active population
+05@0503@Population total density
+05@0504@Population growth Rate 
+@06@Prices
+06@0601@Consumer price
+06@0602@Producer price
+06@0603@Commercial rate
+06@0604@Official rate
+06@0605@Wholesale price
+06@0606@Annual average price
+@07@Value added
+07@0701@Constant prices
+07@0702@Current prices
+@08@Land use
+08@0801@Agricultural area
+08@0802@Permanent crops area
+08@0803@Temporary crops area
+08@0804@Arable land and permanent crops area
+08@0805@Forest area
+08@0806@Other wooded land
+@09@Employment
+09@0901@Unemployment Rate 
+09@0902@Labourforce Participation Rate
+@10@Water
+10@1001@Average rainfall
+10@1002@Max temperature
+10@1003@Min temperature
