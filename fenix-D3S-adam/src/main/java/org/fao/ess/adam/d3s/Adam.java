@@ -45,10 +45,7 @@ public class Adam extends WDSDatasetDao {
 
         Connection connection = dataSource.getConnection();
         try {
-            PreparedStatement statement = connection.prepareStatement(buildQuery(columns, topic));
-
-
-            return new DataIterator(statement.executeQuery(),connection,null,null);
+            return new DataIterator(connection.createStatement().executeQuery(buildQuery(columns, topic)),connection,null,buildNulls(columns));
         } finally {
             try { connection.close(); } catch (SQLException e) { }
         }
@@ -73,13 +70,21 @@ public class Adam extends WDSDatasetDao {
         return uid!=null && uid.startsWith("adam_") ? uid.substring("adam_".length()) : null;
     }
 
+    private Object[] buildNulls(Collection<DSDColumn> columns) {
+        int i=0;
+        Object[] nullValues = new Object[columns.size()];
+        for (DSDColumn column : columns)
+            nullValues[i++] = column.getKey()!=null && column.getKey() ? "NA" : null;
+        return nullValues;
+    }
+
     private String buildQuery(Collection<DSDColumn> columns, String amounttype   ) {
         StringBuilder select = new StringBuilder();
 
         for (DSDColumn column : columns)
             select.append(',').append(column.getId());
 
-        return "select "+select.substring(1)+" FROM "+amounttype +" LIMIT 5";
+        return "select "+select.substring(1)+" FROM "+amounttype;
     }
 
 
