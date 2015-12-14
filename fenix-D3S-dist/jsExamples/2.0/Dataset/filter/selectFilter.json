@@ -1,0 +1,6 @@
+{
+  "query" : "select a,b,c from \"DATA\".adam_usd_commitment where a <> ? and b = ?",
+  "queryParameters" : [
+    {"value" : 10}, {"value" : "10_12"}
+  ]
+}

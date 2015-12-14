@@ -1,0 +1,55 @@
+[
+  {
+    "name" : "filter",
+    "parameters" : {
+      "rows": {
+        "IndicatorCode" : {
+          "codes": [
+            {
+              "uid": "UNECA_ClassificationOfActivities",
+              "version": null,
+              "codes": [ "010101" ]
+            }
+          ]
+        },
+        "CountryCode" : {
+          "codes": [
+            {
+              "uid": "ISO3",
+              "version": null,
+              "codes": [ "ETH" ]
+            }
+          ]
+        },
+        "Year": {
+          "time": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name" : "asTable"
+  },
+  {
+    "name" : "percentage",
+    "parameters" : {
+      "inclusive" : true,
+      "totalRows" : {
+        "AgeRangeCode" : {
+          "codes": [
+            {
+              "uid": "UNECA_AgeRange",
+              "version": null,
+              "codes": [ "AGT" ]
+            }
+          ]
+        }
+      }
+    }
+  }
+]
