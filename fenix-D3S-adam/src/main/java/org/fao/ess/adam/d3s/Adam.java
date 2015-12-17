@@ -44,11 +44,7 @@ public class Adam extends WDSDatasetDao {
             return new LinkedList<Object[]>().iterator();
 
         Connection connection = dataSource.getConnection();
-        try {
-            return new DataIterator(connection.createStatement().executeQuery(buildQuery(columns, topic)),connection,null,buildNulls(columns));
-        } finally {
-            try { connection.close(); } catch (SQLException e) { }
-        }
+        return new DataIterator(connection.createStatement().executeQuery(buildQuery(columns, topic)),connection,null,buildNulls(columns));
     }
 
     @Override
