@@ -1,6 +1,7 @@
 package org.fao.ess.cache.d3s;
 
 import org.fao.fenix.commons.msd.dto.full.MeIdentification;
+import org.fao.fenix.d3s.msd.listener.Context;
 import org.fao.fenix.d3s.msd.listener.MetadataListener;
 import org.fao.fenix.d3s.server.init.MainController;
 import org.fao.fenix.d3s.server.tools.orient.OrientDao;
@@ -19,22 +20,22 @@ public class L3ResourceCache extends OrientDao implements MetadataListener {
     }
 
     @Override
-    public boolean insert(MeIdentification metadata) throws Exception {
-        return false;
+    public void insert (MeIdentification metadata) throws Exception {
+        System.out.println("insert");
     }
 
     @Override
-    public boolean update(MeIdentification currentMetadata, MeIdentification metadata) throws Exception {
-        return false;
+    public void update (MeIdentification currentMetadata, MeIdentification metadata) throws Exception {
+        System.out.println("update");
     }
 
     @Override
-    public boolean append(MeIdentification currentMetadata, MeIdentification metadata) throws Exception {
-        return false;
+    public void append (MeIdentification currentMetadata, MeIdentification metadata) throws Exception {
+        System.out.println("append");
     }
 
     @Override
-    public boolean remove(MeIdentification metadata) throws Exception {
-        return false;
+    public void remove (MeIdentification metadata) throws Exception {
+        System.out.println("delete");
     }
 }
