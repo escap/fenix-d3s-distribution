@@ -9,10 +9,14 @@ public class AdamCacheListener implements DatasetCacheListener {
 
     @Override
     public boolean updating(DatasetAccessInfo datasetInfo) throws Exception {
-        datasetInfo.getConnection().createStatement().executeUpdate("create index on "+datasetInfo.getTableName()+" (sectorcode, year, flowcode)");
-        datasetInfo.getConnection().createStatement().executeUpdate("create index on "+datasetInfo.getTableName()+" (sectorcode, donorcode, year, flowcode)");
-        datasetInfo.getConnection().createStatement().executeUpdate("create index on "+datasetInfo.getTableName()+" (sectorcode, recipientcode, year, flowcode)");
-        datasetInfo.getConnection().createStatement().executeUpdate("create index on "+datasetInfo.getTableName()+" (sectorcode, recipientcode, donorcode, year, flowcode)");
+        datasetInfo.getConnection().createStatement().executeUpdate("create index on "+datasetInfo.getTableName()+" (flowcode, sectorcode, year)");
+        datasetInfo.getConnection().createStatement().executeUpdate("create index on "+datasetInfo.getTableName()+" (flowcode, sectorcode, donorcode, year)");
+        datasetInfo.getConnection().createStatement().executeUpdate("create index on "+datasetInfo.getTableName()+" (flowcode, sectorcode, recipientcode, year)");
+        datasetInfo.getConnection().createStatement().executeUpdate("create index on "+datasetInfo.getTableName()+" (flowcode, sectorcode, recipientcode, donorcode, year)");
+        datasetInfo.getConnection().createStatement().executeUpdate("create index on "+datasetInfo.getTableName()+" (flowcode, purposecode, year)");
+        datasetInfo.getConnection().createStatement().executeUpdate("create index on "+datasetInfo.getTableName()+" (flowcode, purposecode, donorcode, year)");
+        datasetInfo.getConnection().createStatement().executeUpdate("create index on "+datasetInfo.getTableName()+" (flowcode, purposecode, recipientcode, year)");
+        datasetInfo.getConnection().createStatement().executeUpdate("create index on "+datasetInfo.getTableName()+" (flowcode, purposecode, recipientcode, donorcode, year)");
         return false;
     }
 

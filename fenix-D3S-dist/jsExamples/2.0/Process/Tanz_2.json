@@ -1,0 +1,77 @@
+[
+  {
+    "name": "filter",
+    "parameters": {
+      "rows": {
+        "flowcode": {
+          "codes": [
+            {
+              "uid": "crs_flow_types",
+              "version": "2015",
+              "codes": [
+                "10_12",
+                "10_11",
+                "10_13",
+                "10_19"
+              ]
+            }
+          ]
+        },
+        "sectorcode": {
+          "codes": [
+            {
+              "uid": "crs_sectors",
+              "codes": [
+                "600"
+              ],
+              "version": "2015"
+            }
+          ]
+        },
+        "year": {
+          "time": [
+            {
+              "from": 2000,
+              "to": 2003
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "group",
+    "parameters": {
+      "by": [
+        "sectorcode",
+        "year"
+      ],
+      "aggregations": [
+        {
+          "columns": [
+            "value"
+          ],
+          "rule": "SUM"
+        },
+        {
+          "columns": [
+            "unitcode"
+          ],
+          "rule": "FIRST"
+        },
+        {
+          "columns": [
+            "unitname"
+          ],
+          "rule": "FIRST"
+        }
+      ]
+    }
+  },
+  {
+    "name": "order",
+    "parameters": {
+      "year": "ASC"
+    }
+  }
+]
