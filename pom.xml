@@ -11,7 +11,8 @@
   <url>http://fenix.fao.org</url>
 
     <modules>
-        <module>fenix-D3S-L3cache</module>
+        <module>fenix-D3S-cache-postgres</module>
+        <module>fenix-D3S-cache-nginx</module>
         <module>fenix-D3S-CountrySTAT</module>
         <module>fenix-D3S-FAOSTAT</module>
         <module>fenix-D3S-UNECA</module>

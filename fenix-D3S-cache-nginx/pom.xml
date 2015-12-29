@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
     <groupId>org.fao.ess</groupId>
-    <artifactId>fenix-D3S-L3cache</artifactId>
+    <artifactId>fenix-D3S-cache-nginx</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <build>

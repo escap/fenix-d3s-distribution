@@ -67,10 +67,15 @@
            <artifactId>fenix-D3S-mdsd</artifactId>
            <version>${project.version}</version>
        </dependency>
-       <!-- MDSD support -->
+       <!-- Cache support -->
        <dependency>
            <groupId>org.fao.ess</groupId>
-           <artifactId>fenix-D3S-L3cache</artifactId>
+           <artifactId>fenix-D3S-cache-postgres</artifactId>
+           <version>1.0-SNAPSHOT</version>
+       </dependency>
+       <dependency>
+           <groupId>org.fao.ess</groupId>
+           <artifactId>fenix-D3S-cache-nginx</artifactId>
            <version>1.0-SNAPSHOT</version>
        </dependency>
 
