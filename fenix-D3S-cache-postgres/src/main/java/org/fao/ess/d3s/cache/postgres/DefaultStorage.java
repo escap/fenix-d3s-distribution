@@ -70,7 +70,7 @@ public class DefaultStorage extends PostgresStorage {
 
             switch (column.getType()) {
                 case bool:      query.append(" BOOLEAN"); break;
-                case real:      query.append(" DOUBLE"); break;
+                case real:      query.append(" DOUBLE PRECISION"); break;
                 case string:    query.append(" VARCHAR"); break;
                 case array:    query.append(" ARRAY"); break;
                 case object:    query.append(" OTHER"); break;

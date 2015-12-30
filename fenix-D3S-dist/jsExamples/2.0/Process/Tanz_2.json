@@ -52,18 +52,6 @@
             "value"
           ],
           "rule": "SUM"
-        },
-        {
-          "columns": [
-            "unitcode"
-          ],
-          "rule": "FIRST"
-        },
-        {
-          "columns": [
-            "unitname"
-          ],
-          "rule": "FIRST"
         }
       ]
     }
