@@ -135,7 +135,7 @@ public class DefaultStorage extends PostgresStorage {
     private static final int MAX_PAGE_SIZE = 100000;
 
     @Override
-    public Iterator<Object[]> load(Order ordering, Page pagination, DataFilter filter, Table... tables) throws Exception {
+    public Iterator<Object[]> load(Order ordering, Page pagination, Table... tables) throws Exception {
         Collection<ResultSet> data = new LinkedList<>();
         Collection<Object[]> defaults = new LinkedList<>();
         Connection connection = getConnection();
@@ -143,7 +143,7 @@ public class DefaultStorage extends PostgresStorage {
         if (tables!=null && tables.length>0)
             try {
                 for (Table structure : tables)
-                    for (ResultSet resultSet : load(connection, ordering, pagination, filter, structure)) {
+                    for (ResultSet resultSet : load(connection, ordering, pagination, structure)) {
                         data.add(resultSet);
                         defaults.add(structure.getNoDataValues());
                     }
@@ -156,7 +156,7 @@ public class DefaultStorage extends PostgresStorage {
         return data.size()>0 ? new DataIterator(data,connection,10000l,defaults) : null;
     }
 
-    private Collection<ResultSet> load(Connection connection, Order ordering, Page pagination, DataFilter filter, Table table) throws Exception {
+    private Collection<ResultSet> load(Connection connection, Order ordering, Page pagination, Table table) throws Exception {
         //Check table
         StoreStatus status = loadMetadata(table!=null ? table.getTableName() : null);
         if (status==null || status.getStatus()==StoreStatus.Status.incomplete)
@@ -168,7 +168,7 @@ public class DefaultStorage extends PostgresStorage {
         for (int skip = pagination!=null ? pagination.getSkip() : 0, length = size>MAX_PAGE_SIZE ? MAX_PAGE_SIZE : size; length>0; length = (size-=MAX_PAGE_SIZE)>MAX_PAGE_SIZE ? MAX_PAGE_SIZE : size, skip+=MAX_PAGE_SIZE) {
             //Create query
             Collection<Object> params = new LinkedList<>();
-            String query = createFilterQuery(ordering, new Page(skip,length), filter, table, params, false);
+            String query = createFilterQuery(ordering, new Page(skip,length), null, table, params, false);
             //Execute query
             PreparedStatement statement = connection.prepareStatement(query.toString());
             int i=1;
@@ -273,66 +273,6 @@ public class DefaultStorage extends PostgresStorage {
         return status;
     }
 
-    @Override
-    public synchronized StoreStatus store(Table table, DataFilter filter, boolean overwrite, Date referenceDate, Table... tables) throws Exception {
-        String tableName = table!=null ? table.getTableName() : null;
-        StoreStatus status = loadMetadata(tableName);
-        if (status==null)
-            throw new Exception("Unavailable table: "+tableName);
-
-        //Prepare queries
-        String[] queries = new String[tables.length];
-        Collection<Object>[] params = new Collection[tables.length];
-        String[] insertQueriesColumnsSegment = new String[tables.length];
-
-        for (int i=0; i<tables.length; i++) {
-            queries[i] = createFilterQuery(null, null, filter, tables[i], params[i] = new LinkedList<>(), true);
-
-            StringBuilder segment = new StringBuilder();
-            for (Column column : tables[i].getColumns())
-                segment.append(',').append(column.getName());
-            insertQueriesColumnsSegment[i] = segment.substring(1);
-        }
-
-        //Execute queries to populate destination table
-        Connection connection = getConnection();
-        try {
-            int count = 0;
-            //Insert data
-            for (int i=0; i<tables.length; i++) {
-                //Build insert query
-                StringBuilder query = new StringBuilder(overwrite ? "INSERT INTO " : "MERGE INTO ")
-                        .append(getTableName(tableName))
-                        .append(" (").append(insertQueriesColumnsSegment[i]).append(") ")
-                        .append(queries[i]);
-                //Run query
-                PreparedStatement statement = connection.prepareStatement(query.toString());
-                int columnIndex=1;
-                for (Object param : params[i])
-                    statement.setObject(columnIndex++, param);
-                count += statement.executeUpdate();
-            }
-            //Update status
-            status.setStatus(StoreStatus.Status.ready);
-            status.setCount(overwrite ? count : status.getCount() + count);
-            status.setLastUpdate(referenceDate!=null ? referenceDate : new Date());
-            storeMetadata(tableName, status, connection);
-            //Commit changes
-            connection.commit();
-        } catch (Exception ex) {
-            connection.rollback();
-            ex.printStackTrace();
-            throw ex;
-        } finally {
-            if (connection!=null)
-                connection.close();
-        }
-
-        //Return status
-        return status;
-    }
-
-
 
     //METADATA
     private Map<String, StoreStatus> metadata;
@@ -419,51 +359,6 @@ public class DefaultStorage extends PostgresStorage {
             connection.createStatement().executeUpdate("DELETE FROM Metadata WHERE id='" + resourceId + '\'');
             metadata.remove(resourceId);
         }
-    }
-
-    @Override
-    public synchronized void storeMetadata(Map<String, StoreStatus> metadata, boolean overwrite) throws Exception {
-        Connection connection = getConnection();
-        try {
-            Set<String> existingMetadata = loadMetadata().keySet();
-
-            PreparedStatement insertStatement = connection.prepareStatement("INSERT INTO Metadata (status, rowsCount, lastUpdate, timeout, id) VALUES (?,?,?,?,?)");
-            PreparedStatement updateStatement = connection.prepareStatement("UPDATE Metadata SET status=?, rowsCount=?, lastUpdate=?, timeout=? WHERE id=?");
-            for (Map.Entry<String, StoreStatus> statusEntry : metadata.entrySet()) {
-                StoreStatus status = statusEntry.getValue();
-
-                PreparedStatement statement = existingMetadata.remove(statusEntry.getKey()) ? updateStatement : insertStatement;
-                statement.setString(1, status.getStatus().name());
-                if (status.getCount() != null)
-                    statement.setLong(2, status.getCount());
-                statement.setTimestamp(3, new Timestamp(status.getLastUpdate().getTime()));
-                if (status.getTimeout() != null)
-                    statement.setTimestamp(4, new Timestamp(status.getTimeout().getTime()));
-                statement.setString(5, statusEntry.getKey());
-
-                statement.addBatch();
-            }
-            insertStatement.executeBatch();
-            updateStatement.executeBatch();
-
-            if (overwrite && existingMetadata.size() > 0) {
-                StringBuilder deleteQuery = new StringBuilder();
-                for (String id : existingMetadata)
-                    deleteQuery.append(",\"").append(id).append('"');
-                connection.createStatement().executeUpdate("DELETE FROM Metadata WHERE id IN (" + deleteQuery.substring(1) + ')');
-            }
-
-            connection.commit();
-        } catch (Exception ex) {
-            connection.rollback();
-            ex.printStackTrace();
-            throw ex;
-        } finally {
-            this.metadata = null; //Force metadata reload
-            if (connection!=null)
-                connection.close();
-        }
-
     }
 
 
