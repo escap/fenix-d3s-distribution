@@ -94,7 +94,8 @@ public abstract class PostgresStorage implements DatasetStorage {
     //SHUTDOWN FLOW
     @Override
     public void close() {
-        pool.close();
+        if (pool!=null)
+            pool.close();
     }
 
 

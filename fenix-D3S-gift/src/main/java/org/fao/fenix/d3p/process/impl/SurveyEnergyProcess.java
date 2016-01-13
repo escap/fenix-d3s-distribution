@@ -40,8 +40,6 @@ public class SurveyEnergyProcess extends org.fao.fenix.d3p.process.Process<Energ
         String tableName = source!=null ? (String)source.getData() : null;
         DSDDataset dsd = source!=null ? source.getDsd() : null;
         if (tableName!=null && dsd!=null) {
-            //Normalize table name
-            tableName = getCacheStorage().getTableName(tableName);
             double consumedEnergy = 0;
             double totalEnergy = 0;
             Collection<Object> queryParams = new LinkedList<>();

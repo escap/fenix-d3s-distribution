@@ -31,9 +31,6 @@ public class SurveySummaryProcess extends org.fao.fenix.d3p.process.Process<Summ
         String tableName = source!=null ? (String)source.getData() : null;
         DSDDataset dsd = source!=null ? source.getDsd() : null;
         if (tableName!=null && dsd!=null) {
-            //Normalize table name
-            tableName = getCacheStorage().getTableName(tableName);
-
             //Population and consumers number
             Collection<Object> queryParams = new LinkedList<>();
             StringBuilder query = new StringBuilder("SELECT COUNT(*) FROM (SELECT DISTINCT subject FROM ").append(tableName).append(" where item = 'FOOD_AMOUNT_PROC'");
