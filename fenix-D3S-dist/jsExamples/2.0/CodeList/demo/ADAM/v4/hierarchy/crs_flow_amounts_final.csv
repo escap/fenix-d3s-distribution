@@ -1,4 +1,4 @@
-{
+﻿{
    "characterSet": {
       "codes": [
          {
@@ -99,7 +99,7 @@ titleColumnIndex_EN=3
 descriptionColumnIndex_EN=4
 
 --data--
-@usd_commitment@Commitment Current Prices (USD Mil)@
-@usd_disbursement@Disbursement Current Prices (USD Mil)@
-@usd_commitment_defl@Commitment Constant Prices for 2013 (USD Mil)@Deflated amounts
-@usd_disbursement_defl@Disbursement Constant Prices for 2013 (USD Mil)@Deflated amounts
+@adam_usd_commitment@Commitment Current Prices (USD Mil)@
+@adam_usd_disbursement@Disbursement Current Prices (USD Mil)@
+@adam_usd_commitment_defl@Commitment Constant Prices for 2013 (USD Mil)@Deflated amounts
+@adam_usd_disbursement_defl@Disbursement Constant Prices for 2013 (USD Mil)@Deflated amounts
