@@ -1,0 +1,75 @@
+{
+  "metadata" : {
+    "title" : {
+      "EN" : "dan401"
+    },
+    "dsd" : {
+      "datasources" : [ "D3S" ],
+      "contextSystem" : "demo1",
+      "columns" : [ {
+        "dataType" : "year",
+        "title" : {
+          "EN" : "t"
+        },
+        "subject" : "time",
+        "key" : true,
+        "id" : "DIMENSION0"
+      }, {
+        "dataType" : "number",
+        "title" : {
+          "EN" : "v"
+        },
+        "subject" : "value",
+        "key" : false,
+        "id" : "VALUE0"
+      } ]
+    },
+    "meContent" : {
+      "resourceRepresentationType" : "dataset"
+    },
+    "uid" : "dan401b",
+    "meMaintenance" : {
+      "seUpdate" : {
+        "updateDate" : 1447369200000,
+        "updatePeriodicity" : {
+          "version" : "1.0",
+          "codes" : [ { } ],
+          "idCodeList" : "FAO_Period"
+        }
+      }
+    },
+    "contacts" : [ {
+      "organization" : {
+        "EN" : "ooo"
+      },
+      "contactInfo" : {
+        "phone" : "6"
+      }
+    } ],
+    "characterSet" : {
+      "codes" : [ {
+        "code" : "106"
+      } ],
+      "idCodeList" : "IANAcharacterSet"
+    },
+    "metadataStandardName" : "FENIX",
+    "metadataStandardVersion" : "1.0",
+    "metadataLanguage" : {
+      "version" : "1998",
+      "codes" : [ {
+        "code" : "eng"
+      } ],
+      "idCodeList" : "ISO639-2"
+    },
+    "meInstitutionalMandate" : { },
+    "language" : {
+      "version" : "1998",
+      "codes" : [ {
+        "code" : "eng"
+      } ],
+      "idCodeList" : "ISO639-2"
+    }
+  },
+  "data" : [ [ 2015, 5555.0 ] ],
+  "size" : 1
+}
