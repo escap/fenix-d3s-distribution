@@ -1,0 +1,71 @@
+{
+  "uid" : "FAOSTAT_QL",
+  "meContent": {
+    "resourceRepresentationType": "dataset"
+  },
+
+  "dsd": {
+    "contextSystem": "FAOSTAT",
+    "datasources" : ["FAOSTAT"],
+
+    "columns" : [
+      {
+        "id" : "domain",
+        "title" : { "EN" : "Domain" },
+        "dataType" : "code",
+        "key" : false,
+        "domain" : { "codes" : [ { "idCodeList" : "FAOSTAT_GroupDomain" } ] }
+      },
+      {
+        "id" : "country",
+        "subject" : "geo",
+        "title" : { "EN" : "Country" },
+        "dataType" : "code",
+        "key" : true,
+        "domain" : { "codes" : [ { "idCodeList" : "FAOSTAT_Countries" } ] }
+      },
+      {
+        "id" : "year",
+        "subject" : "time",
+        "title" : { "EN" : "Year" },
+        "dataType" : "year",
+        "key" : true
+      },
+      {
+        "id" : "element",
+        "subject" : "element",
+        "title" : { "EN" : "Indicator" },
+        "dataType" : "code",
+        "key" : true,
+        "domain" : { "codes" : [ { "idCodeList" : "FAOSTAT_Elements" } ] }
+      },
+      {
+        "id" : "item",
+        "subject" : "item",
+        "title" : { "EN" : "Item" },
+        "dataType" : "code",
+        "key" : true,
+        "domain" : { "codes" : [ { "idCodeList" : "FAOSTAT_Items" } ] }
+      },
+      {
+        "id" : "value",
+        "subject" : "value",
+        "title" : { "EN" : "Value" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "unit",
+        "subject" : "um",
+        "title" : { "EN" : "Unit of measure" },
+        "dataType" : "text"
+      },
+      {
+        "id" : "flag",
+        "title" : { "EN" : "Flag" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "FAOSTAT_Flags" } ] }
+      }
+    ]
+
+  }
+}

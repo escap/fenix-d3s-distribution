@@ -102,10 +102,10 @@ codeColumnsIndex=1,2
 titleColumnIndex_EN=3
 
 --data--
-@External@External data source
-@WDI@World Bank (WDI)
-@Malawi 2010-11@Malawi household survey
-@Niger@Niger household survey
-@Uganda 2010-11@Uganda household survey
-@FAOSTAT@FAO, Statistics Division (FAOSTAT)
 
+@External@External data - National level
+@WDI@World Bank (WDI)
+@FAOSTAT@"FAO@ Statistics Division (FAOSTAT)"
+@HSHL@Household Survey data - Household level
+@HSIL@Household Survey data - Individual level
+@HSCL@Household Survey data - Community level

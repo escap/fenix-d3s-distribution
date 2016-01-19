@@ -1,0 +1,19 @@
+{
+  "filter" : {
+    "dsd.contextSystem" : {
+      "enumeration": [
+        "UAE"
+      ]
+    },
+    "meContent.resourceRepresentationType" : {
+      "enumeration" : ["dataset"]
+    }
+  },
+  "metadata" : {
+    "meMaintenance" : {
+      "seUpdate" : {
+        "updateDate" : 1443429729681
+      }
+    }
+  }
+}

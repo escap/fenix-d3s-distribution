@@ -1,0 +1,348 @@
+{
+  "uid" : "gift_000042BUR201001",
+  "title" : {
+    "EN" : "Burkina Faso - HarvestPlus/IRD, 2010"
+  },
+  "meContent" : {
+    "resourceRepresentationType": "dataset",
+    "seCoverage" : {
+      "coverageGeographic" : {
+        "idCodeList" : "GAUL", "version" : "2014",
+        "codes" : [{"code" : "42"}]
+      }
+    }
+  },
+  "contacts": [
+    {
+      "organization": {
+        "EN": "WHO-FAO"
+      },
+      "organizationUnit": {
+        "EN" : "Institut de Recherche pour le Développement"
+      },
+      "name": "Pauline Allemand",
+      "position": null,
+      "role": "distributor",
+      "contactInfo": {
+        "phone ": "+390657053879",
+        "address": null,
+        "emailAddress": "pauline.allemand@gmail.com",
+        "hoursOfService": null,
+        "contactIntruction": null
+      }
+    }
+  ],
+
+  "dsd" : {
+    "contextSystem" : "gift",
+    "datasources" : ["gift"],
+    "columns" : [
+      {
+        "id" : "adm0_code",
+        "subject" : "geo",
+        "title" : { "EN" : "Country" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GAUL", "version" : "2014", "level" : 1 } ] }
+      },
+      {
+        "id" : "adm2_code",
+        "title" : { "EN" : "Subregion" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GAUL", "version" : "2014", "level" : 3} ] }
+      },
+      {
+        "id" : "gps",
+        "title" : { "EN" : "Geolocation" },
+        "dataType" : "text"
+      },
+      {
+        "id" : "weighting_factor",
+        "title" : { "EN" : "Weight factor" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "household",
+        "title" : { "EN" : "ID Household" },
+        "dataType" : "text"
+      },
+      {
+        "id" : "subject",
+        "title" : { "EN" : "ID Subject" },
+        "dataType" : "text",
+        "key" : true
+      },
+      {
+        "id" : "gender",
+        "title" : { "EN" : "Gender" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Gender" } ] }
+      },
+      {
+        "id" : "birth_date",
+        "title" : { "EN" : "Date of birth" },
+        "dataType" : "date"
+      },
+      {
+        "id" : "age_year",
+        "title" : { "EN" : "Age (years)" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "age_month",
+        "title" : { "EN" : "Age (months)" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "first_ant_date",
+        "title" : { "EN" : "Date of measurement" },
+        "dataType" : "date"
+      },
+      {
+        "id" : "weight",
+        "title" : { "EN" : "Weight (kg)" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "height",
+        "title" : { "EN" : "Height (cm)" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "method_first_weight",
+        "title" : { "EN" : "Method for body weight measurement" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_MethodMeasurement" } ] }
+      },
+      {
+        "id" : "method_first_height",
+        "title" : { "EN" : "Method for height measurement" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_MethodMeasurement" } ] }
+      },
+      {
+        "id" : "second_ant_date",
+        "title" : { "EN" : "Date of second measurement" },
+        "dataType" : "date"
+      },
+      {
+        "id" : "sweight",
+        "title" : { "EN" : "Weight (kg) - Second measurement" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "sheight",
+        "title" : { "EN" : "Height (cm) - Second measurement" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "method_second_weight",
+        "title" : { "EN" : "Method for body weight second measurement" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_MethodMeasurement" } ] }
+      },
+      {
+        "id" : "method_second_height",
+        "title" : { "EN" : "Method for height second measurement" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_MethodMeasurement" } ] }
+      },
+      {
+        "id" : "special_diet",
+        "title" : { "EN" : "Special diet" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_SpecialDiet" } ] }
+      },
+      {
+        "id" : "special_condition",
+        "title" : { "EN" : "Special condition" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_SpecialConditions" } ] }
+      },
+      {
+        "id" : "energy_intake",
+        "title" : { "EN" : "Daily energy intake" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "unoverrep",
+        "title" : { "EN" : "Outliers" },
+        "dataType" : "text"
+      },
+      {
+        "id" : "activity",
+        "title" : { "EN" : "Physical activity level" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_PhysicalActivityLevel" } ] }
+      },
+      {
+        "id" : "education",
+        "title" : { "EN" : "Education" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Education" } ] }
+      },
+      {
+        "id" : "ethnic",
+        "title" : { "EN" : "Ethnic group" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Ethnicity" } ] }
+      },
+      {
+        "id" : "profession",
+        "title" : { "EN" : "Profession" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Occupation" } ] }
+      },
+      {
+        "id" : "survey_day",
+        "title" : { "EN" : "Recall number" },
+        "dataType" : "number",
+        "key" : true
+      },
+      {
+        "id" : "consumption_date",
+        "subject" : "time",
+        "title" : { "EN" : "Date of consumption" },
+        "dataType" : "date"
+      },
+      {
+        "id" : "week_day",
+        "title" : { "EN" : "Week day of consumption" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_WeekDay" } ] }
+      },
+      {
+        "id" : "exception_day",
+        "title" : { "EN" : "Exceptional diet the day of consumption" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_ExceptionalDiet" } ] }
+      },
+      {
+        "id" : "consumption_time",
+        "title" : { "EN" : "Time of consumption" },
+        "dataType" : "time"
+      },
+      {
+        "id" : "meal",
+        "title" : { "EN" : "Period of consumption" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_PeriodConsumption" } ] },
+        "key" : true
+      },
+      {
+        "id" : "place",
+        "title" : { "EN" : "Place of consumption" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_PlaceConsumption" } ] }
+      },
+      {
+        "id" : "eat_seq",
+        "title" : { "EN" : "Eat sequence number" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "food_type",
+        "title" : { "EN" : "Type of the eating occasion" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_EatingOccasion" } ] }
+      },
+      {
+        "id" : "recipe_code",
+        "title" : { "EN" : "Recipe code" },
+        "dataType" : "text",
+        "key" : true
+      },
+      {
+        "id" : "recipe_descr",
+        "title" : { "EN" : "Recipe description" },
+        "dataType" : "text"
+      },
+      {
+        "id" : "amount_recipe",
+        "title" : { "EN" : "Amount recipe consummed (g)" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "ingredient",
+        "title" : { "EN" : "Food item or Ingredient description" },
+        "dataType" : "text"
+      },
+      {
+        "id" : "foodex2_code",
+        "title" : { "EN" : "FoodEx2" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Foods" } ] },
+        "key" : true
+      },
+      {
+        "id" : "facet_a",
+        "title" : { "EN" : "Facet A" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Facets" } ] },
+        "key" : true
+      },
+      {
+        "id" : "facet_b",
+        "title" : { "EN" : "Facet B" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Facets" } ] },
+        "key" : true
+      },
+      {
+        "id" : "facet_c",
+        "title" : { "EN" : "Facet C" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Facets" } ] },
+        "key" : true
+      },
+      {
+        "id" : "facet_d",
+        "title" : { "EN" : "Facet D" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Facets" } ] },
+        "key" : true
+      },
+      {
+        "id" : "facet_e",
+        "title" : { "EN" : "Facet E" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Facets" } ] },
+        "key" : true
+      },
+      {
+        "id" : "facet_f",
+        "title" : { "EN" : "Facet F" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Facets" } ] },
+        "key" : true
+      },
+      {
+        "id" : "facet_g",
+        "title" : { "EN" : "Facet G" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Facets" } ] },
+        "key" : true
+      },
+      {
+        "id" : "item",
+        "subject" : "item",
+        "title" : { "EN" : "Item" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Items" } ] } ,
+        "key" : true
+      },
+      {
+        "id" : "value",
+        "subject" : "value",
+        "title" : { "EN" : "Value" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "um",
+        "subject" : "um",
+        "title" : { "EN" : "Unit of measure" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_UM" } ] }
+      }
+    ]
+  }
+}

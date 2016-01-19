@@ -1,0 +1,194 @@
+{
+    "uid": "FAOSTAT_Flags",
+	"version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "FAOSTAT Flags"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "FAO"
+            },
+            "organizationUnit": {
+                "EN": "ESS-FAOSTAT"
+            },
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": null,
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["flag"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": null
+                        }
+                    ],
+                    "idCodeList": null,
+                    "version": null
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 1,
+            "typeOfCodeList": "list"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    },
+		"dsd":{
+      "contextSystem":"FAOSTAT"
+   }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+
+--data--
+
+@ @Official data
+@*@Unofficial figure
+@<.1A@Less than 100 000 people undernourished, year refers to last year of 3-year average
+@<0.1@Less than 100 000 people undernourished
+@<5@Proportion of undernourished less than five percent
+@<5A@Proportion of undernourished less than five percent, year refers to last year of 3-year average
+@A@Aggregate, may include official, semi-official or estimated data
+@AP@Year refers to last year of 3-year average based on projections
+@AS@ASTI (Agricultural Science and Technology Indicators). 2013. ASTI database. http://www.asti.cgiar.org/data.
+@AV@Year refers to last year of 3-year average
+@B@Balance
+@C@Calculated
+@Ce@Calculated data based on estimated data
+@Cf@FAOSTAT estimate
+@Co@NULLCoefficients
+@CS@FAO computation from survey data
+@Cv@Calculated through value
+@E@Expert sources from FAO (including other divisions)
+@EA@Emissions computed using data from Fertilizer Archive dataset
+@F@FAO estimate
+@F0@Zero either by algorithm or data insertion
+@F1@No data available for these under any subject, namely production and trade
+@Fb@Data obtained as a balance
+@Fc@Calculated data
+@Fd@estimates - discontinued time series
+@Ff@Fao estimates
+@Fk@Calculated data on the basis of official figures
+@Fm@Manual Estimation
+@Fp@Provisional computer calculated data
+@Fq@Computer calculated data
+@Fs@Cross Entropy
+@Ft@Trend data
+@Fu@UN estimates
+@FX@FAO estimate based on WFP data
+@Fy@FAO Estimate based on previous years data
+@I@Country data reported by International Organizations where the country is a member (Semi-official) - WTO, EU, UNSD, etc.
+@Im@FAO data based on imputation methodology
+@K@Estimated time series for internal users only: not for dissemination to external users
+@M@Data not available
+@NA@Not applicable
+@NC@The implied emission factor was not calculated
+@ND@Number of observations is below 100, statistics are not disseminated
+@NR@Not reported by country
+@NS@Not statistically significant
+@NSA@Not statistically significant, year refers to mid-year of 3-year average
+@NV@Not available
+@O@Official data
+@Od@Official data - discontinued time series
+@P@Provisional official data
+@Q@Official data reported on FAO Questionnaires from countries
+@Qm@Official data from questionnaires and/or national sources and/or COMTRADE (reporters)
+@Qp@Official provisional data reported on FAO Questionnaires from countries
+@R@Estimated data using trading partners database
+@S@Standardized data
+@SD@Statistical Discrepancy
+@SQ@Data provided by USDA
+@T@Trend
+@Tr@1: uptrend; 0: same; -1: downtrend
+@W@Data reported on country official publications or web sites (Official) or trade country files
+@Wp@Data reported on country official publications or web sites (Official) or trade country files
+@X@International reliable sources (USDA, WTO, World Bank, IMF)
+@XF@Data provided by WFP
+@Y1@Data from 2001
+@Y2@Data from 2002
+@Y3@Data from 2003
+@Y4@Data from 2004
+@Y5@Data from 2005
+@Y6@Data from 2006
+@Z@When the Fertilizer Utilization Account  (FUA)  does not balance due to utilization from stockpiles, apparent consumption has been set to zero
+@ZH@Zero or less than half the unit shown
+

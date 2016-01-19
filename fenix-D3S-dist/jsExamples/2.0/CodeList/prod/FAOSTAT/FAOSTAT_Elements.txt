@@ -1,0 +1,577 @@
+{
+    "uid": "FAOSTAT_Elements",
+	"version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "FAOSTAT Elements"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "FAO"
+            },
+            "organizationUnit": {
+                "EN": "ESS-FAOSTAT"
+            },
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": null,
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["element"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": null
+                        }
+                    ],
+                    "idCodeList": null,
+                    "version": null
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 3,
+            "typeOfCodeList": "list"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    },
+		"dsd":{
+      "contextSystem":"FAOSTAT"
+   }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+
+@E@Agri-Environmental Indicators
+@E@Agri-Environmental Indicators
+@AS@ASTI R&D Indicators
+@G1@Emissions - Agriculture
+@G2@Emissions - Land Use
+@FB@Food Balance
+@D@Food Security
+@F@Forestry
+@R@Inputs
+@I@Investment
+@M@Macro-Statistics
+@O@Population
+@P@Prices
+@Q@Production
+@T@Trade
+E@EC@Air and climate change
+E@EE@Energy
+E@EF@Fertilizers
+E@EL@Land
+E@EK@Livestock
+E@EP@Pesticides
+E@ES@Soil
+E@EW@Water
+AS@AE@ASTI-Expenditures
+AS@AA@ASTI-Researchers by Agency Type
+AS@AR@ASTI-Researchers by Gender and Degree Level
+G1@GT@Agriculture Total
+G1@GB@Burning - Crop Residues
+G1@GH@Burning - Savanna
+G1@GA@Crop Residues
+G1@GV@Cultivation of Organic Soils
+G1@GN@Energy Use
+G1@GE@Enteric Fermentation
+G1@GU@Manure applied to Soils
+G1@GP@Manure left on Pasture
+G1@GM@Manure Management
+G1@GR@Rice Cultivation
+G1@GY@Synthetic Fertilizers
+G2@GI@Burning - Biomass
+G2@GC@Cropland
+G2@GF@Forest Land
+G2@GG@Grassland
+G2@GL@Land Use Total
+FB@BC@Commodity Balances - Crops Primary Equivalent
+FB@BL@Commodity Balances - Livestock and Fish Primary Equivalent
+FB@FBS@Food Balance Sheets
+FB@CC@Food Supply - Crops Primary Equivalent
+FB@CL@Food Supply - Livestock and Fish Primary Equivalent
+D@FS@Suite of Food Security Indicators
+F@FO@Forestry Production and Trade
+F@FT@Forestry Trade Flows
+R@RF@Fertilizers
+R@RV@Fertilizers - Trade Value
+R@RA@Fertilizers archive
+R@RL@Land
+R@RT@Pesticides (trade)
+R@RP@Pesticides (use)
+I@CS@Capital Stock
+I@IC@Credit to Agriculture
+I@IG@Government Expenditure
+I@RM@Machinery
+I@RY@Machinery Archive
+M@MK@Key Indicators
+O@OA@Annual population
+P@PI@Producer Price Indices - Annual
+P@PP@Producer Prices - Annual
+P@PA@Producer Prices - Archive
+P@PM@Producer Prices - Monthly
+Q@QC@Crops
+Q@QD@Crops processed
+Q@QA@Live Animals
+Q@QL@Livestock Primary
+Q@QP@Livestock Processed
+Q@QI@Production Indices
+Q@QV@Value of Agricultural Production
+T@TP@Crops and livestock products
+T@TM@Detailed trade matrix
+T@TA@Live animals
+T@TI@Trade Indices
+EC@7203@% of total NH3 emissions from agriculture
+EE@72040@Agriculture and forestry energy use as a % of total Energy use
+EE@72041@Bioenergy production as a % of total renewable energy production
+EF@5159@Nutrient use on arable and permanent crop area
+EL@7207@% annual change (Agricultural area)
+EL@7208@% of Agricultural Area
+EL@7209@% of Land Area
+EK@7211@% of Total Livestock
+EK@7213@Livestock total per ha of agricultural area
+EP@5160@Active ingredient use in Arable Land & Permanent Crops
+ES@7221@Average carbon content in the topsoil as a % in weight
+ES@7220@Average land degradation in GLASOD erosion degree
+ES@7219@Average soil erosion expressed in GLASOD erosion degree
+EW@7222@% of total water withdrawal
+AE@6094@Expenditures (LCU in 2005 prices)
+AE@6091@Expenditures (LCU in current prices)
+AE@6092@Expenditures (PPP in 2005 prices)
+AE@6093@Expenditures (USD in 2005 prices)
+AA@6087@Researchers by agency type
+AR@6089@Researchers by gender and degree level
+GT@7231@Emissions (CO2eq)
+GT@7244@Emissions (CO2eq) from CH4
+GT@7243@Emissions (CO2eq) from N2O
+GB@7245@Biomass burned (dry matter)
+GB@72257@Emissions (CH4) (Burning crop residues)
+GB@72317@Emissions (CO2eq) (Burning crop residues)
+GB@72447@Emissions (CO2eq) from CH4 (Burning crop residues)
+GB@72437@Emissions (CO2eq) from N2O (Burning crop residues)
+GB@72307@Emissions (N2O) (Burning crop residues)
+GB@72247@Implied emission factor for CH4 (Burning crop residues)
+GB@72297@Implied emission factor for N2O (Burning crop residues)
+GH@7245@Biomass burned (dry matter)
+GH@7246@Burned Area
+GH@72259@Emissions (CH4) (Burning - savanna)
+GH@72319@Emissions (CO2eq) (Burning - savanna)
+GH@72449@Emissions (CO2eq) from CH4 (Burning - savanna)
+GH@72439@Emissions (CO2eq) from N2O (Burning - savanna)
+GH@72309@Emissions (N2O) (Burning - savanna)
+GH@72249@Implied emission factor for CH4 (Burning - savanna)
+GH@72299@Implied emission factor for N2O (Burning - savanna)
+GA@72352@Direct emissions (CO2eq) (Crop residues)
+GA@72342@Direct emissions (N2O) (Crop residues)
+GA@72312@Emissions (CO2eq) (Crop residues)
+GA@72302@Emissions (N2O) (Crop residues)
+GA@72292@Implied emission factor for N2O (Crop residues)
+GA@72372@Indirect emissions (CO2eq) (Crop residues)
+GA@72362@Indirect emissions (N2O) (Crop residues)
+GA@72392@Residues (Crop residues)
+GV@5026@Area
+GV@72318@Emissions (CO2eq) (Cultivation of organic soils)
+GV@72308@Emissions (N2O) (Cultivation of organic soils)
+GV@72298@Implied emission factor for N2O (Cultivation of organic soils)
+GN@72182@Consumption in Agriculture
+GN@72184@Consumption in Agriculture
+GN@722510@Emissions (CH4) (Energy)
+GN@719410@Emissions (CO2) (Energy)
+GN@723110@Emissions (CO2eq) (Energy)
+GN@724410@Emissions (CO2eq) from CH4 (Energy)
+GN@724310@Emissions (CO2eq) from N2O (Energy)
+GN@723010@Emissions (N2O) (Energy)
+GN@719610@Implied emission factor for CH4
+GN@719509@Implied emission factor for CO2
+GN@719510@Implied emission factor for CO2
+GN@719710@Implied emission factor for N2O
+GE@72254@Emissions (CH4) (Enteric)
+GE@72314@Emissions (CO2eq) (Enteric)
+GE@72244@Implied emission factor for CH4 (Enteric)
+GE@5111@Stocks
+GU@72351@Direct emissions (CO2eq) (Manure applied)
+GU@72341@Direct emissions (N2O) (Manure applied)
+GU@72311@Emissions (CO2eq) (Manure applied)
+GU@72301@Emissions (N2O) (Manure applied)
+GU@72291@Implied emission factor for N2O (Manure applied)
+GU@723712@Indirect emissions (CO2eq that leaches) (Manure applied)
+GU@723711@Indirect emissions (CO2eq that volatilises) (Manure applied)
+GU@72371@Indirect emissions (CO2eq) (Manure applied)
+GU@723612@Indirect emissions (N2O that leaches) (Manure applied)
+GU@723611@Indirect emissions (N2O that volatilises) (Manure applied)
+GU@72361@Indirect emissions (N2O) (Manure applied)
+GU@723812@Manure (N content that leaches) (Manure applied)
+GU@723811@Manure (N content that volatilises) (Manure applied)
+GU@72381@Manure (N content) (Manure applied)
+GP@72350@Direct emissions (CO2eq) (Manure on pasture)
+GP@72340@Direct emissions (N2O) (Manure on pasture)
+GP@72310@Emissions (CO2eq) (Manure on pasture)
+GP@72300@Emissions (N2O) (Manure on pasture)
+GP@72290@Implied emission factor for N2O (Manure on pasture)
+GP@72370@Indirect emissions (CO2eq) (Manure on pasture)
+GP@723602@Indirect emissions (N2O that leaches) (Manure on pasture)
+GP@723601@Indirect emissions (N2O that volatilises) (Manure on pasture)
+GP@72360@Indirect emissions (N2O) (Manure on pasture)
+GP@723802@Manure (N content that leaches) (Manure on pasture)
+GP@723801@Manure (N content that volatilises) (Manure on pasture)
+GP@72380@Manure (N content) (Manure on pasture)
+GM@72356@Direct emissions (CO2eq) (Manure management)
+GM@72346@Direct emissions (N2O) (Manure management)
+GM@72256@Emissions (CH4) (Manure management)
+GM@72316@Emissions (CO2eq) (Manure management)
+GM@72446@Emissions (CO2eq) from CH4 (Manure management)
+GM@72436@Emissions (CO2eq) from N2O (Manure management)
+GM@72306@Emissions (N2O) (Manure management)
+GM@72246@Implied emission factor for CH4 (Manure management)
+GM@72296@Implied emission factor for N2O (Manure management)
+GM@72376@Indirect emissions (CO2eq) (Manure management)
+GM@72366@Indirect emissions (N2O) (Manure management)
+GM@72386@Manure (N content) (Manure management)
+GR@5312@Area harvested
+GR@72255@Emissions (CH4) (Rice cultivation)
+GR@72315@Emissions (CO2eq) (Rice cultivation)
+GR@72245@Implied emission factor for CH4 (Rice cultivation)
+GY@5163@Consumption
+GY@5162@Consumption in nutrients
+GY@72353@Direct emissions (CO2eq) (Synthetic fertilizers)
+GY@72343@Direct emissions (N2O) (Synthetic fertilizers)
+GY@72313@Emissions (CO2eq) (Synthetic fertilizers)
+GY@72303@Emissions (N2O) (Synthetic fertilizers)
+GY@72293@Implied emission factor for N2O (Synthetic fertilizers)
+GY@72373@Indirect emissions (CO2eq) (Synthetic fertilizers)
+GY@723632@Indirect emissions (N2O that leaches) (Synthetic fertilizers)
+GY@723631@Indirect emissions (N2O that volatilises) (Synthetic fertilizers)
+GY@72363@Indirect emissions (N2O) (Synthetic fertilizers)
+GY@516202@Nitrogen fertilizer content applied that leaches
+GY@516201@Nitrogen fertilizer content applied that volatilises
+GI@7245@Biomass burned (dry matter)
+GI@7246@Burned Area
+GI@722511@Emissions (CH4) (Burning biomass)
+GI@719411@Emissions (CO2) (Burning biomass)
+GI@723111@Emissions (CO2eq) (Burning biomass)
+GI@724411@Emissions (CO2eq) from CH4 (Burning biomass)
+GI@724311@Emissions (CO2eq) from N2O (Burning biomass)
+GI@723011@Emissions (N2O) (Burning biomass)
+GI@722411@Implied emission factor for CH4 (Burning biomass)
+GI@719511@Implied emission factor for CO2
+GI@722911@Implied emission factor for N2O (Burning biomass)
+GC@5026@Area
+GC@72410@Implied emission factor for C (Cropland)
+GC@72170@Net emissions/removal (CO2eq) (Cropland)
+GC@72330@Net emissions/removals (CO2) (Cropland)
+GC@72160@Net stock change (C) (Cropland)
+GF@5026@Area
+GF@71952@Implied emission factor for CO2
+GF@72332@Net emissions/removal (CO2eq) (Forest land)
+GF@72172@Net emissions/removals (CO2) (Forest land)
+GG@5026@Area
+GG@72411@Implied emission factor for C (Grassland)
+GG@72171@Net emissions/removal (CO2eq) (Grassland)
+GG@72331@Net emissions/removals (CO2) (Grassland)
+GG@72161@Net stock change (C) (Grassland)
+GL@7244@Emissions (CO2eq) from CH4
+GL@7243@Emissions (CO2eq) from N2O
+GL@7233@Net emissions/removals (CO2)
+GL@7217@Net emissions/removals (CO2eq)
+BC@5300@Domestic supply quantity
+BC@5910@Export Quantity
+BC@5520@Feed
+BC@5141@Food supply quantity (tonnes)
+BC@5610@Import Quantity
+BC@5153@Other uses
+BC@5130@Processing
+BC@5510@Production
+BC@5525@Seed
+BC@5071@Stock Variation
+BC@5120@Waste
+BL@5300@Domestic supply quantity
+BL@5910@Export Quantity
+BL@5520@Feed
+BL@5141@Food supply quantity (tonnes)
+BL@5610@Import Quantity
+BL@5153@Other uses
+BL@5130@Processing
+BL@5510@Production
+BL@5525@Seed
+BL@5071@Stock Variation
+BL@5120@Waste
+FBS@5301@Domestic supply quantity
+FBS@5911@Export Quantity
+FBS@684@Fat supply quantity (g/capita/day)
+FBS@5521@Feed
+FBS@5142@Food
+FBS@664@Food supply (kcal/capita/day)
+FBS@645@Food supply quantity (kg/capita/yr)
+FBS@5611@Import Quantity
+FBS@5154@Other uses
+FBS@5131@Processing
+FBS@5511@Production
+FBS@674@Protein supply quantity (g/capita/day)
+FBS@5527@Seed
+FBS@5072@Stock Variation
+FBS@511@Total Population - Both sexes
+FBS@5123@Waste
+CC@684@Fat supply quantity (g/capita/day)
+CC@664@Food supply (kcal/capita/day)
+CC@646@Food supply quantity (g/capita/day)
+CC@645@Food supply quantity (kg/capita/yr)
+CC@641@Food supply quantity (tonnes)
+CC@674@Protein supply quantity (g/capita/day)
+CC@511@Total Population - Both sexes
+CL@684@Fat supply quantity (g/capita/day)
+CL@664@Food supply (kcal/capita/day)
+CL@646@Food supply quantity (g/capita/day)
+CL@645@Food supply quantity (kg/capita/yr)
+CL@641@Food supply quantity (tonnes)
+CL@674@Protein supply quantity (g/capita/day)
+CL@511@Total Population - Both sexes
+FS@6121@Value
+FS@6122@Value
+FS@6123@Value
+FS@6124@Value
+FS@6125@Value
+FS@6126@Value
+FS@6127@Value
+FS@6128@Value
+FO@5916@Export Quantity
+FO@5910@Export Quantity
+FO@5922@Export Value
+FO@5616@Import Quantity
+FO@5610@Import Quantity
+FO@5622@Import Value
+FO@5516@Production
+FO@5510@Production
+FT@5916@Export Quantity
+FT@5910@Export Quantity
+FT@5922@Export Value
+FT@5616@Import Quantity
+FT@5610@Import Quantity
+FT@5622@Import Value
+RF@5157@Consumption
+RF@5155@Consumption in nutrients
+RF@5910@Export Quantity
+RF@5915@Export Quantity in nutrients
+RF@5610@Import Quantity
+RF@5615@Import Quantity in nutrients
+RF@5850@Non-fertilizer use
+RF@5849@Non-fertilizer use in nutrients
+RF@5510@Production
+RF@5515@Production Quantity in nutrients
+RV@5922@Export Value
+RV@5622@Import Value
+RA@5157@Consumption
+RA@5910@Export Quantity
+RA@5610@Import Quantity
+RA@5751@Prices Paid by Farmers
+RA@5510@Production
+RL@5110@Area
+RT@5900@Export Quantity
+RT@5922@Export Value
+RT@5600@Import Quantity
+RT@5622@Import Value
+RP@5161@Use
+CS@6115@Gross Capital Stock (constant 2005 prices)
+CS@6116@Net Capital Stock (constant 2005 prices)
+IC@6112@Agriculture orientation index
+IC@6113@Share of Total Credit
+IC@6109@Value Local Currency
+IC@6110@Value US$
+IG@6111@% of Total Outlays
+IG@6112@Agriculture orientation index
+IG@6109@Value Local Currency
+IG@6110@Value US$
+RM@5907@Export Quantity
+RM@5922@Export Value
+RM@5607@Import Quantity
+RM@5622@Import Value
+RM@5116@In Use
+RY@5907@Export Quantity
+RY@5922@Export Value
+RY@5607@Import Quantity
+RY@5622@Import Value
+RY@5116@In Use
+MK@6129@Annual growth
+MK@6131@Annual growth, 2005 prices
+MK@6103@Share of GDP
+MK@6117@Share of GDP, 2005 prices
+MK@6109@Value Local Currency
+MK@6114@Value Local Currency, 2005 prices
+MK@6110@Value US$
+MK@6119@Value US$
+MK@6108@Value US$, 2005 prices
+MK@6118@Value US$, 2005 prices
+OA@593@Female economically active population
+OA@603@Female economically active population in Agr
+OA@592@Male economically active population
+OA@602@Male economically active population in Agr
+OA@551@Rural population
+OA@591@Total economically active population
+OA@601@Total economically active population in Agr
+OA@511@Total Population - Both sexes
+OA@513@Total Population - Female
+OA@512@Total Population - Male
+OA@561@Urban population
+PI@5539@Producer Price Index (2004-2006 = 100)
+PP@5530@Producer Price (LCU/tonne)
+PP@5531@Producer Price (SLC/tonne)
+PP@5532@Producer Price (USD/tonne)
+PA@5530@Producer Price (LCU/tonne)
+PM@7004@April
+PM@7008@August
+PM@7012@December
+PM@7002@February
+PM@7001@January
+PM@7007@July
+PM@7006@June
+PM@7003@March
+PM@7005@May
+PM@7011@November
+PM@7010@October
+PM@7009@September
+QC@5312@Area harvested
+QC@5423@Extraction Rate
+QC@5510@Production
+QC@5525@Seed
+QC@5419@Yield
+QD@5510@Production
+QA@5111@Stocks
+QA@5112@Stocks
+QA@5114@Stocks
+QL@5423@Extraction Rate
+QL@5313@Laying
+QL@5318@Milk Animals
+QL@5319@Prod Popultn
+QL@5314@Prod Popultn
+QL@5320@Producing Animals/Slaughtered
+QL@5321@Producing Animals/Slaughtered
+QL@5322@Production
+QL@5323@Production
+QL@5510@Production
+QL@5513@Production
+QL@5420@Yield
+QL@5422@Yield
+QL@5410@Yield
+QL@5413@Yield
+QL@5417@Yield/Carcass Weight
+QL@5424@Yield/Carcass Weight
+QP@5510@Production
+QI@434@Gross per capita Production Index Number (2004-2006 = 100)
+QI@432@Gross Production Index Number (2004-2006 = 100)
+QI@438@Net per capita Production Index Number (2004-2006 = 100)
+QI@436@Net Production Index Number (2004-2006 = 100)
+QV@152@Gross Production Value (constant 2004-2006 1000 I$)
+QV@55@Gross Production Value (constant 2004-2006 million SLC)
+QV@58@Gross Production Value (constant 2004-2006 million US$)
+QV@56@Gross Production Value (current million SLC)
+QV@57@Gross Production Value (current million US$)
+QV@154@Net Production Value (constant 2004-2006 1000 I$)
+TP@5910@Export Quantity
+TP@5922@Export Value
+TP@5610@Import Quantity
+TP@5622@Import Value
+TM@5907@Export Quantity
+TM@5910@Export Quantity
+TM@5909@Export Quantity
+TM@5908@Export Quantity
+TM@5922@Export Value
+TM@5609@Import Quantity
+TM@5610@Import Quantity
+TM@5608@Import Quantity
+TM@5607@Import Quantity
+TM@5622@Import Value
+TA@5908@Export Quantity
+TA@5907@Export Quantity
+TA@5909@Export Quantity
+TA@5922@Export Value
+TA@5608@Import Quantity
+TA@5609@Import Quantity
+TA@5607@Import Quantity
+TA@5622@Import Value
+TI@495@Export Quantity Index (2004-2006 = 100)
+TI@494@Export Unit/Value Index (2004-2006 = 100)
+TI@95@Export Value Base Price
+TI@94@Export Value Base Quantity
+TI@492@Export Value Index (2004-2006 = 100)
+TI@465@Import Quantity Index (2004-2006 = 100)
+TI@464@Import Unit/Value Index (2004-2006 = 100)
+TI@65@Import Value Base Period Price
+TI@64@Import Value Base Period Quantity
+TI@462@Import Value Index (2004-2006 = 100)

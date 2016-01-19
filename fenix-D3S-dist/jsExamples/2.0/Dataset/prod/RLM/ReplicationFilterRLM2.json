@@ -1,0 +1,17 @@
+{
+    "filter" : {
+        "dsd.contextSystem": {
+            "enumeration": [
+                "RLM"
+            ]
+        },
+        "meContent.resourceRepresentationType": {
+            "enumeration": [
+                "dataset"
+            ]
+        }
+    },
+    "metadata" : {
+        "languageDetails" : {"EN" : "test 1"}
+    }
+}

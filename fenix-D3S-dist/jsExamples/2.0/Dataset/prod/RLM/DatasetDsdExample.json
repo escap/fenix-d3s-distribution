@@ -1,0 +1,148 @@
+{
+  "columns": [
+    {
+      "dataType": "code",
+      "key": true,
+      "id": "COUNTRY",
+      "title": {
+        "EN": "Country"
+      },
+      "domain": {
+        "codes": [
+          {
+            "version": "2014",
+            "idCodeList": "GAUL0",
+            "extendedName": {
+              "EN": "Global administrative unit layer country level"
+            }
+          }
+        ]
+      },
+      "subject": "geo",
+      "values": {
+        "codes": [
+          {
+            "idCodeList": "GAUL0",
+            "version": "2014",
+            "codes": [
+              {
+                "code": "1"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "dataType": "year",
+      "key": true,
+      "id": "YEAR",
+      "title": {
+        "EN": "Year"
+      },
+      "domain": {
+        "period": {
+          "from": 2000,
+          "to": 2015
+        }
+      },
+      "subject": "time",
+      "values": {
+        "timeList": [
+          2000,
+          2001
+        ]
+      }
+    },
+    {
+      "dataType": "text",
+      "id": "YEAR_LABEL",
+      "title": {
+        "EN": "Year"
+      }
+    },
+    {
+      "dataType": "code",
+      "key": true,
+      "id": "QUALIFIER",
+      "title": {
+        "EN": "Qualifier"
+      },
+      "domain": {
+        "codes": [
+          {
+            "idCodeList": "RLM_QualifierCodeList",
+            "extendedName": {
+              "EN": "Rural Livelihood Monitor - Qualifiers"
+            }
+          }
+        ]
+      },
+      "values": {
+        "codes": [
+          {
+            "idCodeList": "RLM_QualifierCodeList",
+            "codes": [
+              {
+                "code": "F"
+              },
+              {
+                "code": "M"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "dataType": "code",
+      "key": true,
+      "id": "SOURCE",
+      "title": {
+        "EN": "Source"
+      },
+      "domain": {
+        "codes": [
+          {
+            "idCodeList": "RLM_SourceCodeList",
+            "extendedName": {
+              "EN": "Rural Livelihood Monitor - Sources"
+            }
+          }
+        ]
+      },
+      "values": {
+        "codes": [
+          {
+            "idCodeList": "RLM_SourceCodeList",
+            "codes": [
+              {
+                "code": "External"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "dataType": "text",
+      "id": "UM",
+      "title": {
+        "EN": "Unit of measure"
+      }
+    },
+    {
+      "dataType": "text",
+      "id": "VALUE",
+      "title": {
+        "EN": "Production (Tonnes)"
+      },
+      "subject": "value"
+    }
+  ],
+  "rid": "66_384",
+  "contextSystem": "RLM",
+  "datasources": [
+    "RLM"
+  ]
+}

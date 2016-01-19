@@ -1,0 +1,662 @@
+{
+  "metadata": {
+    "language": {
+      "version": "1998",
+      "codes": [
+        {
+          "code": "eng",
+          "label": {
+            "EN": "English"
+          }
+        }
+      ],
+      "idCodeList": "ISO639-2"
+    },
+    "title": {
+      "EN": "Population - Annual population"
+    },
+    "uid": "FAOSTAT_POP",
+    "languageDetails": {
+      "EN": ""
+    },
+    "characterSet": {
+      "version": null,
+      "codes": [
+        {
+          "code": "106"
+        }
+      ],
+      "idCodeList": "IANAcharacterSet"
+    },
+    "metadataStandardName": "FENIX",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+      "version": "1998",
+      "codes": [
+        {
+          "code": "eng",
+          "label": {
+            "EN": "English"
+          }
+        }
+      ],
+      "idCodeList": "ISO639-2"
+    },
+    "contacts": [
+      {
+        "organization": {
+          "EN": "Food and Agriculture Organization of the United Nations (FAO)"
+        },
+        "role": "distributor",
+        "contactInfo": {
+          "address": "Economic and Social Development Department Viale delle Terme di Caracalla  00153 Rome, Italy ",
+          "emailAddress": "FAO-statistics@fao.org"
+        },
+        "organizationUnit": {
+          "EN": "Statistics Division (ESS)"
+        }
+      }
+    ],
+    "meContent": {
+      "description": {
+        "EN": "The FAOSTAT Population module contains time series data on population, including urban/rural, labour force, agricultural and economically active population. The series consist of both estimates and projections for different periods as available from the original sources, namely:\r\nPopulation data refers to the World Population Prospects: The 2012 Revision from the UN Population Division.\r\nUrban/rural population data refers to the World Urbanization Prospects: The 2011 Revision from the UN Population Division. Long term series estimates and projections from 1961 to 2050.\r\nEconomically active population from the ILO (laborsta.ilo.org) and the data refers to the 5th edition, revision 2009. Long term series estimates and projections from 1980 to 2020."
+      },
+      "resourceRepresentationType": "dataset",
+      "keywords": [
+        "Crops",
+        "Production"
+      ],
+      "statisticalConceptsDefinitions": {
+        "EN": "Areas refer to the area under cultivation. Area under cultivation means the area that corresponds to the total sown area, but after the harvest it excludes ruined areas (e.g. due to natural disasters).  If the same land parcel is used twice in the same year, the area of this parcel can be counted twice. Production means the harvested production. Harvested production means production including on-holding losses and wastage, quantities consumed directly on the farm and marketed quantities, indicated in units of basic product weight. Harvest year means the calendar year in which the harvest begins. Yield means the harvested production per ha for the area under cultivation.\r\n"
+      },
+      "seReferencePopulation": {
+        "statisticalPopulation": {
+          "EN": "All areas cultivated with crops in a country.\r\n"
+        },
+        "statisticalUnit": {
+          "EN": "Agriculture holdings cultivated for the production of crops."
+        },
+        "referencePeriod": {
+          "version": "1.0",
+          "codes": [
+            {
+              "code": "9",
+              "label": {
+                "EN": "Year"
+              }
+            }
+          ],
+          "idCodeList": "FAO_Period"
+        },
+        "referenceArea": {
+          "version": "1.0",
+          "codes": [
+            {
+              "code": "ADM1",
+              "label": {
+                "EN": "First level administrative boundaries"
+              }
+            }
+          ],
+          "idCodeList": "GAUL_ReferenceArea"
+        }
+      },
+      "seCoverage": {
+        "coverageSectors": {
+          "version": "",
+          "codes": [
+            {
+              "code": "311",
+              "label": {
+                "EN": "AGRICULTURE"
+              }
+            }
+          ],
+          "idCodeList": "CRS_purpose_codes"
+        },
+        "coverageSectorsDetails": {
+          "EN": "Most crop products under agricultural activity.\r\n"
+        },
+        "coverageTime": {
+          "from": 473382000000,
+          "to": 1262214000000
+        },
+        "coverageGeographic": {
+          "version": "2014",
+          "codes": [
+            {
+              "code": "131",
+              "label": {
+                "EN": "Juan de Nova Island"
+              }
+            }
+          ],
+          "idCodeList": "GAUL0"
+        }
+      }
+    },
+    "meInstitutionalMandate": {
+      "legalActsAgreements": {
+        "EN": "Article I of the constitution indeed requires the Organization to collect, analyse, interpret and disseminate information relating to nutrition, food and agriculture (the term “agriculture” and its derivatives includes forestry, fisheries and aquaculture). The first session of the FAO Conference in 1945 provided the rationale: “If FAO is to carry out its work successfully it will need to know where and why hunger and malnutrition exist, what forms they take, and how widespread they are. Such data will serve as a basis for making plans, determining the efficacy of measures used, and measuring progress from time to time.” Member countries reaffirmed this mandate in 2000 when formulating the Organization’s strategic thrusts for the 2000-2015 period: Corporate Strategy E1 commits the Organization to building “an integrated information resource base, with current, relevant and reliable statistics, information and knowledge made accessible to all FAO clients. For legal acts concerning statistics at national levels see links to country websites.\r\n\r\n"
+      },
+      "institutionalMandateDataSharing": {
+        "EN": "Crops and livestock statistics from Eurostat and CIS-Stat are used.\r\n"
+      }
+    },
+    "meAccessibility": {
+      "seDataDissemination": {
+        "seReleasePolicy": {
+          "releaseCalendar": {
+            "EN": "Dates for new data releases are pre-announced on the FAOSTAT3 website.  "
+          },
+          "releaseCalendarAccess": "http://faostat3.fao.org/home/faostatReleaseCalendar.html\r\n",
+          "disseminationPeriodicity": {
+            "version": "1.0",
+            "codes": [
+              {
+                "code": "9",
+                "label": {
+                  "EN": "Year"
+                }
+              }
+            ],
+            "idCodeList": "FAO_Period"
+          },
+          "embargoTime": {}
+        },
+        "seDistribution": {
+          "onlineResource": "http://faostat.fao.org/site/636/default.aspx",
+          "disseminationFormat": [
+            "Excel",
+            "CSV"
+          ]
+        }
+      },
+      "seClarity": {
+        "clarity": {
+          "EN": "National reference metadata are submitted by some countries but these are not yet disseminated by FAO.  No methodological papers, except the classification scheme, has been produced.\r\n",
+          "parent": "clarity."
+        }
+      },
+      "seConfidentiality": {
+        "confidentialityStatus": {
+          "version": "1.0",
+          "codes": [
+            {
+              "code": "F",
+              "label": {
+                "EN": "Free"
+              }
+            }
+          ],
+          "idCodeList": "CL_CONF_STATUS"
+        },
+        "confidentialityPolicy": {
+          "EN": "FAO Statistical Quality Assurance Framework, Principle 10: \"All data subject to national confidentiality policies (e.g. concerning people and legal entities, or small aggregates) are kept strictly confidential, and are used exclusively for statistical purposes, or for purposes mandated by legislation.\"\r\n"
+        },
+        "confidentialityDataTreatment": {
+          "EN": "Only non-confidential data are collected and recorded.\r\n"
+        }
+      }
+    },
+    "meDataQuality": {
+      "qualityManagement": {
+        "EN": ""
+      },
+      "qualityAssessment": {
+        "EN": "The quality of data varies considerably between countries.  There are no routines for accessing the quality, except for some input validation. Ideally, sample surveys should be representative of at least 95% of the total area and land under that crop. Surveys on production or yields should be conducted using statistically recognized methods as regards quality, objectivity and reliability.  Up till now FAO has not been in the position to ensure such quality requirements of the data submitted by countries. More information on metadata and certain validation procedures at country level is certainly needed;\r\n"
+      },
+      "qualityAssurance": {
+        "EN": "Statistics are subject to the general quality assurance framework of FAO, where domain-specific quality assurance activities (the use of best practices, quality reviews, self-assessments, compliance monitoring) are carried out systematically. See also the FAO Statistics Quality Assurance Framework is available http://www.fao.org/docrep/019/i3664e/i3664e.pdf\r\n"
+      },
+      "seAccuracy": {
+        "accuracyNonSampling": {
+          "EN": "It is not possible to asses the accuracy but as there is a substantial amount of estimated or imputed data points, the accuracy for certain products, countries and regions is not that good.\r\nNo information available of the magnitude on non-sampling errors.  One such category of errors is measurement errors which are due mainly to lack of harmonisation in statistical methods. For instance, when FAO concepts do not fit with national concepts, there may be significant measurement errors.  \r\n"
+        },
+        "accuracySampling": {
+          "EN": "No information available.  In the EU the coefficient of variation shall according to regulations not exceed 3% for the area of cultivation for main crops.  For non EU countries the coefficient of variation might be significantly larger.  For further information see country metadata when available.\r\n"
+        }
+      },
+      "seDataRevision": {
+        "revisionPolicy": {
+          "EN": "Prefilled questionnaires are sent out with reported data for n-1, n-2 and n-3 which countries are asked to revise.\r\n"
+        },
+        "revisionPractice": {
+          "EN": "The revised data for n-1 to n-3 are disseminated at the same time as the data for year n are released.\r\n"
+        }
+      },
+      "seRelevance": {
+        "userNeeds": {
+          "EN": "The main users are FAO analysts, other international organizations, ministries and government agencies, agro-industry, trade and professional associations, research institutes and universities, journalists and general public. The objectives of these users vary, but agriculture production statistics are especially useful for market management/monitoring, production forecasts and policy-making in agriculture and food. FAO is not aware of unmet needs.\r\n"
+        },
+        "userSatisfaction": {
+          "EN": "No user satisfaction studies have been conducted which may explain why FAO is not aware of unmet user needs.\r\n"
+        },
+        "completeness": {
+          "EN": "The data received by countries are fairly incomplete for certain product categories and  regions of the world.  For this reason a substantial amount of data points are estimated  or imputed.  Example 1: In 2010 data for green chillies and peppers are recorded for 123 countries of which data for 50 countries (41%) were imputed or estimated.  In terms of values the imputations accounted for as much as 71% of total production quantity. Example 2: In 2010, data points for wheat productions were recorded for 126 countries of which data points from 18 countries were estimated or imputed.  For 4 countries unofficial data were used.  The value of estimated and imputed data only represented 0.05% of the total production quantity over all countries - the corresponding figure for unofficial data was 0.2%.  The figures above can be contrasted to wheat imports for which data points exist for 191 countries of which 61 have data which are imputed or estimated, representing almost 27% of total import quantity over all countries.\r\n"
+        }
+      },
+      "seComparability": {
+        "comparabilityGeographical": {
+          "EN": "There is limited geographical comparability due to differences between countries in methods and coverage, except for regions with homogenous countries, e.g. EU countries, which are bound by EU regulations on methods, and OECD countries.\r\n"
+        },
+        "comparabilityTime": {
+          "EN": "For shorter time periods reasonably good comparability over time can be expected as there is stability in the product definition and classification.  However, as the time series are very long (from 1961) full comparability over time can not be expected.\r\n"
+        },
+        "coherenceIntern": {
+          "EN": "Cross domain coherence is fairly good with respect to trade, producer prices and land use.  However, the domain coherence varies depending on which products and countries are for consideration.\r\nIt is expected that the internal coherence is checked by countries before sending data to FAO. FAO is not aware of any incoherence for the present dataset vis-à-vis other corresponding datasets  \r\n"
+        }
+      },
+      "seTimelinessPunctuality": {
+        "timeliness": {
+          "EN": "Data are uploaded for dissemination twice a year, irrespectively when they arrive at FAO.\r\n"
+        },
+        "punctuality": {
+          "EN": "Most countries respect the deadlines. \r\n"
+        }
+      }
+    },
+    "meMaintenance": {
+      "seUpdate": {
+        "updateDate": 1438958252618
+      },
+      "maintenanceAgency": {
+        "EN": "Food and Agriculture Organization of the United Nations (FAO)\r\n"
+      },
+      "seMetadataMaintenance": {
+        "metadataLastCertified": 1409954400000,
+        "metadataLastPosted": 1409954400000,
+        "metadataLastUpdate": 1409954400000
+      }
+    },
+    "meStatisticalProcessing": {
+      "seDataSource": {
+        "seSecondaryDataCollection": {
+          "originOfCollectedData": {
+            "version": "1.0",
+            "codes": [
+              {
+                "code": "G",
+                "label": {
+                  "EN": "Other sources and mixture of data source"
+                }
+              }
+            ],
+            "idCodeList": "FAOSTAT_OriginData"
+          },
+          "rawDataDescription": {
+            "EN": "Sample surveys are generally used but there are also cases where administrative records are used, see further country specific metadata.\r\n"
+          },
+          "dataCollection": {
+            "EN": "The main source is official statistics from FAO member countries.  Exceptionally, unofficial data are also used as well as estimated/imputed data.  In both cases this is \"flagged\".  Data are recorded as countries report them, except for eliminating obvious errors.  The source data can originate from surveys, administrative data and estimates based on expert observations.  Which type of source is used by countries affect significantly reliability and comparability of data.\r\nData are uploaded for dissemination twice a year, irrespectively when they arrive at FAO.\r\n"
+          }
+        }
+      }
+    },
+    "dsd": {
+      "contextSystem": "FAOSTAT",
+      "datasources": [
+        "D3S"
+      ],
+      "columns": [
+        {
+          "id": "domain",
+          "title": {
+            "EN": "Domain"
+          },
+          "dataType": "code",
+          "key": false,
+          "domain": {
+            "codes": [
+              {
+                "idCodeList": "FAOSTAT_GroupDomain"
+              }
+            ]
+          }
+        },
+        {
+          "id": "country",
+          "subject": "geo",
+          "title": {
+            "EN": "Country"
+          },
+          "dataType": "code",
+          "key": true,
+          "domain": {
+            "codes": [
+              {
+                "idCodeList": "FAOSTAT_Countries"
+              }
+            ]
+          }
+        },
+        {
+          "id": "year",
+          "subject": "time",
+          "title": {
+            "EN": "Year"
+          },
+          "dataType": "year",
+          "key": true
+        },
+        {
+          "id": "element",
+          "subject": "element",
+          "title": {
+            "EN": "Indicator"
+          },
+          "dataType": "code",
+          "key": true,
+          "domain": {
+            "codes": [
+              {
+                "idCodeList": "FAOSTAT_Elements"
+              }
+            ]
+          }
+        },
+        {
+          "id": "item",
+          "subject": "item",
+          "title": {
+            "EN": "Item"
+          },
+          "dataType": "code",
+          "key": true,
+          "domain": {
+            "codes": [
+              {
+                "idCodeList": "FAOSTAT_Items"
+              }
+            ]
+          }
+        },
+        {
+          "id": "value",
+          "subject": "value",
+          "title": {
+            "EN": "Value"
+          },
+          "dataType": "number"
+        },
+        {
+          "id": "unit",
+          "subject": "um",
+          "title": {
+            "EN": "Unit of measure"
+          },
+          "dataType": "text"
+        },
+        {
+          "id": "flag",
+          "title": {
+            "EN": "Flag"
+          },
+          "dataType": "code",
+          "domain": {
+            "codes": [
+              {
+                "idCodeList": "FAOSTAT_Flags"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "data":
+  [
+    ["OA","9","2000","511","3010","37057.453","1000",null],
+    ["OA","9","2001","511","3010","37471.535","1000",null],
+    ["OA","9","2002","511","3010","37889.443","1000",null],
+    ["OA","9","2003","511","3010","38309.475","1000",null],
+    ["OA","9","2004","511","3010","38728.778","1000",null],
+    ["OA","9","2005","511","3010","39145.491","1000",null],
+    ["OA","9","2006","511","3010","39558.75","1000",null],
+    ["OA","9","2007","511","3010","39969.903","1000",null],
+    ["OA","9","2008","511","3010","40381.86","1000",null],
+    ["OA","9","2009","511","3010","40798.641","1000",null],
+    ["OA","9","2010","511","3010","41222.875","1000",null],
+    ["OA","9","2011","511","3010","41655.616","1000",null],
+    ["OA","9","2012","511","3010","42095.224","1000",null],
+    ["OA","9","2013","511","3010","42538.304","1000",null],
+    ["OA","32","2000","511","3010","15927.713","1000",null],
+    ["OA","32","2001","511","3010","16349.364","1000",null],
+    ["OA","32","2002","511","3010","16779.434","1000",null],
+    ["OA","32","2003","511","3010","17218.591","1000",null],
+    ["OA","32","2004","511","3010","17667.576","1000",null],
+    ["OA","32","2005","511","3010","18126.999","1000",null],
+    ["OA","32","2006","511","3010","18597.109","1000",null],
+    ["OA","32","2007","511","3010","19078.1","1000",null],
+    ["OA","32","2008","511","3010","19570.418","1000",null],
+    ["OA","32","2009","511","3010","20074.522","1000",null],
+    ["OA","32","2010","511","3010","20590.666","1000",null],
+    ["OA","32","2011","511","3010","21119.065","1000",null],
+    ["OA","32","2012","511","3010","21659.488","1000",null],
+    ["OA","32","2013","511","3010","22211.166","1000",null],
+    ["OA","40","2000","511","3010","15170.387","1000",null],
+    ["OA","40","2001","511","3010","15358.418","1000",null],
+    ["OA","40","2002","511","3010","15544.554","1000",null],
+    ["OA","40","2003","511","3010","15729.268","1000",null],
+    ["OA","40","2004","511","3010","15913.119","1000",null],
+    ["OA","40","2005","511","3010","16096.571","1000",null],
+    ["OA","40","2006","511","3010","16279.728","1000",null],
+    ["OA","40","2007","511","3010","16462.701","1000",null],
+    ["OA","40","2008","511","3010","16645.94","1000",null],
+    ["OA","40","2009","511","3010","16829.957","1000",null],
+    ["OA","40","2010","511","3010","17015.048","1000",null],
+    ["OA","40","2011","511","3010","17201.305","1000",null],
+    ["OA","40","2012","511","3010","17388.437","1000",null],
+    ["OA","40","2013","511","3010","17575.833","1000",null],
+    ["OA","44","2000","511","3010","40403.959","1000",null],
+    ["OA","44","2001","511","3010","40988.909","1000",null],
+    ["OA","44","2002","511","3010","41572.493","1000",null],
+    ["OA","44","2003","511","3010","42152.147","1000",null],
+    ["OA","44","2004","511","3010","42724.157","1000",null],
+    ["OA","44","2005","511","3010","43285.636","1000",null],
+    ["OA","44","2006","511","3010","43835.744","1000",null],
+    ["OA","44","2007","511","3010","44374.647","1000",null],
+    ["OA","44","2008","511","3010","44901.66","1000",null],
+    ["OA","44","2009","511","3010","45416.276","1000",null],
+    ["OA","44","2010","511","3010","45918.101","1000",null],
+    ["OA","44","2011","511","3010","46406.446","1000",null],
+    ["OA","44","2012","511","3010","46881.018","1000",null],
+    ["OA","44","2013","511","3010","47342.363","1000",null],
+    ["OA","46","2000","511","3010","3109.269","1000",null],
+    ["OA","46","2001","511","3010","3183.883","1000",null],
+    ["OA","46","2002","511","3010","3256.867","1000",null],
+    ["OA","46","2003","511","3010","3331.564","1000",null],
+    ["OA","46","2004","511","3010","3412.592","1000",null],
+    ["OA","46","2005","511","3010","3503.086","1000",null],
+    ["OA","46","2006","511","3010","3604.595","1000",null],
+    ["OA","46","2007","511","3010","3715.665","1000",null],
+    ["OA","46","2008","511","3010","3832.771","1000",null],
+    ["OA","46","2009","511","3010","3950.786","1000",null],
+    ["OA","46","2010","511","3010","4066.078","1000",null],
+    ["OA","46","2011","511","3010","4177.435","1000",null],
+    ["OA","46","2012","511","3010","4286.188","1000",null],
+    ["OA","46","2013","511","3010","4394.334","1000",null],
+    ["OA","58","2000","511","3010","12628.596","1000",null],
+    ["OA","58","2001","511","3010","12852.753","1000",null],
+    ["OA","58","2002","511","3010","13072.056","1000",null],
+    ["OA","58","2003","511","3010","13289.6","1000",null],
+    ["OA","58","2004","511","3010","13509.645","1000",null],
+    ["OA","58","2005","511","3010","13735.232","1000",null],
+    ["OA","58","2006","511","3010","13967.49","1000",null],
+    ["OA","58","2007","511","3010","14205.479","1000",null],
+    ["OA","58","2008","511","3010","14447.6","1000",null],
+    ["OA","58","2009","511","3010","14691.31","1000",null],
+    ["OA","58","2010","511","3010","14934.692","1000",null],
+    ["OA","58","2011","511","3010","15177.28","1000",null],
+    ["OA","58","2012","511","3010","15419.493","1000",null],
+    ["OA","58","2013","511","3010","15661.312","1000",null],
+    ["OA","238","2000","511","3010","66443.603","1000",null],
+    ["OA","238","2001","511","3010","68393.128","1000",null],
+    ["OA","238","2002","511","3010","70391.17","1000",null],
+    ["OA","238","2003","511","3010","72432.29","1000",null],
+    ["OA","238","2004","511","3010","74506.974","1000",null],
+    ["OA","238","2005","511","3010","76608.431","1000",null],
+    ["OA","238","2006","511","3010","78735.675","1000",null],
+    ["OA","238","2007","511","3010","80891.968","1000",null],
+    ["OA","238","2008","511","3010","83079.608","1000",null],
+    ["OA","238","2009","511","3010","85302.099","1000",null],
+    ["OA","238","2010","511","3010","87561.814","1000",null],
+    ["OA","238","2011","511","3010","89858.696","1000",null],
+    ["OA","238","2012","511","3010","92191.211","1000",null],
+    ["OA","238","2013","511","3010","94558.374","1000",null],
+    ["OA","102","2000","511","3010","65850.062","1000",null],
+    ["OA","102","2001","511","3010","66812.736","1000",null],
+    ["OA","102","2002","511","3010","67696.677","1000",null],
+    ["OA","102","2003","511","3010","68522.074","1000",null],
+    ["OA","102","2004","511","3010","69321.953","1000",null],
+    ["OA","102","2005","511","3010","70122.115","1000",null],
+    ["OA","102","2006","511","3010","70923.164","1000",null],
+    ["OA","102","2007","511","3010","71720.859","1000",null],
+    ["OA","102","2008","511","3010","72530.693","1000",null],
+    ["OA","102","2009","511","3010","73370.982","1000",null],
+    ["OA","102","2010","511","3010","74253.373","1000",null],
+    ["OA","102","2011","511","3010","75184.322","1000",null],
+    ["OA","102","2012","511","3010","76156.975","1000",null],
+    ["OA","102","2013","511","3010","77152.445","1000",null],
+    ["OA","103","2000","511","3010","23574.751","1000",null],
+    ["OA","103","2001","511","3010","24258.794","1000",null],
+    ["OA","103","2002","511","3010","24943.793","1000",null],
+    ["OA","103","2003","511","3010","25630.426","1000",null],
+    ["OA","103","2004","511","3010","26320.53","1000",null],
+    ["OA","103","2005","511","3010","27017.712","1000",null],
+    ["OA","103","2006","511","3010","27716.983","1000",null],
+    ["OA","103","2007","511","3010","28423.538","1000",null],
+    ["OA","103","2008","511","3010","29163.327","1000",null],
+    ["OA","103","2009","511","3010","29970.634","1000",null],
+    ["OA","103","2010","511","3010","30868.156","1000",null],
+    ["OA","103","2011","511","3010","31867.758","1000",null],
+    ["OA","103","2012","511","3010","32957.622","1000",null],
+    ["OA","103","2013","511","3010","34107.366","1000",null],
+    ["OA","108","2000","511","3010","14956.769","1000",null],
+    ["OA","108","2001","511","3010","14942.788","1000",null],
+    ["OA","108","2002","511","3010","15010.919","1000",null],
+    ["OA","108","2003","511","3010","15139.324","1000",null],
+    ["OA","108","2004","511","3010","15294.474","1000",null],
+    ["OA","108","2005","511","3010","15451.752","1000",null],
+    ["OA","108","2006","511","3010","15603.072","1000",null],
+    ["OA","108","2007","511","3010","15755.242","1000",null],
+    ["OA","108","2008","511","3010","15915.966","1000",null],
+    ["OA","108","2009","511","3010","16098.356","1000",null],
+    ["OA","108","2010","511","3010","16310.624","1000",null],
+    ["OA","108","2011","511","3010","16554.305","1000",null],
+    ["OA","108","2012","511","3010","16821.455","1000",null],
+    ["OA","108","2013","511","3010","17099.546","1000",null],
+    ["OA","129","2000","511","3010","15744.811","1000",null],
+    ["OA","129","2001","511","3010","16235.767","1000",null],
+    ["OA","129","2002","511","3010","16736.029","1000",null],
+    ["OA","129","2003","511","3010","17245.275","1000",null],
+    ["OA","129","2004","511","3010","17763.367","1000",null],
+    ["OA","129","2005","511","3010","18290.394","1000",null],
+    ["OA","129","2006","511","3010","18826.129","1000",null],
+    ["OA","129","2007","511","3010","19371.031","1000",null],
+    ["OA","129","2008","511","3010","19926.798","1000",null],
+    ["OA","129","2009","511","3010","20495.706","1000",null],
+    ["OA","129","2010","511","3010","21079.532","1000",null],
+    ["OA","129","2011","511","3010","21678.867","1000",null],
+    ["OA","129","2012","511","3010","22293.72","1000",null],
+    ["OA","129","2013","511","3010","22924.557","1000",null],
+    ["OA","133","2000","511","3010","11046.926","1000",null],
+    ["OA","133","2001","511","3010","11376.094","1000",null],
+    ["OA","133","2002","511","3010","11723.017","1000",null],
+    ["OA","133","2003","511","3010","12088.867","1000",null],
+    ["OA","133","2004","511","3010","12474.857","1000",null],
+    ["OA","133","2005","511","3010","12881.384","1000",null],
+    ["OA","133","2006","511","3010","13309.942","1000",null],
+    ["OA","133","2007","511","3010","13759.226","1000",null],
+    ["OA","133","2008","511","3010","14223.403","1000",null],
+    ["OA","133","2009","511","3010","14694.565","1000",null],
+    ["OA","133","2010","511","3010","15167.286","1000",null],
+    ["OA","133","2011","511","3010","15639.115","1000",null],
+    ["OA","133","2012","511","3010","16112.333","1000",null],
+    ["OA","133","2013","511","3010","16592.097","1000",null],
+    ["OA","137","2000","511","3010","1185.143","1000",null],
+    ["OA","137","2001","511","3010","1193.95","1000",null],
+    ["OA","137","2002","511","3010","1201.931","1000",null],
+    ["OA","137","2003","511","3010","1209.182","1000",null],
+    ["OA","137","2004","511","3010","1215.835","1000",null],
+    ["OA","137","2005","511","3010","1222.006","1000",null],
+    ["OA","137","2006","511","3010","1227.714","1000",null],
+    ["OA","137","2007","511","3010","1232.997","1000",null],
+    ["OA","137","2008","511","3010","1238.013","1000",null],
+    ["OA","137","2009","511","3010","1242.954","1000",null],
+    ["OA","137","2010","511","3010","1247.951","1000",null],
+    ["OA","137","2011","511","3010","1253.089","1000",null],
+    ["OA","137","2012","511","3010","1258.335","1000",null],
+    ["OA","137","2013","511","3010","1263.56","1000",null],
+    ["OA","159","2000","511","3010","122876.723","1000",null],
+    ["OA","159","2001","511","3010","126014.935","1000",null],
+    ["OA","159","2002","511","3010","129246.283","1000",null],
+    ["OA","159","2003","511","3010","132581.484","1000",null],
+    ["OA","159","2004","511","3010","136033.321","1000",null],
+    ["OA","159","2005","511","3010","139611.303","1000",null],
+    ["OA","159","2006","511","3010","143318.011","1000",null],
+    ["OA","159","2007","511","3010","147152.502","1000",null],
+    ["OA","159","2008","511","3010","151115.683","1000",null],
+    ["OA","159","2009","511","3010","155207.145","1000",null],
+    ["OA","159","2010","511","3010","159424.742","1000",null],
+    ["OA","159","2011","511","3010","163770.669","1000",null],
+    ["OA","159","2012","511","3010","168240.403","1000",null],
+    ["OA","159","2013","511","3010","172816.517","1000",null],
+    ["OA","170","2000","511","3010","25914.875","1000",null],
+    ["OA","170","2001","511","3010","26261.363","1000",null],
+    ["OA","170","2002","511","3010","26601.463","1000",null],
+    ["OA","170","2003","511","3010","26937.737","1000",null],
+    ["OA","170","2004","511","3010","27273.188","1000",null],
+    ["OA","170","2005","511","3010","27610.406","1000",null],
+    ["OA","170","2006","511","3010","27949.958","1000",null],
+    ["OA","170","2007","511","3010","28292.768","1000",null],
+    ["OA","170","2008","511","3010","28642.048","1000",null],
+    ["OA","170","2009","511","3010","29001.563","1000",null],
+    ["OA","170","2010","511","3010","29373.644","1000",null],
+    ["OA","170","2011","511","3010","29759.891","1000",null],
+    ["OA","170","2012","511","3010","30158.768","1000",null],
+    ["OA","170","2013","511","3010","30565.461","1000",null],
+    ["OA","201","2000","511","3010","7385.416","1000",null],
+    ["OA","201","2001","511","3010","7610.053","1000",null],
+    ["OA","201","2002","511","3010","7827.203","1000",null],
+    ["OA","201","2003","511","3010","8039.104","1000",null],
+    ["OA","201","2004","511","3010","8251.054","1000",null],
+    ["OA","201","2005","511","3010","8466.938","1000",null],
+    ["OA","201","2006","511","3010","8686.939","1000",null],
+    ["OA","201","2007","511","3010","8909.015","1000",null],
+    ["OA","201","2008","511","3010","9132.589","1000",null],
+    ["OA","201","2009","511","3010","9356.827","1000",null],
+    ["OA","201","2010","511","3010","9581.714","1000",null],
+    ["OA","201","2011","511","3010","9806.67","1000",null],
+    ["OA","201","2012","511","3010","10033.63","1000",null],
+    ["OA","201","2013","511","3010","10268.157","1000",null],
+    ["OA","202","2000","511","3010","44896.856","1000",null],
+    ["OA","202","2001","511","3010","45579.161","1000",null],
+    ["OA","202","2002","511","3010","46272.223","1000",null],
+    ["OA","202","2003","511","3010","46971.25","1000",null],
+    ["OA","202","2004","511","3010","47667.15","1000",null],
+    ["OA","202","2005","511","3010","48352.951","1000",null],
+    ["OA","202","2006","511","3010","49027.805","1000",null],
+    ["OA","202","2007","511","3010","49693.58","1000",null],
+    ["OA","202","2008","511","3010","50348.811","1000",null],
+    ["OA","202","2009","511","3010","50992.034","1000",null],
+    ["OA","202","2010","511","3010","51621.594","1000",null],
+    ["OA","202","2011","511","3010","52237.272","1000",null],
+    ["OA","202","2012","511","3010","52837.274","1000",null],
+    ["OA","202","2013","511","3010","53416.609","1000",null],
+    ["OA","251","2000","511","3010","10585.22","1000",null],
+    ["OA","251","2001","511","3010","10861.238","1000",null],
+    ["OA","251","2002","511","3010","11139.978","1000",null],
+    ["OA","251","2003","511","3010","11426.006","1000",null],
+    ["OA","251","2004","511","3010","11725.635","1000",null],
+    ["OA","251","2005","511","3010","12043.591","1000",null],
+    ["OA","251","2006","511","3010","12381.509","1000",null],
+    ["OA","251","2007","511","3010","12738.676","1000",null],
+    ["OA","251","2008","511","3010","13114.579","1000",null],
+    ["OA","251","2009","511","3010","13507.849","1000",null],
+    ["OA","251","2010","511","3010","13917.439","1000",null],
+    ["OA","251","2011","511","3010","14343.526","1000",null],
+    ["OA","251","2012","511","3010","14786.581","1000",null],
+    ["OA","251","2013","511","3010","15246.086","1000",null]
+  ]
+}

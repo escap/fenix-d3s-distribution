@@ -1,0 +1,160 @@
+{
+  "uid" : "gift_avg_000042BUR201001",
+  "title" : {
+    "EN" : "Burkina Faso - HarvestPlus/IRD, 2010"
+  },
+  "meContent" : {
+    "resourceRepresentationType": "dataset",
+    "seCoverage" : {
+      "coverageGeographic" : {
+        "idCodeList" : "GAUL", "version" : "2014",
+        "codes" : [{"code" : "42"}]
+      }
+    }
+  },
+  "contacts": [
+    {
+      "organization": {
+        "EN": "WHO-FAO"
+      },
+      "organizationUnit": {
+        "EN" : "Institut de Recherche pour le Développement"
+      },
+      "name": "Pauline Allemand",
+      "position": null,
+      "role": "distributor",
+      "contactInfo": {
+        "phone ": "+390657053879",
+        "address": null,
+        "emailAddress": "pauline.allemand@gmail.com",
+        "hoursOfService": null,
+        "contactIntruction": null
+      }
+    }
+  ],
+
+  "dsd" : {
+    "contextSystem" : "gift_processing",
+    "datasources" : ["gift_avg"],
+    "columns" : [
+      {
+        "id" : "subject",
+        "title" : { "EN" : "ID Subject" },
+        "dataType" : "text",
+        "key" : true
+      },
+      {
+        "id" : "adm0_code",
+        "subject" : "geo",
+        "title" : { "EN" : "Country" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GAUL", "version" : "2014", "level" : 1 } ] }
+      },
+      {
+        "id" : "adm1_code",
+        "title" : { "EN" : "Subregion" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GAUL", "version" : "2014", "level" : 2} ] }
+      },
+      {
+        "id" : "gender",
+        "title" : { "EN" : "Gender" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Gender" } ] }
+      },
+      {
+        "id" : "age_year",
+        "title" : { "EN" : "Age (years)" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "age_month",
+        "title" : { "EN" : "Age (months)" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "special_condition",
+        "title" : { "EN" : "Special condition" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_SpecialConditions" } ] }
+      },
+      {
+        "id" : "foodex2_code",
+        "title" : { "EN" : "FoodEx2" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Foods" } ] },
+        "key" : true
+      },
+      {
+        "id" : "facet_a",
+        "title" : { "EN" : "Facet A" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Facets" } ] },
+        "key" : true
+      },
+      {
+        "id" : "facet_b",
+        "title" : { "EN" : "Facet B" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Facets" } ] },
+        "key" : true
+      },
+      {
+        "id" : "facet_c",
+        "title" : { "EN" : "Facet C" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Facets" } ] },
+        "key" : true
+      },
+      {
+        "id" : "facet_d",
+        "title" : { "EN" : "Facet D" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Facets" } ] },
+        "key" : true
+      },
+      {
+        "id" : "facet_e",
+        "title" : { "EN" : "Facet E" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Facets" } ] },
+        "key" : true
+      },
+      {
+        "id" : "facet_f",
+        "title" : { "EN" : "Facet F" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Facets" } ] },
+        "key" : true
+      },
+      {
+        "id" : "facet_g",
+        "title" : { "EN" : "Facet G" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Facets" } ] },
+        "key" : true
+      },
+      {
+        "id" : "item",
+        "subject" : "item",
+        "title" : { "EN" : "Item" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_Items" } ] } ,
+        "key" : true
+      },
+      {
+        "id" : "value",
+        "subject" : "value",
+        "title" : { "EN" : "Value" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "um",
+        "subject" : "um",
+        "title" : { "EN" : "Unit of measure" },
+        "dataType" : "code",
+        "domain" : { "codes" : [ { "idCodeList" : "GIFT_UM" } ] }
+      }
+    ]
+  }
+}

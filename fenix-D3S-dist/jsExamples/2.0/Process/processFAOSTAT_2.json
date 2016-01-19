@@ -1,0 +1,39 @@
+[
+  {
+    "name": "filter",
+    "parameters": {
+      "rows": {
+        "country": {
+          "codes": [
+            {
+              "uid": "FAOSTAT_Countries",
+              "codes": [
+                "33"
+              ]
+            }
+          ]
+        },
+        "element": {
+          "codes": [
+            {
+              "uid": "FAOSTAT_Elements",
+              "codes": [
+                "5420"
+              ]
+            }
+          ]
+        },
+        "item": {
+          "codes": [
+            {
+              "uid": "FAOSTAT_Items",
+              "codes": [
+                "867"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+]

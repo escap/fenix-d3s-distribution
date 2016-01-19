@@ -103,7 +103,7 @@
 
     },
 					"dsd" : {
-								"contextSystem" : "cstat_afg"
+								"contextSystem" : "cstat"
 									}
 }
 

@@ -1,0 +1,10 @@
+{
+    "dsd.contextSystem" : {
+        "enumeration": [
+            "gift"
+        ]
+    },
+    "meContent.resourceRepresentationType" : {
+        "enumeration" : ["codelist"]
+    }
+}

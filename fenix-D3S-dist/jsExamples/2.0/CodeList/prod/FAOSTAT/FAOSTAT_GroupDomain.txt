@@ -1,0 +1,201 @@
+{
+    "uid": "FAOSTAT_GroupDomain",
+	"version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "FAOSTAT Groups and Domains"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "FAO"
+            },
+            "organizationUnit": {
+                "EN": "ESS-FAOSTAT"
+            },
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": null,
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["group","domain"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": null
+                        }
+                    ],
+                    "idCodeList": null,
+                    "version": null
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 2,
+            "typeOfCodeList": "list"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    },
+		"dsd":{
+      "contextSystem":"FAOSTAT"
+   }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+@E@Agri-Environmental Indicators
+@E@Agri-Environmental Indicators
+@AS@ASTI R&D Indicators
+@G1@Emissions - Agriculture
+@G2@Emissions - Land Use
+@FB@Food Balance
+@D@Food Security
+@F@Forestry
+@R@Inputs
+@I@Investment
+@M@Macro-Statistics
+@O@Population
+@P@Prices
+@Q@Production
+@T@Trade
+E@EC@Air and climate change
+E@EE@Energy
+E@EF@Fertilizers
+E@EL@Land
+E@EK@Livestock
+E@EP@Pesticides
+E@ES@Soil
+E@EW@Water
+AS@AE@ASTI-Expenditures
+AS@AA@ASTI-Researchers by Agency Type
+AS@AR@ASTI-Researchers by Gender and Degree Level
+G1@GT@Agriculture Total
+G1@GB@Burning - Crop Residues
+G1@GH@Burning - Savanna
+G1@GA@Crop Residues
+G1@GV@Cultivation of Organic Soils
+G1@GN@Energy Use
+G1@GE@Enteric Fermentation
+G1@GU@Manure applied to Soils
+G1@GP@Manure left on Pasture
+G1@GM@Manure Management
+G1@GR@Rice Cultivation
+G1@GY@Synthetic Fertilizers
+G2@GI@Burning - Biomass
+G2@GC@Cropland
+G2@GF@Forest Land
+G2@GG@Grassland
+G2@GL@Land Use Total
+FB@BC@Commodity Balances - Crops Primary Equivalent
+FB@BL@Commodity Balances - Livestock and Fish Primary Equivalent
+FB@FBS@Food Balance Sheets
+FB@CC@Food Supply - Crops Primary Equivalent
+FB@CL@Food Supply - Livestock and Fish Primary Equivalent
+D@FS@Suite of Food Security Indicators
+F@FO@Forestry Production and Trade
+F@FT@Forestry Trade Flows
+R@RF@Fertilizers
+R@RV@Fertilizers - Trade Value
+R@RA@Fertilizers archive
+R@RL@Land
+R@RT@Pesticides (trade)
+R@RP@Pesticides (use)
+I@CS@Capital Stock
+I@IC@Credit to Agriculture
+I@IG@Government Expenditure
+I@RM@Machinery
+I@RY@Machinery Archive
+M@MK@Key Indicators
+O@OA@Annual population
+P@PI@Producer Price Indices - Annual
+P@PP@Producer Prices - Annual
+P@PA@Producer Prices - Archive
+P@PM@Producer Prices - Monthly
+Q@QC@Crops
+Q@QD@Crops processed
+Q@QA@Live Animals
+Q@QL@Livestock Primary
+Q@QP@Livestock Processed
+Q@QI@Production Indices
+Q@QV@Value of Agricultural Production
+T@TP@Crops and livestock products
+T@TM@Detailed trade matrix
+T@TA@Live animals
+T@TI@Trade Indices
+

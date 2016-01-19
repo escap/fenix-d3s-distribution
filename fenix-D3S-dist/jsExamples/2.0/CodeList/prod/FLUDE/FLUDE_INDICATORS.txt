@@ -1,0 +1,262 @@
+﻿{
+    "uid": "FLUDE_INDICATORS",
+	"version": null,
+    "title": {
+        "EN": "FLUDE - Indicators by topic"
+    },
+    "meContent": {
+        "description": {"EN":"FLUDE indicators list grouped by topic"},
+        "keywords": ["topic", "indicator", "flude"],
+
+        "resourceRepresentationType": "codelist",
+        "statisticalConceptsDefinitions": null,
+        "seCodeList"  : {
+            "numberOfLevels": 1,
+            "typeOfCodeList": "list"
+        }
+
+    },
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+    "languageDetails": null,
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+    "contacts": [
+        {
+            "organization": {
+                "EN": "FAO"
+            },
+            "organizationUnit": {"EN":"ESS"},
+            "name": "MacDicken, Kenneth (FOM)",
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": "+39 0657053255",
+                "address": "Viale delle Terme di Caracalle, 00153 Rome, Italy",
+                "emailAddress": "Kenneth.MacDicken@fao.org",
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    },
+    "dsd" : {
+     "contextSystem" : "FLUDE"
+    }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+--data--
+
+@1@Forest area and characteristics
+@2@Production
+@3@Disturbarce and forest degradation
+@4@Measuring progress towards SFM
+@5@Biodiversity and conservation
+@6@Protective functions and selective ecosystem services
+@7@Economics/Livelihood
+@8@Ownership
+@9@Annual data
+1@Forest@Forest area
+1@Forchange@Change in total forest area
+1@ForPerc@Percent of land area with forest
+1@PerCapFor@Forest area per capita
+1@NatFor@Natural forest area
+1@Nfchange@Natural forest area change
+1@OthWooLan@Area of other wooded land
+1@OthLan@Area of other land
+1@LanTreCov@Other land of which with tree cover
+1@InWater@ Inland water bodies
+1@Landarea@Land area (without inland water)
+1@ForExp@Forest expantion
+1@ Afforest@Forest expantion of which afforestion
+1@NatForExp@Forest expantion of which natural expansion of forest
+1@Deforest@Deforestation
+1@HumDef@Deforestation of which human induced
+1@Reforest@Reforestation
+1@ArtRef@Reforestation of which artificial
+1@PrimFor@Primary forest
+1@NatRegFor@Other naturally regenerated forest
+1@IntroSpp@Other naturally regenerated forest of which introduced species
+1@NatzedSpp@Other naturally regenerated forest of which naturalized
+1@PlantFor@Planted forest
+1@Pfchange@Planted forest area change
+1@IntroSppPlant@Planted forest of which is introduced species
+1@Mangrove@ Area of mangrove forest
+1@PlantMan@Area of mangrove forest of which planted
+2@ForGrow@Forest growing stock
+2@ConifGrow@Forest growing stock of which coniferous
+2@BroaGrow@Forest growing stock of which broadleaved
+2@OthWooGrow@Other wooded land growing stock
+2@OthConifGrow@Other wooded land growing stock of which coniferous
+2@OthBroaGrow@Other wooded land growing stock of which broadleaved
+2@NetAnnIncr@Net annual increment
+2@IncrConif@Net annual increment of which coniferous
+2@IncrBroa@Net annual increment of which broadleaved
+2@ForAbovBiom@Above-ground biomass - forest
+2@OthAbovBiom@Above-ground biomass - other wooded land
+2@ForBelBiom@Below-ground biomass - forest
+2@OthBelBiom@Below-ground biomass - other wooded land
+2@ForDeadW@Dead wood - forest
+2@OthDeadW@Dead wood - other wooded land
+2@ForAbovCarb@ Carbon in above-ground biomass - forest
+2@OthAbovCarb@Carbon in above-ground biomass - other wooded land
+2@ForBelCarb@Carbon in below-ground biomass - forest
+2@OthBelCarb@ Carbon in below-ground biomass - other wooded land
+2@ForSubLiv@ Sub total carbon in living - forest
+2@OthSubLiv@Sub total carbon in living - other wooded land
+2@DeadForCarb@Carbon in dead wood - forest
+2@DeadOthCarb@Carbon in dead wood - other wooded land
+2@ForLittCarb@Carbon in litter - forest
+2@OthLittCarb@Carbon in litter - other wooded land
+2@ForSubtotDWLitt@Subtotal carbon in dead wood and litter - forest
+2@OthSubtotDWLitt@Subtotal carbon in dead wood and litter - other wooded land
+2@ForSoilCarb@ Soil carbon - forest
+2@OthSoilCarb@ Soil carbon - other wooded land
+2@ProdFor@Production forest
+2@MulUseFor@Multiple use forest
+2@NWFPvalSum@Value of most important commercial NWFPs
+6@SoilWatProt@Protection of soil and water
+6@CleanWat@Protection of soil and water of which production of clean water
+6@CostStab@Protection of soil and water of which coastal stabilization
+6@DeserCont@Protection of soil and water of which desertification control
+6@AvalCont@Protection of soil and water of which avalanche control
+6@FloodCont@Protection of soil and water of which erosion, flood protection or reducing flood risk
+6@OthCont@Protection of soil and water of which other
+6@EcoServ@Ecosystem services, cultural or spiritual values
+6@PubRecr@ Ecosystem services of which public recreation
+6@CarbStor@Ecosystem services of which carbon storage or sequestration
+6@CultServ@Ecosystem services of which spiritual or cultural services
+6@OthServ@Ecosystem services of which other
+5@BioCons@Conservation of biodiversity
+5@ProtArea@Forest area within protected areas
+3@InvSppAreaToT@Area of forest affected by woody invasive species
+3@ReduCanopy@Area of forest with reduced canopy cover
+4@SFMpolicN@Policies supporting sustainable forest management at national level
+4@SFMpolicR@Policies supporting sustainable forest management at regional level
+4@SFMpolicP@Policies supporting sustainable forest management at provincial level
+4@SFMpolicL@Policies supporting sustainable forest management at local level
+4@PubPolicN@Policies supporting sustainable forest management of which in publicly owned forests  at national level
+4@PubPolicR@Policies supporting sustainable forest management of which in publicly owned forests at regional level
+4@PubPolicP@Policies supporting sustainable forest management of which in publicly owned forests at provincial level
+4@PubPolicL@Policies supporting sustainable forest management of which in publicly owned forests at local level
+4@PrivPolicN@Policies supporting sustainable forest management of which in privately owned forests  at national level
+4@PrivPolicR@Policies supporting sustainable forest management of which in privately owned forests at regional level
+4@PrivPolicP@ Policies supporting sustainable forest management of which in privately owned forests at provincial level
+4@PrivPolicL@Policies supporting sustainable forest management of which in privately owned forests at local level
+4@SFMlegN@Legislation and regulations supporting sustainable forest management  at national level
+4@SFMlegR@Legislation and regulations supporting sustainable forest management at regional level
+4@SFMlegP@Legislation and regulations supporting sustainable forest management at provincial level
+4@SFMlegL@Legislation and regulations supporting sustainable forest management at local level
+4@PubLegN@Legislation and regulations supporting sustainable forest management  of which in publicly owned forests at national level
+4@PubLegR@Legislation and regulations supporting sustainable forest management of which in publicly owned forests at regional level
+4@PubLegP@Legislation and regulations supporting sustainable forest management of which in publicly owned forests at provincial level
+4@PubLegL@Legislation and regulations supporting sustainable forest management of which in publicly owned forests at local level
+4@PrivLegN@Legislation and regulations supporting sustainable forest management of which in privately owned forests  at national level
+4@PrivLegR@Legislation and regulations supporting sustainable forest management of which in privately owned forests at regional level
+4@PrivLegP@Legislation and regulations supporting sustainable forest management of which in privately owned forests at provincial level
+4@PrivLegL@Legislation and regulations supporting sustainable forest management of which in privately owned forests at local level
+4@NatioStake@National stakeholder platform
+4@PermForUse@Forest area intended to be in permanent forest land use
+4@PermForEst@Forest area intended to be in permanent forest land use of which permanent forest estate
+4@NatioForInv1@National forest inventory monitoring forest area
+4@NatioForInv2@ Most recent year of national forest inventory monitoring forest area
+4@ExpertEstim1@National expert estimate monitoring forest area
+4@ExpertEstim2@Most recent year of national expert estimate monitoring forest area
+4@IndicRepo@Criteria and indicators reporting
+4@StateRepo@Periodic national state of the forest reporting
+4@OthRepo@Other reporting
+4@NoRepo@No reportig
+4@ManagPlan@Forest area with management plan
+4@ProdPlan@Forest area with management plan of which for production
+4@ConsPlan@Forest area with management plan of which conservation
+4@SoilWatManag@Soil and water management
+4@ForDelin@High conservation value forest delineation
+4@Social@Social consideration/community involvement
+4@MonitManag@Percent of area under forest management plan that is monitored annually
+4@Planning@Type of stakeholder inputs - Planning phase
+4@Operation@Type of stakeholder inputs - Operations phase
+4@Review@Review of operations
+4@FSCarea@ Area of forest certified under FSC
+4@PEFCarea@Area of forest certified under PEFC
+4@OthIntCertif@Area of forest certified by other international certification
+7@Revenue@Forest revenue
+7@PubForExpe@Public expenditure on forests
+8@PubOwn@Public ownership
+8@StateOwn@Public ownership of which owned by the state at national scale
+8@SubGovOwn@Public ownership of which owned by the state at the sub-national government scale
+8@PrivOwn@Private ownership
+8@IndivOwn@Private ownership of which owned by individuals
+8@PrivBusOwn@Private ownership of which owned by private business entities and institutions
+8@IndigOwn@Private ownership of which owned by local, tribal and indigenous communities
+8@UnknOwn@Unknown ownership
+8@PubAdmin@Public administration
+8@Indiv@Individuals
+8@PrivComp@Private companies
+8@Commun@Communities
+8@Other@Other
+7@ForEmpl@Employment in forestry
+7@FemEmpl@Employment in forestry of which female
+7@ForGrosVal@Gross value added from forestry
+7@USDNWFP@NWFP value in USD
+7@USDRev@Revenue in USD
+7@USDExp@Expenditure in USD
+7@USDForGrosVal@Gross value added in USD
+9@WooRemov@Total wood removal
+9@WooFuel@Total wood removal of which wood fuel
+9@BurnLan@Total land area burned
+9@BurnFor@Total forest area burned
+9@ForConvArea@Forest area earmarked for conversion

@@ -1,0 +1,4520 @@
+{
+    "uid": "GIFT_Foods",
+	"version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "WHO-FAO GIFT, Foods coming from the FoodEX 2 codelist"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "WHO-FAO"
+            },
+            "organizationUnit": null,
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": null,
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["age range"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": null
+                        }
+                    ],
+                    "idCodeList": null,
+                    "version": null
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 10,
+            "typeOfCodeList": "tree"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    },
+		"dsd":{
+      "contextSystem":"gift"
+   }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+@A0B6Z@Food
+A0B6Z@A0BXE@Plant commodities (RPCs)
+A0BXE@A0EST@Leaves
+A0EST@A00KR@Leafy vegetables
+A00KR@A0DLC@Lamb's lettuces and similar-
+A0DLC@A00KT@Lamb's lettuces
+A0DLC@A00KV@Italian corn salads
+A00KR@A0DLB@Lettuces and similar-
+A0DLB@A00KX@Lettuces
+A00KX@A00LB@Lollo rosso
+A0DLB@A00KZ@Crisp lettuces
+A0DLB@A00LA@Cutting lettuces
+A0DLB@A00KY@Head lettuces
+A0DLB@A00LC@Romaines
+A00KR@A00LD@Escaroles and similar-
+A00LD@A00LE@Escaroles
+A00LD@A00LF@Curly endives
+A00LD@A00MD@Dandelions
+A00LD@A0DLA@Puntarelle
+A00LD@A00LG@Radicchio
+A00LD@A00LJ@Sugar loaf chicories
+A00LD@A00LH@Wild chicories
+A00KR@A0DKQ@Land cresses and similar-
+A0DKQ@A00LL@Land cresses
+A0DKQ@A00YT@Winter cress
+A00KR@A00LM@Roman rocket and similar-
+A00LM@A00LN@Roman rocket
+A00LM@A00LP@Wall rocket
+A00KR@A0DKP@Red mustard leaves and similar-
+A0DKP@A00LQ@Red mustard leaves
+A00KR@A00MA@Baby leaf crops (including brassica species) and similar-
+A00MA@A0DKN@Baby leaf Chards
+A00MA@A0DKL@Baby leaf escaroles
+A00MA@A00LZ@Baby leaf indian mustard leaves
+A00MA@A0DKM@Baby leaf lettuces
+A00MA@A0DKK@Baby leaf spinaches
+A00MA@A0DKJ@Other species harvested at baby leaf stage
+A0DKJ@A00LR@Baby leaf brassica crops
+A00LR@A00LV@Rape greens
+A00LR@A00LX@Rutabaga greens
+A00LR@A00MB@Radish leaves (including radish tops)
+A00KR@A00NF@Other lettuces and salad plants
+A00NF@A00NZ@Scurvy-grass
+A00NF@A00NG@Balsam pear leaves
+A00NF@A00NH@Box thorn
+A00NF@A00NK@Papaya leaves
+A00NF@A00NL@Nightshade, black
+A00NF@A00NM@Pepper leaves
+A00NF@A00NN@Plantain leaves
+A00NF@A00NP@Pokeweed
+A00NF@A00NQ@Salsify leaves
+A00NF@A00NR@Senna leaves
+A00NF@A00NS@Sowthistle leaves
+A00NF@A00NV@Taro leaves
+A00NF@A00NY@Blackjack leaves
+A00NF@A00ME@Marsh marigold leaves
+A00NF@A00MC@Mallow leaves
+A00NF@A0F6J@Baobab leaves
+A00KR@A00MG@Spinach-type leaves
+A00MG@A00MH@Spinaches and similar-
+A00MH@A00MJ@Spinaches
+A00MH@A00ML@Amaranth leaves
+A00ML@A0DKH@Purple amaranth leaves
+A00ML@A0DKG@Red amaranth leaves
+A00ML@A0DKF@Spleen amaranth leaves
+A00ML@A0DKE@Chinese amaranth leaves
+A00ML@A0DKD@Green amaranth leaves
+A00MH@A0DKC@Bitterblad leaves
+A00MH@A0DKB@Bitterleaves
+A00MH@A0DKA@Black eyed peas leaves
+A00MH@A00NJ@Cassava leaves
+A00MH@A0DJZ@Garland chrysanthemums leaves
+A00MH@A00MK@New Zealand spinaches
+A00MH@A00MV@Oraches leaves
+A00MH@A00NX@Sweet potato leaves
+A00MH@A00NT@Tannia leaves
+A00MG@A00MN@Purslanes and similar-
+A00MN@A00MP@Purslanes
+A00MN@A00MR@Agretti
+A00MN@A00MS@Glassworts
+A00MN@A0DJY@Rock samphires
+A00MN@A0DJX@Sea asters
+A00MN@A0DJV@Sea lavanders
+A00MN@A00MQ@Winter purslanes
+A00MG@A0DJT@Chards and similar-
+A0DJT@A00MX@Chards
+A0DJT@A0DJS@Beetroot leaves
+A0DJT@A0DJR@Swiss chards
+A00MG@A00MY@Other spinaches and similar leaves
+A00MY@A00MZ@Goosefoot
+A00MY@A00MF@Roselle leaves
+A00KR@A0DJQ@Grape leaves and similar species
+A0DJQ@A00NB@Grape leaves
+A0DJQ@A0DJP@Climbing wattle
+A0DJQ@A00MM@Malabar nightshades
+A00KR@A00NC@Watercresses and similar-
+A00NC@A00ND@Watercresses
+A00NC@A00NA@Morning glory
+A00NC@A0DJN@Water clovers
+A00NC@A0DJM@Water mimosas
+A00KR@A0DJL@Witloofs and similar-
+A0DJL@A00NE@Witloofs
+A0DJL@A0DJK@Dandelion leaves (forced)
+A00KR@A00FT@Head brassica
+A00FT@A0DLG@Brussels sprouts and similar-
+A0DLG@A00FV@Brussels sprouts
+A00FT@A00FX@Head cabbages and similar-
+A00FX@A00FY@Head cabbages
+A00FX@A00FZ@Pointed head cabbages
+A00FX@A00GA@Red cabbages
+A00FX@A00GB@Savoy cabbages
+A00FX@A00GC@White cabbage
+A00FT@A00GD@Other head brassica (p)
+A00KR@A00GE@Leafy brassica
+A00GE@A00GF@Chinese cabbages and similar-
+A00GF@A00GG@Chinese cabbages
+A00GF@A0DLF@Chinese flat cabbages
+A00GF@A00GH@Indian mustards
+A00GF@A00LT@Komatsuna
+A00GF@A00LS@Mizuna
+A00GF@A00GJ@Pak-choi
+A00GF@A00LY@Turnip tops
+A00GE@A00GL@Kales and similar-
+A00GL@A00GM@Curly kales
+A00GL@A00GN@Collards
+A00GL@A00GR@Stem kale
+A00GL@A0DLE@Jersey kales
+A00GL@A00GP@Kohlrabi leaves
+A00GL@A0DLD@Rape kales
+A00GL@A00GQ@Portuguese kales
+A00GE@A00GS@Other leafy brassica (c)
+A00GS@A00GT@Sea kale
+A00KR@A0F6Y@Fern group
+A0F6Y@A0F6Z@Cinnamon fern
+A0F6Y@A0F7A@Ostrich fern
+A0F6Y@A0F7B@Bracken
+A0F6Y@A0F7C@Vegetable fern
+A0EST@A04MA@Aromatic herbs
+A04MA@A0DJJ@Chervil and similar-
+A0DJJ@A00XB@Chervil
+A04MA@A00XC@Chives and similar-
+A00XC@A00XD@Chives
+A00XC@A00XE@Chinese chives
+A00XC@A0DJH@Ramson
+A04MA@A04KB@Celery leaves and similar-
+A04KB@A00XA@Celery leaves
+A04KB@A00VR@Angelica (leaves and stems)
+A04KB@A00VZ@Burnet
+A04KB@A0DJG@Caraway leaves
+A04KB@A00XF@Coriander leaves
+A04KB@A0CSR@Culantro leaves
+A04KB@A00XH@Dill leaves
+A04KB@A00XL@Fennel leaves
+A04KB@A0DJF@Fenugreek leaves
+A04KB@A00YG@Herb of grace
+A04KB@A00XS@Lovage leaves
+A04KB@A0DJE@Pimpernel
+A04KB@A0DJD@Salad burnet
+A04KB@A00YL@Sorrel
+A00YL@A0DJC@Maori dock
+A00YL@A0DJB@Water dock
+A00YL@A00MT@Garden sorrel
+A00YL@A0DJA@Bloodwort dock
+A04KB@A00YM@Sweet cicely
+A04MA@A0DHZ@Parsley and similar-
+A0DHZ@A00YE@Parsley
+A0DHZ@A0DHY@Root parsley leaves
+A04MA@A0DHX@Sage and similar-
+A0DHX@A00YH@Sage
+A0DHX@A00VY@Borage
+A0DHX@A0DHV@Curry herb
+A0DHX@A0DHT@Greek sage
+A0DHX@A0DHS@Jamé's sage
+A0DHX@A0DHR@Other species and hybrids of genus Salvia, not elsewhere mentioned
+A04MA@A0DHQ@Rosemary and similar-
+A0DHQ@A00YF@Rosemary
+A0DHQ@A0DHP@Santolina
+A04MA@A04KD@Thyme and similar-
+A04KD@A00YQ@Thyme
+A04KD@A0DHN@Creeping thyme
+A04KD@A0DHM@Cretan oregano
+A04KD@A0DHL@Lemon savory
+A04KD@A0DHK@Lemon thyme
+A04KD@A00XX@Marjoram
+A04KD@A0DHJ@Mastic thyme
+A04KD@A00XV@Oregano
+A04KD@A0DHH@Summer savory
+A04KD@A0DHG@Syrian oregano
+A04KD@A00YK@Winter savory
+A04MA@A0ESV@Basils and mints
+A0ESV@A00VV@Basil
+A0ESV@A00XZ@Mints
+A00XZ@A0DHA@Apple mint
+A00XZ@A0DGZ@Bergamot mint
+A00XZ@A0DGY@Corsican mint
+A00XZ@A0DGX@Gingermint
+A00XZ@A00YA@Pennyroyal
+A00XZ@A00YB@Peppermint
+A00XZ@A00YC@Spearmint
+A00XZ@A0DGV@Water mint
+A00XZ@A0DGT@Other species and hybrids of genus Mentha, not elsewhere mentioned
+A0ESV@A0DGS@Asiatic pennywort
+A0ESV@A0DHF@Greek bush basil
+A0ESV@A0DHE@Hoary basil
+A0ESV@A0DHD@Holy basil
+A0ESV@A00VT@Lemon balm
+A0ESV@A0DHC@Lemon basil
+A0ESV@A0DGQ@Lesser calamint
+A0ESV@A0DGP@Lizard tail
+A0ESV@A0DGG@Rice paddy herb
+A0ESV@A0DHB@Thai basil
+A0ESV@A00YR@Vietnamese mint
+A04MA@A0DGE@Laurel and similar-
+A0DGE@A00VX@Laurel
+A0DGE@A00XG@Curry leaves
+A0DGE@A00XN@Kaffir lime leaves
+A0DGE@A0DGD@Siamese cassia
+A0DGE@A0DGC@Wild betel leaves
+A04MA@A04KF@Tarragon and similar-
+A04KF@A00YP@Tarragon
+A04KF@A0DGB@Aztec sweet herb
+A04KF@A00XJ@Epazote
+A04KF@A00XM@Hyssop
+A04KF@A00XR@Lemongrass
+A04KF@A0DGA@Mexican oregano
+A04KF@A00PA@Common nettle
+A04KF@A0DFZ@Other urtica species
+A04KF@A0DFY@Russian tarragon
+A04KF@A0DFX@Stevia
+A04MA@A00VS@Aniseed myrtle
+A04MA@A00XK@Evening primrose leaves
+A04MA@A00YJ@Sassafras leaves
+A04MA@A00YS@White ginger
+A04MA@A00YV@Wintergreen leaves
+A0EST@A0ESS@Leaves (tea and other) used for infusions or hot drinks
+A0ESS@A04KK@Teas  and similar-
+A04KK@A03HT@Green tea leaves
+A0ESS@A03JK@Herbal infusion materials from leaves and herbs
+A03JK@A0D7B@Strawberry infusion leaves and similar-
+A0D7B@A03JL@Strawberry infusion leaves
+A0D7B@A00YY@Wormwoods infusion leaves
+A00YY@A0D7A@Absinth infusion leaves
+A00YY@A0D3Z@Mugwort infusion leaves
+A00YY@A0D3G@Roman wormwood infusion leaves
+A00YY@A0D3C@Southernwood infusion leaves
+A0D7B@A0D6Z@Agrimony infusion leaves
+A0D7B@A0D6Y@Alfalfa infusion leaves
+A0D7B@A0BB6@Aloe leaf gel (pulp)
+A0D7B@A0D6V@Alpine ladies mantle infusion leaves
+A0D7B@A0D6T@Bearberry infusion leaves
+A0D7B@A0D6S@Bilberry infusion leaves
+A0D7B@A0D6R@Birch infusion leaves
+A0D7B@A0D6Q@Bitter orange infusion leaves
+A0D7B@A0D6P@Blackberry infusion leaves
+A0D7B@A0D6N@Boldu infusion leaves
+A0D7B@A0D6M@Buchu infusion leaves
+A0D7B@A0D6L@Buckwheat infusion leaves
+A0D7B@A0D6K@Catmint infusion leaves
+A0D7B@A0D6J@Centaury infusion leaves
+A0D7B@A0D6H@Chiretta infusion leaves
+A0D7B@A0D6G@Clary sage infusion leaves
+A0D7B@A0D6F@Clubmoss infusion leaves
+A0D7B@A0D6E@Common speedwell infusion leaves
+A0D7B@A0D6D@Common vervain infusion leaves
+A0D7B@A0D6C@Cornflower infusion leaves
+A0D7B@A0D6B@Cowberry infusion leaves
+A0D7B@A0D6A@Currant (black, red and white) infusion leaves
+A0D6A@A0D5Z@Blackcurrant infusion leaves
+A0D6A@A0D5Y@Redcurrant infusion leaves
+A0D7B@A0D5X@Damiana infusion leaves
+A0D7B@A0D5V@Downy hemp nettle infusion leaves
+A0D7B@A0D5T@Echinacea infusion leaves
+A0D5T@A0D5S@Narrow-leaf echinacea infusion leaves
+A0D5T@A0D5R@Pale echinacea infusion leaves
+A0D5T@A0D5Q@Purple echinacea infusion leaves
+A0D7B@A0D5P@Elder infusion leaves
+A0D7B@A0D5N@Eucalyptus infusion leaves
+A0D7B@A0D5M@Eyebright infusion leaves
+A0D7B@A0D5L@Field horsetail infusion leaves
+A0D7B@A0D5K@Fumitory infusion leaves
+A0D7B@A0D5J@Goat´s rue infusion leaves
+A0D7B@A0D5H@Golden root infusion leaves
+A0D7B@A0D5G@Goldenrod infusion leaves
+A0D7B@A0D5F@Ground ivy infusion leaves
+A0D7B@A0D5E@Gymnema infusion leaves
+A0D7B@A0D5D@Hairy rupturewort infusion leaves
+A0D7B@A0D5C@Hawthorn infusion leaves
+A0D7B@A0D5B@Hazelnut infusion leaves
+A0D7B@A0D5A@Hearts ease infusion leaves
+A0D7B@A0D4Z@Heather infusion leaves
+A0D7B@A0D4Y@Hemp infusion leaves
+A0D4Y@A0D4X@Common hemp infusion leaves
+A0D4Y@A0D4V@Ruderalis hemp infusion leaves
+A0D7B@A0D4T@Herb bennet infusion leaves
+A0D7B@A0D4S@Holy thistle infusion leaves
+A0D7B@A0D4R@Horehound infusion leaves
+A0D7B@A0D4Q@Horse-chestnut infusion leaves
+A0D7B@A0D4P@Ironwort infusion leaves
+A0D7B@A0D4N@Jiaogulan infusion leaves
+A0D7B@A0D4M@Knotgrass infusion leaves
+A0D7B@A0D4L@Ladies mantle infusion leaves
+A0D7B@A0D4K@Lemon myrtle infusion leaves
+A0D7B@A00XQ@Lemon myrtle
+A0D7B@A03JN@Lemon verbena infusion leaves
+A0D7B@A0D4J@Lime infusion leaves
+A0D4J@A0D4H@Small-leaf linden infusion leaves
+A0D4J@A0D4G@Big-leaf linden infusion leaves
+A0D4J@A0D4F@Silver linden infusion leaves
+A0D7B@A0D4E@Mallow infusion leaves
+A0D7B@A0D4D@Marshmallow infusion leaves
+A0D7B@A0D4C@Meadowsweet infusion leaves
+A0D7B@A0D4B@Mistletoe infusion leaves
+A0D7B@A0D4A@Moldavian dragonhead infusion leaves
+A0D7B@A0D3Y@Mulberry (black and white) infusion leaves
+A0D3Y@A0D3X@White mulberry infusion leaves
+A0D3Y@A0D3V@Black mulberry infusion leaves
+A0D7B@A0D3T@Mullein infusion leaves
+A0D7B@A0D3S@Norway spruce infusion leaves
+A0D7B@A0D3R@Oat infusion leaves
+A0D7B@A0D3Q@Olive infusion leaves
+A0D7B@A0D3P@Papaya infusion leaves
+A0D7B@A0D3N@Passion flower infusion leaves
+A0D7B@A0D3M@Plantain infusion leaves
+A0D7B@A0D3L@Raspberry (red and yellow) infusion leaves
+A0D7B@A0D3K@Red clover infusion leaves
+A0D7B@A0D3J@Ribwort plantain infusion leaves
+A0D7B@A0D3H@Rock rose infusion leaves
+A0D7B@A0D3F@Shepherd’s purse infusion leaves
+A0D7B@A0D3E@Silverweed infusion leaves
+A0D7B@A0D3D@Smooth rupturewort infusion leaves
+A0D7B@A0D3B@St. John´s Wort infusion leaves
+A0D7B@A0D3A@Sweet blackberry  infusion leaves
+A0D7B@A0D2Z@Sweet orange infusion leaves
+A0D7B@A0D2Y@Sweet trefoil infusion leaves
+A0D7B@A00YX@Sweet woodruff infusion leaves
+A0D7B@A00YN@Tansy infusion leaves
+A0D7B@A0D2T@Tea tree infusion leaves
+A0D7B@A0D2S@Toadflax  infusion leaves
+A0D7B@A0D2R@Walnut infusion leaves
+A0D2R@A0D2Q@Eastern black walnut infusion leaves
+A0D2R@A0D2P@Common walnut infusion leaves
+A0D7B@A0D2N@White deadnettle infusion leaves
+A0D7B@A0D2M@Wild angelica infusion leaves
+A0D7B@A0D2L@Wild strawberry infusion leaves
+A0D7B@A0D2K@Willow herb infusion leaves
+A0D7B@A0D2J@Witch hazel infusion leaves
+A0D7B@A0D2H@Wood betony infusion leaves
+A0D7B@A0D2G@Yarrow infusion leaves
+A0D7B@A0D2F@Yellow bedstraw infusion leaves
+A0D7B@A00XY@Yellow sweet clover infusion leaves
+A03JK@A04KM@Rooibos  and similar-
+A04KM@A03JP@Rooibos
+A04KM@A0D2D@Honeybush
+A0D2D@A0D2C@Common honeybush tea
+A0D2D@A0D2B@Mountain tea
+A0D2D@A0D2A@Heidelberg tea
+A0D2D@A0D1Z@Vlei tea
+A03JK@A0D1Y@Mate and similar-
+A0D1Y@A03JM@Mate infusion material
+A0D1Y@A03JQ@Gingko infusion material
+A0D1Y@A0CGN@Noni infusion material
+A03JK@A03JR@Other Herbal infusion materials from leaves and herbs
+A0BXE@A00SF@Sprouts, shoots and similar
+A00SF@A00LK@Cresses
+A00LK@A00SM@Garden cress sprouts
+A00SF@A00SH@Alfalfa sprouts
+A00SF@A0DKX@Chinese chives sprouts
+A00SF@A0DKV@Broccoli sprouts
+A00SF@A0DKT@Daikon sprouts
+A00SF@A0DKS@Ginger shoots
+A00SF@A00SR@Mung bean sprouts
+A00SF@A00ST@Peas shoots and sprouts
+A00SF@A0DKR@Roman rocket sprouts
+A00SF@A00SY@Soyabeans sprouts
+A00SF@A00SZ@Sunflower shoots and sprouts
+A00SF@A00TA@Wheatgrass
+A00SF@A00TB@Other species used for the production of sprouts or shoots
+A00TB@A00SG@Adzuki bean sprouts
+A00TB@A00SJ@Barley sprouts
+A00TB@A00SK@Common bean sprouts
+A00TB@A00SL@Chickpea sprouts
+A00TB@A00SN@Fenugreek sprouts
+A00TB@A00SP@Lentil sprouts
+A00TB@A00SQ@Millet sprouts
+A00TB@A00SS@Mustard sprouts
+A00TB@A00SV@Radish sprouts
+A00TB@A00SX@Rice sprouts
+A0BXE@A00FL@Flowering brassica
+A00FL@A00FM@Broccoli and similar-
+A00FM@A00FN@Broccoli
+A00FN@A0DLM@Calabrese
+A00FM@A00FQ@Chinese broccoli
+A00FM@A00GK@Choi sum
+A00FM@A00FP@Rapini
+A00FL@A0DLL@Cauliflowers and similar-
+A0DLL@A00FR@Cauliflowers
+A00FR@A0DLK@Romanesco cauliflowers
+A00FL@A00FS@Other flowering brassica (p)
+A0BXE@A00GX@Bulb vegetables
+A00GX@A00GY@Garlic and similar-
+A00GY@A00GZ@Garlic
+A00GY@A0DNE@Twistedleaf garlic
+A00GX@A00HB@Onions and similar-
+A00HB@A00HC@Onions
+A00HC@A0DND@Onion bulbs for fresh consumption
+A00HB@A00HA@Pearl onion
+A00HB@A00HE@Rakkyo
+A00HB@A00HD@Silverskin onions
+A00GX@A0DNB@Shallots and similar-
+A0DNB@A00HF@Shallots
+A0DNB@A0DNA@French grey shallots
+A0DNB@A0DMZ@Persian shallots
+A00GX@A00HG@Spring onions and similar-
+A00HG@A00HH@Spring onions
+A00HH@A0DMY@Green onions
+A00HH@A00HJ@Welsh onions
+A00HG@A00HL@Tree onions
+A00GX@A00HK@Other Bulb vegetables
+A0BXE@A0ESX@Stems/stalks
+A0ESX@A00RR@Stems/stalks eaten as vegetables
+A00RR@A0DEV@Asparagus and similar-
+A0DEV@A00RT@Asparagus
+A0DEV@A0DET@Hop sprouts
+A00RR@A0DES@Cardoons and similar-
+A0DES@A00RX@Cardoons
+A0DES@A0DER@Borage stems
+A00RR@A0DEQ@Celeries and similar-
+A0DEQ@A00RY@Celeries
+A00RR@A0DEP@Florence fennels and similar-
+A0DEP@A00SA@Florence fennels
+A00RR@A0DEN@Globe artichokes and similar-
+A0DEN@A00RS@Globe artichokes
+A0DEN@A0DEM@Banana flowers
+A0DEM@A0DEL@Banana flowers (acuminata)
+A0DEM@A0DEK@Banana flowers (balbisiana)
+A0DEM@A0DEJ@Banana flowers (x paradisiaca)
+A00RR@A0DEH@Leeks and similar-
+A0DEH@A00SB@Leeks
+A0DEH@A00HM@Kurrat
+A00RR@A0DEG@Rhubarbs and similar-
+A0DEG@A00SD@Rhubarbs
+A00RR@A0DEF@Bamboo shoots and similar-
+A0DEF@A00RV@Bamboo shoots
+A00RV@A0DEE@Common bamboo
+A00RV@A0DED@Moso Bamboo
+A00RR@A0DEC@Palm hearts and similar-
+A0DEC@A00SC@Palm hearts
+A00SC@A0DEB@Peach palm hearts
+A00SC@A0DEA@Coconut palm hearts
+A00SC@A0DDZ@Devil rattan hearts
+A00SC@A0DDY@Assai palm hearts
+A00SC@A0DDX@Cabbage palm heart
+A00RR@A00SE@Other Stem vegetables
+A00SE@A00RZ@Celtuce
+A00RR@A04RA@Kohlrabies and similar-
+A04RA@A00GV@Kohlrabies
+A0ESX@A0ESQ@Stalks/canes/trunk sap or similar for sugar
+A0ESQ@A0CXP@Sugar canes and similar-
+A0CXP@A010V@Sugar canes
+A0CXP@A0CXN@Agave leaves
+A0CXN@A0BB7@Blue Agave heart
+A0CXP@A010Y@Sweet sorghum canes
+A0ESQ@A04HB@Other sugar plants
+A04HB@A0CXJ@Birches (trunk sap)
+A04HB@A0CXH@Manna ashes (trunk sap)
+A04HB@A034A@Maples (trunk sap)
+A04HB@A0CXG@Palms (trunk sap)
+A0CXG@A0CXF@Chilean coco palm (trunk sap)
+A0CXG@A0CXE@Canary date palm (trunk sap)
+A04HB@A0CXD@Other not listed sugar plants
+A0BXE@A0ESY@Flowers
+A0ESY@A0ESZ@Flowers used as vegetables
+A0ESZ@A0DGR@Courgette (edible flowers)
+A0ESZ@A0DGF@Other edible flowers
+A0ESY@A04LZ@Aromatic flowers
+A04LZ@A00XT@Marigold flowers
+A00XT@A0DGN@Dwarf marigold
+A00XT@A0DGM@Signet marigold
+A00XT@A0DGL@Other marigold flowers
+A04LZ@A0DGH@Pot marigold (edible flowers)
+A04LZ@A00YD@Nasturtium flowers and leaves
+A00YD@A0DGK@Garden nasturtium
+A00YD@A0DGJ@Dwarf nasturtium
+A0ESY@A0F0H@Flowers or parts of flower used as spices or similar
+A0F0H@A00YZ@Hops
+A0F0H@A01AQ@Flower pistil spices
+A01AQ@A0CXS@Saffron and similar-
+A0CXS@A01AR@Saffron
+A01AQ@A01AS@Other Flower pistil spices
+A0ESY@A0ETA@Flowers used for infusions or hot drinks
+A0ETA@A03JB@Herbal infusion materials from flowers
+A03JB@A0D9E@Chamomile and similar-
+A0D9E@A03JC@Chamomile
+A03JC@A0D9D@Common chamomile
+A03JC@A0D9C@German chamomile
+A03JB@A0D9B@Hibiscus infusion flowers and similar-
+A0D9B@A03JD@Hibiscus infusion flowers
+A03JB@A0D9A@Rose infusion flowers  and similar-
+A0D9A@A03JE@Rose infusion flowers
+A0D9A@A0D8Z@Almond infusion flowers
+A0D9A@A0D8Y@Bee balm infusion flowers
+A0D9A@A0D8X@Bitter orange infusion flowers
+A0D9A@A0D8V@Black locust infusion flowers
+A0D9A@A0D8T@Cat’s foot infusion flowers
+A0D9A@A0D8S@Chrysanthemum infusion flowers
+A0D9A@A0D8R@Cinnamon infusion flowers
+A0D9A@A0D8Q@Clary sage infusion flowers
+A0D9A@A0D8P@Cornflower infusion flowers
+A0D9A@A0D8N@Cowslip infusion flowers
+A0D9A@A0D8M@Daisy infusion flowers
+A0D9A@A0D8L@Dyer’s broom infusion flowers
+A0D9A@A03JG@Elder infusion flowers
+A0D9A@A0D8K@Field poppy infusion flowers
+A0D9A@A0D8J@Great mullein infusion flowers
+A0D9A@A0D8H@Hawthorn infusion flowers
+A0D9A@A0D8G@Heather infusion flowers
+A0D9A@A0D8F@Hollyhock infusion flowers
+A0D9A@A0D8E@Horse-chestnut infusion flowers
+A0D9A@A0D8D@Larkspur infusion flowers
+A0D9A@A00XP@Lavender infusion flowers
+A0D9A@A0D8B@Mallow infusion flowers
+A0D9A@A0D8A@Meadow sweet infusion flowers
+A0D9A@A0D7Z@Mullein infusion flowers
+A0D9A@A0D7Y@Orange infusion flowers
+A0D9A@A0D7X@Peony infusion flowers
+A0D9A@A0D7V@Red clover infusion flowers
+A0D9A@A0D7T@Sacred lotus infusion flowers
+A0D9A@A0D7S@Safflower infusion flowers
+A0D9A@A0D7R@Sandy everlasting infusion flowers
+A0D9A@A0D7Q@St. John's wort infusion flowers
+A0D9A@A0D7P@Sunflower infusion flowers
+A0D9A@A0D7N@Sweet olive infusion flowers
+A0D9A@A0D7M@Sweet violet infusion flowers
+A0D9A@A0D7L@White deadnettle infusion flowers
+A0D9A@A0D7K@Yarrow infusion flowers
+A0D9A@A0D7J@Ylang-ylang infusion flowers
+A03JB@A04KL@Jasmine infusion flowers  and similar-
+A04KL@A03JF@Common jasmine  infusion flowers
+A04KL@A0D7G@Arabian jasmine  infusion flowers
+A03JB@A0D7F@Lime infusion flowers and similar-
+A0D7F@A03JH@Lime infusion flowers
+A03JH@A0D7E@Small-leaf linden infusion flowers
+A03JH@A0D7D@Big-leaf linden infusion flowers
+A03JH@A0D7C@Silver linden infusion flowers
+A03JB@A03JJ@Other Herbal infusion materials from flowers
+A0BXE@A01AK@Bud spices
+A01AK@A0CYA@Cloves buds and similar-
+A0CYA@A01AL@Cloves buds
+A0CYA@A01AP@Cassia buds
+A01AP@A0CXZ@Batavia cinnamon buds
+A01AP@A0CXY@Chinese cassia buds
+A01AP@A0CXX@Saigon cinnamon buds
+A01AK@A0CHA@Capers buds and similar-
+A0CHA@A01AM@Capers buds
+A0CHA@A019Q@Nasturtium pods
+A019Q@A0CXV@Garden nasturtium pods
+A019Q@A0CXT@Dwarf nasturtium pods
+A0CHA@A0CHJ@Myoga
+A01AK@A01AN@Other Bud spices
+A0BXE@A00PB@Legumes with pod
+A00PB@A00PC@Beans (with pods) and similar-
+A00PC@A0DFV@Azuki beans (with pods)
+A00PC@A00PV@Black eyed peas (with pods)
+A00PC@A00PH@Broad beans (with pods)
+A00PC@A00PE@Slicing bean (young pods)
+A00PE@A00PG@French beans (with pods)
+A00PE@A00PD@Runner beans (with pods)
+A00PE@A00PJ@Lima beans (with pods)
+A00PC@A0DFT@Ervils (with pods)
+A00PC@A00PQ@Guar beans (with pods)
+A00PC@A00PM@Jack beans (with pods)
+A00PC@A00PS@Sword bean (young pods)
+A00PC@A00PL@Lablab beans (with pods)
+A00PC@A0DFS@Monantha vetches (with pods)
+A00PC@A00PR@Mung beans (with pods)
+A00PC@A00PT@Rice beans  (with pods)
+A00PC@A0DFR@Soyabeans (with pods)
+A00PC@A0DFQ@Stink beans (with pods)
+A00PC@A0DFP@Vetches (with pods)
+A00PC@A00PF@Yardlong beans (with pods)
+A00PC@A00PK@Goa bean (young pods)
+A00PC@A00PN@Mat bean (young pods)
+A00PC@A00PP@Black gram (young pods)
+A00PB@A00PX@Peas (with pods) and similar-
+A00PX@A00PY@Garden peas (with pods)
+A00PY@A00QA@Podded pea (young pods)
+A00PX@A0DFG@Asparagus peas (with pods)
+A00PX@A0DFF@Chickling vetches (with pods)
+A00PX@A00PZ@Chickpeas (with pods)
+A00PX@A0DFE@Moringa (with pods)
+A00PX@A00QC@Pigeon peas (with pods)
+A00PX@A00QB@Winged pea (young pods)
+A00PB@A0DFB@Lentils and similar-
+A0DFB@A00QD@Lentils, fresh
+A00QD@A00QE@Lentil (young pods)
+A00QD@A012L@Lentils (without pods)
+A0DFB@A012N@Lupins (without pods)
+A012N@A0DFA@White lupin (without pods)
+A012N@A0DEZ@Blue lupin (without pods)
+A012N@A0DEY@Yellow lupin (without pods)
+A012N@A0DEX@Andean lupin (without pods)
+A0BXE@A0ETB@Seeds
+A0ETB@A000L@Cereal grains (and cereal-like grains)
+A000L@A001X@Mixture of grains
+A000L@A0D9Y@Barley and similar-
+A0D9Y@A000P@Barley grains
+A000P@A002K@Barley grain, pearled
+A000L@A04KH@Buckwheat and other pseudo-cereals and similar-
+A04KH@A000N@Buckwheat
+A04KH@A000M@Amaranth grains
+A000M@A0D9X@Foxtail amaranth grain
+A000M@A0D9V@Red amaranth grains
+A000M@A0D9T@Prince of Wales-feather amaranth grain
+A04KH@A000Q@Kaniwa grain
+A04KH@A000R@Quinoa grain
+A000L@A000S@Maize and similar-
+A000S@A000V@Popcorn kernels
+A000S@A000X@Teosinte grain
+A000S@A000T@Maize grain
+A000S@A0D9S@Indian corn grain
+A000L@A000Y@Common millet and similar-
+A000Y@A001B@Common millet grain
+A000Y@A0CGK@Black fonio grain
+A000Y@A0BJZ@Canary grass grain
+A000Y@A000B@Finger millet grain
+A000B@A000C@African millet grain
+A000Y@A000D@Foxtail millet grain
+A000Y@A002A@Job's tears grain
+A000Y@A000E@Little millet grain
+A000Y@A001A@Pearl millet grain
+A000Y@A000A@Teff grain
+A000Y@A001Z@White fonio grain
+A000Y@A000Z@Barnyard millet
+A000L@A000F@Oat and similar-
+A000F@A000G@Oat grain
+A000F@A000H@Oat grain, red
+A000L@A001C@Rice and similar-
+A001C@A001D@Rice grain
+A001D@A001E@Rice grain, brown
+A001D@A001F@Rice grain, long-grain
+A001D@A001G@Rice grain, mixed
+A001D@A001H@Rice grain, red
+A001D@A003D@Rice grain, polished
+A001D@A003E@Rice grain, parboiled
+A001D@A0F6M@Rice grain, glutinous
+A001C@A0CGL@African rice grain
+A001C@A0CGM@Hybrid Nerica®
+A001C@A001J@Indian rice grain
+A000L@A0D9R@Rye and similar-
+A0D9R@A001K@Rye grain
+A000L@A0D9Q@Sorghum and similar-
+A0D9Q@A001L@Sorghum grain
+A0D9Q@A0D9P@Durra grain
+A0D9Q@A0D9N@Sudan grass grain
+A0D9Q@A0D9M@Other species of genus Sorghum, not elsewhere mentioned
+A000L@A001M@Wheat and similar-
+A001M@A001N@Common wheat grain
+A001M@A001P@Durum wheat grain
+A001M@A001S@Einkorn wheat grain
+A001M@A001Q@Emmer wheat grain
+A001M@A001T@Khorasan wheat grain
+A001M@A001R@Spelt grain
+A001M@A001V@Triticale grain
+A001M@A0D9K@Other species of genus Triticum, not elsewhere mentioned
+A000L@A001Y@Other cereals
+A0ETB@A014C@Tree nuts
+A014C@A0DYP@Almonds and similar-
+A0DYP@A014D@Almonds
+A014D@A014F@Almonds sweet
+A014D@A014E@Bitter almonds
+A0DYP@A0CFE@Apricot kernels
+A0DYP@A0DYN@Canarium nuts
+A0DYN@A0DYM@Canarium nuts (harveyi)
+A0DYN@A015A@Canarium nuts (indicum)
+A0DYP@A015C@Pili nuts
+A014C@A0DYL@Brazil nuts and similar-
+A0DYL@A014G@Brazil nuts
+A014C@A0DYK@Cashew nuts and similar-
+A0DYK@A014H@Cashew nuts
+A014C@A0DYJ@Chestnuts and similar-
+A0DYJ@A014J@Chestnuts
+A014J@A0DYH@Japanese chestnut
+A014J@A0DYG@American chestnut
+A014J@A0DYF@Chinese chestnut
+A014J@A0DYE@Sweet Chestnut
+A014C@A0DYD@Coconuts and similar-
+A0DYD@A014K@Coconuts
+A0DYD@A0DYC@Areca nuts
+A014C@A0CFF@Hazelnuts and similar-
+A0CFF@A014L@Hazelnuts
+A0CFF@A0DYB@Acorns
+A0CFF@A0CFG@Filberts
+A014C@A0DYA@Macadamias and similar-
+A0DYA@A014M@Macadamias
+A014M@A0DXZ@Macadamia integrifolia
+A014M@A0DXY@Macadamia tetraphylla
+A014C@A0DXX@Pecans and similar-
+A0DXX@A014N@Pecans
+A0DXX@A014Y@Hickory nuts
+A014C@A014P@Pine nut kernels and similar-
+A014P@A01BV@Pine nut kernels
+A01BV@A0DXV@Stone pine nut kernels
+A01BV@A0DXT@Swiss pine nut kernels
+A01BV@A0DXS@Chilgoza pine nut kernels
+A01BV@A0DXR@Korean pine nut kernels
+A01BV@A0DXQ@Siberian pine nut kernels
+A01BV@A0DXP@Siberian dwarf pine nut kernels
+A01BV@A0DXN@Yunnan Pine nut kernels
+A01BV@A0DXM@Bhutan pine nut kernels
+A01BV@A0DXL@Other pine nut kernels
+A014C@A0DXK@Pistachios and similar-
+A0DXK@A014Q@Pistachios
+A014C@A0DXJ@Walnuts and similar-
+A0DXJ@A014R@Walnuts
+A014R@A0DXH@Eastern black walnuts
+A014R@A0DXG@Common walnut
+A014C@A014S@Other Tree nuts
+A014S@A014T@Beech nuts
+A014S@A014V@Paradise nut
+A014S@A014X@Butter nut
+A014S@A014Z@Japanese horse-chestnut
+A014S@A015B@Pachira nut
+A014S@A015D@Tropical almond
+A0ETB@A011Y@Legumes fresh seeds (beans, peas etc.)
+A011Y@A011Z@Beans (fresh seeds without pods) and similar-
+A011Z@A0BAH@Azuki beans (without pods)
+A011Z@A012E@Black eyed peas (without pods)
+A011Z@A012A@Broad beans (without pods)
+A011Z@A012B@Borlotti or other common beans (without pods)
+A012B@A0BAJ@Field bean (fresh seeds)
+A012B@A0BAM@Flageolet (fresh seeds)
+A012B@A0BAL@Kidney bean (fresh seeds)
+A012B@A0BAK@Navy bean (fresh seeds)
+A011Z@A0DFN@Ervils (without pods)
+A011Z@A0DFM@Guar beans (without pods)
+A011Z@A012C@Jack beans (without pods)
+A011Z@A0BAZ@Lablab beans (without pods)
+A011Z@A012D@Lima beans (without pods)
+A011Z@A0DFL@Monantha vetches  (without pods)
+A011Z@A0BAQ@Mung beans (without pods)
+A011Z@A0BAN@Rice beans  (without pods)
+A011Z@A0DFK@Runner beans (without pods)
+A011Z@A012F@Soyabeans (without pods)
+A011Z@A0DFJ@Stink beans (without pods)
+A011Z@A0BAY@Vetches (without pods)
+A011Z@A0DFH@Yardlong beans (without pods)
+A011Z@A0BAT@Mat bean (fresh seeds)
+A011Z@A0BAP@Black gram (fresh seeds)
+A011Z@A0BAS@Tepary bean (fresh seeds)
+A011Y@A012G@Peas (without pods) and similar-
+A012G@A012J@Garden peas (without pods)
+A012J@A0BAR@Marrowfat pea (fresh seeds)
+A012J@A0CEQ@Field (maple) pea (fresh seeds)
+A012G@A0DFD@Asparagus peas (without pods)
+A012G@A0BAX@Chickling vetches (without pods)
+A012G@A0BAV@Chickpeas (without pods)
+A012G@A0DFC@Moringa (without pods)
+A012G@A012K@Pigeon peas (without pods)
+A011Y@A04HC@Other Legume vegetables
+A04HC@A0BB0@Horse gram (fresh seeds)
+A04HC@A0BB1@Kersting's groundnut (fresh seeds)
+A04HC@A012P@Peanuts (fresh seeds)
+A04HC@A012Q@Bambara groundnut (fresh seeds)
+A0ETB@A015F@Oilseeds
+A015F@A0DBT@Linseeds and similar-
+A0DBT@A015G@Linseeds
+A015F@A0DBS@Peanuts and similar-
+A0DBS@A015H@Peanuts
+A015F@A0DBR@Poppy seeds and similar-
+A0DBR@A015J@Poppy seeds
+A015F@A0DBQ@Sesame seeds and similar-
+A0DBQ@A015K@Sesame seeds
+A015F@A0DBP@Sunflower seeds and similar-
+A0DBP@A015L@Sunflower seeds
+A015F@A04KG@Rapeseeds and similar-
+A04KG@A015M@Rapeseeds
+A04KG@A0DBN@Radish seeds
+A04KG@A015N@Turnip rape seeds
+A015N@A015T@Mustard seed, field
+A015F@A0DBM@Soyabeans and similar-
+A0DBM@A015P@Soyabeans for oil
+A0DBM@A016E@Moringa
+A015F@A015Q@Mustard seeds and similar-
+A015Q@A015S@Mustard seeds
+A015S@A0DBL@Black mustard seeds
+A015S@A0DBK@White mustard seeds
+A015S@A015R@Canola seeds
+A015F@A0DBJ@Cotton seeds and similar-
+A0DBJ@A015V@Cotton seeds
+A015V@A0DBH@Pima cotton seeds
+A015V@A0DBG@Common cotton seeds
+A015F@A0CGF@Pumpkin seeds and similar-
+A0CGF@A015X@Pumpkin seeds
+A0CGF@A0DBF@Watermelon seeds
+A0CGF@A0DBE@Other seeds of species of familia Cucurbitaceae, not elsewhere mentioned
+A015F@A0DBD@Safflower seeds and similar-
+A0DBD@A015Y@Safflower seeds
+A0DBD@A0DBC@Milk thistle seeds
+A0DBD@A016F@Niger seeds
+A015F@A0CGG@Borage seeds and similar-
+A0CGG@A015Z@Borage seeds
+A0CGG@A0CGJ@Corn gromwell seeds
+A0CGG@A0DBA@Evening primrose seeds
+A0CGG@A0DAZ@Honesty seeds
+A0DAZ@A0DAY@Annual honesty seeds
+A0DAZ@A0DAX@Perennial honesty seeds
+A0CGG@A0BKL@Perilla seeds
+A0CGG@A0CGH@Purple viper's bugloss seeds
+A015F@A0DAV@Gold of pleasure seeds and similar-
+A0DAV@A016A@Gold of pleasure seeds
+A015F@A0DAS@Hemp seeds and similar-
+A0DAS@A016B@Hemp seeds
+A016B@A0DAR@Common hemp seeds
+A016B@A0DAQ@Ruderalis hemp seeds
+A015F@A0DAP@Castor beans and similar-
+A0DAP@A016C@Castor beans
+A0DAP@A016J@Grape seeds
+A0DAP@A0DAN@Sea buckthorn seeds
+A015F@A016D@Other oilseeds (including elsewhere non-listed seeds)
+A016D@A016G@Tucum seeds
+A016D@A0F6H@Baobab seeds
+A0ETB@A017X@Seed spices
+A017X@A0CZF@Anise seed and similar-
+A0CZF@A017Y@Anise seed
+A017X@A0CZE@Black caraway seed and similar-
+A0CZE@A0CZD@Black caraway seed
+A0CZE@A017Z@Nigella seed
+A017X@A04KN@Celery seed and similar-
+A04KN@A018A@Celery seed
+A04KN@A018B@Angelica seed
+A04KN@A018C@Lovage seed
+A017X@A0CGQ@Coriander seeds and similar-
+A0CGQ@A018D@Coriander seed
+A0CGQ@A0CGP@Culantro seed
+A017X@A0CZA@Cumin seed and similar-
+A0CZA@A018E@Cumin seed
+A017X@A0CYZ@Dill seed  and similar-
+A0CYZ@A018F@Dill seed
+A017X@A0CYY@Fennel seed  and similar-
+A0CYY@A018G@Fennel seed
+A018G@A0CYX@Bitter fennel seed
+A018G@A0CYV@Sweet fennel seed
+A017X@A0CYT@Fenugreek seed and similar-
+A0CYT@A018H@Fenugreek seed
+A017X@A0CYS@Nutmeg seed and similar-
+A0CYS@A018J@Nutmeg seed
+A0CYS@A018M@Annatto seed
+A0CYS@A019N@Candlenut seeds
+A0CYS@A018P@Wattleseeds
+A017X@A018K@Other spices seeds (p)
+A018K@A0F7E@Radhuni seed
+A0ETB@A04JB@Seeds (coffee, cocoa and similar) used for infusions or hot drinks
+A04JB@A0D9J@Coffee beans and similar-
+A0D9J@A03GK@Coffee beans, green
+A03GK@A0D9H@Arabian coffee beans
+A03GK@A0D9F@Excelsa coffee beans
+A03GK@A0D9G@Robusta coffee beans
+A04JB@A0CZM@Cocoa beans and similar-
+A0CZM@A03HF@Cocoa beans (fermented or dried)
+A0CZM@A03HL@Kola nuts
+A03HL@A0CZL@Abata cola nuts
+A03HL@A0CZK@Bitter cola nuts
+A0BXE@A01AT@Aril spices
+A01AT@A0CXR@Mace aril and similar-
+A0CXR@A01AV@Mace aril
+A01AT@A01AX@Other Aril spices
+A0BXE@A019S@Bark spices
+A019S@A019T@Cinnamon bark and similar-
+A019T@A019V@Cinnamon bark
+A019T@A019X@Cassia bark
+A019X@A0CYG@Chinese cassia bark
+A019X@A0CYH@Batavia cinnamon bark
+A019X@A0CYF@Saigon cinnamon bark
+A019S@A019Y@Other Bark spices
+A0BXE@A0BXJ@Fruit RPCs
+A0BXJ@A04RK@Fruit used as fruit
+A04RK@A01BT@Citrus fruits
+A01BT@A01CX@Grapefruits and similar-
+A01CX@A01CY@Grapefruits
+A01CX@A01DA@Natsudaidais
+A01CX@A01CZ@Shaddocks
+A01CZ@A01DB@Pomelos
+A01CX@A0CFB@Sweeties
+A01CX@A01DD@Tangelolos
+A01CX@A01DC@Tangelos (except minneolas)
+A01DC@A01DE@Ugli fruits
+A01CX@A0DZC@Other hybrids of Citrus paradisi, not elsewhere mentioned
+A01BT@A01CP@Oranges and similar-
+A01CP@A0DZB@Oranges
+A0DZB@A01CR@Oranges, sweet
+A0DZB@A01CS@Blood oranges
+A0DZB@A0DZA@Cara caras
+A01CP@A0CFD@Bergamots
+A01CP@A01CT@Bitter oranges
+A01CP@A01CV@Chinottos
+A01CP@A0DYZ@Trifoliate oranges
+A01CP@A01CQ@Chironjas
+A01CP@A0DYY@Other hybrids of Citrus sinensis, not elsewhere mentioned
+A01BT@A01BX@Lemons and similar-
+A01BX@A01BY@Lemons
+A01BX@A0CEZ@Buddha's hands
+A01BX@A01BZ@Citrons
+A01BT@A0DYX@Limes and similar-
+A0DYX@A01CA@Limes
+A0DYX@A0DYV@Indian sweet limes
+A0DYX@A0DYT@Kaffir limes
+A0DYX@A0DYS@Sweet limes
+A0DYX@A0DYR@Tahiti limes
+A01BT@A01CB@Mandarins and similar-
+A01CB@A01CD@Mandarins
+A01CD@A01CF@King mandarins
+A01CB@A01CC@Calamondins
+A01CB@A01CE@Clementines
+A01CB@A01CG@Cleopatra mandarins
+A01CB@A01CL@Minneolas
+A01CB@A01CK@Satsumas
+A01CB@A01CH@Tangerines
+A01CB@A01CM@Tangors
+A01CB@A01CJ@Mediterranean mandarins
+A01CB@A01CN@Tankan mandarin
+A01CB@A0DYQ@Other hybrids of Citrus reticulata, not elsewhere mentioned
+A01BT@A01DF@Other Citrus fruits
+A04RK@A01DG@Pome fruits
+A01DG@A01DH@Apples and similar-
+A01DH@A01DJ@Apples
+A01DH@A01DK@Crab apples
+A01DH@A0DXF@Tejocotes
+A01DG@A01DN@Pears and similar-
+A01DN@A01DP@Pears
+A01DN@A01DQ@Nashi pears
+A01DN@A0DXE@Wild pears
+A01DN@A0DXD@Ya pears
+A01DG@A0DXC@Quinces and similar-
+A0DXC@A01DR@Quinces
+A0DXC@A0DXB@Chinese quinces
+A0DXC@A0DXA@Japanese quinces
+A01DG@A0DVZ@Medlars and similar-
+A0DVZ@A01DM@Medlars
+A01DG@A0DVY@Loquats and similar-
+A0DVY@A01DL@Loquats
+A01DG@A01DS@Other Pome fruits
+A04RK@A01GE@Stone fruits
+A01GE@A0DVX@Apricots and similar-
+A0DVX@A01GF@Apricots
+A0DVX@A0DVV@Japanese apricots
+A0DVX@A0DVT@Nectacots
+A01GE@A01GG@Cherries and similar-
+A01GG@A01GK@Cherries (sweet)
+A01GG@A0DVR@Black cherries
+A01GG@A0DVQ@Capulins
+A01GG@A01HC@Chokecherries
+A01GG@A0DVP@Cornelian cherries
+A01GG@A0DVN@Nanking cherries
+A01GG@A01GH@Sour cherries
+A01GH@A01GJ@Sour cherries dark red
+A01GH@A0DVS@Sour cherries light red
+A01GE@A01GL@Peaches and similar-
+A01GL@A01GM@Common peaches
+A01GL@A0DVL@Flat peaches
+A01GL@A01GN@Nectarines
+A01GL@A0DVK@Other hybrids of Persica vulgaris or Prunus persica, not elsewhere mentioned
+A01GE@A01GP@Plums and similar-
+A01GP@A01GQ@Plums
+A01GP@A01HA@American plums
+A01GP@A0DVJ@Beach plums
+A01GP@A01GT@Cherry plums
+A01GP@A01GV@Chickasaw plums
+A01GP@A01JM@Chinese jujubes
+A01GP@A01GR@Damsons
+A01GP@A01GX@Gages
+A01GP@A01GY@Japanese plums
+A01GP@A0DVH@Klamath plums
+A01GP@A01GS@Mirabelles
+A01GP@A0DVG@Plumcots
+A01GP@A0DVF@Prunus Nadia®
+A01GP@A01GZ@Sloes
+A01GE@A01HB@Other Stone fruits
+A04RK@A01DT@Berries and small fruits
+A01DT@A01DV@Grapes and similar fruits
+A01DV@A0DVE@Table grapes and similar-
+A0DVE@A01DX@Table grapes
+A0DVE@A0CFT@Kiwiberries
+A0DVE@A0DVD@Schisandra berries
+A01DV@A0DVC@Wine grapes and similar-
+A0DVC@A01DY@Wine grapes
+A0DVC@A0DVB@Amur river grapes
+A0DVC@A0DVA@Muscadine grapes
+A01DT@A0DTZ@Strawberries group to eliminate-
+A0DTZ@A01DZ@Strawberries and similar-
+A01DZ@A01EA@Strawberries
+A01DZ@A01EC@Musky strawberries
+A01DZ@A01EB@Wild strawberries
+A01DT@A01ED@Cane fruits
+A01ED@A0DTY@Blackberries and similar-
+A0DTY@A01EE@Blackberries
+A01ED@A01EF@Dewberries and similar-
+A01EF@A01EG@Dewberries
+A01EF@A01EH@Boysenberries
+A01EF@A01EJ@Loganberries
+A01EF@A01EK@Olallieberries
+A01EF@A01ET@Salmonberries
+A01EF@A0CFK@Tayberries
+A01EF@A01EV@Thimbleberries
+A01EF@A01EL@Youngberries
+A01EF@A0DTX@Other species and hybrids of genus Rubus, not elsewhere mentioned
+A01ED@A01EN@Raspberries and similar-
+A01EN@A01EP@Raspberries (red and yellow)
+A01EN@A0CFL@Arctic brambles
+A01EN@A01EQ@Black raspberries
+A01EN@A0DTT@Korean black raspberries
+A01EN@A0DTS@Korean raspberries
+A01EN@A0CFM@Nectar raspberries
+A01EN@A01ER@Wineberries
+A01ED@A01ES@Other cane fruits
+A01DT@A01EX@Other small fruits and berries
+A01EX@A04JJ@Blueberries and similar-
+A04JJ@A01EY@Blueberries
+A01EY@A0DTR@Southern blueberry
+A01EY@A01FB@Rabbiteye blueberry
+A01EY@A01FA@Lowbush Blueberry
+A01EY@A01EZ@Northern highbush blueberry
+A04JJ@A0DTQ@Aronia berries
+A0DTQ@A0DTP@Aronia berries (red)
+A0DTQ@A0DTN@Aronia berries (black)
+A0DTQ@A0DTM@Aronia berries (purple)
+A04JJ@A01FD@Bearberries
+A04JJ@A01FE@Bilberries
+A01FE@A01FF@Bilberries
+A01FE@A01FG@Bog bilberries
+A04JJ@A0DTL@European barberries
+A04JJ@A0DTK@Golden currant
+A04JJ@A0CFS@Haskaps
+A04JJ@A01FC@Huckleberries
+A04JJ@A0CFP@Jostaberries
+A04JJ@A01FY@Juneberries
+A04JJ@A0DTJ@Myrtle berries
+A04JJ@A0DTH@Native currant
+A04JJ@A01FJ@Lingonberries and similar
+A01FJ@A01FK@Cowberries
+A01FJ@A01FL@Lingonberries
+A04JJ@A0DTG@Salal
+A04JJ@A01FZ@Sea buckthorns
+A04JJ@A0CFY@Serviceberries
+A04JJ@A0DTF@Ugniberries
+A04JJ@A0CFQ@Worcesterberries
+A04JJ@A0DTE@Other species and hybrids of genera Ribes and Vaccinium, not elsewhere mentioned
+A01EX@A04JK@Cranberries and similar-
+A04JK@A01FH@Cranberries
+A04JK@A01EM@Cloudberries
+A04JK@A01GC@Crowberries
+A01GC@A0DTD@Purple crowberries
+A01GC@A0DTC@Black crowberries (tetraploid)
+A01GC@A0DTB@Black crowberries (common)
+A01GC@A0DTA@Red crowberries
+A04JK@A0DSZ@Muntries
+A04JK@A0DSY@Partridge berries
+A04JK@A0DSX@Small cranberries
+A01EX@A0DSV@Currants and similar-
+A0DSV@A01FM@Currants (black, red and white)
+A01FM@A01FP@Redcurrants
+A01FM@A01FN@Blackcurrants
+A01EX@A01FQ@Gooseberries and similar-
+A01FQ@A0CFN@Gooseberries (green, red and yellow)
+A01EX@A01FR@Rose hips and similar-
+A01FR@A0CFR@Rose hips
+A0CFR@A0DSS@Dog rose
+A0CFR@A0DSR@Cinnamon rose
+A0CFR@A0DSQ@Rugosa rose
+A01EX@A04JL@Mulberries (black and white) and similar-
+A04JL@A01FS@Mulberries (black and white)
+A01FS@A0DSN@White mulberries
+A01FS@A0DSM@Black mulberries
+A01EX@A0CFC@Azaroles and similar-
+A0CFC@A01FV@Azaroles
+A01EX@A04JM@Elderberries and similar-
+A04JM@A01FX@Elderberries
+A04JM@A0DSL@Bayberries
+A04JM@A0DSK@Buffalo berries
+A04JM@A0DSJ@Che berries
+A04JM@A0DSH@Dwarf elderberries
+A04JM@A0DSG@Guelder rose berries
+A04JM@A01GA@Hawberries
+A04JM@A0DSF@Midland hawberries
+A04JM@A0DSE@Phalsa fruits
+A04JM@A0DSD@Riberries
+A04JM@A0CFZ@Saskatoons
+A04JM@A0DSC@Silverberries
+A04JM@A01GD@Sorb fruits
+A01GD@A0CFX@Sorb berries
+A01GD@A0CFV@Rowan berries
+A01EX@A01GB@Other not listed other small fruits and berries
+A04RK@A01HD@Miscellaneous fruits (generic)
+A01HD@A01HE@Miscellaneous fruits with edible peel
+A01HE@A0DSB@Dates and similar-
+A0DSB@A01HF@Dates
+A0DSB@A0DSA@Açaí berries
+A0DSB@A0DRZ@Awara palm fruits
+A0DSB@A01KP@Doum palm fruits
+A01HE@A0DRY@Figs and similar-
+A0DRY@A01HG@Figs
+A01HE@A01HH@Table olives and similar-
+A01HH@A01BP@Table olives
+A01HH@A01JF@Chinese olives, black, white
+A01JF@A0DRX@Chinese black olives
+A01JF@A0DRV@Chinese white olives
+A01HH@A01JH@Desert dates
+A01HE@A01HJ@Kumquats and similar-
+A01HJ@A0DRT@Kumquats
+A0DRT@A01HK@Marumi kumquats
+A0DRT@A0CGA@Nagami kumquats
+A01HJ@A0DRS@Limequats
+A01HJ@A0DRR@Other species and hybrids of genus Fortunella, not elsewhere mentioned
+A01HE@A01HL@Carambolas and similar-
+A01HL@A01HM@Carambolas
+A01HL@A01JB@Ambarellas
+A01HL@A01JQ@Aonlas
+A01HL@A01LX@Babacos
+A01HL@A01HN@Bilimbis
+A01HL@A01JE@Cashew apples
+A01HL@A01JL@Indian jujubes
+A01HL@A01JK@Jaboticabas
+A01HL@A01HT@Malay pommarosas
+A01HL@A0DRQ@Malayan mombins
+A01HL@A0DRP@Maprangs
+A01HL@A01JN@Natal plums
+A01HL@A0DRN@Nonis
+A01HL@A01HV@Pommarosas
+A01HL@A0DRM@Purple mombins
+A01HL@A01KV@Santols
+A01HE@A01HP@Kaki and similar-
+A01HP@A01HQ@Kaki
+A01HP@A01HR@Chinese persimmons
+A01HE@A04JN@Jambuls and similar-
+A04JN@A01JZ@Jambuls
+A04JN@A01JC@Acerolas
+A04JN@A01FT@Arbutus berries
+A04JN@A0DRL@Camu camus
+A04JN@A01JD@Carandas
+A04JN@A01JG@Coco plums
+A04JN@A01HS@Grumichamas
+A04JN@A01JJ@Hog plums
+A04JN@A01KB@Java apples
+A04JN@A01JP@Otaheite gooseberries
+A04JN@A01JR@Sea grapes
+A04JN@A01HX@Surinam cherries
+A04JN@A0DRK@Water apples
+A04JN@A0DRJ@Water berries
+A04JN@A0DRH@Water pears
+A01HE@A01JA@Other Miscellaneous fruits with edible peel
+A01HD@A01JS@Miscellaneous fruits with inedible peel, small
+A01JS@A0DRG@Kiwi fruits and similar-
+A0DRG@A01JT@Kiwi fruits (green, red, yellow)
+A01JT@A0DRF@Fuzzy kiwifruit
+A01JT@A0DRE@Golden kiwifruit
+A01JS@A04JP@Litchis and similar-
+A04JP@A01JV@Litchis
+A04JP@A01KQ@Longans
+A04JP@A0DRC@Marulas
+A04JP@A0CGC@Salaks
+A04JP@A01KX@Spanish limes
+A01JS@A0DRB@Passionfruits and similar-
+A0DRB@A01KC@Passionfruits
+A0DRB@A0DRA@Banana passionfruits
+A0DRB@A0DQZ@Giant granadillas
+A0DRB@A0DQY@Granadillas
+A0DRB@A0DQX@Monstera fruits
+A0DRB@A0DQV@Wingedstem passionflower fruits
+A01JS@A0DQT@Prickly pears and similar-
+A0DQT@A01KD@Prickly pears
+A0DQT@A0DQS@Pitayas
+A0DQT@A0CGE@Red pitayas
+A0DQT@A0DQR@Saguaro fruits
+A01JS@A0DQQ@Star apples and similar-
+A0DQQ@A01KE@Star apples
+A01JS@A04JQ@American persimmons and similar-
+A04JQ@A01KF@American persimmons
+A04JQ@A01KJ@Black sapotes
+A04JQ@A01KK@Green sapotes
+A04JQ@A01KM@White sapotes
+A04JQ@A01KH@Yellow sapotes
+A01JS@A01KG@Other Miscellaneous fruits with inedible peel, small
+A01HD@A01LA@Miscellaneous fruits with inedible peel, large
+A01LA@A0DQP@Avocados and similar-
+A0DQP@A01LB@Avocados
+A0DQP@A0DQN@Avocados for oil production
+A01LA@A04JS@Bananas and similar-
+A04JS@A01LC@Cavendishes
+A01LC@A0DQM@Cavendishes acuminata
+A01LC@A0DQL@Cavendishes balbisiana
+A01LC@A0DQK@Cavendishes paradisiaca
+A04JS@A01LD@Dwarf bananas
+A04JS@A01LE@Plantains
+A01LE@A0DQJ@Plantains acuminata
+A01LE@A0DQH@Plantains balbisiana
+A01LE@A0DQG@Plantains paradisiaca
+A01LA@A0DQF@Mangoes and similar-
+A0DQF@A01LF@Mangoes
+A01LA@A0DQE@Papayas and similar-
+A0DQE@A01LG@Papayas
+A0DQE@A01KN@Akee apples
+A0DQE@A01LY@Feijoas
+A0DQE@A0CGB@Langsats
+A0DQE@A01JX@Mangosteens
+A0DQE@A01KS@Naranjillas
+A0DQE@A0DQD@Paw paws
+A0DQE@A01HZ@Tamarillos
+A01LA@A0DQC@Granate apples and similar-
+A0DQC@A01LH@Granate apples
+A01LA@A04JT@Cherimoyas and similar-
+A04JT@A01LJ@Cherimoyas
+A04JT@A01KZ@Elephant apples
+A04JT@A01LM@Ilamas
+A04JT@A01KL@Mammey sapotes
+A04JT@A01KR@Marmaladedos
+A04JT@A01JY@Pulasans
+A04JT@A01KA@Rambutans
+A04JT@A01KT@Sapodillas
+A04JT@A01LL@Sweetsops
+A04JT@A01LK@Wild sweetsops
+A01LA@A01LN@Guavas and similar-
+A01LN@A0CGD@Guavas
+A01LN@A0DQB@Brazilian guavas
+A01LN@A0DQA@Cattley guavas
+A01LN@A0DPZ@Costarican guavas
+A01LN@A0DPY@Guayabillos
+A01LN@A0DPX@Parà guavas
+A01LA@A0DPV@Pineapples and similar-
+A0DPV@A01LP@Pineapples
+A01LA@A04JV@Breadfruits and similar-
+A04JV@A01LQ@Breadfruits
+A04JV@A01LR@Jackfruits
+A04JV@A0DPS@Other species of genus Artocarpus, not elsewhere mentioned
+A01LA@A0DPR@Durians and similar-
+A0DPR@A01LS@Durians
+A01LA@A0DPQ@Soursops and similar-
+A0DPQ@A01LT@Soursops
+A01LA@A01LV@Other Miscellaneous fruits with inedible peel, large
+A01LV@A01LZ@Mammey apple
+A01LV@A0F6K@Baobab fruits
+A0BXJ@A00HN@Fruiting vegetables
+A00HN@A00HP@Solanacea
+A00HP@A00HQ@Tomatoes and similar-
+A00HQ@A0DMX@Tomatoes
+A0DMX@A00HR@Globe tomato
+A0DMX@A00HS@Beefsteak tomato
+A0DMX@A00HT@Plum tomato
+A0DMX@A00HV@Oxheart tomato
+A0DMX@A00HX@Pear-shaped tomatoes
+A0DMX@A00HY@Cherry tomatoes
+A00HQ@A00JG@Ground cherries (physalis etc.)
+A00JG@A0DMV@Alkekengi
+A00JG@A0DMT@Cape gooseberries
+A00JG@A0DMS@Dwarf Cape gooseberries
+A00JG@A0DMN@Tomatillos
+A00HQ@A00JH@Gojiberry
+A00JH@A0DMR@Wolfberries
+A00JH@A0DMQ@Chinese wolfberries
+A00HQ@A0DMP@Litchi tomatoes
+A00HP@A00HZ@Sweet peppers and similar-
+A00HZ@A00JA@Sweet peppers
+A00HZ@A00JB@Chili peppers
+A00JB@A0DMM@Capsicum annuum hot cultivars
+A00JB@A0DML@Capsicum baccatum
+A00JB@A0DMK@Chinese capsicum
+A00JB@A0DMJ@Tabasco capsicum
+A00JB@A0DMH@Rocoto capsicum
+A00HP@A00JC@Aubergines and similar-
+A00JC@A00JD@Aubergines
+A00JC@A0DMG@Antroewas
+A00JC@A0DMF@Ethiopian eggplants
+A00JC@A00JE@Pepinos
+A00JC@A0DME@Thorn apples
+A00JC@A0DMD@Turkey berries
+A00HP@A0DMC@Okra and similar-
+A0DMC@A00JF@Okra
+A00HP@A00JJ@Other solanacea
+A00HN@A00JL@Cucurbits with edible peel
+A00JL@A0DMB@Cucumbers and similar-
+A0DMB@A00JM@Cucumbers
+A0DMB@A0DMA@Armenian cucumbers
+A0DMB@A0DLZ@Dosakayi
+A00JL@A00JN@Gherkins and similar-
+A00JN@A00JP@Gherkins
+A00JN@A00KA@Bur gherkins
+A00JL@A00JQ@Courgettes and similar-
+A00JQ@A00JR@Courgettes
+A00JQ@A00KB@Angled luffas
+A00JQ@A00KL@Bottle gourds
+A00JQ@A00JZ@Chayote fruits
+A00JQ@A0DLY@Ivy gourds
+A00JQ@A0DLX@Pointed gourds
+A00JQ@A00KM@Snake gourds
+A00JQ@A00JY@Sopropos
+A00JQ@A00JS@Summer squashes
+A00JS@A00JT@Patisson
+A00JL@A00JV@Other cucurbits with edible peel
+A00JV@A00JX@Balsam apple
+A00JV@A00KC@Loofah, smooth
+A00HN@A00KD@Cucurbits with inedible peel
+A00KD@A00KE@Melons and similar-
+A00KE@A00KF@Melons
+A00KE@A00KG@Kiwanos
+A00KD@A0DLV@Pumpkins and similar-
+A0DLV@A00KH@Pumpkins
+A0DLV@A0DLT@Butternut squashes
+A0DLV@A00KN@Winter melon
+A0DLV@A0DLR@Winter squashes
+A00KD@A0DLQ@Watermelons and similar-
+A0DLQ@A00KJ@Watermelons
+A00KD@A00KK@Other cucurbits with inedible peel
+A00HN@A0DLP@Sweet corn and similar-
+A0DLP@A00KP@Sweet corn
+A00KP@A0DLN@Baby corn
+A00HN@A00KQ@Other fruiting vegetables
+A0BXJ@A016L@Oil fruits
+A016L@A0DAM@Olives for oil production and similar-
+A0DAM@A016M@Olives for oil production
+A016L@A0DAL@Oil palms kernels and similar-
+A0DAL@A016N@Oil palms kernels
+A016N@A0DAK@Maripa palm kernels
+A016N@A0DAJ@African oil palm kernels
+A016N@A0DAH@American oil palm kernels
+A0DAL@A0DAG@Argan nuts
+A0DAL@A0DAF@Babassu palm nuts
+A0DAL@A0DAE@Jojoba nuts
+A0DAL@A016H@Shea nuts
+A016L@A0DAD@Oil palms fruits and similar-
+A0DAD@A016P@Oil palms fruits
+A016P@A0DAC@Maripa palm fruits
+A016P@A0DAB@African oil palm fruits
+A016P@A0DAA@American oil palm fruits
+A016L@A0D9Z@Kapok and similar-
+A0D9Z@A016Q@Kapok
+A016L@A016R@Other oil fruits
+A0BXJ@A018Q@Fruit spices
+A018Q@A0CYP@Allspice fruit and similar-
+A0CYP@A018R@Allspice fruit
+A018Q@A0CGR@Sichuan pepper fruit and similar-
+A0CGR@A018S@Sichuan pepper fruit
+A0CGR@A0CHB@Japanese pepper fruit
+A0CGR@A0CHC@Uzazi fruit
+A018Q@A0CGS@Caraway fruit and similar-
+A0CGS@A018T@Caraway fruit
+A0CGS@A018L@Ajowan fruit
+A0CGS@A0CHD@Black caraway fruit
+A018Q@A0CGT@Cardamom fruit and similar-
+A0CGT@A018V@Cardamom fruit
+A0CGT@A0CYM@Marjoram fruit
+A0CGT@A019R@Star anise fruit
+A018Q@A0CYL@Juniper berry and similar-
+A0CYL@A018X@Juniper berry
+A018Q@A018Y@Peppercorn (black, green and white) and similar-
+A018Y@A018Z@Peppercorn (black, green and white)
+A018Z@A019A@Green pepper
+A018Z@A019B@White pepper
+A018Z@A019C@Black pepper
+A018Y@A018N@Brazilian pepper fruit
+A018Y@A019G@Cubeb fruit
+A018Y@A019P@Grain of paradise fruit
+A018Y@A019E@Long pepper fruit
+A018Y@A019D@Pink pepper fruit
+A018Y@A0CYK@Sumac fruit
+A018Y@A019F@West African pepper fruit
+A018Q@A0CGV@Vanilla and similar-
+A0CGV@A019H@Vanilla
+A0CGV@A0CHE@Tahiti vanilla
+A0CGV@A01KY@Tonka bean
+A0CGV@A0CHF@West Indian vanilla
+A018Q@A0CYJ@Tamarind and similar-
+A0CYJ@A019J@Tamarind
+A018Q@A019M@Other fruit spices
+A019M@A019K@Chili pepper, dried
+A019K@A019L@Paprika powder
+A0BXJ@A01QE@Citrus fruit peel
+A0BXE@A0ETD@Roots and other underground parts
+A0ETD@A04JD@Root and tuber vegetables
+A04JD@A00ZS@Starchy roots and tubers
+A00ZS@A0DPP@Potatoes and similar-
+A0DPP@A00ZT@Potatoes
+A00ZT@A011P@Potato boiled
+A00ZT@A011R@Potato baked
+A00ZT@A00ZX@Main-crop potatoes
+A00ZT@A00ZV@New potatoes
+A0DPP@A0DPM@Andigena
+A00ZS@A00ZY@Tropical root and tuber vegetables
+A00ZY@A04JX@Cassava roots and similar-
+A04JX@A00ZZ@Cassava roots
+A04JX@A0DPL@Blue taros
+A04JX@A010K@Canna
+A04JX@A010N@Chayote roots
+A04JX@A010B@Taros
+A010B@A0DPK@Dasheen taros
+A010B@A0DPJ@Eddoe taros
+A04JX@A0DPN@Konjac roots
+A04JX@A010A@Tannias
+A00ZY@A0DPH@Sweet potatoes and similar-
+A0DPH@A010C@Sweet potatoes
+A00ZY@A04JY@Yams and similar-
+A04JY@A010D@Yams
+A04JY@A0DPG@Amazonian yam beans
+A04JY@A0DPF@American groundnuts tubers
+A04JY@A010F@Andean yam beans
+A04JY@A010E@Mexican yam beans
+A00ZY@A0DPE@Arrowroots and similar-
+A0DPE@A010G@Arrowroots
+A0DPE@A0DPD@Lotus roots
+A00ZY@A010H@Other tropical root and tuber vegetables
+A010H@A010J@Topee tambu
+A010H@A010P@Goa bean root
+A010H@A010Q@Alocasia
+A04JD@A00QF@Root and tuber vegetables (excluding starchy- and sugar-)
+A00QF@A0DPC@Beetroots and similar-
+A0DPC@A00QG@Beetroots
+A00QF@A0DPB@Carrots and similar-
+A0DPB@A00QH@Carrots
+A0DPB@A0DPA@Coloured carrots varieties
+A0DPB@A0DNZ@Baby carrots
+A00QF@A0DNY@Celeriacs and similar-
+A0DNY@A00QJ@Celeriacs
+A00QF@A04JZ@Horseradishes and similar-
+A04JZ@A00QK@Horseradish roots
+A04JZ@A0DNX@Dandelion roots
+A04JZ@A00QP@Gentiana roots
+A00QF@A0DNV@Jerusalem artichokes and similar-
+A0DNV@A00QQ@Jerusalem artichokes
+A0DNV@A00RN@Crosnes
+A00QF@A0DNS@Parsnips and similar-
+A0DNS@A00QR@Parsnip roots
+A00QF@A0DNR@Parsley roots and similar-
+A0DNR@A00QS@Parsley roots
+A0DNR@A00QM@Angelica roots
+A0DNR@A0DNQ@Burnet saxifrage roots
+A0DNR@A00QN@Lovage roots
+A0DNR@A0DNP@Nettle roots
+A0DNP@A0DNN@Comon nettle roots
+A0DNP@A0DNM@Other urtica roots
+A0DNR@A00RM@Turnip-rooted chervil
+A00QF@A00QT@Radishes and similar-
+A00QT@A00QV@Radishes
+A00QT@A00QX@Black radishes
+A00QT@A00QY@Daikon
+A00QT@A0DNK@Maca roots
+A00QT@A0DNJ@Small radishes
+A00QT@A00QZ@Tigernuts
+A00QF@A04KA@Salsifies and similar-
+A04KA@A00RA@Salsifies
+A04KA@A00RL@Burdock, greater or edible
+A04KA@A00RP@Rampion roots
+A04KA@A00RC@Scorzonera
+A04KA@A00RQ@Skirrets
+A04KA@A00RB@Spanish salsifies
+A00QF@A0DNH@Swedes and similar-
+A0DNH@A00RD@Swedes
+A00QF@A0DNG@Turnips and similar-
+A0DNG@A00RE@Turnips
+A0DNG@A0DNF@Tuberous-rooted mustards
+A00QF@A00RF@Additional not listed root and tuber vegetables (excluding starchy- and sugar-)
+A00RF@A00RJ@Arracacha
+A00RF@A00RK@Arrowhead
+A00RF@A00RG@Ullucu
+A00RF@A00RH@Oca
+A0ETD@A019Z@Root and rhizome spices
+A019Z@A0CYE@Liquorice roots and similar-
+A0CYE@A01AA@Liquorice roots
+A019Z@A0CGX@Ginger roots and similar-
+A0CGX@A01AB@Ginger roots
+A0CGX@A0CYD@Fingerrot roots
+A0CGX@A01AJ@Galangal roots
+A01AJ@A010M@Lesser galangal roots
+A01AJ@A0CYC@Galanga roots
+A01AJ@A010L@Greater galangal roots
+A0CGX@A0CHH@Wasabi roots
+A019Z@A0CGZ@Turmeric roots and similar-
+A0CGZ@A01AC@Turmeric roots
+A0CGZ@A01AF@Asafetida roots
+A0CGZ@A0CYB@Temulawak roots
+A0CGZ@A0CHG@Zedoary roots
+A019Z@A0CGY@Horseradish roots spice and similar-
+A0CGY@A00QL@Horseradish roots spice
+A019Z@A01AD@Other Root and rhizome spices
+A0ETD@A0ETH@Roots used for infusions or hot drinks
+A0ETH@A03JS@Herbal infusion materials from roots
+A03JS@A0D1X@Valerian infusion roots and similar-
+A0D1X@A03JT@Valerian infusion roots
+A0D1X@A0D1V@Blue flag infusion roots
+A0D1X@A01AG@Calamus infusion roots
+A0D1X@A0D1R@Couch grass infusion roots
+A0D1X@A0D1Q@Cowslip infusion roots
+A0D1X@A0D1P@Echinacea infusion roots
+A0D1P@A0D1N@Narrow-leaf echinacea infusion roots
+A0D1P@A0D1M@Pale echinacea infusion roots
+A0D1P@A0D1L@Purple echinacea infusion roots
+A0D1X@A01AH@Elecampane infusion roots
+A0D1X@A0D1J@Fragrant sumac infusion roots
+A0D1X@A0D1H@Golden root infusion roots
+A0D1X@A0D1G@Herb bennet infusion roots
+A0D1X@A0D1F@Marshmallow infusion roots
+A0D1X@A0D1E@Mexican valerian infusion roots
+A0D1X@A0D1D@Pimpernel infusion roots
+A0D1X@A0D1C@Rhatany infusion roots
+A0D1X@A0D1B@Sarsaparilla infusion roots
+A0D1X@A0D1A@Seneca snakeroot infusion roots
+A0D1X@A0D0Z@Tormentil infusion roots
+A0D1X@A01AE@Angelica root, dry
+A03JS@A0D0X@Ginseng  and similar-
+A0D0X@A03JV@Ginseng infusion roots
+A03JV@A0D0V@Asian ginseng infusion roots
+A03JV@A0D0T@American ginseng infusion roots
+A0D0X@A0D0S@Siberian ginseng infusion roots
+A03JS@A03JX@Other Herbal infusion materials from roots
+A0ETD@A0ETE@Roots used as sugar source
+A0ETE@A0CXQ@Sugar beet roots and similar-
+A0CXQ@A010T@Sugar beet roots
+A0ETE@A0CXM@Chicory roots and similar-
+A0CXM@A010Z@Chicory roots
+A0CXM@A0CXL@Common polypody roots
+A0CXM@A0CXK@Yacon roots
+A0BXE@A0ETK@Materials for infusions or hot drinks of miscellaneous origin
+A0ETK@A0CZJ@Carobs and similar-
+A0CZJ@A01HY@Carobs
+A0CZJ@A0CZH@Jengkols
+A0ETK@A03JY@Herbal infusion materials from any other parts of the plant
+A03JY@A0D0R@Blond psyllium (infusion seeds, husks)
+A03JY@A0D0Q@Chamomile (infusion seeds)
+A03JY@A0D0P@Cherries (sweet) (infusion stems)
+A03JY@A0D0N@China (infusion bark)
+A0D0N@A0D0M@Chinabark (infusion bark)
+A0D0N@A0D0L@Red cinchona (infusion bark)
+A03JY@A0D0K@Cocoa (infusion husks)
+A03JY@A0D0J@Condurango (infusion bark)
+A03JY@A0D0H@Dwarf mountain pine (infusion shoots)
+A03JY@A0D0G@Fir (infusion shoots)
+A03JY@A0D0F@Fleawort (infusion seeds)
+A03JY@A0D0E@Fragrant sumac (infusion bark)
+A03JY@A03HM@Guarana (infusion seeds)
+A03JY@A0D0D@Hibiscus (infusion seeds)
+A03JY@A0D0C@Horse-chestnut (infusion seeds, bark)
+A03JY@A0D0B@Juniper (infusion bark, wood, shoots)
+A03JY@A0D0A@Lapacho (infusion bark)
+A03JY@A0CZZ@Lignum vitae (infusion bark, wood)
+A03JY@A0CZY@Parsley (infusion fruits)
+A03JY@A0CZX@Purging cassia (infusion fruits)
+A03JY@A0CZV@Quassia (infusion bark, wood)
+A03JY@A0CZT@Red sandalwood (infusion bark, wood)
+A03JY@A0CZS@Soap-bark tree (infusion bark)
+A03JY@A0CZR@Sour cherry (infusion stems)
+A03JY@A0D1T@Sweet corn (stigmas styles)
+A03JY@A0CZQ@Wild angelica (infusion fruits)
+A03JY@A0CZP@Witch hazel (infusion bark)
+A03JY@A03HP@Cupuaçu
+A03JY@A0CZN@Other herbal infusion materials from any other parts of the plant
+A0BXE@A0ETF@Plants where the vegetative tissue is used as food
+A0ETF@A00VA@Algae and prokaryotes organisms
+A00VA@A00VK@Brown algae
+A00VK@A00VL@Hijiki
+A00VK@A00VN@Sea spaghetti
+A00VK@A00VC@Wakame
+A00VK@A00VM@Kombu
+A00VA@A00VE@Red algae
+A00VE@A00VF@Eucheuma
+A00VE@A00VH@Laver
+A00VE@A00VJ@Dulse
+A00VE@A00VG@Carrageen mosses
+A00VA@A00VB@Green algae
+A00VB@A00VD@Sea lettuce
+A00VA@A04LX@Micro-phyte
+A04LX@A00VP@Spirulina
+A00VP@A0DCR@Spirulina (maxima)
+A00VP@A0DCQ@Spirulina (platensis)
+A00VA@A0DCP@Other algae
+A00VA@A0DCN@Other procaryotes organisms
+A0ETF@A0DCV@Mosses and lichens
+A0DCV@A0DCT@Icelandic mosses
+A0DCV@A0DCS@Other mosses and lichens
+A0BXE@A0ETG@Fungi
+A0ETG@A00TP@Cultivated fungi and similar-
+A00TP@A00TQ@Common mushrooms
+A00TP@A0DDV@Corn smuts
+A00TP@A0DDT@Enokitake
+A00TP@A0DDS@Fusarium venenatum
+A00TP@A0DDR@Horse mushrooms
+A00TP@A0DDQ@Jew's ears
+A00TP@A0DDP@Nameko
+A00TP@A0DDN@Pleorotus
+A0DDN@A00TR@Pearl oyster mushrooms
+A0DDN@A0DDG@Other species of genus Pleurotus, not elsewhere mentioned
+A00TP@A00TT@Paddy straw mushroom
+A00TP@A0DDM@Pom-pom blancs
+A00TP@A00TS@Shiitake
+A00TP@A0DDL@Shimeji
+A00TP@A0DDK@Snow mushrooms
+A00TP@A0DDJ@Wood blewits
+A00TP@A0DDH@Other cultivated fungi
+A0ETG@A00TD@Wild fungi and similar-
+A00TD@A00TG@Ceps
+A00TD@A00TE@Chanterelles
+A00TD@A0DDF@Hedgehog mushrooms
+A00TD@A0DDE@Horns of plenty
+A00TD@A00TH@Saffron milk cap
+A00TD@A00TL@Honey mushroom
+A00TD@A00TM@Gypsy mushroom
+A00TD@A00TK@Morels
+A00TD@A00TJ@Truffles
+A00TJ@A0DDD@Périgord black truffles
+A00TJ@A0DDC@Piemont white truffles
+A00TJ@A0DCZ@Summer truffles
+A00TJ@A0DCX@Other species of genus Tuber, not elsewhere mentioned
+A00TD@A0DDB@Saint George's mushrooms
+A00TD@A0DDA@Scotch bonnet mushrooms
+A00TD@A0DCY@Other wild fungi
+A0DCY@A00TF@Field mushroom
+A0B6Z@A0BXV@Primary products derived from plant commodities
+A0BXV@A0ETP@Cereal primary derivatives
+A0ETP@A0BY1@Groats
+A0BY1@A065N@Barley groats
+A0BY1@A002H@Buckwheat groats
+A0BY1@A002V@Millet groats
+A0BY1@A002Z@Oat groats
+A0BY1@A003P@Rye groats
+A0BY1@A004E@Wheat groats
+A0BY1@A004G@Bulgur
+A0ETP@A0ETL@Semolina
+A0ETL@A002N@Maize semolina
+A0ETL@A004F@Wheat semolina
+A0ETL@A0F6Q@Rice semolina
+A0ETP@A04KS@Cereal and cereal-like flours
+A04KS@A004S@Flour mix (like wheat/rye/barley/oats and other)
+A04KS@A002E@Amaranth flour
+A04KS@A002L@Barley flour
+A04KS@A002G@Buckwheat flour
+A04KS@A0C0Z@Maize, milled
+A0C0Z@A002Q@Maize flour
+A0C0Z@A002P@Maize meal
+A04KS@A002T@Millet flour
+A04KS@A002Y@Oat flour
+A04KS@A003F@Rice flour
+A04KS@A003J@Rye flour
+A003J@A003K@Rye flour, light
+A003J@A003L@Rye flour, medium
+A003J@A003M@Rye flour, wholemeal
+A003J@A003N@Rye flour, gluten free
+A04KS@A003T@Sorghum flour
+A04KS@A004H@Spelt flour
+A004H@A004J@Spelt flour, light
+A004H@A004K@Spelt flour, medium
+A004H@A004L@Spelt flour, wholemeal
+A04KS@A003X@Wheat flour
+A003X@A003Y@Wheat flour white
+A003X@A003Z@Graham flour
+A003X@A004A@Wheat flour, brown
+A003X@A004B@Wheat wholemeal flour
+A003X@A004C@Wheat flour, durum
+A003X@A004D@Chapatti flour
+A04KS@A04KT@Cereal and cereal-like flours not separately listed
+A0ETP@A002C@Cereal bran
+A002C@A003B@Oat bran
+A002C@A003Q@Rye bran
+A002C@A004P@Wheat bran
+A002C@A0F6P@Rice bran
+A0ETP@A0ETN@Cereal germ
+A0ETN@A016K@Maize germ
+A0ETN@A004Q@Wheat germ
+A0ETP@A04QY@Cereal flakes and similar
+A04QY@A00EM@Processed mixed cereal-based flakes
+A04QY@A00DA@Processed barley-based flakes
+A04QY@A00DD@Processed maize-based flakes
+A04QY@A00DN@Processed oat-based flakes
+A00DN@A00DK@Oat high-bran flakes
+A04QY@A00DS@Processed rice-based flakes
+A04QY@A00DY@Processed rye-based flakes
+A04QY@A00EF@Processed wheat-based flakes
+A04QY@A0F4Q@Extruded breakfast cereal products
+A0ETP@A04LL@Popped cereals
+A04LL@A00CZ@Barley popped
+A04LL@A00DC@Popcorn (maize, popped)
+A04LL@A00DM@Oat popped
+A04LL@A00DR@Rice, popped
+A04LL@A00DX@Rye popped
+A04LL@A00EE@Wheat, popped
+A0ETP@A04LJ@Cereal rolled grains
+A04LJ@A00EH@Mixed cereal rolled grains
+A04LJ@A00CY@Barley rolled grains
+A04LJ@A00DF@Millet rolled grains
+A04LJ@A00DH@Oat rolled grains
+A00DH@A00DJ@Oat rolled grains, instant
+A00DH@A00DL@Oat rolled grains, wholemeal
+A04LJ@A00DQ@Rice rolled grains
+A04LJ@A00DV@Rye rolled grains
+A04LJ@A00EA@Spelt rolled grains
+A04LJ@A00EB@Wheat rolled grains
+A04LJ@A00EC@Wheat germs rolled flakes
+A04LJ@A00ED@Wheat bran rolled flakes
+A0BXV@A00ZA@Processed or preserved vegetables and similar
+A00ZA@A04MB@Processed tomato products
+A04MB@A00ZB@Preserved tomatoes not concentrated
+A00ZB@A00ZC@Preserved tomato, whole or pieces
+A00ZB@A00ZD@Tomato puree
+A04MB@A00ZE@Preserved concentrated tomatoes
+A00ZE@A00ZF@Tomato paste
+A04MB@A00ZG@Sun-dried tomatoes
+A00ZA@A00ZH@Fermented or pickled vegetables
+A00ZH@A0ETT@Fermented vegetables
+A0ETT@A00ZK@Sauerkraut
+A00ZH@A00ZJ@Pickled/marinated vegetables
+A00ZA@A0F3F@Vegetable puree or paste
+A0F3F@A00ZN@Mashed vegetable puree
+A0F3F@A00ZM@Garlic puree
+A00ZA@A0ETR@Salted vegetables
+A00ZA@A0ETS@Candied or sugar-preserved vegetables
+A00ZA@A00ZQ@Dried vegetables
+A00ZQ@A011C@Dried potato products
+A011C@A011E@Mashed potato powder
+A011C@A011G@Potato flour
+A011C@A011D@Potato flakes
+A00ZQ@A00TY@Dried mushrooms
+A00ZA@A0ETQ@Canned/jarred vegetables
+A0ETQ@A00ZP@Sweet corn canned
+A0ETQ@A00TZ@Canned mushrooms
+A0ETQ@A0ESL@French beans canned
+A0BXV@A0BY9@Processed or preserved legumes
+A0BY9@A012R@Pulses (dried legume seeds)
+A012R@A012S@Beans (dry) and similar-
+A012S@A013E@Azuki beans (dry)
+A012S@A013N@Black eyed peas (dry)
+A012S@A013H@Broad beans (dry)
+A012S@A012T@Borlotti or other common beans (dry)
+A012T@A012Y@Field beans (dry seeds)
+A012T@A012Z@Flageolets (dry seeds)
+A012T@A012V@Kidney bean (dry seeds)
+A012T@A012X@Navy beans (dry seeds)
+A012S@A0DCM@Ervils (dry)
+A012S@A0DCL@Guar beans (dry)
+A012S@A013Y@Jack beans (dry)
+A012S@A013Z@Lablab beans (dry)
+A012S@A013A@Lima beans (dry)
+A012S@A0DCK@Monantha vetches (dry)
+A012S@A013D@Mung beans (dry)
+A012S@A013B@Rice beans (dry)
+A012S@A0DCJ@Runner beans (dry)
+A012S@A0DCH@Soyabeans for consumption (dry)
+A012S@A0DCG@Stink beans (dry)
+A012S@A013X@Vetches (dry)
+A012S@A0DCF@Yardlong beans (dry)
+A012R@A0DCE@Lentils (dry) and similar-
+A0DCE@A013Q@Lentils (dry)
+A012R@A0DCD@Peas (dry) and similar-
+A0DCD@A013J@Garden peas (dry)
+A013J@A013K@Marrowfat pea (dry seeds)
+A013J@A013L@Field (maple) pea (dry seeds)
+A0DCD@A0DCC@Asparagus peas (dry)
+A0DCD@A013V@Chickling vetches (dry)
+A0DCD@A013M@Chickpeas (dry)
+A013M@A01BH@Chickpea flour
+A0DCD@A0DCB@Moringa (dry)
+A0DCD@A013P@Pigeon peas (dry)
+A012R@A0DCA@Lupins (dry) and similar-
+A0DCA@A013S@Lupins (dry)
+A013S@A0DBZ@White lupin (dry)
+A013S@A0DBY@Blue lupin (dry)
+A013S@A0DBX@Yellow lupin (dry)
+A013S@A0DBV@Andean lupin (dry)
+A012R@A04HD@Other pulses
+A04HD@A013R@Bambara groundnut (dry seeds)
+A04HD@A013C@Black gram (dry seeds)
+A04HD@A014A@Horse gram (dry seeds)
+A04HD@A014B@Kersting's groundnut (dry seeds)
+A04HD@A013G@Mat bean (dry seeds)
+A04HD@A013F@Tepary bean (dry seeds)
+A0BY9@A01AZ@Canned or jarred legumes
+A01AZ@A01BB@Canned or jarred common beans
+A01AZ@A01BC@Canned or jarred peas
+A01AZ@A01BD@Canned or jarred lentils
+A01AZ@A01BE@Canned or jarred chickpea
+A0BXV@A0EZJ@Processed or preserved herbs, spices and similar
+A0EZJ@A016T@Dried herbs
+A016T@A016V@Angelica, dry
+A016T@A016X@Balm leaves, dry
+A016T@A016Y@Basil, dry
+A016T@A016Z@Bay leaves, dry
+A016T@A017A@Borage, dry
+A016T@A017B@Celery leaves, dry
+A016T@A017C@Fennel, dry
+A016T@A017D@Hyssop, dry
+A016T@A017E@Lavender, dry
+A016T@A017F@Lovage, dry
+A016T@A017G@Marjoram, dry
+A016T@A017H@Mints, dry
+A016T@A017J@Rosemary, dry
+A016T@A017K@Rue, dry
+A016T@A017L@Sage, dry
+A016T@A017M@Savory, dry
+A016T@A017N@Sweet cicely, dry
+A016T@A017P@Tansy and related species, dry
+A016T@A017Q@Thyme, dry
+A016T@A017R@Wintergreen leaves, dry
+A016T@A017S@Woodruff, dry
+A016T@A017T@Wormwoods, dry
+A0BXV@A0BY3@Processed or preserved fruits
+A0BY3@A01PS@Candied fruits
+A01PS@A01QA@Candied fruit, apple
+A01PS@A01PV@Candied fruit, bananas
+A01PS@A01PT@Candied fruit, cherry
+A01PS@A01PY@Candied fruit, grape
+A01PS@A01QC@Candied fruit, orange peel
+A01PS@A01PZ@Candied fruit, pear
+A01PS@A01PX@Candied fruit, pineapple
+A01PS@A01QB@Candied fruit, mixed fruit
+A0BY3@A01MA@Dried fruit
+A01MA@A01QF@Mixed dried fruits
+A01MA@A01QH@Fruit chips
+A01MA@A01QQ@Chocolate coated dried fruit
+A01MA@A01MB@Dried prunes
+A01MA@A01MC@Dried apples
+A01MA@A01MD@Dried apricots
+A01MA@A01ME@Dried vine fruits (raisins etc.)
+A01MA@A01MF@Dried dates
+A01MA@A01MG@Dried figs
+A01MA@A01MH@Dried pears
+A01MA@A01MJ@Dried bananas
+A01MA@A01MK@Dried mangoes
+A0BY3@A01QN@Fermented fruit products
+A01QN@A01BR@Olives, processed
+A01BR@A01BQ@Table olives ready for consumption
+A0BY3@A01QM@Fruit in vinegar or brine
+A0BY3@A0CJA@Fruit in alcohol or spirits
+A0BY3@A01NN@Canned or jarred fruit
+A01NN@A01PC@Canned or jarred mixed fruit
+A01PC@A01QK@Canned fruit cocktail
+A01NN@A01NP@Canned or jarred mandarin
+A01NN@A01NQ@Canned or jarred apple
+A01NN@A01NR@Canned or jarred pear
+A01NN@A01NS@Canned or jarred apricot
+A01NN@A01NT@Canned or jarred plum
+A01NN@A01NV@Canned or jarred sweet cherry
+A01NN@A01NX@Canned or jarred sour cherry
+A01NN@A01NY@Canned or jarred peach
+A01NN@A01NZ@Canned or jarred table grape
+A01NN@A01PA@Canned or jarred cranberry
+A01NN@A01PB@Canned or jarred pineapple
+A0BXV@A01BJ@Primary derivatives from nuts and similar seeds
+A01BJ@A0F0L@Candied or sugar preserved nuts
+A01BJ@A0F0N@Dried nuts and related flours and powders
+A01BJ@A0F0M@Nut/seeds paste/emulsion/mass
+A0F0M@A01BL@Chestnut puree (castanea vulgaris)
+A0F0M@A01BM@Sesame paste (tahini) (sesamus indicum)
+A0F0M@A01BN@Peanut butter
+A0BXV@A04MN@Fruit / vegetable spreads and similar
+A04MN@A01MM@Jam of fruit / vegetables
+A01MM@A01NH@Jam, mixed fruit
+A01MM@A01MN@Jam, strawberries
+A01MM@A01MP@Jam, raspberries
+A01MM@A01MQ@Jam, blackberries
+A01MM@A01MR@Jam, currants (red)
+A01MM@A01MS@Jam, currants (black)
+A01MM@A01MT@Jam, lingonberry
+A01MM@A01MV@Jam, gooseberries
+A01MM@A01MX@Jam, cranberries
+A01MM@A01MY@Jam, blueberries
+A01MM@A01MZ@Jam, rose hips
+A01MM@A01NA@Jam, apricots
+A01MM@A01NB@Jam, plums
+A01MM@A01NC@Jam, peaches
+A01MM@A01ND@Jam, sweet cherry
+A01MM@A01NE@Jam, sour cherry
+A01MM@A01NF@Jam, oranges
+A01MM@A01NG@Jam, mandarins
+A04MN@A01NJ@Marmalade
+A01NJ@A01NK@Marmalade, oranges
+A01NJ@A01NL@Marmalade, mandarins
+A01NJ@A01NM@Marmalade, mixed citrus fruit
+A04MN@A01QP@Fruit preparations for fillings and/or flavouring
+A04MN@A01PD@Compote of fruit / vegetables
+A01PD@A01PF@Fruit compote, apple
+A01PD@A01PH@Fruit compote, apricot
+A01PD@A01PP@Fruit compote, cranberry
+A01PD@A01PE@Fruit compote, mandarin
+A01PD@A01PM@Fruit compote, peach
+A01PD@A01PG@Fruit compote, pear
+A01PD@A01PQ@Fruit compote, pineapple
+A01PD@A01PJ@Fruit compote, plum
+A01PD@A01PK@Fruit compote, sweet cherry
+A01PD@A01PL@Fruit compote, sour cherry
+A01PD@A01PN@Fruit compote, table grape
+A01PD@A01PR@Fruit compote, mixed fruit
+A04MN@A01QJ@Fruit or fruit-vegetable puree
+A0BXV@A0BX9@Fruit / vegetable juices and nectars
+A0BX9@A0BY4@Fruit juices (100% from named source)
+A0BY4@A03AN@Mixed fruit juice
+A03AN@A03AP@Juice, mixed fruit
+A03AN@A03AQ@Juice, apple-grape
+A03AN@A03AR@Juice, apple-cherry
+A03AN@A03AS@Juice, orange-grapefruit
+A03AN@A03AT@Juice, peach-apricot
+A03AN@A03AV@Juice, strawberry-cherry
+A03AN@A03AX@Juice, mandarin-banana
+A03AN@A03AY@Juice, apricot-orange
+A03AN@A03AZ@Juice, orange-peach
+A03AN@A03BA@Juice, berry-grape
+A0BY4@A039M@Juice, apple
+A0BY4@A039N@Juice, apricot
+A0BY4@A039P@Juice, black currant
+A039P@A039Q@Juice, cassis
+A0BY4@A039S@Juice, blackberry
+A0BY4@A03AG@Juice, citrus
+A0BY4@A039T@Juice, cranberry
+A0BY4@A039V@Juice, elderberry
+A0BY4@A03AK@Juice, grape
+A0BY4@A03AL@Juice, grapefruit
+A0BY4@A039X@Juice, guava
+A0BY4@A03AH@Juice, lemon
+A0BY4@A03AJ@Juice, lime
+A0BY4@A039Y@Juice, mango
+A0BY4@A039Z@Juice, nectarine
+A0BY4@A03AM@Juice, orange
+A0BY4@A03AA@Juice, passion fruit
+A0BY4@A03AB@Juice, peach
+A0BY4@A03AC@Juice, pear
+A0BY4@A03AF@Juice, pineapple
+A0BY4@A03AD@Juice, pomegranate
+A0BY4@A03AE@Juice, prune
+A0BY4@A039R@Juice, red currant
+A0BX9@A03BB@Fruit nectars (min. 25-50% fruit as defined in EU legislation)
+A03BB@A03BC@Nectar, apricot
+A03BB@A03BD@Nectar, apple
+A03BB@A03BE@Nectar, banana
+A03BB@A03BF@Nectar, mango
+A03BB@A03BG@Nectar, orange
+A03BB@A03BH@Nectar, peach
+A03BB@A03BJ@Nectar, pear
+A03BB@A03BK@Nectar, pineapple
+A03BB@A03BL@Mixed fruit nectars
+A0BX9@A04PQ@Vegetable juices
+A04PQ@A03CS@Mixed vegetable juice
+A03CS@A03CT@Juice, tomato-leafy vegetables
+A03CS@A03CV@Juice, tomato-carrot
+A03CS@A03CX@Juice, multi-vegetable
+A04PQ@A03CK@Juice, carrot
+A04PQ@A03CL@Juice, celery
+A04PQ@A03CQ@Juice, cucumber
+A04PQ@A03CJ@Juice, tomato
+A04PQ@A03CR@Juice, turnip
+A04PQ@A03CN@Juice, white cabbage
+A04PQ@A03CM@Juice, beetroot
+A04PQ@A03CP@Juice, potato
+A0BX9@A03DB@Mixed fruit and vegetable juices
+A03DB@A03DC@Juice, apple-carrot
+A03DB@A03DD@Juice, multi-fruit-carrot
+A0BX9@A03DE@Mixed juices with added ingredients
+A03DE@A03DF@Fruit smoothies
+A03DE@A03DH@Multivitamin juices
+A0BXV@A0ETY@Extracts of plant origin
+A0ETY@A0EVA@Liquid extract of plant origin
+A0EVA@A01BK@Coconut milk (cocos nucifera) liquid
+A0ETY@A0ETZ@Powdered extract of plant origin
+A0ETZ@A0F4R@Coconut milk powder
+A0BXV@A0BY8@Liquid or gel separated from plant RPCs
+A0BY8@A03DG@Aloe vera juice
+A0BY8@A0F4S@Coconut water
+A0BXV@A0ETV@Fruit/vegetable juice concentrate
+A0ETV@A03BN@Fruit juice concentrates
+A03BN@A03BP@Juice concentrate, apricots
+A03BN@A03BQ@Juice concentrate, blackberry
+A03BN@A03BR@Juice concentrate, blueberry
+A03BN@A03BS@Juice concentrate, black currant
+A03BN@A03BT@Juice concentrate, red currant
+A03BN@A03BV@Juice concentrate, cranberry
+A03BN@A03BX@Juice concentrate, gooseberry
+A03BN@A03BY@Juice concentrate, grape
+A03BN@A03BZ@Juice concentrate, mandarin
+A03BN@A03CA@Juice concentrate, orange
+A03BN@A03CB@Juice concentrate, peach
+A03BN@A03CC@Juice concentrate, plum
+A03BN@A03CD@Juice concentrate, raspberry
+A03BN@A03CE@Juice concentrate, strawberry
+A03BN@A03CF@Juice concentrate, sweet cherry
+A0ETV@A03CZ@Vegetable juice concentrate
+A0BXV@A0ETX@Fruit/vegetable juice powder
+A0ETX@A03CG@Dehydrated/powdered fruit juice
+A0ETX@A03DA@Dehydrated/powdered vegetable juice
+A0BXV@A0BYA@Derivatives of coffee, cocoa, tea and similar RPCs
+A0BYA@A0C6A@Coffee RPC derivatives
+A0C6A@A03GL@Coffee beans, roasted
+A0C6A@A03GM@Coffee beans, roasted and decaffeinated
+A0C6A@A03GN@Coffee ground, roasted
+A0C6A@A03GP@Coffee ground, roasted and decaffeinated
+A0C6A@A0DLJ@Liquid coffee concentrate
+A0C6A@A03GQ@Instant coffee powder
+A0C6A@A03GR@Instant coffee powder, decaffeinated
+A0BYA@A03GS@Coffee imitate ingredients
+A03GS@A03HD@Mixed coffee imitates
+A03GS@A03GT@Malt coffee ingredient
+A03GS@A03GV@Chicory coffee ingredient
+A03GS@A03GX@Minor imitate coffee ingredients
+A03GX@A03GY@Rye coffee ingredient
+A03GX@A03GZ@Wheat coffee ingredient
+A03GX@A03HA@Barley coffee ingredient
+A03GX@A03HB@Fig coffee ingredient
+A03GX@A03HC@Sugar beet coffee ingredient
+A0BYA@A0C6B@Cocoa ingredients (RPC derivatives)
+A0C6B@A03HG@Cocoa powder
+A0C6B@A03HJ@Cocoa mass
+A0BYA@A0C6C@Tea RPC derivatives
+A0C6C@A03HR@Tea leaves and stalks, fermented
+A03HR@A03HV@Tea leaves and stalks decaffeinated
+A03HR@A03HS@Tea leaves and stalks with fruit and flavours
+A0C6C@A03HX@Tea powder ingredients and extracts
+A03HX@A03HY@Instant tea powder
+A03HX@A03HZ@Instant tea powder decaffeinated
+A0BXV@A0F1D@Unspecified hot drink ingredients
+A0B6Z@A0BXF@Animal meat commodities (tissue RPCs)
+A0BXF@A0EYE@Animal carcase
+A0EYE@A049G@Generic non-game mammals carcase
+A049G@A04BL@Asses-mules-hinnies carcase
+A049G@A049Q@Bovine carcase
+A049G@A04AS@Goat carcase
+A049G@A04BC@Horse carcase
+A049G@A04AA@Pig carcase
+A049G@A04BV@Rabbit carcase
+A049G@A04AJ@Sheep carcase
+A0EYE@A04FV@Game mammals carcase
+A04FV@A04CE@Deer carcase
+A04FV@A04CN@Wild boar carcase
+A0EYE@A04DG@Generic poultry carcase
+A04DG@A04DQ@Chicken carcase
+A04DG@A04EJ@Duck carcase
+A04DG@A04ES@Goose carcase
+A04DG@A04FC@Ratites carcase
+A04DG@A04EA@Turkey carcase
+A0EYE@A04GE@Game birds carcase
+A0BXF@A01QS@Animal fresh meat
+A01QS@A0EYH@Mammals and birds meat
+A0EYH@A0EYF@Mammals meat
+A0EYF@A01TN@Bovine and pig fresh meat
+A01TN@A04GP@Bovine and pig, minced meat
+A0EYF@A01TP@Mixed pork and mutton/lamb fresh meat
+A0EYF@A01TQ@Mixed beef and mutton/lamb fresh meat
+A0EYF@A01QV@Bovine muscle
+A01QV@A01QX@Cow, ox or bull fresh meat
+A01QX@A049S@Bovine, minced meat
+A01QV@A01QY@Calf fresh meat
+A01QV@A01QZ@Buffalo fresh meat
+A01QZ@A01RD@Buffalo, water fresh meat
+A01QV@A01RA@Buffalo, african fresh meat
+A01RA@A01RB@Buffalo, cape fresh meat
+A01QV@A01RC@Buffalo, american fresh meat
+A01QV@A01RE@Yak fresh meat
+A01QV@A01RF@Zebu fresh meat
+A0EYF@A01RG@Pig muscle
+A01RG@A04AC@Pig minced meat
+A0EYF@A01RH@Sheep muscle
+A01RH@A01RJ@Sheep (adult) fresh meat
+A01RH@A01RK@Lamb fresh meat
+A01RH@A04AL@Sheep, minced meat
+A0EYF@A01RL@Goat muscle
+A01RL@A04AV@Goat, minced meat
+A0EYF@A01RM@Equine muscle
+A01RM@A01RN@Horse fresh meat
+A01RN@A04BE@Horse, minced meat
+A01RM@A01RP@Asses-mules-hinnies fresh meat
+A01RP@A04BN@Asses-mules-hinnies, minced meat
+A0EYF@A01RQ@Rabbit fresh meat
+A01RQ@A04BY@Rabbit, minced meat
+A0EYF@A01SA@Deer fresh meat
+A01SA@A04CG@Deer, minced meat
+A01SA@A01SB@Deer, fallow fresh meat
+A01SA@A01SC@Deer, red fresh meat
+A01SA@A01SD@Wapiti elk meat
+A01SA@A01SE@European moose meat
+A01SA@A01SF@Reindeer meat
+A01SA@A01SG@Roe deer meat
+A0EYF@A01SH@Wild boar fresh meat
+A01SH@A04CQ@Wild boar, minced meat
+A0EYF@A01RT@Camel fresh meat
+A01RT@A01RV@Camel, bactrian fresh meat
+A01RT@A01RX@Dromedary fresh meat
+A0EYF@A01RS@Kangaroo fresh meat
+A0EYF@A01RY@Llama or lama fresh meat
+A0EYF@A01SJ@Hare fresh meat
+A0EYF@A01SL@Moufflon fresh meat
+A0EYF@A01SM@Chamois fresh meat
+A0EYF@A0F6A@Dog meat
+A0EYF@A0F6B@Rat meat
+A0EYF@A02KN@Marine mammals meat
+A0EYH@A0EYG@Birds meat
+A0EYG@A01SN@Poultry fresh meat (muscle meat)
+A01SN@A01TR@Undefined mixed poultry fresh meat
+A01SN@A01SP@Chicken fresh meat
+A01SP@A04DS@Chicken, minced meat
+A01SN@A01SQ@Turkey fresh meat
+A01SQ@A04EC@Turkey, minced meat
+A01SN@A01SR@Duck fresh meat
+A01SR@A04EL@Duck, minced meat
+A01SN@A01SS@Goose fresh meat
+A01SS@A04EV@Goose, minced meat
+A01SN@A01ST@Ratites fresh meat
+A01ST@A04FE@Ratites, minced meat
+A01SN@A01SX@Guinea-fowl fresh meat
+A01SN@A01SY@Partridge fresh meat
+A01SN@A01SZ@Pheasant fresh meat
+A01SN@A01TA@Pigeon fresh meat
+A01SN@A01TB@Quail fresh meat
+A0EYG@A01TE@Game birds fresh meat
+A01TE@A01TF@Wild goose fresh meat
+A01TE@A01TG@Mallard fresh meat
+A01TE@A01TH@Snipe fresh meat
+A01TE@A01TJ@Grouse fresh meat
+A01TE@A01TK@Ptarmigan fresh meat
+A01QS@A026V@Fish (meat)
+A026V@A026X@Freshwater fish
+A026X@A0F1C@Carps, barbels and other cyprinids
+A0F1C@A026Y@Barbs
+A026Y@A0F0Z@Silver barb
+A0F1C@A027A@Bluegill sunfish, or bluegill bream
+A0F1C@A027B@Freshwater bream - Europe
+A0F1C@A0F1A@Wuchang bream - China
+A0F1C@A027C@Carps
+A027C@A027D@Carp, common
+A027C@A0F8A@Silver carp
+A027C@A0F8B@Bighead carp
+A027C@A0F8C@Black carp
+A027C@A027E@Carp, grass
+A027C@A027F@Mud carp
+A027C@A027G@Carp, indian
+A027C@A027H@Labeo carps (generic)
+A027H@A0F8E@Labeo calbasu
+A027H@A0F8D@Roho labeo
+A027C@A0F8F@Catla
+A027C@A0F8G@Crucian carp
+A027C@A0F8H@Goldfish
+A0F1C@A0F8J@Weatherfish
+A0F1C@A027Z@Roaches
+A026X@A0F8K@Tilapias and other cichlids
+A0F8K@A028A@Tilapia
+A028A@A028B@Mozambique tilapia
+A028A@A0F8L@Nile tilapia
+A028A@A0F8M@Blue tilapia
+A026X@A04RN@Miscellaneous freshwater fishes
+A04RN@A027J@Catfishes (freshwater)
+A027J@A027K@Channel catfish
+A027J@A0F8N@Pangas catfishes
+A027J@A0F8Q@Clarias catfish (generic)
+A0F8Q@A0F8P@African catfish
+A027J@A0F8R@Amur catfish
+A027J@A0F8S@Chinese longsmout catfish
+A027J@A0F8T@Yellow catfish
+A027J@A0F8V@Sorubim catfish
+A04RN@A0F8X@Mandarine fish
+A04RN@A0F8Y@Snakeheads(=Murrels)
+A0F8Y@A0F8Z@Snakehead
+A0F8Y@A0F9A@Striped snakehead
+A0F8Y@A0F9B@Indonesian snakehead
+A04RN@A0F9C@Arapaima
+A04RN@A0F9D@Asian swamp eel
+A04RN@A0F9E@Characins
+A0F9E@A0F9F@Cachama
+A0F9E@A0F9G@Pirapatinga
+A0F9E@A0F9H@Pacu (Piaractus mesopotamicus)
+A04RN@A0F9J@Gudgeons
+A0F9J@A027L@Gobies, freshwater
+A0F9J@A0F9K@Marble goby
+A0F9J@A0F9L@Pacific fat sleeper
+A04RN@A027M@Gourami (asia)
+A027M@A0F9N@Giant gourami
+A027M@A0F9P@Snakeskin gourami
+A04RN@A0F9M@Climbing perch
+A04RN@A027N@Perch
+A027N@A027P@Perch, american yellow
+A027N@A027Q@Perch, european
+A04RN@A027S@White crappie
+A04RN@A0F9Q@Silver perch
+A04RN@A028N@Nile perch
+A04RN@A026Z@Largemouth black bass
+A04RN@A027T@Pike
+A027T@A027V@Amur pike
+A027T@A027X@Northern pike
+A04RN@A027Y@Pike-perch
+A04RN@A028C@Cod, murray
+A04RN@A028D@Perch, golden
+A04RN@A0F9R@Dagaas
+A04RN@A0F9S@African bonytongue
+A026V@A028E@Diadromous fish
+A028E@A0F9T@Sturgeons, paddlefishes
+A0F9T@A029E@Sturgeon
+A0F9T@A029P@Paddle fish
+A028E@A028G@River eels
+A028G@A028H@Eel, american
+A028G@A028J@Eel, australian
+A028G@A028K@Eel, european
+A028G@A028L@Eel, japanese
+A028E@A0F2H@Salmons, trouts, smelts
+A0F2H@A0C75@Salmons
+A0C75@A028P@Atlantic salmon
+A0C75@A028Q@Pacific salmon (generic)
+A028Q@A028R@Cherry salmon
+A028Q@A028S@Chinook salmon
+A028Q@A028T@Chum salmon
+A028Q@A028V@Coho salmon
+A028Q@A028X@Pink salmon
+A028Q@A028Y@Sockeye salmon
+A0F2H@A029F@Trouts
+A029F@A029J@Brown trout
+A029F@A029K@Cutthroat trout
+A029F@A029N@Rainbow trout
+A0F2H@A029M@Char
+A029M@A029L@Lake trout
+A029M@A029H@Brook trout
+A029M@A029G@Arctic char
+A0F2H@A029B@Smelt
+A029B@A029C@Smelt, european
+A029B@A029D@Smelt, rainbow
+A0F2H@A029Q@Whitefishes or coregonus
+A0F2H@A0FAF@Ayu sweetfish
+A0F2H@A0FAG@Pond smelt
+A0F2H@A0FAH@Clearhead icefish
+A028E@A029A@Shads
+A029A@A0FAJ@Hilsa shad
+A028E@A04RP@Miscellaneous diadromous fishes
+A04RP@A028F@Barramundi
+A04RP@A028M@Milkfish
+A04RP@A027R@Perch, white
+A026V@A029R@Marine fish
+A029R@A02AR@Flounders, halibuts, soles
+A02AR@A02AS@Dab or common dab
+A02AR@A02AT@Flounders
+A02AT@A02AV@Witch flounder
+A02AT@A02AX@Yellowtail flounder
+A02AR@A02AY@Halibut
+A02AY@A02AZ@Halibut, atlantic
+A02AY@A02BA@Halibut, greenland
+A02AY@A02BB@Halibut, pacific
+A02AR@A02BC@Plaice
+A02BC@A02BD@Plaice, alaska
+A02BC@A02BE@Plaice, european
+A02AR@A02BF@Sole
+A02BF@A0FAK@Yellowfin sole
+A02AR@A02BG@Turbot
+A02AR@A02BH@Brill
+A02AR@A0FAL@Megrims
+A029R@A02BT@Cods, hakes, haddocks
+A02BT@A02BV@Cod
+A02BV@A02BX@Cod, atlantic
+A02BV@A02BY@Cod, greenland
+A02BV@A02BZ@Cod, pacific
+A02BT@A02CA@Haddock
+A02BT@A02CB@Hakes
+A02BT@A02CC@Ling
+A02BT@A02CD@Tusk
+A02BT@A02CE@Pollack, pollock
+A02CE@A02CF@Coalfish
+A02CE@A0FAM@Pollack
+A02BT@A02CG@Whiting
+A02BT@A02CH@Grenadiers
+A02BT@A02CJ@Norway pout
+A02BT@A0FAN@Blue whitings
+A02BT@A0FAP@Alaska pollock
+A029R@A029S@Miscellaneous coastal marine fishes
+A029S@A02AD@Mullets
+A029S@A0C76@Threadfins
+A0C76@A028Z@Salmon, threadfin
+A029S@A029T@Sea bass
+A029T@A0FAQ@Japanese seabass
+A029S@A029V@Sea bream
+A029V@A0FAR@Gilthead seabream
+A029S@A0FAS@Groupers
+A029S@A0FAV@Snappers
+A029S@A0FAX@Dentex
+A029S@A0FAY@Weakfishes
+A029S@A0FAT@Emperors
+A029S@A029X@Bogue
+A029X@A029Y@Salema
+A029S@A02AB@Drums
+A029S@A0FAZ@Meagre
+A029S@A0FBC@Red drum
+A029S@A0FBB@Large yellow croaker
+A029S@A0FBA@Yellow croaker
+A029S@A02AH@Bream, silver
+A029S@A0FBD@Sea catfishes
+A029S@A0FBE@Pacific sandlance
+A029S@A0FBF@Bombay-duck
+A029S@A02AE@Surgeonfish
+A029S@A02AF@Lesser sand eel
+A029R@A02AG@Miscellaneous demersal marine fishes
+A02AG@A02BL@Wolffishes
+A02BL@A029Z@Wolffish
+A02AG@A02AK@Conger
+A02AK@A02AL@Conger, european
+A02AG@A02AM@Ocean perch
+A02AM@A02AN@Scorpion fishes
+A02AG@A02BJ@Anglerfish and monkfish
+A02AG@A02BK@Dories
+A02AG@A0FBG@Hairtails, scabbardfishes (generic)
+A02AG@A0FBH@Alfonsinos
+A02AG@A0FBJ@Cusk-eels
+A029R@A0F9V@Herrings, sardines, anchovies
+A0F9V@A02DA@Sardines and sardine-type fishes
+A02DA@A02DB@European sardine
+A02DA@A02DC@Sardinella or oil sardine
+A0F9V@A02DD@Anchovies
+A0F9V@A02DE@Herrings
+A02DE@A02DF@Herring, atlantic
+A02DE@A02DG@Herring, pacific
+A0F9V@A02DH@Sprat
+A0F9V@A02AC@Menhaden
+A029R@A0F9X@Tunas, bonitos, billfishes
+A0F9X@A02DR@Tuna and bonito (generic)
+A02DR@A02DS@Bonito
+A02DS@A02DT@Bonito, atlantic
+A02DS@A02DV@Bonito, eastern pacific
+A02DR@A02DX@Tuna
+A02DX@A02DY@Albacore
+A02DX@A02DZ@Tuna, bigeye
+A02DX@A02EA@Tuna, blackfin
+A02DX@A02EB@Tuna, bluefin (generic)
+A02EB@A02EC@Southern bluefin tuna
+A02EB@A02ED@Northern bluefin tuna
+A02DX@A02EE@Tuna, longtail
+A02DX@A02EF@Tuna, skipjack
+A02DX@A02EG@Tuna, yellowfin
+A02DX@A07Y1@Bullet tuna
+A0F9X@A07Y0@Swordfish
+A0F9X@A02CR@Spanish mackerel
+A0F9X@A02CQ@King mackerel
+A0F9X@A02CS@Seerfish
+A0F9X@A0FBK@Other billfishes
+A029R@A02BM@Miscellaneous pelagic marine fishes
+A02BM@A02AJ@Butterfish
+A02BM@A02AP@Pomfret, atlantic
+A02BM@A0FBL@Pomfret, Indo-Pacific
+A02BM@A02AQ@Bluefish
+A02BM@A0FBM@Pompanos
+A02BM@A0FBP@Cobia
+A02BM@A0FBN@Amberjack
+A02BM@A02BN@Barracudas
+A02BM@A02BP@Capelin
+A02BM@A02BQ@Dolphinfishes
+A02BM@A02BR@Horse jack
+A02BM@A02BS@Garfish
+A02BM@A02CL@Mackerels, jack and horse mackerel, scads
+A02CL@A02CM@Jack mackerel
+A02CM@A02CN@Horse mackerels
+A02CL@A02CP@Scad
+A02CL@A02CT@Mackerel
+A02CT@A02CV@Mackerel, atlantic
+A02CT@A02CX@Mackerel, chub
+A02CT@A02CY@Mackerel, indian
+A02CT@A02CZ@Mackerel, short
+A029R@A0F9Y@Sharks, rays, chimaeras
+A0F9Y@A02DJ@Sharks
+A02DJ@A02DK@Liveroil shark
+A02DJ@A0FBQ@Blue shark
+A02DJ@A02DL@Porbeagle
+A02DJ@A0FBR@Thresher sharks
+A02DJ@A02DM@Requiem shark
+A02DJ@A02DN@Smooth hounds
+A02DJ@A02DP@Spiny dogfish
+A0F9Y@A02DQ@Rays
+A029R@A04RS@Marine fishes not identified
+A01QS@A02EH@Fish offal
+A02EH@A02EJ@Fish liver
+A02EJ@A02EK@Shark liver
+A02EJ@A02EL@Cod liver
+A02EH@A02EM@Fish roe
+A02EM@A02EN@Bluefish roe
+A02EM@A02EP@Cod roe
+A02EM@A02EQ@Dolphinfish roe
+A02EM@A02ER@Flounder roe
+A02EM@A02ES@Herring roe
+A02EM@A02ET@Mackerel roe
+A02EM@A02EV@Mullet roe
+A02EM@A02EX@Salmon roe, pacific
+A02EM@A02EY@Salmon roe, atlantic
+A02EM@A02EZ@Shad roe
+A02EM@A02FA@Sturgeon roe
+A02EM@A0F7F@Lumpfish roe
+A02EH@A02FB@Other fish offal
+A01QS@A02FD@Crustaceans
+A02FD@A02FE@Freshwater crustaceans
+A02FE@A02FF@Freshwater crabs
+A02FF@A0FCD@Chinese mitten crab
+A02FE@A02FG@Freshwater crayfishes
+A02FG@A0FCE@Red swamp crawfish
+A02FG@A0FCF@Danube crayfish
+A02FE@A02FH@Freshwater shrimps or prawns
+A02FH@A0FCG@Giant river prawn
+A02FH@A0FCH@Moonsoon river prawn
+A02FH@A0FCJ@Oriental river prawn
+A02FH@A0FCK@Siberian prawn
+A02FD@A02FL@Crabs, sea-spiders
+A02FL@A0FCL@Swimming crabs
+A02FL@A0FCM@Indo-Pacific swamp crab
+A02FL@A0FCN@Blue crab
+A02FL@A0FCQ@Tanner crabs (generic)
+A02FL@A0FCP@Edible crab
+A02FD@A0F9Z@Lobsters, spiny-rock lobster
+A0F9Z@A02FP@Lobsters
+A02FP@A02FQ@Lobster, american
+A02FP@A02FR@Lobster, european
+A02FP@A02FS@Lobster, norway
+A0F9Z@A02FT@Slipper lobster
+A0F9Z@A02FV@Spiny and rock lobsters
+A02FD@A0FAA@King crabs, squat-lobsters
+A0FAA@A02FN@Squat lobsters
+A0FAA@A0FCR@King crabs
+A02FD@A02FX@Shrimps and prawns
+A02FX@A02FY@Prawn, giant tiger
+A02FX@A02FZ@Prawn, northern
+A02FX@A02GA@White shrimp
+A02FX@A02GB@Shrimps, common
+A02FX@A0FCS@Natantian decapods
+A02FX@A0FCT@Akiami paste shrimp
+A02FX@A0FCV@Metapenaeus shrimps
+A02FD@A02FM@Krill, planktonic crustaceans
+A02FD@A02FJ@Miscellaneous marine crustaceans
+A02FJ@A02FK@Barnacle
+A02FJ@A0FCX@Squillids
+A01QS@A02GM@Molluscs
+A02GM@A02HY@Freshwater molluscs
+A02GM@A02GS@Abalones, winkles, conchs
+A02GS@A02GT@Abalone
+A02GS@A02GV@Limpet
+A02GS@A02GX@Water snails, conches and whelks
+A02GM@A02HG@Oysters
+A02HG@A02HJ@Oyster, european
+A02HG@A02HK@Oyster, portuguese cupped
+A02HG@A02HL@Oyster, sydney rock
+A02HG@A02HM@Oyster, pacific cupped
+A02GM@A02HF@Mussels
+A02HF@A0FCY@Blue mussel
+A02HF@A0FCZ@Chilean mussel
+A02HF@A0FDA@Green mussel
+A02GM@A02HN@Scallops, pectens
+A02HN@A02HP@Scallop, australian
+A02HN@A02HQ@Scallop, bay
+A02HN@A02HR@Scallop, giant pacific
+A02HN@A02HS@Scallop, great
+A02HN@A02HT@Scallop, new zealand
+A02HN@A02HV@Scallop, queen
+A02HN@A02HX@Scallop, sea
+A02HN@A0FDB@Yesso scallop
+A02GM@A02GZ@Clams, cockles, arkshells
+A02GZ@A02HA@Clams
+A02HA@A02HB@Razor clam
+A02GZ@A02HC@Cockle and arkshell
+A02HC@A02HD@Arkshell
+A02HC@A02HE@Cockles
+A02GM@A02HZ@Squids, cuttlefishes, octopuses
+A02HZ@A02JA@Cuttlefishes
+A02JA@A02JB@Cuttlefish, common
+A02JA@A02JC@Little cuttle
+A02HZ@A02JD@Octopuses
+A02JD@A02JE@Octopus, common
+A02JD@A02JF@Octopus, musky
+A02JD@A02JG@Octopus, curled
+A02HZ@A02JH@Squids
+A02JH@A02JJ@Squid, common
+A02JH@A02JK@Squid, european flying
+A02JH@A02JL@Squid, japanese flying
+A02JH@A02JM@Squid, short finned
+A02GM@A0FAB@Miscellaneous marine molluscs
+A01QS@A02GN@Sea-squirts and other tunicates
+A02GN@A0FDC@Sea squirts
+A01QS@A02GP@Sea urchins and other echinoderms
+A02GP@A02GQ@Sea urchins
+A02GP@A02GR@Sea-cucumbers
+A01QS@A02GY@Jellyfishes and similar
+A01QS@A02LK@Snails
+A02LK@A02LL@Snail, garden
+A02LK@A02LN@Snail, roman
+A02LK@A0CTY@Other edible snails not belonging to the genus Helix
+A0CTY@A02LM@Snail, giant
+A01QS@A02KQ@Amphibians and Reptiles
+A02KQ@A02LJ@Crocodiles
+A02KQ@A02KR@Frogs (legs)
+A02KR@A0CVE@Frog legs (Rana genus)
+A0CVE@A02KS@Bullfrog
+A0CVE@A02KV@Frog, agile
+A0CVE@A02KX@Frog, common
+A02KR@A0CVC@Other frog legs from frogs not belonging to the genus Rana
+A0CVC@A02KT@Bullfrog, indian
+A0CVC@A02KY@Frog, edible
+A0CVC@A02KZ@Frog, marsh
+A0CVC@A02LA@Frog, pool
+A02KQ@A02LC@Snakes
+A02KQ@A02LD@Turtles
+A02LD@A02LE@Turtle, green
+A02LD@A02LF@Turtle, snapping
+A02LD@A02LG@Turtle, hawksbill
+A02LD@A02LH@Turtle, loggerhead
+A02KQ@A0CVD@Other Amphibians and Reptiles
+A0CVD@A02LB@Lizards
+A01QS@A0EYL@Insects and arachnids (including species only consumed outside EU)
+A0EYL@A02LQ@Insects
+A01QS@A0CVA@Earthworms (including species only consumed outside EU)
+A0BXF@A01TT@Animal fresh fat tissues
+A01TT@A01XA@Mixed fresh fat tissue
+A01TT@A0F3G@Mammals fat tissue
+A0F3G@A01XB@Bovine and pig, fresh fat tissue
+A0F3G@A01TX@Bovine fat tissue
+A01TX@A01TY@Cattle fresh fat tissue
+A01TX@A01TZ@Buffalo fresh fat tissue
+A0F3G@A01VA@Pig fat tissue
+A0F3G@A01VB@Sheep fat tissue
+A0F3G@A01VC@Goat fat tissue
+A0F3G@A01VD@Equine fat tissue
+A01VD@A01VE@Horse, fresh fat tissue
+A01VD@A01VF@Asses-mules-hinnies, fresh fat tissue
+A0F3G@A01VG@Rabbit, fresh fat tissue
+A0F3G@A01VL@Deer, fresh fat tissue
+A0F3G@A01VM@Wild boar, fresh fat tissue
+A0F3G@A01VJ@Camel fat tissue
+A0F3G@A01VN@Hare fresh fat tissue
+A01TT@A0F1E@Birds fat tissue
+A0F1E@A01VQ@Poultry fat tissue
+A01VQ@A01VR@Chicken, fresh fat tissue
+A01VQ@A01VS@Turkey, fresh fat tissue
+A01VQ@A01VT@Duck, fresh fat tissue
+A01VQ@A01VV@Goose, fresh fat tissue
+A01VQ@A01VX@Ratites fresh fat tissue
+A0BXF@A0BY5@Animal mechanically separated meat (MSM)
+A0BY5@A0F3H@Mammals msm
+A0F3H@A04BP@Asses-mules-hinnies msm
+A0F3H@A049T@Bovine msm
+A0F3H@A04AX@Goat msm
+A0F3H@A04BF@Horse msm
+A0F3H@A04AD@Pig msm
+A0F3H@A04BZ@Rabbit msm
+A0F3H@A04AM@Sheep msm
+A0F3H@A04CH@Deer msm
+A0F3H@A04CR@Wild boar msm
+A0BY5@A04DK@Generic poultry msm
+A04DK@A04DT@Chicken msm
+A04DK@A04EM@Duck msm
+A04DK@A04EX@Goose msm
+A04DK@A04FF@Ratites msm
+A04DK@A04ED@Turkey msm
+A0BXF@A04MQ@Animal offals and other slaughtering products
+A04MQ@A01XD@Animal liver
+A01XD@A0F3J@Mammals liver
+A0F3J@A01XF@Bovine liver
+A01XF@A01XG@Beef liver
+A01XF@A01XH@Veal liver
+A0F3J@A01XJ@Pig liver
+A0F3J@A01XK@Sheep liver
+A0F3J@A01XL@Goat liver
+A0F3J@A01XM@Equine liver
+A01XM@A01XN@Horse liver
+A01XM@A01XP@Asses-mules-hinnies liver
+A0F3J@A01XQ@Rabbit liver
+A0F3J@A01XT@Deer liver
+A0F3J@A01XV@Wild boar liver
+A01XD@A01XY@Poultry liver
+A01XY@A01XZ@Chicken liver
+A01XY@A01YA@Turkey liver
+A01XY@A01YB@Duck liver
+A01XY@A01YC@Goose liver
+A01YC@A026N@Foie gras
+A01XY@A01YD@Ratites liver
+A04MQ@A01YG@Animal kidney
+A01YG@A0F3K@Mammals kidney
+A0F3K@A01YJ@Bovine kidney
+A01YJ@A01YK@Beef kidney
+A01YJ@A01YL@Veal kidney
+A0F3K@A01YM@Pig kidney
+A0F3K@A01YN@Sheep kidney
+A0F3K@A01YP@Goat kidney
+A0F3K@A01YQ@Equine kidney
+A01YQ@A01YR@Horse kidney
+A01YQ@A01YS@Asses-mules-hinnies kidney
+A0F3K@A01YT@Rabbit kidney
+A0F3K@A01YY@Deer kidney
+A0F3K@A01YZ@Wild boar kidney
+A01YG@A01ZB@Poultry kidney
+A01ZB@A01ZC@Chicken kidney
+A01ZB@A01ZD@Turkey kidney
+A01ZB@A01ZE@Duck kidney
+A01ZB@A01ZF@Goose kidney
+A01ZB@A01ZG@Ratites kidney
+A04MQ@A01ZK@Animal other organs (edible offals non-muscle)
+A01ZK@A0F3L@Mammals other organs (edible offals non-muscle)
+A0F3L@A01ZM@Bovine edible offals (other than liver and kidney)
+A01ZM@A01ZN@Buffalo, other organs (edible offals non-muscle)
+A0F3L@A01ZP@Pig edible offals (other than liver and kidney)
+A0F3L@A01ZQ@Sheep edible offals (other than liver and kidney)
+A0F3L@A01ZR@Goat edible offals (other than liver and kidney)
+A0F3L@A01ZS@Equine edible offals (other than liver and kidney)
+A01ZS@A01ZT@Horse, other organs (edible offals non-muscle)
+A01ZS@A01ZV@Asses-mules-hinnies, other organs (edible offals non-muscle)
+A0F3L@A01ZX@Rabbit, other organs (edible offals non-muscle)
+A0F3L@A020B@Deer, other organs (edible offals non-muscle)
+A0F3L@A020C@Wild boar, other organs (edible offals non-muscle)
+A0F3L@A01ZZ@Camel, other organs (edible offals non-muscle)
+A01ZK@A020E@Poultry edible offals (other than liver and kidney)
+A020E@A020F@Chicken, other organs (edible offals non-muscle)
+A020E@A020G@Turkey, other organs (edible offals non-muscle)
+A020E@A020H@Duck, other organs (edible offals non-muscle)
+A020E@A020J@Goose, other organs (edible offals non-muscle)
+A020E@A020K@Ratites other organs (edible offals non-muscle)
+A04MQ@A0F1T@Animal blood
+A04MQ@A020P@Animal other slaughtering products
+A020P@A0F3M@Mammals other slaughtering products
+A0F3M@A020R@Bovine other slaughtering products
+A020R@A020S@Bovine tongue
+A020R@A020T@Bovine heart
+A020R@A020V@Bovine stomach
+A020R@A020X@Bovine marrowbone
+A020R@A020Y@Bovine tail
+A020R@A020Z@Bovine trotters and feet
+A0F3M@A021A@Pig other slaughtering products
+A021A@A021B@Pig tongue
+A021A@A021C@Pig heart
+A021A@A021D@Pig stomach
+A021A@A021E@Pig marrowbone
+A021A@A021F@Pig tail
+A021A@A021G@Pig trotters and feet
+A021A@A0F0B@Pig head
+A0F3M@A021H@Sheep other slaughtering products
+A0F3M@A021J@Goat other slaughtering products
+A0F3M@A021K@Equine other slaughtering products (generic)
+A021K@A021L@Horse, other slaughtering products
+A021L@A021M@Horse tongue
+A021L@A021N@Horse heart
+A021L@A021P@Horse marrowbone
+A021K@A021Q@Asses-mules-hinnies, other slaughtering products
+A0F3M@A021R@Rabbit, other slaughtering products
+A0F3M@A021V@Deer, other slaughtering products
+A0F3M@A021X@Wild boar, other slaughtering products
+A020P@A021Z@Poultry other slaughtering products
+A021Z@A022A@Poultry skin
+A021Z@A022B@Chicken, other slaughtering products
+A022B@A022C@Chicken feet
+A021Z@A022D@Turkey, other slaughtering products
+A021Z@A022E@Duck, other slaughtering products
+A021Z@A022F@Goose, other slaughtering products
+A0B6Z@A0BXT@Processed or preserved meat
+A0BXT@A0EYM@Charcuterie meat products
+A0EYM@A04ND@Processed whole meat products
+A04ND@A022R@Raw cured meat
+A022R@A022S@Cured seasoned pork meat
+A022S@A022T@Ham, pork
+A022S@A022V@Tiroler speck
+A022S@A022X@Bacon
+A022S@A022Y@Pancetta
+A022S@A022Z@Corned pork, uncooked
+A022R@A023B@Cured seasoned bovine meat
+A023B@A023C@Ham, beef
+A023B@A023D@Corned beef, uncooked
+A022R@A023E@Cured seasoned poultry meat
+A023E@A023F@Corned turkey, uncooked
+A04ND@A023G@Cooked cured or seasoned meat
+A023G@A023H@Cooked cured or seasoned pork meat
+A023H@A023J@Spalla cotta
+A023H@A05QH@Porchetta
+A023H@A023K@Cooked pork ham
+A023H@A023L@Cooked pork tongue
+A023H@A023M@Corned pork meat, cooked
+A023H@A023N@Pastrami, pork
+A023G@A023P@Cooked cured or seasoned bovine meat
+A023P@A023Q@Pastrami, beef
+A023P@A023R@Cooked bovine tongue
+A023P@A0B9G@Corned beef, cooked
+A023G@A023S@Cooked cured or seasoned poultry meat
+A023S@A023T@Cooked turkey meat
+A023S@A023V@Corned turkey
+A023S@A023X@Cooked other poultry meat
+A023G@A023Z@Cooked cured or seasoned ovine meat
+A023Z@A024A@Pastrami, lamb
+A0EYM@A0EYN@Preserved fat tissues
+A0EYN@A023A@Cured pork fat
+A0EYM@A024F@Sausages
+A024F@A024G@Fresh raw sausages
+A024G@A024H@Italian-style sausage
+A024H@A024J@Fresh spiced sausages in casing
+A024H@A024K@Fresh bulk sausages
+A024G@A024L@Breakfast-type sausage
+A024G@A024M@Chipolata-type sausage
+A024G@A024N@Fresh bratwurst
+A024F@A0EYP@Preserved or partly preserved sausages
+A0EYP@A024Q@Cured unripened raw sausages
+A024Q@A024R@Mettwurst-type sausage
+A024Q@A024S@Teewurst-type sausage
+A024Q@A024T@Fresh kolbasz
+A0EYP@A024V@Cured ripened raw sausages
+A024V@A024X@Salami-type sausage
+A024X@A024Y@Italian-type salami
+A024X@A024Z@Hungarian-type salami
+A024X@A025A@German salami
+A024V@A025B@Pepperoni/paprika-type sausage
+A025B@A025C@Chorizo and similar
+A025B@A025D@Linguica, sausage
+A025B@A025E@Snack sausages (like Cabanos and landjäger)
+A025B@A025F@Ripened kolbasz
+A024V@A025H@Matured charcuterie products for cooking
+A0EYP@A025J@Cooked sausages
+A025J@A025K@Spreadable cooked sausages
+A025K@A025L@Liver-type sausage
+A025L@A025M@Braunschweiger
+A025J@A025N@Sliceable or firm cooked sausages
+A025N@A025P@Polish-type cooked sausage
+A025N@A025Q@Mortadella-type sausage
+A025N@A025R@Bologna-type sausage
+A025N@A025S@Blood-type sausage
+A025N@A025T@Miscellaneous cooked sausages
+A025T@A025V@Cooked salami
+A025T@A025Y@Blood and tongue sausage
+A025T@A025Z@Head cheese
+A0EYP@A026A@Pre-cooked sausages to be cooked before consumption
+A026A@A025G@Knackwurst-type sausage
+A026A@A024P@Thuringian sausage
+A026A@A025X@Weisswurst
+A026A@A026B@Frankfurt-type sausage
+A026B@A026C@Frankfurter sausage
+A026B@A026D@Wiener sausage
+A026A@A026E@Cooked bratwurst-type sausage
+A026E@A026F@Beerwurst
+A026E@A026G@Bockwurst
+A026E@A026H@Cervelat (swiss type)
+A0EYM@A026J@Meat specialties
+A026J@A026K@Meat based spreadable-textured specialities
+A026K@A026L@Meat spread
+A026J@A026M@Liver based spreadable-textured specialities
+A026M@A026P@Pate, goose liver
+A026M@A026Q@Pate, chicken liver
+A026M@A026R@Pate, pork liver
+A026M@A026S@Liver cheese
+A0EYM@A022L@Animal meat dried
+A022L@A04MP@Mammals or birds dried meat
+A04MP@A022M@Bovine meat, dried
+A04MP@A022N@Horse meat, dried
+A04MP@A022P@Pig meat, dried
+A04MP@A022Q@Turkey meat, dried
+A04MP@A0F6L@Goat meat, dried
+A0EYM@A0F1J@Edible casings
+A0BXT@A0EYQ@Marinated meat
+A0BXT@A024B@Canned-tinned meat
+A024B@A024C@Canned meat
+A024B@A024D@Luncheon spiced ham-type tinned meat
+A024B@A024E@Tinned bulk sausages
+A0B6Z@A02KB@Processed or preserved fish (including processed offals)
+A02KB@A0EYV@Structured/textured fish meat products or fish paste
+A0EYV@A02KC@Fish fingers, breaded
+A0EYV@A02KD@Fish balls
+A0EYV@A02KE@Fish paste or surimi
+A02KB@A0F0P@Marinated / pickled fish
+A02KB@A0EYT@Salt-preserved fish
+A0EYT@A0FCB@Salted cod
+A02KB@A02JP@Dried fish
+A02JP@A02JQ@Marine fish, dried
+A02JQ@A02JR@Stockfish
+A02JR@A02JS@Cod, dried
+A02JR@A02JT@Hake, dried
+A02JR@A02JV@Ling, dried
+A02JR@A0FCC@Pollock, dried
+A02JQ@A02JX@Flat-fishes, dried
+A02JX@A02JY@Halibut, dried
+A02JX@A02JZ@Dab or common dab, dried
+A02KB@A0EYR@Canned/jarred fish
+A0EYR@A0FBS@Canned salmon
+A0EYR@A0FCA@Canned anchovies
+A0EYR@A0FBZ@Canned sardines
+A0EYR@A0FBY@Canned sprats
+A0EYR@A0FBX@Canned herring
+A0EYR@A0FBV@Canned mackerel
+A0EYR@A0FBT@Canned tunas and similar
+A02KB@A0EYS@Smoked fish
+A0EYS@A02KF@Smoked salmon
+A0EYS@A02KG@Smoked herring
+A0B6Z@A0BZ4@Processed or preserved seafood
+A0BZ4@A0EZA@Marinated / pickled seafood
+A0BZ4@A0EYX@Salted seafood
+A0BZ4@A0EYY@Dried seafood
+A0EYY@A0FDD@Dried shrimps and prawns
+A0EYY@A0FDE@Dried cephalopods
+A0BZ4@A0BZ5@Canned seafood
+A0BZ4@A0EYZ@Smoked seafood
+A0B6Z@A0BXZ@Milk and milk products (dairy)
+A0BXZ@A02LT@Milk
+A02LT@A04HG@Cattle milk
+A04HG@A02LV@Cow milk
+A02LV@A02LX@Cow milk, natural high fat
+A02LV@A02LY@Cow milk, whole
+A02LV@A02LZ@Cow milk, semi skimmed (half fat)
+A02LV@A02MA@Cow milk, skimmed (low fat)
+A04HG@A0CXC@American buffalo milk
+A04HG@A0CXB@Banteng milk
+A04HG@A0CXA@European buffalo milk
+A04HG@A0CVZ@Gayal milk
+A04HG@A0CVY@Yak (domestic) milk
+A04HG@A0CVX@Zebu milk
+A04HG@A02MD@Water buffalo milk
+A02LT@A02HH@Ovine milk
+A02HH@A02MC@Sheep milk
+A02HH@A0CVV@Mouflon (farmed) milk
+A02LT@A02MB@Goat milk
+A02LT@A04HK@Equine milk
+A04HK@A02MF@Horse milk
+A04HK@A02MG@Ass milk
+A02LT@A04HN@Other milks
+A04HN@A02ME@Bactrian camel milk
+A04HN@A0CVT@Dromedary milk
+A04HN@A0CVS@Elk milk
+A04HN@A0CVR@Reindeer milk
+A04HN@A02MH@Other milk producer animals
+A04HN@A02MJ@Human milk
+A0BXZ@A02PD@Milk and dairy powders and concentrates
+A02PD@A02PE@Milk and dairy concentrate
+A02PE@A02PF@Evaporated milk (liquid, unsweetened)
+A02PE@A02PG@Condensed milk (sometimes with added sugars)
+A02PD@A02PH@Milk and dairy powders
+A02PH@A02PJ@Milk powder
+A02PJ@A02PK@Milk powder, full fat
+A02PJ@A02PL@Milk powder, skimmed
+A02PH@A02PM@Cream powder
+A02PH@A02PN@Whey powder
+A0BXZ@A0C69@Fermented milk products
+A0C69@A02NE@Yoghurt
+A02NE@A02NF@Yoghurt, cow milk
+A02NF@A02NG@Yoghurt, cow milk, plain
+A02NF@A02NH@Yoghurt, cow milk, flavoured
+A02NE@A02NJ@Yoghurt, sheep milk
+A02NJ@A02NK@Yoghurt, sheep milk, plain
+A02NJ@A02NL@Yoghurt, sheep milk, flavoured
+A02NE@A02NM@Yoghurt, goat milk
+A02NM@A02NN@Yoghurt, goat milk, plain
+A02NM@A02NP@Yoghurt, goat milk, flavoured
+A0C69@A02NQ@Yoghurt drinks, sweetened and/or flavoured
+A0C69@A02NT@Traditional sour milk products
+A02NT@A02NV@Kefir
+A02NT@A02NX@Kumis
+A02NT@A02NY@Traditional nordic fermented milks
+A02NY@A02NZ@Långfil
+A02NY@A02PA@Filmjölk
+A02NY@A02PB@Viili
+A02NT@A02PC@Flavoured traditional sour milk products
+A0C69@A02NR@Probiotic milk-like drinks
+A02NR@A02NS@Acidophilus milk
+A0BXZ@A02MK@Cream and cream products
+A02MK@A02ML@Cream, plain
+A02MK@A02MM@Cream with other ingredients
+A02MK@A02MN@Cream sprayable
+A0BXZ@A02NA@Sour cream products
+A02NA@A02NB@Sour cream, plain
+A02NA@A02NC@Créme fraiche and other mild variants of sour cream
+A02NA@A02ND@Flavoured sour cream
+A0BXZ@A0EZB@Whey
+A0EZB@A02MR@Whey, sweet
+A0EZB@A02MS@Whey, sour
+A0EZB@A02MT@Flavoured whey
+A0BXZ@A02MV@Buttermilk
+A02MV@A02MX@Traditional buttermilk (churning)
+A02MV@A02MY@Cultured buttermilk
+A0BXZ@A02MP@Flavoured milks
+A0BXZ@A065H@Baked milk and similar
+A0BXZ@A065Z@Dairy snacks
+A0BXZ@A02QE@Cheese
+A02QE@A02QF@Fresh uncured cheese
+A02QF@A02QG@Cottage cheese
+A02QF@A02QH@Mascarpone
+A02QF@A02QJ@Mozzarella
+A02QF@A02QK@Quark
+A02QF@A0CRN@Cheese curd
+A02QF@A02QL@Ricotta
+A02QL@A02QY@Cheese, urda
+A02QF@A02QM@Skyr
+A02QF@A02QN@Cheese, boilie
+A02QF@A02QP@Cheese, burrata
+A02QF@A02QQ@Cheese, chevre frais
+A02QF@A02QR@Cheese, clotted cream
+A02QF@A02QS@Cheese, crescenza
+A02QF@A02QT@Cheese, juustoleipa
+A02QF@A02QV@Cheese, mizithra
+A02QF@A02QX@Cheese, triple creme
+A02QF@A02QZ@Cream cheese
+A02QE@A02RA@Brined cheese (feta-type and similar)
+A02RA@A02RB@Soft brined cheese (feta type)
+A02RB@A02RC@Cheese, feta
+A02RB@A065R@Halloumi
+A02RB@A02RD@Cheese, telemea
+A02RA@A02RE@Firm brined cheese (ricotta salata type)
+A02RE@A02RF@Cheese, ricotta salata
+A02QE@A02RG@Ripened cheese
+A02RG@A02RH@Soft - ripened cheese
+A02RH@A02RJ@Soft-ripened washed-rind cheese (limburger type)
+A02RJ@A02RK@Cheese, epoisses
+A02RJ@A02RL@Cheese, langres
+A02RJ@A02RM@Cheese, limburger
+A02RJ@A02RN@Cheese, munster
+A02RJ@A02RP@Cheese, serpa
+A02RJ@A02RQ@Cheese, taleggio
+A02RJ@A02RR@Cheese, vacherin mont d'or
+A02RJ@A02RS@Cheese, wynendale
+A02RH@A02RT@Soft-ripened cheese with bloomy rind (white mould) (brie, camembert type)
+A02RT@A02RV@Cheese, brie
+A02RT@A02RX@Cheese, camembert
+A02RT@A02RY@Cheese, chaource
+A02RT@A02RZ@Cheese, chevre mould ripened
+A02RT@A02SA@Cheese, coulommiers
+A02RT@A02SB@Cheese, dunbarra
+A02RT@A02SC@Cheese, garrotxa
+A02RT@A02SD@Cheese, pouligny-saint-pierre
+A02RT@A02SE@Cheese, saga
+A02RT@A02SF@Cheese, saint marcellin
+A02RH@A02SG@Soft-ripened cheese veined with blue mould (blue bavarian, blue de graven type )
+A02SG@A02SH@Cheese, bavarian blue
+A02SG@A02SJ@Cheese, blue castello
+A02SG@A02SK@Cheese, blue de graven
+A02SG@A02SL@Cheese, cashel blue
+A02RH@A02SM@Soft-ripened cheese with white and blue mould (cambozola type)
+A02RH@A02SN@Soft-ripened cheese with natural rind and other soft-ripened cheeses
+A02SN@A02SP@Cheese, banon
+A02SN@A02SQ@Cheese, fleur de maquis
+A02SN@A02SR@Cheese, harzer
+A02SN@A02SS@Cheese, robiola
+A02RG@A02ST@Firm - ripened cheeses
+A02ST@A02SV@Firm/semi-hard cheese (gouda and edam type)
+A02SV@A02SX@Cheese, abondance
+A02SV@A02SY@Cheese, appenzeller
+A02SV@A02SZ@Cheese, arzua ulloa
+A02SV@A02TA@Cheese, asiago
+A02SV@A02TB@Cheese, baita friuli
+A02SV@A02TC@Cheese, beaufort
+A02SV@A02TD@Cheese, bica
+A02SV@A02TE@Cheese, bra
+A02SV@A02TF@Cheese, bundnerkase
+A02SV@A02TG@Cheese, butterkase
+A02SV@A02TH@Cheese, caerphilly
+A02SV@A02TJ@Cheese, cantal
+A02SV@A02TK@Cheese, carrigaline
+A02SV@A02TL@Cheese, cheshire
+A02SV@A02TM@Cheese, chimay
+A02SV@A02TN@Cheese, cornish yarg
+A02SV@A02TP@Cheese, cream havarti
+A02SV@A02TQ@Cheese, danbo
+A02SV@A02TR@Cheese, derby
+A02SV@A02TS@Cheese, double gloucester
+A02SV@A02TT@Cheese, doux de montagne
+A02SV@A02TV@Cheese, edam
+A02SV@A02TX@Cheese, esrom
+A02SV@A02TY@Cheese, fontina
+A02SV@A02TZ@Cheese, gjetost
+A02SV@A02VA@Cheese, gouda
+A02SV@A02VB@Cheese, graddost
+A02SV@A02VC@Cheese, herrgardost
+A02SV@A02VD@Cheese, hushallsost
+A02SV@A02VE@Cheese, ibores
+A02SV@A02VF@Cheese, jarlsberg
+A02SV@A02VG@Cheese, kasseri
+A02SV@A02VH@Cheese, kurpianka smoked
+A02SV@A02VJ@Cheese, lancashire
+A02SV@A02VK@Cheese, lappi
+A02SV@A02VL@Cheese, leicester
+A02SV@A02VM@Cheese, lubelski
+A02SV@A02VN@Cheese, maasdam
+A02SV@A02VP@Cheese, marechal
+A02SV@A02VQ@Cheese, mimolette
+A02SV@A02VR@Cheese, morbier
+A02SV@A02VS@Cheese, morski
+A02SV@A02VT@Cheese, nagelkaas
+A02SV@A02VV@Cheese, nisa
+A02SV@A02VX@Cheese, nokkelost
+A02SV@A02VY@Cheese, oltermanni
+A02SV@A02VZ@Cheese, ossau-iraty
+A02SV@A02XA@Cheese, passendale
+A02SV@A02XB@Cheese, piacentinu
+A02SV@A02XC@Cheese, podlaski
+A02SV@A02XD@Cheese, prastost
+A02SV@A02XE@Cheese, provolone
+A02SV@A02XF@Cheese, raclette
+A02SV@A02XG@Cheese, raschera
+A02SV@A02XH@Cheese, saint nectaire
+A02SV@A02XJ@Cheese, saint paulin
+A02SV@A02XK@Cheese, sao jorge
+A02SV@A02XL@Cheese, scamorza
+A02SV@A02XM@Cheese, smoked gouda
+A02SV@A02XN@Cheese, tete de moine
+A02SV@A02XP@Cheese, tetilla
+A02SV@A02XQ@Cheese, tilsit
+A02SV@A02XR@Cheese, toma piemontese
+A02SV@A02XS@Cheese, tomme de savoie
+A02SV@A02XT@Cheese, torta del casar
+A02SV@A02XV@Cheese, trappist
+A02SV@A02XX@Cheese, tronchon
+A02SV@A02XY@Cheese, turunmaa
+A02SV@A02XZ@Cheese, vacherin fribourgeois
+A02SV@A02YA@Cheese, vasterbotten
+A02SV@A02YB@Cheese, vignerons
+A02SV@A02YC@Cheese, wensleydale
+A02SV@A02YD@Cheese, white stilton
+A02ST@A02YE@Hard cheese (cheddar, emmental type)
+A02YE@A02YF@Cheese, aged graviera
+A02YE@A02YG@Cheese, cacio di fossa
+A02YE@A02YH@Cheese, canestrato pugliese
+A02YE@A02YJ@Cheese, castelmagno
+A02YE@A02YK@Cheese, cheddar
+A02YE@A02YL@Cheese, coolea
+A02YE@A02YM@Cheese, emmental
+A02YE@A02YN@Cheese, evora
+A02YE@A02YP@Cheese, gruyere
+A02YE@A02YQ@Cheese, hoch ybrig
+A02YE@A02YR@Cheese, iberico
+A02YE@A02YS@Cheese, idiazabal
+A02YE@A02YT@Cheese, kefalotyri
+A02YE@A02YV@Cheese, leyden
+A02YE@A02YX@Cheese, lincolnshire poacher
+A02YE@A02YY@Cheese, mahon
+A02YE@A02YZ@Cheese, majorero
+A02YE@A02ZA@Cheese, montasio
+A02YE@A02ZB@Cheese, monte veronese
+A02YE@A02ZC@Cheese, murcia
+A02YE@A02ZD@Cheese, pecorino toscano
+A02YE@A02ZE@Cheese, roncal
+A02YE@A02ZF@Cheese, samsoe
+A02YE@A02ZG@Cheese, schabziger
+A02ST@A02ZH@Extra hard cheese (parmesan, grana type)
+A02ZH@A02ZJ@Cheese, afuega'l pitu
+A02ZH@A02ZK@Cheese, bitto della valtellina
+A02ZH@A02ZL@Cheese, caciocavallo
+A02ZH@A02ZM@Cheese, comte
+A02ZH@A02ZN@Cheese, fiore sardo
+A02ZH@A02ZP@Cheese, formai de mut
+A02ZH@A02ZQ@Cheese, grana padano
+A02ZH@A02ZR@Cheese, manchego
+A02ZH@A02ZS@Cheese, parmigiano reggiano
+A02ZH@A02ZT@Cheese, pecorino romano
+A02ZH@A02ZV@Cheese, ragusano
+A02ZH@A02ZX@Cheese, san simon
+A02ZH@A02ZY@Cheese, sbrinz
+A02ZH@A02ZZ@Cheese, ubriaco
+A02ZH@A030A@Cheese, zamorano
+A02ST@A030B@Firm-ripened blue mould-veined cheese
+A030B@A030C@Cheese, bleu d'auvergne
+A030B@A030D@Cheese, bleu de gex
+A030B@A030E@Cheese, cabrales
+A030B@A030F@Cheese, fourme d'ambert
+A030B@A030G@Cheese, gamonedo
+A030B@A030H@Cheese, gorgonzola
+A030B@A030J@Cheese, monje picon
+A030B@A030K@Cheese, roquefort
+A030B@A030L@Cheese, shropshire blue
+A030B@A030M@Cheese, stilton
+A030B@A030N@Cheese, valdeon
+A02ST@A030P@Firm-ripened bloomy (white mould) or washed rind cheese
+A030P@A030Q@Cheese, amarelo
+A030P@A030R@Cheese, ardrahan
+A030P@A030S@Cheese, buche de chevre
+A030P@A030T@Cheese, gubbeen
+A030P@A030V@Cheese, livarot
+A030P@A030X@Cheese, pont l'eveque
+A030P@A030Y@Cheese, reblochon
+A02ST@A030Z@Firm-ripened cheese with added herbs, spices or other ingredients
+A02QE@A031A@Processed cheese and spreads
+A031A@A031B@Processed cheese, sliceable
+A031A@A031C@Processed cheese, spreadable
+A031A@A031D@Processed cheese wedges and similar
+A02QE@A0F1H@Cheese rind
+A0B6Z@A031E@Eggs and egg products
+A031E@A031F@Whole eggs
+A031F@A031G@Hen eggs
+A031F@A031H@Duck eggs
+A031F@A031J@Geese eggs
+A031F@A031K@Quail eggs
+A031K@A0CVQ@Common quail eggs
+A031K@A0CVP@Japanese quail eggs
+A031F@A031L@Eggs from other eggs producer birds
+A031L@A031M@Turkey eggs
+A031L@A031P@Seagull eggs
+A031L@A0CVN@Emu eggs
+A031L@A0CVM@Nandu eggs
+A031L@A031N@Ostrich eggs
+A031L@A0CVL@Eggs from other not listed eggs producer birds
+A031E@A031Q@Liquid egg products
+A031Q@A0F6E@Egg mixed whole
+A0F6E@A031R@Hen egg mixed whole
+A031Q@A0F6F@Egg yolk
+A0F6F@A031S@Hen egg yolk
+A031Q@A0F6G@Egg  white
+A0F6G@A031T@Hen egg  white
+A031E@A031V@Egg powder
+A031V@A031X@Hen egg mixed whole, dried
+A031V@A031Y@Hen egg  yolk, dried
+A031V@A031Z@Hen egg  white, dried
+A031E@A032A@Hardened egg products
+A032A@A032B@Boiled eggs
+A032A@A032C@Fried eggs
+A032A@A032D@Poached eggs
+A032A@A032E@Manufactured solid egg roll
+A0B6Z@A0BAG@Composite (recipe based) food classes (including some strictly related RPCs or RPC derivatives)
+A0BAG@A0C6D@Hot drinks and infusions composite ingredients
+A0C6D@A03HH@Cocoa beverage-preparation, powder
+A0C6D@A0F2E@Coffee beverage-preparation, powder
+A0BAG@A03JZ@Hot drinks and similar (coffee, cocoa, tea and herbal drinks)
+A03JZ@A03KA@Coffee beverages
+A03KA@A03KB@Coffee espresso (beverage)
+A03KA@A167A@Coffee (strong) beverage
+A03KA@A03KC@Coffee (average strenght) beverage
+A03KA@A03KD@Coffee (weak strenght) beverage
+A03KA@A03KE@Instant coffee (beverage)
+A03KA@A03KF@Coffee beverage decaffeinated
+A03KA@A03KG@Coffee with milk or cream
+A03KG@A03KH@Coffee drink, cappuccino
+A03KG@A03KJ@Coffee drink, café macchiato
+A03KA@A03KK@Iced coffee
+A03JZ@A03KL@Coffee imitate beverages
+A03KL@A03KM@Malt coffee infusion
+A03KL@A03KN@Chicory coffee infusion
+A03KL@A03KP@Minor coffee imitates infusions
+A03KP@A03KQ@Rye coffee infusion
+A03KP@A03KR@Wheat coffee infusion
+A03KP@A03KS@Barley coffee infusion
+A03KP@A03KT@Fig coffee infusion
+A03KP@A03KV@Sugar beet coffee infusion
+A03KP@A03KX@Mixed coffee imitates infusion
+A03JZ@A03KY@Cocoa beverages
+A03KY@A03KZ@Hot chocolate
+A03KY@A03LA@Hot chocolate with added ingredients
+A03JZ@A03LB@Tea beverages
+A03LB@A03LC@Tea infusion (black, white)
+A03LB@A03LD@Green tea, infusion
+A03LB@A03LE@Tea, decaffeinated, infusion
+A03LB@A03LF@Tea infusion with added flavouring ingredients
+A03JZ@A03LG@Herbal and other non-tea infusions
+A03LG@A03LH@Camomile infusion
+A03LG@A03LJ@Jasmine infusion
+A03LG@A03LK@Fruit infusion
+A03LG@A03LL@Roselle infusion
+A03LG@A03LM@Rose infusion
+A03LG@A03LN@Elderflowers infusion
+A03LG@A03LP@Lime blossoms infusion
+A03LG@A03LQ@Strawberry leaves infusion
+A03LG@A03LR@Maté infusion
+A03LG@A03LS@Lemon verbena infusion
+A03LG@A03LT@Rooibos infusion
+A03LG@A03LV@Gingko infusion
+A03LG@A03LX@Valerian root infusion
+A03LG@A03LY@Ginseng root infusion
+A0BAG@A04PE@Confectionery including chocolate
+A04PE@A0EQD@Chocolate and similar
+A0EQD@A034G@Bitter chocolate
+A034G@A034H@Bitter-sweet chocolate
+A0EQD@A034J@Milk chocolate
+A034J@A034K@Family chocolate
+A034J@A034L@Cream chocolate
+A0EQD@A034M@Couverture chocolate
+A0EQD@A034P@White chocolate
+A0EQD@A034N@Gianduja chocolate
+A04PE@A0EQS@Chocolate/cocoa-based products
+A0EQS@A0C6P@Chocolate spread
+A0EQS@A034Q@Filled chocolate
+A0EQS@A034R@Chocolate coated confectionery
+A0EQS@A034S@Pralines
+A04PE@A034T@Chocolate substitutes
+A04PE@A0EQQ@Candies (soft and hard)
+A0EQQ@A0EQP@Soft candies and analogues
+A0EQP@A035H@Foamed sugar products (marshmallows)
+A0EQP@A035J@Liquorice candies
+A0EQP@A035K@Gum drops
+A0EQP@A035L@Jelly candies
+A0EQP@A035M@Chewing gum
+A0EQQ@A034X@Hard candies
+A034X@A035F@Dragée, sugar coated
+A04PE@A0EQR@Sweet bars and other formed sweet masses
+A0EQR@A034Y@Marzipan
+A0EQR@A035C@Fudge
+A0EQR@A035E@Nuts-seeds based halva
+A0EQR@A035G@Sugar cotton
+A0EQR@A035B@Toffee
+A0EQR@A035D@Nougat
+A0EQR@A034Z@Caramel, hard
+A0EQR@A0FDG@Loukoumi
+A0EQR@A0FDH@Quince cheese
+A04PE@A035N@Basic sweet masses
+A035N@A035P@Marzipan raw mass
+A035N@A035Q@Liquorice mass
+A035N@A035R@Chocolate mass
+A035N@A035S@White nougat mass
+A035N@A035T@Nougat raw mass
+A035N@A035V@Marshmallow mass
+A035N@A035X@Fondant mass
+A035N@A035Y@Brittle mass
+A035N@A035Z@Truffle mass
+A035N@A036A@Meringue mixture
+A035N@A036B@Nut mass
+A035N@A036C@Macaroon mass
+A035N@A036D@Florentine biscuit mass
+A035N@A036E@Oil seed mass
+A035N@A035A@Caramel, soft
+A0BAG@A03LZ@Alcoholic beverages
+A03LZ@A03MA@Beer and beer-like beverage
+A03MA@A03MB@Beer
+A03MB@A03MC@Lager beer
+A03MC@A03MD@Beer, strong
+A03MC@A03ME@Beer, regular
+A03MC@A03MF@Beer, light
+A03MC@A03MG@Beer, alcohol-free
+A03MB@A03MH@Ale beer
+A03MH@A03MJ@Pale ale beer
+A03MH@A03MK@Dark ale beer
+A03MB@A03ML@Stout beer
+A03MB@A03MM@Wheat beer
+A03MA@A03MN@Beer-like beverages
+A03MN@A03MP@Low-malt beers
+A03MN@A03MQ@Shandy
+A03MN@A03MR@Mixed beer drinks
+A03LZ@A03MS@Wine and wine-like drinks
+A03MS@A03MT@Wine
+A03MT@A03MV@Wine, white
+A03MT@A03MX@Wine, red
+A03MT@A03MY@Wine, rosé
+A03MT@A03MZ@Sparkling wine
+A03MZ@A03NA@Champagne-like wine
+A03MZ@A03NB@Red or rosé sparkling wine
+A03MS@A03NC@Wine-like drinks
+A03NC@A03ND@Cider
+A03NC@A03NE@Perry
+A03MS@A03NF@Dessert wines
+A03NF@A03NN@Ice wine and raisin wine
+A03NN@A03NP@Raisin wine
+A03NN@A03NQ@Ice wine
+A03NN@A03NR@Noble rot wine
+A03NF@A03NG@Fortified and liqueur wines
+A03NG@A03NH@Vermouth
+A03NG@A03NJ@Sherry
+A03NG@A03NK@Madeira
+A03NG@A03NL@Port
+A03NG@A03NM@Marsala
+A03LZ@A03NS@Liqueurs
+A03NS@A03NT@Fruit liqueur
+A03NS@A03NV@Herb liqueur
+A03NS@A03NX@Chocolate liqueur
+A03NS@A03NY@Coffee liqueur
+A03NS@A03NZ@Egg liqueur
+A03NS@A03PA@Cream liqueur
+A03NS@A03PB@Coconut cream liqueur
+A03NS@A03PC@Milk liqueur
+A03LZ@A03PD@Unsweetened spirits
+A03PD@A0CSC@Spirits not from fruit
+A0CSC@A03PL@Tequila and similar spirits
+A0CSC@A03PJ@Rum
+A0CSC@A03PH@Vodka and vodka-like spirits
+A0CSC@A03PF@Whisky
+A03PD@A0CSA@Spirits from fruit
+A0CSA@A0CSB@Spirits made from fruits other than stone fruits
+A0CSB@A03PE@Brandy
+A0CSA@A03PK@Spirits made from stone fruits
+A03PD@A04QG@Unsweetened flavoured spirits
+A04QG@A03PG@Gin
+A03LZ@A03PM@Mixed alcoholic drinks
+A03PM@A03PN@Cocktail drink
+A03PM@A03PP@Alcopop and flavoured wine
+A03PM@A03PQ@Other mixed alcoholic drinks
+A03PQ@A03PR@Mixtures of beer with other alcoholic drinks
+A03PQ@A03PS@Punch
+A03PQ@A03PT@Sangria
+A0BAG@A0F0J@Water, water-based beverages and related ingredients
+A0F0J@A03DK@Drinking water
+A03DK@A04PV@Unbottled water
+A04PV@A03DL@Tap water
+A03DL@A03DM@Ice from tap water
+A04PV@A03DN@Filtered tap water
+A04PV@A03DP@Well water
+A03DK@A04PX@Bottled water
+A04PX@A03DQ@Natural mineral water
+A03DQ@A03DR@Still natural mineral water
+A03DQ@A03DS@Carbonated natural mineral water
+A04PX@A03DT@Bottled drinking water
+A03DT@A03DV@Still bottled drinking water
+A03DT@A03DX@Carbonated bottled drinking water
+A04PX@A03DY@Flavoured bottled water
+A04PX@A03GC@Fortified bottled water
+A0F0J@A0EQN@Soft drinks with minor amounts of fruits or flavours
+A0EQN@A03EA@Soft drink, with fruit juice (fruit content below the minimum for nectars)
+A03EA@A03FV@Diet soft drinks with fruit juice
+A03EA@A03EB@Fruit soft drink, currant red
+A03EA@A03EC@Fruit soft drink, currant white
+A03EA@A03ED@Fruit soft drink, gooseberry
+A03EA@A03EE@Fruit soft drink, grape red
+A03EA@A03EF@Fruit soft drink, grape white
+A03EA@A03EG@Fruit soft drink, grapefruit
+A03EA@A03EH@Fruit soft drink, mango
+A03EA@A03EJ@Fruit soft drink, mulberry
+A03EA@A03EK@Fruit soft drink, nectarine
+A03EA@A03EL@Fruit soft drink, orange
+A03EA@A03EM@Fruit soft drink, papaya
+A03EA@A03EN@Fruit soft drink, peach
+A03EA@A03EP@Fruit soft drink, pear
+A03EA@A03EQ@Fruit soft drink, pineapple
+A03EA@A03ER@Fruit soft drink, plum
+A03EA@A03ES@Fruit soft drink, pomegranate
+A03EA@A03ET@Fruit soft drink, raspberry
+A03EA@A03EV@Fruit soft drink, mixed fruit
+A0EQN@A03EX@Soft drink, flavoured, no fruit
+A03EX@A03FX@Diet soft drinks with flavours
+A03EX@A03EY@Soft drink with bitter principle
+A03EX@A03EZ@Soft drink, apple flavour
+A03EX@A03FA@Soft drink, apricot flavour
+A03EX@A03FB@Soft drink, banana flavour
+A03EX@A03FC@Soft drink, cherry flavour
+A03EX@A03FD@Soft drink, flavoured with herbs
+A03EX@A03FE@Soft drink, grapefruit flavour
+A03EX@A03FF@Soft drink, lemon flavour
+A03EX@A03FG@Soft drink, lime flavour
+A03EX@A03FH@Soft drink, mixed flavours
+A03EX@A03FJ@Soft drink, orange flavour
+A03EX@A03FK@Soft drink, pear flavour
+A03EX@A03FL@Soft drink, pineapple flavour
+A03EX@A03FM@Soft drink, raspberry flavour
+A03EX@A03FN@Soft drink, mango flavour
+A0F0J@A03FQ@Cola-type drinks
+A03FQ@A03FR@Cola beverages, caffeinic
+A03FR@A03FY@Diet soft drink with caffeine
+A03FQ@A03FS@Cola mix, flavoured cola
+A03FQ@A03FP@Cola beverages, decaffeinated
+A0F0J@A03FZ@Functional drinks
+A03FZ@A03GA@Energy drinks
+A03FZ@A03GB@Isotonic and sport drinks
+A0F0J@A03GD@Drink mixes
+A03GD@A03GE@Liquid drink bases (including concentrates and home-made preparations)
+A03GD@A03GF@Powdered drink bases
+A0BAG@A03PV@Food products for young population
+A03PV@A03PX@Food for infants and young children
+A03PX@A03PY@Infant and follow-on formulae
+A03PY@A0EQM@Infant formulae
+A0EQM@A03PZ@Infant formulae, powder
+A03PZ@A03QA@Infant formula, milk-based, powder
+A03PZ@A03QB@Infant formula, soya-based, powder
+A03PZ@A03QC@Infant formula, milk and soya-based, powder
+A03PZ@A03QD@Infant formula, based on protein hydrolysates, powder
+A0EQM@A03QE@Infant formulae, liquid
+A03QE@A03QF@Infant formula, milk-based, liquid
+A03QE@A03QG@Infant formula, soya-based, liquid
+A03QE@A03QH@Infant formula, milk and soya-based, liquid
+A03QE@A03QJ@Infant formula, based on protein hydrolysates, liquid
+A03PY@A0EQL@Follow-on formulae
+A0EQL@A03QK@Follow-on formulae, powder
+A03QK@A03QL@Follow-on formula, milk-based, powder
+A03QK@A03QM@Follow-on formula, soya-based, powder
+A03QK@A03QN@Follow-on formula, milk and soya-based, powder
+A03QK@A03QP@Follow-on formula, based on protein hydrolysates, powder
+A0EQL@A03QQ@Follow-on formulae, liquid
+A03QQ@A03QR@Follow-on formula, milk-based, liquid
+A03QQ@A03QS@Follow-on formula, soya-based, liquid
+A03QQ@A03QT@Follow-on formula, milk and soya-based, liquid
+A03QQ@A03QV@Follow-on formula, based on protein hydrolysates, liquid
+A03PX@A03RC@Ready-to-eat meal for infants and young children
+A03RC@A03RD@Ready-to-eat vegetable-based meal for children
+A03RC@A03RE@Ready-to-eat cereal-based meal for children
+A03RC@A03RF@Ready-to-eat meat-based meal for children
+A03RC@A03RG@Ready-to-eat fish-based meal for children
+A03RC@A03RH@Ready-to-eat dairy-based meal for children
+A03RC@A03RJ@Ready-to-eat fruit-based meal for children
+A03RC@A03RK@Ready-to-eat mixed meal for children
+A03PX@A03QX@Processed cereal-based food for infants and young children
+A03QX@A03QZ@Cereals with an added high protein food which have to be reconstituted with water or other protein-free liquid
+A03QX@A0BZF@Cereals with an added high protein food reconstituted
+A03QX@A03QY@Simple cereals which have to be reconstituted with milk or other appropriate nutritious liquids
+A03QX@A0BZE@Simple cereals for infants or children, reconstituted
+A03QX@A03RA@Biscuits, rusks and cookies for children
+A03QX@A03RB@Pasta for children (dry, to be cooked)
+A03PV@A03RL@Other food for infants and children
+A03RL@A03RM@Teas and infusions specific for infants and young children
+A03RL@A03RN@Fruit and vegetable juices and nectars specific for infants and young children
+A03RL@A03RP@Special food for children's growth
+A0BAG@A03RR@Food for particular diets
+A03RR@A03RS@Food for weight reduction
+A03RS@A03RT@Total daily diet replacement for weight reduction
+A03RS@A03RV@Single meal replacement for weight reduction
+A03RR@A03RX@Food for sporting people
+A03RX@A03RY@Carbohydrate-rich energy food products for sports people
+A03RX@A03RZ@Carbohydrate-electrolyte solutions for sports people
+A03RX@A03SA@Protein and protein components for sports people
+A03RX@A03SB@Micronutrients supplement for sports people
+A03RX@A03SC@Carnitine or creatine-based supplement for sports people
+A03RR@A03SD@Dietary foods for special medical purposes
+A03SD@A03SE@Nutritionally complete formulae
+A03SD@A03SF@Nutritionally incomplete formulae
+A03SD@A03SG@Formulas for metabolic disorders
+A03SD@A03SH@Oral rehydration products
+A03RR@A03SJ@Food supplements and similar preparations
+A03SJ@A03TC@Mixed supplements/formulations
+A03SJ@A03SK@Vitamin and mineral supplements
+A03SK@A03SL@Vitamin only supplements
+A03SK@A03SM@Mineral only supplements
+A03SK@A03SN@Combination of vitamin and mineral only supplements
+A03SJ@A03SP@Miscellaneous supplements or nutraceuticals
+A03SP@A03SQ@Bee-produced formulations
+A03SP@A03SR@Fiber supplements
+A03SP@A03SS@Herbal formulations and plant extracts
+A03SP@A03ST@Algae based formulations (e.g. Spirulina, chlorella)
+A03SP@A03SX@Formulations containing special fatty acids (e.g. Omega-3, essential fatty acids)
+A03SP@A03SY@Protein and amino acids supplements
+A03SP@A03SZ@Coenzyme q10 formulations
+A03SP@A03TA@Enzyme-based formulations
+A03SP@A03TB@Yeast based formulations
+A03SP@A0F3Y@Probiotic or prebiotic formulations
+A03SP@A03SV@Other common supplements
+A0BAG@A03VA@Composite dishes
+A03VA@A03VB@Dishes, incl. Ready to eat meals (excluding soups and salads)
+A03VB@A03YY@Sandwiches, pizza and other stuffed bread-like cereal products
+A03YY@A03YZ@Sandwich and sandwich-like dishes
+A03YZ@A03ZA@Sandwich with cheese topping/filling
+A03YZ@A03ZB@Sandwich with processed meat topping/filling
+A03YZ@A03ZC@Sandwich with fish topping/filling
+A03YZ@A03ZD@Sandwich with vegetable topping/filling
+A03YZ@A03ZE@Sandwich with cheese and vegetable topping/filling
+A03YZ@A03ZF@Sandwich with cheese, egg and vegetable topping/filling
+A03YZ@A03ZG@Sandwich with meat and vegetable topping/filling
+A03YZ@A03ZH@Sandwich with fish and vegetable topping/filling
+A03YZ@A03ZJ@Doner kebab
+A03YZ@A03ZK@Hot dog with bread
+A03YZ@A03ZL@Hamburger with bread
+A03YZ@A03ZM@Steak sandwich
+A03YY@A03ZN@Pizza and pizza-like dishes
+A03ZN@A03ZP@Pizza and similar with cheese topping
+A03ZN@A03ZQ@Pizza and similar with processed meat topping
+A03ZN@A03ZR@Pizza and similar with fish topping
+A03ZN@A03ZS@Pizza and similar with vegetable topping
+A03ZN@A03ZT@Pizza and similar with cheese, and vegetables
+A03ZN@A03ZV@Pizza and similar with cheese, and vegetables and fruits
+A03ZN@A03ZX@Pizza and similar with meat, and vegetables
+A03ZN@A03ZY@Pizza and similar with cheese, meat, and vegetables
+A03ZN@A03ZZ@Pizza and similar with cheese, and mushrooms
+A03ZN@A040A@Pizza and similar with cheese, meat, and mushrooms
+A03ZN@A040B@Pizza and similar with cheese, meat, mushrooms, and vegetables
+A03YY@A0CEN@Savoury pies and tarts
+A0CEN@A03YM@Quiche
+A0CEN@A00CA@Cheese savoury pie
+A03YY@A040C@Finger food
+A040C@A040D@Sausage roll
+A040C@A040E@Filled canapé
+A040C@A040F@Spring rolls
+A040C@A040G@Vol au vent
+A040C@A040H@Fish-based canapé
+A040C@A040J@Meat-based canapé
+A040C@A040K@Egg-based canapé
+A040C@A040L@Cheese-based canapé
+A040C@A03YT@Mushroom crostini
+A03VB@A040M@Pastas and rice (or other cereal) –based dishes
+A040M@A007S@Pasta-based dishes, uncooked
+A040M@A040N@Pasta based dishes (cooked)
+A040N@A0CDQ@Pasta, plain (not stuffed), cooked
+A0CDQ@A040P@Lasagna
+A0CDQ@A040Q@Pasta, cooked, with mixed sauce
+A0CDQ@A040R@Pasta, cooked, with vegetables
+A0CDQ@A040S@Pasta, cooked, with cheese/cream
+A0CDQ@A040T@Pasta, cooked, with vegetables and cheese/cream
+A0CDQ@A03YX@Pasta, cooked, with mushroom sauce
+A040N@A0CDP@Pasta, filled, cooked
+A0CDP@A040V@Pasta, filled with meat mix, cooked
+A0CDP@A040X@Pasta, filled with vegetable mix, cooked
+A0CDP@A040Y@Pasta, with mixed or unspecified filling, cooked
+A040M@A0BA2@Rice based dishes dry, uncooked
+A040M@A040Z@Rice based dishes cooked
+A040Z@A041A@Dolma
+A040Z@A041B@Milk rice
+A040Z@A041C@Nasi goreng
+A040Z@A041D@Paella
+A040Z@A041E@Rice pudding
+A040Z@A041F@Risotto
+A040Z@A041G@Rice and vegetables meal
+A040Z@A041H@Rice and meat meal
+A040Z@A041J@Rice, meat, and vegetables meal
+A03VB@A03VC@Dishes excluding pasta or rice dishes, sandwiches and pizza)
+A03VC@A03VV@Meat based dishes
+A03VV@A03VX@Goulash
+A03VV@A03VY@Meat stew
+A03VV@A03VZ@Meat in aspic
+A03VV@A03XA@Meat loaf
+A03XA@A03XB@Pork meat loaf
+A03XA@A03XC@Beef loaf
+A03XA@A03XD@Meat loaf with cheese, vegetables  or other
+A03VV@A03XE@Moussaka
+A03VV@A03XF@Meat burger (no sandwich)
+A03VV@A03XG@Meat balls
+A03VV@A03XH@Meat terrine
+A03VC@A03XJ@Fish and seafood based dishes
+A03XJ@A03XK@Bouillabaisse
+A03XJ@A03XL@Fish gratin
+A03XJ@A03XM@Seafood-based meals
+A03XJ@A03XN@Seafood salad
+A03XJ@A03XP@Prepared fish salad
+A03XJ@A03XQ@Fish and potatoes meal
+A03XJ@A03XR@Fish and rice meal
+A03XJ@A03XS@Fish and vegetables meal
+A03XJ@A03XT@Fishcakes
+A03XJ@A03XV@Fish pâté
+A03VC@A03YJ@Egg based dishes
+A03YJ@A03YN@Omelette, plain
+A03YJ@A03YK@Cheese omelette
+A03YJ@A03YP@Omelette with bacon
+A03YJ@A03YQ@Omelette with vegetables
+A03YJ@A03YR@Omelette with mushrooms
+A03YJ@A03YL@Eggs benedict
+A03VC@A03VD@Potato based dishes
+A03VD@A03VE@Sheperd's pie
+A03VD@A03VF@Potato casserole
+A03VD@A03VG@Prepared potato salad
+A03VD@A03VH@Potatoes and vegetables meal
+A03VD@A03VJ@Potatoes and meat meal
+A03VD@A03VK@Potatoes, meat, and vegetables meal
+A03VD@A03VL@Potatoes and cheese meal
+A03VD@A011M@Roesti
+A03VD@A011Q@Pan-fried potato
+A03VD@A011N@Fries (finger chips)
+A011N@A0BYV@French fries from cut potato
+A011N@A0BYX@French fries from dough
+A03VD@A0C6H@Potato puree
+A0C6H@A0C6K@Potato puree from potatoes
+A0C6H@A0C6J@Potato puree from flakes or powder
+A03VD@A011S@Potato croquettes
+A03VC@A03VM@Legumes based dishes
+A03VM@A01BA@Mushy peas
+A03VM@A03VN@Hummus
+A03VM@A03VP@Dal
+A03VM@A03VQ@Tofu salad
+A03VM@A03VR@Beans and meat meal
+A03VM@A03VS@Beans and vegetables meal
+A03VM@A03VT@Beans, meat, and vegetables meal
+A03VC@A03YS@Mushroom based dishes
+A03VC@A03XX@Vegetable based dishes
+A03XX@A03XY@Creamed vegetable mix
+A03XX@A03XZ@Vegetable casserole
+A03XX@A03YA@Veggie pot pie
+A03XX@A03YB@Mixed vegetables, grilled
+A03XX@A03YC@Mixed vegetables, fried
+A03XX@A03YD@Mixed vegetables, braised
+A03XX@A03YE@Mixed vegetables, boiled
+A03XX@A03YF@Vegetables, gratinated
+A03XX@A03YG@Vegetable soufflé
+A03XX@A03YH@Ratatouille
+A03VA@A041K@Soups and salads
+A041K@A0B9J@Soups (dry mixture uncooked)
+A0B9J@A0B9Q@Meat/poultry soup, dry
+A0B9J@A0B9P@Meat and vegetable soup, dry
+A0B9J@A0B9N@Fish soup, dry
+A0B9J@A0B9L@Dairy/egg soup, dry
+A0B9J@A0B9M@Grains soup, dry
+A0B9J@A0B9V@Potato soup, dry
+A0B9J@A0B9T@Legume (beans) soup, dry
+A0B9J@A0B9Y@Onion soup, dry
+A0B9J@A0B9X@Tomato soup, dry
+A0B9J@A0B9S@Mushroom soup, dry
+A0B9J@A0B9R@Mixed vegetables soup, dry
+A0B9J@A0B9K@Fruit soup, dry
+A041K@A041L@Soups (ready-to-eat)
+A041L@A041T@Meat soup
+A041T@A0BZA@Meat soup, with pieces
+A041T@A0BZB@Meat soup, clear
+A041L@A041X@Fish soup
+A041L@A041Z@Dairy/egg soup
+A041L@A041Y@Grains soup
+A041L@A00EP@Corn semolina based thick soup
+A041L@A041P@Potato soup
+A041L@A041Q@Legume (beans) soup
+A041L@A041M@Onion soup
+A041L@A041N@Tomato soup
+A041L@A0CVB@Gazpacho and similar
+A041L@A041R@Mushroom soup
+A041L@A0CDN@Mixed soups
+A0CDN@A041S@Mixed vegetables soup
+A041S@A0BZ9@Mixed vegetables soup, with puree or pieces
+A041S@A0BZ8@Mixed vegetables soup, clear
+A0CDN@A041V@Meat and vegetable soup
+A041V@A0BZC@Meat and vegetable soup, with puree or pieces
+A041V@A0BZD@Meat and vegetable soup, clear
+A041L@A042A@Fruit soup
+A041K@A042B@Salads
+A042B@A042C@Mixed green salad
+A042B@A042D@Mixed vegetable salad
+A042B@A042E@Ceasar salad
+A042B@A042F@Greek salad
+A042B@A042G@Prepared legume (beans) salad
+A042B@A042H@Prepared pasta salad
+A042B@A042J@Prepared rice salad
+A042B@A042K@Prepared nut salad
+A042B@A042L@Prepared meat salad
+A042B@A042M@Prepared mixed egg/meat/fish/vegetable salad
+A042B@A03YV@Mushroom salad
+A042B@A01QG@Fruit salad
+A03VA@A0C68@Spoonable desserts and ice creams
+A0C68@A04PD@Water-based sweet desserts
+A04PD@A036F@Water-based desserts spoonable
+A036F@A036G@Dessert halva
+A036F@A036H@Gelatine dessert
+A04PD@A036J@Water-based  ice creams
+A036J@A036K@Sorbet
+A036J@A036L@Granita
+A0C68@A02PT@Dairy dessert and similar
+A02PT@A02PV@Dairy desserts spoonable
+A02PV@A02PX@Custard
+A02PV@A02PY@Starchy pudding
+A02PV@A04NS@Other desserts spoonable
+A02PT@A02PZ@Dairy ice creams and similar
+A02PZ@A02QA@Ice cream, milk-based
+A02PZ@A02QB@Ice cream, milk-imitate based
+A02PZ@A02QC@Frozen yoghurt
+A02PZ@A02QD@Milkshakes
+A0BAG@A042N@Seasoning, sauces and condiments
+A042N@A042P@Salt
+A042P@A042Q@Salt, low sodium
+A042P@A042R@Salt, iodised
+A042P@A042S@Salt, fluoridated
+A042P@A042T@Salt, iodised and fluoridated
+A042P@A042V@Salt, flavoured
+A042P@A042X@Sea salt
+A042N@A042Y@Seasoning mixes
+A042Y@A042Z@Mixed herbs and spices
+A042Y@A043A@Curry powder
+A042Y@A043B@Bouquet garni
+A042Y@A043C@Garam masala
+A042Y@A043D@Pickling spice
+A042N@A0EQE@Savoury extracts and sauce ingredients
+A0EQE@A043Q@Gravy ingredients
+A043Q@A043R@Gravy thickener
+A043Q@A043S@Gravy browning
+A043Q@A043T@Gravy instant granules
+A0EQE@A043F@Stock cubes or granulate (bouillon base)
+A043F@A0BZ7@Stock cubes or granulate, meat
+A0BZ7@A043G@Stock cubes or granulate, chicken
+A0BZ7@A043H@Stock cube or granulate, beef
+A043F@A043J@Stock cubes or granulate, vegetables
+A0EQE@A0EZC@Taste enhancing RPC extracts
+A0EZC@A0BN3@Hydrolysed animal proteins
+A0EZC@A0C0T@Hydrolysed vegetable proteins
+A0EZC@A043K@Miscellaneous savoury extracts
+A043K@A043L@Vegetable savoury extracts
+A043K@A043M@Meat extract
+A043K@A043N@Malt extract
+A043K@A043P@Yeast extract
+A042N@A04QN@Condiments (including table-top formats)
+A04QN@A044L@Vinegar
+A044L@A044M@Vinegar, wine
+A044L@A04JG@Balsamic vinegar and similar
+A044L@A044N@Vinegar, apple
+A04QN@A045K@Salad dressing
+A045K@A045L@Salad dressing, low fat
+A04QN@A043V@Savoury sauces
+A043V@A0F1M@Mayonnaise, hollandaise and related sauces
+A0F1M@A044X@Mayonnaise sauce
+A044X@A044Y@Mayonnaise, low fat
+A0F1M@A045F@Hollandaise type sauce
+A0F1M@A045N@Tartar sauce
+A043V@A044C@Tomato-containing cooking sauces
+A043V@A0F1N@White sauces
+A0F1N@A043X@Bechamel sauce
+A0F1N@A043Y@Cheese sauce
+A0F1N@A044A@Cream sauce
+A0F1N@A044B@Butter sauce
+A043V@A043Z@Continental european brown cooked sauce, gravy
+A043V@A044G@Mustard and related sauces
+A044G@A044H@Mustard, sweet
+A044G@A044J@Mustard, mild
+A044G@A044K@Mustard, hot
+A043V@A045B@Barbecue or steak sauces
+A043V@A0EZD@Sauces from fermented/hydrolised sources and similar
+A0EZD@A044R@Soy sauce
+A0EZD@A044S@Oyster sauce
+A0EZD@A044T@Teriyaki sauce
+A0EZD@A0B9H@Fish sauce
+A0EZD@A045C@British islands brown sauce
+A043V@A044P@Tomato ketchup and related sauces
+A043V@A0ERG@Herbs/spices sauces
+A0ERG@A044Q@Tabasco sauce
+A0ERG@A045A@Aioli or garlic sauce
+A0ERG@A045D@Curry sauce
+A0ERG@A044V@Pesto
+A0ERG@A045G@Horseradish sauce
+A0ERG@A045H@Mint sauce
+A0ERG@A045E@Herbs,vegetables and oil sauces
+A0ERG@A045M@Salsa
+A0ERG@A0FDF@Tzatziki
+A043V@A044E@Vegetables-based cooked sauce
+A044E@A044D@Mushrooms cooked sauce
+A04QN@A046E@Relishes
+A046E@A045Q@Chutneys
+A045Q@A045R@Tomato chutney
+A045Q@A045S@Apple chutney
+A045Q@A045T@Cucumber chutney
+A045Q@A045V@Mango chutney
+A045Q@A045X@Mixed chutney
+A046E@A045Y@Pickles
+A045Y@A045Z@Piccalilly pickle
+A045Y@A046A@Chilli pickle
+A045Y@A046B@Lime pickle
+A045Y@A046C@Mango pickle
+A045Y@A046D@Mixed pickle
+A042N@A046F@Dessert sauces/toppings
+A046F@A046G@Fruit sauce
+A046F@A046H@Chocolate sauce
+A046F@A046J@Fudge sauce
+A046F@A046K@Alcoholic sweet sauce
+A0BAG@A03TD@Meat and dairy imitates
+A03TD@A03TE@Meat imitates
+A03TE@A03TF@Textured soy protein
+A03TE@A03TG@Textured fungal proteins
+A03TD@A0BXC@Dairy imitates
+A0BXC@A03TH@Milk imitates
+A03TH@A03TJ@Soya drink
+A03TH@A03TK@Almond drink
+A03TH@A03TL@Oats drink
+A03TH@A03TM@Rice drink
+A03TH@A03TN@Rye drink
+A03TH@A03TP@Spelt drink
+A0BXC@A03TQ@Dairy imitates other than milks
+A03TQ@A03TR@Imitation cream
+A03TQ@A03TS@Non dairy coffee creamer
+A03TQ@A03TT@Tofu
+A03TQ@A03TV@Soya yoghurt
+A03TQ@A03TY@Imitation cheese
+A03TQ@A03TZ@Imitation yoghurt, non soy
+A0BAG@A007D@Pasta and similar products
+A007D@A007E@Pasta, plain (not stuffed), uncooked
+A007E@A04LC@Pasta wholemeal
+A007E@A007F@Fresh pasta
+A007F@A007G@Fresh egg pasta
+A007F@A007J@Fresh durum pasta
+A007E@A007L@Dried pasta
+A007L@A007M@Dried egg pasta
+A007L@A007P@Dried durum pasta
+A007E@A007R@Asian-style noodles other than glass noodles
+A007D@A0ERE@Filled (stuffed) pastas
+A0ERE@A007T@Fresh stuffed pasta
+A007T@A007V@Fresh stuffed egg pasta
+A007T@A007X@Fresh stuffed durum pasta
+A0ERE@A007Y@Dried stuffed pasta
+A007Y@A007Z@Dried stuffed egg pasta
+A007Y@A008A@Dried stuffed durum pasta
+A007D@A04LF@Pasta-like products
+A04LF@A008B@Pasta, gluten free
+A04LF@A008D@Gnocchi
+A04LF@A008E@Glass noodle
+A008E@A008F@Noodle, rice
+A04LF@A008C@Couscous
+A0BAG@A008G@Raw doughs and pre-mixes
+A008G@A008H@Yeast leavened bread doughs
+A008H@A008J@Yeast bread – pizza dough
+A008H@A008K@Naturally leavened bread dough
+A008G@A008L@Yeast leavened sweet doughs
+A008L@A008M@Fine yeast sweet dough (brioche)
+A008L@A008N@Ingredient-rich yeast dough
+A008G@A008P@Chemically leavened doughs
+A008P@A008Q@Quick bread dough
+A008P@A008R@Ingredient rich fine dough without yeast
+A008G@A008T@Unleavened doughs
+A008T@A008V@Waffle dough/mixture
+A008G@A008X@Short pastry doughs (pate brisee)
+A008X@A008Y@Short pastry dough (pate brisee)
+A008X@A008Z@Fine dough without yeast
+A008X@A009A@French pie pastry dough
+A008G@A009B@Short sweet pastry doughs (pate sucree, sablee)
+A009B@A009C@Short sweet pastry dough (pate sucree)
+A009B@A009D@Shortbread pastry
+A009B@A009E@Piped shortbread pastry
+A009B@A009F@Sweet almond pastry mass
+A008G@A009G@Choux pastry doughs
+A009G@A009H@Choux pastry dough
+A008G@A009J@Cake pre-mixes/batter
+A009J@A009K@Sponge cake dough (génoise)
+A009J@A008S@Mixture/mass for baumkuchen
+A008G@A009L@Laminated doughs
+A009L@A009M@Common laminated dough
+A009L@A009N@Strudel dough
+A008G@A009P@Miscellaneous doughs
+A009P@A009Q@Gingerbread dough
+A009P@A009R@Quark oil dough
+A009P@A009S@Suet pastry (pâte a grasse de boeuf) dough
+A008G@A0CSK@Pre-mixes (dry) for baked products
+A0CSK@A0CSL@Bread pre-mixes (dry)
+A0CSK@A0CSM@Cake pre-mixes (dry)
+A0CSK@A0CSN@Pancake pre-mixes (dry)
+A0BAG@A0BX1@Bakery products
+A0BX1@A004V@Bread and similar products
+A004V@A0DRD@Bread
+A0DRD@A0BY0@Leavened bread and similar
+A0BY0@A005L@Multigrain bread and rolls
+A005L@A005M@Mixed wheat and rye bread and rolls
+A005M@A005N@Rye-wheat bread, refined flour
+A005M@A005P@Rye-wheat bread, wholemeal
+A005L@A005Q@Multigrain (not only rye-wheat) bread and rolls
+A0BY0@A004X@Wheat bread and rolls
+A004X@A004Y@Wheat bread and rolls, white (refined flour)
+A004Y@A004Z@Wheat bread and rolls, white with maize
+A004Y@A005A@Wheat bread and rolls, white with potato
+A004Y@A005B@Wheat bread and rolls, white with rice
+A004Y@A005C@Wheat bread and rolls, white with soya
+A004X@A005D@Wheat bread and rolls, semi-brown
+A004X@A005E@Wheat bread and rolls, brown or wholemeal
+A0BY0@A005F@Rye only bread and rolls
+A005F@A005G@Rye bread, refined flour
+A005F@A005H@Rye bread, wholemeal
+A005F@A005J@Pumpernickel
+A0BY0@A005K@Bread and rolls with special ingredients added
+A0BY0@A0BB2@Sandwich bread (hamburger roll-type)
+A0DRD@A04KZ@Unleavened or flat bread and similar
+A04KZ@A006Q@Pizza base, cooked
+A04KZ@A006R@Traditional unleavened breads
+A006R@A006S@Pita bread
+A006R@A006T@Matzo
+A006R@A006V@Tortilla
+A006R@A006X@Roti
+A006R@A006Y@Chapati
+A004V@A005Y@Crackers and breadsticks
+A005Y@A00FG@Sticks, salty
+A004V@A0CHT@Crisp bread
+A0CHT@A006A@Rye crisp bread
+A006A@A006B@Crisp bread, rye wholemeal
+A006A@A006C@Crisp bread, rye, refined flour
+A0CHT@A006D@Wheat crisp bread
+A006D@A006E@Crisp bread, wheat, wholemeal
+A006D@A006F@Crisp bread, wheat, refined flour
+A004V@A005Z@Extruded, pressed or puffed bread
+A005Z@A006G@Extruded rice bread
+A005Z@A006H@Puffed cereals textured bread
+A006H@A006J@Puffed wheat textured bread
+A006H@A006K@Puffed rice textured bread
+A006H@A006L@Puffed corn textured bread
+A004V@A006M@Rusk
+A006M@A006N@Rusk, refined flour
+A006M@A006P@Rusk, wholemeal
+A004V@A0ERB@Bread alternative
+A0ERB@A005R@Gluten free bread
+A005R@A005S@Gluten free bread, white
+A005R@A005T@Gluten free bread, brown
+A0ERB@A005V@Pretzels
+A004V@A006Z@Additional bread products
+A006Z@A007A@Breadcrumbs
+A006Z@A007B@Croutons
+A006Z@A007C@Bread stuffing
+A0BX1@A009T@Fine bakery wares
+A009T@A009V@Biscuits
+A009V@A009X@Biscuits, sweet, plain
+A009X@A009Y@Butter biscuits
+A009X@A009Z@Biscuits, chocolate
+A009X@A00AA@Biscuits, sweet, wheat wholemeal
+A009X@A00AB@Biscuits, oat meal
+A009X@A00AC@Biscuits, spelt meal
+A009X@A00AD@Speculaas
+A009V@A00AE@Biscuit with inclusions, filling or coating
+A00AE@A0BYR@Wafers
+A009T@A00AG@Choux pastry
+A00AG@A00AH@Éclair
+A00AG@A00AJ@Beignets
+A00AG@A00AK@Profiterole
+A00AG@A00AL@Croquembouche
+A00AG@A00AM@Gougere
+A009T@A00AN@Cakes
+A00AN@A00AP@Plain cakes
+A00AP@A00AQ@Sponge cake
+A00AP@A00AR@Cheese  cake
+A00AR@A00AS@Cream cheese cake
+A00AS@A00AT@Cheese cream sponge cake
+A00AP@A00AV@Cream cake
+A00AV@A00AX@Cream custard cake
+A00AX@A00AY@Cream custard sponge cake
+A00AV@A00AZ@Nut cream cake
+A00AP@A00BA@Fruit cake
+A00BA@A00BB@Sponge cake roll
+A00AP@A00BC@Muffins
+A00AP@A00BD@Meringue tart
+A00AP@A0C6L@Rotation cooked layered cakes
+A0C6L@A00BE@Pyramid cake
+A0C6L@A0C6M@Baumkuchen and similar
+A00AN@A00BF@Chocolate-based cakes
+A00BF@A00BG@Chocolate cake
+A00BG@A00BH@Chocolate cake with fruits
+A00BF@A00BJ@Cake marbled, with chocolate
+A009T@A00BK@Yeast leavened pastry
+A00BK@A00BL@Buns
+A00BK@A00BM@Croissant
+A00BM@A00BN@Croissant, filled with chocolate
+A00BM@A00BP@Croissant, filled with cream
+A00BM@A00BQ@Croissant, filled with jam
+A00BK@A00BR@Doughnuts-berliner
+A00BK@A00BS@Kringles
+A00BK@A00BT@Brioche type products
+A009T@A00BV@Shortcrust (pies -tarts)
+A00BV@A00BX@Flan tart
+A00BX@A00BY@Rhubarb flan
+A00BV@A00BZ@Fruit pie-tarts
+A00BV@A00CB@Marzipan pie
+A009T@A00CC@Puff pastry
+A00CC@A00CD@Croissant from puff pastry
+A00CD@A00CE@Puff-pastry croissant, filled with chocolate
+A00CC@A00CF@Apple strudel
+A00CC@A00CG@Cream-cheese strudel
+A00CC@A00CH@Baklava
+A009T@A00CJ@Various pastry
+A00CJ@A00CK@Dumpling, sweet
+A00CJ@A00CL@Pancakes
+A00CJ@A00CM@Scones and similar
+A00CJ@A00CN@Macaroons
+A00CJ@A00CP@Meringue
+A00CJ@A00CQ@Waffles
+A00CJ@A00CR@Spice cakes
+A00CR@A00CS@Lebkuchen
+A00CR@A00CT@Gingerbread
+A0BAG@A0EQZ@Cereals- or roots-based snacks or breakfast composite
+A0EQZ@A0EQY@Chips, crisps, fries and dough-based analogues
+A0EQY@A0EQX@Chips/crisps
+A0EQX@A011L@Potato crisps or sticks
+A011L@A0BYS@Potato crisps from potato slices
+A011L@A0BYT@Potato crisps from dough
+A0EQX@A00FC@Corn chips
+A0EQX@A00FD@Tortilla chips
+A0EQX@A00FF@Rice chips
+A0EQY@A0EQV@Puffs/curls-type extruded snack
+A0EQV@A00FE@Corn curls
+A0EQZ@A06HL@Snacks other than chips and similar
+A06HL@A00FH@Mixed cereal-based snacks
+A06HL@A011T@Potato starch-based snacks
+A06HL@A011V@Tapioca starch-based snacks
+A0EQZ@A00EY@Cereal bars
+A00EY@A00EZ@Cereal bars plain
+A00EY@A00FA@Cereal bars mixed
+A0EQZ@A00EJ@Muesli and similar
+A00EJ@A00EK@Muesli plain
+A00EJ@A00EL@Muesli mixed
+A0EQZ@A0F0V@Porridge (ready to eat)
+A0F0V@A0F0T@Porridge milk based (ready to eat)
+A0F0V@A0ESM@Porridge water based (ready to eat)
+A0EQZ@A00EN@Porridge (in dry form, to be diluted)
+A00EN@A00EX@Barley porridge
+A00EN@A00ET@Cornmeal porridge
+A00EN@A00EQ@Oat porridge
+A00EN@A00ER@Rice porridge
+A00EN@A00ES@Rye porridge
+A00EN@A00EV@Wheat semolina porridge
+A0B6Z@A0BXX@Isolated purified ingredients (including mineral or synthetic)
+A0BXX@A036M@Animal and vegetable fats and oils and primary derivatives thereof
+A036M@A0F3D@Animal and vegetable fats/oils
+A0F3D@A036N@Vegetable fats and oils, edible
+A036N@A036P@Olive oils
+A036P@A036Q@Olive oil, virgin or extra-virgin
+A036P@A036R@Olive oil, refined
+A036P@A036S@Olive pomace oil
+A036N@A036T@Seed oils
+A036T@A036V@Rape seed oil, edible
+A036T@A036X@Soya bean oil, refined
+A036T@A036Y@Maize oil, edible
+A036T@A036Z@Cotton seed oil, edible
+A036T@A037A@Peanut oil, edible
+A036T@A037B@Safflower seed oil, edible
+A036T@A037C@Sesame seed oil, edible
+A036T@A037D@Sunflower seed oil, edible
+A036T@A037E@Almond oil
+A036T@A037F@Grape seed oil
+A036T@A037G@Linseed oil
+A036T@A037H@Pumpkinseed oil
+A036T@A037K@Walnut oil
+A036N@A037L@Other plant oils
+A037L@A037M@Coconut oil/fat
+A037L@A037N@Palm oil/fat
+A037L@A037P@Palm kernel oil, edible
+A037L@A037Q@Wheat germ oil
+A037L@A037R@Cocoa butter
+A037L@A0F5Z@Shea butter
+A0F3D@A037T@Animal fats and oils (processed fat from animal tissue)
+A037T@A04PJ@Fats and oils from terrestrial animals
+A04PJ@A037V@Pork lard
+A04PJ@A037X@Beef tallow (including processed suet)
+A04PJ@A037Y@Tallow from other animals
+A037Y@A037Z@Buffalo tallow
+A037Y@A038A@Camel tallow
+A037Y@A038B@Sheep tallow
+A037Y@A038C@Goat tallow
+A037Y@A038D@Horse tallow
+A04PJ@A038E@Poultry fats, processed
+A038E@A038F@Chicken fat, processed
+A038E@A038G@Duck fat, processed
+A038E@A038H@Goose fat, processed
+A038E@A038J@Turkey fat, processed
+A037T@A038K@Fats and oils from marine animals
+A038K@A038L@Processed fat (blubber) of marine mammals
+A038K@A038M@Fish oil
+A038M@A04PL@Other fish oil
+A038M@A038N@Herring oil
+A038M@A038P@Sardine oil
+A038M@A038Q@Cod liver oil
+A0F3D@A038R@Dairy fats
+A038R@A038V@Cow milk fat (not emulsified)
+A038V@A038X@Butter oil
+A038V@A038Y@Ghee
+A038R@A04PK@Milk fat from other animals
+A04PK@A038S@Buffalo milk fat
+A04PK@A038T@Camel milk fat
+A04PK@A038Z@Goat milk fat
+A04PK@A039A@Sheep milk fat
+A036M@A039B@Fat emulsions and blended fats
+A039B@A039C@Butter
+A039B@A0F1G@Margarines and similar
+A0F1G@A039D@Traditional margarine
+A0F1G@A039E@Blended margarine
+A0F1G@A039H@Functional vegetable margarines/fats
+A039B@A04SD@Blended fat and oils
+A04SD@A039J@Blended frying oil/fats
+A04SD@A039F@Butter and margarine/oil blends
+A04SD@A039G@Shortening and similar baking fats
+A0BXX@A0BY6@Sugars and similar
+A0BY6@A032G@Sugars (mono- and di-saccharides)
+A032G@A032H@Sucrose (common sugar)
+A032H@A032J@White sugar
+A032J@A032K@Refined beet sugar
+A032J@A032L@Refined cane sugar
+A032H@A032M@Brown sugar
+A032M@A032N@Brown beet sugar
+A032M@A032P@Brown cane sugar
+A032H@A032Q@Flavoured sugar
+A032H@A032R@Sugar, icing - powder
+A032G@A032S@Mono- di-saccharides other than sucrose
+A032S@A02PQ@Lactose
+A032S@A032X@Galactose
+A032S@A032Y@Maltose
+A032S@A032V@Glucose
+A032S@A032T@Fructose
+A0BY6@A033J@Honey
+A033J@A033K@Honey, monofloral
+A033J@A033L@Honey, polyfloral
+A033J@A033M@Honey, blended
+A033J@A033N@Honeydew honey
+A033J@A033P@Comb honey
+A033J@A033Q@Minor honey types
+A0BY6@A033R@Syrups (molasses and other syrups)
+A033R@A033S@Molasses
+A033S@A033T@Citrus molasses
+A033S@A033X@Sorghum molasses
+A033S@A033Y@Sugar cane molasses
+A033S@A033V@Sugar beet molasses
+A033R@A033Z@Syrups
+A033Z@A034B@Barley malt syrup
+A033Z@A034C@Corn syrup
+A033Z@A034D@Sugar beet syrup
+A033Z@A034E@Treacle
+A0BY6@A032Z@Polyols
+A032Z@A033D@Maltitol
+A032Z@A033E@Lactitol
+A032Z@A033F@Erythritol
+A032Z@A033H@Other polyols
+A032Z@A033G@Isomalt
+A032Z@A033B@Mannitol
+A032Z@A033C@Xylitol
+A032Z@A033A@Sorbitol
+A0BY6@A0DPT@Maltodextrins and similars
+A0DPT@A0BSL@Maltodextrin
+A0DPT@A0BSK@Dextrin
+A0DPT@A0BSM@Polydextrose
+A0BY6@A0EZE@Inulin and other polyfructoses
+A0BXX@A0F7R@Table-top sweeteners formulations
+A0F7R@A0F7T@Table-top sweeteners in liquid form
+A0F7R@A0F7V@Table-top sweeteners in powder form
+A0F7R@A0F7X@Table-top sweeteners in tablets
+A0BXX@A0ETM@Starches
+A0ETM@A002R@Maize starch
+A0ETM@A003A@Oat starch
+A0ETM@A003G@Rice starch
+A0ETM@A003R@Rye starch
+A0ETM@A004M@Wheat starch
+A004M@A004N@Wheat starch, gluten free
+A0ETM@A011F@Potato starch
+A0ETM@A011J@Tapioca starch
+A0BXX@A0EVD@Isolated proteins and other protein products
+A0EVD@A02PR@Milk protein
+A0EVD@A02PS@Whey protein
+A0EVD@A01BG@Soya proteins
+A0EVD@A0F5E@Gelatin
+A0BXX@A046L@Major isolated ingredients, additives, flavours, baking and processing aids
+A046L@A047A@Food flavourings
+A047A@A047B@Flavourings
+A047B@A06JV@Mint-chocolate flavour
+A047B@A06JX@Almond flavour
+A047B@A06JY@Amarena cherry flavour
+A047B@A06JZ@Amaretto flavour
+A047B@A06KA@Anise flavour
+A047B@A06KB@Apple flavour
+A047B@A06KC@Apple green flavour
+A047B@A06KD@Apple red flavour
+A047B@A06KE@Apricot flavour
+A047B@A06KF@Apricot - peach flavour
+A047B@A06KG@Artichoke flavour
+A047B@A06KH@Avocado flavour
+A047B@A06KJ@Bacon flavour
+A047B@A06KK@Balsamic vinegar flavour
+A047B@A06KL@Banana flavour
+A047B@A06KM@Barbeque flavour
+A047B@A06KN@Barley flavour
+A047B@A06KP@Basil flavour
+A047B@A06KQ@Beef flavour
+A047B@A06KR@Beef soup flavour
+A047B@A06KS@Berries flavour
+A047B@A06KT@Bitter flavour
+A047B@A06KV@Black tea flavour
+A047B@A06KX@Blackberry flavour
+A047B@A06KY@Blackcurrant flavour
+A047B@A06KZ@Blood orange flavour
+A047B@A06LA@Blue cheese flavour
+A047B@A06LB@Blueberry flavour
+A047B@A06LC@Bourbon flavour
+A047B@A06LD@Boysenberry flavour
+A047B@A06LE@Brandy flavour
+A047B@A06LF@Brandy orange flavour
+A047B@A06LG@Brittle flavour
+A047B@A06LH@Brown sugar flavour
+A047B@A06LJ@Bubblegum flavour
+A047B@A06LK@Butter flavour
+A047B@A06LL@Buttermilk flavour
+A047B@A06LM@Butterscotch flavour
+A047B@A06LN@Café-au-lait flavour
+A047B@A06LP@Cappuccino flavour
+A047B@A06LQ@Capsicum flavour
+A047B@A06LR@Caramel flavour
+A047B@A06LS@Cardamom  flavour
+A047B@A047K@Carob flavouring
+A047B@A06LT@Carrot flavour
+A047B@A06LV@Cassis flavour
+A047B@A06LX@Celery flavour
+A047B@A06LY@Cereals flavour
+A047B@A06LZ@Cheese flavour
+A047B@A06MA@Cheesecake flavour
+A047B@A06MB@Cherry flavour
+A047B@A06MC@Chestnut flavour
+A047B@A0CRZ@Chicken flavour
+A047B@A06MD@Chilli flavour
+A047B@A06ME@Chives flavour
+A047B@A06MF@Chocolate flavour
+A047B@A06MG@Chocolate dark flavour
+A047B@A06MH@Chocolate milk flavour
+A047B@A06MJ@Cinnamon flavour
+A047B@A06MK@Citron flavour
+A047B@A06ML@Citrus flavour
+A047B@A06MM@Coconut flavour
+A047B@A06MN@Coffee flavour
+A047B@A06MP@Cola flavour
+A047B@A06MQ@Cookies and cream flavour
+A047B@A06MR@Coriander flavour
+A047B@A06MS@Corn flavour
+A047B@A06MT@Crab flavour
+A047B@A06MV@Cranberry flavour
+A047B@A06MX@Cream flavour
+A047B@A06MY@Cream brulee flavour
+A047B@A06MZ@Cucumber flavour
+A047B@A06NA@Cumin flavour
+A047B@A06NB@Currant flavour
+A047B@A06NC@Curry flavour
+A047B@A06ND@Egg yolk flavour
+A047B@A06NE@Eggnog flavour
+A047B@A06NF@Estragon flavour
+A047B@A06NG@Eucalyptus flavour
+A047B@A06NH@Exotic fruit flavour
+A047B@A06NJ@Extra hot flavour
+A047B@A06NK@Feijoa flavour
+A047B@A06NL@Fennel flavour
+A047B@A06NM@Figs dried flavour
+A047B@A06NN@Fish flavour
+A047B@A06NP@Fresh milk flavour
+A047B@A06NQ@Fruit flavour
+A047B@A06NR@Fruit cocktail flavour
+A047B@A06NS@Fruits of the forest flavour
+A047B@A06NT@Garlic flavour
+A047B@A06NV@Gianduia flavour
+A047B@A06NX@Gin flavour
+A047B@A06NY@Ginger flavour
+A047B@A06NZ@Ginseng flavour
+A047B@A06PA@Grape  flavour
+A047B@A06PB@Grape concord flavour
+A047B@A06PC@Grapefruit flavour
+A047B@A06PD@Green tea flavour
+A047B@A06PE@Grenadine flavour
+A047B@A06PF@Guanabana flavour
+A047B@A06PG@Guarana flavour
+A047B@A06PH@Guava flavour
+A047B@A06PJ@Ham flavour
+A047B@A06PK@Hazelnut flavour
+A047B@A06PL@Herb & garlic flavour
+A047B@A06PM@Herbal blend flavour
+A047B@A06PN@Herbs flavour
+A047B@A06PP@Hibyscus flavour
+A047B@A06PQ@Honey flavour
+A047B@A06PR@Honey-cinnamon-flavored flavour
+A047B@A06PS@Horseradish flavour
+A047B@A06PT@Hot flavour
+A047B@A06PV@Hot & spicy flavour
+A047B@A06PX@Jackfruit flavour
+A047B@A06PY@Jasmine                flavour
+A047B@A06PZ@Juniper flavour
+A047B@A06QA@Ketchup flavour
+A047B@A06QB@Kirsch flavour
+A047B@A06QC@Kiwi flavour
+A047B@A06QD@Leek flavour
+A047B@A06QE@Lemon flavour
+A047B@A06QF@Lemon myrtle flavour
+A047B@A06QG@Licorice flavour
+A047B@A06QH@Lime flavour
+A047B@A06QJ@Macadamia flavour
+A047B@A06QK@Malaga / raisins flavour
+A047B@A06QL@Malt flavour
+A047B@A06QM@Mandarin flavour
+A047B@A06QN@Mango flavour
+A047B@A06QP@Maple flavour
+A047B@A06QQ@Maraschino flavour
+A047B@A06QR@Marjoram flavour
+A047B@A06QS@Marsala flavour
+A047B@A06QT@Marzipan flavour
+A047B@A06QV@Masala hot  flavour
+A047B@A06QX@Mascarpone flavour
+A047B@A06QY@Meat flavour
+A047B@A06QZ@Medium hot flavour
+A047B@A06RA@Melon flavour
+A047B@A06RB@Mild flavour
+A047B@A06RC@Milk flavour
+A047B@A06RD@Mint flavour
+A047B@A06RE@Mixed berry flavour
+A047B@A06RF@Mocca flavour
+A047B@A06RG@Muesli flavour
+A047B@A06RH@Muscat grapes flavour
+A047B@A06RJ@Mushroom flavour
+A047B@A06RK@Mustard flavour
+A047B@A06RL@Nougat flavour
+A047B@A06RM@Nutella flavour
+A047B@A06RN@Nutmeg flavour
+A047B@A06RP@Nutty flavour
+A047B@A06RQ@Onion flavour
+A047B@A06RR@Orange flavour
+A047B@A06RS@Oregano flavour
+A047B@A06RT@Oyster flavour
+A047B@A06RV@Papaya flavour
+A047B@A06RX@Paprika flavour
+A047B@A06RY@Parsley flavour
+A047B@A06RZ@Passion fruit flavour
+A047B@A06SA@Pastry flavour
+A047B@A06SB@Peach flavour
+A047B@A06SC@Peanut flavour
+A047B@A06SD@Peanut butter flavour
+A047B@A06SE@Pear flavour
+A047B@A06SF@Pepper flavour
+A047B@A06SG@Peppermint flavour
+A047B@A06SH@Pimento flavour
+A047B@A06SJ@Pineapple flavour
+A047B@A06SK@Pistachio flavour
+A047B@A06SL@Plum flavour
+A047B@A06SM@Pomegranate flavour
+A047B@A06SN@Pork flavour
+A047B@A06SP@Prune flavour
+A047B@A06SQ@Pumpkin flavour
+A047B@A06SR@Quark flavour
+A047B@A06SS@Raffaello flavour
+A047B@A06ST@Raisins flavour
+A047B@A06SV@Raspberry flavour
+A047B@A06SX@Red fruit flavour
+A047B@A06SY@Red orange flavour
+A047B@A06SZ@Rhubarb flavour
+A047B@A06TA@Roast flavour
+A047B@A06TB@Rose  flavour
+A047B@A06TC@Rosemary flavour
+A047B@A06TD@Rum flavour
+A047B@A06TE@Rum-raisin flavour
+A047B@A06TF@Sage flavour
+A047B@A06TG@Sea buckthorn flavour
+A047B@A06TH@Sherry flavour
+A047B@A06TJ@Shrimp flavour
+A047B@A06TK@Smoke flavour
+A047B@A06TL@Soup flavour
+A047B@A06TM@Sour flavour
+A047B@A06TN@Sour cream flavour
+A047B@A06TP@Sour cream cherry flavour
+A047B@A06TQ@Spearmint  flavour
+A047B@A06TR@Spice mix flavour
+A047B@A06TS@Spinach flavour
+A047B@A06TT@Stracciatella flavour
+A047B@A06TV@Strawberry flavour
+A047B@A06TX@Strawberry yogurt flavour
+A047B@A06TY@Sultanas flavour
+A047B@A06TZ@Sundried tomato flavour
+A047B@A06VA@Sweet flavour
+A047B@A06VB@Sweet and sour flavour
+A047B@A06VC@Sweet chilli flavour
+A047B@A06VD@Tamarind flavour
+A047B@A06VE@Tandoori flavour
+A047B@A06VF@Tangerine flavour
+A047B@A06VG@Tea black flavour
+A047B@A06VH@Tea green flavour
+A047B@A06VJ@Tequila flavour
+A047B@A06VK@Thyme flavour
+A047B@A06VL@Tiramisu' flavour
+A047B@A06VM@Toffee flavour
+A047B@A06VN@Tomato flavour
+A047B@A06VP@Tonic flavour
+A047B@A06VQ@Tropical flavour
+A047B@A06VR@Truffle flavour
+A047B@A06VS@Vanilla  flavour
+A047B@A06VT@Vanillin flavour
+A047B@A06VV@Walnut flavour
+A047B@A0CRY@Wasabi flavour
+A047B@A06VX@Watermelon flavour
+A047B@A06VY@Whiskey flavour
+A047B@A06VZ@Wild berry flavour
+A047B@A06XA@Wild strawberry flavour
+A047B@A06XB@Wine flavour
+A047B@A06XC@Woodruff flavour
+A047B@A06XD@Yoghurt flavour
+A047B@A06XE@Zabaglione flavour
+A047B@A0CHZ@Mastic gum flavour
+A047A@A047C@Essences and extracts
+A047C@A047D@Almond essence
+A047C@A047E@Vanilla essence
+A047E@A047F@Vanilla pods extract
+A047C@A047G@Orange essence
+A047C@A047H@Lemon essence
+A047C@A047J@Rum essence
+A047C@A047L@Liquorice extract
+A046L@A047N@Food colours
+A047N@A047P@Natural food colour
+A047N@A047Q@Artificial food colour
+A046L@A046M@Artificial sweeteners (e.g., aspartam, saccharine)
+A046M@A046N@Saccharine
+A046M@A046P@Aspartame
+A046M@A046Q@Acesulfame k
+A046M@A046R@Sucralose
+A046M@A046S@Cyclamate
+A046M@A046T@Neo-hesperidine
+A046M@A046V@Thaumatine
+A046M@A046X@Neotame
+A046M@A046Y@Steviol glucoside
+A046M@A046Z@Advantame
+A046L@A047R@Food additives other than flavours, colours and artificial sweeteners
+A047R@A047S@Preservative
+A047R@A047T@Antioxidant
+A047R@A047V@Emulsifier
+A047R@A047X@Thickener
+A047R@A047Y@Gelling agent
+A047R@A047Z@Stabiliser
+A047R@A048A@Flavour enhancer
+A047R@A048B@Acid
+A047R@A048C@Acidity regulator
+A047R@A048D@Anti-caking agent
+A047R@A048E@Modified starch
+A047R@A048F@Anti-foaming agent
+A047R@A048G@Glazing agent
+A047R@A048H@Emulsifying salts
+A047R@A048J@Flour treatment agent
+A047R@A048K@Firming agent
+A047R@A048L@Humectant
+A047R@A048M@Bulking agent
+A047R@A048N@Propellent gas
+A046L@A04QQ@Home-preparation aids
+A04QQ@A048Q@Preparations for raising and flavouring home-made bakery
+A04QQ@A048R@Preparations for gelling home-made food
+A04QQ@A048S@Preparations for pickling vegetables
+A04QQ@A0F3T@Preparations for food flavouring
+A046L@A048T@Processing aids
+A0BXX@A0EVE@Ingredients for food fortification/enrichment and supplements
+A0EVE@A0EVG@Vitamins
+A0EVG@A0EXZ@Vitamin A(retinol, carotenoids)
+A0EVG@A0EXY@Vitamin B1 (thiamine)
+A0EVG@A0EXX@Vitamin B2 (Riboflavin)
+A0EVG@A0EXV@Vitamin B3 (Niacin, niacinamide)
+A0EVG@A0EXT@Vitamin B5 (Pantothenic acid)
+A0EVG@A0EXS@Vitamin B6 (Pyridoxine, pyridoxamine, pyridoxal)
+A0EVG@A0EXR@Vitamin B7 (Biotin)
+A0EVG@A0EXQ@Vitamin B9 (Folic acid, folinic acid)
+A0EVG@A0EXP@Vitamin B12 (Cyanocobalamin, hydroxycobalamin, methylcobalamin)
+A0EVG@A0EXN@Vitamin C (Ascorbic acid)
+A0EVG@A0EXM@Vitamin D (Cholecalciferol)
+A0EVG@A0EXL@Vitamin E (Tocopherols, tocotrienols)
+A0EVG@A0EXK@Vitamin K (phylloquinone, menaquinones)
+A0EVE@A0EVF@Chemical elements
+A0EVF@A0EXJ@Potassium
+A0EVF@A0EXH@Calcium
+A0EVF@A0EXG@Phosphorus
+A0EVF@A0EXF@Magnesium
+A0EVF@A0EXE@Zinc
+A0EVF@A0EXD@Iron
+A0EVF@A0EXC@Manganese
+A0EVF@A0EXB@Copper
+A0EVF@A0EXA@Iodine
+A0EVF@A0F3A@Fluorine
+A0EVF@A0EVZ@Selenium
+A0EVF@A0EVY@Molybdenum
+A0EVF@A0EVX@Bromine
+A0EVE@A0EVS@Special fatty acids
+A0EVS@A0EVV@Omega-3 fatty acids
+A0EVS@A0EVT@Omega-6 fatty acids
+A0EVE@A0EVR@Dietary fibre
+A0EVE@A0EVM@Phytochemicals
+A0EVM@A0EVQ@Phytosterols
+A0EVM@A0EVP@Polyphenols
+A0EVM@A0EVN@Carotenoids
+A0EVE@A0EVL@Algae based fortifying agents (e.g. Spirulina, chlorella)
+A0EVE@A0EVK@Caffeine
+A0EVE@A0F4M@Co-factors to metabolism
+A0F4M@A0EVJ@Enzymes for fortification
+A0F4M@A0F4N@Carnitine
+A0F4M@A0F4P@Creatine-creatinine
+A0EVE@A0EVH@Bee-produced fortifying agents
+A0EVH@A0CVH@Pollen (residues of vegetal pollens)
+A0EVH@A0CVG@Royal jelly
+A0EVH@A0CVF@Other edible apiculture products
+A0BXX@A0BXY@Microbiological or enzymatic ingredients
+A0BXY@A048X@Live microorganisms for food production
+A048X@A048Y@Starter cultures
+A048X@A048Z@Yeast cultures
+A048Z@A049A@Baking yeast
+A048Z@A05QQ@Sourdough starter
+A048X@A049B@Mould or micro-fungal cultures
+A0BXY@A048V@Enzymes for food manufacture

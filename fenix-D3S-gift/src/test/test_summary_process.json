@@ -1,0 +1,35 @@
+[
+  {
+    "name": "giftSurveySummary",
+    "parameters": {
+      "gender": "2",
+      "specialCondition": "1",
+      "ageFrom": 5,
+      "ageTo": 40,
+      "ageYear": true,
+      "food": [
+        "A000Y",
+        "A00BR",
+        "A0F6B",
+        "A03FQ",
+        "A002N",
+        "A0ETG",
+        "A010C",
+        "A000T",
+        "A00JF",
+        "A01SN",
+        "A027J",
+        "A00ZZ",
+        "A01AB",
+        "A013N",
+        "A037A",
+        "A00KJ",
+        "A03NS",
+        "A02JP",
+        "A011P",
+        "A00MJ"
+      ]
+
+    }
+  }
+]

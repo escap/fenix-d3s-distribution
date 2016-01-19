@@ -1,0 +1,130 @@
+{
+    "uid": "OECD_CommodityClass1",
+	"version": "1.0",
+    "title": {
+        "EN": "OECD Commodity Class Agricultural"
+    },
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["activity", "sector"],
+        "description": {"EN":"OECD Commodity Class Agricultural list"},
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": "06"
+                        }
+                    ],
+                    "idCodeList": "FENIX_Subjects",
+                    "version": "1.0"
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 2,
+            "typeOfCodeList": "tree"
+        }
+
+    },
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "OECD"
+            },
+            "organizationUnit": {"EN":"CDC-DAC"},
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": "+33 1 45 24 82 00",
+                "address": "OECD - 2, rue André Pascal - 75775 Paris Cedex 16 - France",	
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": "https://unstats.un.org/unsd/cr/registry/cpc-2.asp",
+                "disseminationFormat": ["txt","pdf"]
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+    },
+    "dsd" : {
+        "contextSystem":"oecd"
+    }
+}
+
+#structure
+csvSeparator=;
+structure=table
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1
+titleColumnIndex_EN=2
+
+--data--
+3;Maize
+8;Maize + Wheat
+9;Maize + Rice
+13;Maize + Rice + Soybeans
+10;Maize + Soybeans
+18;Maize + Rice + Soybeans + Wheat
+11;Maize + Rice + Wheat
+14;Maize + Soybeans + Wheat
+2;Rice
+15;Rice + Soybeans
+16;Rice + Soybeans + Wheat
+12;Rice + Wheat
+4;Soybeans
+17;Soybeans + Wheat
+1;Wheat

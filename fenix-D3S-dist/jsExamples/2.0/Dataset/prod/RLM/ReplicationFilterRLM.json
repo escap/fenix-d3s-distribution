@@ -21,42 +21,50 @@
                     "subject" : "geo",
                     "title" : { "EN" : "Country" },
                     "dataType" : "code",
-                    "domain" : { "codes" : [ { "idCodeList" : "GAUL", "version" : "2014" } ] }
+                    "key" : true,
+                    "domain" : { "codes" : [ { "idCodeList" : "GAUL0", "version" : "2014" } ] }
                 },
                 {
                     "id" : "YEAR",
                     "subject" : "time",
                     "title" : { "EN" : "Year" },
                     "dataType" : "year",
+                    "key" : true,
                     "domain" : { "period" : { "from" : 2000, "to" : 2015 } }
                 },
                 {
                     "id" : "YEAR_LABEL",
-                    "title" : { "EN" : "Year" },
+                    "title" : { "EN" : "Year label" },
                     "dataType" : "text"
                 },
                 {
                     "id" : "QUALIFIER",
                     "title" : { "EN" : "Qualifier" },
                     "dataType" : "code",
-                    "domain" : { "codes" : [ { "idCodeList" : "RLM_QualifierCodeList" } ] }
+                    "key" : true,
+                    "domain" : { "codes" : [ { "idCodeList" : "rlm_RLM_QualifierCodeList" } ] }
                 },
                 {
                     "id" : "SOURCE",
                     "title" : { "EN" : "Source" },
                     "dataType" : "code",
-                    "domain" : { "codes" : [ { "idCodeList" : "RLM_SourceCodeList" } ] }
+                    "key" : true,
+                    "domain" : { "codes" : [ { "idCodeList" : "rlm_RLM_SourceCodeList" } ] }
+                },
+                {
+                    "id" : "VALUE",
+                    "subject" : "value",
+                    "title" : { "EN" : "Production (Tonnes)" },
+                    "dataType" : "text"
                 },
                 {
                     "id" : "UM",
                     "title" : { "EN" : "Unit of measure" },
                     "dataType" : "text"
                 },
-
                 {
-                    "id" : "VALUE",
-                    "subject" : "value",
-                    "title" : { "EN" : "Production (Tonnes)" },
+                    "id" : "FLAG",
+                    "title" : { "EN" : "Flag" },
                     "dataType" : "text"
                 }
             ]

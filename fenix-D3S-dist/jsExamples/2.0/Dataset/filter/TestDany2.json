@@ -1,0 +1,10 @@
+{
+    "dsd.contextSystem" : {
+        "enumeration": [
+            "demo1"
+        ]
+    },
+    "meContent.resourceRepresentationType" : {
+        "enumeration" : ["dataset"]
+    }
+}

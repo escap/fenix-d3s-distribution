@@ -1,0 +1,18 @@
+{
+    "dsd.contextSystem" : {
+        "enumeration": [
+            "uneca"
+        ]
+    },
+    "meContent.resourceRepresentationType" : {
+        "enumeration" : ["dataset"]
+    },
+    "meContent.seCoverage.coverageSectors" : {
+        "codes" : [
+            {
+                "uid" : "UNECA_ClassificationOfActivities",
+                "codes" : ["0201"]
+            }
+        ]
+    }
+}

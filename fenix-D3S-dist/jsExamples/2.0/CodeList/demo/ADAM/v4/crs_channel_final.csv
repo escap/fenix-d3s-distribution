@@ -1,0 +1,308 @@
+﻿{
+   "characterSet": {
+      "codes": [
+         {
+            "code": "106"
+         }
+      ], 
+      "idCodeList": "IANAcharacterSet", 
+      "version": null
+   }, 
+   "contacts": [
+      {
+         "contactInfo": {
+            "address": null, 
+            "emailAddress": null, 
+            "phone ": null
+         }, 
+         "name": null, 
+         "organization": {
+            "EN": "Organisation for Economic Co-operation and Development (OECD)"
+         }, 
+         "organizationUnit": null, 
+         "role": null
+      }
+   ], 
+   "dsd": {
+      "contextSystem": "adam"
+   }, 
+   "language": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "languageDetails": null, 
+   "meAccessibility": {
+      "seConfidentiality": {
+         "confidentialityStatus": {
+            "codes": [
+               {
+                  "code": "F"
+               }
+            ], 
+            "idCodeList": "CL_CONF_STATUS", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "meContent": {
+      "description": {
+         "EN": "OECD Creditor Reporting System (CRS) code list for Channel"
+      }, 
+      "keywords": [
+         "crs", 
+         "code", 
+         "codes"
+      ], 
+      "resourceRepresentationType": "codelist", 
+      "seCodeList": {
+         "numberOfLevels": "1", 
+         "typeOfCodeList": "list"
+      }, 
+      "seCoverage": {
+         "coverageSectors": {
+            "codes": [
+               {
+                  "code": "06"
+               }
+            ], 
+            "idCodeList": "FENIX_Subjects", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "metadataLanguage": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "metadataStandardName": "FENIX metadata", 
+   "metadataStandardVersion": "1.0", 
+   "title": {
+      "EN": "OECD Channel"
+   }, 
+   "uid": "crs_channel", 
+   "version": "2015"
+}
+--structure--
+csvSeparator=@
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+titleColumnIndex_FR=4
+shortTitleColumnIndex_EN=5
+shortTitleColumnIndex_FR=6
+
+--data--
+@10000@PUBLIC SECTOR (donor, recipient, other)@INSTITUTIONS DU SECTEUR PUBLIC@@
+@11000@Donor government@Gouvernement du donneur@@
+@12000@Recipient government@Gouvernement du bénéficiaire@@
+@13000@Third Country Government (Delegated co-operation)@Gouvernement tiers (coopération déléguée)@@
+@20000@NON-GOVERMENTAL ORGANISATIONS (NGOs) and CIVIL SOCIETY@ORGANISATIONS NON GOUVERNEMENTALES (ONG) et SOCIÉTÉ CIVILE@@
+@21000@International NGOs@ONG INTERNATIONALE@@
+@21016@International Committee of the Red Cross@Comité international de la Croix-Rouge@ICRC@ICRC
+@21017@International Centre for Trade and Sustainable Development@Centre international de commerce et de développement durable@ICTSD@ICTSD
+@21018@International Federation of Red Cross and Red Crescent Societies@Fédération internationale des Sociétés de la Croix-Rouge et du Croissant-Rouge@IFRCRCS@IFRCRCS
+@21020@International HIV/AIDS Alliance@International HIV/AIDS Alliance@@
+@21023@International Planned Parenthood Federation@Fédération internationale pour le planning familial@IPPF@IPPF
+@21029@Doctors Without Borders@Médecins Sans Frontières@MSF@MSF
+@21032@Population Services International@Organisation internationale pour les services en matière de population@PSI@PSI
+@21034@International Union Against Tuberculosis and Lung Disease@Union Internationale Contre la Tuberculose et les Maladies Respiratoires@UNION@UNION
+@21043@European Parliamentarians for Africa@Association des parlementaires d’Europe pour l’Afrique@AWEPA@AWEPA
+@21045@African Medical and Research Foundation@Fondation africaine pour la médecine et la recherche@AMREF@AMREF
+@21056@Renewable Energy and Energy Efficiency Partnership@Partenariat pour les énergies renouvelables et l’'efficience énergétique@REEEP@REEEP
+@22000@National NGOs@ONG basée dans un pays donneur@@
+@23000@Local/Regional NGOs@ONG basée dans un pays en développement@@
+@30000@PUBLIC-PRIVATE PARTNERSHIPS@PARTENARIATS PUBLIC-PRIVÉ ET RÉSEAUX@@
+@30001@Global Alliance for Improved Nutrition@Alliance mondiale pour une meilleure nutrition@GAIN@GAIN
+@30003@Global e-Schools and Communities Initiative@Initiative mondiale en faveur de l’informatique dans les écoles et dans les communautés@GeSCI@GeSCI
+@30004@Global Water Partnership@Partenariat mondial pour l'eau@GWP@GWP
+@30005@International AIDS Vaccine Initiative@Initiative internationale pour un vaccin contre le SIDA@IAVI@IAVI
+@30006@International Partnership on Microbicides@Partenariat international pour des microbicides@IPM@IPM
+@30007@Global Alliance for ICT and Development@Alliance mondiale pour les TIC et le développement@GAID@GAID
+@30008@Cities Alliance@Alliance pour les villes@@
+@30009@Small Arms Survey@Small Arms Survey@SAS@SAS
+@30010@International drug purchase facility@Facilité internationale d'achat de médicaments@UNITAID@UNITAID
+@30011@International Union for the Conservation of Nature@Union internationale pour la conservation de la nature@IUCN@IUCN
+@30012@Global Climate Partnership Fund@Global Climate Partnership Fund@GCPF@GCPF
+@30013@Microfinance Enhancement Facility@Mécanisme de soutien au microfinancement@MEF@MEF
+@30014@Regional Micro, Small and Medium Enterprise Investment Fund for Sub-Saharan Africa@Fonds régional d’investissement pour les très petites, petites et moyennes entreprises d’Afrique subsaharienne@REGMIFA@REGMIFA
+@30015@Global Energy Efficiency and Renewable Energy Fund@Fonds mondial pour la promotion de l’'efficacité énergétique et des énergies renouvelables@GEEREF@GEEREF
+@30016@European Fund for Southeast Europe@European Fund for Southeast Europe@EFSE@EFSE
+@30017@SANAD Fund for Micro, Small and Medium Enterprises@SANAD Fund for Micro, Small and Medium Enterprises@SANAD@SANAD
+@31000@Public-Private Partnerships (PPP)@Partenariat public-privé (PPP)@@
+@31001@Global Development Network@Réseau de développement mondial@GDN@GDN
+@31002@Global Knowledge Partnership@Alliance mondiale pour le savoir@GKP@GKP
+@31003@International Land Coalition@Coalition internationale pour l'accès à la terre@ILC@ILC
+@31004@Extractive Industries Transparency Initiative International Secretariat@Secrétariat de l'Initiative pour la transparence dans les industries extractives@EITI@EITI
+@32000@Networks@RÉSEAU@@
+@40000@MULTILATERAL INSTITUTIONS@ORGANISATIONS MULTILATÉRALES@@
+@41000@United Nations Agencies, Fundes and Commissions@Agence, fonds ou commission des Nations unies (NU)@@
+@41101@Convention to Combat Desertification@Convention sur la lutte contre la désertification@UNCCD@UNCCD
+@41103@Economic Commission for Africa@Commission économique pour l'Afrique@ECA@ECA
+@41104@Economic Commission for Latin America and the Caribbean@Commission économique pour l'Amérique latine et les Caraïbes@ECLAC@ECLAC
+@41105@Economic and Social Commission for Western Asia@Commission économique et sociale pour l'Asie occidentale@ESCWA@ESCWA
+@41106@Economic and Social Commission for Asia and the Pacific@Commission économique et sociale pour l'Asie et le Pacifique@ESCAP@ESCAP
+@41107@International Atomic Energy Agency (Contributions to Technical Cooperation Fund Only)@Agence internationale de l'énergie atomique (Contributions au Fonds de Coopération Technique uniquement)@IAEA-TCF@IAEA-TCF
+@41108@International Fund for Agricultural Development@Fonds international de développement agricole@IFAD@IFAD
+@41109@United Nations - Unspecified Agency, Funde or Commission@@@
+@41110@Joint United Nations Programme on HIV/AIDS@Programme commun des Nations Unies sur le VIH/SIDA@UNAIDS@UNAIDS
+@41111@United Nations Capital Development Fund@Fonds d’équipement des Nations Unies@UNCDF@UNCDF
+@41112@United Nations Conference on Trade and Development@Conférence des Nations Unies sur le commerce et le développement@UNCTAD@UNCTAD
+@41114@United Nations Development Programme@Programme des Nations Unies pour le développement@UNDP@UNDP
+@41116@United Nations Environment Programme@Programme des Nations Unies pour l'environnement@UNEP@UNEP
+@41119@United Nations Population Fund@Fonds des Nations Unies pour la population@UNFPA@UNFPA
+@41120@United Nations Human Settlement Programme@Programme des Nations Unies pour les établissements humains@UN Habitat@UN Habitat
+@41121@United Nations Office of the United Nations High Commissioner for Refugees@Haut Commissariat des Nations Unies pour les réfugiés@UNHCR@UNHCR
+@41122@United Nations Children’s Fund@Fonds des Nations Unies pour l'enfance@UNICEF@UNICEF
+@41123@United Nations Industrial Development Organisation@Organisation des Nations Unies pour le développement industriel@UNIDO@UNIDO
+@41124@United Nations - Unspecified@@@
+@41125@United Nations Institute for Training and Research@Institut des Nations Unies pour la formation et la recherche@UNITAR@UNITAR
+@41126@United Nations Mine Action Service@Service de l'action antimines des Nations Unies@UNMAS@UNMAS
+@41127@United Nations Office of Co-ordination of Humanitarian Affairs@Bureau des Nations Unies pour la coordination de l'assistance humanitaire@UNOCHA@UNOCHA
+@41128@United Nations Office on Drugs and Crime@Office des Nations Unies contre la drogue et le crime@UNODC@UNODC
+@41129@United Nations Research Institute for Social Development@Institut de recherche des Nations Unies pour le développement social@UNRISD@UNRISD
+@41130@United Nations Relief and Works Agency for Palestine Refugees in the Near East@Office de secours et de travaux des Nations Unies pour les réfugiés de Palestine dans le Proche-Orient@UNRWA@UNRWA
+@41131@United Nations System Staff College@Ecole des cadres du système des Nations Unies@UNSSC@UNSSC
+@41132@United Nations System Standing Committee on Nutrition@Comité permanent de la nutrition du système des Nations Unies@UNSCN@UNSCN
+@41134@United Nations University (including Endowment Fund)@Université des Nations Unies (y compris le Fonds de dotation)@UNU@UNU
+@41135@United Nations Volunteers@Programme des volontaires des Nations Unies@UNV@UNV
+@41136@United Nations Voluntary Fund on Disability@Fonds de contributions voluntaires des Nations Unies pour les handicapés@UNVFD@
+@41137@United Nations Voluntary Fund for Technical Co-operation in the Field of Human Rights@Fonds de contributions volontaires des Nations Unies pour la coopération technique dans le domaine des droits de l'homme@UNVFTC@
+@41138@United Nations Voluntary Fund for Victims of Torture@Fonds de contributions volontaires des Nations Unies pour les victimes de la torture@UNVFVT@
+@41140@World Food Programme@Programme alimentaire mondial@WFP@WFP
+@41141@United Nations Peacebuilding Fund (Window Two:  Restricted Contributions Only)@Fonds des Nations Unies pour la consolidation de la paix (Guichet deux:  contributions réservées)@PBF Window 2@PBF Window 2
+@41142@United Nations Democracy Fund@Fonds des Nations Unies pour la démocratie@UNDEF@UNDEF
+@41143@World Health Organisation - core voluntary contributions account@Organisation mondiale de la santé - compte de contributions volontaires sans objet désigné@WHO-CVCA@WHO-CVCA
+@41144@International Labour Organisation - Regular Budget Supplementary Account@Organisation internationale du Travail - Compte supplémentaire du budget ordinaire@ILO-RBSA@ILO-RBSA
+@41145@International Maritime Organization - Technical Co-operation Fund@Organisation maritime internationale - Programme intégré de coopération technique@IMO-TCF@IMO-TCF
+@41146@United Nations Entity for Gender Equality and the Empowerment of Women@Entité des Nations Unies pour l'égalité des sexes et l'autonomisation de la femme@UNWOMEN@UNWOMEN
+@41147@Central Emergency Response Fund@Fonds central pour les interventions d'urgence@CERF@CERF
+@41148@United Nations Department of Political Affairs, Trust Fund in Support of Political Affairs@Département des affaires politiques des Nations unies, fonds fiduciaire de soutien aux affaires politiques@UNDPA-SZA@UNDPA-SZA
+@41301@Food and Agricultural Organisation@Organisation des Nations Unies pour l'alimentation et l'agriculture@FAO@FAO
+@41302@International Labour Organisation - Assessed Contributions@Organisation internationale du travail - contributions obligatoires@ILO-Assessed@ILO-Assessed
+@41303@International Telecommunications Union@Union internationale des télécommunications@ITU@ITU
+@41304@United Nations Educational, Scientific and Cultural Organisation@Organisation des Nations Unies pour l’éducation, la science et la culture@UNESCO@UNESCO
+@41305@United Nations@Organisation des Nations Unies@UN@UN
+@41306@Universal Postal Union@Union postale universelle@UPU@UPU
+@41307@World Health Organisation - assessed contributions@Organisation mondiale de la santé - contributions obligatoires@WHO-Assessed@WHO-Assessed
+@41308@World Intellectual Property Organisation@Organisation mondiale de la propriété intellectuelle@WIPO@WIPO
+@41309@World Meteorological Organisation@Organisation météorologique mondiale@WMO@WMO
+@41310@United Nations Department of Peacekeeping Operations@Département des opérations de maintien de la paix des Nations unies [seulement MINURSO, MINUSCA, MINUSMA, MINUSTAH, MONUSCO, MINUAD, FINUL, FISNUA, MINUK, MINUL, MINUS (terminée en juillet 2011), UNMISS, MINUT (terminée en décembre 2012), ONUCI]. Notifier les contributions mission par mission au format SNPC++.@UNDPKO@UNDPKO
+@41311@United Nations Peacebuilding Fund (Window One:  Flexible Contributions Only)@Fonds des Nations Unies pour la consolidation de la paix (Guichet un:  contributions sans conditions)@PBF Window 1@PBF Window 1
+@41312@International Atomic Energy Agency - assessed contributions@Agence internationale de l'énergie atomique - contributions obligatoires@IAEA-Assessed@IAEA-Assessed
+@41313@United Nations High Commissioner for Human Rights (extrabudgetary contributions only)@Haut-Commissariat des Nations unies aux droits de l'homme (contributions extrabudgétaires uniquement)@OHCHR@OHCHR
+@41314@United Nations Economic Commission for Europe (extrabudgetary contributions only)@Commission économique des Nations unies pour l'Europe (contributions extrabudgétaires uniquement)@UNECE@UNECE
+@41315@United Nations International Strategy for Disaster Reduction@Stratégie internationale des Nations Unies pour la prévention de catastrophes@UNISDR@UNISDR
+@41316@United Nations Framework Convention on Climate Change@Convention-cadre des Nations unies sur les changements climatiques@UNFCCC@UNFCCC
+@42000@European Union Institutions@Institution de l’Union européenne (UE)@@
+@42001@European Commission - Development Share of Budget@Commission européenne - partie du budget affectée au développement@EC@EC
+@42002@European Commision - Unspecified@@@
+@42003@European Commission - European Development Fund@Commission européenne - Fonds européen de développement@EDF@EDF
+@42004@European Investment Bank@Banque européenne d'investissement@EIB@EIB
+@43000@International Monetary Fund@Fonds monétaire international (FMI)@@
+@43001@International Monetary Fund - Poverty Reduction and Growth Trust@Fonds monétaire international - Facilité pour la réduction de la pauvreté et pour la croissance@IMF-PRGT@IMF-PRGT
+@43002@International Monetary Fund - Poverty Reduction and Growth - Heavily Indebted Poor Countries Debt Relief Initiative Trust Fund [includes HIPC, Extended Credit Facility (ECF), and ECF-HIPC sub-accounts]@Fonds monétaire international - Réduction de la pauvreté et croissance - Initiative d’allègement de la dette en faveur des pays pauvres très endettés [y compris Initiative PPTE, Facilité élargie de crédit (FEC) et sous-comptes (FEC-PPTE)]@IMF-PRG-HIPC@IMF-PRG-HIPC
+@43003@International Monetary Fund - Subsidization of Emergency Post Conflict Assistance/Emergency Assistance for Natural Disasters for PRGT-eligible members@Fonds monétaire international - Aide d’urgence après un conflit (EPCA) et aide d’urgence à la suite de catastrophes naturelles (ENDA) pour les membres pouvant bénéficier de la FRPC@IMF-EPCA-ENDA@IMF-EPCA-ENDA
+@43004@International Monetary Fund - Poverty Reduction and Growth - Multilateral Debt Relief Initiative Tru@Fonds monétaire international - Facilité pour la réduction de la pauvreté et pour la croissance - Initiative d’allègement de la dette multilatérale@IMF-PRG-MDRI@IMF-PRG-MDRI
+@44000@World Bank Group@Groupe de la Banque mondiale (BM)@@
+@44001@International Bank for Reconstruction and Development@Banque internationale pour la reconstruction et le développement@IBRD@IBRD
+@44002@International Development Association@Association internationale de développement@IDA@IDA
+@44003@International Development Association - Heavily Indebted Poor Countries Debt Initiative Trust Fund@Association internationale de développement - Fonds fiduciaire de l'IDA en faveur des pays pauvres très endettés@IDA-HIPC@IDA-HIPC
+@44004@International Finance Corporation@Société financière internationale@IFC@IFC
+@44005@Multilateral Investment Guarantee Agency@Agence multilatérale de garantie des investissements@MIGA@MIGA
+@44006@Advance Market Commitments@Garanties de marché@AMCs@AMCs
+@44007@International Development Association - Multilateral Debt Relief Initiative@Association internationale de développement - Initiative d’allégement de la dette multilatérale@IDA-MDRI@IDA-MDRI
+@45000@World Trade Organisation@Organisation mondiale du commerce (OMC)@@
+@45001@World Trade Organisation - International Trade Centre@Centre du commerce international de l'Organisation mondiale du commerce@WTO-ITC@WTO-ITC
+@45002@World Trade Organisation - Advisory Centre on WTO Law@Centre consultatif sur la législation de l'Organisation mondiale du commerce@WTO-ACWL@WTO-ACWL
+@45003@World Trade Organisation - Doha Development Agenda Global Trust Fund@Organisation mondiale du commerce - Fonds global d'affectation spéciale pour le Programme de Doha pour le développement@WTO-DDAGTF@
+@46000@Regional Development Banks@Banque régionale de développement (BRD)@@
+@46002@African Development Bank@Banque africaine de développement@Afr.DB@Afr.DB
+@46003@African Development Fund@Fonds africain de développement@Afr.DF@Afr.DF
+@46004@Asian Development Bank@Banque asiatique de développement@AsDB@AsDB
+@46005@Asian Development Fund@Fonds asiatique de développement@AsDF@AsDF
+@46006@Black Sea Trade and Development Bank@Black Sea Trade and Development Bank@BSTDB@BSTDB
+@46007@Central American Bank for Economic Integration@Banque centroaméricaine d'intégration économique@CABEI@CABEI
+@46008@Andean Development Corporation@Société andine de développement@CAF@CAF
+@46009@Caribbean Development Bank@Banque de développement des Caraïbes@CDB@CDB
+@46012@Inter-American Development Bank, Inter-American Investment Corporation and Multilateral Investment Fund@Banque interaméricaine de développement, Société interaméricaine d'investissements, Fonds multilatéral d'investissements@IDB@IDB
+@46013@Inter-American Development Bank, Fund for Special Operations@Banque interaméricaine de développement, Fonds opérations spécial@IDB FSO@IDB FSO
+@46015@European Bank for Reconstruction and Development@Banque européenne pour la reconstruction et le développement@EBRD@EBRD
+@46016@European Bank for Reconstruction and Development - technical co-operation and special funds  (ODA-eligible countries only)@Banque européenne pour la reconstruction et le développement - coopération technique et fonds spéciaux (pays éligibles à l'APD)@EBRD TFs - ODA Countries Only@EBRD TFs - ODA Countries Only
+@46017@European Bank for Reconstruction and Development - technical co-operation and special funds (all EBRD countries of operations)@Banque européenne pour la reconstruction et le développement - coopération technique et fonds spéciaux (tous pays)@EBRD TFs - All Countries@EBRD TFs - All Countries
+@46018@European Bank for Reconstruction and Development - Early Transition Countries Fund@Banque européenne de reconstruction et de développement - Initiative en faveur des pays en transition précoce@EBRD-ETC@EBRD-ETC
+@46019@European Bank for Reconstruction and Development - Western Balkans Joint Trust Fund@Banque européenne de reconstruction et de développement - Fonds spécial pour les Balkans occidentaux@EBRD-WBJTF@EBRD-WBJTF
+@46020@Central African States Development Bank@Banque de développement des États de l'Afrique Centrale@BDEAC@BDEAC
+@46021@West African Development Bank@Banque ouest-africaine de développement@BOAD@BOAD
+@46022@African Export Import Bank@Banque Africaine d'Import-Export@Afreximbank@Afreximbank
+@46023@Eastern and Southern African Trade and Development Bank@Banque de l’Afrique de l’Est et de l’Afrique Australe pour le Commerce et le Développement@PTA Bank@PTA Bank
+@46024@Council of Europe Development Bank@Banque de Développement du Conseil de l'Europe@CEB@CEB
+@47000@Other Multilateral Institutions@Autre institution multilatérale@@
+@47003@Association of South East Asian Nations: Economic Co-operation@Association des nations de l'Asie du Sud-Est - coopération économique@ASEAN@ASEAN
+@47004@Other Multilateral Institution - Unspecified 1@@@
+@47005@African Union (excluding peacekeeping facilities)@Union Africaine (à l'exclusion de la Facilité de soutien à la paix)@AU@AU
+@47008@World Vegetable Centre@Centre international de cultures maraîchères@AVRDC@AVRDC
+@47010@Commonwealth Agency for Public Administration and Management@Agence du Commonwealth pour l'administration et la gestion publiques@CAPAM@CAPAM
+@47011@Caribbean Community Secretariat@Secrétariat de la Communauté des Caraïbes@CARICOM@CARICOM
+@47014@Other Multilateral Institution - Unspecified 2@@@
+@47015@CGIAR Fund@CGIAR Fund@CGIAR@CGIAR
+@47017@International Centre for Tropical Agriculture@Centre international d'agriculture tropicale@CIAT@CIAT
+@47018@Centre for International Forestry Research@Centre de recherche forestière internationale@CIFOR@CIFOR
+@47020@International Maize and Wheat Improvement Centre@Centre international d’amélioration du maïs et du blé@CIMMYT@CIMMYT
+@47021@International Potato Centre@Centre international de la pomme de terre@CIP@CIP
+@47031@Other Multilateral Institution - Unspecified 3@@@
+@47034@Economic Community of West African States@Communauté économique des Etats de l’Afrique de l’Ouest@ECOWAS@ECOWAS
+@47035@Environmental Development Action in the Third World@Environnement et développement du Tiers-monde@ENDA@ENDA
+@47041@Food and Fertilizer Technology Centre@Centre des techniques de l'alimentation et des engrais@FFTC@FFTC
+@47043@Global Crop Diversity Trust@Global Crop Diversity Trust@@
+@47044@Global Environment Facility Trust Fund@Fonds pour l'environnement mondial - fonds fiduciaire@GEF@GEF
+@47045@Global Fund to Fight AIDS, Tuberculosis and Malaria@Fonds mondial de lutte contre le SIDA, la tuberculose et la paludisme@Global Fund@Global Fund
+@47046@International Organisation of the Francophonie@Organisation internationale de la Francophonie@OIF@OIF
+@47049@Other Multilateral Institution - Unspecified 4@@@
+@47051@International Centre for Agricultural Research in Dry Areas@Centre international de recherche agricole dans les zones arides@ICARDA@ICARDA
+@47053@International Centre for Diarrhoeal Disease Research, Bangladesh@International Centre for Diarrhoeal Disease Research, Bangladesh@ICDDR,B@ICDDR,B
+@47054@International Centre of Insect Physiology and Ecology@Centre international sur la physiologie et l’écologie des insectes@ICIPE@ICIPE
+@47055@International Centre for Development Oriented Research in Agriculture@Centre International pour la Recherche Agricole orientée vers le développement@ICRA@ICRA
+@47056@World AgroForestry Centre@Centre mondial de l’agroforesterie@ICRAF@ICRAF
+@47057@International Crop Research for Semi-Arid Tropics@Institut international de recherche sur les cultures des zones tropicales semi-arides@ICRISAT@ICRISAT
+@47062@International Institute of Tropical Agriculture@Institut international d’agriculture tropicale@IITA@IITA
+@47063@International Livestock Research Institute@International Livestock Research Institute@ILRI@ILRI
+@47066@International Organisation for Migration@Organisation internationale des migrations@IOM@IOM
+@47069@Bioversity International@Bioversity International@@
+@47070@International Rice Research Institute@Institut international de recherche sur le riz@IRRI@IRRI
+@47071@International Seed Testing Association@Association internationale d’essais de semences@ISTA@ISTA
+@47075@International Water Management Institute@Institut international de gestion des ressources en eau@IWMI@IWMI
+@47078@Multilateral Fund for the Implementation of the Montreal Protocol@Fonds multilatéral pour l’application du Protocole de Montréal@Montreal Protocol@Montreal Protocol
+@47079@Organisation of American States@Organisation des États américains@OAS@OAS
+@47083@Pan-American Health Organisation@Organisation panaméricaine de la santé@PAHO@PAHO
+@47089@Southern African Development Community@Communauté pour le développement de l’Afrique australe@SADC@SADC
+@47094@Other Multilateral Institution - Unspecified 5@@@
+@47096@Secretariat of the Pacific Community@Secrétariat Général de la Communauté du Pacifique@SPC@SPC
+@47099@University of the South Pacific@Université du Pacifique Sud@USP@USP
+@47101@Africa Rice Centre@Centre du riz pour l’Afrique@WARDA@WARDA
+@47103@World Maritime University@Université maritime mondiale@WMU@WMU
+@47104@WorldFish Centre@Centre international pour l’aménagement des ressources bioaquatiques@WorldFish Centre@WorldFish Centre
+@47107@International Finance Facility for Immunisation@Facilité internationale de financement pour la vaccination@IFFIm@IFFIm
+@47108@Other Multilateral Institution - Unspecified 6@@@
+@47122@Global Alliance for Vaccines and Immunization@Alliance mondiale pour la vaccination et l’immunisation@GAVI@GAVI
+@47128@Nordic Development Fund@Nordic Development Fund@NDF@NDF
+@47129@Global Environment Facility - Least Developed Countries Fund@FEM Fonds pour les pays les moins avancés@GEF-LDCF@GEF-LDCF
+@47130@Global Environment Facility - Special Climate Change Fund@FEM Fonds spécial pour les changements climatiques@GEF-SCCF@GEF-SCCF
+@47131@Organization for Security and Co-operation in Europe@Organisation pour la sécurité et la oopération en Europe@OSCE@OSCE
+@47134@Clean Technology Fund@Fonds pour les technologies propres@CTF@CTF
+@47135@Strategic Climate Fund@Fonds stratégique pour le climat@SCF@SCF
+@47136@Global Green Growth Institute@Institut mondial de la croissance verte@GGGI@GGGI
+@47138@Council of Europe@Conseil de l’Europe@CoE@CoE
+@50000@OTHERS@AUTRE@@
+@51000@University, college or other teaching institution, research institute or think-tank@Université, institut d’éducation et autre institution d’enseignement, institut de recherche ou groupe de réflexion@@
+@51001@International Food Policy Research Institute@Institut International de Recherche sur les Politiques Alimentaires@IFPRI@IFPRI
+@52000@Other@Autre@@
+@NA@Channel Unspecified@@@

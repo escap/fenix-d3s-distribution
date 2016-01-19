@@ -1,5 +1,6 @@
 package org.fao.ess.rlm.d3s;
 
+import org.fao.fenix.commons.msd.dto.full.DSD;
 import org.fao.fenix.commons.msd.dto.full.DSDColumn;
 import org.fao.fenix.commons.msd.dto.full.DSDDataset;
 import org.fao.fenix.commons.msd.dto.full.MeIdentification;
@@ -9,14 +10,12 @@ import org.fao.fenix.d3s.wds.dataset.WDSDatasetDao;
 
 import javax.inject.Inject;
 import java.sql.*;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
 
 public class RLM extends WDSDatasetDao {
 
-    private static final String[] masterTableColumns = new String[]{"country", "year", "year_label", "indicator", "indicator_label", "qualifier", "value", "um", "source", "topic"};
-    private static final int[] masterTableColumnsJdbcType = new int[]{Types.VARCHAR, Types.INTEGER, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR};
+    private static final String[] masterTableColumns = new String[]{"country", "year", "year_label", "indicator", "indicator_label", "qualifier", "value", "um", "source", "topic", "flag"};
+    private static final int[] masterTableColumnsJdbcType = new int[]{Types.VARCHAR, Types.INTEGER, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR};
 
     private static final Map<String, Integer> masterTableColumnsIndex = new HashMap<>();
     private static String insertQueryString;
@@ -52,9 +51,14 @@ public class RLM extends WDSDatasetDao {
 
     @Override
     public Iterator<Object[]> loadData(MeIdentification resource) throws Exception {
+        DSD dsd = resource!=null ? resource.getDsd() : null;
+        Collection<DSDColumn> columns = dsd!=null && dsd instanceof DSDDataset ? ((DSDDataset)dsd).getColumns() : null;
+        if (columns==null)
+            throw new Exception("Wrong table structure");
+
         Connection connection = dataSource.getConnection();
         try {
-            PreparedStatement statement = connection.prepareStatement(buildQuery(resource));
+            PreparedStatement statement = connection.prepareStatement(buildQuery(columns));
             statement.setString(1,getIndicator(resource.getUid()));
 
             return new DataIterator(statement.executeQuery(),connection,null,null);
@@ -96,7 +100,7 @@ public class RLM extends WDSDatasetDao {
             resultSet.close();
 
             //Update indicator label
-            connection.prepareStatement("UPDATE master SET indicator_label = ? WHERE INDICATOR = ?");
+            statement = connection.prepareStatement("UPDATE master SET indicator_label = ? WHERE INDICATOR = ?");
             statement.setString(1, indicatorLabel);
             statement.setString(2, getIndicator(resource.getUid()));
             statement.executeUpdate();
@@ -106,6 +110,7 @@ public class RLM extends WDSDatasetDao {
             connection.commit();
         } catch (Exception ex) {
             connection.rollback();
+            throw ex;
         } finally {
             try {
                 connection.setAutoCommit(true);
@@ -134,10 +139,10 @@ public class RLM extends WDSDatasetDao {
         return uid!=null && (uid.toLowerCase().startsWith("rlm.") || uid.toLowerCase().startsWith("rlm_")) ? uid.substring(4) : uid;
     }
 
-    private String buildQuery(MeIdentification<DSDDataset> resource) {
+    private String buildQuery(Collection<DSDColumn> columns) {
         StringBuilder select = new StringBuilder();
 
-        for (DSDColumn column : resource.getDsd().getColumns())
+        for (DSDColumn column : columns)
             if ("COUNTRY".equalsIgnoreCase(column.getId()))
                 select.append(",''||COUNTRY AS COUNTRY");
             else

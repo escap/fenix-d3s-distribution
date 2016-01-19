@@ -103,21 +103,26 @@ titleColumnIndex_EN=3
 
 --data--
 
+@N@National
+@area@Urban/Rural
 @gender@Gender
-@area@Area
 @incquant@Income quintiles
 @fhs@Farm holding size
 @pia@Participation in agriculture
-area@N@National
 area@R@Rural
 area@U@Urban
-incquant@Q1@Income quantile 1
-incquant@Q2@Income quantile 2
-incquant@Q3@Income quantile 3
-incquant@Q4@Income quantile 4
-incquant@Q5@Income quantile 5
-fhs@NS@Non-smallholder households
-fhs@S@Smallholder households
-gender@M@Male headed households
-gender@F@Female headed households
-pia@IA30@30% threshold
+gender@M@Male
+gender@F@Female
+gender@MH@Male headed households
+gender@FH@Female headed households
+incquant@Q1@Income quintile 1
+incquant@Q2@Income quintile 2
+incquant@Q3@Income quintile 3
+incquant@Q4@Income quintile 4
+incquant@Q5@Income quintile 5
+fhs@SF@Smallholder farms
+fhs@NSF@Non-smallholder farms
+fhs@NF@Non-farmers
+pia@APG30@Income from agriculture greater than 30%
+pia@APL30@Income from agriculture lower than 30%
+pia@APNO@No income from agriculture

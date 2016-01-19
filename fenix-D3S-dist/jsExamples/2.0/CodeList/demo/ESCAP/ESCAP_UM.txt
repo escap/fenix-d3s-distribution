@@ -1,0 +1,302 @@
+
+
+{
+    "uid": "ESCAP_UM",
+	"version": null,
+    "language": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "languageDetails": null,
+    "title": {
+        "EN": "Units of measurement"
+    },
+    "creationDate": null,
+    "characterSet": {
+        "codes": [{
+            "code": "106"
+        }],
+        "idCodeList": "IANAcharacterSet",
+        "version": null
+    },
+
+    "parentIdentifiers": null,
+    "metadataStandardName": "FENIX metadata",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+        "codes": [
+            {
+                "code": "eng"
+            }
+        ],
+        "idCodeList": "ISO639-2",
+        "version": "1998"
+    },
+
+    "contacts": [
+        {
+            "organization": {
+                "EN": "ESCAP"
+            },
+            "organizationUnit": {
+                "EN": "SD"
+            },
+            "name": null,
+            "position": null,
+            "role": "distributor",
+            "contactInfo": {
+                "phone ": null,
+                "address": null,
+                "emailAddress": null,
+                "hoursOfService": null,
+                "contactIntruction": null
+            }
+        }
+    ],
+    "noDataValue": null,
+
+    "meContent": {
+        "resourceRepresentationType": "codelist",
+        "keywords": ["um","unit","unit of measurement"],
+        "description": null,
+        "statisticalConceptsDefinitions": null,
+        "seCoverage": {
+            "coverageSectors":
+                {
+                    "codes": [
+                        {
+                            "code": null
+                        }
+                    ],
+                    "idCodeList": null,
+                    "version": null
+                }
+        },
+        "seCodeList"  : {
+            "numberOfLevels": 1,
+            "typeOfCodeList": "list"
+        }
+
+    },
+    "meAccessibility": {
+        "seDataDissemination" : {
+            "seDistribution" : {
+                "onlineResource": null,
+                "disseminationFormat": null
+            }
+        },
+
+        "seConfidentiality" : {
+            "confidentialityStatus": {
+                "codes": [
+                    {
+                        "code": "F"
+                    }
+                ],
+                "idCodeList": "CL_CONF_STATUS",
+                "version": "1.0"
+            }
+        }
+
+
+    },
+		"dsd":{
+      "contextSystem":"ESCAP"
+   }
+}
+
+--structure--
+csvSeparator=@
+structure=tree
+dateFormat=dd/mm/yyyy
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+
+
+--data--
+
+
+@443@Percentage
+@444@Per 1,000 population
+@448@Live births per woman
+@454@Million US dollars
+@462@Years
+@487@% of urban population
+@489@Population per km2
+@506@ODP metric tons
+@507@Thousand tons per capita
+@509@Km2
+@516@Micrograms per m3
+@517@Kg per day
+@528@% of GDP
+@531@% per annum
+@539@% of primary school age children
+@541@% of grade 1 students
+@543@% of secondary school age children
+@545@% of tertiary school age population
+@549@Ratio
+@554@Live births per 1,000 women (aged 15-19)
+@557@% of population aged 15 and above
+@565@% of total government expenditure
+@568@% of GDP per capita
+@590@Kg of oil equivalent per capita
+@591@Kg of oil equivalent per 1,000 dollars GDP (2005 PPP)
+@593@kWh per capita
+@594@Number
+@602@M3 per capita per annum
+@603@% of total renewable water per annum
+@604@Billion m3 per annum
+@605@% of total water withdrawal
+@612@Per 100,000 population
+@618@% of females
+@619@% of males
+@620@Litres per annum
+@621@% of population aged 13-15
+@625@% of exports of goods, services and income from abroad
+@630@National currency per US dollar
+@644@Per 100 population
+@663@Deaths per 1,000 live births
+@664@% of children under 5
+@665@Deaths per 100,000 live births
+@687@% of total health expenditure
+@690@% of private health expenditure
+@694@Index
+@721@% of total employment
+@722@% of females aged 15 and above
+@723@% of males aged 15 and above
+@724@% of labour force
+@725@% of labour force aged 15-24
+@726@% of female labour force aged 15-24
+@727@% of male labour force aged 15-24
+@745@Grams per capita
+@748@% of land area
+@749@% of surface area
+@834@Thousand tons of oil equivalent
+@862@Million (2005 PPP dollars)
+@868@Grams per 1,000 dollars GDP (2005 PPP)
+@880@Thousands
+@884@% of roads
+@900@Km
+@901@Km of road per 1,000 km2  land area
+@995@Per 10,000 population
+@1000@Per capita PPP dollars
+@1080@% of territorial water
+@1110@US Dollars
+@1121@% of population aged 15-24
+@1187@% of value added
+@1212@2005 PPP dollars
+@1350@Million ton-km
+@1351@Million passenger-km
+@1408@Million tons of CO2
+@1468@% of forest area
+@1469@% of total final energy consumption
+@1690@Thousand tons
+@1887@% of female labour force
+@1888@% of male labour force
+@2012@Number of species
+@2030@Kg per capita
+@2031@Million TEU
+@2036@% of total commercial services imports
+@2037@% of total commercial services exports
+@2057@Current PPP dollars per capita
+@2072@Million metric tons of CO2 equivalent
+@2140@Metric tons per 1,000 USD GDP
+@2251@Deaths per 100,000 population
+@2311@Million 2005 US dollars
+@2330@Million tons of oil equivalent
+@2379@1000 subscribers
+@2383@2005 US dollars per capita
+@2422@Per million inhabitants
+@2423@% of R&D headcount
+@2514@Males per 100 females
+@2515@Boys per 100 girls
+@2521@Female-to-male ratio
+@2522@Pupils per teacher
+@2523@% of employed females
+@2524@% of employed males
+@2525@Employed females per 100 employed males
+@2526@Female employers per 100 male employers
+@2527@% change per annum
+@2528@Thousands per annum
+@2529@Number per annum
+@2544@% of 15-24 year old males
+@2545@% of 15-24 year old females
+@2546@% of 15-49 years old
+@2547@% of 15-49 year old females
+@2548@% of children under 1
+@2549@% of 1-year-olds
+@2550@% of income/consumption
+@2551@% of live births
+@2553@% of new tuberculosis cases
+@2554@% of population
+@2555@% of population with advanced HIV
+@2556@% of seats
+@2557@% of women with a live birth
+@2558@% of YLL
+@2561@% change per capita per annum
+@2562@% of poverty line
+@2563@% of government expenditure
+@2564@Number of deaths
+@2565@Number of seats
+@2566@Income equality coefficient
+@2567@Thousand deaths
+@2568@Million 2005 US dollars per annum
+@2569@Per million population
+@2570@2005 PPP dollars per capita
+@2571@Millions
+@2574@Km of railway per 1,000 km2 land area
+@2575@% change per 1000 GDP per annum
+@2576@US dollars per capita
+@2622@Million PPP dollars
+@2646@Per million dollars of GDP
+@2665@Kcal/caput/day
+@2714@Kilograms
+@2718@Thousand tons of CO2 equivalent
+@2720@Tonnes
+@2809@GWh
+@2810@% of TPES
+@2811@% of total of exports
+@2812@% of total of imports
+@2827@Metric tonnes of CO2 equivalent per capita
+@2875@% of total merchandise exports
+@2876@% of total merchandise imports
+@2877@% of total merchandise trade
+@2894@1,000 2005 PPP dollars
+@2905@% of total energy consumption in transport
+@2926@% of the population in the relevant official age group
+@3013@% of TFC
+@3014@% of electricity production
+@3017@Thousand people
+@3019@Million (2011 PPP dollars)
+@3065@2011 PPP dollars per capita
+@3098@% of total services imports
+@3099@% of total services exports
+@3249@Number of agreements
+@3270@Day
+@3658@Grams per 1 dollar GDP (2011 PPP)
+@3660@Kg of oil equivalent per 1,000 dollars GDP (2011 PPP)
+@3690@USD/Litre
+@3691@USD/MWh
+@3698@2011 PPP dollars
+@3712@Mbit/s
+@3779@kg per hectare of arable land
+@3815@Kg per 1 US dollar (2005 GDP)
+@3845@% of all energy sources
+@3892@Kg/capita/year
+@3901@Constant 2005 US dollar
+@3904@Scores
+@3924@metric tons of nutrients
+@3928@% of rural population
+@3972@Million tonnes
+@3975@2005 US dollars
+@3976@hg per hectare
+@3979@constant 2004-2006 1000 I$
+@3980@2004-2006=100
+@3999@% average value

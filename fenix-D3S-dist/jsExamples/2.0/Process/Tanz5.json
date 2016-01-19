@@ -1,0 +1,83 @@
+[
+  {
+    "name": "filter",
+    "parameters": {
+      "rows": {
+        "flowcode": {
+          "codes": [
+            {
+              "uid": "crs_flow_types",
+              "version": "2015",
+              "codes": [
+                "10_12",
+                "10_11",
+                "10_13",
+                "10_19"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "filter",
+    "parameters": {
+      "rows": {
+        "purposecode": {
+          "codes": [
+            {
+              "uid": "crs_purposes",
+              "version": "2015",
+              "codes": [
+                "60010",
+                "60020",
+                "60030",
+                "60040",
+                "60061",
+                "60062",
+                "60063"
+              ]
+            }
+          ]
+        },
+        "year": {
+          "time": [
+            {
+              "from": 2000,
+              "to": 2013
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "pggroup",
+    "parameters": {
+      "by": [
+        "purposecode"
+      ],
+      "aggregations": [
+        {
+          "columns": [
+            "value"
+          ],
+          "rule": "SUM"
+        },
+        {
+          "columns": [
+            "unitcode"
+          ],
+          "rule": "PGFIRST"
+        },
+        {
+          "columns": [
+            "unitname"
+          ],
+          "rule": "PGFIRST"
+        }
+      ]
+    }
+  }
+]

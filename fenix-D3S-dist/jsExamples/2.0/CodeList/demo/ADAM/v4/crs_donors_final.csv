@@ -1,0 +1,168 @@
+{
+   "characterSet": {
+      "codes": [
+         {
+            "code": "106"
+         }
+      ], 
+      "idCodeList": "IANAcharacterSet", 
+      "version": null
+   }, 
+   "contacts": [
+      {
+         "contactInfo": {
+            "address": null, 
+            "emailAddress": null, 
+            "phone ": null
+         }, 
+         "name": null, 
+         "organization": {
+            "EN": "Organisation for Economic Co-operation and Development (OECD)"
+         }, 
+         "organizationUnit": null, 
+         "role": null
+      }
+   ], 
+   "dsd": {
+      "contextSystem": "adam"
+   }, 
+   "language": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "languageDetails": null, 
+   "meAccessibility": {
+      "seConfidentiality": {
+         "confidentialityStatus": {
+            "codes": [
+               {
+                  "code": "F"
+               }
+            ], 
+            "idCodeList": "CL_CONF_STATUS", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "meContent": {
+      "description": {
+         "EN": "OECD Creditor Reporting System (CRS) code list for Donors"
+      }, 
+      "keywords": [
+         "crs", 
+         "code", 
+         "codes"
+      ], 
+      "resourceRepresentationType": "codelist", 
+      "seCodeList": {
+         "numberOfLevels": "1", 
+         "typeOfCodeList": "list"
+      }, 
+      "seCoverage": {
+         "coverageSectors": {
+            "codes": [
+               {
+                  "code": "06"
+               }
+            ], 
+            "idCodeList": "FENIX_Subjects", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "metadataLanguage": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "metadataStandardName": "FENIX metadata", 
+   "metadataStandardVersion": "1.0", 
+   "title": {
+      "EN": "OECD Donors"
+   }, 
+   "uid": "crs_donors", 
+   "version": "2015"
+}
+--structure--
+csvSeparator=@
+codeColumnsIndex=1,2
+titleColumnIndex_EN=3
+
+--data--
+@1012@Adaptation Fund
+@913@AfDB (African Dev. Bank)
+@914@AfDF (African Dev.Fund)
+@921@Arab Fund (AFESD)
+@915@AsDB (Asian Dev. Bank)
+@916@AsDB Special Funds
+@801@Australia
+@1@Austria
+@953@BADEA
+@2@Belgium
+@1601@Bill & Melinda Gates Foundation
+@301@Canada
+@1011@Climate Investment Funds (CIF)
+@1013@Council of Europe Development Bank (CEB)
+@68@Czech Republic
+@3@Denmark
+@990@EBRD
+@82@Estonia
+@918@EU Institutions
+@18@Finland
+@4@France
+@1311@GAVI
+@811@GEF
+@5@Germany
+@1312@Global Fund
+@1313@Global Green Growth Institute (GGGI)
+@40@Greece
+@901@IBRD
+@20@Iceland
+@905@IDA
+@909@IDB
+@912@IDB Sp.Fund
+@988@IFAD
+@903@IFC
+@958@IMF (Concessional Trust Funds)
+@21@Ireland
+@976@Isl.Dev Bank
+@6@Italy
+@701@Japan
+@742@Korea
+@552@Kuwait (KFAED)
+@22@Luxembourg
+@7@Netherlands
+@820@New Zealand
+@104@Nordic Dev.Fund
+@8@Norway
+@951@OFID
+@978@OSCE
+@76@Poland
+@9@Portugal
+@69@Slovak Republic
+@61@Slovenia
+@50@Spain
+@10@Sweden
+@11@Switzerland
+@971@UNAIDS
+@959@UNDP
+@948@UNECE
+@974@UNFPA
+@967@UNHCR
+@963@UNICEF
+@576@United Arab Emirates
+@12@United Kingdom
+@302@United States
+@923@UNPBF
+@964@UNRWA
+@966@WFP
+@928@WHO

@@ -1,0 +1,461 @@
+{
+   "characterSet": {
+      "codes": [
+         {
+            "code": "106"
+         }
+      ], 
+      "idCodeList": "IANAcharacterSet", 
+      "version": null
+   }, 
+   "contacts": [
+      {
+         "contactInfo": {
+            "address": null, 
+            "emailAddress": null, 
+            "phone ": null
+         }, 
+         "name": null, 
+         "organization": {
+               "EN": "Organisation for Economic Co-operation and Development (OECD)"
+            }
+         ,
+         "organizationUnit": null, 
+         "role": null
+      }
+   ], 
+   "language": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "languageDetails": null, 
+   "meAccessibility": {
+      "seConfidentiality": {
+         "confidentialityStatus": {
+            "codes": [
+               {
+                  "code": "F"
+               }
+            ], 
+            "idCodeList": "CL_CONF_STATUS", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "meContent": {
+      "description":
+         {
+            "EN": "OECD Creditor Reporting System (CRS) code list for Agencies"
+         }
+      ,
+      "keywords": [
+         "crs", 
+         "code", 
+         "codes"
+      ], 
+      "resourceRepresentationType": "codelist", 
+      "seCodeList": {
+         "numberOfLevels": "2", 
+         "typeOfCodeList": "tree"
+      }, 
+      "seCoverage": {
+         "coverageSectors": {
+            "codes": [
+               {
+                  "code": "06"
+               }
+            ], 
+            "idCodeList": "FENIX_Subjects", 
+            "version": "1.0"
+         }
+      }
+   }, 
+   "metadataLanguage": {
+      "codes": [
+         {
+            "code": "eng"
+         }
+      ], 
+      "idCodeList": "ISO639-2", 
+      "version": "1998"
+   }, 
+   "metadataStandardName": "FENIX metadata", 
+   "metadataStandardVersion": "1.0", 
+   "title":
+      {
+         "EN": "OECD Agencies"
+      }
+
+   ,
+   "uid": "adam_crs_agencies",
+   "version": "2015"
+}
+--structure--
+csvSeparator=@
+codeColumnsIndex=1,2
+titleColumnsIndex_EN=3
+titleColumnsIndex_FR=4
+shortTitleColumnsIndex_EN=5
+
+--data--
+@1@Austria@Autriche@
+1@1@Federal Ministry of Finance@Ministère fédéral des finances@BMF
+1@2@Various ministries@Ministères divers@MIN
+1@3@Federal Government of Austria@Gouvernement fédéral d’Autriche@BReg
+1@4@Oesterreichische Kontrollbank AG@Oesterreichische Kontrollbank AG@OeKB
+76@3@Ministry of the Interior@@MI
+76@4@Ministry of Culture and National Heritage@@MCNH
+76@5@Ministry of Finance@@MF
+1@6@Provincial governments, local communities@Administrations provinciales, communautés locales@Reg
+1@7@Federal Chancellery@@BKA
+1@8@Austrian Development Agency@Agence autrichienne de développement@ADA
+1@9@Education and Science Ministry@Ministère de la science et de l’éducation@BM/BWK
+1@10@Ministry for Agriculture and Environment@Ministère de l’agriculture et de l’environnement@BMLFUW
+1@11@Ministry of Defense@Ministère de la défense@BMLV
+1@12@Ministry of Interior@Ministère de l’intérieur@BMI
+1@13@Austrian Development Bank@@OeEB
+1@14@Ministry for Education, Arts and Culture@Ministère Fédéral de l’Education, des Arts et de la Culture@BM:UKK
+1@15@Ministry for Science and Research@@BMWF
+1@99@Miscellaneous@@MISC
+@2@Belgium@Belgique@
+2@10@Directorate General for Co-operation and Development@Direction générale pour la coopération et le développement@DGCD
+2@20@Official Federal Service of Foreign Affaires (excl. DGCD)@Service public fédéral des affaires étrangères (hors. DGCD)@SPAE
+2@30@Official Federal Service of Finance@Service public fédéral des finances@SPFF
+2@31@Ducroire National Office@Office national du Ducroire@OND
+2@39@Other Official Federal Services@Autres services publics fédéraux@ASPF
+2@60@provinces/municipalities@provinces/municipalités@LOC
+2@70@Flanders Official Regional Ministries@Ministères régionaux publics des Flandres@MPRF
+2@80@Walloon Official Regional Ministries@Ministères régionaux publics de Wallonie@MPRW
+2@91@Brussels Official Regional Ministries@Ministères régionaux publics de Bruxelles@MPRB
+2@94@German speaking Official Regional Ministries@Ministères régionaux publics de langue allemande@MPRG
+2@99@Miscellaneous@@MISC
+@3@Denmark@Danemark@
+3@1@Ministry of Foreign Affairs@Ministère des affaires étrangères@MFA
+3@72@Eksport Kredit Fonden@EKR@EKR
+3@99@Miscellaneous@@MISC
+@4@France@France@
+4@1@GOUV@@GOUV
+4@3@French Development Agency@Agence française de développement@AFD
+4@6@Ministry of Foreign Affairs@Ministère des affaires étrangères@MAE
+4@8@COOP DECENTRALISED@COOP DECENTRALISEE@COOP DECENTRALISEE
+4@10@Ministry of Economy, Finance and Industry@Ministère de l’économie, des finances et de l’industrie@MINEFI
+4@12@Ministry of Interior@Ministère de l’intérieur@Intérieur
+4@13@Ministry of Agriculture@Ministère de l'Agriculture@AGRI
+4@14@Ministry of Defense@Ministère de la Défense@DEF
+4@15@Inter-ministerial@Interministériel@INTER
+4@16@Other Ministries@Autres ministères@AUTRES
+4@17@Ministry of Higher education and Research@Ministère de l'enseignement supérieur et de la recherche@MESR
+4@37@MIN/TRAVAIL@Ministère du Travail, de l'Emploi, de la Formation professionnelle et du Dialogue social@MIN/TRAVAIL
+4@42@Banque de France@Banque de France@MINEFI/BDF
+4@43@Coface@Coface@Coface
+4@99@Miscellaneous@@MISC
+@5@Germany@Allemagne@
+5@1@Bundesministerium für Wirtschaftliche Zusammenarbeit und Entwicklung@Bundesministerium für Wirtschaftliche Zusammenarbeit und Entwicklung@BMZ
+5@2@Kreditanstalt für Wiederaufbau@Kreditanstalt für Wiederaufbau@KFW
+5@4@German Investment and Development Company@Compagnie allemande d’investissement et de développement@DEG
+5@5@Federal Ministry of Finance@@BMF
+5@7@Foreign Office@Bureau des affaires étrangères@F O
+5@9@Federal Ministry for the Env., Nature Conservation and Nuclear Safety@Min.féd. de l'Environnement,de la Prot. de la Nature et de la Sûreté nucl.@BMU
+5@12@Federal States and Local Governments@Etats fédéraux et collectivités territoriales@L G
+5@14@Federal Institutions@Institutions fédérales@Fed.Inst.
+5@15@Deutscher Entwicklungsdienst@Deutscher Entwicklungsdienst@DED
+5@16@Federal Ministries@Ministères fédéraux@Fed.Min.
+5@17@Foundations/Societies/Misc. (non federal)@Fondations/Sociétés/Divers (non fédéral)@Found
+5@34@Euler Hermes Kreditversicherungs-AG@Hermes Kreditversicherungs-AG@Euler Hermes
+5@52@Deutsche Gesellschaft für Internationale Zusammenarbeit@Deutsche Gesellschaft für Internationale Zusammenarbeit@GIZ
+5@60@Federal Ministry of the Interior@Ministère fédéral de l’Intérieur@BMI
+5@61@Federal Ministry of Justice and Consumer Protection@Ministère fédéral de la Justice et de la Protection des Consommateurs@BMVJ
+5@62@Federal Ministry for Economic Affairs and Energy@Ministère fédéral de l'Économie et de l'Énergie@BMWi
+5@63@Federal Ministry of Food and Agriculture@Ministère fédéral de l'Alimentation et de l'Agriculture@BMEL
+5@64@Federal Ministry of Defence@Ministère fédéral de la Défense@BMVg
+5@65@Federal Ministry of Family Affairs, Senior Citizens, Women and Youth@Ministère fédéral de la Famille, des Personnes âgées, de la Femme et de la Jeunesse@BMFSFJ
+5@66@Federal Ministry of Health@Ministère fédéral de la Santé@BMG
+5@67@Federal Ministry of Transport and Digital Infrastructure@Ministère fédéral des Transports et des Infrastructures numériques@BMVI
+5@68@Federal Ministry of Education and Research@Ministère fédéral de l’Éducation et de la Recherche@BMBF
+5@70@German Bundestag@Bundestag allemand@Bundestag
+5@80@Federal State of Schleswig-Holstein@@Schleswig-Holstein
+5@81@City State of Hamburg@@Hamburg
+5@82@Federal State of Lower-Saxony@@Niedersachsen
+5@84@Federal State of North Rhine-Westphalia@@Nordrhein-Westfalen
+5@85@Federal State of Hesse@@Hessen
+5@86@Federal State of Rhineland-Palatinate@@Rheinland-Pfalz
+5@87@Federal State of Baden-Württemberg@@Baden-Württemberg
+5@88@Federal State of Bavaria@@Bayern
+5@89@Federal State of Saarland@@Saarland
+5@90@City State of Berlin@@Berlin
+5@91@Federal State of Brandenburg@@Brandenburg
+5@92@Federal State of Mecklenburg-West Pomerania@@Mecklenburg-Vorpommern
+5@93@Federal State of Saxony-Anhalt@@Sachsen-Anhalt
+5@94@Federal State of Saxony@@Sachsen
+5@95@Federal State of Thuringia@@Thüringen
+5@99@Miscellaneous@@MISC
+@6@Italy@Italie@
+6@1@MGI@@MGI
+6@2@Agenzia Erogazioni Per l’Agricoltura@Agenzia Erogazioni Per l’Agricoltura@AGEA
+6@3@OGPI@@OGPI
+6@4@Direzione Generale per la Cooperazione allo Sviluppo@Direzione Generale per la Cooperazione allo Sviluppo@DGCS
+6@5@MC@@MC
+6@7@Central administration@Administration centrale@CA
+6@8@Local administration@Administration locale@LA
+6@9@Artigiancassa@Artigiancassa@Art.
+6@74@Sezione Speciale per l’Assicurazione del Credito all’Esportazione@Sezione Speciale per l’Assicurazione del Credito all’Esportazione@SACE
+6@99@Miscellaneous@@MISC
+@7@Netherlands@Pays-Bas@
+7@1@Ministry of Foreign Affairs (DGIS)@Ministère des affaires étrangères (DGIS)@MFA
+7@3@NG@@NG
+7@4@NLD Investment Bank for Developing Countries@Banque hollandaise d’investissement pour les pays en dev.@NIO
+7@5@FMO@@FMO
+7@33@Atradius@Atradius@Atradius
+7@99@Miscellaneous@@MISC
+@8@Norway@Norvège@
+8@1@Norwegian Agency for Development Co-operation@Agence norvégienne de coopération pour le développement@NORAD
+8@4@Ministry of Foreign Affairs@Ministère des affaires étrangères@MFA
+8@7@Innovation Norway@@IN
+8@8@NORFUND@NORFUND@NORFUND
+8@9@FK Norway@@FK
+8@10@Office of the Auditor General@@OAG
+8@11@Ministry of Defence@Ministère de la Défense@DEF
+8@12@Ministry of Climate and Environment@Ministère de Climat et de l'Environnement@ENV
+8@71@Garantiinstituttet for eksportkreditt@Garantiinstituttet for Eksportkreditt@GIEK
+8@99@Miscellaneous@@MISC
+@9@Portugal@Portugal@
+9@1@Portuguese Government@Gouvernement portugais@GP
+9@2@Institute for Portuguese Development Aid@Institut Portugais de l’Aide pour le Développement@IPAD
+9@3@Municipalities@Municipalités@MUNIC
+9@4@SOFID Sociedade para o Financiamento do Desenvolvimento@SOFID Société pour le Financement du Développement@SOFID Society for Development Financing
+9@71@Conselho de garantias financeiras@Conselho de garantias financeiras@COSEC
+9@99@Miscellaneous@@MISC
+@10@Sweden@Suède@
+10@1@SIDA@@SIDA
+10@2@Ministry of Foreign Affairs@Ministère des affaires étrangères@MFA
+10@3@SG@@SG
+10@4@SAREC@@SAREC
+10@5@BITS@@BITS
+10@6@Swedish International Development Authority@Administration suédoise de développement international@Sida
+10@71@Swedish Export Credits Guarantee Board@Comité suédois de garantie de crédits à l’exportation@EKN
+10@99@Miscellaneous@@MISC
+@11@Switzerland@Suisse@
+11@1@Federal Administration (various departments)@Administration fédérale (plusieurs départements)@FA
+11@4@Swiss Agency for Development and Co-operation@Agence suisse pour le développement et la coopération@SDC
+11@5@State Secretariat for Economic Affairs@Secrétariat d’Etat à l'économie@Seco
+11@6@Federal Department of Foreign Affairs@Département fédéral des affaires étrangères@DFA
+11@7@State Secretariat for Education and Research@Secrétariat d’Etat à l’éducation et à la recherche@SER
+11@8@Federal Office for Migration@Office fédéral des migrations@FOM
+11@9@Federal Department for Defence, Civil Protection and Sports@Dép. fédéral de la défense, de la protection de la population et des sports@DDPS
+11@10@Swiss Agency for the Environment, Forests and Landscape@Agence suisse pour l’environnement, les forêts et les paysages@SAEFL
+11@11@Municipalities@Municipalités@MUNIC
+11@99@Miscellaneous@@MISC
+@12@United Kingdom@Royaume-Uni@
+12@1@Department for International Development@Département pour le développement international@DFID
+12@2@CDC Capital Partners PLC@CDC Capital Partners PLC@CDC
+12@3@Foreign & Commonwealth Office@@FCO
+12@4@Department of Energy and Climate Change@Département de l'énergie et du changement climatique@DECC
+12@5@Export Credit Guarantee Department@Département de garantie de crédits à l’exportation@ECGD
+12@6@Home Office@@HO
+12@7@Department for Environment Food and Rural Affairs@Département pour l environnement, l alimentation et les affaires rurales@DEFRA
+12@8@Ministry of Defence@Ministère de la Défense@MOD
+12@9@Department for Work and Pensions@@DWP
+12@10@Department of Health@Ministère de la Santé@DH
+12@11@Department for Business, Innovation and Skills@@BIS
+12@12@Department for Culture, Media and Sports@Département de la Culture des Médias et du Sport@DCMS
+12@21@Scottish Government@Gouvenrment Ecossais@SG
+12@22@Welsh Assembly Government@Assemblée Gouvernementale Galloise@WAG
+12@99@Miscellaneous@@MISC
+@18@Finland@Finlande@
+18@1@Finnish Government@Gouvernement finlandais@FG
+18@2@FinnFund@FinnFund@FF
+18@3@Ministry of Foreign Affairs@Ministère des affaires étrangères@MFA
+18@4@Other Ministries@@Other Min.
+18@72@FinnVera@FinnVera@FinnVera
+18@99@Miscellaneous@@MISC
+@20@Iceland@Islande@
+20@1@Ministry of Foreign Affairs@Ministère des affaires étrangères@MFA
+20@2@ICEIDA@@ICEIDA
+20@3@ICRU@@ICRU
+@21@Ireland@Irlande@
+21@1@Department of Foreign Affairs@Département des affaires étrangères@DFA
+21@2@Department of Finance@@DF
+21@3@Department of Agriculture, Food and the Marine@@DAFM
+21@99@Miscellaneous@@MISC
+@22@Luxembourg@Luxembourg@
+22@1@Lux-Development@Lux-Development@LuxDev
+22@2@Ministry of Foreign Affairs@Ministère des affaires étrangères@MFA
+22@22@Ducroire Office@Bureau de Ducroire@ODL
+22@99@Miscellaneous@@MISC
+@40@Greece@Grèce@
+40@1@Ministry of the Interior@Ministère de l'intérieur@MI
+40@2@Ministry of Finance@Ministère des finances@MF
+40@3@Ministry of Foreign Affairs@Ministère des affaires étrangères@MFA
+40@4@Ministry of National Defense@Ministère de la défense nationale@MND
+40@5@Ministry of Development, Competitiveness & Shipping@Ministère du développement, de la compétitivité et de la navigation@MDCS
+40@6@Ministry of the Environment, Energy & Climate Change@Ministère de l’environnement, de l’énergie et du changement climatique@MEECC
+40@7@Ministry of Education, Life Long Learning & Religions@Ministère de l'éducation de la formation continue et des religions@MELLLR
+40@8@Ministry of Infrastructure, Transport and Networks@Ministère des infrastructures, des transports et des réseaux@MITN
+40@9@Ministry of Employment & Social Security@Ministère de l'emploi et de la sécurité sociale@MESS
+40@10@Ministry of Health & Social Solidarity@Ministère de la santé et de la solidarité sociale@MHSS
+40@11@Ministry of Agricultural Development & Food@Ministère du développement agricole et de l'alimentation@MADF
+40@12@Ministry of Justice, Transparency & Human Rights@Ministère de la Justice, de la transparence et des droits humains@MJTHR
+40@13@Ministry of Citizen Protection@Ministère de la protection des citoyens@MCP
+40@14@Ministry of Culture & Tourism@Ministère de la culture et du tourisme@MCT
+40@15@Municipalities@Municipalités@LA
+40@99@Miscellaneous@Divers@MISC
+@50@Spain@Espagne@
+50@1@Instituto de Credito Oficial@Instituto de Credito Oficial@ICO
+50@2@Compania Espanola de Seguros de Credito a la Exportacion@Compania Espanola de Seguros de Credito a la Exportación@CESCE
+50@4@Ministry of Agriculture, Fisheries, and Food@Ministère de l’agriculture, pêche et alimentation@AGR
+50@5@Ministry of Foreign Affairs and Co-operation@Ministère des affaires étrangères et cooperation@MFA
+50@6@Ministry of Economy and Competitiveness@Ministère de l’économie et de la compétitivité@ECON
+50@7@Ministry of Education, Culture and Sports@Ministère des sciences et de l’éducation@EDUC
+50@8@Ministry of Public Works@Ministère des travaux publics@MPW
+50@9@Ministry of Industry and Energy@Ministère de l’industrie et de l’énergie@MIE
+50@10@Ministry of the Environment and Rural and Marine Environs@Ministère de l’environnement@MARM
+50@11@Ministry of Health@Ministère de la santé@MOH
+50@12@Ministry of Labour and Social Affairs@Ministère de l’emploi et des affaires sociales@EMP
+50@13@Ministry of Interior@Ministère de l’intérieur@INT
+50@14@Ministry of Public Administration@Ministère de l’administration publique@MPA
+50@15@Autonomous Governments@Gouvernements autonomes@AG
+50@16@Municipalities@Municipalités@MUNIC
+50@18@Ministry of Science and Technology@Ministère des sciences et de la technologie@MST
+50@19@Ministry of Defence@Ministère de la Défense@DEF
+50@20@Public Universities@@UNIV
+50@21@Spanish Agency for International Development Co-operation@@AECID
+50@22@Others ministries@Autres ministères@Oth. Min.
+50@99@Miscellaneous@@MISC
+@61@Slovenia@Slovénie@
+61@1@Ministry of finance@Ministère des finances@FIN
+61@2@Ministry of foreign affairs@Ministère des affaires étrangères@MFA
+61@3@Ministry of interior@Ministère de l'intérieur@INT
+61@4@Ministry of  Defence@Ministère de la Défense@DEF
+61@99@Miscellaneous@Divers@MISC
+@68@Czech Republic@République tchèque@
+68@1@Czech Development Agency@@CZDA
+68@2@Ministry of Foreign Affairs@@MFA
+68@3@Ministry of Finance@@MOF
+68@4@Miinistry of Education, Youth, Sports@@MEYS
+68@5@Ministry of the Interior@@MOI
+68@6@Police@@Police
+68@7@Ministry of Defence@@MD
+68@8@Ministry of Health@@MH
+68@9@Ministry of Industry and Trade@@MIT
+68@10@Czech National Bank@@CNB
+68@11@Ministry of Justice@@MJ
+68@12@Ministry of Labour and Social Affairs@@MOLSA
+68@13@Universities@@Universities
+68@14@Regional Governments and Municipalities@@Regional Governments and Municipalities
+68@15@Ministry of Environment@@MOE
+68@16@State Office for Nuclear Saftey@@SUJB
+68@99@Other@@Other
+@76@Poland@Pologne@
+76@1@Ministry of Foreign Affairs@@MFA
+76@6@Ministry of the Environment@@ME
+76@99@Miscellaneous@@MISC
+@301@Canada@Canada@
+301@1@Canadian International Development Agency@Agence canadienne de développement international@CIDA
+301@2@International Development Research Centre@Centre de recherche pour le développement international@IDRC
+301@4@Department of Finance Canada@Département des Finances@FIN
+301@6@Foreign Affairs and International Trade Canada@Affaires étrangères et du Commerce international Canada@DFAIT
+301@7@Department of National Defence@Ministère de la Défense Nationale@DND
+301@8@Royal Canadian Mounted Police of Canada@Gendarmerie Royale du Canada@RCMP
+301@9@Provincial Governments and municipalities@Gouvernements provinciaux et municipalités@GOV
+301@31@Export Development Canada@Exportation et développement Canada@EDC
+301@99@Miscellaneous@@MISC
+@302@United States@Etats-Unis@
+302@1@Agency for International Development@Agence de développement international@AID
+302@2@Department of Agriculture@Département de l’agriculture@AGR
+302@6@Department of Treasury@Département du trésor@DTRE
+302@7@Department of Defense@Département de la défense@DOD
+302@9@Department of the Interior@@INTERIOR
+302@10@Peace Corps@Volontaires du développement (« Peace Corps »)@PEACE
+302@11@State Department@Département d’état@STATE
+302@12@Trade and Development Agency@Agence du commerce et du développement@TDA
+302@13@African Development Foundation@Fondation pour le développement africain@ADF
+302@14@Department of Health and Human Services@@HHS
+302@15@Department of Justice@@JUSTICE
+302@16@Department of Commerce@@COMMERCE
+302@17@Department of Labor@Département du travail@LABOR
+302@18@Millennium Challenge Corporation@@MCC
+302@19@Department of Homeland Security@@DHS
+302@20@Department of Energy@@DOE
+302@21@Inter-American Development Foundation@@IADF
+302@22@Overseas Private Investment Corporation@@OPIC
+302@23@Federal Trade Commission@@FTC
+302@24@Nuclear Regulatory Commission@@NRC
+302@25@National Science Foundation@@NSF
+302@26@Department of Transportation@@DOT
+302@27@United States Institute of Peace@@USIP
+302@28@Open World Leadership Center@@LIC
+302@29@United States Postal Service@@POSTAL
+302@30@Executive Office of the President@@EOP
+302@31@Export Import Bank@Banque d’import/export@EXIM
+302@32@Environmental Protection Agency@@EPA
+302@33@Broadcasting Board of Governors@@BBG
+302@40@Private flows@@PRIVATE
+302@99@Miscellaneous@@MISC
+@552@Kuwait (KFAED)@Koweit (FKDEA)@
+552@1@Kuwait Fund for Arab Economic Development@@KFAED
+552@2@Government Grants administered by KFAED@@
+552@99@Miscellaneous@@MISC
+@576@United Arab Emirates@Emirats arabes unis@
+576@2@Abu Dhabi Department of Finance@Département des finances d'Abu Dhabi@DOF
+576@3@Abu Dhabi Fund for Development@Fonds Abu Dhabi pour le développement@ADFD
+576@7@International Humanitarian City@@IHC
+576@17@Khalifa Bin Zayed Al Nahyan Foundation@Fondation Khalifa Bin Zayed Al Nahyan@KZF
+576@18@Mohammed Bin Rashid Al Maktoum Humanitarian and Charity Establishment@Etablissement humanitaire et de charité Mohammed Bin Rashid Al Maktoum@MRHC
+576@19@Zayed Bin Sultan Al Nahyan Charitable and Humanitarian Foundation@Etablissement humanitaire et de charité Zayed Bin Sultan Al Nahyan@ZCHF
+576@20@Al Maktoum Foundation@Fondation Al Maktoum@MF
+576@21@Dubai Cares@@DC
+576@22@UAE Red Crescent Authority@Autorité du Croissant Rouge des EAU@RCA
+576@23@Noor Dubai@@ND
+576@25@Other Government Entitites@autres entités gouvernementales@OTHER
+576@99@Miscellaneous@@MISC
+@701@Japan@Japon@
+701@1@Ministry of Agriculture, Forestry and Fisheries@Ministère de l’agriculture, de la sylviculture et de la pêche@MAFF
+701@2@Ministry of Foreign Affairs@Ministère des affaires étrangères@MOFA
+701@4@EXIM BANK@@EXIM BANK
+701@5@OECF@@OECF
+701@6@FOOD AID@@FOOD AID
+701@7@Overseas Fishery Co-operation Foundation@Bureau de coopération d’outre-mer pour la pêche@OFCF
+701@8@Japanese International Co-operation Agency@Agence japonaise de coopération internationale@JICA
+701@10@Japan Overseas Development Co-operation@Agence japonaise de coopération outre-mer@JODC
+701@11@Japan Bank for International Co-operation@Banque japonaise pour la coopération internationale@JBIC
+701@12@Other Ministries@Autres ministères@Oth. MIN
+701@13@Public Corporations@Corporations publiques@PC
+701@14@Prefectures@Préfectures@PRF
+701@15@Ordinance-designed Cities@Villes désignées par ordonnance@ODC
+701@71@Nippon Export and Investment Insurance@Assurance Nippone Exports et investissements@NEXI
+701@99@Miscellaneous@@MISC
+@742@Korea@Corée@
+742@1@Ministry of Strategy and Finance@@MOSF
+742@2@Export-Import Bank of Korea@@KEXIM
+742@3@Ministry of Foreign Affairs and Trade@@MOFAT
+742@4@Korea International Cooperation Agency@@KOICA
+742@99@Miscellaneous@@MISC
+@801@Australia@Australie@
+801@2@Attorney-General@@AG
+801@5@Australian government@Gouvernement australien@Aus Gov
+801@72@Export Finance and Insurance Corporation@Corporation de financement et d’assurance des exportations@EFIC
+801@99@Miscellaneous@@MISC
+@820@New Zealand@Nouvelle-Zélande@
+820@1@Ministry of Foreign Affairs and Trade@Ministère des affaires étrangères et du commerce@NZG
+820@2@New Zealand International Aid and Development Agency@Agence néozélandaise d’aide et de développement international@NZAid
+820@99@Miscellaneous@@MISC
+@918@EU Institutions@Institutions de l'UE@
+918@1@Commission of the European Communities@Commission des Communautés européennes@CEC
+918@2@European Development Fund@Fonds européen de développement@EDF
+918@3@European Investment Bank@Banque européenne d’investissement@EIB
+918@4@Humanitarian Aid Office of the European Commission@Bureau d’aide humanitaire de la Commission européenne@ECHO
+918@99@Miscellaneous@@MISC
+@1601@Bill & Melinda Gates Foundation@Fondation Bill et Melinda Gates@
+1601@1@Bill & Melinda Gates Foundation@Fondation Bill et Melinda Gates@
+1@5@Federal Ministry for European and International Affairs@Ministère fédéral des affaires étrangères@BMeiA
+3@2@Danish International Development Agency@@DANIDA
+5@69@Federal Government Commissioner for Culture and the Media@@BKM
+76@2@Ministry of Science and Higher Education@@MSHE
+5@71@Federal Ministry of Labour and Social Affairs@Ministère fédéral du Travail et des Affaires sociales@BMAS
+301@3@Department of Foreign Affairs, Trade and Development@Ministère des Affaires étrangères, du Commerce et du Développement@DFATD
+5@83@City State of Bremen@@Bremen

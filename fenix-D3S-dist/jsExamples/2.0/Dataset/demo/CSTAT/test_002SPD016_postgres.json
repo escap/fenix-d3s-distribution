@@ -1,0 +1,2018 @@
+{
+  "metadata": {
+    "creationDate": 1401444000000,
+    "language": {
+      "version": "1998",
+      "codes": [
+        {
+          "code": "eng",
+          "label": {
+            "EN": "English"
+          }
+        }
+      ],
+      "idCodeList": "ISO639-2"
+    },
+    "title": {
+      "EN": "Distribution of Area Sown for Primary Crops by Year, Administrative Level 1, Product (Ha)"
+    },
+    "dsd": {
+      "columns": [
+        {
+          "dataType": "year",
+          "key": true,
+          "id": "Year",
+          "title": {
+            "EN": "Year"
+          },
+          "values": {
+            "timeList": [
+              2011,
+              2012
+            ]
+          },
+          "subject": "time"
+        },
+        {
+          "dataType": "code",
+          "key": true,
+          "id": "AdministrativeLevel",
+          "title": {
+            "EN": "Area"
+          },
+          "values": {
+            "codes": [
+              {
+                "codes": [
+                  {
+                    "code": "279"
+                  },
+                  {
+                    "code": "280"
+                  },
+                  {
+                    "code": "281"
+                  },
+                  {
+                    "code": "277"
+                  },
+                  {
+                    "code": "278"
+                  },
+                  {
+                    "code": "283"
+                  },
+                  {
+                    "code": "284"
+                  },
+                  {
+                    "code": "285"
+                  },
+                  {
+                    "code": "282"
+                  },
+                  {
+                    "code": "288"
+                  },
+                  {
+                    "code": "287"
+                  },
+                  {
+                    "code": "289"
+                  },
+                  {
+                    "code": "286"
+                  },
+                  {
+                    "code": "292"
+                  },
+                  {
+                    "code": "291"
+                  },
+                  {
+                    "code": "293"
+                  },
+                  {
+                    "code": "290"
+                  },
+                  {
+                    "code": "296"
+                  },
+                  {
+                    "code": "297"
+                  },
+                  {
+                    "code": "295"
+                  },
+                  {
+                    "code": "294"
+                  },
+                  {
+                    "code": "300"
+                  },
+                  {
+                    "code": "301"
+                  },
+                  {
+                    "code": "299"
+                  },
+                  {
+                    "code": "298"
+                  },
+                  {
+                    "code": "273"
+                  },
+                  {
+                    "code": "272"
+                  },
+                  {
+                    "code": "303"
+                  },
+                  {
+                    "code": "302"
+                  },
+                  {
+                    "code": "276"
+                  },
+                  {
+                    "code": "275"
+                  },
+                  {
+                    "code": "274"
+                  }
+                ],
+                "idCodeList": "GAUL1_AFG"
+              }
+            ]
+          },
+          "domain": {
+            "codes": [
+              {
+                "idCodeList": "GAUL1_AFG"
+              }
+            ]
+          },
+          "subject": "geo"
+        },
+        {
+          "dataType": "code",
+          "key": true,
+          "id": "Product",
+          "title": {
+            "EN": "Product"
+          },
+          "values": {
+            "codes": [
+              {
+                "codes": [
+                  {
+                    "code": "27"
+                  },
+                  {
+                    "code": "56"
+                  },
+                  {
+                    "code": "15"
+                  },
+                  {
+                    "code": "44"
+                  }
+                ],
+                "idCodeList": "CountrySTAT_commodityList"
+              }
+            ]
+          },
+          "domain": {
+            "codes": [
+              {
+                "idCodeList": "CountrySTAT_commodityList"
+              }
+            ]
+          },
+          "subject": "item"
+        },
+        {
+          "dataType": "number",
+          "key": false,
+          "id": "Value",
+          "title": {
+            "EN": "Value"
+          },
+          "subject": "value"
+        }
+      ],
+      "datasources": [
+        "D3S"
+      ],
+      "contextSystem": "cstat_afg",
+      "cache" : { "storage" : "postgres" }
+    },
+    "meContent": {
+      "description": {
+        "EN": "Distribution of Area Sown for Primary Crops\r\nby Year, Administrative Level 1, Product (Ha)",
+        "parent": "description."
+      },
+      "resourceRepresentationType": "dataset",
+      "keywords": [
+        "Primary Crops"
+      ],
+      "statisticalConceptsDefinitions": {
+        "EN": "",
+        "parent": "statisticalConceptsDefinitions."
+      },
+      "seReferencePopulation": {
+        "statisticalPopulation": {
+          "EN": "aaa"
+        },
+        "referencePeriod": {
+          "version": "1.0",
+          "codes": [
+            {
+              "code": "9"
+            }
+          ],
+          "idCodeList": "FAO_Period"
+        },
+        "referenceArea": {
+          "version": "1.0",
+          "codes": [
+            {
+              "code": "ADM1"
+            }
+          ],
+          "idCodeList": "GAUL_ReferenceArea"
+        }
+      },
+      "seCoverage": {
+        "coverageSectors": {
+          "codes": [
+            {
+              "code": "0201"
+            }
+          ],
+          "idCodeList": "UNECA_ClassificationOfActivities"
+        },
+        "coverageSectorsDetails": {
+          "EN": "",
+          "parent": "coverageSectorsDetails."
+        },
+        "coverageTime": {
+          "from": 1293836400000,
+          "to": 1356908400000
+        },
+        "coverageGeographic": {
+          "version": "2014",
+          "codes": [
+            {
+              "code": "1",
+              "label": {
+                "PT": "Afeganistão",
+                "FR": "Afghanistan",
+                "EN": "Afghanistan",
+                "AR": "أفغانستان",
+                "RU": "Афганистан",
+                "ES": "Afganistán",
+                "ZH": "阿富汗"
+              }
+            }
+          ],
+          "idCodeList": "GAUL0"
+        }
+      }
+    },
+    "uid": "002SPD016",
+    "meMaintenance": {
+      "seUpdate": {
+        "updateDate": 1435214674338
+      }
+    },
+    "contacts": [
+      {
+        "organization": {
+          "EN": "CSO"
+        },
+        "position": {
+          "EN": "Director of agriculture dev."
+        },
+        "role": "distributor",
+        "contactInfo": {
+          "address": "Ansari watt Kabul",
+          "phone": "93202104096",
+          "emailAddress": "mogibrashed@yahoo.com",
+          "hoursOfService": {
+            "EN": "9:00-17:00"
+          },
+          "contactInstruction": {
+            "EN": ""
+          }
+        },
+        "pointOfContact": "Agriculture statistic dev.",
+        "specify": {
+          "EN": ""
+        },
+        "organizationUnit": {
+          "EN": "ESD"
+        }
+      }
+    ],
+    "languageDetails": {
+      "EN": ""
+    },
+    "characterSet": {
+      "codes": [
+        {
+          "code": "106",
+          "label": {
+            "EN": "UTF-8"
+          }
+        }
+      ],
+      "idCodeList": "IANAcharacterSet"
+    },
+    "metadataStandardName": "FENIX",
+    "metadataStandardVersion": "1.0",
+    "metadataLanguage": {
+      "version": "1998",
+      "codes": [
+        {
+          "code": "eng",
+          "label": {
+            "EN": "English"
+          }
+        }
+      ],
+      "idCodeList": "ISO639-2"
+    },
+    "meInstitutionalMandate": {
+      "legalActsAgreements": {
+        "EN": "For legal acts concerning statistics at national levels see links to country websites."
+      },
+      "institutionalMandateDataSharing": {
+        "EN": "Article I of the constitution indeed requires the Organization to collect, analyse, interpret and disseminate information relating to nutrition, food and agriculture (the term “agriculture” and its derivatives includes forestry, fisheries and aquaculture). The first session of the FAO Conference in 1945 provided the rationale: “If FAO is to carry out its work successfully it will need to know where and why hunger and malnutrition exist, what forms they take, and how widespread they are. Such data will serve as a basis for making plans, determining the efficacy of measures used, and measuring progress from time to time.” \r\nMember countries reaffirmed this mandate in 2000 when formulating the Organization’s strategic thrusts for the 2000-2015 period: Corporate Strategy E1 commits the Organization to building “an integrated information resource base, with current, relevant and reliable statistics, information and knowledge made accessible to all FAO clients.\r\n"
+      }
+    },
+    "meAccessibility": {
+      "seConfidentiality": {
+        "confidentialityPolicy": {
+          "EN": "Only non-confidential data are recorded"
+        },
+        "confidentialityDataTreatment": {
+          "EN": ""
+        },
+        "confidentialityStatus": {
+          "version": "1.0",
+          "codes": [
+            {
+              "code": "F",
+              "label": {
+                "EN": "Free"
+              }
+            }
+          ],
+          "idCodeList": "CL_CONF_STATUS"
+        }
+      }
+    },
+    "meDataQuality": {
+      "qualityManagement": {
+        "EN": "",
+        "parent": "qualityManagement."
+      },
+      "qualityAssessment": {
+        "EN": "Based on TWG quality assessment methodology.",
+        "parent": "qualityAssessment."
+      },
+      "qualityAssurance": {
+        "EN": "Statistics are subject to the general quality assurance framework , where domain-specific quality assurance activities (the use of best practices, quality reviews, self-assessments, compliance monitoring) are carried out systematically. ",
+        "parent": "qualityAssurance."
+      },
+      "seAccuracy": {
+        "accuracyNonSampling": {
+          "EN": "It is not possible to asses the accuracy but when there is a substantial amount of estimated or imputed data points, the accuracy for certain products, countries and regions is not that good.",
+          "parent": "accuracyNonSampling."
+        },
+        "accuracySampling": {
+          "EN": "",
+          "parent": "accuracySampling."
+        }
+      },
+      "seComparability": {
+        "comparabilityGeographical": {
+          "EN": "All data refers to Afghanistan/Afghanistan regions.",
+          "parent": "comparabilityGeographical."
+        },
+        "comparabilityTime": {
+          "EN": "",
+          "parent": "comparabilityTime."
+        },
+        "coherenceIntern": {
+          "EN": "Among Afghanistan domains fairly good overall coherence.",
+          "parent": "coherenceIntern."
+        }
+      }
+    },
+    "meStatisticalProcessing": {
+      "seDataValidation": {
+        "dataValidationIntermediate": {
+          "EN": ""
+        },
+        "dataValidationOutput": {
+          "EN": "Countries and International Organizations are responsible for transmitting data which have already been checked. Validation at FAO concerns any transmission errors, consolidation and data consistency- data also validated internally followed by peer-review."
+        },
+        "dataValidationSource": {
+          "EN": ""
+        }
+      },
+      "seDataSource": {
+        "seSecondaryDataCollection": {
+          "dataCollection": {
+            "EN": "Technical Working Group"
+          },
+          "originOfCollectedData": {
+            "version": "1.0",
+            "codes": [
+              {
+                "code": "D",
+                "label": {
+                  "EN": "Consultants"
+                }
+              }
+            ],
+            "idCodeList": "FAOSTAT_OriginData"
+          },
+          "rawDataDescription": {
+            "EN": ""
+          }
+        }
+      },
+      "seDataCompilation": {
+        "missingData": {
+          "EN": "Missing data are highlighted in the dataset using the following symbols: \r\n-data not available = \"..\" and \"...\" missing data (data exist but have not been collected)\r\n\r\n-\".\" data for this category do not exist and / or data included in another category"
+        },
+        "weights": {
+          "EN": "No weights"
+        },
+        "aggregationProcessing": {
+          "EN": ""
+        },
+        "dataAdjustment": {
+          "version": "1.1",
+          "codes": [
+            {
+              "code": "_Z",
+              "label": {
+                "EN": "Not applicable"
+              }
+            }
+          ],
+          "idCodeList": "CL_ADJUSTMENT"
+        },
+        "dataAdjustmentDetails": {
+          "EN": ""
+        },
+        "indexType": {
+          "EN": "No index"
+        }
+      }
+    }
+  },
+  "data": [
+    [
+      2011,
+      "279",
+      "27",
+      1050.0
+    ],
+    [
+      2011,
+      "279",
+      "56",
+      15486.0
+    ],
+    [
+      2011,
+      "280",
+      "15",
+      57000.0
+    ],
+    [
+      2011,
+      "280",
+      "44",
+      5251.0
+    ],
+    [
+      2011,
+      "280",
+      "27",
+      735.0
+    ],
+    [
+      2011,
+      "280",
+      "56",
+      850.0
+    ],
+    [
+      2011,
+      "281",
+      "15",
+      85000.0
+    ],
+    [
+      2011,
+      "281",
+      "44",
+      10911.0
+    ],
+    [
+      2011,
+      "277",
+      "27",
+      1155.0
+    ],
+    [
+      2011,
+      "277",
+      "56",
+      1961.0
+    ],
+    [
+      2011,
+      "278",
+      "15",
+      198000.0
+    ],
+    [
+      2011,
+      "278",
+      "44",
+      18296.0
+    ],
+    [
+      2011,
+      "278",
+      "27",
+      0.0
+    ],
+    [
+      2011,
+      "278",
+      "56",
+      19607.0
+    ],
+    [
+      2011,
+      "279",
+      "15",
+      62000.0
+    ],
+    [
+      2011,
+      "279",
+      "44",
+      13345.0
+    ],
+    [
+      2011,
+      "283",
+      "56",
+      10457.0
+    ],
+    [
+      2011,
+      "283",
+      "27",
+      0.0
+    ],
+    [
+      2011,
+      "284",
+      "44",
+      1105.0
+    ],
+    [
+      2011,
+      "284",
+      "15",
+      23000.0
+    ],
+    [
+      2011,
+      "284",
+      "56",
+      562.0
+    ],
+    [
+      2011,
+      "284",
+      "27",
+      0.0
+    ],
+    [
+      2011,
+      "285",
+      "44",
+      1407.0
+    ],
+    [
+      2011,
+      "285",
+      "15",
+      41000.0
+    ],
+    [
+      2011,
+      "281",
+      "56",
+      5700.0
+    ],
+    [
+      2011,
+      "281",
+      "27",
+      0.0
+    ],
+    [
+      2011,
+      "282",
+      "44",
+      6791.0
+    ],
+    [
+      2011,
+      "282",
+      "15",
+      211000.0
+    ],
+    [
+      2011,
+      "282",
+      "56",
+      1046.0
+    ],
+    [
+      2011,
+      "282",
+      "27",
+      14910.0
+    ],
+    [
+      2011,
+      "283",
+      "44",
+      15622.0
+    ],
+    [
+      2011,
+      "283",
+      "15",
+      120000.0
+    ],
+    [
+      2011,
+      "288",
+      "15",
+      18000.0
+    ],
+    [
+      2011,
+      "288",
+      "44",
+      1056.0
+    ],
+    [
+      2011,
+      "287",
+      "27",
+      4200.0
+    ],
+    [
+      2011,
+      "287",
+      "56",
+      6774.0
+    ],
+    [
+      2011,
+      "289",
+      "15",
+      110000.0
+    ],
+    [
+      2011,
+      "289",
+      "44",
+      5067.0
+    ],
+    [
+      2011,
+      "288",
+      "27",
+      8400.0
+    ],
+    [
+      2011,
+      "288",
+      "56",
+      9289.0
+    ],
+    [
+      2011,
+      "286",
+      "15",
+      16000.0
+    ],
+    [
+      2011,
+      "286",
+      "44",
+      915.0
+    ],
+    [
+      2011,
+      "285",
+      "27",
+      0.0
+    ],
+    [
+      2011,
+      "285",
+      "56",
+      19607.0
+    ],
+    [
+      2011,
+      "287",
+      "15",
+      17000.0
+    ],
+    [
+      2011,
+      "287",
+      "44",
+      883.0
+    ],
+    [
+      2011,
+      "286",
+      "27",
+      1050.0
+    ],
+    [
+      2011,
+      "286",
+      "56",
+      11111.0
+    ],
+    [
+      2011,
+      "292",
+      "44",
+      961.0
+    ],
+    [
+      2011,
+      "292",
+      "15",
+      79000.0
+    ],
+    [
+      2011,
+      "291",
+      "56",
+      4340.0
+    ],
+    [
+      2011,
+      "291",
+      "27",
+      1050.0
+    ],
+    [
+      2011,
+      "293",
+      "44",
+      5630.0
+    ],
+    [
+      2011,
+      "293",
+      "15",
+      18000.0
+    ],
+    [
+      2011,
+      "292",
+      "56",
+      13424.0
+    ],
+    [
+      2011,
+      "292",
+      "27",
+      13650.0
+    ],
+    [
+      2011,
+      "290",
+      "44",
+      1381.0
+    ],
+    [
+      2011,
+      "290",
+      "15",
+      15000.0
+    ],
+    [
+      2011,
+      "289",
+      "56",
+      1176.0
+    ],
+    [
+      2011,
+      "289",
+      "27",
+      45150.0
+    ],
+    [
+      2011,
+      "291",
+      "44",
+      1802.0
+    ],
+    [
+      2011,
+      "291",
+      "15",
+      30000.0
+    ],
+    [
+      2011,
+      "290",
+      "56",
+      4836.0
+    ],
+    [
+      2011,
+      "290",
+      "27",
+      16800.0
+    ],
+    [
+      2011,
+      "296",
+      "27",
+      1575.0
+    ],
+    [
+      2011,
+      "296",
+      "56",
+      3921.0
+    ],
+    [
+      2011,
+      "297",
+      "15",
+      44000.0
+    ],
+    [
+      2011,
+      "297",
+      "44",
+      2064.0
+    ],
+    [
+      2011,
+      "295",
+      "27",
+      1050.0
+    ],
+    [
+      2011,
+      "295",
+      "56",
+      10418.0
+    ],
+    [
+      2011,
+      "296",
+      "15",
+      22000.0
+    ],
+    [
+      2011,
+      "296",
+      "44",
+      10034.0
+    ],
+    [
+      2011,
+      "294",
+      "27",
+      0.0
+    ],
+    [
+      2011,
+      "294",
+      "56",
+      4706.0
+    ],
+    [
+      2011,
+      "295",
+      "15",
+      21000.0
+    ],
+    [
+      2011,
+      "295",
+      "44",
+      2111.0
+    ],
+    [
+      2011,
+      "293",
+      "27",
+      0.0
+    ],
+    [
+      2011,
+      "293",
+      "56",
+      2614.0
+    ],
+    [
+      2011,
+      "294",
+      "15",
+      7000.0
+    ],
+    [
+      2011,
+      "294",
+      "44",
+      704.0
+    ],
+    [
+      2011,
+      "300",
+      "56",
+      4480.0
+    ],
+    [
+      2011,
+      "300",
+      "27",
+      23100.0
+    ],
+    [
+      2011,
+      "301",
+      "44",
+      11963.0
+    ],
+    [
+      2011,
+      "301",
+      "15",
+      46000.0
+    ],
+    [
+      2011,
+      "299",
+      "56",
+      1830.0
+    ],
+    [
+      2011,
+      "299",
+      "27",
+      0.0
+    ],
+    [
+      2011,
+      "300",
+      "44",
+      19935.0
+    ],
+    [
+      2011,
+      "300",
+      "15",
+      139000.0
+    ],
+    [
+      2011,
+      "298",
+      "56",
+      261.0
+    ],
+    [
+      2011,
+      "298",
+      "27",
+      1575.0
+    ],
+    [
+      2011,
+      "299",
+      "44",
+      5440.0
+    ],
+    [
+      2011,
+      "299",
+      "15",
+      102000.0
+    ],
+    [
+      2011,
+      "297",
+      "56",
+      8980.0
+    ],
+    [
+      2011,
+      "297",
+      "27",
+      4200.0
+    ],
+    [
+      2011,
+      "298",
+      "44",
+      3061.0
+    ],
+    [
+      2011,
+      "298",
+      "15",
+      137000.0
+    ],
+    [
+      2012,
+      "273",
+      "15",
+      98000.0
+    ],
+    [
+      2012,
+      "273",
+      "44",
+      9281.0
+    ],
+    [
+      2012,
+      "272",
+      "27",
+      6000.0
+    ],
+    [
+      2012,
+      "272",
+      "56",
+      1120.0
+    ],
+    [
+      2012,
+      "272",
+      "15",
+      166000.0
+    ],
+    [
+      2012,
+      "272",
+      "44",
+      10000.0
+    ],
+    [
+      2011,
+      "303",
+      "27",
+      0.0
+    ],
+    [
+      2011,
+      "303",
+      "56",
+      2271.0
+    ],
+    [
+      2011,
+      "303",
+      "15",
+      23000.0
+    ],
+    [
+      2011,
+      "303",
+      "44",
+      883.0
+    ],
+    [
+      2011,
+      "302",
+      "27",
+      2100.0
+    ],
+    [
+      2011,
+      "302",
+      "56",
+      65.0
+    ],
+    [
+      2011,
+      "302",
+      "15",
+      30000.0
+    ],
+    [
+      2011,
+      "302",
+      "44",
+      1407.0
+    ],
+    [
+      2011,
+      "301",
+      "27",
+      2625.0
+    ],
+    [
+      2011,
+      "301",
+      "56",
+      7189.0
+    ],
+    [
+      2012,
+      "277",
+      "44",
+      12530.0
+    ],
+    [
+      2012,
+      "277",
+      "15",
+      26000.0
+    ],
+    [
+      2012,
+      "276",
+      "56",
+      440.0
+    ],
+    [
+      2012,
+      "276",
+      "27",
+      200.0
+    ],
+    [
+      2012,
+      "276",
+      "44",
+      5140.0
+    ],
+    [
+      2012,
+      "276",
+      "15",
+      23000.0
+    ],
+    [
+      2012,
+      "275",
+      "56",
+      2600.0
+    ],
+    [
+      2012,
+      "275",
+      "27",
+      10500.0
+    ],
+    [
+      2012,
+      "275",
+      "44",
+      24100.0
+    ],
+    [
+      2012,
+      "275",
+      "15",
+      205000.0
+    ],
+    [
+      2012,
+      "274",
+      "56",
+      4112.0
+    ],
+    [
+      2012,
+      "274",
+      "27",
+      46005.0
+    ],
+    [
+      2012,
+      "274",
+      "44",
+      9960.0
+    ],
+    [
+      2012,
+      "274",
+      "15",
+      110000.0
+    ],
+    [
+      2012,
+      "273",
+      "56",
+      700.0
+    ],
+    [
+      2012,
+      "273",
+      "27",
+      800.0
+    ],
+    [
+      2011,
+      "273",
+      "44",
+      5630.0
+    ],
+    [
+      2011,
+      "273",
+      "15",
+      98000.0
+    ],
+    [
+      2011,
+      "272",
+      "56",
+      65.0
+    ],
+    [
+      2011,
+      "272",
+      "27",
+      6300.0
+    ],
+    [
+      2011,
+      "272",
+      "44",
+      0.0
+    ],
+    [
+      2011,
+      "272",
+      "15",
+      116000.0
+    ],
+    [
+      2011,
+      "275",
+      "15",
+      202000.0
+    ],
+    [
+      2011,
+      "275",
+      "44",
+      19000.0
+    ],
+    [
+      2011,
+      "274",
+      "27",
+      47250.0
+    ],
+    [
+      2011,
+      "274",
+      "56",
+      4605.0
+    ],
+    [
+      2011,
+      "274",
+      "15",
+      106000.0
+    ],
+    [
+      2011,
+      "274",
+      "44",
+      6792.0
+    ],
+    [
+      2011,
+      "273",
+      "27",
+      840.0
+    ],
+    [
+      2011,
+      "273",
+      "56",
+      654.0
+    ],
+    [
+      2011,
+      "277",
+      "15",
+      19000.0
+    ],
+    [
+      2011,
+      "277",
+      "44",
+      7741.0
+    ],
+    [
+      2011,
+      "276",
+      "27",
+      210.0
+    ],
+    [
+      2011,
+      "276",
+      "56",
+      0.0
+    ],
+    [
+      2011,
+      "276",
+      "15",
+      20000.0
+    ],
+    [
+      2011,
+      "276",
+      "44",
+      2815.0
+    ],
+    [
+      2011,
+      "275",
+      "27",
+      11025.0
+    ],
+    [
+      2011,
+      "275",
+      "56",
+      4715.0
+    ],
+    [
+      2012,
+      "290",
+      "27",
+      16870.0
+    ],
+    [
+      2012,
+      "290",
+      "56",
+      3100.0
+    ],
+    [
+      2012,
+      "291",
+      "15",
+      32000.0
+    ],
+    [
+      2012,
+      "291",
+      "44",
+      3800.0
+    ],
+    [
+      2012,
+      "289",
+      "27",
+      43100.0
+    ],
+    [
+      2012,
+      "289",
+      "56",
+      1400.0
+    ],
+    [
+      2012,
+      "290",
+      "15",
+      14000.0
+    ],
+    [
+      2012,
+      "290",
+      "44",
+      3640.0
+    ],
+    [
+      2012,
+      "292",
+      "27",
+      13410.0
+    ],
+    [
+      2012,
+      "292",
+      "56",
+      9400.0
+    ],
+    [
+      2012,
+      "293",
+      "15",
+      18000.0
+    ],
+    [
+      2012,
+      "293",
+      "44",
+      9281.0
+    ],
+    [
+      2012,
+      "291",
+      "27",
+      1000.0
+    ],
+    [
+      2012,
+      "291",
+      "56",
+      2920.0
+    ],
+    [
+      2012,
+      "292",
+      "15",
+      77000.0
+    ],
+    [
+      2012,
+      "292",
+      "44",
+      3400.0
+    ],
+    [
+      2012,
+      "286",
+      "56",
+      8200.0
+    ],
+    [
+      2012,
+      "286",
+      "27",
+      1000.0
+    ],
+    [
+      2012,
+      "287",
+      "44",
+      3600.0
+    ],
+    [
+      2012,
+      "287",
+      "15",
+      15000.0
+    ],
+    [
+      2012,
+      "285",
+      "56",
+      14400.0
+    ],
+    [
+      2012,
+      "285",
+      "27",
+      0.0
+    ],
+    [
+      2012,
+      "286",
+      "44",
+      3320.0
+    ],
+    [
+      2012,
+      "286",
+      "15",
+      15000.0
+    ],
+    [
+      2012,
+      "288",
+      "56",
+      6200.0
+    ],
+    [
+      2012,
+      "288",
+      "27",
+      8700.0
+    ],
+    [
+      2012,
+      "289",
+      "44",
+      8200.0
+    ],
+    [
+      2012,
+      "289",
+      "15",
+      121000.0
+    ],
+    [
+      2012,
+      "287",
+      "56",
+      6300.0
+    ],
+    [
+      2012,
+      "287",
+      "27",
+      5200.0
+    ],
+    [
+      2012,
+      "288",
+      "44",
+      3500.0
+    ],
+    [
+      2012,
+      "288",
+      "15",
+      20000.0
+    ],
+    [
+      2012,
+      "283",
+      "15",
+      189000.0
+    ],
+    [
+      2012,
+      "283",
+      "44",
+      20000.0
+    ],
+    [
+      2012,
+      "282",
+      "27",
+      13100.0
+    ],
+    [
+      2012,
+      "282",
+      "56",
+      1040.0
+    ],
+    [
+      2012,
+      "282",
+      "15",
+      224000.0
+    ],
+    [
+      2012,
+      "282",
+      "44",
+      1077.0
+    ],
+    [
+      2012,
+      "281",
+      "27",
+      0.0
+    ],
+    [
+      2012,
+      "281",
+      "56",
+      5298.0
+    ],
+    [
+      2012,
+      "285",
+      "15",
+      42000.0
+    ],
+    [
+      2012,
+      "285",
+      "44",
+      4571.0
+    ],
+    [
+      2012,
+      "284",
+      "27",
+      190.0
+    ],
+    [
+      2012,
+      "284",
+      "56",
+      520.0
+    ],
+    [
+      2012,
+      "284",
+      "15",
+      25000.0
+    ],
+    [
+      2012,
+      "284",
+      "44",
+      3580.0
+    ],
+    [
+      2012,
+      "283",
+      "27",
+      0.0
+    ],
+    [
+      2012,
+      "283",
+      "56",
+      6400.0
+    ],
+    [
+      2012,
+      "279",
+      "44",
+      4000.0
+    ],
+    [
+      2012,
+      "279",
+      "15",
+      62000.0
+    ],
+    [
+      2012,
+      "278",
+      "56",
+      8100.0
+    ],
+    [
+      2012,
+      "278",
+      "27",
+      0.0
+    ],
+    [
+      2012,
+      "278",
+      "44",
+      21720.0
+    ],
+    [
+      2012,
+      "278",
+      "15",
+      205000.0
+    ],
+    [
+      2012,
+      "277",
+      "56",
+      2400.0
+    ],
+    [
+      2012,
+      "277",
+      "27",
+      1100.0
+    ],
+    [
+      2012,
+      "281",
+      "44",
+      15588.0
+    ],
+    [
+      2012,
+      "281",
+      "15",
+      98000.0
+    ],
+    [
+      2012,
+      "280",
+      "56",
+      970.0
+    ],
+    [
+      2012,
+      "280",
+      "27",
+      700.0
+    ],
+    [
+      2012,
+      "280",
+      "44",
+      8059.0
+    ],
+    [
+      2012,
+      "280",
+      "15",
+      66000.0
+    ],
+    [
+      2012,
+      "279",
+      "56",
+      12400.0
+    ],
+    [
+      2012,
+      "279",
+      "27",
+      1000.0
+    ],
+    [
+      2012,
+      "301",
+      "56",
+      7310.0
+    ],
+    [
+      2012,
+      "301",
+      "27",
+      2500.0
+    ],
+    [
+      2012,
+      "302",
+      "44",
+      3800.0
+    ],
+    [
+      2012,
+      "302",
+      "15",
+      38000.0
+    ],
+    [
+      2012,
+      "302",
+      "56",
+      1050.0
+    ],
+    [
+      2012,
+      "302",
+      "27",
+      2000.0
+    ],
+    [
+      2012,
+      "303",
+      "44",
+      3620.0
+    ],
+    [
+      2012,
+      "303",
+      "15",
+      27000.0
+    ],
+    [
+      2012,
+      "303",
+      "56",
+      2110.0
+    ],
+    [
+      2012,
+      "303",
+      "27",
+      0.0
+    ],
+    [
+      2012,
+      "298",
+      "15",
+      136000.0
+    ],
+    [
+      2012,
+      "298",
+      "44",
+      7143.0
+    ],
+    [
+      2012,
+      "297",
+      "27",
+      4305.0
+    ],
+    [
+      2012,
+      "297",
+      "56",
+      4312.0
+    ],
+    [
+      2012,
+      "299",
+      "15",
+      96000.0
+    ],
+    [
+      2012,
+      "299",
+      "44",
+      9609.0
+    ],
+    [
+      2012,
+      "298",
+      "27",
+      1500.0
+    ],
+    [
+      2012,
+      "298",
+      "56",
+      58.0
+    ],
+    [
+      2012,
+      "300",
+      "15",
+      227000.0
+    ],
+    [
+      2012,
+      "300",
+      "44",
+      20920.0
+    ],
+    [
+      2012,
+      "299",
+      "27",
+      0.0
+    ],
+    [
+      2012,
+      "299",
+      "56",
+      630.0
+    ],
+    [
+      2012,
+      "301",
+      "15",
+      45000.0
+    ],
+    [
+      2012,
+      "301",
+      "44",
+      19350.0
+    ],
+    [
+      2012,
+      "300",
+      "27",
+      23320.0
+    ],
+    [
+      2012,
+      "300",
+      "56",
+      4410.0
+    ],
+    [
+      2012,
+      "294",
+      "44",
+      3300.0
+    ],
+    [
+      2012,
+      "294",
+      "15",
+      7000.0
+    ],
+    [
+      2012,
+      "293",
+      "56",
+      6300.0
+    ],
+    [
+      2012,
+      "293",
+      "27",
+      0.0
+    ],
+    [
+      2012,
+      "295",
+      "44",
+      4100.0
+    ],
+    [
+      2012,
+      "295",
+      "15",
+      21000.0
+    ],
+    [
+      2012,
+      "294",
+      "56",
+      2800.0
+    ],
+    [
+      2012,
+      "294",
+      "27",
+      0.0
+    ],
+    [
+      2012,
+      "296",
+      "44",
+      14196.0
+    ],
+    [
+      2012,
+      "296",
+      "15",
+      21000.0
+    ],
+    [
+      2012,
+      "295",
+      "56",
+      8100.0
+    ],
+    [
+      2012,
+      "295",
+      "27",
+      1000.0
+    ],
+    [
+      2012,
+      "297",
+      "44",
+      5615.0
+    ],
+    [
+      2012,
+      "297",
+      "15",
+      43000.0
+    ],
+    [
+      2012,
+      "296",
+      "56",
+      5900.0
+    ],
+    [
+      2012,
+      "296",
+      "27",
+      1500.0
+    ]
+  ],
+  "size": 256
+}

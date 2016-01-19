@@ -1,0 +1,87 @@
+{
+  "uid" : "crowd_271",
+  "title" : {
+    "EN" : "Zimbabwe - Crowd data"
+  },
+  "meContent" : {
+    "resourceRepresentationType": "dataset",
+    "seCoverage" : {
+      "coverageGeographic" : {
+        "idCodeList" : "GAUL", "version" : "2014",
+        "codes" : [{"code" : "271"}]
+      }
+    }
+  },
+
+  "dsd" : {
+    "contextSystem" : "crowd",
+    "datasources" : ["crowd"],
+    "columns" : [
+      {
+        "id" : "city",
+        "subject" : "geo",
+        "title" : { "EN" : "City" },
+        "dataType" : "text",
+        "key" : true
+      },
+      {
+        "id" : "market",
+        "title" : { "EN" : "Market" },
+        "dataType" : "text",
+        "key" : true
+      },
+      {
+        "id" : "vendorname",
+        "title" : { "EN" : "Vendor" },
+        "dataType" : "text",
+        "key" : true
+      },
+      {
+        "id" : "lat",
+        "title" : { "EN" : "Latitude" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "lon",
+        "title" : { "EN" : "Longitude" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "fulldate",
+        "title" : { "EN" : "Time" },
+        "dataType" : "time",
+        "subject" : "time",
+        "key" : true
+      },
+      {
+        "id" : "commodity",
+        "title" : { "EN" : "Commodity" },
+        "dataType" : "text",
+        "subject" : "item",
+        "key" : true
+      },
+      {
+        "id" : "quantity",
+        "title" : { "EN" : "Quantity" },
+        "dataType" : "number"
+      },
+      {
+        "id" : "quantity_um",
+        "title" : { "EN" : "Unit of measure" },
+        "dataType" : "text"
+      },
+      {
+        "id" : "price",
+        "title" : { "EN" : "Price" },
+        "dataType" : "number",
+        "subject" : "value"
+      },
+      {
+        "id" : "currency",
+        "title" : { "EN" : "Currency" },
+        "dataType" : "text",
+        "subject" : "um"
+      }
+    ]
+  }
+}
